@@ -1,0 +1,4 @@
+Wie im Abschnitt 1.1.2 beschrieben, arbeitet eine Vielzahl von Usern mit den Daten. Die
+bestehenden Berechtigungen sollen bei der Neuentwicklung beibehalten werden.
+In den nachfolgenden Kapiteln werden die Schwachstellen und Problembereiche sowie
+die dazu passenden Änderungsvorschläge und Erweiterungen für die neue DB aufgelistet.

@@ -1,0 +1,4 @@
+Die Steuerung des Bearbeitungszentrum ist der Steuerung der
+Anlage übergeordnet, d.h. mittels Schlüsselschalter kann die Automationszelle deaktiviert werden. Die Anlage muss sich dann immer
+in Ausgangsstellung befinden. Damit werden Kollisionen
+vermieden.

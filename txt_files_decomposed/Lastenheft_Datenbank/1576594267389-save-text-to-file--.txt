@@ -1,0 +1,3 @@
+Für die Nutzer der Datenbank soll an jeder Stelle klar ersichtlich sein, ob ein Wert anhand
+der Verkaufs- oder Einkaufspreise kalkuliert wird, bspw. durch eine farbliche
+Hervorhebung oder ein Hinweisschild.

@@ -1,0 +1,2 @@
+Es sollte möglich sein, Auswertungen flexibler aufzubauen. Eine genaue Liste der
+Auswertungen ist im Anhang des Dokumentes.

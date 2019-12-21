@@ -1,0 +1,2 @@
+Der Softwareanbieter muss dem Auftraggeber ein Systemadministrationshandbuch, das
+die Prozesse und Werkzeuge der Systemadministration beschreibt, zur Verfügung stellen.

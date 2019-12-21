@@ -1,0 +1,7 @@
+Ein Nutzer mit verschiedenen Rollen hat verschiedene Nutzeroberflächen. Um Daten aus
+einer anderen Rolle anzuzeigen, muss sich der Nutzer erst abmelden und mit der anderen
+Rolle sich erneut anmelden. Mit der neuen Datenbank sollte dies anders gelöst werden.
+Dabei ist zu beachten, dass ein Nutzer nicht nur für verschiedene Rollen, sondern auch
+für verschiedene Standorte zuständig sein kann. Ziel ist, dass ein*e Nutzer*in mit lediglich
+einem Account all die ihm zugewiesenen Rollen für die ihm zugewiesenen Standorte
+bedienen kann (siehe Kapitel 1.2.1.1)

@@ -1,0 +1,13 @@
+Dabei werden
+mindestens die folgenden Aspekte berücksichtigt:
+» Definition und Beschreibung von Mindest-Sicherheitsanforderungen in Bezug auf die
+verarbeiteten Informationen, die sich an
+anerkannten Industriestandards wie ISO/IEC
+27001 orientieren,
+
+» Weitergabe und vertragliche Verpflichtung
+auf die Mindest-Sicherheitsanforderungen
+auch an Unterauftragnehmer, wenn diese
+nicht nur unwesentliche Teile zu Entwicklung
+oder Betrieb des Cloud-Dienstes beitragen
+(z. B. RZ-Dienstleister).

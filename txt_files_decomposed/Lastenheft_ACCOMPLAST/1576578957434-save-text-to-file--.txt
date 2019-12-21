@@ -1,0 +1,5 @@
+Mit Abgabe des Angebots oder Auftragsbestätigung vom Werkzeugbau wird automatisch eine
+Herstellbarkeit bestätigt (offene oder nicht umsetzbare Punkte sind im Angebot zu vermerken).
+Für ein Serienwerkzeug muss eine Mindestausbringungsmenge von 1.000.000 Schuss garantiert werden.
+Nach Vergabe des Auftrags wird vom Werkzeugbau eine DFM angefertigt um mögliche Probleme und ein
+erstes Konzept abzustimmen.

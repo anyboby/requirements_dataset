@@ -1,0 +1,3 @@
+Unterstützung der Sachbearbeitung/Nachschlagewerke
+Die Software soll integrierte Nachschlagewerke zur Unterstützung des Sachbearbeiters
+unter anderem bei Entscheidungen dem Grunde nach bereithalten.

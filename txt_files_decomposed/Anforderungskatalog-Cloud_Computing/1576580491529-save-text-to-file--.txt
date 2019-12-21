@@ -1,0 +1,5 @@
+Soweit dies in ausgewählten
+Fällen nicht möglich ist, sind angemessene, kompensierende Kontrollen eingerichtet, um einen
+Missbrauch dieser Berechtigungen zu identifizieren (z. B. Protokollierung und Überwachung
+durch eine SIEM-Lösung (Security Information
+and Event Management)).

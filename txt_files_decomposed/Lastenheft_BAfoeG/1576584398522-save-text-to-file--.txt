@@ -1,0 +1,1 @@
+Mit dem Ziel der Arbeitserleichterung sowie dem Ziel der Fehlervermeidung soll die Software in der Lage sein, bestimmte Identifikationsnummern, die in ein Eingabefeld eingetragen werden, automatisch in einem zweiten Feld mit dem dazugehörigen Wert zu ergänzen. Beispiele hierfür sind Postleitzahlen mit den dazugehörigen Städtenamen.

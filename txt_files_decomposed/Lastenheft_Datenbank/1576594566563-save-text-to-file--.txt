@@ -1,0 +1,5 @@
+Die Qualitätssicherung soll durch regelmäßige Termine zwischen Auftraggeber und
+Auftragnehmer gewährleistet werden, um den Status der Umsetzung im Blick zu halten.
+Eine Festlegung der Termine findet bei Start des Projektes statt. Die Termine finden
+persönlich oder telefonisch statt. Bei der Übergabe der fertigen Anwendung soll ein
+Schulungstermin zwischen Auftragnehmer und Auftraggeber vereinbart werden.

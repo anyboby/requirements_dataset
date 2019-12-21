@@ -1,0 +1,3 @@
+Die Liste der vordefinierten Textbausteine soll grundsätzlich erweiterbar sein. Mit Hilfe
+dieser Elemente muss es dem Sachbearbeiter möglich sein, individuelle Ergänzungen
+und Informationen in den Bescheid mit aufzunehmen.

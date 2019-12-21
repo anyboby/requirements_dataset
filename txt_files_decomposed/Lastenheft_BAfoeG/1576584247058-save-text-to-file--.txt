@@ -1,0 +1,2 @@
+Für einen performanten, reibungslosen und skalierbaren Einsatz der Software ist eine
+durchdachte Architektur entscheidend. Im Folgenden werden die relevanten Architekturanforderungen an die BAföG-Software beschrieben.

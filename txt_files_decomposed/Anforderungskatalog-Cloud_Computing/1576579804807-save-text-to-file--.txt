@@ -1,0 +1,4 @@
+Zugänge zu Räumlichkeiten oder Gebäuden die
+sensible oder kritische Informationen, Informationssysteme oder sonstige Netzwerkinfrastruktur
+beherbergen, sind durch physische Zutrittskontrollen gesichert und überwacht, um unbefugten
+Zutritt zu verhindern.

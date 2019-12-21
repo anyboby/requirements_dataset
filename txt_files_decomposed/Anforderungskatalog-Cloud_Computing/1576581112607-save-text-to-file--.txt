@@ -1,0 +1,8 @@
+Unterauftragnehmer des Cloud-Anbieters werden
+vertraglich dazu verpflichtet, dem Cloud-Anbieter
+Prüfungsrechte über die Wirksamkeit des dienstleistungsbezogenen internen Kontrollsystems
+sowie das Einhalten der vereinbarten Sicherheitsanforderungen einzuräumen. Der Unterauftragnehmer kann den Nachweis auch durch Vorlage
+entsprechender Bescheinigungen unabhängiger
+Dritter (z. B. in Form von Berichterstattungen
+nach ISAE 3402/IDW PS 951) erbringen. Dies
+schließt auch Unterauftragnehmer des Unterauftragnehmers ein.

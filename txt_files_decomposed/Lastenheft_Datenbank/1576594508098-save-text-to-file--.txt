@@ -1,0 +1,3 @@
+Der Dienstleister muss sicherstellen, dass auch während einer Abwesenheit
+(Krankheit/Urlaub) des Projektleiters durch Vertretung eine kompetente Bearbeitung der
+Datenbank gewährleistet ist.

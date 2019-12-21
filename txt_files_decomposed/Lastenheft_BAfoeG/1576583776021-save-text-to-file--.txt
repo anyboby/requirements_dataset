@@ -1,0 +1,3 @@
+Zunächst wird die Akte um den neuen BWZ ergänzt. Der Sachbearbeiter prüft neben der
+Vollständigkeit aller Antragsformulare und der dazugehörigen Nachweise auch bereits zu
+diesem Zeitpunkt, ob es Änderungen in den Antragsdaten gibt oder nicht. Liegen Änderungen vor, so startet der Änderungsprozess. Liegen keine Änderungen vor, so wird analog zum Erstantrag die Vorgangsbearbeitung mit Übernahme der Antragsdaten, Verarbeitung der Antragsdaten und Bescheiderstellung inklusive aller Detailschritte durchlaufen.

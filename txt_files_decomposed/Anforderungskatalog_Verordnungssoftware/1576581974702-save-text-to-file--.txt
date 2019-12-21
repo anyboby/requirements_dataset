@@ -1,0 +1,3 @@
+Die Verordnungssoftware muss dem Anwender eine Rezeptbedruckung bereitstellen. Für die
+Bedruckung des Personalienfeldes ist die Technische Anlage zur Anlage 4a (BMV-Ä) zu
+beachten.

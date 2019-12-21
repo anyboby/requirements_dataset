@@ -1,0 +1,3 @@
+Der Cloud-Anbieter bietet Möglichkeiten des
+Self-Services für Cloud-Kunden an, um Zugriffsberechtigungen eigenständig vergeben und
+ändern zu können.

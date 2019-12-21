@@ -1,0 +1,2 @@
+Optionale Funktionen können implementiert werden, wenn alle jeweils genannten
+Bedingungen erfüllt sind.

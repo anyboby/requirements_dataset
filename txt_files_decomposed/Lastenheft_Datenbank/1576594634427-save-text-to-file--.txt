@@ -1,0 +1,5 @@
+Im Reiter 3 (Beleuchtung) soll die
+Lampen mit Fassungen erfasst
+werden, die nicht im Projekt
+vorhanden sind, um diese später
+auszuwerten.

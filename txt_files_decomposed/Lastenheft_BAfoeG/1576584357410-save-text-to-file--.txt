@@ -1,0 +1,2 @@
+Die Software muss in der Lage sein, relevante Aktivitäten im Zusammenhang mit der
+BAföG-Abwicklung zu protokollieren.

@@ -1,0 +1,2 @@
+Eine automatische Belegung des Rezeptfelds „aut idem“ ist unzulässig. Hersteller-, produktoder gesamtsortimentsbezogene „aut idem“-Konfigurationen sind unzulässig. Für
+Wiederholungsrezepte ist die Übernahme eines durch den Arzt gesetzten „aut idem“Kreuzes für denselben Patienten zulässig. Die endgültige Auswahl erfolgt durch den Arzt.

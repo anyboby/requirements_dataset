@@ -1,0 +1,4 @@
+Zur Überwachung der Datensicherung stehen
+dem Cloud-Kunden die relevanten Protokolle
+oder die zusammengefassten Ergebnisse in einem
+Self-Service Portal zur Verfügung.

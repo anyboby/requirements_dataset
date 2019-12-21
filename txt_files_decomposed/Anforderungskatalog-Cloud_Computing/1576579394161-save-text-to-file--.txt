@@ -1,0 +1,7 @@
+Der Cloud-Anbieter macht in Dienstgütevereinbarungen (Service Level Agreements), seiner
+Verfahrensdokumentation oder vergleichbaren
+Dokumentationen nachvollziehbare und transparente Angaben zu vorhandenen und gültigen
+Zertifizierungen oder Bescheinigungen unabhängiger Dritter, die es einem sachverständigen
+Dritten erlauben, die grundsätzliche Eignung des
+Cloud-Dienstes für die Kundenanwendung zu
+beurteilen.

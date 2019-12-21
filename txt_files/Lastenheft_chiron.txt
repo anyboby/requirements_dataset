@@ -1,0 +1,3446 @@
+Technologien & CNC-Präzisionsmaschinen
+
+Technisches Lastenheft
+CHIRON Werke GmbH & Co.KG
+
+PD:
+25.09.2017
+Version:
+1.0.1 [DR2017-04]
+Dokument ID: 42665, 2, de_DE
+
+CHIRON Werke GmbH & Co.KG
+Kreuzstraße 75
+78532 Tuttlingen
+Telefon: +49 7461 940-0
+Telefax: +49 7461 940-53000
+E-Mail: info@chiron.de
+Internet: www.chiron.de
+Originaldokument
+© 2017
+2 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+Inhaltsverzeichnis
+1
+
+Allgemeiner Teil.................................................................. 7
+1.1
+1.2
+1.3
+1.4
+1.5
+1.6
+
+2
+
+7
+7
+7
+7
+8
+8
+
+Kennzeichnung und Sicherheit......................................... 9
+2.1
+2.2
+2.3
+2.4
+2.5
+2.6
+2.7
+
+3
+
+Vorwort..........................................................................
+Gültigkeit und Geltungsbereich.....................................
+Energieeffizienz............................................................
+Auftragsbearbeitung.....................................................
+Datenaustausch............................................................
+Mitgeltende Unterlagen.................................................
+
+Normative Verweise...................................................... 9
+Konformitätserklärung................................................... 9
+Einbauerklärung ........................................................... 9
+Risikobeurteilung.......................................................... 9
+Funktionale Sicherheit................................................ 10
+Nachlaufzeitermittlung................................................ 10
+Mitgeltende Normen .................................................. 10
+
+Abnahme............................................................................ 13
+3.1 Vorabnahme............................................................... 13
+3.2 Aufstellung und Inbetriebnahme ................................ 13
+3.3 Endabnahme.............................................................. 13
+
+4
+
+Dokumentation.................................................................. 15
+4.1
+4.2
+4.3
+4.4
+4.5
+
+5
+
+Vorgaben zur Dokumentation.....................................
+Software......................................................................
+Technische Konstruktionsunterlagen..........................
+Ersatz- und Verschleißteile.........................................
+Stücklisten..................................................................
+
+Elektrik............................................................................... 19
+5.1
+5.2
+5.3
+5.4
+5.5
+
+Elektrische Ausrüstung...............................................
+Komponenten.............................................................
+Anschlussdaten und Netzanschluss...........................
+Hauptschalter..............................................................
+Elektrische Einbauräume (Schaltschrank, Bedienpult,
+Kleingehäuse).............................................................
+5.6 Elektrotechnische Installation.....................................
+5.7 Aderfarben..................................................................
+5.8 Spannung am Steuerstromkreis.................................
+5.9 Schutzmaßnahmen.....................................................
+5.10 Sicherheitsschalter Schutztüren, Schutzzäune........
+5.11 NOT-Halt...................................................................
+5.12 Betriebsmittelkennzeichnung ...................................
+5.13 Typenschild...............................................................
+5.14 Schaltschrankkühlung...............................................
+Technisches Lastenheft
+
+15
+15
+15
+16
+17
+19
+19
+20
+20
+20
+21
+22
+22
+22
+23
+23
+24
+24
+24
+
+3 / 63
+
+Inhaltsverzeichnis
+
+6
+
+Mechanik............................................................................ 25
+6.1 Mechanische Ausrüstung...........................................
+6.2 Komponenten.............................................................
+6.3 Sicherheit der Konstruktion.........................................
+6.4 Lärm und Lärmmessung.............................................
+6.5 Instandhaltung, Wartung.............................................
+6.6 Vorschubantriebe........................................................
+6.7 Linearführungen..........................................................
+6.8 Kugelgewindetriebe....................................................
+6.9 Antriebsriemen............................................................
+6.10 Ritzel-Zahnstangen-Antriebe....................................
+6.11 Lineardirektantriebe..................................................
+6.12 Energieführungsketten..............................................
+6.13 Schmierung...............................................................
+6.14 Werkstückhandhabung.............................................
+6.15 Schutzeinrichtung.....................................................
+
+7
+
+Vorrichtungen.................................................................... 31
+7.1 Allgemeines................................................................
+7.2 Angebotsanfrage........................................................
+7.3 Pflichtenheft................................................................
+7.4 Meilensteinplan...........................................................
+7.5 Genehmigung.............................................................
+7.6 Teilenummern.............................................................
+7.7 Kennzeichnung...........................................................
+7.8 Kapazitätsplanung......................................................
+7.9 Ansprechpartner ........................................................
+7.10 Abnahme..................................................................
+7.11 Technische Dokumentation.......................................
+7.11.1 Technische Dokumentation, allgemein..................
+7.11.2 Lieferumfang..........................................................
+7.11.3 Stücklisten..............................................................
+7.11.4 Sprache..................................................................
+7.11.5 Termine..................................................................
+7.11.6 Gliederung..............................................................
+
+8
+
+31
+31
+31
+31
+32
+32
+32
+33
+33
+33
+34
+34
+34
+35
+36
+36
+36
+
+Maschinelle Anlagen und Automation............................ 39
+8.1
+8.2
+8.3
+8.4
+8.5
+8.6
+8.7
+8.8
+
+4 / 63
+
+25
+25
+26
+26
+27
+27
+28
+28
+28
+28
+29
+29
+29
+29
+30
+
+Leistungsumfang........................................................
+Ausführung.................................................................
+Schnittstellen..............................................................
+Schutzeinrichtungen...................................................
+NOT-Halt.....................................................................
+Störung und Betrieb....................................................
+Werkstückspezifikationen...........................................
+Teilezufuhr und -abfuhr...............................................
+
+39
+39
+39
+40
+40
+41
+41
+41
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+8.9 SPC-Ausschleusung und NIO-Handling (Option).......
+8.10 Emissionen...............................................................
+8.11 Qualitätsanforderungen............................................
+8.12 Taktzeit......................................................................
+8.13 Anlagennutzung und Ermittlungszeitraum................
+8.14 Verfügbarkeit.............................................................
+9
+
+42
+42
+43
+43
+43
+44
+
+Robotersysteme................................................................ 45
+9.1 Anforderungen Robotersysteme................................. 45
+9.2 Integration Robotersysteme........................................ 45
+
+10
+
+Vorzugskomponenten...................................................... 47
+10.1 Absauganlage (Luftfilter)...........................................
+10.2 Anschlusstechnik......................................................
+10.3 Antriebstechnik.........................................................
+10.4 Schutztür Antrieb......................................................
+10.5 Befehls- und Meldegeräte.........................................
+10.6 Beleuchtung..............................................................
+10.7 Brandschutz..............................................................
+10.8 Druckschalter............................................................
+10.9 Durchflusswächter....................................................
+10.10 Fernkommunikation................................................
+10.11 Füllstands- und Strömungswächter........................
+10.12 Gehäuse (Schaltschrank, Kommandopult und
+Klemmkasten).........................................................
+10.13 Handrad, Handbediengerät....................................
+10.14 Hydraulikaggregat...................................................
+10.15 Hydraulikspeicher...................................................
+10.16 Kabelführung / -Schutz...........................................
+10.17 Kabelverdrahtungskanal.........................................
+10.18 Kabelverschraubung, Kabeldurchführung..............
+10.19 Kennzeichnung.......................................................
+10.20 Klemmengehäuse...................................................
+10.21 Klimatisierung Schaltschrank..................................
+10.22 Kühlmittelanlage ....................................................
+10.23 Kühlaggregat .........................................................
+10.24 Leistung- und Hilfsschütz........................................
+10.25 Leitungen................................................................
+10.26 Leitungs- und Motorschutz.....................................
+10.27 Messgerät (Werkzeug / Werkstück)........................
+10.28 Messsystem............................................................
+10.29 Motordrossel...........................................................
+10.30 Motorentstörung......................................................
+10.31 Motor.......................................................................
+10.32 Netzfilter..................................................................
+10.33 Positionsschalter.....................................................
+
+Technisches Lastenheft
+
+47
+47
+47
+48
+48
+49
+49
+49
+49
+50
+50
+50
+50
+51
+51
+51
+51
+52
+52
+52
+52
+52
+53
+53
+53
+53
+54
+54
+54
+54
+54
+55
+55
+
+5 / 63
+
+Inhaltsverzeichnis
+
+10.34
+10.35
+10.36
+10.37
+10.38
+10.39
+10.40
+10.41
+10.42
+10.43
+10.44
+10.45
+10.46
+10.47
+10.48
+10.49
+11
+
+Reihenklemmen......................................................
+Relais, Sicherheitsrelais, Halbleiterschalter............
+Schmierung.............................................................
+Schnittstelle............................................................
+Schwingungssensor................................................
+Späneförderer, Späneschnecke.............................
+Sensorik (Näherungsschalter)................................
+Spannungsversorgung............................................
+Sicherheitstechnik...................................................
+Sicherungen............................................................
+Steuerungstechnik..................................................
+Temperaturüberwachung........................................
+Trennschalter (Hauptschalter)................................
+Ventil (Hydraulik, Pneumatik, Kühlschmierstoff).....
+Zweihandstart.........................................................
+Zähler......................................................................
+
+56
+56
+56
+57
+57
+57
+57
+58
+58
+59
+59
+60
+60
+61
+61
+61
+
+Änderungshistorie............................................................ 63
+11.1 Änderungen Lastenheft............................................. 63
+11.2 Änderungsnachweis Vorzugsliste............................. 63
+
+6 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+1
+
+Allgemeiner Teil
+
+1.1 Vorwort
+Ersteller dieses Dokumentes ist:
+CHIRON Werke GmbH & Co.KG
+(nachfolgend CHIRON bzw. Auftraggeber genannt).
+Dieses Dokument beschreibt die grundsätzlichen technischen
+Vorschriften und Anforderungen des Auftraggebers für die
+Beschaffung, Ausführung und den Leistungsumfang von Komponenten, Vorrichtungen, Automationen und maschinellen Anlagen
+(nachfolgend Auftragsgegenstand genannt) an den Auftragnehmer.
+
+1.2 Gültigkeit und Geltungsbereich
+Die Einhaltung des aktuellen technischen Lastenheftes ist für den
+Auftragnehmer bindend. Abweichungen bedürfen der schriftlichen
+Genehmigung durch den Auftraggeber.
+Die aktuellste Fassung des technischen Lastenhefts ist auf der
+Internetseite www.chiron.de abrufbar.
+Kundenspezifische Lastenhefte haben Vorrang.
+
+1.3 Energieeffizienz
+Der Auftragsgegenstand ist Energie- und Medienverbrauchsreduziert auszulegen.
+Verbräuche für den regulären Betrieb, Teillastbetrieb und Wartezustand sind anzugeben.
+Maßnahmen hinsichtlich Energieeffizienz sind aufzuführen:
+n Einsatz entsprechender Hardware (z.B. Pumpen, Motoren mit
+IE3)
+n Abschaltstrategien im Teillastbetrieb oder Wartezustand (Kurzzeitstillstand)
+n Langzeitabschaltung (z.B. Wochenende)
+
+1.4 Auftragsbearbeitung
+Erkennt der Auftragsnehmer aufgrund seiner Sachkunde, dass er
+vertraglich vereinbarte Leistungen nicht oder nur eingeschränkt
+erbringen kann, ist dies sofort dem Auftraggeber anzuzeigen und
+mit ihm eine Lösung herbeizuführen.
+
+Technisches Lastenheft
+
+7 / 63
+
+Allgemeiner Teil
+Mitgeltende Unterlagen
+
+1.5 Datenaustausch
+Kleine Datenmengen bis 10 MB können per E-Mail an den entsprechenden CHIRON Sachbearbeiter übermittelt werden. Größere
+Datenmengen werden über das Programm „Cryptshare“
+https://data.chiron.de ausgetauscht.
+
+1.6 Mitgeltende Unterlagen
+n Vorzugsliste, Komponenten CHIRON
+n Einkaufsbedingungen der CHIRON Werke GmbH & Co.KG,
+Tuttlingen
+n Geheimhaltungsvereinbarung der CHIRON Werke GmbH &
+Co.KG, Tuttlingen
+
+8 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+2
+
+Kennzeichnung und Sicherheit
+
+2.1 Normative Verweise
+Bei der Ausführung des Auftrags sind die zum Zeitpunkt des ersten
+Inverkehrbringens geltenden Vorgaben, gemäß Produktsicherheitsgesetz [ProdSG], zu beachten:
+n
+n
+n
+n
+
+EU-Richtlinien und Verordnungen
+Gesetze und Rechtsvorschriften
+Technische und sonstige Normen
+Allgemein anerkannte Regeln der Technik, die dem Schutz vor
+Gefährdungen von Menschen, Tieren, Umwelt sowie Gebäude
+und Anlagen dienen.
+
+2.2 Konformitätserklärung
+Für vollständige Maschinen oder maschinelle Anlagen ist vom
+Auftragnehmer eine EG-Konformitätserklärung gemäß Anhang II, 1
+A der Richtlinie 2006/42/EG für Maschinen auszustellen, dies gilt
+auch für Kennzeichnungspflicht nach anderen EU-Richtlinien.
+Bei Verkettungen von Maschinen, maschinellen Anlagen, Automationen (auch Altanlagen), die miteinander funktionell, steuerungsund sicherheitstechnisch verknüpft sind, ist vom Auftragnehmer die
+CE-Kennzeichnung durchzuführen.
+Angewandte Normen sind aufzulisten.
+
+2.3 Einbauerklärung
+Lieferungen von unvollständigen Maschinen oder maschinellen
+Anlagen sind vor Auftragsvergabe mit dem Auftraggeber abzustimmen.
+Für unvollständige Maschinen oder maschinelle Anlagen ist vom
+Auftragnehmer eine Erklärung für den Einbau einer unvollständigen Maschine nach Anhang II, 1 B der Richtlinie 2006/42/EG
+auszustellen.
+Ist der Auftragsgegenstand alleine nicht funktionsfähig, müssen die
+beschriebenen Schnittstellen den grundlegenden Sicherheits- und
+Gesundheitsanforderungen der Richtlinie 2006/42/EG entsprechen.
+
+2.4 Risikobeurteilung
+Auf Wunsch kann der Auftraggeber Einsicht in die Risikobeurteilung zum Auftragsgegenstand nehmen, dies gilt auch für Risikobeurteilungen von Unterlieferanten des Auftragnehmers.
+
+Technisches Lastenheft
+
+9 / 63
+
+Kennzeichnung und Sicherheit
+Mitgeltende Normen
+
+2.5 Funktionale Sicherheit
+Sicherheitsfunktionen
+
+Realisierte Sicherheitsfunktionen nach EN ISO 13849-1 und
+deren Anforderungsraten sind aufzulisten.
+Der erreichte Performance Level (PL) der Sicherheitsfunktionen ist
+in einer Übersicht anzugeben.
+(PLSoll - PLIst)
+Die detaillierte Ermittlung des PL ist auf Nachfrage vorzulegen
+(SISTEMA-Datei).
+
+Sicherheitsrelevante Komponenten
+
+Alle sicherheitsrelevanten Komponenten sind mit Angabe der
+sicherheitstechnischen Kennwerte in einer Liste aufzuführen.
+Beispiele für Kennwerte:
+n
+n
+n
+n
+
+B10D
+MTTFD
+PL
+PFH
+
+Die sicherheitstechnische Ausrüstung ist auf 20 Jahre auszulegen.
+Sicherheitsrelevante Komponenten, die diese Lebensdauer nicht
+erreichen, sind mit dem Auftraggeber abzustimmen.
+Bei Genehmigung sind diese Komponenten mit ihrem voraussichtlichen Austauschintervall in der Dokumentation auszuweisen.
+
+2.6 Nachlaufzeitermittlung
+Zweihandschaltungen oder berührungslos wirkende Schutzeinrichtungen (z.B. Lichtgitter) sind entsprechend EN ISO 13855 auszulegen.
+Für Mechanik die vom Auftraggeber gesteuert wird, ist für die
+Verarbeitung der Signale eine Reaktionszeit der Steuerung von
+0,05 Sekunden zu berücksichtigen.
+
+2.7 Mitgeltende Normen
+n EN ISO 12100
+Sicherheit von Maschinen; Grundbegriffe, allgemeine Gestaltungsleitsätze Risikobeurteilung und Risikominderung
+n EN 60204-1, VDE 0113-1
+Sicherheit von Maschinen - Elektrische Ausrüstung von
+Maschinen - Teil 1: Allgemeine Anforderungen
+n EN ISO 13849-1
+Sicherheit von Maschinen - Sicherheitsbezogene Teile von
+Steuerungen -Teil 1: Allgemeine Gestaltungsleitsätze
+
+10 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+n EN ISO 13849-2
+Sicherheit von Maschinen - Sicherheitsbezogene Teile von
+Steuerungen - Teil 2: Validierung
+n Weitere sicherheitstechnische Normen und Vorschriften
+entsprechend der Risikobeurteilung
+
+Technisches Lastenheft
+
+11 / 63
+
+Kennzeichnung und Sicherheit
+Mitgeltende Normen
+
+12 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+3
+
+Abnahme
+
+3.1 Vorabnahme
+Beim Auftragnehmer
+
+Der Auftraggeber behält sich die Möglichkeit einer Vorababnahme
+des Auftragsgegenstands beim Auftragnehmer in Absprache mit
+diesem vor.
+Die bei der Vorabnahme festgestellten Mängel sind bis zur Auslieferung des Auftragsgegenstands zu beheben. Abweichungen sind
+mit dem Auftraggeber abzuklären
+
+Beim Auftraggeber
+
+Die Vorabnahme bei CHIRON erfolgt nach Integration des
+Auftragsgegenstands und in Abstimmung mit dem Auftragnehmer.
+Werden die vertraglichen Vereinbarungen bei der Vorabnahme
+nicht erfüllt, wird die Vorabnahme wiederholt. Die damit verbundenen Kosten trägt der Auftragnehmer.
+
+Nachweis der Funktion
+
+Ist die Funktion des Auftragsgegenstands nach Aufgabenstellung
+nachgewiesen, gilt er als abgenommen, dies ist schriftlich zu dokumentieren.
+Die Vorabnahme des Auftragsgegenstands stellt nicht die endgültige Abnahme dar.
+
+3.2 Aufstellung und Inbetriebnahme
+Aufstellung, Anbau, Ausrichtung und Inbetriebnahme des Auftragsgegenstands erfolgt nach den jeweiligen vertraglichen Vereinbarungen und ist mit dem Auftraggeber abzustimmen.
+
+3.3 Endabnahme
+Die Endabnahme erfolgt in Abstimmung mit dem Endkunden.
+Voraussetzung hierfür ist die Erfüllung der vertraglichen Vereinbarungen aus dem allgemeinen, dem technischen und projektbezogenen Lastenheft.
+
+Technisches Lastenheft
+
+13 / 63
+
+Abnahme
+Endabnahme
+
+14 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+4
+
+Dokumentation
+
+4.1 Vorgaben zur Dokumentation
+Die Dokumentation ist entsprechend der gesetzlichen Vorgaben
+auszuführen.
+n EN 82079-1, VDE 0039-1
+Erstellen von Gebrauchsanleitungen – Gliederung, Inhalt und
+Darstellung
+Teil 1: Allgemeine Grundsätze und ausführliche Anforderungen
+n CHIRON Dokument ID10182
+CHIRON Ausführungsvorschriften für technische Dokumentation
+n Richtlinie 2006/42/EG
+Dokumentationsvorgaben der Richtlinie 2006/42/EG für vollständige bzw. unvollständige Maschinen
+n Weitere anwendbare Normen und Vorschriften entsprechend
+der Bestellung
+
+4.2 Software
+Die Software ist entsprechend IEC 61131-3 in einer übersichtlichen und modularen Struktur aufzubauen.
+Software-Unterlagen
+
+n
+n
+n
+n
+n
+n
+n
+n
+
+Beschreibung NC-Programm
+Beschreibung SPS Programm
+Zuordnungslisten
+Parameterlisten
+Liste Maschinendaten
+Liste aller Alarme mit Ursache, Auswirkung und Abhilfe
+Sicherungsdatenträger für Wiederinbetriebnahme
+Lizenzpflichtige Software (falls benötigt)
+
+4.3 Technische Konstruktionsunterlagen
+Pläne und Konstruktionen sind nach gültigen Normen zu erstellen.
+Der Auftraggeber kann auf Wunsch vor Montagebeginn Einsicht in
+die einzelnen Konstruktionsunterlagen nehmen.
+Werden Konstruktionspläne zur Genehmigung vorgelegt, entbindet
+dies den Auftragnehmer nicht von der Verantwortung für zweckmäßige und dem Stand der Technik entsprechende Konstruktion. Die
+Genehmigung betrifft nur das Ausführungsprinzip.
+Technische Unterlagen
+
+Technisches Lastenheft
+
+n Stromlaufplan mit Schaltschranklayout
+n Fluidikpläne
+n Konstruktionszeichnungen
+15 / 63
+
+Dokumentation
+Ersatz- und Verschleißteile
+
+n
+n
+n
+n
+
+Aufstellplan
+Gerätehandbücher
+Datenblätter der verbauten Komponenten
+Prüfprotokolle
+
+4.4 Ersatz- und Verschleißteile
+Die Kennzeichnung von Ersatz- und Verschleißteilen erfolgt an der
+jeweiligen Stücklistenposition der Baugruppe und ist mit dem
+zuständigen CHIRON Sachbearbeiter abzustimmen.
+Kennziffern für die Ersatz- und Verschleißteilkennzeichnung:
+n
+n
+n
+n
+n
+
+0: Kein Ersatzteil
+1: Verschleißteil
+2: Ersatzteil
+3: Zusatzersatzteil
+4: Metrisches DIN-Teil
+
+Beispiel (Kennziffer 1)
+
+n Dichtelemente z.B. O-Ringe, Quadringe, Gleitelemente,
+Führungselemente
+n Spannzangen, Distanzstücke, Mitnehmer, Federn, Abstreifer
+an Führungsschienen, Greiferklauen, Zahnriemen, Kunststoffeinsätze
+n Stoßdämpfer, Näherungsschalter, Leuchtmittel, Batterien
+n Filterelemente (Pneumatik, Hydraulik, Kühlmittel, Kühlung)
+
+Beispiel (Kennziffer 2)
+
+n Greifer, Greiferarme, Hebel, Köcher, Magazinketten, Bolzen,
+Sicherungsringe
+n Oszillierende oder rotierende Komponenten bzw. die angrenzenden Teile sofern sie einem Verschleiß unterworfen sind
+Beispiele: Verdrehsicherungen, Gelenkhebel, Gleitlager, Wälzlager, Kurvenstücke, Führungs- und Klemmbuchsen
+n Zylinder (Pneumatik, Hydraulik)
+n Ventile (Pneumatik, Hydraulik, Kühlmittel), Zubehörteile wie
+z.B. Kupplungen, Druckübersetzer, Abstützelemente,
+Verschraubungen
+n Elektrische Komponenten z.B. induktive, optoelektronische
+oder elektromechanische Sensoren, Identifikationssysteme
+n Spannelemente z.B. Schwenkspanner, Spannfutter
+n Komponenten, die mit dem Werkstück Kontakt haben.
+Beispiele: Spannbacken/-pratzen und die hier eingebauten
+Druckstücke
+
+16 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+Beispiel (Kennziffer 3)
+
+n Komponenten, die von Großkunden, Vertretungen oder
+Servicestützpunkten bevorratet werden z.B. Spindeln, Achsmotoren, Spindelmotoren, Kugelgewindespindeln, Faltenbälge,
+Steuerungskomponenten, elektrische Antriebsteile
+
+Beispiel (Kennziffer 4)
+
+n Befestigungselemente wie z.B. Schrauben, Stifte, Muttern
+
+4.5 Stücklisten
+Alle elektrischen, fluidischen und mechanischen Komponenten
+sind in Stücklisten zu dokumentieren.
+Bei Verschleiß- und Ersatzteilen sind die Bestelldaten mit Herstellerangaben anzugeben.
+Erforderliche Unterlagen
+n Stücklisten
+n Verschleiß- und Ersatzteilstücklisten
+
+Technisches Lastenheft
+
+17 / 63
+
+Dokumentation
+Stücklisten
+
+18 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+5
+
+Elektrik
+
+5.1 Elektrische Ausrüstung
+Die elektrische Ausrüstung wie Anlagenteile, Baugruppen und
+Komponenten müssen dem Stand der Technik zum Zeitpunkt der
+Abnahme entsprechen.
+Die elektrische Ausrüstung ist nach EN 60204-1 (VDE 0113-1)
+in der aktuell gültigen Fassung auszulegen.
+Die Ausführung der elektrischen Installation und Verdrahtung ist
+nach den einschlägigen Normen und Vorschriften der Elektrotechnik zu realisieren.
+Vor der Übergabe an CHIRON, sind die Prüfungen entsprechend
+der EN 60204-1 (VDE 0113-1) "Elektrische Ausrüstung von
+Maschinen" durchzuführen. Die Prüfprotokolle sind mitzuliefern.
+
+5.2 Komponenten
+Alle Komponenten dürfen nur im Originalzustand ohne Veränderung eingebaut werden. Vorschriften der Hersteller sind einzuhalten.
+Komponenten die der Ausfuhrgenehmigung unterliegen sind zu
+kennzeichnen und separat auszuweisen. Die entsprechenden
+Dokumente sind mitzuliefern.
+Kundenspezifische Anforderungen an Komponenten haben
+Vorrang, falls keine Anforderungen bestehen, sind Komponenten
+der Vorzugsliste CHIRON einzusetzen.
+Abweichungen
+
+Abweichungen sind separat auszuweisen und durch CHIRON
+schriftlich genehmigen zu lassen.
+Mündlich abgestimmte Vereinbarungen sind nicht bindend. Eine
+Anwendung der Abweichung auf weitere Aufträge ist ausgeschlossen.
+Bei Komponenten, die aufgrund von Ausnahmegenehmigungen
+eingesetzt werden, muss sichergestellt sein, dass diese Komponenten für einen Zeitraum von 10 Jahren ab Endabnahme noch
+beschafft werden können.
+Kann dies nicht gewährleistet werden, ist für jede dieser Komponenten ein vollkompatibles Ersatzteil anzugeben. Betroffene
+Komponenten sind aufzulisten und zur Genehmigung einzureichen.
+
+Prüfpflichtige Komponenten
+
+Prüfpflichtige Komponenten sind in einer Übersichtsliste aufzuführen und mit den entsprechenden Prüffristen zu versehen.
+
+Kundenschutz
+
+Falls Komponenten einem Kundenschutz des Herstellers unterliegen, muss dieser Schutz für unsere Ersatzteilbeschaffung aufgehoben werden.
+
+Technisches Lastenheft
+
+19 / 63
+
+Elektrik
+Elektrische Einbauräume (Schaltschrank, Bedienpult, Kleingehäuse)
+
+5.3 Anschlussdaten und Netzanschluss
+Die Anschlussdaten (Maximalleistung, Nennstrom, Vorsicherung)
+sind dem Auftraggeber vor Auslieferung mitzuteilen.
+Der Netzanschluss der maschinellen Anlage ist analog zum Bearbeitungszentrum auszuführen. Die Angaben in der Bestellung sind
+maßgebend.
+Deutschland:
+n Anschlussspannung: 3x400V / N / PE
+n Frequenz: 50Hz
+n Steckdose: 230V (VDE-SCHUKO)
+Andere Länder:
+n Anschlussspannung: entsprechend der Angabe in der Bestellung
+n Frequenz: entsprechend der Angabe in der Bestellung
+n Steckdose: entsprechend der Angabe in der Bestellung
+Die Einführung der Netzzuleitung in den Schaltschrank erfolgt von
+Seiten des Endkunden.
+Im Aufstellplan muss die Kabeleinführung der Versorgungsleitung
+am Schaltschrank erkennbar sein. Vorzugsweise ist diese variabel
+ausführen (z.B. seitlich oder unten).
+
+5.4 Hauptschalter
+Hauptschalter entsprechend VDE0113 ausführen:
+n Mechanisch betätigt
+n Abschließbar
+Der Anschluss kann direkt auf den Hauptschalter oder auf
+Klemmen vor dem Hauptschalter erfolgen.
+Bei Anschluss mit Klemmen zusätzlich zu den Außenleiterklemmen weitere Klemmen für den N-Leiter und den Schutzleiter
+(PE) vorsehen.
+Die Klemmen sind wie folgt zu kennzeichnen:
+n L1, L2, L3, N, PE
+n Hinweis "Unter Spannung stehend"
+Andere Anschlussvarianten sind mit CHIRON abzuklären.
+
+5.5 Elektrische Einbauräume (Schaltschrank, Bedienpult, Kleingehäuse)
+Die Farbgebung der elektrischen Einbauräume ist entsprechend
+der Bestellung auszuführen.
+Die Schaltschrankgröße und Anordnung ist mit der Konstruktion
+der Gesamtanlage abstimmen. Die Ausführung des Schaltschranks muss mindestens IP54 entsprechen.
+Kunststoff-Kleingehäuse sind nicht zugelassen.
+20 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+Offene Gewindebohrungen sind mit Verschlussschrauben zu
+verschließen.
+Dichtverschraubungen für Kabeleinführungen sind in ölresistenter
+Ausführung auszuführen und dürfen nicht nach oben abgehend
+montiert werden.
+An freistehenden Schaltschränken müssen Transportösen angebracht sein. Zur Ablage der Pläne und Datenträger innerhalb des
+Schaltschranks ist eine geeignete Dokumentenablage vorzusehen.
+Verschlüsse an elektrischen Einbauräumen sind mit DoppelbartSchließung ausführen. Ausführung mit 7 mm Vierkant ist nur für
+mechanische Einbauräume zugelassen.
+Die Auswahl von verzinkten Montageplatten oder Schienensystemen ist freigestellt. Aufbauten auf Türen und Seitenwänden sind
+nicht zulässig. Eingebaute Geräte müssen ohne Demontage
+anderer Teile austauschbar sein.
+Beim Schaltschrankaufbau ist die Wärmeentwicklung und Wärmeempfindlichkeit der Komponenten zu berücksichtigen.
+Gehäuse, die elektrische Betriebsmittel enthalten, müssen mit
+einem Warnschilder mit Blitzpfeil entsprechend der Umgebungsbedingung, nach DIN EN 60204-1 dauerhaft gekennzeichnet sein.
+Im Schaltschrank oder Bedienpult dürfen nur elektrische Komponenten eingebaut werden.
+Der Einbau der NC-Bedieneinheit in einem separaten Bedienpult
+oder dem Schaltschrankgehäuse ist freigestellt.
+
+5.6 Elektrotechnische Installation
+Eine EMV-gerechte Gestaltung der Installation und Leitungsverlegung ist einzuhalten.
+Elektrische Schnittstellen der Einzelsysteme sind steckbar
+ausführen und zu kennzeichnen.
+Verbindungsleitungen zu den Einzelsystemen müssen zum mechanischen Schutz in geeignete, ölbeständige Schläuche, Kabelwannen oder Blechkanäle verlegt werden.
+Kabel im Spänebereich durch Stahlgewebeschläuche mit PURInnenteil oder mit nichtrostenden Blechkanälen schützen.
+Leitungen sind mittels Kabelbefestigungen zu führen.
+Die Demontage von Steckern, Abklemmen bzw. Anschließen
+einzelner Kabel zum Versand oder zur Aufstellung der Anlage ist
+nicht gestattet.
+Schutz gegen Verschmutzung
+
+Stecker sind so installieren, dass keine Flüssigkeit eindringen
+kann.
+Um das Eindringen von Fremdkörpern in Steckverbindern zu
+verhindern, müssen Blindstecker mitgeliefert werden.
+Rundsteckverbinder dürfen nur mit den vorgesehenen Sonderwerkzeugen angezogen werden.
+
+Technisches Lastenheft
+
+21 / 63
+
+Elektrik
+Schutzmaßnahmen
+
+Alle Leitungen und Kabel sind in PUR bzw. schlepptauglich,
+ausführen.
+Anschlussleitungen von Analogschaltern, Motoren- und Gebersystemen müssen geschirmt sein.
+Leitungen und Einzeladern sind an beiden Enden mit Zielbezeichnung dauerhaft zu kennzeichnen.
+Abgehende Steuerleitungen müssen auf Klemmleisten, Installationsverteiler oder Stecksysteme geführt werden.
+An Klemmstellen von Reihenklemmen darf nur eine Leitung angeschlossen werden.
+Klemmen und Steckverbinder sind dauerhaft zu kennzeichnen. Die
+Übereinstimmung mit dem Stromlaufplan ist sicherzustellen.
+Nicht verwendete Adern bei mehradrigen Kabeln sind beidseitig
+auf Klemmen aufzulegen.
+Bei mehrdrähtigen Verbindungen sind Aderendhülsen zu
+verwenden. Push-in Technik ist zu bevorzugen.
+
+5.7 Aderfarben
+Festgelegte Aderfarben für Einzeladerverdrahtung in Anlehnung an
+EN 60204-1:
+Grün-Gelb: Schutzleiter
+Schwarz: Hauptstromkreise Wechsel- und Gleichstrom
+Rot: Steuerstromkreise Wechselstrom
+Hellblau: Neutralleiter
+Blau: Steuerstromkreise Gleichstrom (24VDC)
+Ausnahme: Gleichstrom Lastversorgungen mit Spannungen
+größer als 24V -> schwarz.
+n Weiss-Blau: Steuerstromkreise Gleichstrom (0VDC)
+n Orange: Spannungsführende Stromkreise, die nicht durch den
+Hauptschalter ausgeschaltet werden (Fremdspannung).
+Auf gesamter Länge orange (z.B. mit orangen Schutzschlauch)
+kennzeichnen.
+Davon ausgenommen ist der Schutzleiter (grün/gelb) und
+Neutralleiter (hellblau)
+Einzeldrähte direkt mit oranger Isolierung verwenden.
+
+n
+n
+n
+n
+n
+
+5.8 Spannung am Steuerstromkreis
+Die Steuerspannung beträgt 24 VDC.
+
+5.9 Schutzmaßnahmen
+Warnschilder zur elektrischen Spannung sind anzubringen.
+Die Abschirmung von Signal- und Analogleitungen muss gerätenah
+erfolgen und darf nicht als Potentialausgleich genutzt werden.
+22 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+Schutzleiter sind einzeln aufzulegen und mit Zielkennzeichen zu
+versehen.
+Der Potentialausgleich ist an einer zentralen Stelle zusammenzuführen. Ausführung gemäß der aktuellen EMV-Richtlinie.
+Schutz- und Funktionserdung sind entsprechend derEN60204-1
+zu unterscheiden und zu kennzeichnen.
+
+Schutzerde:
+
+Funktionserde:
+
+Gleichspannungsverbraucher mit einer Last > 2 A dürfen nicht an
+Steuerstromkreise angeschlossen werden und sind mit einer
+entsprechenden Sicherung abzusichern.
+Transformatoren müssen primär durch Motorschutzschalter und
+sekundär durch Sicherungsautomaten abgesichert werden.
+Zur Absicherung der Stromkreise dürfen keine Schmelzsicherungen verwendet werden.
+Nach Ausfall der Netzspannung und Spannungswiederkehr darf
+kein automatischer Wiederanlauf eingeleitet werden.
+Die Wirksamkeit der Schutzmaßnahmen sind mit einer entsprechenden VDE-Messung zu protokollieren.
+
+5.10
+
+Sicherheitsschalter Schutztüren, Schutzzäune
+Die Sicherheitsschalter von Schutztüren und Schutzzäunen 2kanalig auf Sicherheitsrelais bzw. integrierte Sicherheitstechnik mit
+24 VDC verdrahten.
+
+5.11
+
+NOT-Halt
+Der NOT-Halt Kreis muss 2-kanalig ausgeführt und auf ein Sicherheitsrelais bzw. integrierte Sicherheitstechnik mit 24 VDC
+verdrahtet werden.
+Bei NOT-Halt Betätigung ist jede Achse bzw. Bewegung auf dem
+schnellstmöglichen Weg abzubremsen. Antriebe dürfen nicht
+auslaufen oder austrudeln, sondern müssen durch entsprechende
+Maßnahmen stillgesetzt werden.
+NOT-Halt Befehlsgeräte müssen andere Schutzmaßnahmen
+ergänzen und dürfen nicht an deren Stelle treten.
+
+Technisches Lastenheft
+
+23 / 63
+
+Elektrik
+Schaltschrankkühlung
+
+Folgende Punkte sind mit CHIRON abzustimmen:
+n NOT-Halt Konzept zur Wirkungsweise der NOT-Halt Einrichtung
+n Anlageteile die mit NOT-Halt stillgesetzt werden
+n Anzahl und Anbauort der Taster
+
+5.12
+
+Betriebsmittelkennzeichnung
+Die Betriebsmittelkennzeichnung erfolgt nach EN 81346-2.
+Komponenten sind innerhalb von elektrischen Einbauräumen am
+Einbauort und am Bauteil dauerhaft lesbar zu bezeichnen.
+Elektrische Komponenten außerhalb der Einbauräume (Schalter,
+Motoren, Ventile, Druckschalter usw.) sind am Einbauort und am
+Anschlusskabel unverlierbar und dauerhaft (graviert oder gelasert)
+zu kennzeichnen.
+Verdeckte Geräte sind zusätzlich auf den Verkleidungen zu kennzeichnen.
+Die Kennzeichnung der Komponenten muss mit dem Schaltplan
+übereinstimmen.
+Im Nassbereich ist das Kleben von Schildern nicht gestattet.
+
+5.13
+
+Typenschild
+Das Typenschild ist in Metall auszuführen und mit Nieten, in der
+Nähe des Hauptschalters, zu befestigen.
+Die Angaben müssen der Richtlinie 2006/42/EG und EN
+60204-1 entsprechen.
+An Umzäunungen ist an geeigneter Stelle ein Schild mit den
+Herstellerangaben und dem CHIRON Projektkennzeichen anzubringen.
+
+5.14
+
+Schaltschrankkühlung
+Die Anlage muss bei einer Außentemperatur von 10°C bis 40°C
+voll funktionsfähig bleiben.
+Falls erforderlich muss eine Schaltschrankkühlung eingebaut sein.
+
+24 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+6
+
+Mechanik
+
+6.1 Mechanische Ausrüstung
+Die mechanische Ausrüstung wie Anlagenteile, Baugruppen und
+Komponenten müssen dem Stand der Technik zum Zeitpunkt der
+Abnahme entsprechen.
+Die fluidische Ausrüstung ist nach EN ISO 4413 und EN ISO
+4414 in der aktuell gültigen Fassung auszulegen.
+Die Ausführung der fluidischen Konstruktion und Installation ist
+nach den einschlägigen Normen und Vorschriften zu realisieren.
+
+6.2 Komponenten
+Alle mechanischen Komponenten dürfen nur im Originalzustand
+ohne Veränderung eingebaut werden. Vorschriften der Hersteller
+sind einzuhalten
+Komponenten die der Ausfuhrgenehmigung unterliegen sind zu
+kennzeichnen und separat auszuweisen. Die entsprechenden
+Dokumente sind mitzuliefern.
+Kundenspezifische Anforderungen an Komponenten haben
+Vorrang, falls keine Anforderungen bestehen, sind Komponenten
+der Vorzugsliste CHIRON einzusetzen.
+Abweichungen
+
+Abweichungen sind separat auszuweisen und durch CHIRON
+schriftlich genehmigen zu lassen.
+Mündlich abgestimmte Vereinbarungen sind nicht bindend. Eine
+Anwendung der Abweichung auf weitere Aufträge ist ausgeschlossen.
+Bei Komponenten, die aufgrund von Ausnahmegenehmigungen
+eingesetzt werden, muss sichergestellt sein, dass diese Komponenten für einen Zeitraum von 10 Jahren ab Endabnahme noch
+beschafft werden können.
+Kann dies nicht gewährleistet werden, ist für jede dieser Komponenten ein vollkompatibles Ersatzteil anzugeben. Betroffene
+Komponenten sind aufzulisten und zur Genehmigung einzureichen.
+
+Prüfpflichtige Komponenten
+
+Prüfpflichtige Komponenten sind in einer Übersichtsliste aufzuführen.
+Prüffristen mit CHIRON absprechen.
+
+Kundenschutz
+
+Falls Komponenten einem Kundenschutz des Herstellers unterliegen, muss dieser Schutz für unsere Ersatzteilbeschaffung aufgehoben werden.
+
+Lebensdauer
+
+Mechanische Komponenten sind so auszulegen dass bei 3-Schicht
+Betrieb eine Lebensdauer von mindestens 5 Jahren erreicht wird.
+
+Technisches Lastenheft
+
+25 / 63
+
+Mechanik
+Lärm und Lärmmessung
+
+Ausnahmen nur bei als Verschleißteil gekennzeichneten Komponenten.
+Genauigkeiten
+
+Die geometrischen Genauigkeiten der Komponenten sind so
+auslegen, dass ein störungsfreier Betrieb der Anlage gewährleistet
+ist.
+
+6.3 Sicherheit der Konstruktion
+Die Konstruktion ist entsprechend DIN EN ISO 12100 sicher zu
+gestalten.
+
+6.4 Lärm und Lärmmessung
+Der Auftragsgegenstand ist so zu konstruieren, dass eine minimale
+Lärmentwicklung gewährleistet ist.
+Es gelten die Auslösewerte und Expositionsgrenzen gemäß
+DIN45635.
+Werden die zulässigen Grenzwerte überschritten, obliegt es dem
+Auftragnehmer, geeignete Verbesserungen vorzunehmen.
+Falls keine Lärmminderung erzielt werden kann, gehen die Kosten
+für die Lärmminderung zu Lasten des Auftragnehmers.
+Lärmmessung, Protokoll
+
+n
+n
+n
+n
+n
+n
+
+Lärmmessung, Durchführung
+
+Anwendung des Hüllflächenverfahrens
+Lärmmessung im beladenen und unbeladenen Zustand
+Messpunkt in 1 m Entfernung und 1,5 m Höhe
+Betreiben der Anlage unter Nennlast und normalen Betriebsbedingungen (z.B. automatisiert)
+Abweichungen, z.B. fehlende Werkstücke, sind zu protokollieren
+n Arbeitsplatzbezogene Emissionswerte sind zu ermitteln und zu
+dokumentieren
+n Wahrnehmbare Geräusche wie Kreischen, Pfeifen usw. sind
+anzugeben und im Protokoll zu vermerken
+
+26 / 63
+
+Hersteller
+Modell
+Seriennummer
+Kalibrierungsdatum des Messgerätes
+Messort, Messpunkt, Messverfahren
+Detaillierte Angaben entsprechend DIN45635
+
+n
+n
+n
+n
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+6.5 Instandhaltung, Wartung
+Nach der Fertigungsfreigabe ist innerhalb von 4 Wochen eine
+Ersatzteilliste einzureichen.
+Unterlagen zur vorbeugenden
+Instandhaltung
+
+n lnstandhaltungszyklen in Betriebsstunden
+n Arbeitsanweisung und Zeichnungen zur Instandhaltung
+n Ansprechpartner für vorbeugende Instandhaltung
+
+Wartungszyklus
+
+Der Wartungszyklus ist einzuhalten, um das Bearbeitungszentrum
+in einem optimalen Zustand zu erhalten.
+Bei CHIRON sind Wartungen in 4 Zyklen vorgesehen:
+Tab. 1: CHIRON Wartungsintervalle
+Intervall
+
+Beispiele für typische Wartungsarbeiten
+
+24 h
+
+n Reinigung
+n Kühlmittelstand, Ölstand Hydraulik prüfen
+
+250 h
+
+n Maschinenreinigung
+n Betriebsdruck prüfen
+n Diverse Komponenten auf Beschädigung
+prüfen
+
+2000 h
+
+n Druckluft-Feinstfilter tauschen
+n Diverse Filter reinigen bzw. tauschen
+n Schmierung Kugelgewindetriebe und
+Führungen
+
+6000 h
+
+n
+n
+n
+n
+n
+n
+
+Dreheinführung tauschen
+Vorsatzschmierelemente tauschen
+Schläuche prüfen
+Funktionstest NOT-Halt
+Sichtprüfung Sicherheitselemente durchführen
+Lampentest
+
+Die Wartungszyklen der externen Anlagenkomponenten sind den
+Wartungszyklen des CHIRON Bearbeitungszentrums anzupassen.
+Abweichungen sind zu begründen und mit CHIRON abzustimmen.
+
+6.6 Vorschubantriebe
+n
+n
+n
+n
+n
+
+Technisches Lastenheft
+
+Hohe Positioniergenauigkeit
+Konstruktion servicefreundlich gestalten
+Geringe Geräuschentwicklung
+Ruckfreiheit bei kleinen Geschwindigkeiten
+Hohe statische und dynamische Steifigkeit
+
+27 / 63
+
+Mechanik
+Ritzel-Zahnstangen-Antriebe
+
+n Unempfindlich gegenüber jeglichen Störgrößen und Verlagerungen
+n Einsatz von energieeffizienten Antrieben
+
+6.7 Linearführungen
+n Schraubenbohrungen in Linearführungsschienen nicht
+ausgießen
+n Konstruktion so gestalten, dass ein Tausch von Führungselementen servicefreundlich möglich ist.
+n Abdichtung und Schmierung der Führungen einsatzadäquat
+wählen
+n Bei Kontakt mit Kühlschmierstoff und Spänen, die Führungen
+mit zusätzlichen Abstreifern ausstatten
+n Wartungsarme, fettgeschmierte Führungen einsetzen
+n Führungen mit Typangaben beschriften.
+n Führungsbahnen vor Verschmutzung schützen
+An Vorschubeinheiten im Nassbereich mindestens 1x täglich die
+gesamte Führungsbahnlänge abfahren. Ansonsten besteht die
+Gefahr, dass sich auf nicht ständig benutzten Führungsbahnteilen
+feste Rückstände bilden. Die Rückstände können nicht mehr abgestreift werden. Mögliche Schäden sind die Folge.
+
+6.8 Kugelgewindetriebe
+n Kugelgewindetriebe sind mit Typangaben auf der Mutter zu
+beschriften
+n Möglichkeit zur Handverstellung des Kugelgewindetriebes sind
+vorzusehen
+n Wechsel des Kugelgewindetriebes muss ohne Abbau von
+angrenzender Komponenten möglich sein
+
+6.9 Antriebsriemen
+n Ölbeständige Riemen einsetzen, da Medienkontakt (Öl, Kühlschmierstoff, ...) nicht auszuschließen ist
+n Antriebsriemen müssen nachgespannt werden können
+n Angaben zur Riemenvorspannung ist zu dokumentieren
+
+6.10
+
+Ritzel-Zahnstangen-Antriebe
+n Ritzel-Zahnstangen-Antriebe so auszuführen, dass keine
+Fremdkörper auf der Verzahnung liegen bleiben können.
+
+28 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+6.11
+
+Lineardirektantriebe
+n Permanentmagnete des Antriebes so schützen, dass kein
+Kontakt mit Medien zustande kommen kann
+n Auf den Magnetismus der Sekundärteile durch Beschilderung
+hinweisen
+n Falls durch die nicht mehr vorliegende Selbsthemmung des
+Antriebes eine Gefährdung besteht, die Gefahrensituation
+gesondert prüfen und dokumentieren
+n Ausreichend dimensionierte Klemmelemente vorsehen
+
+6.12
+
+Energieführungsketten
+n Kabelschlepptaugliche Leitungen und Schläuche einsetzen
+n Schläuche und Leitungen in getrennten Stegen führen
+n Keine Kreuzung von Schläuchen und Leitungen im Kabelschlepp
+n Schläuche und Leitungen zugentlastet ausführen
+n Die minimalen statischen und dynamischen Biegeradien der
+Hersteller beachten
+n Auf EMV-gerechte Verlegung und Verteilung achten
+
+6.13
+
+Schmierung
+n Wartungsfreie Elemente verwenden, falls nicht möglich, die
+Schmierung als automatische, drucküberwachte Zentralschmierung auszuführen
+– In folgenden Fällen sind Einzelschmierstellen zulässig:
+Abschmierung kann bei laufender Maschine erfolgen.
+Schmierintervall ist größer als 4 Wochen.
+n An Handschmierstellen Kegelschmiernippel nach DIN71412
+verwenden
+n Schmierstellen und Schmieranlagen müssen für Wartungsarbeiten zugänglich und während des laufenden Betriebes nachfüllbar sein
+n An Anlagen mit Zentralschmierung sind keine Einzelschmierstellen zulässig
+n Ein Schmierplan mit allen Schmierstellen der Automatisierungsanlage an geeigneter Stelle gut sichtbar anbringen.
+Ausführung des Schmierplans muss sprachenneutral sein
+
+6.14
+
+Werkstückhandhabung
+n Ein manueller Vorschub von Transporteinrichtungen oder
+Schieben der Teile auf einem Bandsystem muss auch bei
+Ausfall der Antriebe möglich sein.
+n Transportbänder leicht nachspannbar ausführen. Gefährdungen wie z.B. Einzugstellen, Quetschstellen beseitigen.
+
+Technisches Lastenheft
+
+29 / 63
+
+Mechanik
+Schutzeinrichtung
+
+n Bei Wegfall von elektrischer, pneumatischer oder hydraulischer
+Energie sowie im NOT-Halt Fall müssen die Greifer das Werkstück noch sicher halten können.
+n Für Handlingseinheiten eine Einstellmöglichkeit zur Werkstückvorrichtung vorsehen.
+n Vertikale Handlingseinheiten sind mit Klemmungen oder
+Bremsen auszustatten.
+n Portalgestelle müssen über Justierplatten und Justierschrauben einstellbar sein.
+n Werkstückkontaktierende Teile so auslegen, dass keine
+Beschädigung am Werkstück entsteht.
+Abweichungen sind mit dem Auftraggeber abzustimmen.
+n Der Austausch des Werkstückmitnehmers muss schnell und
+einfach realisierbar sein.
+n Teilespeicher in ausreichender Größe vorsehen und mit
+CHIRON abstimmen.
+n Teilegreifer mit Sensoren für die Anwesenheitskontrolle der
+Werkstücke ausführen.
+n Mit der Anlage eine Beschreibung des Transportablaufes mit
+Zeitangaben mitliefern.
+n Der Auf- und Abbau der Anlage bei CHIRON sowie beim
+Kunden wird durch den Auftragnehmer durchgeführt.
+n Die Werkstückträger dauerhaft durch gut lesbare Schilder
+kennzeichnen.
+
+6.15
+
+Schutzeinrichtung
+n An Schutzeinrichtungen dürfen keine Funktionsbaugruppen
+montiert und befestigt werden
+n Häufig genutzte Türen sind mit Schanieren auszuführen
+n Bei beweglich trennenden Schutzeinrichtungen sind verriegelbare Sicherheitsschalter mit Zuhaltung entsprechend der
+CHIRON-Vorzugsliste einzusetzen
+
+30 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+7
+
+Vorrichtungen
+
+7.1 Allgemeines
+Dieses Dokument beschreibt die grundsätzlichen technischen
+Anforderungen des Auftraggebers für die Beschaffung, Ausführung
+und den Leistungsumfang zu Vorrichtungen und den dazugehörigen Komponenten (nachfolgend Auftragsgegenstand genannt)
+an den Auftragnehmer.
+Mitgeltende Unterlage: "Technisches Lastenheft, allgemeine Anforderungen".
+
+7.2 Angebotsanfrage
+Bei der Angebotsanfrage übermittelt CHIRON alle relevanten Informationen an den Auftragnehmer.
+Der Auftragnehmer kann auf dieser Grundlage ein detailliertes
+Angebot erstellen.
+Die Konstruktionskosten werden als separate Position ausgewiesen.
+Die Angabe der Liefertermine ist verbindlich.
+Geheimhaltung
+
+siehe "Technisches Lastenheft, allgemeine Anforderungen".",
+Kapitel "Mitgeltende Unterlagen ".
+
+7.3 Pflichtenheft
+Das separate Pflichtenheft wird von CHIRON zu jeder Vorrichtungsbestellung bereitgestellt.
+Es ist Arbeitsgrundlage über den gesamten Projektverlauf und wird
+bei der Konstruktion, bei der Genehmigung und bei der Abnahme
+ausgewertet.
+Der Auftragnehmer bestätigt die Erfüllung der zutreffenden Punkte
+in den Genehmigungsunterlagen.
+Liegt das Pflichtenheft zum Zeitpunkt der Genehmigung nicht vor,
+so findet seitens CHIRON keine Genehmigung statt. Der Abgabetermin wird als „nicht eingehalten“ gewertet.
+
+7.4 Meilensteinplan
+Zu jeder Vorrichtungsbestellung wird von CHIRON ein Meilensteinplan bereitgestellt.
+Spätestens 4 Tage nach Bestelleingang beim Auftragnehmer muss
+die Auftragsbestätigung mit ausgefülltem Meilensteinplan erfolgen.
+Die einzelnen Meilensteine werden ausgehend vom Liefertermin
+vom Auftragnehmer rückwärts definiert.
+
+Technisches Lastenheft
+
+31 / 63
+
+Vorrichtungen
+Kennzeichnung
+
+Mit der Auftragsannahme verpflichtet sich der Auftragnehmer die
+definierten Meilensteine einzuhalten. Die termingerechte Einhaltung wird durch CHIRON überwacht.
+
+7.5 Genehmigung
+n Genehmigungen durch CHIRON umfassen nur das Ausführungsprinzip.
+Sie entbinden den Auftragnehmer nicht von der Verantwortung,
+eine zweckmäßige und dem Stand der Technik entsprechende
+Konstruktion auszuführen.
+n Die vom CHIRON Endkunden definierten Qualitätsmerkmale
+sind Grundlage der Ausführung. Schon in den Genehmigungsunterlagen muss ersichtlich sein, dass diese Merkmale erreicht
+werden.
+n Bei der Genehmigung durch CHIRON werden bei Bedarf
+zusätzliche Hinweise vermerkt.
+Der Auftragnehmer setzt diese Hinweise um und sendet das
+3D-Modell und die Zusammenbauzeichnung nochmals an den
+CHIRON Sachbearbeiter.
+
+7.6 Teilenummern
+CHIRON arbeitet mit SAP.
+Die Materialnummer des Auftragsgegenstands wird durch SAP
+vergeben und ist in der Bestellung aufgeführt.
+Herstellerteilenummern
+
+Die Teilenummern innerhalb der bestellten Komponenten werden
+ausschließlich vom Auftragnehmer verwaltet.
+Der Auftragnehmer stellt sicher, dass seine produktionsrelevanten
+Dokumente den vergebenen Teilenummern zugeordnet werden
+können.
+
+7.7 Kennzeichnung
+Die Bestellung beinhaltet unter anderem die siebenstellige
+CHIRON Materialnummer (SAP).
+Diese muss auf der Zusammenbauzeichnung im Bereich des
+Schriftkopfes vermerkt sein.
+Der Auftragsgegenstand muss mit der CHIRON Materialnummer
+und der Teilenummer des Auftragnehmers dauerhaft gekennzeichnet werden.
+Die Kennzeichnung kann durch Aufbringen eines entsprechenden
+Schildes oder Gravieren im direkten Sichtbereich erfolgen.
+Keine Kennzeichnungen auf dem Auftragsgegenstand durchführen, die Rückschlüsse zum Auftragnehmer ermöglichen.
+
+32 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+7.8 Kapazitätsplanung
+Bei der Auftragsannahme berücksichtigt der Auftragnehmer seine
+Auslastung.
+Die Kapazitätsplanung erfolgt mit dem Ziel, die definierten Meilensteine einzuhalten.
+Kapazitätsprobleme sofort an CHIRON melden, damit umgehend
+eine Lösung ausgearbeitet werden kann.
+
+7.9 Ansprechpartner
+Der zuständige Sachbearbeiter bei CHIRON ist der Ansprechpartner für den Auftragnehmer.
+Der Auftragnehmer bestimmt für alle technischen Belange einen
+Ansprechpartner.
+Anforderungen:
+n Fachlich kompetent
+n Berechtigung für selbständige Entscheidungen
+
+7.10
+
+Abnahme
+
+Vorabnahme
+
+n Bei neu entwickelten Komponenten nimmt CHIRON grundsätzlich eine Vorabnahme beim Auftragnehmer vor.
+Bei sich wiederholenden Komponenten muss nicht zwangsläufig eine Vorabnahme stattfinden.
+Diese Entscheidung obliegt dem CHIRON Sachbearbeiter und
+ist in der Bestellung vermerkt.
+n Die Vorabnahme beinhaltet die Prüfung aller im Pflichtenheft
+aufgeführten und relevanten Punkte.
+Bevor die Vorabnahme stattfinden kann, muss die entsprechenden Punkte des Pflichtenhefts vom Auftragnehmer
+bewertet und ausgefüllt sein.
+Die entsprechenden Dokumente des Pflichtenhefts sind vom
+Auftragnehmer auszufüllen und vor der Vorabnahme an
+CHIRON zurück zusenden.
+
+Messprotokoll
+
+Die Einhaltung der relevanten und nummerierten Prüfmaße ist in
+einem aussagekräftigen Messprotokoll ausgewiesen.
+Die Nummern der Prüfmaße sind im Messprotokoll ausgewiesen.
+Das Messprotokoll wird nach der Vorabnahme in digitaler Form an
+den CHIRON Sachbearbeiter gesendet.
+
+Technisches Lastenheft
+
+33 / 63
+
+Vorrichtungen
+Technische Dokumentation > Lieferumfang
+
+7.11
+7.11.1
+
+Technische Dokumentation
+Technische Dokumentation, allgemein
+n Mit Anlieferung der Komponente werden die vorläufigen
+Zusammenbauzeichnungen und Stücklisten in digitaler Form
+an den CHIRON Sachbearbeiter gesendet.
+n Die Enddokumentation ist fester Bestandteil der konstruierten
+Komponente und wird unmittelbar nach Anforderung ausgeliefert.
+Erst nach vollständiger und dem gültigen Lastenheft entsprechender Ausführung wird eine eventuell noch offene Restzahlung
+seitens CHIRON erfolgen.
+n Das dem Auftrag zugrundeliegende Pflichtenheft wird bei der
+Dokumentationserstellung berücksichtigt.
+n Interne Dokumente des Auftragnehmers können, sofern die
+von CHIRON geforderten Bedingungen erfüllt sind, grundsätzlich Bestandteil der Enddokumentation sein.
+n Die Konstruktion und Entwicklung der Komponente ist
+Bestandteil des Auftrags und ist in den Gesamtkosten
+enthalten.
+Die komplette Dokumentation (z.B. Konstruktionszeichnungen,
+Zusammenbau- und Einzelteilzeichnungen, Stücklisten, etc.)
+geht in das Eigentum von CHIRON über und steht CHIRON
+uneingeschränkt zur Verfügung.
+n Formatierungen der Dokumente und Vorlagen (z.B. Schriftköpfe) werden, sofern die von CHIRON geforderten Bedingungen erfüllt sind, nicht vorgeschrieben.
+n PDF-Zeichnungsdokumente immer in schwarz-weiß und in
+originaler Formatgröße ausführen. Layerfarben bei der Konvertierung unterdrücken.
+n Falls eine projektspezifische Dokumentation vom CHIRON
+Endkunden gefordert wird, wird die Ausführung und der
+Umfang im Start up Meeting geklärt.
+Der hierdurch entstehende Mehraufwand wird vom Auftragnehmer angeboten.
+n Eventuelle Betriebsmittelvorschriften des CHIRON Endkunden
+berücksichtigen.
+Teile dieses Lastenhefts werden durch Betriebsmittelvorschriften des CHIRON Endkunden ergänzt und/oder ersetzt.
+Diese Vorschriften sind bei Bedarf in der Bestellung ausgewiesen oder werden durch den zuständigen CHIRON Sachbearbeiter mitgeteilt.
+Der hierdurch entstehende Mehraufwand wird vom Auftragnehmer angeboten.
+n Sämtliche Änderungen und Ergänzungen müssen in die
+Enddokumentation einfließen. Dies gilt auch für die Punkte, die
+erst bei CHIRON umgesetzt wurden.
+Diese Änderungen werden dem Auftragnehmer durch den
+CHIRON Sachbearbeiter mitgeteilt.
+
+7.11.2
+7.11.2.1
+
+Lieferumfang
+Generelle Bestandteile
+Folgende Unterlagen sind immer Bestandteil des Lieferumfangs:
+
+34 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+Dokument / Beschreibung
+
+Format
+
+Baugruppen-, Einzelteil- und Meisterteilzeichnungen
+
+DXF und PDF
+
+3D-Modell der Gesamtbaugruppe als Volumenmodel
+
+Parasolid oder STEP
+
+Stücklisten zu den Baugruppenzeichnungen
+
+XLSX und PDF
+
+n Kennzeichnung der Ersatz- und Verschleißteile
+n Angaben zu Hersteller und Herstellerteilenummer
+Mess- bzw. Prüfprotokolle zum Vertragsgegenstand
+
+PDF
+
+Mess- bzw. Prüfprotokolle zum Meisterteil
+
+PDF
+
+Montage- und Betriebsanleitung aller verbauter Katalogteile
+
+PDF
+
+7.11.2.2
+
+Dokumente auf Anforderung
+Folgende Dokumente sind auf Anforderung Bestandteil der Lieferung:
+
+Dokument / Beschreibung
+
+Format
+
+Separate Ersatz- und Verschleißteilstückliste mit Angaben zu Hersteller
+und Herstellerteilenummer
+
+XLSX und PDF
+
+Rüstanweisung
+
+PDF
+
+Wartungsanleitungen
+
+PDF
+
+Wechselteilübersichten
+
+PDF
+
+7.11.3
+
+Stücklisten
+Stücklisten müssen folgende Informationen enthalten:
+n POS-Nr.
+Entspricht der Positionsnummerierung in der Baugruppenzeichnung
+n Materialnummer
+Teilenummer / Id.-Nr. des Auftragnehmers
+n Zeichnungsnummer
+Abweichende Zeichnungsnummer bei Fertigungsteilen
+n Revisionsstand
+Dokumentationsmöglichkeit zur chronologischen Ausprägung
+n Menge
+Mengenangabe (Stückzahl und Einheit)
+
+Technisches Lastenheft
+
+35 / 63
+
+Vorrichtungen
+Technische Dokumentation > Gliederung
+
+n Hersteller
+Bei Kaufteilen Angaben zum Hersteller und zur Herstellerteilenummer
+n Ersatz- und Verschleißteilkennzeichnung
+Ersatz- und Verschleißteile müssen in den Stücklisten des
+Auftragnehmers explizit ausgewiesen werden.
+Siehe mitgeltende Unterlage: "Technisches Lastenheft, allgemeine Anforderungen".
+
+7.11.4
+
+Sprache
+Der Auftragnehmer liefert die Dokumente immer in Deutsch und
+den zusätzlich bestellten Sprachen.
+Auszuführende Sprachen der Bestellung oder dem Pflichtenheft
+entnehmen. Die Übersetzung erstreckt sich über die gesamte
+Dokumentation.
+
+7.11.5
+
+Termine
+Termine sind dem Meilensteinplan zu entnehmen.
+
+Terminverzug
+
+7.11.6
+
+Falls Termine seitens des Auftragnehmers nicht eingehalten
+werden und CHIRON aufgrund unvollständiger oder zu spät gelieferter Dokumentation durch den Kunden belastet wird, leitet
+CHIRON die Belastung an den Auftragnehmer weiter.
+
+Gliederung
+Die Gesamtdokumentation gliedert sich in die nachfolgend erläuterte Struktur.
+Die Datei- und Ordnerbenennungen wie beschrieben ausführen.
+Leerzeichen durch "_" ersetzen.
+Hinweis: Die Ordnerbezeichnungen und Dateinamen werden ohne
+Umlaute geschrieben!
+Die Lieferung der Dokumentation muss immer in dieser Form
+erfolgen. Ergänzende Dokumente in weiteren Sprachen in diese
+Struktur einbinden.
+Legende:
+Stueckliste
+= Name des Ordners
+n CW-Nr. = CHIRON-Materialnummer
+n AN-Nr. = Nummer des Auftragnehmers
+n
+
+36 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+Tab. 2: Generelle Struktur
+Ebene 1
+
+Ebene 2
+
+Baugruppenzeichnung
+Benennung: CW-Nr._AN-Nr.
+z.B.1408025_BG5432T
+Einzelteilzeichnungen
+
+Werkstueckberuehrende_Einzelteile
+
+Benennung: AN-Nr.
+
+Benennung: AN-Nr.
+
+z.B. ET4323T
+
+Alle_Einzelteilzeichnungen
+Benennung: AN-Nr.
+
+Stueckliste
+Benennung: CW-Nr._AN-Nr._Stueckliste
+z.B. 1408025_BG5432T_Stueckliste
+Baugruppenmodell
+Benennung: CW-Nr._AN-Nr.
+z.B.: 1408025_BG5432T
+Sonstige_Dokumente
+AN-Nr.
+z.B. SD1234 (Betriebsanleitungen, Datenblätter, etc.
+…)
+Unterbaugruppenordner
+
+Baugruppenzeichnung
+
+Ordnerbenennung: AN-Nr. z.B.: BG5437H
+
+Benennung: AN-Nr.
+Einzelteilzeichnungen
+Benennung: AN-Nr.
+Stueckliste
+Benennung: AN-Nr._Stueckliste
+
+Komponente
+
+Technisches Lastenheft
+
+Jede bestellte Komponente muss einzeln in einem separaten
+Ordner mit der beschriebenen Struktur Ä Tab. 2 „Generelle
+Struktur“ auf Seite 37 abgelegt werden.
+
+37 / 63
+
+Vorrichtungen
+Technische Dokumentation > Gliederung
+
+38 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+8
+
+Maschinelle Anlagen und Automation
+Der Auftragsgegenstand wird in den folgenden
+Kapiteln vereinfacht als "Anlage" bezeichnet.
+
+8.1 Leistungsumfang
+n Auswahl und Umsetzung des Automationskonzeptes
+einschließlich Schnittstelle zur Maschine
+n Eigenständige Abstimmung der Schnittstellen, Zykluszeiten
+und Dokumentenaustausch mit CHIRON
+n Entwicklung und Lieferung der Erstausstattung von Stapelpaletten (entsprechend Auftrag)
+n Erstellung der Dokumentation nach CHIRON Vorgabe
+n Vorabnahme
+n Montage, Inbetriebnahme und Abnahme der Anlage
+n Aufbau und Abbau bei CHIRON, Wiederaufbau beim
+Endkunden
+
+8.2 Ausführung
+Folgende Punkte sind mit den entsprechenden Fachabteilungen
+von CHIRON abzustimmen:
+n Änderungen aufgrund des Werkstücks oder dessen Handhabung
+n Bedienhandgerät (abhängig von Steuerungstyp und Konfiguration der Gesamtanlage)
+n Signale zur CHIRON Laderschnittstelle
+n Bussystem der Laderschnittstelle (Profibus / Profinet)
+n Auswahl der Servomotoren und der Steuerungstechnik
+Ausführung der Verkabelung
+
+Für folgende Komponenten müssen geschirmte Kabel verwendet
+werden:
+n
+n
+n
+n
+
+Motoren
+Mess- und Gebersysteme
+Bussysteme
+Analoge oder andere störempfindliche Komponenten
+
+8.3 Schnittstellen
+Die Kommunikation zwischen Anlage und dem CHIRON Bearbeitungszentrum erfolgt per Profibus oder mit Profinet nach der aktuell
+gültigen CHIRON Dokumentation zur „Schnittstelle für Automation“ .
+Technisches Lastenheft
+
+39 / 63
+
+Maschinelle Anlagen und Automation
+NOT-Halt
+
+Der entsprechende Buskoppler ist in dem CHIRON Bearbeitungszentrum integriert. Für weitere Teilnehmer innerhalb der Anlage ist
+dasselbe Bussystem einzusetzen.
+Abweichende Bussysteme sind nur nach Rücksprache und schriftlicher Freigabe zulässig.
+Die Ausführung der Schnittstelle, Schnittstellenbelegung bzw.
+weiterer Schnittstellen zwischen der Anlage und dem CHIRON
+Bearbeitungszentrum ist zu Beginn des Projekt zu definieren und
+schriftlich genehmigen zu lassen.
+Folgende Harting Komponenten sind für die Schnittstelle vorgesehen:
+n 24-poliges Anbaugehäuse am Bearbeitungszentrum:
+Harting Serie 24B Nr. 09 30 024 0301 (Hardwaresignale)
+n 24-poliges Gehäuseoberteil für Verbindungsleitung:
+Harting Serie 24B Nr. 19 30 024 152 (Hardwaresignale)
+n 16-poliges Anbaugehäuse am Bearbeitungszentrum:
+Harting Serie 16B Nr. 09 30 016 0301 (Bussignale)
+n 16-poliges Durchführungsgehäuse für Verbindungsleitung:
+Harting Serie 16B Nr. 09 30 016 0408 (Bussignale)
+
+8.4 Schutzeinrichtungen
+Die Sicherheitsschalter von Schutztüren, Sicherheitszäunen und
+weiteren sicherheitsrelevanten Schutzeinrichtungen sind 2-kanalig
+zur Sicherheitstechnik mit 24VDC zu verdrahten.
+
+8.5 NOT-Halt
+Der NOT-Halt Kreis muss 2-kanalig ausgeführt und auf ein Sicherheitsrelais bzw. integrierte Sicherheitstechnik mit 24 VDC
+verdrahtet werden.
+Bei NOT-Halt Betätigung jede Achse bzw. Bewegung auf dem
+schnellstmöglichen Weg abbremsen. Antriebe dürfen nicht
+auslaufen oder austrudeln, sondern müssen durch entsprechende
+Maßnahmen stillgesetzt werden.
+NOT-Halt Befehlsgeräte müssen andere Schutzmaßnahmen
+ergänzen und dürfen nicht an deren Stelle treten.
+Folgende Punkte mit CHIRON abstimmen:
+n NOT-Halt Konzept zur Wirkungsweise der NOT-Halt Einrichtung
+n Anlageteile die mit NOT-Halt stillgesetzt werden
+n Anzahl und Anbauort der Taster
+
+40 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+8.6 Störung und Betrieb
+Liegt eine Störung seitens der Anlage vor oder ist die Ablage eines
+bearbeiteten Teiles nicht möglich, ist die Bearbeitung mit dem
+nächsten Taktende zu beenden.
+Bei Störungen der Anlage oder des Bearbeitungszentrums per
+Korrespondenz die Möglichkeit zur Diagnose schaffen.
+Mittels einer Taste muss eine einfache Grundstellungsfahrt der
+Anlage und des Bearbeitungszentrums möglich sein. Die notwendigen Rückzugsstrategien und die Handhabung der in Arbeit
+befindlichen Werkstücke müssen aus jeder Situation heraus funktionieren.
+Deaktivierung der Automation
+
+Die Steuerung des Bearbeitungszentrum ist der Steuerung der
+Anlage übergeordnet, d.h. mittels Schlüsselschalter kann die Automationszelle deaktiviert werden. Die Anlage muss sich dann immer
+in Ausgangsstellung befinden. Damit werden Kollisionen
+vermieden.
+
+Manueller Betrieb
+
+Der manuelle Betrieb des Bearbeitungszentrum ist zu garantieren
+(Funktion unabhängig von Automation) und mit CHIRON abzustimmen. Die gültigen Sicherheitsvorschriften sind einzuhalten.
+
+8.7 Werkstückspezifikationen
+Die Anlage ist für die im projektspezifischen Pflichtenheft aufgeführten Werkstücke auszulegen.
+Werden die Werkstückspezifikationen nicht eingehalten oder innerhalb des Projektablaufes vom Kunden verändert, kann gegebenenfalls eine Funktionsbeeinträchtigung innerhalb der Anlage auftreten
+und eine Anpassung der Anlage bis hin zur vollständigen Neukonstruktion notwendig werden.
+Alle mit den genannten Punkten verbundenen Mehraufwendungen
+müssen in diesem Fall vollständig vom Verursacher getragen
+werden.
+
+8.8 Teilezufuhr und -abfuhr
+Die Teilezufuhr und Teileabfuhr ist entsprechend des projekt- und
+anlagenspezifischen Pflichtenhefts unter dem Gesichtspunkt einer
+technisch und betriebswirtschaftlich optimalen Ausführung zu realisieren und zu liefern.
+Fragen zu mechanischen und elektrischen Schnittstellen, Maschinenwechselzeiten und Austausch der notwendigen Dokumentationen in Zusammenarbeit mit CHIRON klären.
+
+Technisches Lastenheft
+
+41 / 63
+
+Maschinelle Anlagen und Automation
+Emissionen
+
+Ablauf:
+n Unbearbeitete bzw. vorbearbeitete Teile werden beschädigungsfrei und lagerichtig der Schnittstelle zur Maschine zugeführt.
+n Bearbeitete Teile werden von der Schnittstelle der Maschine
+entnommen und dem Palettiersystem oder Abführeinrichtung
+beschädigungs- und tropffrei zugeführt.
+n Die Anlage ist auszulegen, dass eine autarke Laufzeit der
+Gesamtanlage (Bearbeitungszentrum und Anlage ) in der vom
+Kunden geforderten Restlaufzeit gewährleistet wird.
+
+8.9 SPC-Ausschleusung und NIO-Handling (Option)
+Sowohl die SPC-Ausschleusung als auch das Handling von NIOTeilen ist als Option zu sehen, die gegebenenfalls projektbezogen
+umgesetzt werden kann.
+NIO-Teile müssen beschädigungsfrei ausgebracht werden können.
+
+8.10
+
+Emissionen
+
+Flüssigkeitsführende Leitungssysteme
+
+Flüssigkeitsaustritt durch ein geplatztes Leitungssystem muss
+verhindert werden.
+Vor der Anlage ist in den flüssigkeitsführenden Leitungssystemen
+in der Vor- und Rücklaufleitung je ein Magnetventil einzubauen.
+Diese Magnetventile müssen beim Abschalten der Anlage
+geschlossen werden.
+
+Auffangwanne
+
+Medienaustrag (Öle, Kühlschmierstoffe, sonstige Stoffe) aus der
+Anlage ist durch geeignete konstruktive Maßnahmen zu verhindern.
+Zwischen Anlage und Bearbeitungszentrum ist eine Auffangwanne
+zu installieren.
+Die Auffangwanne ist so auslegen, dass ein Gefälle das anfallende
+Kühlmittel in die Auffangwanne der Anlage oder in die Auffangwanne des Bearbeitungszentrums leitet.
+Weitere Auffangsysteme unterhalb der Laufstrecke von Werkstücken, Werkstückträgern, anderen kühlmittelbehafteten Komponenten und vorhandene Stützen und Portale ist vorzusehen, bei
+Bedarf sind Leitbleche einzusetzen.
+Die Auffangwannen, Tropf- und Leitbleche sind so zu gestalten,
+dass kein Kühlschmierstoff auf den Hallenboden und auf Personal
+fließen kann.
+Entnahmepositionen müssen leicht zugänglich sein.
+Bei abnehmbaren Auffangwannen auf das Maximalgewicht sowie
+auf die Handhabung beim Entnehmen achten. Die Wanne soll
+Handgriffe besitzen, die in Position und Ergonomie richtig zu
+befestigen sind. An der Befestigung darf kein Kühlmittel austreten.
+
+42 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+Wird die Anlage in eine Auffangwanne aufgestellt, ist die Befestigung der Aufstellpunkte zu berücksichtigen. Die Auslegung muss
+so erfolgen, dass kein Kühlmittel in den Boden eindringen kann.
+Generell sind die entsprechenden nationalen Vorschriften und
+Gesetzte zu berücksichtigen, insbesondere die des Umweltministeriums über „Anforderungen an Auffangwannen“.
+Zeichnungen der Auffangwannen sind CHIRON vorzulegen. Bei
+der Konstruktion ist die Transportmöglichkeit, das Material, Größe
+und Auffangvolumen zu berücksichtigen.
+Kundenspezifische Anforderungen wie z.B. Gefälle sind zu
+beachten.
+Aerosolbildung
+
+Falls ein Abblasen stattfindet, z.B. in einer separaten Station oder
+bei offener Tür, ist das Problem der Aerosolbildung zu beachten.
+In diesem Fall ist zusammen mit CHIRON zu klären, wie das anfallende Aerosol abgeführt werden kann.
+Bei Bedarf ist der Endkunde auf das Entstehen des Aerosols
+hinzuweisen. Lieferumfang und Konstruktion der Auffangwannen,
+Tropf- und Leitbleche ist mit CHIRON abzustimmen.
+
+8.11
+
+Qualitätsanforderungen
+CHIRON ist ein nach VDA6.4 zertifizierter Lieferant für hochwertige Bearbeitungszentren. Die Qualität der Produkte ist durch ein
+zeitgemäßes und wirksames Qualitätssicherungssystem gewährleistet. Bei der Vergabe des Auftrages wird deshalb die Qualitätskompetenz des Anbieters berücksichtigt.
+Der Auftragnehmer wird nach Vergabe von Aufträgen regelmäßig
+überprüft, um sicherzustellen, dass die Qualitätsforderungen erfüllt
+werden. Die gelieferten Anlagen werden erst dann abgenommen,
+sobald die Maschinen- und Prozessfähigkeit gewährleistet ist.
+
+8.12
+
+Taktzeit
+Die Taktzeiten der Anlage sind durch den Auftragnehmer so auszulegen, dass die Taktzeit des Bearbeitungszentrums garantiert wird.
+Dabei ist eine Taktzeitreserve von 15 bis 20% für eine eventuelle
+spätere Prozessoptimierung zu berücksichtigen. Bei Abweichungen oder unvertretbar hohem Aufwand ist dies im maschinenspezifischen Pflichtenheft niedergeschrieben.
+
+8.13
+
+Anlagennutzung und Ermittlungszeitraum
+Falls nicht anders vereinbart ist die Nutzung der Anlage wie folgt
+geplant:
+
+Technisches Lastenheft
+
+43 / 63
+
+Maschinelle Anlagen und Automation
+Verfügbarkeit
+
+n 250 Arbeitstage pro Jahr bei jeweils 24 Arbeitsstunden pro
+Arbeitstag
+n Bei Endabnahme sollen mindestens 80% erreicht werden.
+n Nach 4 Monaten respektive 2.000 Betriebsstunden müssen
+93 % erreicht sein.
+
+8.14
+
+Verfügbarkeit
+Die Ermittlung der technischen Verfügbarkeit des Bearbeitungszentrums wird in Anlehnung an die VDI-Richtlinie 3423 durchgeführt. Betrachtet werden nur Einzelmaschinen und nicht verkettete
+Systeme.
+Die technische Verfügbarkeit ist vom Hersteller der Anlage mit
+95 % ohne Schichtbegrenzung zu gewährleisten.
+Werden die zugesagten Werte nicht erreicht, wird in einer gemeinsamen Besprechung die weitere Vorgehensweise festgelegt.
+Wird die Verfügbarkeit durch wiederholte Störungen einzelner
+Komponenten (verdeckte Mängel) innerhalb der Anlage wesentlich
+beeinflusst, verlängert sich die Frist für die Gewährleistungspflicht
+um die Zeit bis zur Beseitigung der Störungen.
+Notwendige Veränderungen an der Anlage sowie umfangreichere
+Optimierungs- und Testphasen gehen zu Lasten des Auftragnehmers.
+Folgende Forderungen muss der Betreiber der Anlage berücksichtigen und erfüllen:
+n Genaue Einhaltung aller Vorschriften aus den Betriebs- und
+Bedienungsanweisungen.
+n Zulässiger Maschineneinsatz und vorbeugende Wartung.
+n Einsatz von qualifiziertem Personal für Bedienung, Wartung
+und Programmierung.
+n Ausfallursache und -zeit durch beweiskräftige Unterlagen (z.B.
+BDE, Drucker, Logbuch, Trace) aufzeigen.
+
+44 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+9
+
+Robotersysteme
+
+9.1 Anforderungen Robotersysteme
+Zugekaufte Robotersysteme und Automatisierungssysteme
+müssen EN ISO 10218-1 „Industrieroboter Sicherheitsanforderungen, Teil 1 Roboter“ entsprechen.
+Weitere mitgeltende Richtlinien, Normen, Vorschriften und Regeln
+der Technik sind einzuhalten.
+
+9.2 Integration Robotersysteme
+Die Integration des Robotersystems hat nach EN ISO 10218-2
+zu erfolgen.
+
+Technisches Lastenheft
+
+45 / 63
+
+Robotersysteme
+Integration Robotersysteme
+
+46 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+10
+10.1
+
+Vorzugskomponenten
+Absauganlage (Luftfilter)
+
+Bezeichnung
+
+Hersteller
+
+Absauganlage
+
+Fa. Camfil Handte APC GmbH
+
+Bemerkung
+
+Fa. LTA Lufttechnik GmbH
+Elektrostatischer Luftfilter
+
+Fa. Camfil Handte APC GmbH
+
+Nassabscheider
+
+Fa. Camfil Handte APC GmbH
+
+10.2
+
+Anschlusstechnik
+
+Bezeichnung
+
+Hersteller
+
+Aktor- / Sensorbox
+
+Fa. Phoenix Contact GmbH
+
+Bemerkung
+
+Fa. Murrelektronik GmbH
+Fa. Weidmüller GmbH & Co. KG
+Aktor- / Sensorleitung
+
+Fa. Phoenix Contact GmbH
+Fa. Lumberg GmbH & Co. KG
+Fa. Murrelektronik GmbH
+Fa. Weidmüller GmbH & Co. KG
+Fa. Escha Bauelemente GmbH
+
+M8 / M12 Steckverbinder
+
+Fa. Phoenix Contact GmbH
+Fa. Binder GmbH & Co. KG
+
+Anschluss-, Reihenklemme
+
+Fa. Weidmüller GmbH & Co. KG
+Fa. Phoenix Contact GmbH
+
+Anschluss-, Reihenklemme
+steckbar
+
+Fa. Phoenix Contact GmbH
+
+SUB-D Modul steckbar
+
+Fa. Phoenix Contact GmbH
+
+Anschlussklemme mit Dioden
+
+Fa. Phoenix Contact GmbH
+
+Fa. Weidmüller GmbH & Co. KG
+
+Fa. Wago GmbH & Co.KG
+Anschlussklemme mit Varistor
+
+Fa. Phoenix Contact GmbH
+Fa. Wago GmbH & Co. KG
+
+Schwere Steckverbinder
+
+10.3
+
+Fa. Harting GmbH & Co. KG
+
+Antriebstechnik
+Die Antriebstechnik ist unter anderem von der Maschinensteuerung abhängig. Die Antriebskomponenten sind mit dem Sachbearbeiter abzustimmen.
+
+Technisches Lastenheft
+
+47 / 63
+
+Vorzugskomponenten
+Befehls- und Meldegeräte
+
+Bezeichnung
+
+Hersteller
+
+Antriebs- und Regelungstechnik
+
+Fa. Siemens AG
+
+Bemerkung
+
+Fa. Fanuc Deutschland GmbH
+Fa. Heidenhain GmbH (nach
+Rücksprache)
+Fa. Bosch Rexroth AG (nach
+Rücksprache)
+Frequenzumrichter
+
+Fa. Siemens AG
+Fa. Kostal
+
+10.4
+
+Schutztür Antrieb
+
+Bezeichnung
+
+Hersteller
+
+Elektrischer Schutztürantrieb
+(Sidoor)
+
+Fa. Siemens AG
+
+Elektrischer Schutztürantrieb
+Servax
+
+Fa. Landert Motoren AG
+
+10.5
+
+Bemerkung
+
+Befehls- und Meldegeräte
+
+Bezeichnung
+
+Hersteller
+
+Pilzdrucktaster
+
+Fa. Siemens AG (22mm)
+
+Bemerkung
+
+Fa. Rafi (16mm)
+Drucktaster
+
+Fa. Siemens AG (22mm)
+Fa. Rafi GmbH & Co. KG (16mm)
+
+Leuchtdrucktaster
+
+Fa. Siemens AG (22mm)
+Fa. Rafi GmbH & Co. KG (16mm)
+
+Leuchtmelder
+
+Fa. Siemens AG (22mm)
+Fa. Rafi GmbH & Co. KG (16mm)
+
+Schlüsseltaster
+
+Fa. Siemens AG (22mm)
+Fa. Rafi GmbH & Co. KG (16mm)
+
+Schlüsselschalter
+
+Fa. Siemens AG (22mm)
+Fa. Rafi GmbH & Co. KG (16mm)
+
+Signalleuchte
+
+Fa. Werma GmbH & Co. KG
+
+Fußtaster
+
+Fa. Bernstein AG
+
+48 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+10.6
+
+Beleuchtung
+
+Bezeichnung
+
+Hersteller
+
+Bemerkung
+
+Arbeits- & Beladeraum
+
+Fa. Waldmann GmbH & Co. KG
+
+24VDC LED
+
+Schaltschrankbeleuchtung
+
+Fa. Rittal GmbH & Co. KG
+
+10.7
+
+Brandschutz
+
+Bezeichnung
+
+Hersteller
+
+Löschanlage
+
+Fa. Kraft & Bauer
+
+Bemerkung
+
+Fa. Minimax GmbH & Co. KG
+Fa. Total Walther GmbH
+Fa. Rerucha GmbH
+Fa. Tyco
+Fa. Camfil Handte APC GmbH
+Luftabsperrklappe
+
+Fa. Kraft & Bauer
+Fa. Rerucha GmbH
+Fa. Camfil Handte APC GmbH
+Fa. LTA Lufttechnik GmbH
+
+Druckentlastungsklappe
+
+Fa. Kraft & Bauer
+Fa. Rerucha GmbH
+Fa. Camfil Handte APC GmbH
+Fa. LTA Lufttechnik GmbH
+
+10.8
+
+Druckschalter
+
+Bezeichnung
+
+Hersteller
+
+Druckschalter
+
+Fa. IFM Elektronik GmbH
+
+Bemerkung
+
+Fa. Barksdale GmbH
+Fa. Festo AG & Co. KG
+Fa. Norgren GmbH
+
+10.9
+
+Durchflusswächter
+
+Bezeichnung
+
+Hersteller
+
+Durchflusswächter
+
+Fa. IFM Elektronik GmbH
+
+Bemerkung
+
+Fa. GHM Messtechnik GmbH
+(Honsberg)
+Technisches Lastenheft
+
+49 / 63
+
+Vorzugskomponenten
+Handrad, Handbediengerät
+
+10.10 Fernkommunikation
+Bezeichnung
+
+Hersteller
+
+Modem
+
+Fa. Insys Microelektronics GmbH
+
+Bemerkung
+
+Fa. Phoenix Contact GmbH
+Router
+
+Fa. Insys Microelektronics GmbH
+Fa. Phoenix Contact GmbH
+
+10.11
+
+Füllstands- und Strömungswächter
+
+Bezeichnung
+
+Hersteller
+
+Füllstandgrenzschalter
+
+Fa. Jola GmbH
+
+Bemerkung
+
+Fa. Microsonic GmbH
+Fa. Endress+Hauser GmbH & Co.
+KG
+Strömungswächter
+
+Fa. IFM Elektronik GmbH
+
+10.12 Gehäuse (Schaltschrank, Kommandopult und Klemmkasten)
+Verschlüsse von Schaltschranktüren und elektrischen Verteilerkästen sind in Doppelbart-Schließung auszuführen.
+
+Bezeichnung
+
+Hersteller
+
+Schaltschrank
+
+Fa. Omega Blechbearbeitung AG
+
+Bemerkung
+
+Fa. Bader GmbH
+Fa. Rittal GmbH & Co. KG
+Kommandopultgehäuse
+
+Fa. Omega Blechbearbeitung AG
+Fa. Bader GmbH
+Fa. Rittal GmbH & Co. KG
+
+Klemmkasten
+
+Fa. Rose Systemtechnik GmbH
+Fa. Bernstein AG
+Fa. Rittal GmbH & Co. KG
+
+10.13 Handrad, Handbediengerät
+Handrad und Handbediengerät kann von der Maschinensteuerung
+abhängig sein. Abstimmung mit dem Sachbearbeiter
+
+50 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+Bezeichnung
+
+Hersteller
+
+Handrad
+
+Fa. Euchner GmbH & Co. KG
+
+Bemerkung
+
+Fa. Heidenhain GmbH
+Handbediengerät
+
+Fa. Euchner GmbH & Co. KG
+Fa. Siemens AG
+Fa. Fanuc Deutschland GmbH
+
+10.14 Hydraulikaggregat
+Bezeichnung
+
+Hersteller
+
+Hydraulikaggregat
+
+Fa. Bosch Rexroth AG
+
+Bemerkung
+
+Fa. Hawe Hydraulik SE
+
+10.15 Hydraulikspeicher
+Bezeichnung
+
+Hersteller
+
+Hydraulikspeicher
+
+Fa. Hydac International GmbH
+
+Bemerkung
+
+Fa. Parker Hannifin GmbH
+
+10.16 Kabelführung / -Schutz
+Bezeichnung
+
+Hersteller
+
+Kabelkanal, Kabelrinne
+
+Fa. Omega Blechbearbeitung AG
+
+Bemerkung
+
+Fa. Pflitsch GmbH
+Fa. Häwa GmbH
+Energieführungskette
+
+Fa. Igus GmbH
+Fa. Tsubaki Kabelschlepp GmbH
+
+Kabelschutzschlauch
+
+Fa. Norres GmbH
+Fa. Reiku GmbH
+
+10.17 Kabelverdrahtungskanal
+Bezeichnung
+
+Hersteller
+
+Bemerkung
+
+Kabelverdrahtungskanal
+
+Fa. Licatec (F2000)
+
+Schaltschrank
+
+Fa. Tehalit BA6 Kanal
+
+Technisches Lastenheft
+
+51 / 63
+
+Vorzugskomponenten
+Kühlmittelanlage
+
+10.18 Kabelverschraubung, Kabeldurchführung
+Bezeichnung
+
+Hersteller
+
+Kabelverschraubung
+
+Fa. Hummel AG
+
+Bemerkung
+
+Fa. Jacob GmbH
+Fa. Pflitsch GmbH
+Kabeleinführung
+
+Fa. Icotec GmbH
+
+10.19 Kennzeichnung
+Bezeichnung
+
+Hersteller
+
+Betriebsmittelkennzeichnung
+
+Fa. Murrplastik GmbH
+
+Bemerkung
+
+Fa. Rosenbaum
+Fa. Phoenix Contact GmbH
+
+10.20 Klemmengehäuse
+Bezeichnung
+
+Hersteller
+
+Klemmengehäuse
+
+Fa. Rittal GmbH & Co.KG
+
+Bemerkung
+
+Fa. Bernstein AG
+
+10.21 Klimatisierung Schaltschrank
+Bezeichnung
+
+Hersteller
+
+Schaltschrankkühler
+
+Fa. Rittal GmbH & Co. KG
+
+Wärmetauscher
+
+Fa. Burn Engineering AG
+
+Bemerkung
+
+10.22 Kühlmittelanlage
+Bezeichnung
+
+Hersteller
+
+Kühlmittelanlage
+
+Fa. Knoll Maschinenbau GmbH
+
+Bemerkung
+
+Fa. Bürener GmbH
+
+52 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+10.23 Kühlaggregat
+Bezeichnung
+
+Hersteller
+
+Kühlaggregat
+
+Fa. Hyfra GmbH
+
+Bemerkung
+
+Fa. Rittal GmbH & Co. KG
+Fa. Burn Engineering AG
+Fa. Deltatherm Hirmer GmbH
+Fa. Hydac International GmbH
+
+10.24 Leistung- und Hilfsschütz
+Bezeichnung
+
+Hersteller
+
+Bemerkung
+
+Leistungsschütz
+
+Fa. Siemens AG
+
+24VDC
+
+Hilfsschütz
+
+Fa. Siemens AG
+
+24VDC
+
+Überspannungsbegrenzer
+
+Fa. Siemens AG
+
+10.25 Leitungen
+Bezeichnung
+
+Hersteller
+
+Profibusleitungen
+
+Fa. Siemens AG
+
+Bemerkung
+
+Fa. Erni GmbH & Co. KG
+Motorenleitungen
+
+Fa. Nexans Deutschland GmbH
+Fa. Igus GmbH
+
+Geberleitungen
+
+Fa. Nexans Deutschland GmbH
+Fa. Igus GmbH
+
+Verbindungsleitungen
+
+Fa. SAB Bröckskes GmbH & Co.
+KG
+Fa. Igus GmbH
+
+Schaltschrankverdrahtung
+
+Fa. U.I. Lapp GmbH
+
+10.26 Leitungs- und Motorschutz
+Bezeichnung
+
+Hersteller
+
+Leitungsschutzschalter und
+Zubehör
+
+Fa. Siemens AG
+
+Fehlerstromschutzschalter
+
+Fa. Siemens AG
+
+Motorschutzschalter
+
+Fa. Siemens AG
+
+Technisches Lastenheft
+
+Bemerkung
+
+53 / 63
+
+Vorzugskomponenten
+Motor
+
+10.27 Messgerät (Werkzeug / Werkstück)
+Bezeichnung
+
+Hersteller
+
+Messtaster
+
+Fa. Blum-Novotest GmbH
+
+Bemerkung
+
+Fa. Renishaw GmbH
+Lasermesssystem
+
+Fa. Blum-Novotest GmbH
+
+10.28 Messsystem
+Messsysteme können von der Maschinensteuerung abhängig sein.
+Abstimmung mit dem Sachbearbeiter
+
+Bezeichnung
+
+Hersteller
+
+Längenmesssystem
+
+Fa. Heidenhain GmbH
+
+Winkelmesssystem
+
+Fa. Heidenhain GmbH
+
+Bemerkung
+
+Fa. Renishaw GmbH
+
+10.29 Motordrossel
+Bezeichnung
+
+Hersteller
+
+Motordrossel
+
+Fa. Siemens AG
+
+Bemerkung
+
+Fa. Fanuc Deutschland GmbH
+Fa. Hans O. Habermann
+Fa. J. Schneider Elektrotechnik
+GmbH
+
+10.30 Motorentstörung
+Bezeichnung
+
+Hersteller
+
+Motorentstörung
+
+Fa. Murrelektronik GmbH
+
+Bemerkung
+
+10.31 Motor
+Motoren können von der Maschinensteuerung abhängig sein.
+Abstimmung mit dem Sachbearbeiter
+
+54 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+Bezeichnung
+
+Hersteller
+
+Servomotor
+
+Fa. Siemens AG
+
+Bemerkung
+
+Fa. Fanuc Deutschland GmbH
+Fa. Heidenhain GmbH (nach
+Rücksprache)
+Fa. Bosch Rexroth AG (nach
+Rücksprache)
+Linearmotor
+
+Fa. Siemens AG
+Fa. Fanuc Deutschland GmbH
+
+Spindelmotor
+
+Fa. Siemens AG
+Fa. Fanuc Deutschland GmbH
+Fa. Heidenhain GmbH (nach
+Rücksprache)
+Fa. Bosch Rexroth AG (nach
+Rücksprache)
+Fa. Franz Kessler GmbH
+Fa. CHIRON GmbH & Co. KG
+
+Sonstiger Motor
+
+Fa. Siemens AG
+Fa. Grundfos GmbH
+Fa. SEW-Eurodrive GmbH & Co.
+KG
+Fa. Bauer Gear Motor GmbH
+Fa. Knoll GmbH & Co. KG
+Fa. K.H. Brinkmann GmbH & Co.
+KG
+Fa. AC-Motoren GmbH
+
+10.32 Netzfilter
+Bezeichnung
+
+Hersteller
+
+Netzfilter
+
+Fa. EPA Antriebstechnik GmbH
+
+Bemerkung
+
+Fa. Siemens AG
+
+10.33 Positionsschalter
+Bezeichnung
+
+Hersteller
+
+Reihenpositionsschalter
+
+Fa. Euchner GmbH & Co. KG
+
+Bemerkung
+
+Fa. Balluff GmbH
+
+Technisches Lastenheft
+
+55 / 63
+
+Vorzugskomponenten
+Schmierung
+
+10.34 Reihenklemmen
+Bezeichnung
+
+Hersteller
+
+Bemerkung
+
+Reihenklemmen
+
+Fa. Phoenix Contact GmbH
+
+Push-in-Anschluss
+
+Fa. Weidmüller
+
+wo möglich
+
+10.35 Relais, Sicherheitsrelais, Halbleiterschalter
+Bezeichnung
+
+Hersteller
+
+Bemerkung
+
+Relaismodul
+
+Fa. Phoenix Contact GmbH
+
+Optokopplermodul
+
+Fa. Phoenix Contact GmbH
+
+Sicherheitsrelais
+
+Fa. Pilz GmbH & Co. KG
+Fa. Euchner GmbH & Co. KG
+Fa. K.A. Schmersal GmbH & Co. KG
+Fa. Phoenix Contact GmbH
+
+Thermistor- Motorschutzrelais
+
+Fa. Siemens AG
+
+Unterspannungsrelais
+
+Fa. Dold & Söhne KG
+
+Überwachungsrelais
+
+Fa. Dold & Söhne KG
+
+Zeitrelais
+
+Fa. Pilz GmbH & Co. KG
+
+Zweihandstart-Relais
+
+Fa. Pilz GmbH & Co. KG
+K. A. Schmersal Holding GmbH & Co.
+KG
+Schaltspiele beachten
+Falls mehr als 105 pro Jahr im 3-Schichtbetrieb zu
+erwarten sind:
+Schaltglieder (Hilfsschütze, Optokoppler) oder
+PLC-Ausgänge mit entsprechender Schaltleistung
+einsetzen
+
+10.36 Schmierung
+Bezeichnung
+
+Hersteller
+
+Fettschmierung
+
+Fa. SKF Lubrication Systems
+Germany GmbH
+
+Ölschmierung
+
+Fa. SKF Lubrication Systems
+Germany GmbH
+
+Minimalmengenschmierung
+
+Fa. Lubrix GmbH
+
+56 / 63
+
+Bemerkung
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+10.37 Schnittstelle
+Bezeichnung
+
+Hersteller
+
+Steckdose (Kombination)
+
+Fa. Murrelektronik GmbH
+
+Schnittstelle
+
+Fa. Murrelektronik GmbH
+
+Bemerkung
+
+USB, RJ45, SUB-D
+
+(Kombination)
+
+10.38 Schwingungssensor
+Bezeichnung
+
+Hersteller
+
+Schwingungssensor mit Diagnoseelektronik
+
+Fa. IFM Elektronik GmbH
+
+Bemerkung
+
+10.39 Späneförderer, Späneschnecke
+Bezeichnung
+
+Hersteller
+
+Späneförderer
+
+Fa. Knoll Maschinenbau GmbH
+
+Bemerkung
+
+Fa. Bürener GmbH
+Späneschnecke
+
+Fa. Bauer Gear Motor GmbH
+
+10.40 Sensorik (Näherungsschalter)
+Bezeichnung
+
+Hersteller
+
+Näherungsschalter induktiv
+
+Fa. Balluff GmbH
+
+Bemerkung
+
+Fa. IFM Elektronik GmbH
+Fa. Pepperl + Fuchs GmbH
+Fa. Baumer GmbH
+Näherungsschalter kapazitiv
+
+Fa. Balluff GmbH
+Fa. IFM Elektronik GmbH
+Fa. Pepperl + Fuchs GmbH
+Fa. Baumer GmbH
+
+Technisches Lastenheft
+
+57 / 63
+
+Vorzugskomponenten
+Sicherheitstechnik
+
+Bezeichnung
+
+Hersteller
+
+Lichttaster optisch
+
+Fa. Balluff GmbH
+
+(Lichtschranke)
+
+Fa. IFM Elektronik GmbH
+
+Bemerkung
+
+Fa. Sick AG
+Fa. Wenglor Sensoric GmbH
+Fa. Keyence Deutschland GmbH
+Sonstige Sensorik
+
+Fa. Balluff GmbH
+Fa. Festo AG & Co. KG
+Fa. Norgren GmbH
+Fa. IFM Elektronik GmbH
+Fa. Siemens AG
+
+10.41 Spannungsversorgung
+Bezeichnung
+
+Hersteller
+
+Transformator
+
+Fa. Hans O. Habermann
+
+Bemerkung
+
+Fa. Siemens AG
+Fa. J. Schneider Elektrotechnik
+GmbH
+Netzgerät (stabilisiert)
+
+Fa. Puls GmbH
+Fa. Siemens AG
+
+Puffermodul Netzgerät
+
+Fa. Puls GmbH
+Fa. Siemens AG
+
+10.42 Sicherheitstechnik
+Bezeichnung
+
+Hersteller
+
+Bemerkung
+
+Sicherheitsschalter
+
+Fa. Pilz GmbH & Co. KG
+
+Für Zuhaltung mit Verriegelung
+
+Fa. Euchner GmbH & Co. KG
+
+CTP-L1-AP-U-HA-AZ-SA
+
+Fa. K.A. Schmersal GmbH & Co.
+KG
+
+oder
+
+Multifunctional Gate Box MGB
+
+Fa. Euchner GmbH & Co. KG
+
+Sicherheitslichtgitter
+
+Fa. Sick AG
+
+CET3-AP-CRA-AH-50X-SA
+
+Fa. Keyence Deutschland GmbH
+Sicherheitsschaltleiste
+
+58 / 63
+
+Fa. Barger GmbH
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+10.43 Sicherungen
+Bezeichnung
+
+Hersteller
+
+Sicherungselemente
+
+Fa. Siemens AG
+
+Schmelzsicherungen
+
+Fa. Siemens AG
+
+Bemerkung
+
+Fa. Siba GmbH
+
+10.44 Steuerungstechnik
+Steuerungen können von der Maschinensteuerung abhängig sein.
+Abstimmung mit dem Sachbearbeiter
+
+Bezeichnung
+
+Hersteller
+
+Steuerungstechnik
+
+Fa. Siemens AG
+
+Bemerkung
+
+Fa. Fanuc Deutschland GmbH
+Fa. Heidenhain GmbH (nach
+Rücksprache)
+Fa. Bosch Rexroth AG (nach
+Rücksprache)
+Bedien- und Beobachtungssysteme
+
+Fa. Siemens AG
+Fa. Fanuc Deutschland GmbH
+Fa. Heidenhain GmbH (nach
+Rücksprache)
+Fa. Bosch Rexroth AG (nach
+Rücksprache)
+
+SPS-EA Baugruppen
+
+Fa. Phoenix Contact GmbH
+Fa. Siemens AG
+Fa. Fanuc Deutschland GmbH
+Fa. Heidenhain GmbH (nach
+Rücksprache)
+Fa. Bosch Rexroth AG (nach
+Rücksprache)
+
+Fieldline Module
+
+Fa. Phoenix Contact GmbH
+
+Intergierte Sicherheits-SPS
+
+Fa. Siemens AG
+Fa. Fanuc Deutschland GmbH
+Fa. Heidenhain GmbH (nach
+Rücksprache)
+Fa. Bosch Rexroth AG (nach
+Rücksprache)
+
+Technisches Lastenheft
+
+59 / 63
+
+Vorzugskomponenten
+Trennschalter (Hauptschalter)
+
+Bezeichnung
+
+Hersteller
+
+Bemerkung
+
+Bussystem
+
+Profibus (DP)
+
+Weitere Systeme nur nach Rücksprache
+
+Profinet (nach Rücksprache)
+Steuerung „Werkstückwechsler“
+
+Fa. Festo AG & Co. KG
+Fa. Peiseler GmbH & Co. KG
+Schaltspiele beachten
+Falls mehr als 105 pro Jahr im 3-Schichtbetrieb zu
+erwarten sind:
+Schaltglieder (Hilfsschütze, Optokoppler) oder
+PLC-Ausgänge mit entsprechender Schaltleistung
+einsetzen
+Anmerkung: Sind bei Relais Schaltspiele > 105 per anno im 3Schichtbetrieb zu erwarten, müssen Schaltglieder (Hilfsschütze,
+Optokoppler oder PLC-Ausgänge mit entsprechender Schaltleistung eingesetzt werden).
+
+10.45 Temperaturüberwachung
+Bezeichnung
+
+Hersteller
+
+Temperatursensoren PT100
+
+Fa. B+B Thermotechnik
+
+Temperaturschalter
+
+Fa. Barksdale
+
+Bemerkung
+
+z. B. Hydraulik
+
+10.46 Trennschalter (Hauptschalter)
+Bezeichnung
+
+Hersteller
+
+Hauptschalter
+
+Fa. Kraus & Naimer
+
+Bemerkung
+
+Fa. Siemens AG
+Steuer- und Lastschalter
+
+Fa. Kraus & Naimer
+Fa. Siemens AG
+
+60 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+10.47 Ventil (Hydraulik, Pneumatik, Kühlschmierstoff)
+Bezeichnung
+
+Hersteller
+
+Ventil hydraulisch
+
+Fa. Bosch Rexroth AG
+
+Bemerkung
+
+Fa. Hawe Hydraulik SE
+Fa. Bucher Hydraulics GmbH
+Fa. Sun Hydraulik GmbH
+Ventil pneumatisch
+
+Fa. Festo AG & Co. KG
+Fa. Norgren GmbH
+
+Ventilinsel pneumatisch
+
+Fa. Festo AG & Co. KG
+Fa. Norgren GmbH
+
+Ventil Kühlschmierstoff
+
+Fa. Müller co-ax AG
+Fa. Gemü Gebr. Müller Apparatebau GmbH & Co. KG
+
+10.48 Zweihandstart
+Bezeichnung
+
+Hersteller
+
+Zweihandstart
+
+Fa. Pilz GmbH & Co. KG
+
+Bemerkung
+
+10.49 Zähler
+Bezeichnung
+
+Hersteller
+
+Betriebsstundenzähler
+
+Fa. Bauser GmbH & Co. KG
+
+Bemerkung
+
+Fa. Hengstler GmbH
+Stückzähler
+
+Fa. Bauser GmbH & Co. KG
+Fa. Hengstler GmbH
+
+Technisches Lastenheft
+
+61 / 63
+
+Vorzugskomponenten
+Zähler
+
+62 / 63
+
+Technisches Lastenheft
+
+Technologien & CNC-Präzisionsmaschinen
+
+11
+11.1
+
+Änderungshistorie
+Änderungen Lastenheft
+Die technische Liefervorschrift wird entsprechend dem Stand der
+technischen und normativen Entwicklung in zeitlich unregelmäßigen Abständen überarbeitet.
+
+Version
+
+Datum
+
+Autor
+
+Bemerkungen / Änderungen
+
+1.0.1
+
+14.07.2017
+
+GAM
+
+Abschnitt 5.1 - Prüfprotokolle nach EN 60204-1 (VDE
+0113-1)
+
+1.0.1
+
+14.07.2017
+
+GAM
+
+Abschnitt 5.2 und 6.2 - Komponenten die der Ausfuhrgenehmigung unterliegen sind zu kennzeichnen
+
+1.0.1
+
+14.07.2017
+
+GAM
+
+Berichtigung von inkorrekter Schreibweise in diversen
+Abschnitten, keine technischen Änderungen
+
+1.0.0
+
+12.06.2017
+
+GAM
+
+Überarbeitung und Freigabe
+
+0.3.0
+
+14.11.2016
+
+rub
+
+Übernahme in Redaktionssystem
+
+0.2.0-2016
+
+21.09.2016
+
+MECA/GAM
+
+S8 und S9 komplett überarbeitet
+
+0.1.1-2016
+
+Überarbeitung, Ergänzung, Korrektur
+
+0.1.0-2016
+
+01.04.2016
+
+GAM
+
+Überarbeitung, Ergänzung, Korrektur
+
+0.1.0-2015
+
+01.10.2015
+
+GAM
+
+Erster Entwurf und anschließende Überarbeitung,
+Ergänzung, Korrektur
+
+11.2
+
+Änderungsnachweis Vorzugsliste
+
+Version
+
+Datum
+
+Autor
+
+Bemerkungen / Änderungen
+
+1.0.1-2017
+
+14.07.2017
+
+GAM
+
+Berichtigung von inkorrekter Schreibweise in diversen
+Abschnitten, keine technischen Änderungen
+
+1.0.0-2016
+
+12.06.2017
+
+GAM
+
+Überarbeitung und Freigabe
+
+0.3.0-2016
+
+28.11.2016
+
+GAM
+
+Erster Entwurf im Redaktionssystem und Überarbeitung
+
+Technisches Lastenheft
+
+63 / 63
+
+

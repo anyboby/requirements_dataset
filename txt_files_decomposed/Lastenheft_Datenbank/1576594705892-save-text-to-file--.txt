@@ -1,0 +1,8 @@
+Zuordnung von Standorten zu einer
+Bundesland
+und
+Region
+mit
+eindeutiger Standortnummer. Mit
+der Möglichkeit den Standort einer
+anderen Region zu zuordnen.

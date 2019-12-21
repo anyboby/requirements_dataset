@@ -1,0 +1,3 @@
+Die Maßnahmen sind mit den
+Aktivitäten des Änderungsverfahrens (Change
+Management) und der Störungs- und Fehlerbehebung (Incident Management) abgestimmt.

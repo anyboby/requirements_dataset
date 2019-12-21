@@ -1,0 +1,5 @@
+Bei Auswahl eines Produktes aus den o.g. tabellarischen Auswahllisten durch Markierung
+oder bei Auswahl eines Produktes aus der Hausapotheke oder im Rahmen der
+Wiederholungsverordnung sind für das ausgewählte Produkt zusätzlich mindestens die
+folgenden Merkmale ohne gesonderte Anwenderaktion anzuzeigen. Die Anzeige darf den
+Workflow der Verordnung nicht unterbrechen

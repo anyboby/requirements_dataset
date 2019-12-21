@@ -1,0 +1,2 @@
+Die bahnsteigseitige Oberfläche der Bahnsteigkanten (Kantenabdeckung) muss rutschhemmend sein und mindestens einen
+R-Wert von R 11 gemäß DIN 51130 aufweisen.

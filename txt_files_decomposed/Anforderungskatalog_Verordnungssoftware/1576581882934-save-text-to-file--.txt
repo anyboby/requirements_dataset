@@ -1,0 +1,6 @@
+Die Liste muss an den Anfang positioniert sein. Nur die Anfangsposition der Auswahlliste
+darf visualisiert werden. Falls mehrere Produkte preisidentisch sind, wäre der gesamte
+Bereich zu markieren. Hervorhebungen (z. B. Farbänderungen, Feldunterlegungen o. ä.), die
+über die im Anforderungskatalog geregelten Kennzeichnungen hinausgehen, sowie der
+Fokus oder die Cursorposition dürfen keine Vorauswahl suggerieren. Die Auswahl trifft der
+Arzt unbeeinflusst.

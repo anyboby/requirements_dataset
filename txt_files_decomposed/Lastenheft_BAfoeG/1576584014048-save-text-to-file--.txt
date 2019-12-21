@@ -1,0 +1,3 @@
+Im Falle von Rückforderungen muss die Software diese automatisch gemäß den jeweils
+gültigen gesetzlichen Anforderungen mit zukünftigen Auszahlungen verrechnen. Die Verrechnung muss in der Software analog zu Einzahlungen und Auszahlungen monatsgenau dargestellt werden. In Einzelfällen muss der Sachbearbeiter die Möglichkeit haben,
+die automatische Verrechnung zu deaktivieren. Im Fall der Deaktivierung der automatischen Verrechnung muss die Software dem Sachbearbeiter ermöglichen, die Verrechnung offener Rückforderungen mit zukünftigen Auszahlungen manuell zu steuern.

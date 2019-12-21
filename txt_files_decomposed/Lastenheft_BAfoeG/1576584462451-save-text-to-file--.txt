@@ -1,0 +1,1 @@
+Verpflichtend ist die Vorhaltung einer redundanten Netzwerkinfrastruktur sowie einer redundanten Stromversorgung, Kühlung etc.

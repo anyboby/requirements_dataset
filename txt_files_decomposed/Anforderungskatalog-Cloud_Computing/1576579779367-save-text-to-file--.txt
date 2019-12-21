@@ -1,0 +1,5 @@
+Richtlinien und Anweisungen mit technischen
+und organisatorischen Maßnahmen für den
+sicheren Umgang mit Datenträgern aller Art
+sind gemäß SA-01 dokumentiert, kommuniziert
+und bereitgestellt.

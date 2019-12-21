@@ -1,0 +1,3 @@
+IBIS-Verkabelung vorsehen.
+Streckenverlauf-Innenanzeige links entfällt.
+Zielschildbeleuchtung nicht über Sparschaltung legen.

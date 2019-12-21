@@ -1,0 +1,3 @@
+Beim Schaltschrankaufbau ist die Wärmeentwicklung und Wärmeempfindlichkeit der Komponenten zu berücksichtigen.
+Gehäuse, die elektrische Betriebsmittel enthalten, müssen mit
+einem Warnschilder mit Blitzpfeil entsprechend der Umgebungsbedingung, nach DIN EN 60204-1 dauerhaft gekennzeichnet sein.

@@ -1,0 +1,1 @@
+Die Maschine wird durch Einrichtung eines virtuellen Netzwerks (VLAN) und Zugriffslisten auf den Routern vom BPRO Netzwerk getrennt.

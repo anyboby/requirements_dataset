@@ -1,0 +1,3 @@
+Die Verordnungssoftware bildet stichtagsbezogen stets für sämtliche Produkte die
+entsprechend Abs. 1 S. 3 veröffentlichten Preis- und Produktangaben ab. Der Datenstand
+zum Zeitpunkt der Verordnung ist für den Arzt erkennbar anzugeben.

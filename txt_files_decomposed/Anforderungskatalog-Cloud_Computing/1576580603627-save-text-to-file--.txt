@@ -1,0 +1,6 @@
+Die Verwendung von Dienstprogrammen und
+Managementkonsolen (z. B. zur Verwaltung
+des Hypervisors oder virtuellen Maschinen),
+die weitreichenden Zugriff auf die Daten der
+Cloud-Kunden ermöglichen, ist auf autorisierte
+Personen beschränkt.

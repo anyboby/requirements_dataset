@@ -1,0 +1,3 @@
+Bereits im Moment des Antrages muss es möglich sein, Angaben, die sich erst im späteren Verlauf des BWZ auswirken, zu berücksichtigen, das heißt es müssen gegebenenfalls Zeitintervalle für verschiedene berechnungsrelevante Daten eingegeben werden
+können. Die möglicherweise im Verlauf des BWZ unterschiedlichen Auszahlungsbeträge
+sind sowohl in der Software als auch im Bescheid direkt darzustellen (vgl. auch LH 27).

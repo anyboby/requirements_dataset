@@ -1,0 +1,2 @@
+Das integrierte Forderungsmanagementsystem muss bei der niedersächsischen Landeshauptkasse (LHK) eingegangene Geldeingänge über eine von der LHK definierte
+Schnittstelle entgegen nehmen und verwalten können.

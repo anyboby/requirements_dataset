@@ -1,0 +1,2 @@
+Wiederherstellungstests
+sind in das Notfallmanagement des Cloud-Anbieters eingebettet.

@@ -1,0 +1,4 @@
+Bei NOT-Halt Betätigung jede Achse bzw. Bewegung auf dem
+schnellstmöglichen Weg abbremsen. Antriebe dürfen nicht
+auslaufen oder austrudeln, sondern müssen durch entsprechende
+Maßnahmen stillgesetzt werden.

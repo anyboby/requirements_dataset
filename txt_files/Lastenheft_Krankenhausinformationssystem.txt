@@ -1,0 +1,1006 @@
+Lastenheft Krankenhausinformationssystem
+1.
+
+Zielbestimmungen
+1.1
+
+Ist-Zustand
+
+3
+
+1.2
+
+Technisch-organisatorisches Umfeld
+
+3
+
+1.2.1
+
+Aufbau
+
+3
+
+1.2.2
+
+Berufsgruppen
+
+4
+
+1.2.3
+
+IT-System
+
+4
+
+1.3
+2.
+
+3.
+
+4.
+
+Aufbau dieses Lastenheftes
+
+6.
+
+4
+
+Technische Rahmenbedingungen
+
+5
+
+2.1
+
+VMware
+
+5
+
+2.2
+
+SQL
+
+5
+
+2.3
+
+Clientbetriebssystem
+
+5
+
+Benutzerverwaltung
+
+6
+
+3.1
+
+Einspielen von Benutzern
+
+6
+
+3.2
+
+Rollenbasiertes Berechtigungskonzept
+
+6
+
+3.3
+
+Authentifizierung & Single-Sign-on
+
+6
+
+3.4
+
+Ausscheiden eines Mitarbeiters / einer Mitarbeiterin
+
+6
+
+Systemverwaltung
+
+7
+
+4.1
+
+Benutzerrollen
+
+7
+
+4.2
+
+Zentraler Inhalt
+
+7
+
+4.3
+
+Statistiken
+
+7
+
+4.3.1
+5.
+
+3
+
+Weitere Anforderungen zu den Statistiken
+
+8
+
+Patientenverwaltung
+
+8
+
+5.1
+
+Aufnahme
+
+8
+
+5.2
+
+Stammdaten
+
+8
+
+5.3
+
+Verlegung
+
+9
+
+5.4
+
+Externe Unterbringung
+
+9
+
+5.5
+
+Entlassung
+
+9
+
+5.6
+
+Fallaktenrelevante Dokumente
+
+9
+
+Behandlungsmanagement
+6.1
+
+10
+
+Therapeutische Dokumentation
+
+6.2
+Pflegeplanung und -dokumentation
+Kraft, Thomas KMV GL5
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+10
+10
+Seite 1 von 16
+
+Lastenheft Krankenhausinformationssystem
+
+7.
+
+8.
+
+6.3
+
+Verläufe
+
+10
+
+6.4
+
+Besondere Dokumentation
+
+11
+
+6.5
+
+Gruppenbefundung und -therapie
+
+11
+
+6.6
+
+Verordnung und Anordnung
+
+11
+
+6.7
+
+Medikation
+
+11
+
+6.8
+
+Labor
+
+12
+
+6.9
+
+Terminplanung
+
+12
+
+Besondere Klinikprozesse
+7.1
+
+Missbrauch einer Vollzugslockerung
+
+13
+
+7.2
+
+Besondere Vorkommnisse / Ereignisse
+
+13
+
+7.3
+
+Nichtpatientenbezogene Ereignisse
+
+13
+
+Weitere Anforderung
+8.1
+
+9.
+
+13
+
+14
+
+Übernahme ALT-Fälle
+
+Projektierung
+
+14
+15
+
+9.1
+
+Projektplanung
+
+15
+
+9.2
+
+Umsetzungskonzept
+
+15
+
+9.3
+
+Workshop Parametrisierung
+
+15
+
+9.4
+
+Installation & Konfiguration
+
+15
+
+9.5
+
+Umsetzung & Schulung
+
+15
+
+9.5.1
+
+Schulung der Administratoren
+
+15
+
+9.5.2
+
+Schulung der Nutzer/innen
+
+15
+
+10. Wartung
+
+Kraft, Thomas KMV GL5
+
+16
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 2 von 16
+
+Lastenheft Krankenhausinformationssystem
+1. Zielbestimmungen
+1.1 Ist-Zustand
+Derzeit ist eine CRM-Lösung im Einsatz, welche auf einer MySQL 5.1.39 als Datenbank, php 5.2.11 für die
+Webprogrammierung und einem Apache 2.0 als Webfront-End basiert und auf einem Windows Server
+2008 R2 läuft. In diesem Zusammenhang existiert eine Dateiablage auf einem Windows Server 2008 R2.
+Die papiergebunden Alt-Akten werden über eine MS Access Lösung verwaltet.
+Diese Systeme sollen durch ein Zentrales Krankenhausinformationssystem abgelöst werden. Die
+Vorgaben der Orientierungshilfe Krankenhausinformationssysteme in der aktuellen Fassung sind
+bindend. Die Umsetzung der Vorgaben sind in einem gesonderten Blatt festzuhalten.
+Die Schwerpunkte der angestrebten Lösung sind:
+ Erfassen von Stammdaten;
+ Erhebung der Krankheitsdaten;
+ Dokumentation und Planung des therapeutischen und pflegerischen Handelns – hierzu zählen
+auch die Ergotherapie und der Sozialdienst;
+ Befunderstellung
+ Planung von Transportleistungen;
+ Planung von stationsbezogen Maßnahmen;
+ Laboranbindung;
+ Archiv- und Dokumentenmanagementsystem – optional Erweiterung zu einem
+unternehmensweiten Enterprise Content Management System
+Die Lösung soll die Dokumentationsarbeiten anwenderfreundlich unter einem geringen Schulungsbedarf
+ermöglichen.
+
+1.2 Technisch-organisatorisches Umfeld
+1.2.1 Aufbau
+Organisatorisch besteht das Krankenhaus aus 6 Abteilungen, 19 Stationen mit 523 ordnungsbehördlich
+genehmigten Betten, verteilt an zwei Standorten. Vergleichbar wie bei einer Psychiatrischen
+Institutsambulanz werden zusätzlich ca. 70 extern untergebrachte Patienten durch die Stationen
+betreut.
+Analog dazu werden weitere ca. 110 extern untergebrachte Patienten durch die Abteilung „BoB:EX“
+betreut. Zur besseren Übersicht wurden die Patienten in der bisherigen Lösung in 4 Stationen geführt.
+Derzeit sind 100 Einrichtungen gelistet, in welchen die Patienten untergebracht werden können. Alle
+Einrichtungen müssen auswertbar sein und bei unterschiedlichen Workflows Beachtung finden.
+Weiterhin haben wir abteilungsübergreifende Funktionsbereiche - die Ergotherapie, den Fahrdienst und
+den Sozialdienst, sowie die Verwaltung.
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 3 von 16
+
+Lastenheft Krankenhausinformationssystem
+1.2.2 Berufsgruppen
+Aktuell sind folgende Berufsgruppen tätig
+
+
+
+
+
+
+
+
+
+
+
+
+Ärzte/in
+Psychologen/in
+Gesundheits- und Krankenpfleger/in
+Sozialarbeiter/in
+Ergotherapeuten/in
+Erzieher/in
+Sportaktivitätenpfleger/in
+Transportpfleger/in
+Kraftfahrer/in
+Sekretärin
+Verwaltungskräfte
+
+1.2.3 IT-System
+Das Krankenhaus des Maßregelvollzugs (KMV) ist Mitglied in der berlinweiten Active Directory-Domäne.
+Die Domänenfunktionsebene ist Windows Server 2008 R2. Alle Mitarbeiter/-innen besitzen Active
+Directory-Benutzerkonten.
+Die Zugriffsrechte werden durch die Mitgliedschaft in globalen Sicherheitsgruppen gesteuert.
+Terminalserver und Virtual-Desktop sind nicht im Einsatz. Die Computer werden ausschließlich als FAT
+Clints genutzt. Aktuelles Betriebssystem ist Windows 7 SP1.
+Das KMV verfügt über eine VMware Farm in der Version 6.5.
+
+1.3 Aufbau dieses Lastenheftes
+Das Lastenheft beschreibt die Anforderungen mit Muss-Kriterien.
+Sollten Anforderungen nur mit zusätzlichen Kosten umsetzbar sein, so ist der Aufwand zu beschreiben
+und die Kosten als Bemerkung anzugeben.
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 4 von 16
+
+Lastenheft Krankenhausinformationssystem
+2. Technische Rahmenbedingungen
+2.1 VMware
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+MS SQL
+Standard
+
+MS SQL
+Enterprise
+
+Die Lösung soll auf unserer VMware Farm installiert werden.
+Dazu wird ein WindowsServer2012R2 bereitgestellt.
+Um eine Ausfallsicherheit zu ermöglichen, kommt VMware
+VMotion zum Einsatz.
+
+2.2 SQL
+MS SQL Express
+Der Auftraggeber ist beim Einsatz von
+Microsoft Produkten verpflichtet, diese
+über den Rahmenvertrag abzurufen.
+Stand: Mindestens Version 2014
+Hinweis: Die Abrufkosten werden für die Auswertung auf Ihr Angebot aufgeschlagen.
+MariaDB
+
+PostgreSQL
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Sollte aus Ihrer Sicht ein SQL Produkt eines anderen
+Herstellers notwendig sein, so muss dieses gemäß § 21 Abs.
+2 des EGovG Bln in der IKT-Architekturliste gelistet sein. Die
+notwendigen Lizenzen wären dann Bestandteil der
+Ausschreibung.
+Hinweis: Beziffern Sie die Kosten im Angebotsblatt.
+
+Die Lösung beinhaltet eine eigene Datenbank. Der Support
+wird durch den Bieter bereitgestellt.
+
+2.3 Clientbetriebssystem
+
+Sollte eine Clientinstallation notwendig sein, ist die
+Lauffähigkeit neben Windows 7 auch unter Windows 10
+sicherzustellen.
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 5 von 16
+
+Lastenheft Krankenhausinformationssystem
+3. Benutzerverwaltung
+3.1 Einspielen von Benutzern
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Benutzerdaten müssen aus dem Active Directory eingespielt
+werden. Eine bidirektionale Synchronisierung von
+Benutzerdaten soll nicht erfolgen.
+
+3.2 Rollenbasiertes Berechtigungskonzept
+
+Die Berechtigungen werden den einzelnen Rollen
+zugeordnet. Ein/e Benutzer/in kann eine oder mehrere
+Rollen besitzen.
+Stationsmitarbeiter/innen sollen auf eine oder mehrere
+Stationen Zugriffsrechte erhalten.
+Ein/e Benutzer/in soll auf einen oder mehrere Patienten
+Zugriffsrechte erhalten (wissenschaftl. Mitarbeiter/in).
+
+3.3 Authentifizierung & Single-Sign-on
+
+Die Anmeldung soll über Single Sign-on erfolgen.
+Authentifizierung soll gegen das Active Directory erfolgen.
+Es muss eine Abmeldung möglich sein, um den Notfallzugriff
+zu ermöglichen.
+
+3.4 Ausscheiden eines Mitarbeiters / einer Mitarbeiterin
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Die Einträge müssen die Namenszuordnung auch nach dem
+Ausscheiden eines Mitarbeiters / einer Mitarbeiterin
+behalten.
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 6 von 16
+
+Lastenheft Krankenhausinformationssystem
+4. Systemverwaltung
+4.1 Benutzerrollen
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Anlegen von Benutzerrollen.
+Steuerung der Modulrechte.
+Steuerung der Menüpunkte.
+Steuerung der Stations- und Fallzugriffsrechte.
+
+4.2 Zentraler Inhalt
+
+Werkzeuge zur Erstellung und Gestaltung eigener Formulare.
+Anpassung der vorhandenen Formularsets.
+Verwaltung von Zentralen Textbausteinsammlungen.
+Anpassung von Übersichtsseiten / Stationsbettengrafiken.
+Pflege der Medikamenten-Hausliste.
+Pflege der Unterbringungsparagraphen.
+Pflege der Liste Einweisende Behörde mit Kontaktdaten.
+
+4.3 Statistiken
+
+Alle Statistiken sollen automatisch erstellt und sollen nach
+Excel bzw. SPSS oder anderen gängigen Programmen
+exportiert werden.
+Neben gesetzlichen Statistiken wie Belegdaten (hausinterne
+Mittnachts- und Monatsstatistiken) und Diagnosestatistiken
+müssen Auswertungen für das Statistische Landesamt bzw.
+die Fachaufsicht (Wochenmeldung) erhoben werden.
+Grundlage dieser Auswertungen sind besonders die Inhalte
+von Punkt 6.4 und 7.
+Der Kerndatensatz Maßregelvollzug in der aktuellen Fassung
+muss hinterlegt sein.
+Eigene Statistik muss einstellbar sein.
+Die Einstellungsänderungen müssen durch den AG möglich
+sein.
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 7 von 16
+
+Lastenheft Krankenhausinformationssystem
+4.3.1
+
+Weitere Anforderungen zu den Statistiken
+Wird
+Wird nicht
+unterstützt unterstützt
+
+Auswertungswerkzeug zur Erstellung von Auswertungen.
+Zugriff auf alle Parameter.
+Gruppierungsfunktion
+Speichern von Auswertungstemplates.
+
+5. Patientenverwaltung
+5.1 Aufnahme
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Die Aufnahmemaske muss die Auswahl des
+Unterbringungsparagrafen und der einweisenden Behörde
+ermöglichen. Die Auswahl wird über Listen gesteuert.
+Bei Unterbringungsparagrafen sind u.U. Zweit- bzw.
+Drittzusätze notwendig.
+Beispiel: §126a StPO mit § 7 JGG
+Neben den Krankenkassen müssen auch andere
+Kostenträger auswählbar sein.
+Die Aufnahmeanzeige muss elektronisch – auch per Mail –
+an mehrere Stellen übermittelt werden.
+
+5.2 Stammdaten
+
+Neben den üblichen Stammdaten muss das Sozialamt des
+Herkunftsbezirks eingetragen werden. Die Eingabe soll über
+ein Auswahlfeld erfolgen und dies wird über Listen
+gesteuert. Inhalt der Liste ist auch der Kontaktpartner im
+Sozialamt.
+Ein weiteres Feld ist das Geschäftszeichen des Sozialamtes.
+Die Aufnahmeanzeige muss elektronisch – auch per Mail –
+an mehrere Stellen übermittelt werden.
+Patienteneigentum, das eingelagert wird, muss in einem
+Verzeichnis aufgelistet werden. Veränderungen während des
+Aufenthaltes müssen protokolliert werden.
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 8 von 16
+
+Lastenheft Krankenhausinformationssystem
+5.3 Verlegung
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Die Verlegungsmitteilung muss elektronisch – auch per Mail
+– an mehrere Stellen übermittelt werden.
+
+5.4 Externe Unterbringung
+
+Patienten können im Rahmen ihrer Therapie extern
+untergebracht werden. Nur nach erteilter Kostenübernahme
+darf die Verlegung möglich sein. Der Workflow in der
+bisherigen Lösung wurde durch das Vorhandensein eines
+bestimmten Dokumenten-Typs aktiviert.
+
+5.5 Entlassung
+
+Die einweisende Behörde übermittelt die
+Entlassungsanordnung. Diese muss der Fall-Akte zugeordnet
+werden.
+In der Entlassungsmaske muss der Entlassungsgrund und die
+Entlassungsanschrift eingetragen werden.
+Die Entlassungsmitteilung muss elektronisch – auch per Mail
+– an mehrere Stellen übermittelt werden.
+
+5.6 Fallaktenrelevante Dokumente
+
+Im Rahmen des Aufenthaltes werden Dokumente
+eingescannt und müssen dem Patienten-Datensatz
+zugeordnet werden.
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 9 von 16
+
+Lastenheft Krankenhausinformationssystem
+6. Behandlungsmanagement
+6.1 Therapeutische Dokumentation
+Die Dokumentation betrifft neben den Berufsgruppen Ärzte/in und Psychologen/in, auch die
+Sozialarbeiter/in und Ergotherapeuten/in.
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Erfassung der Anamnese, dies beinhaltet auch
+Vordelinquenz, Inhaftierungen und zurückliegende
+Unterbringungen im Maßregelvollzug.
+Erfassung von Diagnosen und Maßnahmen.
+Erfassung von Gesprächsinhalten.
+Eingabemasken für psychiatrische und psychologische
+Testungen, diese sollen auch durch den Auftraggeber
+anpassbar sein.
+Befundbericht aus den Testungen und Gesprächen.
+Automatische Terminarbeitslisten.
+Planung und Dokumentation der Termine im
+Therapeutenkontext.
+
+6.2 Pflegeplanung und -dokumentation
+
+Pflegeplanung soll regelmäßig erfasst und kontrolliert
+werden.
+Aus den Pflegeprozessvorgaben sollen automatisch Terminund Kontrolllisten erstellt werden.
+
+6.3 Verläufe
+
+Alle Berufsgruppen dokumentieren in einem Verlauf.
+Eine Selektion nach Berufsgruppen bzw. Eintragsart muss
+möglich sein.
+Um die chronologische Reihenfolge zu ermöglichen, bedarf
+es der Eingabe einer Ereigniszeit.
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 10 von 16
+
+Lastenheft Krankenhausinformationssystem
+6.4 Besondere Dokumentation
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Regelmäßige Tätigkeiten, wie z.B. Anwesenheitskontrollen
+müssen gesondert dokumentiert werden.
+Maßnahmen wie Fixierungen und Isolation bedürfen der
+besonderen Anordnungs- und Verlaufsdokumentation.
+
+6.5 Gruppenbefundung und -therapie
+
+Es muss eine Gruppenbefundung möglich sein.
+Die Übernahme der Befunde in der Befundliste des
+einzelnen Patienten muss automatisch erfolgen.
+Die Planung der Termine muss im Kalender erfolgen.
+Gruppentermine müssen auch als Serientermine möglich
+sein.
+
+6.6 Verordnung und Anordnung
+
+Für die Verordnung muss das Rollenkonzept umsetzbar sein.
+Dies gilt insbesondere für Medikamente und Fixierungen.
+
+6.7 Medikation
+
+Das Krankenhaus verfügt über eine Hausliste.
+Dokumentation der Verordnung und Gabe muss einer
+amtsärztlichen Überprüfung standhalten.
+Eingabemöglichkeit für Bedarfsmedikation.
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 11 von 16
+
+Lastenheft Krankenhausinformationssystem
+6.8 Labor
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Die Laboranforderung erfolgt derzeit über ein Webinterface.
+Die Laborkommunikation muss auf HL 7-Standard erweitert
+werden.
+Für das Urin-Drogen-Screening erfolgt die Auslosung per
+Zufallsgenerator. Als Parameter sind die Anzahl der
+Auslosungen pro Station, minimale und maximale Abstände
+des Patienten zu benutzen. Das Setzen der Parameter erfolgt
+durch den AG.
+
+6.9 Terminplanung
+
+Alle internen und externen Termine müssen in einem
+Kalender gepflegt werden.
+Das Erreichen oder Überschreiten von Terminen muss
+angezeigt werden.
+Beispiel: Das Überschreiten des geplanten
+Rückkehrzeitpunktes.
+Es müssen Serientermine möglich sein
+Stations-, abteilungs- und klinikweite Übersichten müssen
+möglich sein.
+Stations- und abteilungsinterne Termine müssen in den
+jeweiligen Übersichten eingetragen und angezeigt werden.
+*Aufwand als Bemerkung angeben
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 12 von 16
+
+Lastenheft Krankenhausinformationssystem
+7. Besondere Klinikprozesse
+7.1 Missbrauch einer Vollzugslockerung
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Im Fall eines Missbrauchs einer Vollzugslockerung muss ein
+Fahndungsersuchen erstellt und an die Fahndungsleitstelle
+übermittelt werden.
+Eine Erledigungsmeldung muss über den gleichen
+Kommunikationsweg erfolgen.
+
+7.2 Besondere Vorkommnisse / Ereignisse
+
+Besondere Vorkommnisse / Ereignisse müssen mittels
+Formular gemeldet und übermittelt werden.
+
+7.3 Nichtpatientenbezogene Ereignisse
+
+Nichtpatientenbezogene Ereignisse müssen mittels Formular
+gemeldet und übermittelt werden.
+Die Wandlung eines nichtpatientenbezogenen Ereignisses in
+ein patientenezogenes Ereignis (7.2) muss durch bestimmte
+Benutzerrollen möglich sein.
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 13 von 16
+
+Lastenheft Krankenhausinformationssystem
+8. Weitere Anforderung
+8.1 Übernahme ALT-Fälle
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Übernahme der Stammdaten zur Wiedererkennung
+aus der bisherigen Lösung.
+Übernahme der Stammdaten zur Wiedererkennung
+aus der MS Access Datenbank.
+Übernahme der Verlaufs- und Bewegdaten in ein
+Sichtungsarchiv.
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 14 von 16
+
+Lastenheft Krankenhausinformationssystem
+9. Projektierung
+9.1 Projektplanung
+Für die Umsetzung erwarten wir einen zentralen Ansprechpartner.
+
+9.2 Umsetzungskonzept
+Das Angebot muss ein ausführliches Umsetzungskonzept beinhalten.
+
+9.3 Workshop Parametrisierung
+Der Workshop bildet die Grundlage der Installation & Konfiguration
+Teilnehmer: Verantwortliche und Administratoren
+Dieser Workshop soll in unserem Hause stattfinden.
+
+9.4 Installation & Konfiguration
+Die Installation & Konfiguration (inklusive Einbindung in unsere Backup-Struktur) muss in unserem
+Hause durchgeführt werden.
+
+9.5 Umsetzung & Schulung
+Alle geschulten Benutzer gelten als Multiplikatoren.
+9.5.1 Schulung der Administratoren
+Für die Vorbereitung der Teilnehmerschulung werden die Administratoren geschult.
+
+9.5.2 Schulung der Nutzer/innen
+Für die Pflege ist eine Multiplikatoren-Schulung vorgesehen.
+Die Schulung der anderen Berufsgruppen soll in End-User-Schulungen erfolgen.
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 15 von 16
+
+Lastenheft Krankenhausinformationssystem
+10.Wartung
+Wir beabsichtigen, die Lösung mit einem Wartungsvertrag zu erwerben.
+Hierzu unsere Anforderungen:
+Wird
+unterstützt
+
+Wird nicht
+unterstützt
+
+Mindestens viermal jährlich eine neue, funktional erweiterte
+Programmversion.
+Regelmäßige Updates der Diagnose- und
+Therapieverschlüsselung.
+Kurzfristiges Bereitstellen von Patches im Fehlerfall.
+Supportunterstützung auch ohne Fernwartungszugriff.
+
+Kraft, Thomas KMV GL5
+
+Anlage 1: Lastenheft
+Krankenhausinformationssystem 13.11.2017
+
+Seite 16 von 16
+
+

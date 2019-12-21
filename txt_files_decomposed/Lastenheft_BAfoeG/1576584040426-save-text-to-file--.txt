@@ -1,0 +1,3 @@
+Die Software muss jedes Datenfeld für sich bereits bei der Eingabe auf Plausibilität überprüfen. Dabei müssen geeignete Prüfungen auf Feldlänge, Zeichenarten und auf Listen
+(Wertbereichsbeschränkungen inklusive Einschränkung auf zulässige Zeichen) hinterlegt
+sein

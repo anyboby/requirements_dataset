@@ -1,0 +1,5 @@
+Die Überprüfung sowie die
+sich daraus ergebenden Berechtigungsanpassungen werden nachvollziehbar dokumentiert.
+Optionale, weitergehende Anforderungen
+(Vertraulichkeit)
+Administrative Berechtigungen werden mindestens halbjährlich überprüft.

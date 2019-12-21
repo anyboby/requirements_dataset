@@ -1,0 +1,3 @@
+Die Übernahme eines Fertigarzneimittels oder eines sonstigen nach § 31 SGB V in die
+Arzneimittelversorgung einbezogenen Produktes auf ein Rezept oder in eine Hausapotheke
+erfolgt aus einer Datenbank auf Grundlage eines vollständigen Verzeichnisses nach P2-100.

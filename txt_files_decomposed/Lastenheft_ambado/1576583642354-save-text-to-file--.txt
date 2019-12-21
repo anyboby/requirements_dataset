@@ -1,0 +1,5 @@
+In die Namensauswahllisten für die Felder
+„Dokumentationsverantwortlicher“ (Zusatzfeld) und
+„Unterschrift“ sollen zur Auswahl eines Namens
+beliebig viele Buchstaben eingegeben werden
+können.

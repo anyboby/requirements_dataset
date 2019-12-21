@@ -1,0 +1,5 @@
+Mit der neuen Datenbank soll es möglich sein, den Beschäftigungs-/Maßnahmetyp mit
+Beginn und Ende, sowie Status und Vermittlung zu erfassen. Im „Status“ wird erfasst ,
+welcher Beschäftigungs-/Maßnahmetyp dem Stromsparhelfer zugeordnet ist. Im Feld
+„Vermittlung“ wird der Vermittlungsstand des Stromsparhelfers eingetragen. Die Felder
+sollen in der Maske „neuen Stromsparhelfer anlegen“ hinzugefügt werden.

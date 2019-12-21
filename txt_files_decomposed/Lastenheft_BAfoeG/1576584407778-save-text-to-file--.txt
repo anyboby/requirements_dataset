@@ -1,0 +1,4 @@
+Um Falscheingaben zu minimieren beziehungsweise den Wertebereich eines Eingabefeldes auf eine Anzahl von Auswahlmöglichkeiten einzuschränken, soll die Software dem
+Anwender für geeignete Eingabefelder Vorschlagslisten anzeigen. Der Benutzer kann
+dann einen Wert aus den Vorschlägen auswählen, der dann in das entsprechende Feld
+übernommen wird oder gegebenenfalls stattdessen einen eigenen, alternativen Wert eingeben, beispielsweise in einem Titel-Eingabefeld (Dr., Dr.-Ing., Prof. etc.) der Stammdateneingabe oder bei der Eingabe des Aktenumlaufvermerkes.

@@ -1,0 +1,17 @@
+Die nachfolgend aufgeführten Substitutionsvorschläge für ein ausgewähltes Arzneimittel sind
+nach individueller Arztanforderung mit nur einer Aktion durch die Verordnungssoftware in
+Form von Auswahllisten nach Maßgabe der Pflichtfunktion P3-320 bzw. P3-325 darzustellen:
+1. Wirkstoffgleiche, preisgünstigere, zur Substitution geeignete Arzneimittel
+(Preisvergleich): Die Auswahl und Anzeige erfolgt nach den Kriterien von P3-325
+mit der Maßgabe, dass jene Arzneimittel angezeigt werden, die preisgünstiger
+sind als das ausgewählte Arzneimittel.
+2. Substitutionsvorschläge aus Arzneimittelvereinbarungen nach § 84 Abs. 1 SGB V:
+Die Auswahl erfolgt nach den Kriterien der jeweiligen Arzneimittelvereinbarung
+(vgl. K3-610). Die Darstellung erfolgt gemäß P3-320 soweit die jeweilige
+Arzneimittelvereinbarung nichts Abweichendes vorsieht.
+3. Rabattarzneimittel nach § 130a Abs. 8 SGB V, die zur Substitution des
+Ausgangsarzneimittels geeignet sind: Die Auswahl und Anzeige erfolgt nach den
+Kriterien von P3-325 mit der Maßgabe, dass nur jene Arzneimittel angezeigt
+werden, für die eine Kennzeichnung Rabattvereinbarung (043) vorliegt.
+Darstellungen von Substitutionsvorschlägen ohne vorhergehende individuelle Anforderung
+oder andere als die aufgeführten Substitutionsvorschläge sind unzulässig.

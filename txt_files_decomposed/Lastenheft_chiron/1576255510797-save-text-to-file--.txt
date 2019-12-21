@@ -1,0 +1,7 @@
+Die Betriebsmittelkennzeichnung erfolgt nach EN 81346-2.
+Komponenten sind innerhalb von elektrischen Einbauräumen am
+Einbauort und am Bauteil dauerhaft lesbar zu bezeichnen.
+Elektrische Komponenten außerhalb der Einbauräume (Schalter,
+Motoren, Ventile, Druckschalter usw.) sind am Einbauort und am
+Anschlusskabel unverlierbar und dauerhaft (graviert oder gelasert)
+zu kennzeichnen.

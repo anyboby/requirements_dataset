@@ -1,0 +1,2 @@
+Aus dem Bewilligungsprozess heraus muss die Software verschiedene weitere Schnittstellen bedienen. Diese umfassen unter anderem die Bereitstellung von Daten zur kaufmännischen Buchung, statistische Auswertungen für die Übermittlung an das statistische
+Landesamt sowie die Darlehensmeldung an das Bundesverwaltungsamt (BVA).

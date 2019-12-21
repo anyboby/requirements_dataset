@@ -1,0 +1,3 @@
+Das Löschen von Datensätzen sollte einfacher und optimierter ablaufen. Hierfür soll es
+auch für Lokalkoordinatoren möglich sein, Datensätze zu löschen, wenn diese im Status
+„ohne Termin / zu besuchen“ und „Datenerfassung“ sind.

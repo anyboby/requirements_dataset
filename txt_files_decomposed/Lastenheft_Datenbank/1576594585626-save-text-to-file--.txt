@@ -1,0 +1,7 @@
+Die DB soll auf einem externen Server betrieben werden. Für die Wartung und Support
+der DB und des Servers ist der Auftragnehmer zuständig. Der Auftragnehmer muss den
+Auftraggeber sofort informieren, wenn es zu technischen Problemen kommt. Der Server
+soll 24/7 erreichbar sein. Die Wartungs- sowie Supportleistungen sollen während der
+Vertragszeit gestaffelt werden. Beauftragungen müssen immer in schriftlicher Form
+vorliegen. Jeder Schriftverkehr muss vom Auftragnehmer formlos schriftlich bestätigt
+werden.

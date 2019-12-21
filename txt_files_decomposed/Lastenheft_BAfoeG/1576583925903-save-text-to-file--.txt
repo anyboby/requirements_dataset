@@ -1,0 +1,3 @@
+Jede Dateneingabe/-änderung ist in der Software mit Datum, Uhrzeit, Benutzer und Wert
+zu protokollieren. Eingabe- und Änderungsprotokolle müssen automatisch in der elektronischen Akte gespeichert sowie als Bestandteil der Papierakte automatisch ausgedruckt
+werden.

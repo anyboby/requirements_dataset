@@ -1,0 +1,8 @@
+Um unberechtigte Zugriffe auf die im Rahmen der BAföG-Sachbearbeitung genutzten
+Personendaten zu verhindern, in jeder Betriebssituation identische Resultate zu liefern
+und einen unwiederbringlichen Datenverlust zu vermeiden, muss die BAföG-Software die
+nachfolgend beschriebenen Sicherheitsanforderungen umsetzen. Die Software muss
+grundsätzlich Schutz, Vertraulichkeit, Verfügbarkeit und Unveränderbarkeit der Daten sicherstellen können.
+Authentifizierung der Anwender
+Die Authentifizierung der Anwender in den Studentenwerken und kommunalen Ämtern
+für Ausbildungsförderung erfolgt über personenspezifische Benutzerkonten.

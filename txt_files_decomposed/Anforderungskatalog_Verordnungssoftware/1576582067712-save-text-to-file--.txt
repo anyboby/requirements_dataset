@@ -1,0 +1,2 @@
+Die graphische Darstellung der Ergebnisse ist in Form verschiedener Diagrammtypen nach
+Jahren bzw. Quartalen, Monaten etc. möglich.

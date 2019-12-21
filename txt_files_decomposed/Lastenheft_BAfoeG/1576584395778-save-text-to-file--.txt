@@ -1,0 +1,3 @@
+Die Software muss die Möglichkeit bieten, Benutzereingaben in Datenfelder sinnvoll zu
+ergänzen. Dies umfasst insbesondere die automatische Vervollständigung basierend auf
+dem möglichen Wertebereich.

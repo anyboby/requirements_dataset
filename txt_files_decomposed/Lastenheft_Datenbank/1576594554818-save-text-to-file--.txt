@@ -1,0 +1,5 @@
+Das Melden von Fehlern oder Erweiterungen soll über ein Ticketsystem laufen. Mit dem
+Ticketsystem werden alle Aufträge erfasst. Diese werden mit einem Status versehen um
+den Auftraggeber dem Bearbeitungsstatus mitzuteilen. Fragen und Antworten werden mit
+im Ticketsystem geschrieben. Das Ticketsystem soll für das Live-System sowie für die
+Testdatenbank zur Verfügung stehen.

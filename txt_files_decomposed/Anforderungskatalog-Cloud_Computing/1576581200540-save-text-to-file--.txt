@@ -1,0 +1,3 @@
+Alle Kundensysteme sind gemäß der Vereinbarungen (SLA) zwischen Cloud-Anbieter und
+Cloud-Kunden bezüglich der Kritikalität zur
+Dienstleistungserbringung klassifiziert.

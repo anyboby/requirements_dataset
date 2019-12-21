@@ -1,0 +1,3 @@
+Die hier geforderte Leitlinie ist eine Basisanforderung. Weiterführende Richtlinien und Anweisungen müssen sich an der Größe und Komplexität
+der Organisation des Cloud-Anbieters und der
+Art des angebotenen Cloud-Dienstes orientieren.

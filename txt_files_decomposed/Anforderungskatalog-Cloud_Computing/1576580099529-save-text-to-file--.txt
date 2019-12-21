@@ -1,0 +1,14 @@
+Ergänzende Informationen zur Basisanforderung
+Sicherheitsrelevante Ereignisse sind u. a.
+» An- und Abmeldevorgänge
+» Erstellung, Änderung oder Löschung von
+Benutzern und Erweiterung der Berechtigungen
+» Verwendung, Erweiterung und Änderungen von
+privilegierten Zugriffsberechtigungen
+» Nutzung von temporären Berechtigungen
+Da es sich bei den protokollierten Daten i. d. R. um
+personenbezogene Daten handelt, sind in dem
+Fall datenschutzrechtliche Anforderungen an die
+Aufbewahrung zu beachten und zu überprüfen.
+Erfahrungsgemäß sollte eine Frist von einem Jahr
+nicht überschritten werden.

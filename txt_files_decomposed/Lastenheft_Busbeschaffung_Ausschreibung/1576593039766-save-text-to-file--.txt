@@ -1,0 +1,2 @@
+Die Hybrid-Technik muss insbesondere folgende technische Einheiten besitzen: zwei
+Supercap-Einheiten mit Wechselrichter auf dem Fahrzeugdach, ein Kühlsystem für Niedertemperaturen und einen Elektromotor in Form eines 48-Volt-Motors.Die 48-VoltTechnik ist entscheidend für die Auftragsvergabe, da eine Schulung der Werkstattmitarbeiter im Bereich der Voll-Hybrid- bzw. Voll-Elektro-Antriebe aktuell nicht erfolgen kann.

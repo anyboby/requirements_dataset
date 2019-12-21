@@ -1,0 +1,2164 @@
+Fahrzeuglastenheft
+Muster
+
+Version 3
+22.05.2014
+
+Anmerkung: Vorgaben, die bei unterschiedlichen Anforderungen an Fahrzeuge angepasst werden und
+nicht allgemein gelten, sind in Kursivschrift / farblich
+hinterlegt dargestellt.
+
+Inhaltsverzeichnis
+1
+2
+2.1
+
+Geltungsbereich und allgemeine Anforderungen .......................................................... 5
+Anforderungen an das Fahrzeugkonzept ...................................................................... 6
+Mindestkriterien .............................................................................................................. 6
+
+2.2
+
+Nebenangebote ............................................................................................................. 6
+
+3.1.
+
+Allgemeine Anforderungen ............................................................................................ 6
+Neu- und Gebrauchtfahrzeuge ...................................................................................... 6
+
+3.2
+
+Benötigte Gesamtzahl für Regelbetrieb und Reservefahrzeuge ................................... 6
+
+3
+
+3.2.1 Fahrzeuge für den Regelbetrieb .................................................................................... 6
+3.2.2 Fahrzeugreserve ............................................................................................................ 6
+3.3
+
+Verfügbarkeit im Regelverkehr ...................................................................................... 8
+
+3.4
+
+Einhaltung der Fahrzeiten .............................................................................................. 8
+
+3.5
+
+Pläne, Zeichnungen ....................................................................................................... 8
+
+4.1
+
+Technische Mindestanforderungen für Haupt- und Nebenangebote............................. 9
+Vorschriften, technische Regeln .................................................................................... 9
+
+4.3
+
+Höchstgeschwindigkeit ................................................................................................ 10
+
+4.4
+
+Zweirichtungsfahrzeuge ............................................................................................... 10
+
+4.5
+
+Mehrfachtraktion .......................................................................................................... 10
+
+4.6
+
+Antriebstechnik ............................................................................................................ 10
+
+4.7
+
+Bremstechnik ............................................................................................................... 11
+
+4.8
+
+Ein-Mann-Betrieb ......................................................................................................... 11
+
+4.9
+
+Fahrzeuglängen ........................................................................................................... 11
+
+4.10
+
+Lichtraumprofil ............................................................................................................. 11
+
+4.11
+
+Streckenklasse ............................................................................................................. 11
+
+4.13
+
+Traktion ........................................................................................................................ 11
+
+4.14
+
+Zeitplan und Bestätigung des Liefertermins durch den Fahrzeughersteller ................ 11
+
+4.15
+
+Zulassung durch das Eisenbahnbundesamt (EBA) ..................................................... 12
+
+4.17
+
+Sicherheit ..................................................................................................................... 12
+
+4.18
+
+Brandschutz ................................................................................................................. 13
+
+4.19
+
+Begegnungsverkehr HGV ............................................................................................ 13
+
+5.1
+
+Fahrgastraum, Auslegung ............................................................................................ 13
+Sitzplatzkapazität ......................................................................................................... 13
+
+5.2
+
+Durchgangsmöglichkeit ................................................................................................ 13
+
+5.3
+
+Gangbreite ................................................................................................................... 13
+
+5.4
+
+Innenhöhe .................................................................................................................... 14
+
+5.5
+
+Erste Klasse ................................................................................................................. 14
+
+5.6
+
+Sitze (Ausführung, Sitzanordnung und Sitzteiler) ........................................................ 14
+
+5.7
+
+Nichtraucherzüge ......................................................................................................... 17
+
+5.8
+
+Kleiderhaken ................................................................................................................ 17
+
+5.9
+
+Stufenfreie Flächen im Innenraum (Niederflurniveau) ................................................. 17
+
+4
+
+5
+
+Seite 2 von 40
+
+5.10
+
+Stehplatzflächen .......................................................................................................... 18
+
+5.11
+
+Haltestangen / -griffe / Handläufe ................................................................................ 18
+
+5.12
+
+Ruhebereich ................................................................................................................. 18
+
+6.1
+
+Mehrzweckbereich ....................................................................................................... 18
+Allgemeine Anforderungen Mehrzweckbereich ........................................................... 18
+
+6.2
+
+Mitnahmemöglichkeit von Rollstühlen, Kinderwagen und Fahrrädern ........................ 19
+
+6
+
+6.2.1 Flächen für Rollstühle .................................................................................................. 19
+6.2.2. Abstellflächen für Kinderwagen ................................................................................... 19
+6.2.3 Abstellflächen für Fahrräder......................................................................................... 19
+6.3
+
+Anpassung des Mehrzweckbereichs an saisonale Anforderungen ............................. 20
+
+7.1
+
+Berücksichtigung der Interessen der eingeschränkt mobilen Personen ..................... 20
+Allgemeine Anforderungen .......................................................................................... 20
+
+7.2
+
+Weg- und Leitsysteme für Sehbehinderte ................................................................... 22
+
+8
+9
+10
+11
+12
+13
+14
+15
+15.1
+
+Toilettensystem ............................................................................................................ 22
+Beleuchtung ................................................................................................................. 24
+Abfallbehälter ............................................................................................................... 24
+Gepäckablagen und Gepäck-Stauraum ...................................................................... 24
+Tische / Klapptische ..................................................................................................... 25
+Steckdosen .................................................................................................................. 25
+Videoüberwachung ...................................................................................................... 26
+Einstiege ...................................................................................................................... 26
+Einstiegsanordnung ..................................................................................................... 26
+
+15.2
+
+Auslegung der Einstiege .............................................................................................. 26
+
+15.3
+
+Einstieghöhe ................................................................................................................ 27
+
+15.4
+
+Türsteuerung ................................................................................................................ 27
+
+15.5
+
+Türbedienung ............................................................................................................... 28
+
+16
+17
+17.1
+
+Fahrgastzählsystem ..................................................................................................... 29
+Klimatisierung............................................................................................................... 29
+Heizungs- und Lüftungsanlage .................................................................................... 29
+
+17.2
+
+Notbelüftung ................................................................................................................. 29
+
+18
+18.1
+
+Fahrgastinformation (FIS) ............................................................................................ 29
+Optische Informationsanzeigen ................................................................................... 29
+
+7
+
+18.1.1 außen ........................................................................................................................... 29
+18.1.2 innen ............................................................................................................................ 30
+18.2
+
+Akustische Informationen ............................................................................................. 31
+
+18.3
+
+Mehrfachtraktion, Flügeln, Kuppeln ............................................................................. 32
+
+19
+20
+20.1
+
+Infotainment ................................................................................................................. 32
+Kommunikationsverbindung und Echtzeitdaten........................................................... 33
+Ortung und Visualisierung ............................................................................................ 33
+
+20.2
+
+WLAN-Zugang ............................................................................................................ 33
+
+21
+22
+23
+23.1
+
+Notrufsprechstelle ........................................................................................................ 35
+Einsatz umweltfreundlicher Fahrzeuge ........................................................................ 35
+Schall- und Geräuschemissionen ................................................................................ 36
+Schallemission (Fahrzeug außen) ............................................................................... 36
+
+23.2
+
+Geräuschemission (Fahrkomfort) ................................................................................ 36
+
+Seite 3 von 40
+
+24
+24.1
+
+Kupplung ...................................................................................................................... 37
+Automatische Kupplung ............................................................................................... 37
+
+24.1.1 Neufahrzeuge .............................................................................................................. 37
+24.1.2 Gebrauchtfahrzeuge .................................................................................................... 37
+25
+26
+26.1
+
+Fensterflächen ............................................................................................................. 37
+Wartungs- und Instandhaltungskonzept ...................................................................... 38
+Betriebssicherer Zustand ............................................................................................. 38
+
+26.2
+
+Instandsetzungsmaßnahmen....................................................................................... 38
+
+26.3
+
+Außen- und Innenreinigung ......................................................................................... 38
+
+27
+27.1
+
+Gestaltung der Fahrzeuge/Designkonzept .................................................................. 38
+Designkonzept ............................................................................................................. 38
+
+27.2
+
+Graffitischutz/Anti-Scratching-Schutz .......................................................................... 39
+
+28
+29
+
+Werbung an und in Fahrzeugen .................................................................................. 39
+Erneuerungspflichten und Aussagen zur Ausstattung ................................................. 40
+
+Seite 4 von 40
+
+1
+
+Geltungsbereich und allgemeine Anforderungen
+
+Die nachfolgenden Anforderungen gelten sowohl für Haupt- als auch für Nebenangebote.
+Sie gelten ferner für Folgebeschaffungen, z.B. für Ersatzbeschaffungen und bei erhöhtem
+Fahrzeugbedarf. Es sind unterschiedliche Fahrzeugtypen für die Produkte IRE/RE und
+RB/S-Bahn zulässig.
+In diesem Lastenheft werden folgende Definitionen benutzt:
+Zug:
+
+Der Begriff „Zug“ wird als Oberbegriff sowohl für lokbespannte Züge, als auch
+für Trieb- und Wendezüge benutzt. Werden Anforderungen an „Züge“ definiert,
+gelten diese Anforderungen in gleicher Weise, wenn Trieb- oder Wendezüge
+angeboten werden. Ein „Zug“ kann aus einer oder mehreren „Zugeinheiten“ bestehen.
+
+Zugeinheit: Trieb- oder Wendezug (selbstständig fahrfähig), der mit weiteren Trieb- oder
+Wendezügen zu einem „Zug“ gekuppelt werden kann. Anforderungen an „Zugeinheiten“ gelten jeweils für jede Zugeinheit.
+Triebzug:
+
+Eine mit eigenem Antrieb versehene, im Regelbetrieb nicht trennbare Einheit
+aus einem oder mehreren Fahrzeugen.
+
+Wendezug: Züge bei denen beim Richtungswechsel das Triebfahrzeug (die Lokomotive
+oder der Triebwagen) nicht umgesetzt werden muss, weil sich entweder an beiden Zugenden ein Triebfahrzeug befindet und beide vom vorderen Triebfahrzeug aus gesteuert werden, oder sich an einem Ende des Zuges das Triebfahrzeug und an dem anderen Ende ein Steuerwagen befindet, mit dem das Triebfahrzeug ferngesteuert werden kann.
+Wagen:
+
+Teil eines Zuges oder einer Zugeinheit ohne eigenen Antrieb. Mehrere Wagen
+können einen Zug oder eine Zugeinheit bilden.
+
+Die geforderten Unterlagen, Angaben und Erläuterungen müssen im Angebot vorgelegt werden.
+Die Gliederung des vorzulegenden Fahrzeugkonzeptes soll sich an der Gliederung dieses
+Lastenheftes orientieren.
+
+Seite 5 von 40
+
+2
+
+2.1
+
+Anforderungen an das Fahrzeugkonzept
+
+Mindestkriterien
+
+Die Vorgaben dieses Lastenhefts stellen Mindestkriterien dar; sie gelten für alle Fahrzeuge
+(Neu- und Gebrauchtfahrzeuge). Bei Einsatz von Gebrauchtfahrzeugen sind Abweichungen
+vom Lastenheft zulässig. Soweit für Gebrauchtfahrzeuge andere Mindestkriterien oder Anforderungen bestehen, ist dies jeweils mit dem Hinweis „Neu- bzw. Gebrauchtfahrzeuge“
+vermerkt.
+
+2.2
+
+Nebenangebote
+
+Auch in Nebenangeboten sind die Mindestkriterien einzuhalten.
+
+3
+3.1.
+
+Allgemeine Anforderungen
+Neu- und Gebrauchtfahrzeuge
+
+Es können Neu- und Gebrauchtfahrzeuge vorgesehen werden. Werden Gebrauchtfahrzeuge
+eingesetzt, müssen Lokomotiven, Wagen und Triebwagen Baujahr/Zulassung xxxx oder
+jünger sein.
+
+3.2
+
+Benötigte Gesamtzahl für Regelbetrieb und Reservefahrzeuge
+
+3.2.1
+
+Fahrzeuge für den Regelbetrieb
+
+Die benötigte Gesamtzahl der für den Regeleinsatz vorgesehenen Fahrzeuge und der Reservefahrzeuge sowie deren Stationierung muss angegeben werden (produktspezifisch).
+3.2.2
+
+Fahrzeugreserve
+
+Als Reservefahrzeuge sind solche Fahrzeuge zu verstehen, die ständig für die in diesem
+Vergabeverfahren ausgeschriebenen Betriebsleistungen zur Verfügung stehen und bei störungsfreier Abwicklung der Leistungen zu keinem Zeitpunkt des Tages für die Regelbetriebsleistungen eingesetzt werden müssen. Die Reservefahrzeuge müssen zusammen mit den
+planmäßig vorgesehenen Fahrzeugen ohne Leistungseinschränkungen und betriebliche
+Restriktionen eingesetzt werden können.
+
+Die dauerhafte Fahrzeugreserve muss mindestens 15 Prozent je Fahrzeugkategorie (Lok,
+Wagen, Triebwagenbauart) der in der Fahrplanspitze erforderlichen Regelfahrzeuge betragen, es ist grundsätzlich auf ganze Fahrzeuge aufzurunden. Die Fahrplanspitze bildet derje-
+
+Seite 6 von 40
+
+nige Verkehrstag einer Woche, der die meisten Laufplantage aufweist. Auf die Anzahl dieser
+Laufplantage ist die 15 %-ige Reserve zu kalkulieren. Laufplanmäßig eingesetzte Fahrzeuge
+werden dann als Reservefahrzeug gewertet, wenn sie zwischen zwei Zugleistungen mindestens 24 Stunden stehen.
+Die Reserve von 15% muss enthalten:
+1. Mindestens zwei Fahrzeuge, die sofort einsetzbar sind und an denen allenfalls Instandhaltungsmaßnahmen vorgenommen werden, auf die bei auftretender Einsatznotwendigkeit auch kurzfristig verzichtet werden kann (z.B. Außenreinigung),
+2. Mindestens ein weiteres Fahrzeug, welches innerhalb von sechs Stunden eingesetzt
+werden kann.
+An weiteren Reservefahrzeugen dürfen auch länger andauernde präventive Instandhaltungsoder Fristarbeiten oder Hauptuntersuchungen vorgenommen werden.
+
+Dabei muss sichergestellt werden, dass die Reservefahrzeuge mit den planmäßig vorgesehenen Fahrzeugen zusammen ohne Leistungseinschränkungen und betriebliche Restriktionen eingesetzt werden können. Reservefahrzeuge für eine bestimmte Triebwagenbauart
+müssen daher zumindest dann, wenn ein Einsatz in Mehrfachtraktion vorgesehen ist, mit
+den Planfahrzeugen kuppelbar und gemeinsam steuerbar sein. Alternativ wäre es jedoch
+auch zulässig, ausreichend Reservefahrzeuge einer anderen, nicht mit den Planfahrzeugen
+kompatiblen Bauart vorzuhalten, mit denen der vollständige Ersatz auch von Mehrfachtraktionen möglich ist.
+
+Ausnahmsweise dürfen Reservefahrzeuge eingesetzt werden für
+-
+
+saisonal begrenzte Verstärkerleistungen,
+
+-
+
+dauerhafte Kapazitätsausweitungen; in einem solchen Fall ist die Zustimmung des
+Auftraggebers vorab einzuholen
+
+Anmerkung: Der Begriff „saisonal“ ist dabei bewusst nicht näher definiert. Auch eine Verstärkung an Adventssamstagen wäre eine saisonale Verstärkung. Es ist dem Bieter unbenommen, zur fallweisen Verstärkung einzelner Züge z.B. bei Gruppenanmeldungen hierfür Reservefahrzeuge einzusetzen. Es muss jedoch sichergestellt werden, dass die vorgegebenen
+Mindestkapazitäten für Sitzplätze, Rollstuhlplätze und Fahrräder auf jeden Fall ohne Einbeziehung von Reservefahrzeugen angeboten werden und dass bei Ausfall eines Fahrzeugs
+kurzfristig ein Reservefahrzeug zur Sicherstellung der o.g. Mindestkapazitäten eingesetzt
+werden kann, auch wenn es u.U. eigentlich für eine saisonale Verstärkung eines anderen
+Zuges über die geforderte Mindestkapazität hinaus vorgesehen war.
+
+Seite 7 von 40
+
+Fällt die Reservehaltung unter 15 Prozent (z. B. wegen dauerhaftem Ausfall von Fahrzeugen), ist das EVU verpflichtet, das Reservekontingent wieder auf mindestens 15 Prozent je
+Fahrzeugkategorie aufzustocken.
+
+3.3
+
+Verfügbarkeit im Regelverkehr
+
+Die Fahrzeuge sind während der gesamten Vertragslaufzeit in betriebssicherem Zustand,
+alle technischen Einrichtungen sind ständig betriebsbereit zu halten.
+Die Bereitstellung einer stets ausreichenden Anzahl von Fahrzeugen zur Abwicklung des
+ausgeschriebenen Verkehrsangebotes muss sichergestellt sein. Es ist darzulegen, wie dies
+insbesondere dann bewerkstelligt wird, wenn einzelne Fahrzeuge wegen Hauptuntersuchungen (HU) usw. nicht eingesetzt werden können. Die Planungen zur zeitlichen Staffelung
+der HU sind vorzulegen.
+
+3.4
+
+Einhaltung der Fahrzeiten
+
+Das Eisenbahnverkehrsunternehmen (EVU) ist dafür verantwortlich, dass die von ihm ausgewählten Fahrzeuge die dem Betriebsprogramm zugrunde gelegten Fahrzeiten zu jeder
+Jahreszeit einhalten. Dies ist durch die Bestätigung des Betriebskonzepts durch DB Netz AG
+zu dokumentieren.
+Der Bieter hat im Angebot alle technischen Daten, die zur Beurteilung der Fahrdynamik von
+Bedeutung sind, vorzulegen (RUT-Datenblatt). Hierzu zählen insbesondere:
+-
+
+Anfahrbeschleunigung (0 – 50 km/h),
+
+-
+
+Zugkraft-Geschwindigkeitsdiagramm,
+
+-
+
+Angaben zur Fahrzeugmasse,
+
+-
+
+Fahrwiderstand.
+
+3.5
+
+Pläne, Zeichnungen
+
+Für die Fahrzeuge sind Planunterlagen und detaillierte Fahrzeugzeichnungen mit folgenden
+Ansichten vorzulegen:
+a. Grundriss (mit Maßen: Außenlänge, Außen-/Innenbreite, Außenhöhe, Gangbreite, lichte
+Weite Innen-/Außentüren, Sitzabstände (incl. Behindertensitze und Rollstuhlplätze),
+Mehrzweckbereich, Toilettenkabine und Angabe 1. Klasse Abteil, falls dies angeboten
+wird – s. Ziff. 5.5),
+
+Seite 8 von 40
+
+b.
+
+Anzahl der Sitzplätze, (1. und 2. Klasse je insgesamt sowie gesondert in der 2. Klasse
+befindliche Klappsitze), Behindertensitze gem. TSI PRM, Lage der Rollstuhl-, Kinderwagen- und Fahrradabstellplätze,
+
+c.
+
+verschiedene Querschnitte (z. B. Innenhöhe, Einstiegverhältnisse an unterschiedlichen
+Bahnsteighöhen, Mehrzweckbereich mit WC, Sitzplatzbereich mit Gepäckablagen,
+Übergang),
+
+d. Seitenansicht (mit Maßen: Außenlänge über Puffer/Kupplung, Höhe, Drehgestellabstände, Abstand Fahrzeugenden bis zur 1.Tür und Abstand 1. bis zur letzten Tür),
+e. Frontansicht (mit Maßen: Außenhöhe, -breite),
+f.
+
+Beschreibung der Sitze (z. B. Maßskizze).
+
+Es ist eine 3D-Darstellung (Innenraum 1./2. Klasse, Mehrzweckraum, Toilette, etwaige Besonderheiten, Außenaufnahmen von der Seite und von vorne etc.) des angebotenen Basisfahrzeugs vorzulegen.
+Der Bieter hat anzugeben, ob ein Innenraummodell / ein im Einsatz oder im Bau befindliches
+Fahrzeug besichtigt werden kann. Wenn dies der Fall ist und dieses Modell die gleiche Ausstattung wie das angebotene Fahrzeug besitzt, kann auf die 3D--Darstellung verzichtet werden. Eine 3D-Darstellung ist jedoch erforderlich, wenn die angebotene Ausstattung davon
+abweicht.
+
+4
+4.1
+
+Technische Mindestanforderungen für Haupt- und Nebenangebote
+Vorschriften, technische Regeln
+
+Für die Entwicklung, Herstellung, Zulassung, Lieferung und Prüfung der Triebzüge und ihrer
+Teile gelten die einschlägigen Vorschriften, Bedingungen, Empfehlungen und Normen in der
+zum Zeitpunkt der Zulassung gültigen Fassung Sofern hier Normentwürfe zitiert werden, die
+zwischenzeitlich als Normen gültig sind, so gilt auch in diesem Fall der aktuelle Stand zum
+Vertragsschluss.
+Die Fahrzeuge müssen mit EBuLa / ETCS ausgerüstet sein (siehe 4.17).
+Die Fahrzeuge müssen bei Herstellung, Betrieb, Wartung und Entsorgung den gesetzlichen
+Bestimmungen des Umwelt- und des Arbeitsschutzes entsprechen.
+Alle zum Zeitpunkt des Vertragsschlusses gültigen Technischen Spezifikationen Interoperabilität (TSI), Vorschriften, Normen und Richtlinien sind einzuhalten (sofern sie nicht ohnehin
+zur Zulassung und für den Betrieb der Fahrzeuge anzuwenden sind). Soweit das Lastenheft
+über gesetzliche Anforderungen hinausgeht, insbesondere bei den Anforderungen an die
+Belange mobilitätseingeschränkter Personen, gelten die Anforderungen dieses Lastenheftes
+zusätzlich dazu. Die Regeln für den Bestandsschutz beim Einsatz von Gebrauchtfahrzeugen
+
+Seite 9 von 40
+
+können angewandt werden, sofern nicht in diesem Lastenheft darüber hinausgehende Anforderungen gestellt werden.
+4.2
+
+Erfüllung der Netzzugangskriterien
+
+Die Fahrzeuge müssen die technischen Netzzugangskriterien des befahrenen Streckennetzes erfüllen. Grenzüberschreitender Verkehr: Bei den auf ausländischen Abschnitten vorgesehenen Fahrzeugen gilt dies vollumfänglich auch für die dort befahrenen Strecken.
+Das EVU ist dafür verantwortlich, dass seine Fahrzeuge über die Vertragslaufzeit auf dem
+Netz einsatzfähig sind. Evtl. anfallende Kosten für eine Nachrüstung sind vom EVU zu tragen.
+
+4.3
+
+Höchstgeschwindigkeit
+
+Die Fahrzeuge sind auf eine betriebliche Höchstgeschwindigkeit von mindestens 140 km/h
+auszulegen.
+
+4.4
+
+Zweirichtungsfahrzeuge
+
+Die Fahrzeuge müssen zweirichtungsfähig sein. Der Richtungswechsel ist jeweils ohne aufwändige Rangiertätigkeiten zu ermöglichen. Die für einen Richtungswechsel benötigten Zeiten sind darzustellen.
+
+4.5
+
+Mehrfachtraktion
+
+Für Mehrfachtraktionen gelten folgende Anforderungen:
+a.
+
+Die vorgesehenen Fahrzeuge müssen als Zugverband in x-fach-Traktion innerhalb der
+zu bedienenden Linie vollumfänglich untereinander kompatibel sein.
+
+b.
+
+Es darf zu keiner Einschränkung der Fahrdynamik kommen.
+
+c.
+
+Es ist vorgesehen, das Verkehrskonzept mit zusätzlichen Fahrzeugen auszustatten. Die
+Beibehaltung aller betriebsrelevanten Funktionalitäten (Türsteuerung, Zugbus, FISDaten etc.) ist im Zeitraum bis … zu gewährleisten.
+
+d.
+
+Beim Einsatz von Neufahrzeugen ist eine vollumfängliche Kuppelbarkeit mit Gebrauchtfahrzeugen nicht erforderlich. Es muss jedoch sichergestellt werden, dass die vorgesehene Verkehrsleistung ohne Einschränkung erbracht werden kann.
+
+4.6
+
+Antriebstechnik
+
+Bei einem Ausfall von max. 50 Prozent der Antriebsleistung ist ein selbständiges Räumen
+der Strecke in Fahrtrichtung zu gewährleisten.
+
+Seite 10 von 40
+
+4.7
+
+Bremstechnik
+
+Die Fahrzeuge sind mit Magnetschienenbremsen auszurüsten.
+
+4.8
+
+Ein-Mann-Betrieb
+
+Das Verkehren aller Züge muss unabhängig von Zugbegleitern im Ein-Mann-Betrieb möglich
+sein, sofern besondere Streckenvorschriften nichts anderes besagen (z. B. Steilstrecke). Der
+Triebfahrzeugführer muss die Möglichkeit haben, am Zug entlang zu blicken (Seitenfenster /
+Spiegel / Außenkamera).
+
+4.9
+
+Fahrzeuglängen
+
+Die Fahrzeuglängen müssen die betrieblich nutzbaren Bahnsteiglängen berücksichtigen, der
+Abstand Fahrzeugenden bis zur 1.Tür und Abstand 1. bis zur letzten Tür ist darzustellen
+(siehe 3.5.d.).
+
+4.10
+
+Lichtraumprofil
+
+Die Fahrzeuge müssen für das auf dem ausgeschriebenen Netz maßgebenden Lichtraumprofil zugelassen sein. Sollen Doppelstockfahrzeuge zum Einsatz kommen, sind diese im
+erweiterten G2-Profil (DE2) auszuführen (Abstimmung mit der DB Netz AG hinsichtlich der
+erforderlichen Genehmigungen).
+4.11
+
+Streckenklasse
+
+Die Fahrzeuge müssen für die jeweilige Streckenklasse geeignet sein.
+
+4.13
+
+Traktion
+
+Es sind fahrleitungsabhängige / -unabhängige Fahrzeuge einzusetzen.
+
+4.14
+
+Zeitplan und Bestätigung des Liefertermins durch den Fahrzeughersteller
+
+Mit Angebotsabgabe sind vorzulegen:
+-
+
+Voraussichtlicher Zeitplan für die Auslieferung der Fahrzeuge.
+
+Spätestens ein Jahr vor Aufnahme des Probebetriebes ist vorzulegen:
+-
+
+Verbindlicher Zeitplan des Fahrzeugherstellers über die Fahrzeugauslieferungen.
+
+Seite 11 von 40
+
+4.15
+
+Zulassung durch das Eisenbahnbundesamt (EBA)
+
+Es dürfen nur Fahrzeuge eingesetzt werden, die vom Eisenbahnbundesamt (EBA) für den
+Fahrgastbetrieb auf den befahrenen Strecken zugelassen sind. Die Fahrzeugzulassung ist
+nachzuweisen.
+
+Ist diese Zulassung durch das Eisenbahnbundesamt noch nicht erteilt, hat der Bieter
+a. mit der Angebotsabgabe
+-
+
+zu versichern, dass diese bis zur Aufnahme des Probebetriebs vorliegen wird,
+
+-
+
+mit Angebotsabgabe einen Zeitplan vorzulegen, aus dem sich ergibt, in welchen zeitlichen Stufen und mit welchen Maßnahmen sichergestellt wird, dass die Zulassung
+erteilt werden wird,
+
+b. spätestens ein Jahr vor Aufnahme des Probebetriebes einen verbindlichen Zeitplan vorzulegen, aus dem sich das Abnahmeprozedere ergibt und mit dem die rechtzeitige Abnahme der Fahrzeuge nachgewiesen wird.
+
+4.16
+
+Grenzüberschreitender Verkehr: Zulassung durch die ausländische Zulassungsbehörde
+
+Für die Bedienung der Linie xxx – xxx müssen Fahrzeuge für den Fahrgastbetrieb auf dem
+ausländischen Abschnitt xxx – xxx zugelassen sein. Die geplante Anzahl der Fahrzeuge mit
+ausländischer Zulassung ist im Angebot anzugeben. Die Fahrzeugzulassung ist nachzuweisen.
+Ist diese Zulassung durch das Eisenbahnbundesamt / die jeweils zuständige Zulassungsbehörde noch nicht erteilt, hat der Bieter
+a. mit der Angebotsabgabe
+-
+
+zu versichern, dass diese bis zur Aufnahme des Probebetriebs vorliegen wird,
+
+-
+
+mit Angebotsabgabe einen Zeitplan vorzulegen, aus dem sich ergibt, in welchen zeitlichen Stufen und mit welchen Maßnahmen sichergestellt wird, dass die Zulassung
+erteilt werden wird,
+
+b. spätestens ein Jahr vor Aufnahme des Probebetriebes einen verbindlichen Zeitplan vorzulegen, aus dem sich das Abnahmeprozedere ergibt und mit dem die rechtzeitige Abnahme der Fahrzeuge nachgewiesen wird.
+
+4.17
+
+Sicherheit
+
+Die Fahrzeuge sind mit Zugfunk und Zugbeeinflussungssystemen entsprechend der Netzzugangskriterien auszurüsten.
+
+Seite 12 von 40
+
+4.18
+
+Brandschutz
+
+Es wird explizit darauf hingewiesen, dass nach den „Regelungen für die brandschutztechnische Abnahme nach § 32 EBO“, die seit 1.06.2006 in Kraft sind, die brandschutztechnische
+Einstufung der Schienenfahrzeuge geregelt ist. Danach ist jedes EVU für den Einsatz der
+Fahrzeuge gemäß ihrer brandschutztechnischen Einstufung auf den jeweiligen Strecken
+verantwortlich.
+4.19
+
+Begegnungsverkehr HGV
+
+Auf dem ausgeschriebenen Netz finden Begegnungen mit Zügen des HGV mit bis zu xxx
+km/h statt (auf dem Abschnitt xxx – xxx auch im Tunnel).
+
+5
+
+Fahrgastraum, Auslegung
+
+5.1
+
+Sitzplatzkapazität
+
+Der Bieter hat im Angebot darzustellen, welche Sitzplatzkapazitäten (incl. Behindertensitze)
+in den einzelnen Zügen angeboten werden. Zudem sind die Rollstuhl-, Kinderwagen- und
+Fahrradabstellplätze (alternativ) anzugeben.
+Änderungen der Sitzplatzkapazität und der Zugbildung sind nur mit Zustimmung des Auftraggebers zulässig.
+
+5.2
+
+Durchgangsmöglichkeit
+
+Der Fahrgastraum einer Zugeinheit muss vollständig durchgängig begehbar sein.
+a. Die Durchgangsweite im Bereich der Fahrzeugübergänge bei Fahrzeugen, die zwischen zwei fest gekuppelten Wagen ein Antriebsmodul aufweisen, muss mindestens
+800 mm betragen. Sofern technische Einbauten oder andere zwingende fahrzeugbauliche Gründe vom Hersteller geltend gemacht werden können, ist eine geringere
+Durchgangsweite zulässig.
+b. Die Durchgangsweite zwischen zwei Wagen mit UIC-Übergang o. ä. muss mindestens 550 mm betragen.
+c.
+
+5.3
+
+Die Wagenübergänge sind kontrastierend (Boden) zu gestalten
+
+Gangbreite
+
+Die Gangbreite muss bei einstöckigen Neu- und Gebrauchtfahrzeugen mindestens 550 mm,
+bei doppelstöckigen Neu- und Gebrauchtfahrzeugen mindestens 500 mm betragen. Bei
+
+Seite 13 von 40
+
+Gebrauchtfahrzeugen soll die Gangbreite zur Sicherstellung der Zugänglichkeit von Rollstuhlplätzen und Universaltoiletten dort 800 mm betragen.
+Die Mindestgangbreiten müssen auch bei abgestellten Fahrrädern, Kinderwagen und Rollstühlen (in den als solchen vorgesehenen Stellbereichen) gewährleistet sein.
+Die Gänge sind durchgehend mit Piktogrammen zu versehen, die darauf hinweisen, dass
+Gepäck / Fahrräder dort nicht abgestellt werden dürfen.
+
+5.4
+
+Innenhöhe
+
+Die Innenhöhen über Fußboden müssen angegeben werden (Deckeninnenhöhe im Mittelgang, in den Übergängen zwischen den Wagenteilen, siehe Kap. 3.5).
+Durch Einbauten in der Decke (z.B. Fahrgastinformationssysteme) darf die Begehbarkeit des
+Fahrgastraumes nicht eingeschränkt werden. Ist der Einbau eines Fahrgastinformationssystems o.ä. vorgesehen, ist die lichte Höhe zwischen Fußboden und Unterkante der jeweiligen
+Einbauten im Angebot konkret anzugeben.
+
+5.5
+
+Erste Klasse
+
+Eine erste Klasse kann angeboten werden.
+Wird eine erste Klasse angeboten, gelten folgende Anforderungen:
+•
+
+Der 1. Klasse-Bereich muss eindeutig erkennbar und für den Fahrgast intuitiv wahrnehmbar sein (z.B. deutlich andere Sitzbezugsfarbe und -komfort als in der 2. Klasse).
+
+•
+
+Die 1. und 2. Klasse-Fahrgasträume müssen mit einer transparenten (jedoch mit zwei
+deutlich sichtbaren Bändern in den Höhen zw. 850-1.000 mm und 1.500-2.000 mm z. B.
+mit Zeichen versehenen) und akustisch wirksamen Trennwand mit Glastür abgegrenzt
+werden, konstruktionsbedingte Öffnungen sind zulässig. Eine akustische Trennung der
+Fahrgastbereiche ist nicht erforderlich.
+
+•
+
+Die Anordnung und Ausgestaltung des oder der 1. Klasse-Bereich(e) hat so zu erfolgen,
+dass ein Durchgehen von Fahrgästen vermieden werden kann.
+
+•
+
+Auf die 1. Klasse sollen mindestens fünf und nicht mehr als zehn Prozent der gesamten
+Sitzplätze (Klappsitze nicht eingerechnet) entfallen.
+
+5.6
+
+Sitze (Ausführung, Sitzanordnung und Sitzteiler)
+
+In der 2. Klasse ist maximal eine 2 + 2 Anordnung zulässig, in begründeten Einzelfällen sind
+Ausnahmen zulässig. In der 1. Klasse ist, sofern sie angeboten wird, maximal eine 2 + 1
+
+Seite 14 von 40
+
+Anordnung vorzusehen. Die nachfolgend genannten Mindestmaße gelten unabhängig von
+der gewählten Sitzanordnung.
+
+Die Sitze müssen körpergerecht geformt sein und unempfindlich gegenüber vorsätzlicher
+Beschädigung und Verunreinigung (vandalismushemmend) sein.
+Die Bieter haben im Rahmen ihres Angebotes vier Sitztypen (jeweils für die 1. und 2. Klasse)
+als Wahlposition anzubieten, die die Kriterien der Verdingungsunterlagen erfüllen. Der jeweils teuerste Sitz ist im Angebot einzupreisen, so dass die Auftraggeber nach Zuschlagserteilung den aus ihrer Sicht besten Sitz im Rahmen einer vergleichenden Sitzprobe auswählen können. Die vier Sitztypen können vom selben Hersteller stammen.
+Im Angebot ist anzugeben, wo die Sitze gegebenenfalls besichtigt werden können.
+Bei der Anordnung der Sitze sind folgende Vorgaben zu beachten:
+a.
+
+Mindestens 25 Prozent der Festsitze sind in vis-à-vis – Anordnung, mindestens 40 Prozent (bei Gebrauchtfahrzeugen mindestens 35%) der Festsitze sind je Fahrtrichtung
+auszuführen.
+
+b.
+
+Sitzplätze mit klappbarer Sitzfläche und nachfolgend genannten Komfortmerkmalen
+werden als Festsitze angerechnet. Die Anforderungen der Ergonomie sind zu beachten.
+
+c.
+
+Allgemeine Anforderungen:
+- Mindestmaße für Neufahrzeuge siehe Grafik:
+
+Seite 15 von 40
+
+-
+
+Maße für Gebrauchtfahrzeuge: die Mindestmaße für Neufahrzeuge sind nach Möglichkeit auch von Gebrauchtfahrzeugen einzuhalten, im Angebot sind die jeweiligen
+Abweichungen darzustellen. Der Sitzgruppenteiler darf bei Vis-à-Vis-Sitzen 1700
+mm, bei Reihensitzen 750 mm nicht unterschreiten.
+
+d. Zusätzliche Anforderungen:
+-
+
+Ausführung der Sitze als gepolsterte Einzelsitze,
+
+-
+
+für anrechenbare Klappsitze gelten die gleichen Mindestmaße hinsichtlich Sitztiefe,
+Sitzpolsterbreite und Sitzbreite (Neufahrzeuge). Sie müssen bei Installation nebeneinander über einen Mindestsitzabstand (von Mitte zu Mitte) von 450 mm verfügen,
+die Sitzpolster der Klappsitze müssen mindestens 400 mm breit sein. Bei anrechenbaren Klappsitzen in Gebrauchtfahrzeugen gem. 3.1 kann die Sitzbreite 380 mm betragen
+
+Seite 16 von 40
+
+-
+
+beiderseits der Sitze sind horizontale, möglichst nicht abschüssige Armlehnen vorzusehen (am Gang und zwischen den Sitzen klappbar), Armlehnen am Fenster können in die Wandverkleidung integriert sein,
+
+-
+
+die gangseitigen Sitze müssen mit einem Haltegriff für stehende Fahrgäste ausgerüstet sein, welcher nach Möglichkeit nicht über die seitliche Sitzlehnenkontur hinausragt und im farblichen Kontrast zum Sitz steht. Bei Rücken-an-RückenAnordnung ist ein Haltegriff ausreichend.
+
+-
+
+ausgeformte, abwischbare Kopfstützen (Ausformung möglichst nach oben, kein
+Hartplastik), unempfindlich gegenüber vorsätzlicher Beschädigung und Verunreinigung (vandalismushemmend)
+
+-
+
+geringe Abweichungen im Bereich der Kniefreiheit und der Lehnenneigung zugunsten komfortablerer Sitze sind zulässig.
+
+e. wenn 1. Klasse angeboten wird:
+Sitzgruppenteiler 1. Klasse bei Neufahrzeugen: bei Vis-à-Vis-Sitzen mindestens 1.800 mm,
+bei Reihensitzen 850 mm. Es müssen breitere und komfortablere Sitze / ein größerer Abstand zwischen den Sitzen als in der 2. Klasse angeboten werden.
+Bei Gebrauchtfahrzeugen sind geringere Sitzabstände möglich.
+
+5.7
+
+Nichtraucherzüge
+
+Die Fahrzeuge sind als Nichtraucherfahrzeuge vorzusehen.
+
+5.8
+
+Kleiderhaken
+
+Für jeden festen Sitzplatz ist ein (möglichst horizontal verschiebbarer) Kleiderhaken vorzusehen.
+
+5.9
+
+Stufenfreie Flächen im Innenraum (Niederflurniveau)
+
+Der Anteil der sich auf derselben Höhe wie die Einstiege befindenden oder über behindertenfreundliche Rampen (Neigung gem. TSI PRM) erreichbaren nutzbaren Grundfläche soll
+möglichst groß sein und muss mindestens 20 Prozent betragen.
+Der Anteil der stufenfreien Flächen im Innenraum und die Steigungsverhältnisse sind detailliert zu beschreiben.
+
+Seite 17 von 40
+
+5.10
+
+Stehplatzflächen
+
+a.
+
+Die Anzahl der Stehplätze soll mindestens 80 Prozent der Sitzplätze betragen
+
+b.
+
+Aus Komfortgründen werden pro Quadratmeter Stehplatzfläche nur drei Stehplätze
+angerechnet. Hierbei ist unterstellt, dass die Klappsitze nicht belegt sind. Die nötigen
+Festhaltemöglichkeiten sind vorzusehen.
+
+5.11
+
+Haltestangen / -griffe / Handläufe
+
+Für stehende und sich im Zug bewegende Fahrgäste muss jederzeit eine Haltemöglichkeit
+erreichbar sein. Die Lage und Anordnung der Haltemöglichkeiten ist zu beschreiben.
+
+5.12
+
+Ruhebereich
+
+Mindestens ein Drittel der geforderten Plätze sind durch deutliche und mehrfache Darstellung mit Piktogrammen als Ruheabteil zu kennzeichnen, in dem laute Gespräche, die Benutzung von Musikabspielgeräten wie mp3-Playern oder Ähnliches sowie die Benutzung von
+Mobiltelefonen nicht gestattet ist. Die Ruheabteile sollen sich nicht in Durchgangsbereichen
+zwischen mehreren Türen befinden.
+
+6
+6.1
+
+Mehrzweckbereich
+Allgemeine Anforderungen Mehrzweckbereich
+Anforderungen
+
+Neu-
+
+Gebraucht-
+
+fahrzeuge
+
+fahrzeuge
+
+X
+
+X
+
+X
+
+X
+
+X
+
+X
+
+a. Je Zugeinheit ist im Niederflurbereich an mindestens einem
+Einstiegsbereich ein Mehrzweckbereich vorzusehen. Der
+Mehrzweckbereich ist direkt ohne Gang am Einstiegsbereich
+anzuordnen und muss vom Einstiegsbereich aus stufenlos und
+ohne Engstellen erreichbar sein.
+b. Der Mehrzweckbereich ist am Fahrzeug außen deutlich zu
+kennzeichnen (Piktogramme: Fahrrad, Kinderwagen etc.). An
+der Fahrzeugaußenseite ist die Anzahl der Fahrradstellplätze
+mit Hinweis auf die begrenzte Mitnahmemöglichkeit anzugeben.
+c. Der Rollstuhlbereich ist außen deutlich zu kennzeichnen (Roll-
+
+Seite 18 von 40
+
+stuhlpiktogramm).
+d. Der Mehrzweckbereich dient auch als Stehplatzraum. Damit
+die Sicherheit der Fahrgäste gewährleistet ist, sind genügend
+
+X
+
+X
+
+X
+
+X
+
+Festhaltemöglichkeiten vorzusehen.
+e. Nach Möglichkeit ist der Mehrzweckbereich mit Klappsitzen
+auszurüsten.
+f. Die Klappsitze müssen bei Installation nebeneinander über
+einen Mindestsitzabstand (von Mitte zu Mitte) von 450 mm verfügen. Die Sitzpolster der Klappsitze müssen mindestens 400
+
+X
+
+mm breit sein (siehe 5.6).
+g. Innerhalb der Mehrzweckbereiche ist mittels Piktogrammen
+oder Hinweisschildern darauf hinzuweisen, dass die Klappsitze
+bei Bedarf für Fahrgäste mit Rollstuhl, Kinderwagen oder Fahrrad freizugeben sind. Hierzu sind Vorschläge zu unterbreiten,
+
+X
+
+X
+
+wie entsprechende Verhaltensregeln im Mehrzweckbereich
+kommuniziert werden können. Ggf. werden Hinweisschilder
+oder Piktogramme vom Auftraggeber nachgereicht.
+
+6.2
+
+Mitnahmemöglichkeit von Rollstühlen, Kinderwagen und Fahrrädern
+
+6.2.1
+
+Flächen für Rollstühle
+
+a.
+
+Neufahrzeuge: Die nach TSI PRM erforderlichen Rollstuhlplätze können im Mehrzweckbereich liegen.
+
+b.
+
+Gebrauchtfahrzeuge: Die Anzahl der Rollstuhlplätze und deren Lage sollen den Vorgaben für Neufahrzeuge entsprechen.
+
+6.2.2.
+
+Abstellflächen für Kinderwagen
+
+Es ist darzustellen, wie der Mehrzweckbereich für Kinderwagen (Länge 90 cm, Breite 60 cm)
+genutzt werden kann.
+
+6.2.3
+
+Abstellflächen für Fahrräder
+
+Es ist darzustellen, wie der Mehrzweckbereich für Fahrräder genutzt werden kann.
+Pro Zug sind insgesamt mindestens x, im grenzüberschreitenden Verkehr mindestens x
+Fahrradstellplätze vorzusehen. In der Fahrradsaison (April – Oktober) sind im Abschnitt xx –
+xx mindestens x Fahrradstellplätze vorzusehen.
+
+Seite 19 von 40
+
+Besteht ein Zug aus mehreren Zugeinheiten, können die Fahrradstellplätze auf die Zugeinheiten verteilt werden. Bei der Bemessung der Anzahl der Fahrradstellplätze ist generell von
+folgenden Parametern auszugehen:
+-
+
+Fahrradlänge 1,80 m, maximal drei Fahrräder an einer Seite des Ganges aneinander
+gelehnt.
+
+Eine Sicherungsmöglichkeit der Fahrräder im Mehrzweckbereich (bspw. in Form von Ösen)
+ist im Angebot zu beschreiben.
+Wenn keine Klappsitze vorhanden sind, sind die Fenster zudem durch Schutzbügel vor dem
+Verkratzen durch den Fahrradlenker zu schützen. Innerhalb des Durchgangs entlang der
+Toiletten sind keine Fahrradstellplätze zulässig.
+
+6.3
+
+Anpassung des Mehrzweckbereichs an saisonale Anforderungen
+
+Neufahrzeuge: Der Mehrzweckbereich muss an saisonale Anforderungen (z. B. erhöhte
+Nachfrage nach Fahrradmitnahme im Sommerhalbjahr, Mitnahme von Wintersportgeräten
+im Winter) angepasst werden können. Entsprechende flexible Umbauten der Mehrzweckbereiche bzw. die Schaffung von weiteren Mehrzweckbereichen zum Saisonwechsel müssen
+eingeplant werden. Für eine erhöhte Fahrradmitnahmekapazität sind im Rahmen einer variablen Bestuhlung (Bandbreite x - x Sitze) Vorrichtungen zu treffen (an den Seitenwänden
+sollten dann möglichst Klappsitze angebracht werden). Im Angebot ist zu beschreiben, welche Anpassungsmöglichkeiten bestehen, in welchem zeitlichen Rahmen und mit welcher
+Infrastruktur diese durchgeführt werden können. Der Umbau sowie ggf. die Kosten für Lagerung der ausgebauten Sitze sind im Kalkulationsschema mit den jeweils pro Saison entstehenden Kosten auszuweisen. Jeweils rechtzeitig vor Beginn der Fahrradsaison wird für jede
+Linie entschieden, ob die saisonalen Umbauten tatsächlich durchgeführt und abgerechnet
+werden.
+
+7
+7.1
+
+Berücksichtigung der Interessen der eingeschränkt mobilen Personen
+Allgemeine Anforderungen
+Bei Neufahrzeugen ist die Erfüllung aller geltenden TSI (hier insbesondere TSI
+PRM) Kriterium für die Zulassung der Fahrzeuge, ein spezieller Verweis auf diese
+Normen erfolgt deshalb nicht. In einzelnen Abschnitten sind dennoch Regelungen
+genannt, um die Erwartungen / Anforderungen an Gebrauchtfahrzeuge zu beschreiben. Soweit nachfolgend weitergehende Anforderungen gestellt werden, gelten diese Anforderungen zusätzlich zur TSI PRM.
+Gebrauchtfahrzeuge
+
+Seite 20 von 40
+
+Auch für Gebrauchtfahrzeuge muss dargelegt werden, inwieweit sie die Anforderungen der TSI PRM erfüllen bzw. welche Anforderungen nicht erfüllt werden. Dies ist
+bei Gebrauchtfahrzeugen zwar kein Ausschluss-, aber ein Wertungskriterium.
+
+a.
+
+Behindertensitze und Einstieg
+Zur Unterstützung des Ein- und Ausstiegs müssen Zugbegleitpersonal und/oder
+Triebfahrzeugführer im Umgang mit Rollstuhlfahrern und den ggf. erforderlichen
+technischen Hilfsmitteln sowie im Umgang mit mobilitätseingeschränkten Personen
+regelmäßig geschult werden. Die Maßnahmen sind im Angebot zu beschreiben.
+
+Gebrauchtfahrzeuge
+-
+
+Mindestens jeweils ein Einstiegsbereich je Zug ist für mobilitätseingeschränkte
+Fahrgäste zugänglich und nutzbar zu gestalten. Dieser ist so zu gestalten, dass
+möglichst ein niveaugleicher Einstieg gewährleistet ist. Der Bieter hat im Angebot
+darzustellen, wie die Problematik der unterschiedlichen Bahnsteighöhen am besten
+zu lösen ist. Diese Einstiegsbereiche sind von außen deutlich und hinreichend groß
+kenntlich zu machen.
+
+-
+
+Behindertensitze müssen sich im Fahrgastraum in der Nähe zur Außentüre befinden.
+
+-
+
+Behindertensitze dürfen keine Klappsitze sein
+
+-
+
+Mindestens 10 Prozent der Sitzplätze je Triebzug / Wagen / Klasse sind als Behindertensitze zu kennzeichnen.
+
+-
+
+Bei diesen Sitzen ist ein Hinweis, dass andere Reisende diese Sitze für berechtigte
+Personen freimachen müssen, anzubringen.
+
+-
+
+Die Behindertensitze und die Fahrzeuge (Wagen/Wagenteile), in denen sich die Sitze befinden sind durch geeignete Zeichen (z.B. gem. den Abschnitten N3 und N8 im
+Anhang N der TSI PRM) zu kennzeichnen, die Zeichen sollten sich hinsichtlich der
+Größe deutlich von anderen Piktogrammen unterscheiden..
+
+-
+
+Es ist sicherzustellen, dass Rollstuhlfahrer durch entsprechende Einstieghilfen (z.B.
+befahrbare Rampen) oder durch eine geeignete bauliche Ausgestaltung der Fahrzeuge (z. B. niveaugleicher Einstiegsbereich ohne Stufen bei geringer Spaltbreite
+zwischen Fahrzeug und Bahnsteigkante) rasch und gefahrlos an Bahnsteigen mit
+38, 55 und 76 cm Bahnsteighöhe in das Fahrzeug ein- oder aussteigen können.
+
+-
+
+Die Lage dieser Einstiegshilfen ist von außen gut sichtbar zu kennzeichnen. Die
+Einstiegshilfe ist in unmittelbarer Nähe der ausgewiesenen Rollstuhlplätze im Fahrzeug anzuordnen. Zur Information des Triebfahrzeugführers über eine Anforderung
+der für mobilitätseingeschränkte Kunden vorgesehenen Funktionalitäten muss ein
+
+Seite 21 von 40
+
+Anforderungstaster am Rollstuhlplatz in einer Höhe von 850 - 1.050 mm angeordnet
+werden. Der Anforderungstaster muss keine Türöffnungsfunktion aufweisen.
+
+7.2
+
+Weg- und Leitsysteme für Sehbehinderte
+
+Neufahrzeuge:
+a. Das 2-Sinnes-Prinzip ist hinsichtlich allgemeiner -, Sicherheits- und Warninformation
+einzuhalten.
+b. Bedienungselemente und Notrufeinrichtungen müssen kontrastreich und taktil erfühlbar gestaltet sein.
+c.
+
+Innen-/Abteiltüren, Stufen und Hindernisse sind mit einem im Kontrast zur Stufe
+bzw. Hindernis stehenden Band zu kennzeichnen (Aufmerksamkeitsfeld) und wenn
+möglich taktil kenntlich zu machen.
+
+d. Die Übergänge sind kontrastierend zu gestalten, eine Verwechslungsgefahr mit Türen ist zu verhindern.
+e. Spiegelnder und unebener Bodenbelag sollte vermieden werden. Der Fußboden,
+der an eine Außentüröffnung grenzt, muss im Kontrast zum übrigen Fußboden des
+Fahrzeuges stehen.
+f.
+
+Informationen zur Lage der Notrufeinrichtung, Universaltoilette, Behindertensitze
+und Rollstuhlplätze sind mit Piktogrammen und Brailleschrift sowie Richtungspfeilen
+zu geben.
+
+g. Funktionsinformationen z. B. von Toiletten, Türen und Notrufeinrichtungen sind mit
+taktilen Zeichen zu versehen.
+
+Gebrauchtfahrzeuge:
+Es ist vom Bieter darzustellen, ob die o.g. Anforderungen an Neufahrzeuge auch bei Gebrauchtfahrzeugen eingehalten werden können.
+
+8
+
+Toilettensystem
+
+Jeder Zug der Linie xx – xx - xx muss über mindestens ein Toilettensystem verfügen. Pro
+angefangene 110 Sitzplätzen ist eine Toilette vorzusehen.
+Wagen: Wird eine höhere Sitzplatzkapazität als 110 Plätze/Wagen erreicht, ist eine Toilette/Wagen ausreichend.
+Dabei sind beim Einsatz von Neufahrzeugen folgende Vorgaben zu beachten:
+a.
+
+Pro Zug ist mindestens eine Universaltoilette gem. TSI PRM vorzusehen. Diese ist so
+anzuordnen, dass ein hindernisfreier Zugang vom Rollstuhlplatz aus gewährleistet ist.
+Weitere Toiletten können Standardtoiletten (nach TSI PRM) sein. Diese sind ggf.
+
+Seite 22 von 40
+
+gleichmäßig im Zug zu verteilen und mit einem taktil erfassbaren Piktogramm auszustatten.
+b.
+
+Sind zwei oder mehr Toiletten in einem Fahrzeug eingebaut so ist sicherzustellen, dass
+bei Störung einer Toilette die weiteren Toiletten nutzbar bleiben.
+
+c.
+
+Ausführung sowie Ver- /Entsorgung der Toiletten als geschlossenes System.
+
+d.
+
+Die Einrichtung muss eine witterungs- und temperaturunabhängige Entsorgung erlauben.
+
+e.
+
+Der Türschließ- / - verriegelungsmechanismus muss einfach und leicht bedienbar sein.
+Die jeweilige Höhe soll zwischen 800 und 1.050 mm liegen (möglichst nahe am unteren
+Eckwert). Eine Türverriegelung durch den Fahrgast darf nur bei geschlossener Tür von
+innen möglich sein
+
+f.
+
+Alle Taster der Toiletteneinrichtung müssen bezüglich ihrer Funktion taktil erfassbar
+sein. Eine Beschriftung in Blindenschrift (Braille) (z. B. „Spülung“, „Alarm“) ist unterhalb
+der Taster anzubringen.
+
+g.
+
+Defekte am Türschließmechanismus dürfen nicht zur Nichtbenutzbarkeit führen.
+
+h.
+
+Ein defektes WC muss im Fahrgastraum angezeigt werden. Zur besseren Lokalisierung
+sind die Toiletten im Fahrzeug eindeutig zu nummerieren.
+
+i.
+
+Vandalismushemmende, funktionale Ausstattung der Toiletten (WC-Becken, Brille und
+Deckel, u.a. Flüssigseife, Papierhandtücher oder Handtrockner per Föhn, Kleiderhaken,
+Spiegel, Papierkorb). Die Wände sind mit einer Antigraffitibeschichtung zu versehen.
+
+j.
+
+Eine Geruchsbelästigung des Fahrgastraums und des Mehrzweckraumes ist lüftungstechnisch auszuschließen.
+
+k.
+
+Ein Rollstuhlfahrer muss die Türe der Toiletten selbständig öffnen, schließen und verriegeln können.
+
+l.
+
+Ein Spiegel muss sowohl im Sitzen als auch im Stehen einsehbar sein. Die barrierefreie
+Toilette muss mit einem ausklappbaren Wickeltisch ausgestattet sein.
+
+m.
+
+Zusätzlich sind zwei Notruftaster anzubringen. Die obere Notrufeinrichtung muss vom
+WC aus sitzend erreichbar sein. Die untere muss vom Boden liegend bedient werden
+können. Die Notruftaster müssen taktil auffindbar und kontrastreich gestaltet sein. Eine
+einfache Berührung darf kein Notsignal auslösen, sondern die Bestätigung des Tasters
+muss gegen einen merklichen mechanischen Widerstand erfolgen. Ein erfolgtes Auslösen des Notsignals muss durch eine optische und akustische Signalisierung angezeigt
+werden (Quittierung).
+
+n.
+
+Erfolgt das Schließen der Toilettentüre automatisch, ist ein zusätzlicher Öffnungstaster
+anzubringen (Höhe siehe a), der das Öffnen der Türe auch dann ermöglicht, wenn ein
+Rollstuhlfahrer mit dem Rücken zur Türe steht.
+
+o.
+
+Der Kleiderhaken muss ungeachtet der Türstellung erreichbar sein.
+
+Seite 23 von 40
+
+9
+
+Beleuchtung
+
+Die Innenraumbeleuchtung muss mindestens der DIN EN 13272 genügen. Sie soll blendfrei
+ausgeführt werden und eine gleichmäßige Ausleuchtung des Innenraums gewährleisten.
+Dunkle Ecken sollen zur Verbesserung der subjektiven Sicherheit vermieden werden. Die
+Leuchtmittel dürfen nicht von Fahrgästen entfernt werden können. Eine Putzlichtschaltung ist
+vorzusehen.
+Neufahrzeuge:
+Es ist eine Farbtemperatur für die Beleuchtung von 3.000 – 3.500 Kelvin vorzusehen, sofern
+damit die DIN EN 13272 eingehalten wird.
+
+10
+
+Abfallbehälter
+
+Abfallbehälter sind in ausreichendem Umfang vorzusehen, für sie gelten folgende Vorgaben:
+a.
+
+Behälter im Eingangsbereich (Behältervolumen mindestens 7,5 Liter).
+
+b.
+
+Zwischen den vis-à-vis-Sitzgruppen sind Abfallbehälter vorzusehen; die Größe und das
+Fassungsvermögen sind darzustellen.
+
+c.
+
+Die Abfallbehälter müssen ohne Werkzeug zu leeren, vandalismushemmend und nur
+schwer demontierbar sein.
+
+d.
+
+Die Abfallbehälter müssen so gebaut sein, dass Klappergeräusche sowie ein Auslaufen
+von Flüssigkeiten (insbesondere Getränke) verhindert werden.
+
+e.
+
+Bei vorgesehener Mülltrennung sollten sich die verschiedenen Abfallbehälter farblich
+voneinander unterscheiden.
+
+f.
+
+11
+a.
+
+Sie dürfen die Beinfreiheit nicht beeinträchtigen.
+
+Gepäckablagen und Gepäck-Stauraum
+Im Fahrgastraum sind über mindestens 50 Prozent der fest eingebauten Sitze sowie
+über den Fahrradabstellplätzen Gepäckablagen vorzusehen.
+
+b.
+
+Die Gepäckablagen sind so auszugestalten, dass ein Durchfallen auch von kleinen
+Gepäckstücken nicht möglich ist.
+
+c.
+
+Die Unterbringung von Gepäckstücken mit den Maßen 55 cm x 40 cm x 20 cm muss in
+den Gepäckablagen möglich sein (Abweichungen bei Doppelstockfahrzeugen sind
+möglich).
+
+d.
+
+Des Weiteren ist die Gepäckablage so auszugestalten, dass das Gepäck auch in und
+gegen die Fahrtrichtung (z. B. beim Bremsen) nicht herausfallen kann.
+
+Seite 24 von 40
+
+e.
+
+Für größere Gepäckstücke (Maße ca. 30x40x75 cm), die nicht in den o.g. Gepäckablagen untergebracht werden können, ist je Fahrzeug für ein Gepäckstück pro 4 Sitzplätze
+eine Unterbringungsmöglichkeit vorzusehen, die sich nicht im Eingangsbereich befindet.
+
+12
+12.1
+a.
+
+Tische / Klapptische
+Anforderungen an Neufahrzeuge
+Die Sitze in Reihenbestuhlung sind in der Rückenlehne des davor stehenden Sitzes mit
+Klapptischen auszustatten. Die Höhe im heruntergeklappten Zustand Unterkante soll
+mindestens ca. 675 mm betragen, Diese sollen eine Aussparung oder andere gleichwertige techn. Lösungen für Getränkebehälter enthalten, um ein Kippen oder „Wandern“
+der Getränkebehälter während der Fahrt möglichst zu vermeiden..
+
+b.
+
+Zwischen den gegenüberliegenden Sitzen einer Vis-à-vis-Sitzgruppe in der 1. Klasse
+sind entsprechend den Platzverhältnissen als Arbeitsfläche geeignete Tische anzuordnen. In der 2. Klasse sind ca. 30% der Vis-à-vis Sitzgruppen mit als Arbeitsfläche geeigneten Tischen auszustatten. Die Tische inkl. Tischstützen dürfen die Beinfreiheit
+nicht einschränken.
+
+12.2
+
+Anforderungen an Gebrauchtfahrzeuge
+
+Bei Gebrauchtfahrzeugen soll die Ausstattung mit Klapptischen sowie die Lage und die Größe der Abfallbehälter den Anforderungen für Neufahrzeuge entsprechen.
+
+13
+13.1
+
+Steckdosen
+Neufahrzeuge
+
+Der Fahrgastraum ist gleichmäßig mit folgender Anzahl an kindersicheren Steckdosen auszustatten:
+Dieselfahrzeuge: Mindestens für 10 % der Sitzplätze in der 2. Klasse, mindestens X in der 1.
+Klasse (falls angeboten)
+E-Fahrzeuge: mindestens 1 Steckdose pro 4 Sitzplätze in der 2. Klasse, mindestens eine
+Steckdose pro 2 Plätze in der 1. Klasse (falls angeboten). Durch die Nutzung der Steckdose
+darf die freie Durchsicht nach außen nicht eingeschränkt werden. Mindestens ein Rollstuhlplatz und ein Behindertensitz sind mit einer kindersicheren Steckdose auszurüsten.
+
+13.2
+
+Gebrauchtfahrzeuge
+
+Seite 25 von 40
+
+Im Angebot ist anzugeben, ob und in welchem Umfang die Fahrzeuge mit kindersicheren
+Steckdosen ausgestattet sind. Durch die Nutzung der Steckdose soll die freie Durchsicht
+nach außen möglichst nicht eingeschränkt werden.
+
+14
+
+Videoüberwachung
+
+Für die Überwachung des Fahrgastinnenraumes sind mit Ausnahme der Toilette Videokameras zu installieren. Die Anzahl ist dabei so zu bemessen, dass möglichst der gesamte,
+mindestens aber 90% des Fahrgastraums erfasst wird und eine Gesichtserkennung zu Ermittlungszwecken möglich ist. Werden Einzelbilder aufgezeichnet, so ist sicherzustellen,
+dass die Bildrate mindestens zwölf Bilder pro Sekunde beträgt.
+Die Aufnahmen müssen nach 72 h automatisch überschrieben werden, sofern keine fallbezogene Auslesung erfolgt ist. Die Auswertung, Aufbewahrung und Löschung der Aufnahmen
+ist entsprechend der jeweils geltenden Datenschutzbestimmungen vorzunehmen. Die Fahrgäste sind auf die Videoüberwachung in geeigneter Weise hinzuweisen.
+
+15
+15.1
+
+Einstiege
+Einstiegsanordnung
+
+Alle Wagen sollen möglichst identische und zum Rest des Zuges im Kontrast stehende Einstiege erhalten, welche bezogen auf die Fahrzeuglänge und auch über zusammengekuppelte Züge gleichmäßig verteilt sind. Die Einstiege müssen nicht zwingend symmetrisch angeordnet sein.
+Je Zugseite ist pro 35 – 45 angefangene Sitzplätze mindestens eine Tür (mit den Maßen
+gem. Ziff. 15.2) vorzusehen.
+Bei Türen mit drei Türspuren (Doppelstockwagen) ist je Zugseite mindestens eine Tür pro
+angefangene 75 Sitzplätze vorzusehen.
+
+15.2
+a.
+
+Auslegung der Einstiege
+Die lichte Weite der geöffneten Türen muss mindestens 1.300 mm und die lichte Höhe
+mindestens 2.000 mm (Ein-Stock-Fahrzeug) / 1.950 mm (Doppelstockfahrzeug) betragen. Bei Doppelstockwagen wird eine konstruktionsbedingte Unterschreitung der lichten
+Höhe im Eingangsbereich um 100 mm toleriert.
+
+b.
+
+Die Gewährleistung einer ausreichenden lichten Höhe muss auch bei Bahnsteighöhen
+von 76 cm über SO gewährleistet sein.
+
+Seite 26 von 40
+
+Die lichte Weite muss auch bei Einbauten (Entwerter, Klappsitze etc.) gewährleistet
+sein. Haltegriffe an Türportalen (seitlich) gelten nicht als Einschränkung der lichten Weite.
+c.
+
+Bei Fahrzeugen mit drei Türspuren (Doppelstockwagen) kann eine Unterteilung durch
+eine Mittelstange dergestalt erfolgen, dass an jeder Tür eine lichte Breite von 1.200 mm
+und eine Mindestbreite von 550 mm je Türspur eingehalten wird
+
+d.
+
+Es sind Haltestangen / Haltegriffe / Handläufe im Einstiegsbereich für möglichst viele
+Körpergrößen der Fahrgäste vorzusehen.
+
+e.
+
+In den Einstiegsbereich für mobilitätsbeschränkte Fahrgäste und zum Mehrzweckbereich dürfen keine Mittelstangen vorhanden sein.
+
+f.
+
+Über der Türe ist eine Regenrinne anzubringen.
+
+15.3
+
+Einstieghöhe
+
+a. Die Einstieghöhe ist für die Bahnsteige 380 mm über SO, 550 mm über SO und 760 mm
+über SO auszulegen und für 550 mm (Referenzhöhe) dahingehend zu optimieren, dass
+ein niveaugleicher Einstieg möglich ist.
+b. Es müssen Sitzplätze und Aufenthaltsbereiche vorgesehen sein die bei einer Bahnsteighöhe von 550 mm über SO niveaugleich im Inneren des Fahrzeugs zugänglich sind.
+c.
+
+Fahrgäste im Rollstuhl müssen bei 550 mm Bahnsteighöhe möglichst ohne fremde Hilfe
+ein- und aussteigen können.
+
+d. Ergeben sich Höhenunterschiede von mehr als 230 mm zwischen nominaler Bahnsteighöhe und Fußbodenhöhe im Einstieg, so sind, auch unter Beachtung der Vorgaben der
+TSI PRM, zusätzliche Trittstufen vorzusehen. Die Referenzhöhe für die Bemessung von
+Trittstufen bei o.g. Höhenunterschied für Doppelstockfahrzeuge beträgt 380 mm.
+e. Diese zusätzlichen Tritte können als Klapp-/Schwenk- oder Schiebetritte ausgestaltet
+werden.
+f.
+
+Bei Neu- und Gebrauchtfahrzeugen ist das Spaltmaß (gerader Normbahnsteig, bezogen
+auf Referenz TSI PRM) anzugeben.
+
+Im Angebot sind hierzu detaillierte Aussagen über die vorgesehene Umsetzung zu machen.
+
+15.4
+
+Türsteuerung
+
+15.4.1 Allgemeine Anforderungen
+a.
+
+Die Türsteuerung muss fahrzeug- und seitenselektiv arbeiten sowie vom bedienten
+Führerstand aus gesteuert und überwacht werden können.
+
+Seite 27 von 40
+
+b.
+
+Ein Türöffnen darf erst nach Freigabe durch den Eisenbahnfahrzeugführer möglich
+sein. Das Schließen der Türen muss selbsttätig erfolgen oder durch den Eisenbahnfahrzeugführer veranlasst werden.
+
+15.4.2 Zusätzliche Anforderungen an Türsteuerung bei Neufahrzeugen
+Zur Bedienung von Bahnsteigen, die für die vorgesehene Zuglänge zu kurz sind, muss die
+Möglichkeit bestehen, die Türen mit Ausnahme der ersten und letzten Türe anzusteuern. Ist
+eine technische Lösung nicht möglich, ist eine adäquate betriebliche Regelung für ggf. nicht
+durch einen Bahnsteig abgedeckte Türbereiche aufzuzeigen.
+
+15.5
+
+Türbedienung
+
+15.5.1 Anforderung an die Türbedienung bei Neufahrzeugen
+Die Türöffner im Innen- und Außenbereich müssen den Anforderungen von Blinden oder
+Sehbehinderten Rechnung tragen (taktil, mit definiertem Druckpunkt – „klick“, Höhen im Bereich von 800 – 1.200 mm bezogen zur Fußboden- / Referenzbahnsteighöhe, Brailleschrift).
+Die Bedienung eines Türöffnungstasters ist zu speichern und nach der Freigabe der Türöffnung durch den Triebfahrzeugführer automatisch auszuführen. An der Tür mit technischer
+Einstiegshilfe ist ein Anforderungsschalter im Innen- und Außenbereich für Personen, die in
+ihrer Mobilität eingeschränkt sind, vorzusehen (mit Aufhebung der automatischen Schließung). Die Anforderungstaste informiert den Eisenbahnfahrzeugführer zusätzlich, dass eine
+Hilfestellung für einen mobilitätseingeschränkten Fahrgast erforderlich ist.
+Pro Fahrgasttür ist je ein vertikal verlaufender, tastbarer Profilstreifen (Tastlippe) für Blinde
+und Sehbehinderte vorzusehen.
+Während der Fahrt muss die Möglichkeit bestehen, dem Fahrer einen Haltewunsch zu signalisieren (z. B. bei einem Bedarfshalt). Die Ausführung ist zu beschreiben (z. B. durch vorhandenen Türöffner).
+15.5.2 Anforderung an die Türbedienung bei Gebrauchtfahrzeugen
+Bei Gebrauchtfahrzeugen ist anzugeben, in welchem Umfang den Anforderungen von Blinden und Sehbehinderten bei der Türbedienung Rechnung getragen wird. Es muss sichergestellt werden, dass ein Türöffnungstaster für „Halt auf Verlangen“ vorhanden ist oder nachgerüstet werden kann.
+
+Seite 28 von 40
+
+16
+
+Fahrgastzählsystem
+
+Mindestens 20 Prozent der Fahrzeuge sind mit einem automatischen Fahrgastzählsystem
+auszustatten.
+
+17
+
+Klimatisierung
+
+17.1
+a.
+
+Heizungs- und Lüftungsanlage
+Für die Auslegung der Heizung, Lüftung und Kühlung des Fahrgastraumes gilt die EN
+14750-1. Sollte diese in Teilbereichen nicht eingehalten werden, sind die Abweichungen im Angebot detailliert zu beschreiben.
+
+b.
+
+Der Fahrgastraum muss eine vom Fahrzeugführerraum unabhängige Klimaregelung
+haben.
+
+c.
+
+Die Heizung ist als selbststeuerndes und selbstüberwachendes System auszulegen.
+Zur Energieeinsparung ist nach Möglichkeit im Heizbetrieb die Bremsenergie zu nutzen.
+
+17.2
+
+Notbelüftung
+
+Pro Raum ist über die Fahrzeug-Diagonale beidseitig je ein abschließbares Klappfenster
+vorzusehen.
+
+18
+
+Fahrgastinformation (FIS)
+
+18.1
+
+Optische Informationsanzeigen
+
+18.1.1 außen
+a. Die jeweils aktuelle Zielbeschilderung muss an Front und Schluss des Zuges (Endbahnhof) neben mindestens einer der Einstiegstüren und bei mehrteiligen Fahrzeugen mindestens an jedem zweiten Fahrzeugteil an der Fahrzeugseite (mit Darstellung des Zuglaufs) für Reisende deutlich erkennbar sein.
+b. Die Fahrzeuge sind an der Fahrzeugfront (beiden Stirnseiten) und den Seitenbereichen
+mit Anzeigen auszustatten, die Auskunft geben können über:
+-
+
+Produkt,
+
+-
+
+Linie,
+
+-
+
+Fahrtziel und
+
+-
+
+Fahrtroute.
+
+Fährt ein Zugteil nur eine Teilstrecke oder wird der Zug geteilt, sind die jeweiligen Zugziele darzustellen.
+Gebrauchtfahrzeuge:
+
+Seite 29 von 40
+
+-
+
+Fährt ein Zugteil nur eine Teilstrecke oder wird der Zug geteilt sind die jeweiligen
+Zugziele zumindest auf der Seitenanzeige darzustellen
+
+c. Die Anzeigen müssen folgende Eigenschaften aufweisen:
+-
+
+blend- und spiegelfrei
+
+-
+
+beleuchtbar, vom Bahnsteig aus gut lesbar auch bei aufscheinendem Sonnenlicht
+
+-
+
+sich öffnende Türen dürfen die Anzeigen möglichst nicht verdecken
+
+18.1.2 innen
+a.
+
+Im Fahrzeuginneren sind von möglichst allen Sitzplätzen aus gut sichtbare dynamische,
+optische Informationsanzeigen vorzusehen, die Auskunft geben über:
+-
+
+Produkt,
+
+-
+
+Liniennummer,
+
+-
+
+Linienbezeichnung,
+
+-
+
+Fahrtziel,
+
+-
+
+aktuelle Uhrzeit.
+
+Die Innenanzeige muss den nächsten Haltepunkt und den Zielbahnhof fortlaufend
+ausweisen. Jeweils zwei Minuten vor Erreichen des nächsten Haltepunktes ist nur
+noch der nächste Haltepunkt darzustellen,
+
+b.
+
+Die optisch-elektronischen Kundeninformationen haben folgende Merkmale zu erfüllen:
+-
+
+kontrastreiche Schrift auf dunklem Hintergrund (z.B. gelbe Schrift auf schwarzem
+Grund).
+
+-
+
+Die Innenanzeige quer zur Fahrtrichtung muss möglichst von allen Plätzen mindestens jedoch von 51 Prozent aller Sitzplätze im Großraum aus lesbar sein. Eine Zeichenhöhe von 35 mm gilt bis zu einer Leseentfernung von 10 m als lesbar.
+
+-
+
+Eine ausreichende Leuchtdichte ist sicherzustellen (Wert zwischen 30 cd/m² und
+300 cd/m²).
+
+-
+
+Es sind Standardschriftarten ohne Serifen zu verwenden (z.B. Futura, Frutiger, Helvetica, VAG Rundschrift).
+
+-
+
+Es sind Schriftarten mit Groß- und Kleinbuchstaben zu verwenden, reine Großbuchstabenanzeigen sind nicht zulässig.
+
+-
+
+Rechtzeitig vor Ist-Ankunft am nächsten Haltebahnhof (mind. 2 Minuten vorher oder,
+wenn weniger als 2 Minuten Fahrzeit, dann gleich nach Abfahrt des Zuges Wechsel
+der Anzeige: nächster Haltebahnhof, aktuelle Uhrzeit, Ausstiegsseite und prognostizierte Ist-Ankunftszeit.
+
+Seite 30 von 40
+
+-
+
+Die automatischen Anzeigen (optisch und akustisch) müssen unterdrückt werden
+können.
+
+c.
+
+Das System muss Anzeigen in mehreren Sprachen erlauben. Die Anzahl der Sprachen
+ist Sache des EVU und muss sich nach der Zielgruppe des jeweiligen Zugangebotes
+richten.
+
+d.
+
+Es ist die Möglichkeit vorzusehen, im laufenden Betrieb aktualisierte Informationen einspielen zu können.
+
+e.
+
+In jedem Einstiegsbereich ist jeweils ein Prospekthalter (Format DIN lang) vorzuhalten.
+Die Prospekthalter sollten als Innenmaß mindestens 105 mm breit sein.
+
+f.
+
+Jeder Einstiegsbereich ist zusätzlich mit Piktogrammen und dreisprachigen Hinweisschildern mit folgenden Informationen auszurüsten:
+-
+
+Klasse, Regelung für Reisende ohne gültigen Fahrausweis
+
+-
+
+Liniennetzplan des jeweiligen Bediengebietes und bahnspezifischen Informationen.
+
+g.
+
+Die Liniennetzpläne müssen auch die wesentlichen Verknüpfungspunkte zu den anderen Nahverkehrsmitteln und zum Fernverkehr beinhalten. Ausnahmen von diesen Anforderungen sind nur mit Zustimmung des Auftraggebers möglich.
+
+h.
+
+Glastüren, Trennwände und Windfangwände sind durch Piktogramme und / oder Kontrastflächen sowie durch eine hell-dunkel Wechselmarkierung gem. DIN 32975 von ihrer
+Umgebung zu unterscheiden, (vgl. TSI-PRM).
+
+18.2
+a.
+
+Akustische Informationen
+In jedem Führerstand ist eine Sprechstelle einzubauen, womit Regeldurchsagen automatisch, Bedarfsdurchsagen durch den Eisenbahnfahrzeugführer manuell ab der
+Sprachdatenbank, aber auch Livedurchsagen ausgegeben werden können.
+
+b.
+
+Eine akustische Fahrgastinformation muss über Innen- und Außenlautsprecher möglich
+sein.
+Die akustischen Informationen müssen folgende Eigenschaften aufweisen:
+-
+
+Die Ankündigung von Sprachdurchsagen muss durch einen einleitenden Ton (z. B.
+Gong) erfolgen (Neufahrzeuge).
+
+-
+
+Rechtzeitig vor Ist-Ankunft am nächsten Haltebahnhof (ca. 2 Minuten vorher) Ankündigung der Halte mit Umsteigeangaben, Hinweise auf evtl. Bedarfshalte und
+Ausstiegseiten sowie Information über Anschlüsse sowie Fahrplanabweichungen
+und daher empfohlene alternative Fahrtmöglichkeiten, betriebsrelevante Informationen (Neufahrzeuge).
+
+-
+
+eine automatisierte selektive Ansprache jedes Zugteils bei Flügeln/Kuppeln oder
+Stärken/Schwächen
+
+-
+
+Ausreichende Anzahl von Innenlautsprechern für gleichmäßige Beschallung.
+
+Seite 31 von 40
+
+-
+
+Für individuelle Ansagen muss die automatische Ansage unterdrückt werden können.
+
+-
+
+Außenlautsprecher müssen seitenselektiv ansteuerbar sein.
+
+-
+
+Die Anzeigen- und Sprachdatenbank muss vom Betreiber programmiert und besprochen werden können.
+
+-
+
+Das System muss Durchsagen in mehreren Sprachen erlauben.
+
+-
+
+Alle Fahrgastinformationen sind in „leicht verständlicher Sprache“ zu verfassen (einfache Vermittlung von Inhalten).
+
+18.3
+a.
+
+Mehrfachtraktion, Flügeln, Kuppeln
+Bei Mehrfachtraktion muss die Bedienung des FIS vom jeweils bedienten Triebzug selektiv für alle Einheiten möglich sein.
+
+b.
+
+Bei Flügeln/Kuppeln oder Stärken/Schwächen muss eine selektive Ansprache jedes
+
+einzelnen Triebwagens bzw. jedes Zugteils möglich sein.
+Beispielhaft seien folgende Szenarien dargestellt:
+-
+
+Szenario 1: Flügelungsvorgang (2 Fahrzeuge)
+Folgende Durchsagen müssen vor dem Flügelungsvorgang möglich sein:
+-
+
+Durchsage in beiden Fahrzeugen gleichzeitig: „Vorderer Zugteil fährt nach
+A, hinterer Zugteil fährt nach B“
+
+-
+
+Durchsage in Zugteil 1 (separat): „Dieser Zug fährt nach A“, Durchsage in
+Zugteil 2 (separat): „Dieser Zug fährt nach B“
+
+-
+
+Szenario 2: Kuppelvorgang (2 Fahrzeuge)
+Nach Kuppelvorgang hat eine Durchsage in beiden Fahrzeugen gleichzeitig zu erfolgen: „Dieser Zug fährt nach C“
+
+19
+
+Infotainment
+
+Der Einsatz von Infotainment (Kundenfernsehen etc.) ist zulässig und ggf. ins FIS zu integrieren (Neufahrzeuge). Werbung darf nicht gleichzeitig mit Informationen zusammen auftauchen (z. B. als Split-Screen).
+
+Seite 32 von 40
+
+20
+20.1
+
+Kommunikationsverbindung und Echtzeitdaten
+Ortung und Visualisierung
+
+Die Fahrzeuge sind mit einem GPS-System auszurüsten, um eine genaue Ortung und Visualisierung der Fahrzeuge an einer zentralen Leitstelle zu ermöglichen.
+Der Bieter hat zu versichern, dass er die aus diesem System gewonnen Echtzeitdaten dem
+Auftraggeber für dessen Planungs- und Fahrplanauskunftssysteme sowie für Fahrplanauskunftssysteme Dritter kostenlos zur Verfügung stellt (s. Anlage „Datenlieferung“)
+
+20.2
+
+WLAN-Zugang
+
+Es ist ein Konzept zur fahrgastseitigen Nutzung mobiler Telekommunikationsendgeräte im
+Fahrzeug über einen WLAN-Zugang zu entwickeln und in den Planunterlagen darzustellen
+(Kommunikationsbereich / Bereich ohne bzw. mit eingeschränktem Empfang). Der Bereich
+zur Nutzung ist mit entsprechenden Piktogrammen zu kennzeichnen.
+
+20.2.1 Stufe 1 (Neu- und Gebrauchtfahrzeuge)
+Im Fahrzeug ist der WLAN-Zugang mit ausreichend Sende- und Empfangsleistung für mindestens 50 % der Sitzplätze in den Kommunikationsbereichen zu ermöglichen (Standard
+mindestens 802.11n). Der WLAN-Router muss allen angemeldeten Geräten im Netzwerk IPAdressen per DHCP zur Verfügung stellen. Die WLAN-Access-Points müssen mindestens
+die Verschlüsselungstechniken WPA und WPA2 (IEEE 802.11i) unterstützen.
+Das System ist so zu bemessen, dass eine maximale Anzahl gleichzeitiger TCP-Sitzungen
+möglich ist, die der Anzahl der Benutzer multipliziert mit einem Faktor von 3,5 entspricht.
+Vorbehaltlich der Mobilfunk-Verfügbarkeit (Labor-Simulation) ist nachzuweisen, dass ein
+einzelner TCP-Download über 3 simulierte Links einen Datendurchsatz von mindestens 2
+Mbit/s (je Download) erreicht.
+Der Schutz gegen Datenmissbrauch ist zu gewährleisten und detailliert zu beschreiben. Das
+Umschalten zwischen den verfügbaren Kommunikationsverbindungen darf nicht zu Kommunikationsstörungen oder -unterbrechungen führen. Die Netzabdeckung auf den bedienten
+Strecken ist durch entsprechende Testfahrten zu prüfen und im Fahrzeug zu kommunizieren.
+Die ggf. erforderliche Nachrüstung vorhandener Fahrzeuge mit den für dieses System erforderlichen Komponenten ist im Rahmen von Redesignmaßnahmen durchzuführen. Die Kosten für die Nachrüstung sind im Angebot darzustellen.
+20.2.2 Portallösung (optional)
+
+Seite 33 von 40
+
+Der WLAN-Zugang soll über eine fahrgastorientierte Portal-Lösung im Fahrzeug ermöglicht
+werden. Diese ist detailliert zu beschreiben.
+Die nachfolgenden beispielhaften Inhalte können Bestandteil dieses Portals sein:
+
+
+Internetzugang (die Zug-Strecken-Kommunikationseinrichtung muss protokollunabhängig in der Lage sein, auf jeden Inhalt im Internet zuzugreifen)
+
+
+
+Unterstützung einer Live-Zug-Datenanzeige (z.B. Informationen zu Störungen oder
+Informationen, die durch das EVU zur Verfügung gestellt werden)
+
+
+
+Möglichkeit der Synchronisierung der auf den im Zug fest installierten FahrgastInformationsbildschirmen angezeigten Daten mit den mobilen Endgeräten
+
+
+
+Streckeninformationen / Interaktive Kartenanzeigen / Stationshalte
+
+
+
+Informationen zu touristischen Angeboten( Ausflugsziele, Veranstaltungen, Fahrradrouten, etc.). an der Strecke
+
+
+
+Entertainment (Audio, Videostreaming)
+
+
+
+E-book Angebote
+
+
+
+VoIP (Skype etc.)
+
+
+
+Lokführer-TV
+
+
+
+etc.
+
+Das Portal soll Daten lokal im Fahrzeug speichern und auch ohne bestehende MobilfunkWLAN-Anbindung anbieten können. Das Portal muss von einem zentralen PortalManagement-System (PMS) unterstützt und gewartet werden können.
+Das Portal soll die Einspielung von Werbung / Feeds mit der Möglichkeit, diese abhängig
+von Ort, Linie und Zeit einzuspielen, unterstützen.
+Das Fahrzeuggerät soll die Möglichkeit bieten, weitere Dienste, die eine drahtlose FahrzeugStreckenverbindung
+
+benötigen,
+
+zu
+
+integrieren
+
+(z.B.
+
+Passagierinformation,
+
+CCTV-
+
+Übertragung, Fahrzeugdiagnose etc.), ohne zusätzliche Kommunikationskanäle zu installieren.
+Das Portal muss eine Endbenutzer-Registrierung unterstützen (mit Benutzernamen und PINCode/Passwort und ggf. Integration in eine Datenbank). Die Validierung der Anmeldungen
+kann per SMS und / oder E-Mail erfolgen.
+Es sollten mindestens folgende Plattformen mobiler Endgeräte unterstützt werden (jeweils
+aktuelle Releases):
+
+Seite 34 von 40
+
+Mobile Großgeräte (Notebooks):
+-
+
+Firefox
+
+-
+
+Safari
+
+-
+
+Opera
+
+-
+
+Internet Explorer
+
+Mobile-Kleingeräte (Smartphones, Tablets):
+-
+
+Android
+
+-
+
+IOS
+
+-
+
+Windows Phone
+
+Bevor ein Streckenabschnitt ohne verfügbare Mobilfunk-Verbindung (z.B. Tunnel oder bekannte Netzlücken) erreicht wird, soll eine Meldung angezeigt werden, um Kunden vor Datenverlust zu warnen.
+
+21
+
+Notrufsprechstelle
+
+In jedem Einstiegsbereich ist eine Notrufsprechstelle vorzusehen, die eine Sprechverbindung Fahrgast – Eisenbahnfahrzeugführer und/oder Fahrgast-Leitstelle ermöglicht. Eine
+optische Anzeige muss bei der Notrufsprechstelle die Verbindung zum Lokführer und/oder
+zur Leitstelle bestätigen. Die Notrufeinrichtung ist mit Braille-Schrift auszustatten
+Neufahrzeuge: Der Rollstuhlplatz muss mit einer Notrufsprechstelle ausgestattet sein, die
+eine Sprechverbindung Fahrgast – Eisenbahnfahrzeugführer und/oder Fahrgast-Leitstelle
+ermöglicht. Eine optische und akustische Anzeige muss bei der Notrufsprechstelle die Verbindung zum Lokführer und/oder zur Leitstelle bestätigen. Die Notrufeinrichtung ist mit Braille-Schrift auszustatten und so anzubringen, dass sie von einer Person in einem Referenzrollstuhl erreicht werden kann.
+
+22
+
+Einsatz umweltfreundlicher Fahrzeuge
+
+Es ist ein möglichst niedriger Energieverbrauch der Fahrzeuge anzustreben.
+Der Energieverbrauch der eingesetzten Fahrzeuge ist mittels Zugfahrtsimulation auf Basis
+des beiliegenden Musterfahrplans (Anlage xx) für die vorgesehenen Fahrzeuge durch die
+DB Netz AG zu testieren. Die DB Netz hat hierfür das Verfahren zur Zugfahrtsimulation
+„ZFSim“ auf Basis ihres Fahrzeitberechnungsprogramms RUT-K entwickelt. Die Kosten des
+Berechnungsverfahrens sind vom Bieter zu tragen.
+
+Seite 35 von 40
+
+AP:
+DB Netz AG
+Technischer Netzzugang , Fahrdynamik/Grenzlastberechnung (I.NMN 1(G),
+Mainzer Landstraße 181,
+D-60327 Frankfurt(Main)
+
+Es muss eine Trasse mit sämtlichen heute vorhandenen Halten gerechnet werden, und zwar
+- eine Trasse xxx – xxx, Musterzug (Fahrplan 2011/12): RB (Zugnummer) ab x.xx Uhr, an
+x.xx Uhr)
+Maßgeblich für die Bewertung der Energieeffizienz ist der Energieverbrauch (KWh gemäß
+Testat der DB Netz), bezogen auf den Sitzplatz-km. Dabei werden die Fahrmodi „energiesparende Fahrweise“ und „straffe Fahrwiese“ im Verhältnis 60:40 gewertet. Werden unterschiedliche Fahrzeuge eingesetzt, wird ihr Energieverbrauch im Verhältnis der Fahrzeugkilometer zueinander gewichtet.
+Eine Nutzung der beim Bremsen des Fahrzeugs entstehenden Energie ist bei Neufahrzeugen anzustreben, innovative Lösungen werden begrüßt. Die Verwendung (Traktion, Energieversorgung innerhalb des Zuges etc.) und die dabei verwendete Technik sind detailliert
+zu beschreiben.
+Der Energieverbrauch und die fak. Nutzung der Bremsenergie wird in die Bewertung einbezogen.
+
+23
+23.1
+
+Schall- und Geräuschemissionen
+Schallemission (Fahrzeug außen)
+Gebrauchtfahrzeuge
+Im Angebot ist darzustellen, ob bzw. in welchem Umfang die Vorgaben der TSI zum
+Teilsystem Lärm erfüllt werden.
+
+23.2
+
+Geräuschemission (Fahrkomfort)
+
+a. Neufahrzeuge:
+Der max. zulässige Innengeräuschpegel beträgt im Fahrgastbereich 72 dB(A) (geschlossene
+Türen bei gleichzeitigem Betrieb aller Hilfsbetriebe). Sollte dies in Einzelfällen nicht eingehalten werden können, (z.B. bei Fahrten in Tunneln), sind diese Fälle detailliert zu beschreiben.
+
+Seite 36 von 40
+
+b. Gebrauchtfahrzeuge
+Im Angebot ist der Innengeräuschpegel anzugeben, sofern hierüber Daten vorliegen.
+
+24
+
+Kupplung
+
+24.1
+
+Automatische Kupplung
+
+24.1.1 Neufahrzeuge
+a.
+
+Die Anpassung der Zugbildung an den vorgesehenen Bedarf (Stärken/Schwächen) ist
+mittels automatischer Kupplung durchzuführen.
+
+b.
+
+Das automatische Kuppeln und Trennen muss technisch machbar, vor Betriebsaufnahme erprobt und witterungsunabhängig (für Deutschland gemäß Klimazone 2 nach
+EN 14750-1) zuverlässig möglich sein.
+
+c.
+
+Das Kuppeln und Trennen ist auch bei extremen Witterungsverhältnissen (Nässe, Kälte,
+Vereisungsgefahr) sowie trotz äußerer Verschmutzungen (Staub, Insekten usw.) mechanisch und elektrisch ohne Einschränkungen sicherzustellen.
+
+d.
+
+Der Zeitbedarf des Kuppel- / Flügelvorgangs (Halt - frühestmögliche Weiterfahrt) ist
+darzustellen.
+
+Die Kupplung muss folgende Vorgaben erfüllen:
+·
+
+Kupplung der Bauart Schaku TYP 10, mechanisch voll kompatibel zur Standardausführung von Voith Scharfenberg,
+
+·
+
+Einbauhöhe 1040 mm +/- 20 mm über Schienenoberkante (SO),
+
+·
+
+Automatisches, direktes Kuppeln der Hauptbehälterluftleitung (HBL) und der Hauptluftleitung HLL),
+
+·
+
+Rückhaltevorrichtung für E-Kontakte, die manuell aktiviert, ein elektrisches Kuppeln
+der E-Kontaktleiste unterbindet.
+
+24.1.2 Gebrauchtfahrzeuge
+Im Angebot ist anzugeben, ob eine automatische Kupplung der Fahrzeuge möglich ist und
+ob die Anforderungen, die für Neufahrzeuge gefordert werden, von den angebotenen Gebrauchtfahrzeugen erfüllt werden. Der Einsatz einer Schraubenkupplung ist zulässig.
+
+25
+a.
+
+Fensterflächen
+Alle Fensterflächen sollen sitzenden und stehenden Personen eine freie Durchsicht
+nach außen bieten.
+
+b.
+
+Eine Wärmeschutzverglasung der Fenster ist vorzusehen.
+
+c.
+
+Für die Fenster in den Türen gilt dies nur bei Neufahrzeugen.
+
+Seite 37 von 40
+
+26
+26.1
+
+Wartungs- und Instandhaltungskonzept
+Betriebssicherer Zustand
+
+Das EVU hat die Fahrzeuge entsprechend den gesetzlichen Vorschriften in betriebssicherem Zustand zu halten.
+
+26.2
+a.
+
+Instandsetzungsmaßnahmen
+Korrektive Instandsetzungsmaßnahmen sind zu allen Zeiten auszuführen - je nach Bedeutung und betrieblichen Möglichkeiten - spätestens jedoch bei der nächsten, planmäßig vorgesehenen Werkstattzuführung.
+
+b.
+
+Sicherheitsrelevante und stark komfortmindernde Mängel (Funktionsstörungen an Heizung, Türen, Lampen, Informationseinrichtungen und Toiletten) sind unverzüglich zu
+beseitigen.
+
+c.
+
+26.3
+
+Komfortmindernde Mängel sind zeitnah zu beseitigen.
+
+Außen- und Innenreinigung
+
+Der Bieter muss ein ansprechendes Erscheinungsbild der eingesetzten Fahrzeuge durch
+regelmäßige Außen- und Innenreinigung sicherstellen. Die Überprüfung erfolgt im Rahmen
+des Qualitätsmesssystems.
+
+27
+27.1
+
+Gestaltung der Fahrzeuge/Designkonzept
+Designkonzept
+
+Neufahrzeuge:
+Für alle Fahrzeuge ist eine einheitliche Gestaltung nach der Vorgabe des Design Manual
+(Anlage X) vorzusehen, dieses ist mit der NVBW abzustimmen (Innen- und Außendesign).
+Anordnung der Sitze, Positionen von Türen etc. sind nicht Bestandteil des Designkonzeptes.
+Der Zeitpunkt, bis zu welchem das Designkonzept der Auftraggeber vorliegen muss, wird
+zwischen den Vertragspartnern abgestimmt.
+Das EVU ist verpflichtet, diese Vorgaben umzusetzen.
+Gebrauchtfahrzeuge:
+Für alle regelmäßig einzusetzenden Fahrzeuge ist eine einheitliche Gestaltung vorzusehen.
+
+Seite 38 von 40
+
+Es ist ein Designkonzept für die Fahrzeuge vorzulegen aus dem die Gestaltung des Fahrzeugs (Außen- und Innenansicht) entnommen werden kann.
+Das Fahrzeugdesign umfasst beispielhaft folgende Merkmale:
+-
+
+Innen- und Außengestaltung (optisch)
+
+-
+
+Farbe der Sitzpolster, der Innenverkleidung und der Haltestangen
+
+-
+
+Beleuchtungskonzept
+
+Der Auftraggeber behält sich vor, nach Zuschlagserteilung konkrete Vorgaben für eine landeseinheitliche Innen- und Außengestaltung vorzugeben.
+
+27.2
+
+Graffitischutz/Anti-Scratching-Schutz
+
+Fahrzeuge sollen über einen wirkungsvollen Graffitischutz verfügen. Die vorgesehenen
+Maßnahmen sind im Angebot zu beschreiben.
+a. Außenbereich
+Die Fahrzeuglackierung soll so ausgeführt werden, dass eine spätere Ausbesserung bzw.
+vollständige Überlackierung möglich ist. Die Lackierung muss für das Waschen in einer maschinellen Waschanlage geeignet sein. Sie ist zudem so auszuführen, dass eine Entfernung
+von Graffiti keine bzw. möglichst geringe Auswirkungen auf die Lackqualität nach sich zieht.
+Eine Farbgestaltung durch Folien bzw. das Aufbringen einer zusätzlichen Lackschicht im
+Zusammenhang mit Graffitischutz ist möglich. Vom Bieter wird erwartet, dass er Alternativen
+aufzeigt, die einen wirksamen Graffitischutz gewährleisten.
+
+b. Innenbereich
+Alle dem Fahrgastraum zugewandten Glasflächen sind mit einer Schutzfolie zu versehen,
+die das Beschädigen der Scheiben durch Verkratzen verhindern. Beschädigte Antiscratching-Schutzfolien sind unverzüglich zu ersetzen. Fenster, die als Notausstieg dienen, sind
+von der Anforderung Antiscratching-Schutzfolien aufzukleben, ausgenommen. Andere,
+gleichwertige Maßnahmen zur Vermeidung von Graffitischäden sind zulässig und ggf. detailliert zu beschreiben.
+
+28
+
+Werbung an und in Fahrzeugen
+
+An und in den Fahrzeugen ist Werbung nur in Abstimmung mit dem Auftraggeber zulässig.
+Eine Beklebung der Fenster- und Türflächen ist keinesfalls zulässig. Im Übrigen wird auf die
+Anlage Marketing (Anlage xx) verwiesen.
+
+Seite 39 von 40
+
+29
+
+Erneuerungspflichten und Aussagen zur Ausstattung
+
+Im Angebot ist anzugeben, in welcher Weise bei den Fahrzeugen während der Vertragslaufzeit eine Erneuerung der Innenausstattung vorgesehen ist.
+Ebenso ist im Angebot anzugeben, ob in den Fahrzeugen weitere technische Ausstattungen,
+vorgesehen werden.
+Beim Einsatz von Gebrauchtfahrzeugen müssen diese vor Beginn der Betriebsaufnahme
+zeitnah ein Re-Design der Innenausstattung (incl. Sitze) durchlaufen haben.
+Das Alter der Polsterung und Bezüge der Sitze, der Armlehnen (Regelung bezieht sich nur
+auf deren eventuelle Kunststoff- oder Holzbestandteile) und der Teppichböden (sofern vorhanden) darf zu keinem Zeitpunkt während der Vertragslaufzeit ein Alter von 12 Jahren
+überschreiten.
+Die Durchführung des zuvor beschriebenen Re-Designs ist auch während der Hauptuntersuchung möglich, d.h. geringfügige Abweichungen von der 12-Jahresfrist sind mit Zustimmung des Auftraggebers bis zu einem Jahr zulässig.
+
+Seite 40 von 40
+
+

@@ -1,0 +1,6 @@
+Sind Transportanker erforderlich müssen diese sicher (statisch
+geprüft) und geeignet sein und grundsätzlich demontierbar sein.
+Die Transport- und ggf. Schalanker dürfen nicht korrodieren.
+Transportanker müssen über einen Verwendbarkeitsnachweis
+verfügen. Die Anwendungsgrenzen des Verwendbarkeitsnachweises sind einzuhalten. Dies ist durch den bautechnischen
+Prüfer zu prüfen.

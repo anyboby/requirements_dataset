@@ -1,0 +1,7 @@
+Richtlinien und Anweisungen mit technischen
+und organisatorischen Maßnahmen sind
+gemäß SA-01 dokumentiert, kommuniziert und
+bereitgestellt, welche die Wartung (insbesondere
+Fernwartung), Löschung, Aktualisierung und
+Wiederverwendung von Assets in der Informationsverarbeitung in ausgelagerten Räumlichkeiten
+oder durch externes Personal beschreiben.

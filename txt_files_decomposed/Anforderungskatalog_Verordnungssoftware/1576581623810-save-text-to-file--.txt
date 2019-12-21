@@ -1,0 +1,7 @@
+Die Arzneimittelstammdaten bestehen aus einem Preis- und Produktverzeichnis, das alle in
+die Arzneimittelversorgung der gesetzlichen Krankenversicherung einbezogenen Produkte
+nach § 31 SGB V umfasst. Die Arzneimittelstammdaten haben die Merkmale der
+Pflichtfunktion P2-110 und der konditionalen Pflichtfunktion K2-120 zu enthalten. Sie müssen
+mit den Angaben übereinstimmen, welche der pharmazeutische Unternehmer nach § 131
+Abs. 4 SGB V in Verbindung mit dem hierzu getroffenen Rahmenvertrag gemäß § 131
+Abs. 1 SGB V veröffentlicht hat.

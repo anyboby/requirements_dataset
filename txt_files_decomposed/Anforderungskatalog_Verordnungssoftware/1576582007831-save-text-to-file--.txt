@@ -1,0 +1,3 @@
+Die Formularauswahl für den Rezeptdruck kann sowohl vor als auch nach der Auswahl der
+zu verordnenden Arzneimittel und sonstigen nach § 31 SGB V in die Arzneimittelversorgung
+einbezogenen Produkte erfolgen.

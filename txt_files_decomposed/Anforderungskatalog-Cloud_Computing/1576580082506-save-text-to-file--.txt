@@ -1,0 +1,4 @@
+Die Protokollierung umfasst definierte Ereignisse, welche die
+
+Sicherungsdatenträger und Wiederherstellungsverfahren sind von qualifizierten Mitarbeitern
+regelmäßig mit dedizierten Testmedien zu prüfen.

@@ -1,0 +1,3 @@
+Die Abgabe eines ersten ausgefüllten Antrages durch einen Antragsteller löst den Prozess „Erstantrag BAföG“ aus. Eine rechtsgültige Unterschrift unter dem Antrag ist Voraussetzung für die Bearbeitung und Bescheidung.
+Mit der Übernahme der Stammdaten (manuell aus dem Papierantrag oder maschinell
+aus dem Onlineantrag) wird eine elektronische Akte angelegt. 

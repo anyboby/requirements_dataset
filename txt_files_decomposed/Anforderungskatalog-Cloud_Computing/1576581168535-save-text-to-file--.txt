@@ -1,0 +1,11 @@
+Seitens
+des Cloud-Anbieters sind dabei mindestens
+die in OIS-03 aufgeführten Rollen zu besetzen,
+Vorgaben zur Klassifizierung, Priorisierung und
+Eskalation von Sicherheitsvorfällen zu definieren
+und Schnittstellen zum Incident Management
+sowie dem Business Continuity Management zu
+schaffen. Zusätzlich hat der Cloud-Anbieter ein
+„Computer Emergency Response Team“ (CERT)
+eingerichtet, das zur koordinierten Lösung von
+konkreten Sicherheitsvorfällen beiträgt.

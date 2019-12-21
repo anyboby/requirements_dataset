@@ -1,0 +1,3 @@
+Zu sichernde Daten werden an einen Remote-Standort (z. B. weiteres Rechenzentrum des
+Cloud-Anbieters) übertragen oder auf Sicherungsdatenträgern an einem Remote-Standort
+transportiert.

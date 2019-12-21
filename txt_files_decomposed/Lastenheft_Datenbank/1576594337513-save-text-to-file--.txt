@@ -1,0 +1,3 @@
+Wurde ein Kühlgerät getauscht, muss zurzeit manuell geprüft werden, ob das Neugerät
+ein A+++-Gerät ist und mindestens eine Einsparung von 200kWh/a hat. Der Abgleich soll
+automatisch ablaufen, da dies aktuell mit einem sehr hohen Zeitaufwand verbunden ist.

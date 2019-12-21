@@ -1,0 +1,4 @@
+Schaltschrankeinspeisungen sind je Netzeingang mit einem Hauptschalter nach VDE 0113
+auszurüsten. Das Abschaltvermögen ist nach der gesamten Betriebslast festzulegen.
+Klemmen, welche nach Abschalten des Hauptschalters noch unter Spannung stehen, sind gegen
+zufälliges Berühren abzudecken und durch VDE – Warnschild deutlich zu kennzeichnen.

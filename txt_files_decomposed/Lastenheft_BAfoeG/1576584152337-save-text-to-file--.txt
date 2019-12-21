@@ -1,0 +1,4 @@
+Die niedersächsische Landeshauptkasse (LHK) nimmt keine Aufgaben im Rahmen einer
+kassentechnischen Verarbeitung/Verwaltung war. Die LHK leitet derzeit täglich nachts
+sämtliche auf dem BAföG-Landeskonto eingehende Geldeingänge an die BAföG-Software zur weiteren Verwaltung weiter.
+Daher muss die BAföG-Software zur kassentechnischen Verwaltung von (Rück-)Forderungen und Geldeingängen ein integriertes Forderungsmanagementsystem bieten.

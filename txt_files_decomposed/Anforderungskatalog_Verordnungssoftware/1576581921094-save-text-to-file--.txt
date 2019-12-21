@@ -1,0 +1,4 @@
+Bei der Anzeige von Suchergebnissen oder Substitutionsvorschlägen auf der Ebene von
+Fertigarzneimittelpackungen (PZN-Ebene) ist dem Anwender durch eine einfache Aktion die
+Möglichkeit zu geben, die angezeigten Ergebnisse auf die für den jeweiligen Patienten
+rabattierten Arzneimittel zu begrenzen.

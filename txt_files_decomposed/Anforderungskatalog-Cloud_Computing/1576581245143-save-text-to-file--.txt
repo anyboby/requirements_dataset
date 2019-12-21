@@ -1,0 +1,4 @@
+Mechanismen sind Vorhanden, um Art und
+Umfang der Sicherheitsvorfälle messen und
+überwachen sowie wie an unterstützende Stellen
+melden zu können.

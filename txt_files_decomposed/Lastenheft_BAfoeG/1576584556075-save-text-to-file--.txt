@@ -1,0 +1,5 @@
+Des Weiteren muss der Softwareanbieter den Aufraggeber bei der Erstellung eines Verfahrensverzeichnisses unterstützen.
+Sicherheitskonzept
+Der Softwareanbieter soll in Zusammenarbeit mit dem Betreiber im Rahmen des Einführungsprojektes den Auftraggeber unterstützen, ein Sicherheitskonzept zu erstellen, in
+dem die Gesamtheit aller funktionalen, technischen und organisatorischen Maßnahmen
+der Software und des Betriebs der Software dargelegt sind, die den Schutz und die Sicherheit des Verfahrens und der erhobenen und verarbeiteten Daten sicherstellen.

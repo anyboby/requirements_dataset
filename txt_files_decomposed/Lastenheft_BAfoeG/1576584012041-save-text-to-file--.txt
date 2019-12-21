@@ -1,0 +1,4 @@
+Die Software muss die Möglichkeit bieten, bei Änderungen, die bereits vergangene Bewilligungszeiträume betreffen, die Neuberechnung des Förderungsanspruches für diese
+BWZ durchzuführen. Dabei muss sichergestellt sein, dass stets die im jeweils betroffenen Bewilligungszeitraum gültigen gesetzlichen Grundlagen berücksichtigt werden. Die
+Software muss daher die verschiedenen Gesetzeslagen und die damit verbundenen berechnungsrelevanten Kriterien ab Bewilligungszeitraumbeginn 04/2001 vorhalten und in
+Abhängigkeit des betrachteten BWZ anwenden.

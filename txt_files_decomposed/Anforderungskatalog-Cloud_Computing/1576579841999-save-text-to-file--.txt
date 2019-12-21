@@ -1,0 +1,11 @@
+» Einsatz von angemessen dimensionierten
+unterbrechungsfreien Stromversorgungen
+(USV) und Netzersatzanlagen (NEA)
+» Redundante Netzwerkanbindung über unterschiedliche physische Anbindungen
+Darüber hinaus sollte der Cloud-Anbieter ermitteln und kommunizieren, welche externen Temperaturen die Klimatisierung des Rechenzentrums wie lange aushalten (also z. B. 30 °C/14 Tage,
+35 °C/6 Tage, 40 °C/4 Tage). Soweit mit Flusswasser gekühlt, sollte angegeben werden, bei welchen
+Wasserständen die Klimatisierung wie lange
+aufrechterhalten werden kann. Zum Nachweis
+über die Abhörsicherheit und dem Beschädigungsschutz können Verkabelungspläne und ein
+entsprechendes Schutzkonzept vorgelegt werden,
+das in Gesprächen mit dem Verantwortlichen

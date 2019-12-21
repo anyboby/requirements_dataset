@@ -1,0 +1,3 @@
+Die Software muss die Funktion bieten, jährliche statistische Daten an das Statistische
+Bundesamt zu übermitteln. Die benötigten Daten werden in Form eines Datensatzes, der
+vom Statistischen Bundesamt vorgegeben ist übertragen.

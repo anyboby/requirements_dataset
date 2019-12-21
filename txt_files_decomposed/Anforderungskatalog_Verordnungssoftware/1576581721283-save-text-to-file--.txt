@@ -1,0 +1,5 @@
+Alle Pflichtfunktionen des Anforderungskatalogs gelten auch für die Hausapotheke.
+Im Rahmen der Aktualisierung der Arzneimittelstammdaten oder sonstiger Updates der
+Verordnungssoftware darf keine gesteuerte Belegung im Bereich der Hausapotheke
+erfolgen, d.h. es dürfen insbesondere keine Produkte der Hausapotheke hinzugefügt
+werden.

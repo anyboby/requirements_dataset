@@ -1,0 +1,3 @@
+Das Auslesen der Daten sollte automatisch ablaufen. Die Diagramme sollen als *.jpg oder
+*.png speicherbar sein. Des Weiteren sollte es möglich sein, die Daten und das Diagramm
+in eine Excel-Datei zu exportieren.

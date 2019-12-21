@@ -1,0 +1,1 @@
+Drei-Kreis-Steuerung über Bordrechner, Fabrikat INIT. Verkabelung für IBIS-Steuerung.

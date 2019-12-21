@@ -1,0 +1,7 @@
+Wenn alle Unterlagen (Antragsformular und dazugehörige Nachweise) vollständig vorliegen, erfolgt die Anspruchsprüfung dem Grunde nach, ob alle formalen Voraussetzungen für eine Bewilligung von
+BAföG erfüllt sind. Im Falle einer Ablehnung dem Grunde nach sollte diese Entscheidung
+in der Software dokumentiert werden. Nach der Übernahme der weiteren Antragsdaten
+(manuell aus dem Papierantrag oder maschinell aus dem Onlineantrag) werden diese
+verarbeitet. Die Verarbeitung beinhaltet dabei die Freigabe nach dem Vier-Augen-Prinzip
+(Erst- und Zweitfreigabe) sowie eine Plausibilisierung aller eingegebenen Werte vor der
+Verarbeitung der Daten.

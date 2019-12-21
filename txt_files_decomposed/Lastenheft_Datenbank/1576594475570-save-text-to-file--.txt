@@ -1,0 +1,7 @@
+Um dem Stromsparhelfer die Eingabe zu vereinfachen, soll die DB mit mobilen
+Geräten abrufbar sein. Dafür soll die DB-Webseite mit dem Darstellungscode für
+Mobilgeräte erweitert werden. Hierbei ist drauf zu achten, dass die neue DB für die
+gängigen Geräte und Browser erreichbar ist. Der Nutzer soll die Funktion haben,
+auch auf die Desktopansicht zu wechseln. Dies könnte für Tablet-Nutzer relevant
+sein. Die Umsetzung soll in 320x480 und 768x1024 Pixel umgesetzt werden. In
+der Programmierung sollte abgefragt werden, welche Displaygröße das Gerät hat.

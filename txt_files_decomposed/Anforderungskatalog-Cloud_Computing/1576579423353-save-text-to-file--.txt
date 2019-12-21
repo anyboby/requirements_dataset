@@ -1,0 +1,12 @@
+» Die hierzu eingesetzten Instrumente und
+Methoden ermöglichen eine nachvollziehbare
+Lenkung der folgenden Aufgaben und Aktivitäten zur dauerhaften Aufrechterhaltung der
+Informationssicherheit: Planung, Umsetzung
+der Planung bzw. Durchführung des Vorhabens,
+
+Die Unternehmensleitung initiiert, steuert und
+überwacht ein Managementsystem zur Informationssicherheit (ISMS), das eine gültige Zertifizierung nach ISO/IEC 27001:2013 oder ISO 27001 auf
+Basis von IT-Grundschutz aufweist. Die Erklärung
+zur Anwendbarkeit (Statement of Applicability)
+umfasst die IT-Prozesse zur Entwicklung und
+Betrieb des Cloud-Dienstes.

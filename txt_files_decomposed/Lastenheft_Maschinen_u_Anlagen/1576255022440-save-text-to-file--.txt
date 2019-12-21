@@ -1,0 +1,2 @@
+Betriebsstundenzähler dürfen nur über Hilfskontakte des jeweiligen Leistungsschützes an Spannung
+gelegt werden.

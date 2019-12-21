@@ -1,0 +1,2 @@
+In jeder Programmstellung müssen zu jedem Produkt alle Angaben nach P3-120 als
+Übersicht mit maximal 2 Aktionen aufrufbar sein.

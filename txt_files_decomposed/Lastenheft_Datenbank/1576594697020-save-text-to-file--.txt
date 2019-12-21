@@ -1,0 +1,12 @@
+Unteranderem durch die Auflistung
+von Datensätze zur Löschung und
+Auflistung der Haushalte, die ein
+Kühlgerätegutschein
+erhalten
+haben. Des Weiteren soll es möglich
+sein,
+Datensätze
+nach
+verschiedenen Kriterien zu filtern,
+wie zum Beispiel nach Anzahl der
+Personen, Verbrauch, PLZ etc.

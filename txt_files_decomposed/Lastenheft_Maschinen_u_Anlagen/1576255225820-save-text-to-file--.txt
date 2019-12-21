@@ -1,0 +1,3 @@
+Sämtliche Störmeldungen, kritische Grenzwerte und sonstige wesentliche Anlagenzustände sind als
+potentialfreie Meldungen auf die Klemmleiste X ZLT zu verdrahten, als Anschaltpunkt für eine örtliche
+Überwachung.

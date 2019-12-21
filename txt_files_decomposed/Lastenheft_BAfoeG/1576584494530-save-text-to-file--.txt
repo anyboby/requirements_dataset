@@ -1,0 +1,3 @@
+Beim Betreiber muss eine Testumgebung vorgehalten werden, um Updates/Patches vor
+dem Einspielen in das Produktivsystem testen zu können. Die durchzuführenden Tests
+umfassen Funktionstests, Integrationstests, Lasttests, GUI-Tests und Penetrationstests.

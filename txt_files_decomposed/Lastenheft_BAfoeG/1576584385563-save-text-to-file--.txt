@@ -1,0 +1,1 @@
+Die ergonomischen Anforderungen an eine Software nach DIN EN ISO 9241 (Teile 1118 und 110) sind zu erfüllen. Außerdem muss die Software unnötige Interaktionen minimieren und einen konsistenten Aufbau haben. Die wesentlichen ergonomischen Merkmale sind vom Softwareanbieter im Pflichtenheft zu beschreiben.

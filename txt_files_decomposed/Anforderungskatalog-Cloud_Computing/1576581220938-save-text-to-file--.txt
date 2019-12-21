@@ -1,0 +1,5 @@
+Der Kunde kann Lösungen entweder aktiv
+zustimmen oder der Lösung wird nach Ablauf
+eines bestimmten Zeitraumes automatisch
+zugestimmt. Informationen zu Sicherheitsvorfällen oder bestätigten Sicherheitsverstößen werden
+allen betroffenen Kunden zur Verfügung gestellt.

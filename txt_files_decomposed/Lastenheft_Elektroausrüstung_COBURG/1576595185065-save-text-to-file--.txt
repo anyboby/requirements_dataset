@@ -1,0 +1,6 @@
+In den Klemmenkästen sind die Bauteile mit Klebeschildern wischfest zu beschriften. Die
+Anbringung hat sowohl auf dem Bauteil als auch auf der Montageplatte hinter dem Bauteil zu
+erfolgen. Hintergrund ist, dass das Bauteil im Fehlerfall zweifelsfrei identifiziert werden kann und
+nach dem Austausch der entsprechende Einbauort wiedergefunden werden kann. Hinsichtlich der
+Klebeschilder macht WACO keine Vorgaben, da diese für gewöhnlich von außen nicht sichtbar
+sind.

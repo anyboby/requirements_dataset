@@ -1,0 +1,3 @@
+Suchergebnisse nach Handelsnamen oder Hersteller/Anbieter werden als nach
+Handelsnamen alphabetisch sortierte Listen von Produkten angezeigt. Sie können auch
+entsprechend den Kriterien von P3-320 sortiert angezeigt werden.

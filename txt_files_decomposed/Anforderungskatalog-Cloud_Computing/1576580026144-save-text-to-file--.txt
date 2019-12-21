@@ -1,0 +1,4 @@
+Für Verfahren zur Sicherung der Daten des
+Cloud-Anbieters ist nur die Angemessenheit und
+Implementierung der Kontrollen nachzuweisen,
+nicht aber deren Wirksamkeit.

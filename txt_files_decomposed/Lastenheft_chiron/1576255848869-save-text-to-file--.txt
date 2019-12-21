@@ -1,0 +1,4 @@
+Folgende Punkte mit CHIRON abstimmen:
+n NOT-Halt Konzept zur Wirkungsweise der NOT-Halt Einrichtung
+n Anlageteile die mit NOT-Halt stillgesetzt werden
+n Anzahl und Anbauort der Taster

@@ -1,0 +1,2 @@
+Einem Benutzer können generell eine oder mehrere Rollen zugeordnet werden, es dürfen einem einzelnen Benutzer allerdings keine Administratorrollen sowie funktionale Rollen der Sachbearbeitung gleichzeitig zugewiesen werden können.
+Durch die Rolle wird festgelegt, welche Aktionen ein Benutzer innerhalb der BAföG-Software durchführen darf (beispielsweise Eingabe von Stammdaten, Setzen der Erstfreigabe, Setzen der Zweitfreigabe, Lesen von Akten).

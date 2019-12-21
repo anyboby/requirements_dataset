@@ -1,0 +1,4 @@
+Das Längenrastermaß der Regelelemente beträgt in der Regel
+1,00 m, ein Längenraster von 2,00 m ist unter Berücksichtigung
+der Anforderungen an das Gewicht eines Fertigteil-Elementes
+möglich.

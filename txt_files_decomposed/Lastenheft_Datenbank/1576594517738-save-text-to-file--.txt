@@ -1,0 +1,3 @@
+Die Infrastruktur der DB ist so geregelt, dass mehrere User mit verschiedenen Browsern
+ggf. mit unterschiedlichen Geräten auf die DB zugreifen und dort Daten eintragen,
+bearbeiten oder auswerten.

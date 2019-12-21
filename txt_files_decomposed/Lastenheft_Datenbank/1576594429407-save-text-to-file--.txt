@@ -1,0 +1,5 @@
+Die Nutzer sollen des Weiteren die Möglichkeit haben, die Daten in einen digitalen
+Erfassungsbogen einzutragen. Der digitale Erfassungsbogen soll auch ohne mobilen
+Datenverkehr oder Internetverbindung die Einträge speichern, so dass die Daten später
+in die Datenbank eingespielt (synchronisiert) werden können. Dabei ist zu beachten, dass
+die Nutzer unterschiedliche mobile Endgeräte nutzen (Android, iOS, etc.).

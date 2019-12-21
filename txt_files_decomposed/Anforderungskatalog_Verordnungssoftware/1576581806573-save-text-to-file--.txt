@@ -1,0 +1,5 @@
+Sofern die Hinweistexte eine Länge von 250 Zeichen (einschließlich Leerzeichen)
+überschreiten, sind mindestens die ersten 250 Zeichen anzuzeigen. Der vollständige
+Hinweistext ist auf Anforderung durch eine einzige Anwenderinteraktion anzuzeigen. Die
+Gliederung der Hinweistexte der AM-RL durch Absätze, Zeilenumbruche und
+Aufzählungszeichen ist in vergleichbarer Weise wiederzugeben

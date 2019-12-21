@@ -1,0 +1,2 @@
+Pflichtfelder sind von optionalen Feldern farbig
+eindeutig zu unterscheiden.

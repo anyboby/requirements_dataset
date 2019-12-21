@@ -1,0 +1,4 @@
+Bei Verwendung von induktiven Näherungsschaltern :
+vorzugsweise M12MI-PSC40B-S04G-M01 BA,
+andere Hersteller bzw. Typen auf Anfrage
+Es sind bevorzugt Bauteile mit M12-Steckverbinder zu verwenden.

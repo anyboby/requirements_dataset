@@ -1,0 +1,6 @@
+Für einige Felder muss eine
+Plausibilitätsprüfung
+festgelegt
+werden. Zum Beispiel erstes Datum
+darf nicht nach zweitem Datum
+liegen

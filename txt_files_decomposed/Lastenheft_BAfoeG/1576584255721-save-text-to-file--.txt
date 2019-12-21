@@ -1,0 +1,2 @@
+Die Ablage der Daten muss durch die Software in einem Datenbanksystem gewährleistet
+sein. Der Softwareanbieter muss Produkt, Hersteller, Version sowie Typ (relational, objektrelational o. ä.) der einsetzbaren Datenbanksysteme im Pflichtenheft beschreiben.

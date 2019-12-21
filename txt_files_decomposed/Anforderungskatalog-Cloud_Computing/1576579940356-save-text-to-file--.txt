@@ -1,0 +1,12 @@
+» Einsatz von Monitoring Tools mit Alarmierungsfunktion beim Überschreiten definierter
+Schwellwerte,
+» Prozess zum Korrelieren von Events und
+Schnittstelle zum Incident Management,
+» eine durchgängige Überwachung der Systeme
+durch qualifiziertes Personal,
+» Redundanzen in den IT-Systemen.
+Optionale, weitergehende Anforderungen
+(Verfügbarkeit)
+Zur Überwachung der Kapazität und der Verfügbarkeit stehen dem Cloud-Kunden die relevanten
+Informationen in einem Self-Service-Portal zur
+Verfügung.

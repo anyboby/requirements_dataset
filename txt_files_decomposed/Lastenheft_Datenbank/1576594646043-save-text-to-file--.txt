@@ -1,0 +1,3 @@
+Stromsparhelfer und Trainer sollen
+die Möglichkeit haben Datensätze
+zu für das Löschen zu markieren.

@@ -1,0 +1,3 @@
+Die Funktionen der aktuellen DB sollen in die neue DB übernommen werden. Gibt es
+Optimierungsmöglichkeiten der Funktionen, können diese in Absprache mit dem
+Auftraggeber eingearbeitet werden.

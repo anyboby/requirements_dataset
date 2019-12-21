@@ -1,0 +1,294 @@
+ACCOMPLAST GmbH  An der Hopfendarre 2-4  09212 Limbach-Oberfrohna
+
+zertifiziert nach:
+ISO/TS 16949
+DIN EN ISO 9001
+DIN EN ISO 14001
+DIN EN ISO 50001
+
+Allgemeines Lastenheft für Spritzgusswerkzeuge der
+ACCOMPLAST GmbH
+
+Zweck:
+Mithilfe dieses allgemeinen Lastenheftes soll eine reibungslose Inbetriebnahme von Neubau-Werkzeugen
+sichergestellt werden. Durch dieses Lastenheft werden:
+-
+
+allgemeine Standards und Vorgehensweisen der ACCOMPLAST GmbH (nachfolgend ACCOMPLAST
+genannt) definiert
+allgemeine Designrichtlinien beschrieben
+die Schnittstellen zur Maschine definiert
+werkzeugspezifische Anforderungen benannt
+Standards zur Werkzeugtemperierung benannt
+der Lieferumfang beschrieben
+
+Wirksamkeit:
+Das allgemeine Lasterheft ist für jedes Spritzgießwerkzeug (nachfolgend SGWZ abgekürzt) wirksam, egal ob diese
+durch die Firma ACCOMPLAST oder durch externe Kooperationspartner gefertigt werden.
+
+Stand: 28.11.2018
+
+Seite 1 von 4
+
+erstellt: M. Schilling
+
+Allgemeine Standards und Vorgehensweisen
+-
+
+-
+
+-
+
+-
+
+-
+
+Der Inhalt des Werkzeugangebotes sollte sein: Werkzeuggröße, Anzahl der Kavitäten, Entformungskonzept
+von Hinterschnitten, Ausführung der Anspritzung, Ausbringungsgarantie, Lieferzeit und Kostenumfang der
+kompletten Werkzeugherstellung.
+Die konstruktive Auslegung des Werkzeugs unterliegt der Erfahrung und der Verantwortung des
+Werkzeugbaus und wird nicht von ACCOMPLAST freigegeben (bei größeren Mängeln behält sich
+ACCOMPLAST vor, eine Anpassung zu fordern). Nichtsdestotrotz müssen die Anforderungen aus dem
+Lastenheft eingehalten werden
+Als vereinbarter Liefertermin (für FOT) ist der Tag der Anlieferung bei ACCOMPLAST zu verstehen.
+Bei Nichteinhaltung des vereinbarten Liefertermins, behält sich ACCOMPLAST vor, die möglicherweise
+entstandenen Kosten durch Strafzahlungen weiter zu berechnen.
+Mit Abgabe des Angebots oder Auftragsbestätigung vom Werkzeugbau wird automatisch eine
+Herstellbarkeit bestätigt (offene oder nicht umsetzbare Punkte sind im Angebot zu vermerken).
+Für ein Serienwerkzeug muss eine Mindestausbringungsmenge von 1.000.000 Schuss garantiert werden.
+Nach Vergabe des Auftrags wird vom Werkzeugbau eine DFM angefertigt um mögliche Probleme und ein
+erstes Konzept abzustimmen.
+Bei jedem neuen Projektstart hat der Werkzeugbau eine Füll- und Verzugsanalyse zu erstellen um mögliche
+Problemstellungen zeitig zu erkennen, zu lösen und dem Kunden und/ oder ACCOMPLAST mitzuteilen.
+Vor Konstruktionsbeginn wird von dem beauftragtem Werkzeugbau ein am 3D-Teil farblich sichtbarer
+Trennungsverlauf mit Auswerfermarkierungen und Anspritzpunkt angefertigt und mit dem Kunden und/ oder
+ACCOMPLAST abgestimmt (Beispiel siehe Anhang FD EM 15).
+Mit Bestellung des Werkzeugs wird ein Werkzeug bestellt, das Kunststoffteile zeichnungsgerecht oder nach
+Kundenfreigabe herstellen kann (die Anzahl der Korrekturschleifen ist dabei irrelevant).
+Bei Erstanlieferung und Anlieferung nach Korrekturschleifen muss das Werkzeug stets in einem gewarteten
+und einsatzbereiten Zustand sein.
+Bei Anlieferung (Neubau und Korrekturschleifen) muss auf dem Lieferschein eine detaillierte Auflistung der
+erledigten Arbeiten ersichtlich sein.
+Die Lieferung sowie Abholung für Korrekturen der Werkzeuge ist in Verantwortung des Werkzeugbaus, der
+somit auch die Kosten für die Transporte trägt und diese in seinem Angebot sowie seiner Kalkulation
+berücksichtigen muss.
+Die vollständige Werkzeugabnahme erfolgt erst nach einer abschließenden Musterung bei ACCOMPLAST
+oder nach Absprache.
+Können im Allgemeinen vom Werkzeugbau Mängel im Werkzeug nicht oder nicht rechtzeitig beseitigt
+werden, kann ACCOMPLAST die Mängelbehebung selbst oder durch einen Dritten vornehmen. Hierdurch
+entstehende Kosten trägt der Werkzeugbau.
+
+Allgemeine Designrichtlinien
+-
+
+-
+
+-
+
+Eine Entlüftung ist in jedem nur möglichem Bereich einzubringen ohne dabei einen Gratzuwachs in Kauf zu
+nehmen (Trennebenenentlüftung bis an die Kavität ziehen, Entlüftung in Auswerfer einbringen, wenn
+möglich bewegliche Entlüftungskerne setzen usw.).
+Der Anguss ist so zu gestalten, dass er bei der Entformung nicht zerbricht und keine Krümelbildung
+verursacht (bei einer Teileentnahme mit Handling sollte der Anguss unter dem Teil angeordnet sein). Des
+Weiteren ist das Angusssystem so zu konstruieren, dass das Material im Angusssystem möglichst keine
+Schädigungen durch abrupte Strömungsübergänge oder scharfen Kanten erleidet.
+Der erkaltete Pfropfen muss durch einen geeigneten Blindkanal aufgefangen werden.
+Beschichtungen müssen so eingesetzt werden, dass das Werkzeug die benötigte Ausbringung erreichen
+und die benötigte Teilequalität gewährleisten kann.
+Die Entformung ist ohne Hilfsmittel und mit möglichst geringen Auswerferkräften zu gewährleisten (wenn
+nötig Entformschrägen anfragen).
+Wenn möglich soll Warmarbeitsstahl verwendet werden (spätere Beschichtung möglich).
+Bei bruchgefährdenden Konturen ist es zwingend notwendig einen spannungsbruchunempfindlichen Stahl
+einzusetzen (z.B. Divar von Uddeholm).
+Konturen die starkem Verschleiß oder einem hohen Risiko der Beschädigung unterliegen, sind stets als
+Einsätze oder wechselbare Kerne auszuführen.
+Bewegungen im und am Werkzeug müssen stets definiert und gesteuert ablaufen.
+Schrägauswerferlösungen sind zu vermeiden da die Gefahr von Entformungsproblemen besteht. Generell
+sind mechanische Schieber zu bevorzugen.
+Von den 4 Führungssäulen ist eine mit einem unterschiedlichen Durchmesser auszuführen oder durch die
+Positionierung der Führungssäulen wird eine falsche Montage ausgeschlossen.
+Wechseleinsätze sollten in der Maschine wechselbar sein (oder nach Absprache).
+Wechseleinsätze und Kerne müssen so kodiert und beschriftet sein, dass ein falsches Einbauen nicht
+möglich ist (Poka Yoke). Wechseleinsatznummern werden mit Auftragserteilung mitgeteilt.
+
+Stand: 28.11.2018
+
+Seite 2 von 4
+
+erstellt: M. Schilling
+
+Schnittstellen zur Maschine
+-
+
+Bei Auftragserteilung wird die benötigte Maschinengröße der Spritzgießmaschine benannt auf der zukünftig
+die Serienproduktion stattfindet (wird aus dem Werkzeugangebot entnommen).
+Die Angussbuchse oder die Eingangsbuchse des Heißkanals muss als R 0 (flach) gestaltet sein.
+Es ist ein problemloser Einbau in die SGM zu gewährleisten (der Überstand von Sensoren, Zylindern,
+Kühlanschlüssen usw. über die Aufspannplatte ist nicht gestattet).
+Die Befestigung des SGWZ auf der Spritzgießmaschine wie folgt:
+
+nach Arburg Datenblatt Spritzgießmaschinen
+
+überstehende Aufspannplatten mit Spanneisen (Überstand nur in einer Achse ausführen)
+
+Anschraubbohrung nach Arburg Lochbild
+
+Auswerferanschluss M12 (M16 ab Maschinengröße 470 Arburg) in Auswerferplatte (nach
+Datenblatt Spritzgießmaschinen)
+
+Werkzeugspezifische Anforderungen
+-
+
+-
+
+-
+
+-
+
+-
+
+Der Einsatz von Normalien ist bei Zweistufenauswerfern, Auswerferstiften, Führungssäulen, Buchsen,
+Klinkenzügen und Kugelrastungen zwingend notwendig.
+Bei Stahlpassungen oder relativ zueinander bewegten Teilen ist auf eine Werkstoffpaarung mit
+unterschiedlichen Werkstoffen, Oberflächen oder Oberflächenhärten zu achten. Dadurch können
+Passungsrost und Reibstellen verhindert werden.
+Sämtliche auftretende Kräfte (X, Y und Z) und Flächenpressungen müssen in der Werkzeugkonstruktion
+berücksichtigt werden.
+Schrauben und Gewinde sind metrisch auszuführen (sofern nicht anders beschrieben).
+Bei geforderten Datumsuhren werden Datumsuhren der Fa. Opitz verwendet, bei denen der Stelleinsatz
+ohne Demontage der Formseite zu wechseln ist.
+Eine durchgehende Nummerierung der Formplatten ist zwingend notwendig.
+Die ACCOMPLAST Werkzeugnummer muss in beiden Aufspannplatten unverlierbar eingebracht sein
+(Fräsen/ Gravieren).
+Formeinsätze, Formplatten bzw. konturgebende Bereiche müssen gehärtet sein (min. 52 2HRC).
+Formnestkennzeichnung ist nach Möglichkeit zu gewährleisten.
+Schweißungen im SGWZ (Reparatur, Änderung) sind nur in Absprache zulässig.
+Schieber sind generell mit Schulter und entsprechender Lagesicherung auszuführen.
+Schieberführungen müssen aus gehärtetem Stahl gefertigt sein.
+Alle Führungen und Druckkeile/ Druckplatten müssen mit Fettnuten versehen sein.
+Zur besseren Abstimmung müssen die Schieber bzw. Druckkeile mit Druckplatten ausgestattet sein.
+In Einbaulage sind oben liegende Schieber mit Federn oder anderen lagesichernden Maßnahmen zu
+versehen.
+Das Auswerferpaket muss säulengeführt und mit Rückdrückstiften sein.
+Säulenführungssysteme müssen Stahl - oder Kugelumlaufführungen haben.
+Bei Kollisionsgefahr von Schieber und Auswerfer muss ein Endlageschalter (Fa. Schmersal) und ein
+Sicherungsstift unter dem Schieber angebracht werden.
+Bei Verwendung von Pneumatik- bzw. Hydraulikzylindern ist die Abfrage der vorderen und hinteren Endlage
+erforderlich. Die Abfrage sollte vorzugsweise am Schieber direkt erfolgen (verwendete Sensoren nach
+Absprache).
+Die verwendeten Kabel und Schläuche müssen den Umgebungsbedingungen (Temperatur, Ölfestigkeit,…)
+entsprechend ausgewählt werden.
+Bei Verwendung von Kernzügen müssen die Anschlussnippel mit R1/4" (werkzeugseitig) auf M16x1,5 mit
+Innendichtkegel (Schlauchseite) ausgeführt sein. Die benötigten Stecker für die Sensoren sind dem Anhang
+zu entnehmen.
+Der Zentrierring ist auf der Düsenseite zu positionieren (nach Datenblatt; ab Maschinengröße 320 Arburg
+beidseitig).
+Es muss eine Abdeckung des Auswerferpakets vorhanden sein, um das Einklemmen der Angüsse zu
+vermeiden.
+Bei Werkzeugen mit einem Heißkanal sind Heißkanaldosen der Firma Harting zu verwenden
+
+6 polig: Stifteinsatz HAN 6E 09330062601 6 polig Schraubanschluss
+Sockelgehäuse hohe Bauform 19300060296 2xM25
+
+16 polig: Stifteinsatz HAN 16E 09330162601 16 polig Schraubanschluss
+Sockelgehäuse hohe Bauform 1930160271 2xM25
+
+24 polig: Stifteinsatz HAN 24E 09330242601 24 polig Schraubanschluss
+Sockelgehäuse hohe Bauform 19300240272 2xM32
+Bei Werkzeugen mit Heißkanal ist das Werkzeug ohne angeschlossene Dose anzuliefern, aber die
+Heißkanaldose sollte verschraubt sein (die Heißkanaldose wird von ACCOMPLAST angeschlossen und
+geprüft, es sind aber die Heizungs- und Fühlerkabel so zu beschriften, dass nachvollziehbar ist welches
+Kabel zu welcher Düse bzw. Balken gehört).
+
+Stand: 28.11.2018
+
+Seite 3 von 4
+
+erstellt: M. Schilling
+
+-
+
+-
+
+Bei Werkzeugen mit mehr als einer Düse muss der Heißkanal als heiße Seite gestaltet sein (Beispiel kann
+angefragt werden).
+Bei Nadelverschlussdüsen sollte das Gewinde für Druckluftanschlüsse im Werkzeug R ¼ Zoll betragen.
+Die Füllung der Kavitäten muss zu mind. 98% ausbalanciert sein.
+Die Verwendung von silikonhaltigen oder teflonhaltigen Trennmitteln zur Verbesserung der Entformung ist
+nicht zulässig (gilt auch für Musterungen).
+Folgende Schmiermittel dürfen verwendet werden: Lusin LUB PZO 152, interflon FIN Grease MP 2/3 +
+Teflon, interflon FIN Grease HTG (Hochtemperaturfett), SYN-setral-INT300, TCE-GREASE300,
+TCE-GREASE800.
+Ein Dummy für Druck und Temperatursensor ist vorzusehen und in der Konstruktionsphase abzustimmen.
+Pflicht für alle SGWZ:
+
+Transportsicherung global für SGWZ
+
+jede einzelne Trennebene mit Gewindebohrung für Ringschrauben
+
+Anbringung von Kranösen/ Ringschrauben für ausbalanciertes Heben (des gesamten SGWZ und
+jeder einzelnen Werkzeughälfte in Einbaulage)
+
+Möglichkeit zur Sicherung federnd vorgespannter Systeme (bei möglicher Gefahr einer SGWZBeschädigung)
+
+Stützen zum sicheren Abstellen des Werkzeuges ohne dass Schalter, Kabel, Anschlussnippel usw.
+beschädigt werden
+
+Standards zur Werkzeugtemperierung
+-
+
+-
+
+-
+
+-
+
+Das zu verwendende Temperiermedium muss festgelegt sein (Wasser, Wärmeträgeröl, Beheizung mit
+Heizpatrone). Wasser als Temperiermedium hat Vorrang.
+Die Temperierung muss so gestaltet sein, dass die für den Spritzprozess nötige Temperatur im Werkzeug
+sicher erreicht werden kann.
+Bei schlecht kühlbaren Bereichen (z.B. Kerne) sind Sondermaterialien oder Sonderverfahren mit besserer
+Wärmeleitfähigkeit zu verwenden.
+Wichtig ist eine gute Temperierung des SGWZ. Jeder Temperierkreis muss einen genügend großen
+Durchfluss erreichen (min. 4 – 5 l/ min).
+Der Werkzeugbau fertigt einen Temperierplan an und kennzeichnet die Ein- und Ausgänge der
+Temperieranschlüsse am SGWZ.
+Bei Werkzeugtemperaturen unter 90°C muss das System DME für die Kühlanschlüsse verwendet werden
+(Gewinde im SGWZ R1/4" und NW 6mm; wenn nicht genügend Platz ist, kann auch M10x1 eingesetzt
+werden).
+Bei Werkzeugtemperauren über 90°C muss ein verschraubbares System für die Kühlanschlüsse in VA-Stahl
+verwendet werden (R1/4" werkzeugseitig, M14x1,5 mit Innendichtkegel schlauchseitig; nicht versenkt,
+Gegenhalter erforderlich )
+Verschlussstopfen müssen bei Werkzeugtemperaturen über 90°C in VA-Stahl ausgeführt werden.
+Zeichnungen zu den Anschlüssen werden beigestellt (siehe Anhang).
+Verschlussstopfen sind verschraubt auszuführen. Sollte dies aus platztechnischen Gründen nicht umsetzbar
+sein, bedarf es einer Absprach.
+Temperierungsanschlüsse werden nicht in Formplatten versenkt, nur wenn die für das Werkzeug bestellte
+Maschinengröße es erfordert.
+Elektrisch beheizte SGWZ müssen mit Hasco kompatibel sein (bzw. Absprache (PSG)).
+Die Stärke der Wärmedämmplatten beträgt beidseitig mind. 6mm. Bei einer Werkzeugtemperatur über
+120°C muss das Werkzeug komplett gedämmt sein.
+Bei Werkzeugen die über 90°C temperiert werden können ist die Heißkanaldose zu isolieren.
+
+Lieferumfang
+-
+
+-
+
+Das SGWZ nach Bestellung.
+Ringschrauben zum Transport sind Lieferbestandteil.
+Die Werkzeugzeichnung als 2D (DWG/ DXF und PDF) und 3D-Datensatz (Step-Protokoll 2.14. oder
+Parasolid) iges Kreismittellinien von Anguss und Kühlung sowie eine Stückliste (Excel, PDF) ist
+Lieferbestandteil (Dokumentation von Beschichtung muss in der Stückliste enthalten sein). Die
+Werkezugkonstruktion muss in folgende Hauptbaugruppen unterteilt sein: Düsenseite, Auswerferseite,
+Auswerferpaket, Schieberpaket und Heißkanalsystem.
+Für die Werkzeugfertigung verwendete Elektroden gehen in das Eigentum von ACCOMPLAST über.
+Alle Werkzeuge sind für Auslieferung und Transport einzuwachsen (nicht zu ölen).
+
+Stand: 28.11.2018
+
+Seite 4 von 4
+
+erstellt: M. Schilling
+
+

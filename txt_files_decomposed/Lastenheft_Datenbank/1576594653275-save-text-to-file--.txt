@@ -1,0 +1,11 @@
+Datensätze, die gelöscht werden
+sollen, werden dem jeweiligen
+Löschberechtigen (Lokalkoordinator
+oder
+Admin)
+in
+einer
+Liste
+aufgeführt. Die zuständige Person
+kann dann die Checks direkt in der
+Datenbank löschen.

@@ -1,0 +1,5 @@
+Es muss sichergestellt sein, dass der Arzt die
+Funktionalitäten der Verordnungssoftware auch bei Werbeeinblendungen uneingeschränkt
+nutzen kann. Werbeeinblendungen dürfen den Workflow nicht unterbrechen.
+Werbung oder Hinweise, die ausdrücklich oder sinngemäß auf das Ankreuzen von „aut idem“
+gerichtet sind, sind unzulässig.

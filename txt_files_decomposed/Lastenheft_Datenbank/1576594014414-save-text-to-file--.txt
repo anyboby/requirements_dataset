@@ -1,0 +1,4 @@
+In einigen Reitern sollen Textbausteine angeboten werden, die die Stromsparhelfer in
+entsprechende Felder übernehmen kann. Die Standorte sollen einen Bereich in der
+Datenbank erhalten in dem sie für ihren Standort Textbausteine erstellen können. Diese
+können sie im Reiter 9 und Reiter 10 neben den Standard-Textbausteinen auswählen.

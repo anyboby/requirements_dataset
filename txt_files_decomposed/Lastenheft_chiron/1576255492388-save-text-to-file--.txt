@@ -1,0 +1,2 @@
+Transformatoren müssen primär durch Motorschutzschalter und
+sekundär durch Sicherungsautomaten abgesichert werden.

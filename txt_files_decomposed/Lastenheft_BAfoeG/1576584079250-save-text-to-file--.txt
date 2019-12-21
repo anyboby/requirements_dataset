@@ -1,0 +1,5 @@
+Die Software soll weiterhin die Möglichkeit bieten, eine Vorschlagsliste der aus dem
+elektronischen Archiv und dem Papierarchiv zu vernichtenden Akten zu erstellen. Ein berechtigter Sachbearbeiter soll aus der Vorschlagsliste die tatsächlich zu vernichtenden
+elektronischen Akten auswählen können. Nach erfolgter Löschung der Datensätze aus
+dem elektronischen Archivbestand soll ein Aktenvernichtungsprotokoll (speicherbar und
+druckbar) erstellt werden.

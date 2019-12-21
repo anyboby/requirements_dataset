@@ -1,0 +1,4 @@
+Mit Bestellung des Werkzeugs wird ein Werkzeug bestellt, das Kunststoffteile zeichnungsgerecht oder nach
+Kundenfreigabe herstellen kann (die Anzahl der Korrekturschleifen ist dabei irrelevant).
+Bei Erstanlieferung und Anlieferung nach Korrekturschleifen muss das Werkzeug stets in einem gewarteten
+und einsatzbereiten Zustand sein.

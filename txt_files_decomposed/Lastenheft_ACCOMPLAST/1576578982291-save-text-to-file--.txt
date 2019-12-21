@@ -1,0 +1,3 @@
+Bewegungen im und am Werkzeug müssen stets definiert und gesteuert ablaufen.
+Schrägauswerferlösungen sind zu vermeiden da die Gefahr von Entformungsproblemen besteht. Generell
+sind mechanische Schieber zu bevorzugen.

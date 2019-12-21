@@ -1,0 +1,6 @@
+Die neue Datenbank soll die Möglichkeit bieten, wichtige Informationen mit einem
+Datenbank-internen Newsletter zu versenden. Somit bekommen die Nutzer zeitnah
+aktuelle Informationen. Optimal wäre ein Popup Fenster mit Änderungen, das bei jeder
+Anmeldung erscheint. Die Funktion zum Eintragen eines neuen Beitrages soll nur dem
+Admin zur Verfügung stehen. Es sollte auch die Möglichkeit geben, bestimmten
+Nutzergruppen auszuwählen, die Informationen erhalten sollen.

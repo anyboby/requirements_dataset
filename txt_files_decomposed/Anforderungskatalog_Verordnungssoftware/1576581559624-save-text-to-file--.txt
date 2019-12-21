@@ -1,0 +1,5 @@
+Erweiterungen des Anforderungskatalogs können durch landesspezifische Vereinbarungen,
+die zwischen den Kassenärztlichen Vereinigungen und den Landesverbänden der
+Krankenkassen getroffen werden, erfolgen. Software-Anforderungen, die sich aufgrund von
+Regelungen in Selektivverträgen ergeben, bleiben von diesem Anforderungskatalog
+unberührt.

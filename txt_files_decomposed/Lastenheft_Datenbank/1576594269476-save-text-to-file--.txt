@@ -1,0 +1,3 @@
+Im Winter 2016/2017 wurde eine Pilotphase für Wärmesoforthilfen gestartet. Hierfür muss
+die DB erweitert werden. Für diesen Bereich werden im Laufe des Projektes genaue
+Anforderungen an die DB definiert.

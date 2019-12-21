@@ -1,0 +1,4 @@
+Die Schnittstelle dient der Übermittlung der Inhalte der regionalen, kollektivvertraglichen
+Arzneimittelvereinbarungen in der jeweils aktuellen Version.
+Die hierfür erforderliche Schnittstelle ist definiert in der Datensatzbeschreibung ARV
+(ftp://ftp.kbv.de/ita-update/Stammdateien/).

@@ -1,0 +1,1 @@
+Es muss sichergestellt sein, dass die BAföG-Software in jeder Betriebssituation bei gleichen Ausgangsdaten in jedem Rechnungslauf identische Resultate liefert.

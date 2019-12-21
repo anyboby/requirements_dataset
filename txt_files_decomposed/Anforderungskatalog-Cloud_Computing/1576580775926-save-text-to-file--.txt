@@ -1,0 +1,8 @@
+Optionale, weitergehende Anforderungen
+(Vertraulichkeit)
+Jeder Netzwerkperimeter wird von redundanten und hochverfügbaren Sicherheitsgateways
+kontrolliert. Die Zugangsberechtigung für
+netzübergreifende Zugriffe basiert auf einer
+Sicherheitsbewertung auf Grundlage der
+Kundenanforderungen.
+

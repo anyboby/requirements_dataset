@@ -1,0 +1,5 @@
+Richtlinien und Anweisungen zum Ermitteln
+von Auswirkungen etwaiger Störungen des
+Cloud-Dienstes oder des Unternehmens sind
+gemäß SA-01 dokumentiert, kommuniziert und
+bereitgestellt.

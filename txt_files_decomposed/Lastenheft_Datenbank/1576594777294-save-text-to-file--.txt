@@ -1,0 +1,7 @@
+Alle Daten die mit Berechnungen zu
+tun haben sollen änderbar und
+archiviert werden. Folgende Daten
+sollen gespeichert und archiviert
+werden(mit
+Zeitstempel):
+Soforthilfen, Kühlgerätedaten, CO2Werte, Berechnungswerte.

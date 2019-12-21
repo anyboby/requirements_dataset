@@ -1,0 +1,4 @@
+Werden Fundamente benötigt, müssen diese vom Anbieter berechnet sowie die Anordnung durch Fundamentpläne angegeben sein.
+Die Einplanung der Maschine erfolgt durch den Anbieter. Hierfür müssen Angaben darüber gemacht werden, wo welche Schnittstellen für Energie und Medienversorgung vorzusehen sind. Für den Eintransport sind alle erforderlichen Daten zu liefern (Größe der Einzelteile, Gewichte,). Bauseitige Leistungen sind exakt zu definieren. Des Weiteren müssen
+notwendige Flächen für die Entsorgung, Materialbereitstellung und Abtransport angegeben
+werden.

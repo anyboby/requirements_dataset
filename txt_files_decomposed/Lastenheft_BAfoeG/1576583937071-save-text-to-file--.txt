@@ -1,0 +1,2 @@
+Die Software muss dem Sachbearbeiter die Möglichkeit geben, die Zeiten der Erwerbstätigkeit des Antragsstellers unter Beachtung der jeweils gültigen Einkommen gemäß § 11
+Abs. 3 Nr. 3 und 4 BAföG zu berechnen. Dabei sind die geltenden Verwaltungsvorschriften hinsichtlich der Berechnung von einzelnen Tagen bei halben Monaten sowie das Ansetzen eines ganzen Monats mit 30 Tagen zu berücksichtigen.

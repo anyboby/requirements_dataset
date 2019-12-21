@@ -1,0 +1,3 @@
+Fällt das Ergebnis so aus, dass die Förderung unabhängig vom Einkommen der Eltern
+zu gewähren ist, so muss dies in der Software entsprechend gekennzeichnet werden
+können. Von der Eingabe der Einkommensdaten der Eltern kann in diesem Fall abgesehen werden; die Plausibilisierungsprüfung muss diese Information entsprechend verarbeiten.

@@ -1,0 +1,9 @@
+Die Datenbank ist das zentrale Instrument des Projektes Stromspar -Check, in dem alle
+Vorgänge des Stromspar-Checks zusammenlaufen. Dementsprechend wird die
+Datenbank von einer großen Zahl von Nutzern mit unterschiedlichen Rollen genutzt. Die
+Datenbank wird genutzt, um die durchgeführten Stromspar-Checks zu erfassen, mögliche
+Energieeinsparungen zu berechnen und ausgegebene Soforthilfen zu dokumentieren,
+durchgeführte Monitorings zu erfassen, den Kühlgerätetausch abzuwickeln und die
+erfassten Daten auszuwerten. Je nach Rolle haben die einzelnen Nutzer Zugriff auf
+unterschiedliche Informationen, unterschiedliche Möglichkeiten, Daten einzutragen und
+Auswertungen abzufragen.

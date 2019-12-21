@@ -1,0 +1,4 @@
+n Genehmigungen durch CHIRON umfassen nur das Ausführungsprinzip.
+Sie entbinden den Auftragnehmer nicht von der Verantwortung,
+eine zweckmäßige und dem Stand der Technik entsprechende
+Konstruktion auszuführen.

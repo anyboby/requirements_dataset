@@ -1,0 +1,6 @@
+Basierend auf der Business Impact Analyse wird
+ein einheitliches Rahmenwerk zur Planung der
+betrieblichen Kontinuität und des Geschäftsplans
+eingeführt, dokumentiert und angewendet, um
+sicherzustellen, dass alle Pläne (z. B. der verschiedenen Standorte des Cloud-Anbieters) konsistent
+sind.

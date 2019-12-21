@@ -1,0 +1,3 @@
+Nicht relevante und/oder als „einrichtungsspezifisch“ gekennzeichnete Anforderungen können
+gestrichen werden. Auf diese Weise entsteht eine an die Bedürfnisse der jeweiligen PIA
+angepasste Anforderungsliste.

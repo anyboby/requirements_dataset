@@ -1,0 +1,3 @@
+Der zur Zweitfreigabe berechtigte Mitarbeiter muss die noch von ihm zu prüfenden Vorgänge übersichtlich, beispielsweise als Liste, dargestellt bekommen. Ebenso müssen
+Vorgänge, denen keine Zweitfreigabe erteilt wurde, dem Sachbearbeiter, der die Erstfreigabe erteilt hat, mit einer dazugehörigen Begründung zur Korrektur wieder vorgelegt
+werden können.

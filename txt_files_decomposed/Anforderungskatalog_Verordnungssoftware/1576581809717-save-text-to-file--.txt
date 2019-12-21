@@ -1,0 +1,3 @@
+Die Anbieter von Verordnungssoftware müssen von Produktwerbung freie Versionen ihrer
+Systeme anbieten. Ein Wechsel in die werbefreie Version muss ohne Datenverlust möglich
+sein.

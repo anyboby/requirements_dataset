@@ -1,0 +1,3 @@
+Falls durch die Gesetzesänderung eine Vielzahl von Änderungsbescheiden erstellt und
+versendet werden muss, so muss die Software die Möglichkeit eines Massendruckverfahrens bieten. Generell muss die Möglichkeit bestehen, die entsprechenden Bescheide
+in den Studentenwerken und kommunalen Ämtern für Ausbildungsförderung zu erzeugen und zu drucken.

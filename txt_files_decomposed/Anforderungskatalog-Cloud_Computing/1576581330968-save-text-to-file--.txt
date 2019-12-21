@@ -1,0 +1,8 @@
+Im Anschluss an eine durchgeführte Übung:
+» Überprüfung und eventuelle Anpassung des
+vorhandenen Alarmierungsplanes
+Optionale, weitergehende Anforderungen
+(Verfügbarkeit)
+Zusätzlich zu den Tests werden auch Übungen
+durchgeführt, die u. a. Szenarien aus in der
+Vergangenheit bereits aufgetretenen Sicherheitsvorfällen hervorgegangen sind.

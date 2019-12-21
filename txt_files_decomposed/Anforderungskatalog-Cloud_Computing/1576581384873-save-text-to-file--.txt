@@ -1,0 +1,11 @@
+Qualifiziertes Personal (z. B. Interne Revision) des
+Cloud-Anbieters oder durch den Cloud-Anbieter
+beauftragte sachverständige Dritte überprüfen
+jährlich die Compliance der internen IT-Prozesse
+mit den entsprechenden internen Richtlinien
+und Standards sowie der für den Cloud-Dienst
+relevanten rechtlichen, regulativen und gesetzlich
+vorgeschriebenen Anforderungen. Die identifizierten Abweichungen werden priorisiert und in
+Abhängigkeit ihrer Kritikalität, werden Maßnahmen zur Behebung zeitnah definiert, nachverfolgt
+und umgesetzt.
+O

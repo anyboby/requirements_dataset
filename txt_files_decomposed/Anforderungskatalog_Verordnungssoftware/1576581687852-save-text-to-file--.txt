@@ -1,0 +1,4 @@
+Die Schnittstelle nach § 291d Abs. 1a SGB V ist von der KBV nach § 291d Abs. 2 SGB V zu definieren und in das
+Interoperabilitätsverzeichnis nach § 291e SGB V bis zum 30.06.2018 einzutragen, sofern die Rechtsverordnung nach § 73 Abs.
+9 SGB V keine weiteren Inhalte vorgibt. Die Implementierung in die Verordnungssoftware hat innerhalb der Frist des § 291d
+Abs. 1 Satz 2 i. V. m. Abs. 1a Satz 4 SGB V zu erfolgen.

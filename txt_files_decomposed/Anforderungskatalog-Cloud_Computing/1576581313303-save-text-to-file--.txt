@@ -1,0 +1,9 @@
+Die Business Impact Analyse sowie die Pläne zur
+betrieblichen Kontinuität und Notfallpläne werden regelmäßig (mindestens jährlich) oder nach
+wesentlichen organisatorischen oder umgebungsbedingten Veränderungen überprüft, aktualisiert
+und getestet. Tests beziehen betroffene Kunden
+(Tenants) und relevante Dritte (z. B. kritische Lieferanten) mit ein. Die Tests werden dokumentiert
+und Ergebnisse werden für zukünftige Maßnahmen der betriebliche Kontinuität berücksichtigt.
+Ergänzende Informationen zur Basisanforderung
+Tests finden in erster Linie auf operativer Ebene
+statt und richten sich an operative Zielgruppen.

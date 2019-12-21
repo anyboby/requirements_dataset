@@ -1,0 +1,3 @@
+Mittels einer Taste muss eine einfache Grundstellungsfahrt der
+Anlage und des Bearbeitungszentrums möglich sein. Die notwendigen Rückzugsstrategien und die Handhabung der in Arbeit
+befindlichen Werkstücke müssen aus jeder Situation heraus funktionieren.

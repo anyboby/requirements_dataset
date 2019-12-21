@@ -1,0 +1,7 @@
+Sowohl beim Wechsel der Speichermedien zu
+Wartungszwecken als auch bei auf Verlangen des
+Cloud-Kunden oder Beendigung des Vertragsverhältnisses erfolgt eine vollständige Löschung der
+Inhaltsdaten des Cloud-Kunden, einschließlich
+der Datensicherungen und der Metadaten (sobald
+diese für die ordnungsgemäße Dokumentation
+der Abrechnung nicht mehr benötigt werden).

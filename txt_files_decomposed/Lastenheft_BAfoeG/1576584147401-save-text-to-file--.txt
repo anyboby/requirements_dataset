@@ -1,0 +1,4 @@
+Dabei müssen auch Vorschussleistungen und sonstige außergewöhnliche Auszahlungen berücksichtigt werden.
+Als Ergebnis des regelmäßigen Rechnungslaufes muss für alle freigegebenen und beschiedenen Förderfälle, die in dem betrachteten Zeitraum eine Auszahlung empfangen,
+eine Zahlungsliste im entsprechenden Format für die auszahlende Bank erzeugt und
+über die entsprechende Schnittstelle (vgl. auch LH 54) übermittelt werden. Die Zahlungsliste muss auch in einem druckbaren Format ausgegeben werden können.

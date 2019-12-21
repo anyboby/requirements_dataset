@@ -1,0 +1,4 @@
+In der Datenbank muss das Jahr der
+Erstinbetriebnahme erfasst werden.
+Die Datenbank soll automatisch das
+Alter des Kühlgerätes errechnen.

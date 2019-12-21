@@ -1,0 +1,4 @@
+Zielsetzung: gewährleisten eines konsistenten
+und umfassenden Vorgehens zur überwachung,
+erfassung, Bewertung, Kommunikation
+und eskalation von sicherheitsvorfällen.

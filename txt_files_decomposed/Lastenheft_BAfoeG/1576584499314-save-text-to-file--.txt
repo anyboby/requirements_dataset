@@ -1,0 +1,4 @@
+Aufbauend auf einem Change-Management muss außerdem ein geeignetes Release
+Management vom Betreiber eingesetzt werden. Hierdurch sollen die Freigaben von Softwarereleases sowie deren Roll-out geplant, überwacht und dokumentiert werden und die
+Produktivumgebung vor dem Einspielen fehlerhafter oder falscher Releases geschützt
+werden.

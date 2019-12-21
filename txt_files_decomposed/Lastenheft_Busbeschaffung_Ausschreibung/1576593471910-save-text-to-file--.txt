@@ -1,0 +1,1 @@
+Startersteuerung mit Zündanlassschloss an der Lenksäule über ein Startsperrrelais wirkend. Startsperre der Motorklappe über Rollenschalter; Start-Stop-Taster im Motorraum.

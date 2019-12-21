@@ -1,0 +1,4 @@
+Hat ein Haushalt an einem Stromspar-Check teilgenommen und möchte, dass seine
+personenbezogenen Daten gelöscht werden, sollte die Löschfunktion die Daten durch
+„xxx“ ersetzen. Die Energiedaten bleiben für Auswertungen erhalten. Dies ist in der DB
+umgesetzt und sollte auch beibehalten werden.

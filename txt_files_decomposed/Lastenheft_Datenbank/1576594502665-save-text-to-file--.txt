@@ -1,0 +1,2 @@
+Die Installation der DB soll von beauftragten Auftragnehmern ausgeführt werden.
+Technische Voraussetzungen werden im nachfolgenden Abschnitt 1.5.3 erläutert.

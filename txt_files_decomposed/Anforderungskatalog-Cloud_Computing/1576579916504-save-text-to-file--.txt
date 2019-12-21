@@ -1,0 +1,13 @@
+In Multi-Mandanten-Umgebungen müssen die vorhandenen
+Ressourcen zwischen den Cloud-Nutzern
+(Mandanten) trotzdem so aufgeteilt werden,
+dass die Dienstgütevereinbarungen eingehalten
+werden. Insoweit sind die angemessene Planung
+und Überwachung von IT-Ressourcen kritisch
+für die Verfügbarkeit und Wettbewerbsfähigkeit
+des Cloud-Dienstes. Soweit die Verfahren nicht
+dokumentiert sind oder als Betriebsgeheimnis des
+Cloud-Anbieters einer höheren Vertraulichkeit
+unterliegen, müssen die Verfahren im Rahmen
+dieser Prüfung mindestens mündlich erläutert
+werden können.

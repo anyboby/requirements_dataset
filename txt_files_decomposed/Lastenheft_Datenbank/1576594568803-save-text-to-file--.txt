@@ -1,0 +1,7 @@
+Als interne Richtlinie liegt ein Corporate Design vor. Dies wird zur Verfügung gestellt.
+Während der Entwicklungsphase stellt der Auftraggeber regelmäßige Testversionen zur
+Verfügung. Hierfür werden Abnahmetests durchgeführt. Für die Abnahmetests muss der
+Auftraggeber dem Auftragnehmer die dafür notwendigen Dokumente zur Verfügung
+stellen. Der Auftraggeber erstellt für jeden Abnahmetest einen Bericht mit Fehlern und
+Verbesserungsvorschlägen. Nach Abnahme einer Funktion muss gewährleistet sein, dass
+diese sich im Nachgang nicht ändert.

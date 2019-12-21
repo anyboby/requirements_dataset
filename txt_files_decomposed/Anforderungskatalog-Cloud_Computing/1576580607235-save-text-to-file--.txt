@@ -1,0 +1,6 @@
+Vergabe und Änderung
+entsprechender Zugriffsberechtigungen erfolgen gemäß der Richtlinie zur Verwaltung von
+Zugangs- und Zugriffsberechtigungen. Der Zugriff
+wird durch starke Authentifizierungstechniken,
+einschließlich Multi-Faktor-Authentifizierung
+gesteuert (vgl. KOS-06).

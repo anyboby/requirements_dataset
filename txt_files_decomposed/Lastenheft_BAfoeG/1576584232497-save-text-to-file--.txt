@@ -1,0 +1,2 @@
+Die BAföG-Software muss in der Lage sein, dass Datenübermittlungsverfahren nach §
+10 Abs. 4b EStG hinsichtlich der steuerfrei geleisteten Zuschüsse zur Kranken- und Pflegeversicherung durchzuführen.

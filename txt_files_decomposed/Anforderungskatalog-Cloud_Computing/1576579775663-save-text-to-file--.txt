@@ -1,0 +1,6 @@
+Eine Methode zur Kennzeichnung
+könnte eine Regelung für Dokumente sein, dass
+die Vertraulichkeitsstufe auf jeder Seite des Dokuments an der jeweils gleichen Stelle angegeben
+ist. Methoden zur Behandlung von Assets sollen
+Regelungen beinhalten, wie Assets gemäß jeder
+Vertraulichkeitsstufe zu schützen sind.

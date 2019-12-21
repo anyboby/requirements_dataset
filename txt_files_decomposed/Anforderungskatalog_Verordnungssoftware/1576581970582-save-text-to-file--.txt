@@ -1,0 +1,5 @@
+Verordnungen von Arzneimitteln über Wirkstoffbezeichnungen sind möglich. Der Workflow
+darf nicht beeinträchtigt werden. Anstelle eines konkreten Präparates werden in diesem Fall
+nur Wirkstoff/Wirkstoffkombination, Wirkstärke, Darreichungsform und Packungsgröße (oder
+Normgröße) auf dem Rezept angegeben. Ein Setzen des aut-idem-Kreuzes bei
+Wirkstoffverordnungen ist nicht zulässig. Wirkstoffe der AM-RL Anlage VII Teil B (siehe P2110 Merkmal 038) dürfen nicht als Wirkstoffverordnung verordnet werden.

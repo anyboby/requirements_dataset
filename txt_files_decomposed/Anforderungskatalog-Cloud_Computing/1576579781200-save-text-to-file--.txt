@@ -1,0 +1,4 @@
+Die Vorgaben stellen einen
+Bezug zur Klassifikation von Informationen her
+(vgl. AM-05). Sie umfassen die sichere Verwendung, den sicheren Transport sowie die unwiederbringliche Löschung und Vernichtung von
+Datenträgern.

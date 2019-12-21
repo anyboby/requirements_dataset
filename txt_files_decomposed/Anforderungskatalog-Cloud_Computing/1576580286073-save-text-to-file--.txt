@@ -1,0 +1,8 @@
+Störungen und Fehlern – Integration mit
+Änderungs- und Incident Management
+Basisanforderung
+Richtlinien und Anweisungen mit technischen
+und organisatorischen Maßnahmen für den
+Umgang mit kritischen Schwachstellen sind
+gemäß SA-01 dokumentiert, kommuniziert und
+bereitgestellt.

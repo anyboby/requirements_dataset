@@ -1,0 +1,3 @@
+Aus dem bestehenden Tool sollen
+die Berechnungen in die neue
+Datenbank übernommen werden.

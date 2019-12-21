@@ -1,0 +1,8 @@
+Die Erfassung der Kühlgeräte läuft derzeit in zwei Registern ab. Die Kühlgeräte werden
+im Register 11 ausführlich erfasst und im Register 10 deren Verbrauch eingetragen. Die
+von der Datenbank ermittelten Werte aus Register 11 müssen dabei manuell in Reiter 10
+übertragen werden. Dieser Prozess soll erleichtert werden, indem ein Button „Speichern
+und übertragen in Reiter 10“ eine automatische Übertragung der relevanten Daten
+ermöglicht. Werden die Daten in R11 nachträglich geändert und ein weiteres Mal der
+Button gedrückt, soll die Datenbank vorher prüfen, ob im Register 10 schon einmal ein
+Kühlgerät eingetragen wurde.

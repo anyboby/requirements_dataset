@@ -1,0 +1,5 @@
+Alle Änderungen, die an den Stromspar-Checks durchgeführt werden, sollen
+protokolliert werden. Dies ist in der aktuellen DB umgesetzt und soll in der neuen
+DB weiter genutzt werden. Hierbei sollen alle Nutzerrollen davon betroffen sein
+(siehe Abbildung 2). Der Aufbau des Logs sollte verständlicher und
+nachvollziehbarer sein (genaue Erkennung, welches Feld wie geändert wurde).

@@ -1,0 +1,16 @@
+Notfalländerungen sind als solche von dem
+Änderungsmanager zu klassifizieren, der die
+Änderungsdokumentation vor Übertragung der
+Änderung in die Produktivumgebung erstellt.
+Anschließend (z. B. innerhalb von 5 Werktagen)
+fügt der Änderungsmanager Begründung und
+Ergebnis der Übertragung der Notfalländerung
+zu der Änderungsdokumentation hinzu. Aus
+der Begründung muss hervorgehen, warum der
+reguläre Änderungsprozess nicht durchlaufen
+werden konnte und was die Folgen einer Verzögerung durch Einhaltung des regulären Prozesses
+gewesen wären. Die Änderungsdokumentation
+wird an die betroffenen Kunden weitergeleitet
+und gemäß der vertraglichen Vereinbarungen
+eine nachträgliche Freigabe durch die hierzu
+autorisierten Stellen eingeholt.

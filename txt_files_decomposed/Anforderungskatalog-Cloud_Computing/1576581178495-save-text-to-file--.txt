@@ -1,0 +1,6 @@
+Es gibt Anweisungen, wie bei einem Sicherheitsvorfall die Daten eines verdächtigen Systems
+beweisfest gesammelt werden können. Weiterhin
+existieren Analysepläne für typische Sicherheitsvorfälle sowie eine Auswertemethodik, so dass die
+gesammelten Informationen in einer eventuell
+späteren juristischen Würdigung ihre Beweiskraft
+nicht verlieren.

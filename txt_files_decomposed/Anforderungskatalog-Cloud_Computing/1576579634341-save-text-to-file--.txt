@@ -1,0 +1,10 @@
+Optionale, weitergehende Anforderungen
+(Vertraulichkeit und Verfügbarkeit)
+Die Angemessenheit genehmigter Ausnahmen
+und die Beurteilung der daraus entstehenden
+Risiken wird mindestens jährlich durch einen
+unabhängigen Dritten dahingehend überprüft,
+ob sie ein tatsächliches Bild der aktuellen und
+zukünftig erwarteten Bedrohungsumgebung in
+Bezug auf die Informationssicherheit wiedergibt
+(vgl. SPN-01).

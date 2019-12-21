@@ -1,0 +1,3 @@
+Die Anlage ist auszulegen, dass eine autarke Laufzeit der
+Gesamtanlage (Bearbeitungszentrum und Anlage ) in der vom
+Kunden geforderten Restlaufzeit gewährleistet wird.

@@ -1,0 +1,2 @@
+Verfahren und technische Maßnahmen zur Verschlüsselung sensibler Daten der Cloud-Kunden
+bei der Speicherung sind etabliert.

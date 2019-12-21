@@ -1,0 +1,6 @@
+Nach dem Ausfüllen des AmBADO-Formulars soll die
+Erfassung der Abrechnungsleistung 101/201 im
+Leistungserfassungsprogramm unmittelbar aus dem
+AmBADO-Formular heraus angestoßen werden
+können. Dies soll nur für vollständige und plausible
+Dokumentationen möglich sein.

@@ -1,0 +1,3 @@
+Der Cloud-Anbieter führt eine Liste aller protokollierungs- und überwachungskritischen Assets
+und überprüft diese Liste regelmäßig auf deren
+Aktualität und Korrektheit.

@@ -1,0 +1,6 @@
+Wenn die Software PIA-übergreifend eingesetzt
+werden soll, muss gewährleistet sein, dass
+Ambulanzbehandlungsfälle (siehe Referenzdokument 3: AmBADO-Anleitung, Allgemeine Hinweise, Punkt 3), die zeitlich parallel oder überschneidend in zwei oder mehr PIA laufen, unabhängig voneinander dokumentiert werden können.
+Hinweis
+Eine PIA ist derzeit durch eine eindeutige
+Betriebsstättennummer gekennzeichnet.

@@ -1,0 +1,6 @@
+Verfahren und technische Maßnahmen zur sicheren Schlüsselverwaltung beinhalten mindestens
+die folgenden Aspekte:
+» Schlüsselgenerierung für unterschiedliche
+kryptographische Systeme und Applikationen,
+» Ausstellung und Einholung von
+Public-Key-Zertifikaten

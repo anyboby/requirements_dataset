@@ -1,0 +1,5 @@
+Ein Programm zur zielgruppenorientierten
+Sicherheitsausbildung und Sensibilisierung zum
+Thema Informationssicherheit existiert und ist
+verpflichtend für alle internen und externen
+Mitarbeiter des Cloud-Anbieters.

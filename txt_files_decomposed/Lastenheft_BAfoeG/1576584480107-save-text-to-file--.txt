@@ -1,0 +1,3 @@
+Gemeldete Fehler, die den Systembetrieb unmittelbar beeinträchtigen, müssen durch
+den Betreiber analog zur Wiederherstellungszeit des Gesamtsystems von Montag bis
+Freitag innerhalb von 24 Stunden behoben werden.

@@ -1,0 +1,9 @@
+Mindestens jährlich erfolgt
+eine Prüfung durch unabhängige, externe Prüfer
+oder qualifiziertes Personal des Cloud-Anbieters,
+um die Wirksamkeit der beim Dienstleister
+eingerichteten Kontrollen, die im Zusammenhang mit dem Vertragsverhältnis stehen sowie
+die vereinbarten Sicherheitsanforderungen zu
+überprüfen. Die Nachweisführung kann z. B. in
+Form von Berichterstattungen nach ISAE 3402/
+IDW PS 951 erfolgen.

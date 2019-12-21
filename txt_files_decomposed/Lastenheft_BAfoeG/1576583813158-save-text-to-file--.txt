@@ -1,0 +1,2 @@
+Ein wichtiger Bestandteil der zentralen Administration ist die Durchführung von Updates
+der BAföG-Software im Falle von Gesetzesänderungen.

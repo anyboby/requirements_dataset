@@ -1,0 +1,4 @@
+Alle Kennzeichnungen, die aus sicherheitstechnischen Gründen angebracht werden,
+müssen der DIN EN ISO 7010 „Sicherheitsfarben und Sicherheitszeichen“ bzw. der
+ASR A 1.3 „Sicherheits- und Gesundheitsschutzkennzeichnung in Arbeitsstätten“ entsprechen. “
+Behälter sind gemäß GHS („Globally Harmonized System of Classification and Labelling of Chemikals") bzw. CLP zu kennzeichnen. Kennzeichnungen nach Gefahrstoffverordnung sind nicht mehr zulässig.

@@ -1,0 +1,4 @@
+Die Auffangwanne ist so auslegen, dass ein Gefälle das anfallende
+Kühlmittel in die Auffangwanne der Anlage oder in die Auffangwanne des Bearbeitungszentrums leitet.
+Weitere Auffangsysteme unterhalb der Laufstrecke von Werkstücken, Werkstückträgern, anderen kühlmittelbehafteten Komponenten und vorhandene Stützen und Portale ist vorzusehen, bei
+Bedarf sind Leitbleche einzusetzen.

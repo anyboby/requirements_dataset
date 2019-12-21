@@ -1,0 +1,3 @@
+Eine Aufgliederung der Statistik in Bezug auf einzelne Arzneimittel bzw. Produktgruppen (z.
+B. nach ATC-Code) oder bezogen auf einzelne Patientengruppen (z. B. nach Alter,
+Geschlecht oder ICD-Diagnose) ist möglich.

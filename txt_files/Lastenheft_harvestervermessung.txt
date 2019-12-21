@@ -1,0 +1,4120 @@
+Kuratorium für
+Waldarbeit und
+Forsttechnik e.V.
+
+Lastenheft Harvestervermessung
+
+www.kwf-online.de
+
+kwf Bericht Nr. 41/ 2010
+
+1. Auflage 2010
+Herausgegeben vom Kuratorium für
+Waldarbeit und Forsttechnik e. V.
+(KWF)
+Spremberger Str. 1
+D-64823 Groß-Umstadt
+Tel.: 06078/785-0
+Fax: 06078/785-50 oder -39
+e-mail: info@kwf-online.de
+Gefördert durch das Bundesministerium
+für Ernährung, Landwirtschaft
+und Verbraucherschutz (BMELV)
+aufgrund eines Beschlusses des
+Deutschen Bundestages und durch die
+Länderministerien für Forstwirtschaft.
+Bearbeitung:
+Hans-Ulrich Dietz, KWF
+Björn Urbanke, KWF
+
+© 2010 by Kuratorium für Waldarbeit
+und Forsttechnik e. V.
+Nachdruck, auszugsweise Wiedergabe,
+Vervielfältigung, Übernahme auf
+Datenträger und Übersetzung nur mit
+Genehmigung des KWF.
+
+Lastenheft Harvestervermessung
+Eine Projektarbeit des KWF, gefördert von der GEFFA-Stiftung.
+
+st
+en
+
+Lastenheft Harvestervermessung
+
+isc
+h
+
+en
+
+La
+
+nd
+
+aber auch für die Steuerung logistischer
+Prozesse
+sowie
+als
+forstseitiges
+Kontrollmaß
+zur
+Verfügung
+und
+werden bei Einvernehmen zwischen
+den Marktpartnern zur Erhebung des
+Abrechnungsmaßes verwendet.
+
+äc
+hs
+
+er
+s
+
+ied
+
+inn
+
+er
+
+Mittlerweile beträgt der Harvesterbestand in Deutschland nach KWFForstmaschinen-Statistik 2008 rund
+1.500 Einheiten mit einer geschätzten
+Aufarbeitungskapazität
+von
+über
+zwanzig Millionen Kubikmetern. Die
+hochmechanisierte
+Holzernte
+mit
+Harvester und Forwarder nimmt damit
+eine Schlüsselrolle für mehr als die Hälfte
+des Nadelholzeinschlags in Deutschland
+ein. Während der Aufarbeitung der
+Bäume und dem Einschneiden in
+Verkaufssortimente werden durch den
+Harvester alle relevanten Grunddaten,
+das sind Länge, Durchmesser, Stückzahl
+und Sortiment, erhoben. Die Daten
+werden in standardisierter Form auf
+dem On-Board Computer (OBC) des
+Harvesters abgelegt und ermöglichen
+damit eine sorten- und wertoptimierte
+Aushaltung. Sie stehen gleichzeitig
+
+Eine Neuauflage des 1999 erstmals
+aufgelegten Pflichtenhefts automa-
+
+en
+du
+
+ng
+
+tisierte Rohholzvermessung durch Kranvollernter des KWF wurde erforderlich,
+
+ür
+
+die
+
+Ve
+
+rw
+
+um der in den zurückliegenden Jahren
+erfolgten
+Maschinenund
+EDVtechnischen Entwicklung Rechnung
+zu tragen. Aber auch, um die organisatorischen Anforderungen einer Prozesssteuerung der Holzlogistik in der
+hoch mechanisierten Holzernte durch
+Harvester und Forwarder zu beschreiben.
+Nachdem der angelsächsische Begriff „Harvester“ sich auch in der
+deutschen Forstwirtschaft weitgehend
+durchgesetzt hat, verwendet das KWF
+diesen Begriff zur Benennung dieser
+forstlichen Spezialmaschine.
+
+Nu
+rf
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+Bei der Aufarbeitung der Bäume
+erfolgt die Sortenbildung und damit
+der entscheidende Prozess in der
+Wertschöpfung
+vom
+Baum
+zum
+Verkaufssortiment. Eine anschließende
+Korrektur ist nur im Ausnahmefall
+möglich. Eine falsche Ausformung
+führt somit zu einer erheblichen
+Erlösminderung. Grundlage für verlässliche Messergebnisse sind optimal
+justierte Vermessungssysteme sowie
+Kontrollroutinen, die die laufende
+Prüfung der Messdaten gewährleisten
+und dokumentieren und damit Akzeptanz für Vertrauen in das Harvestermaß
+schaffen.
+
+rN
+
+ha
+lb
+
+de
+
+Seit Mitte der 1980er Jahre sind
+Harvester in Deutschland im Einsatz.
+Das Kuratorium für Waldarbeit und
+Forsttechnik e.V. (KWF) hat von Beginn
+an die Einführung und technische
+Entwicklung der Systeme begleitet.
+Die ersten FPA-Prüfungen wurden
+1989 abgeschlossen. Dabei wurden
+bereits die Qualität der Entastung
+und die Genauigkeit von Längen- und
+Durchmesserermittlung im Praxiseinsatz
+untersucht. Im Prüfbericht zur ÖSA 250
+SUPER-EVA z.B. ist dazu vermerkt: „Die
+im Praxiseinsatz ereichbare Längenmessgenauigkeit ist im allgemeinen
+befriedigend. Für die Sortenbildung
+ist die Durchmessererfassung als Entscheidungshilfe ausreichend genau.“
+Und: „Korrektureingriffe des Bedieners
+können die Messgenauigkeit erhöhen.“
+
+es
+fo
+r
+
+Vorwort zur Neuauflage
+
+4
+
+st
+en
+
+nd
+
+La
+
+en
+
+isc
+h
+
+äc
+hs
+
+er
+s
+
+ied
+
+ha
+lb
+
+de
+
+Das Lastenheft zur Harvestervermessung richtet sich an alle Prozessbeteiligten der Holzlogistik, das sind
+forstliche Auftraggeber, Dienstleistungsunternehmer und Abnehmer in
+der Säge- und Holzindustrie sowie
+die Hersteller und Anbieter der
+Harvestermesssysteme.
+Wesentliche
+Grundlage ist der Standard für
+Forstdaten
+und
+Kommunikation
+(StanForD – Standard for Forest Data
+and Communication), für den das KWF
+der deutsche Ansprechpartner ist.
+
+er
+
+Groß-Umstadt, 01. September 2010
+
+rw
+
+en
+du
+
+ng
+
+inn
+
+Dr. Ute Seeling
+Geschäftsführende Direktorin, KWF
+
+Nu
+rf
+
+ür
+
+die
+
+Ve
+
+Entscheidend für die breite Anwendung des Harvestervermessungsverfahrens in der forstlichen Praxis
+ist
+die
+Transparenz
+durch
+Beschreibung
+der
+organisatorischen
+Anforderungen sowie der Definition
+praxisgerechter Fehlergrenzen. Eine
+Analogie zur Werksvermessung von
+Stammholz bei der Festlegung der
+technischen
+Messgenauigkeit
+der
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+Das
+Lastenheft
+zur
+Harvestervermessung ist eine Projektarbeit des
+KWF, die Veröffentlichung wurde von
+der GEFFA-Stiftung gefördert.
+
+rN
+
+• Technische Konzeption des Messsystems
+• Grundlagen der Datenerfassung, Verarbeitung und Verwaltung
+• Ablauf von Kontrollmessung und
+Justierung
+• Durchführung von Kontrollroutine
+und deren Dokumentation
+
+Vermessungssysteme ist beabsichtigt
+und trägt der Verwendung des
+Harvestermaßes
+als
+Kontrollmaß
+für
+die
+Werkseingangsvermessung
+Rechnung. Für die praxisbedingte
+Messbeständigkeit, die durch Kontrollmessung und situationsbedingte Justierung gewährleistet wird, wurden
+praxisrelevante
+Qualitätskennzahlen
+erarbeitet und festgelegt. Damit
+sollen gleichzeitig die technisch und
+verfahrensbedingt
+unterschiedlichen
+Messprinzipien
+von
+Harvestermaß
+und Werksmaß dokumentiert werden,
+um
+hierüber
+eine
+Klarstellung
+herbeizuführen.
+
+es
+fo
+r
+
+Gleichzeitig wird der vorliegende KWFBericht als Lastenheft im Sinne der DIN
+69 905, VDI/VDE 3694 zur Beschreibung
+der „vom Auftraggeber festgelegten
+Forderungen an die Lieferungen und
+Leistungen
+eines
+Auftragnehmers
+innerhalb eines Auftrages“ herausgegeben. Das vorliegende Lastenheft
+zur Harvestervermessung beschreibt
+folgende Grundanforderungen:
+
+5
+
+st
+en
+
+Lastenheft Harvestervermessung
+
+Grundlagen							
+Technische Beschreibung der Mess- und
+Steuersysteme						
+Allgemeine Anforderungen an die Harvestervermessung							
+Dokumentation der Mess- und Steuersysteme		
+
+La
+
+nd
+
+1.
+1.1
+
+es
+fo
+r
+
+Inhaltsverzeichnis
+
+1.3
+
+inn
+
+er
+
+ha
+lb
+
+de
+
+rN
+
+ied
+
+er
+s
+
+äc
+hs
+
+Messsystem							
+Datenerfassung						
+Längenmessung						
+Durchmessermessung					
+Stückzahlermittlung						
+Datenspeicherung						
+Datenberechnung						
+Längenberechnung						
+Sägefenster							
+Durchmesserberechnung					
+Volumenberechnung					
+Sortierung							
+Datenverarbeitung und informationstechnische
+Anforderungen						
+2.3.1 On-board Computer (OBC)					
+2.3.2 Voreinstellungen						
+2.3.3 Datensicherheit						
+
+Ve
+
+rw
+
+Dateitypen und Datenstruktur				
+Dateitypen							
+Datenstruktur						
+Auftragsdaten (APT)					
+Einzelstammdaten (STM)					
+Produktionsdaten (PRD)					
+Kalibrierungsdaten (KAL)					
+Kontrolldaten (KTR)						
+
+Nu
+rf
+
+ür
+
+die
+
+3.
+3.1
+3.2
+3.2.1
+3.2.2
+3.2.3
+3.2.4
+3.2.5
+
+en
+du
+
+ng
+
+2.
+2.1
+2.1.1
+2.1.2
+2.1.3
+2.1.4
+2.2
+2.2.1
+2.2.2
+2.2.3
+2.2.4
+2.2.5
+2.3
+
+isc
+h
+
+en
+
+1.2
+
+4.
+4.1
+
+Kalibrierung, Kontrollmessung und Justierung		
+Fehlergrenzen						
+6
+
+8
+8
+
+9
+10
+10
+10
+10
+10
+10
+11
+11
+11
+11
+11
+12
+13
+13
+13
+13
+13
+14
+14
+14
+14
+15
+15
+15
+15
+16
+16
+
+6.
+6.1
+6.2
+
+Qualitätssicherung						
+Kontrollstammverfahren					
+QS Harvester							
+
+nd
+
+La
+
+ied
+
+er
+s
+
+äc
+hs
+
+isc
+h
+
+en
+
+Kontrollroutine und Dokumentation			
+Kontrollmessung						
+Auswahl der Kontrollbäume				
+Vorbereitung für die Kontrollmessung			
+Ausrüstung							
+Durchführung der Kontrollmessung			
+Justierungen							
+Dokumentation						
+
+ng
+
+inn
+
+er
+
+ha
+lb
+
+Anlagen							
+Rindenparameter 						
+Musterprotokolle (gedruckt)				
+Produktionsbericht						
+Justierungsbericht /Kalibrierbericht			
+Kontrollmessung						
+
+Nu
+rf
+
+ür
+
+die
+
+Ve
+
+rw
+
+en
+du
+
+7.
+7.1
+7.2
+7.2.1
+7.2.2
+7.2.3
+
+de
+
+rN
+
+5.
+5.1
+5.1.1
+5.1.2
+5.1.3
+5.1.4
+5.2
+5.3
+
+st
+en
+
+Kalibrierung							
+Anforderungen an das Vermessungssystem		
+Kontrollmessung						
+Anforderungen an das Vermessungssystem		
+Justierung							
+Anforderungen an das Vermessungssystem		
+
+17
+17
+17
+18
+18
+19
+
+es
+fo
+r
+
+4.2
+4.2.1
+4.3
+4.3.1
+4.4
+4.4.1
+
+7
+
+19
+19
+19
+20
+20
+21
+22
+22
+22
+23
+24
+26
+26
+27
+27
+28
+29
+
+st
+en
+
+Lastenheft Harvestervermessung
+
+1. Grundlagen
+
+es
+fo
+r
+
+Durchmesserabnahme
+mechanisch/
+hydraulisch an den vorderen Entastungsmessern oder an den Vorschubwalzen durch einen oder mehrere
+Inkrementalgeber. In älteren Systemen
+sind eventuell Präzisionspotentiometer
+verarbeitet.
+
+La
+
+en
+
+er
+s
+
+äc
+hs
+
+isc
+h
+
+Mikroprozessorgestützte Steuer- und
+Ablängeeinheit für Aggregatsteuerung
+und Aushaltung nach programmierbaren
+Längen, Zopfdurchmessern und Sorten
+sowie zur Volumenberechnung und
+Wertoptimierung.
+
+ied
+
+Nu
+rf
+
+ür
+
+die
+
+Ve
+
+rw
+
+en
+du
+
+ng
+
+Marktverfügbare
+On-Board
+Computer (OBC) basieren auf einer
+Personalcomputer
+(PC)-kompatiblen
+oder originären PC-Technologie. Dies
+bedeutet, dass die Systeme aus einem
+mikroprozessorgestützten
+Messund Steuersystem zur Erfassung,
+Berechnung, Speicherung der Primärdaten (Länge, Durchmesser, Sektionsvolumina) bestehen.
+Ferner leisten die Systeme die
+Ablängekontrolle und Steuerung der
+Säge, sie besitzen einen AuswertePC mit Optimierungsfunktionen zur
+Verarbeitung und Verwaltung der
+Primärdaten sowie zur Sägesteuerung.
+
+Abb. 1: Messeinrichtungen im Harvesteraggregat
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+Speichereinheit zur Datenspeicherung,
+-ausgabe, -weiterverarbeitung und
+-übermittlung.
+Die Mess- und Steuersysteme von Harvestern besitzen damit eine Schnittstelle zwischen den mechanischen
+bzw. mechanisch/hydraulischen Komponenten zur Datenerfassung in den
+elektronischen
+Komponenten
+zur
+Verarbeitung der Messdaten, sowie
+zur Datenspeicherung, -ausgabe und
+-übertragung.
+
+rN
+
+inn
+
+er
+
+ha
+lb
+
+de
+
+Längenabnahme mechanisch durch
+vorgespanntes Längenmessrad. Ein
+induktiver Impulsgeber gibt die Impulsanzahl an einen Mikroprozessor weiter, der die Umrechnung der Impulsanzahl in Längeneinheiten vornimmt.
+Hierbei muss eine Richtungserkennung
+unterstützt werden.
+
+nd
+
+1.1 Technische Beschreibung der
+Mess- und Steuersysteme
+Mess- und Steuersysteme von Harvestern ermitteln während der Holzernte und -aufarbeitung im Harvesteraggregat Länge und Durchmesser von
+Stämmen
+oder
+Stammabschnitten
+und bilden damit Grundlage für
+Aushaltung und Sortenbildung sowie
+zur Volumenberechnung der aufgearbeiteten Sortenstücke.
+Die Mess- und Steuersysteme bestehen
+aus folgenden Modulen:
+
+8
+
+st
+en
+
+Messungenauigkeiten
+können
+entstehen, wenn Teile des Mess- und
+Steuersystems
+beschädigt
+oder
+verstellt werden, z.B. bei Reparaturen
+und
+Wartungsarbeiten
+am
+Harvesteraggregat. Insbesondere jedoch können Messabweichungen bedingt durch äußere Einflüsse auftreten.
+
+nd
+
+La
+
+en
+
+isc
+h
+
+äc
+hs
+
+er
+s
+
+ied
+
+rw
+
+en
+du
+
+ng
+
+Diese Ursachen für Abweichungen
+des Messergebnisses im Vergleich zu
+einem Bezugsmaß sind systematisch
+und
+gelten
+bei
+gleichbleibenden
+Umgebungsbedingungen
+(Frost,
+Saftzustand)
+gleichartig
+für
+den
+gesamten Bestand. Sie sind deshalb
+durch regelmäßige Kontrollmessungen
+und entsprechende Justierungen auszugleichen.
+
+die
+
+Ve
+
+Die Messsysteme müssen jederzeit
+eine einfache Kontrolle und effektive
+Justierung zulassen, um sie mit der
+gewünschten Genauigkeit an die
+vorhandenen Gegebenheiten anzupassen. Eine regelmäßige Kontrolle
+deckt eventuelle Messungenauigkeiten
+frühzeitig auf und gewährleistet durch
+entsprechende
+Anpassungen
+des
+Systems optimale Messergebnisse.
+
+ür
+
+Die in diesem Lastenheft beschriebenen Anforderungen sind als Mindestanforderungen zu verstehen.
+
+Nu
+rf
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+Dies sind vor allem:
+• Schlupf des Längenmessrads in
+Abhängigkeit von der Oberflächenrauhigkeit des Stammes (v.a. Rindenstruktur, Baumart, Saftzustand, Vereisung).
+• Einschneiden der Entastungsmesser
+unter die Rinde in Abhängigkeit von
+der Widerstandsfähigkeit der Stammoberfläche (Saftzustand, Baumart).
+• Verlust des Oberflächenkontakts von
+Entastungsmessern oder Vorschubwalzen bei extrem unruhiger Stammoberfläche (Grobastigkeit, Baumart).
+• Fehlen einer „echten“ Kreuzmessung
+der Durchmesser bei stark unrundem
+Holz.
+
+rN
+
+inn
+
+er
+
+ha
+lb
+
+de
+
+1.2 Allgemeine Anforderungen an die
+Harvestervermessung
+Harvester fällen Bäume, entasten und
+arbeiten Stämme zu verkaufsfähigen
+Rohholz-Sortimenten auf. Die Harvestervermessung liefert dabei in einem
+integrierten Verfahren Informationen
+zu Länge und Durchmesser der
+aufgearbeiteten Stücke. Damit ergeben sich Möglichkeiten für ein
+zeitnahes und rationelles waldseitiges
+Vermessungsverfahren des Rohholzes.
+Um die notwendige Akzeptanz für
+Messverfahren
+und
+-system
+zu
+erreichen, muss Zweifeln an der
+Zuverlässigkeit des Systems begegnet
+und Transparenz der ablaufenden
+Prozesse geschaffen werden.
+
+es
+fo
+r
+
+Die
+modulare
+Systemarchitektur
+der
+OBC
+implementiert
+einen
+großen
+Umfang
+an
+verfügbarer
+Standardsoftware
+für
+vielfältige
+Vermessungsfunktionen
+sowie
+die
+leichte Nachrüstbarkeit bestimmter
+Vermessungsanforderungen
+(z.B.
+Sortenoptimierung, Aushaltung nach
+Prioritätenliste,
+HKSbzw.
+RVRkonforme Datenaufbereitung). Neben
+den Holzdaten können die meisten
+Systeme weitere Metadaten erfassen,
+z.B. Zeiten sowie fallweise auch
+geographische Daten.
+
+9
+
+st
+en
+
+Lastenheft Harvestervermessung
+Die Werte werden nicht gerundet
+und entsprechend der Messauflösung
+erfasst und abgespeichert.
+
+es
+fo
+r
+
+1.3 Dokumentation der Mess- und
+Steuersysteme
+In einer Bedienungsanleitung werden
+wesentliche Grundlagen zur Beschreibung und Funktion der Mess- und
+Steuersysteme dokumentiert.
+
+La
+
+nd
+
+2.1.1 Längenmessung
+Gemessen wird die Länge auf ganze
+Zentimeter. Die Messauflösung muss
+<1 cm betragen.
+
+äc
+hs
+
+isc
+h
+
+2.1.2 Durchmessermessung
+Gemessen wird der Durchmesser auf
+ganze Millimeter. Die Messauflösung
+muss < 1 mm sein.
+
+er
+s
+
+ied
+
+er
+
+ha
+lb
+
+Eventuelle Programmerweiterungen und
+Updates müssen durch Versionsnummer
+und Datum dokumentiert sein.
+
+Jeder Stamm und jeder Stammabschnitt,
+die durch das Harvesteraggregat
+aufgearbeitet werden, müssen registriert werden. Die Stückzählung wird mit
+dem Trennschnitt ausgelöst. Da jedoch
+nicht jeder Stammabschnitt in den
+Verkauf gelangt, muss die Möglichkeit
+bestehen,
+zwischen
+verwertbarem
+und unverwertbarem Holz (X-Holz) zu
+unterscheiden. Nur so lässt sich die
+verwertbare Stückzahl ermitteln.
+Treten während der Aufarbeitung
+Probleme auf (z.B. Herausfallen des
+Holzes aus dem Aggregat), muss die
+Möglichkeit bestehen, die laufende
+Messung abzubrechen, ohne dass
+die angefangene Messung zu einer
+Stückzählung führt.
+
+inn
+
+2. Messsystem
+
+Nu
+rf
+
+ür
+
+die
+
+Ve
+
+rw
+
+en
+du
+
+ng
+
+2.1 Datenerfassung
+Stämme
+bzw.
+Stammabschnitte
+werden im Harvester räumlich in drei
+Dimensionen erfasst (Abbildung 1). In
+der Z-Dimension wird die Länge und
+in den X- und Y-Dimensionen wird der
+Durchmesser erfasst.
+
+Abb. 2: Dimensionen der Rundholzvermessung
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+2.1.3 Stückzahlermittlung
+Jeder Baum, der vom Harvester gefällt
+wird, muss auch zahlenmäßig erfasst
+werden. Um als Baum zu zählen, muss
+die Summe der Länge der Abschnitte
+eines Baumes länger sein als die kleinste
+verfügbare Länge in den Preismatrizen
+und der Durchmesser an der minimalen
+Länge des Erdstammstückes muss
+größer sein als der kleinste verfügbare
+Durchmesser in den Preismatrizen.
+
+rN
+
+de
+
+Sind ergebniswirksame Berechnungsparameter wahlweise voreinstellbar,
+so müssen alle dazu verwendeten
+Rechenabläufe dokumentiert sein.
+Dies betrifft insbesondere alle Rundungsvorgänge und Rindenabzugsparameter sowie die verwendeten Volume
+nberechnungsformeln.
+
+en
+
+Die Dokumentation muss
+• vollständig,
+• übersichtlich und
+• für das Bedienpersonal verständlich (deutschsprachig) sein.
+
+Definition nach StanForD (Kapitel 3)
+
+
+
+10
+
+st
+en
+
+der Aufarbeitung der Stamm aus dem
+Aggregat gefallen war). In diesem
+Fall kann der aktuelle, noch nicht
+vollständige Datensatz überschrieben
+werden.
+
+Stellt sich ein Abschnitt als nicht der
+Preismartize entsprechend heraus,
+besteht die Möglichkeit, den Datensatz
+umzusortieren. Der Datensatz darf
+dadurch nicht gelöscht werden.
+
+2.2 Datenberechnung
+2.2.1 Längenberechnung
+Die Vermessungssysteme müssen in
+der Lage sein, beliebige Maßzugaben zu
+gewähren. Diese Maßzugaben müssen
+bei der Feststellung der Stammmitte
+(Mittendurchmesser) und bei der
+Volumenberechnung außer Betracht
+bleiben.
+
+äc
+hs
+
+isc
+h
+
+en
+
+La
+
+nd
+
+es
+fo
+r
+
+2.1.4 Datenspeicherung
+Für alle Stämme und Stammabschnitte,
+die durch das Aggregat laufen, müssen
+Längen, Durchmesser und Anzahl erfasst und gespeichert werden.
+
+ied
+
+Bezeichnung
+
+er
+s
+
+Solange kein Kappschnitt erfolgt
+ist, kann der Stamm erneut in die
+Ausgangsposition gebracht und erneut
+vermessen werden (z.B. wenn während
+Sägeholz
+
+Industrie-/Energieholz
+
+Bezahlte Länge
+
+rN
+
+Bestell- und
+Verkaufslänge
+
+Bestelllänge + Maßzugaben in ganzen cm
+(i.d.R. 10 cm)
+
+Bezahlte Länge
+
+Mindestlänge
+
+Bestelllänge + 1 % Maßzugabe
+
+Bestelllänge +/- 1 % Maßzugabe
+
+ha
+lb
+
+de
+
+Lieferlänge
+
+Tabelle 1: Definition der Längen
+
+2.2.3 Durchmesserberechnung
+Mit dem Harvester werden die
+Durchmesserwerte
+während
+der
+Aufarbeitung ermittelt. Es lässt sich
+in der Praxis nicht vermeiden, dass die
+Entastungsmesser je nach Anpressdruck, Baumart und Zustand des Holzes
+das Holz teilweise entrinden. Daher sind
+die verarbeiteten Durchmesserwerte
+tatsächlich in Rinde, teilweise in Rinde
+oder ohne Rinde gemessen.
+
+en
+du
+
+ng
+
+inn
+
+er
+
+Die Maßzugabe muss wahlweise absolut (in ganzen cm) oder relativ (in
+% der Bestelllänge) erfolgen können.
+X-Holz wird ohne Längenzugabe (= geschnitten) registriert.
+
+Ve
+
+rw
+
+2.2.2 Sägefenster
+Das Sägefenster bezeichnet den
+zulässigen Längenbereich für den
+Trennschnitt bei der Sortenbildung.
+Je enger dieser Bereich gewählt
+wird, desto genauer stimmt die
+tatsächliche Abschnittslänge mit der
+Lieferlänge überein. Mit abnehmendem
+Längenbereich
+des
+Sägefensters
+wird jedoch die Aufarbeitungsgesch
+windigkeit zunehmend reduziert. Das
+Sägefenster erfordert deshalb eine
+praxisgerechte Einstellung.
+
+Nu
+rf
+
+ür
+
+die
+
+Um eine Annäherung an das forstliche Volumenmaß (Fm o. R.) zu
+erreichen, müssen von den Messwerten
+vertraglich vereinbarte Rindenabzüge
+vorgenommen werden.
+Die
+baumartenspezifisch
+unterschiedlichen Rindenstärken nehmen
+bei allen Baumarten mit steigenden
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+11
+
+st
+en
+
+Lastenheft Harvestervermessung
+
+nd
+
+La
+
+en
+
+isc
+h
+
+ied
+
+er
+s
+
+äc
+hs
+
+2.2.4 Volumenberechnung
+Die Volumenberechnung erfolgt anhand der ermittelten Längen- und
+Durchmesserwerte.
+Die folgenden Volumenberechnungsm
+odelle (Tabelle 2) müssen wahlweise
+voreinstellbar sein:
+
+rN
+
+Berechnungstyp
+
+Baumhöhe zwei Rindenabzugswerte
+(mit/ohne Spiegelrinde) zuzuordnen.
+Die Baumhöhe, ab der Spiegelrinde
+unterstellt wird, wird vor Arbeitsbeginn
+gutachtlich geschätzt und im Messsystem gespeichert. Der berechnete
+Durchmesser ist der entsprechend
+dem Berechungstyp gerundete Durchmesser.
+
+es
+fo
+r
+
+Stammdurchmessern zu.
+Die Rindenstärke ist daher je nach
+Holzartenstärke-Kombination vom gemessenen Durchmesser abzuziehen.
+Die Rindenabzugswerte sind im OBC
+tabellarisch hinterlegt (siehe 3.2). So
+können die Rindenabzüge vom System
+vollautomatisch durchgeführt werden.
+Weichen die tatsächlichen Rindenstärken deutlich von den Werten der
+hinterlegten Rindenabzugstabelle ab,
+so muss die Möglichkeit bestehen,
+jeder Baumart einen eigenen Rindenabzugswert zuzuordnen.
+Bei der Baumart Kiefer muss es
+möglich sein, für verschiedene Durchmesserstufen in Abhängigkeit von der
+
+Sektionsvolumen
+
+Mittenstärkenvolumen nach RVR  
+
+ha
+lb
+
+Zopfvolumen
+
+Berechnungsart
+
+de
+
+	
+
+inn
+
+er
+
+Preiskategorie Typ 1: Zopfvolumen, nicht gerundet, wahlweise m.R. oder o.R.Preiskategorie
+Typ 2: Sektionsvolumen, nicht gerundet, wahlweise m.R. oder o.R.Preiskategorie Typ 7:
+Mittenstärkenvolumen nach RVR, forstüblich gerundet o.R. Für den Einsatz in Deutschland wird
+für das Sägeholz ausschließlich der Volumentyp 7 genutzt, ansonsten der Volumentyp 2, wenn
+vertraglich keine anderen Preiskategorien vereinbart sind.
+
+en
+du
+
+ng
+
+Tabelle 2: Volumenberechnungsmodelle (Preiskategorien)
+
+die
+
+Ve
+
+rw
+
+Für den Einsatz in Deutschland wird für das Sägeholz ausschließlich der Volumentyp
+7 genutzt, ansonsten der Volumentyp 2, wenn vertraglich keine anderen
+Preiskategorien vereinbart sind.
+
+Nu
+rf
+
+ür
+
+
+Wird das Volumen als Sektionsvolumen ermittelt, darf die Sektionslänge (l) maximal 25 cm betragen. In der Regel sollen
+10 cm-Sektionen verwendet werden. Viele Hersteller verwenden beim Sektionsvolumen die Zylinderformel: V= Σ(l * r² * П).
+Aufgrund der kurzen Sektionslänge ist die Differenz. praktisch unerheblich
+
+Rahmenvereinbarung Rohholz (RVR) zum Zeitpunkt der Veröffentlichung noch nicht verabschiedet.
+
+Bei der Längenmessung für die Mittenstärkesortierung ist ein vertraglich zu vereinbarendes Übermaß (absolut oder relativ)
+vorzugeben. Das Längenübermaß bleibt bei der Feststellung der Mitte des aufgearbeiteten Stückes unberücksichtigt.
+Zur Ermittlung des Mittendurchmessers wird vom Vermessungssystem der Durchmesser der zur Mitte der Verkaufslänge
+nächstgelegenen Messsektion abgegriffen und verarbeitet. Durch Dreiecksmessung wird eine doppelte Kluppung simuliert,
+die der Empfehlung nach RVR zur Mehrfachmessung ab 20 cm Mittendurchmesser in Rinde entspricht. Alternativ dazu
+kann in einem gleich großen Abstand oberhalb und unterhalb der Mitte je ein Durchmesser gemessen und daraus der
+Mittendurchmesser berechnet werden. Die Rundung der Einzeldurchmesser erfolgt nach den Empfehlungen der RVR
+forstüblich auf ganze Zentimeter abgerundet.
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+12
+
+st
+en
+
+Der OBC muss in der Lage sein, die
+Daten die Daten über DFÜ-Verbindung
+zu übertragen und/oder auf eine der
+folgenden Standarddatenträger zu
+speichern:
+• USB–Massenspeicher
+• Compactflash Speicher
+• Floppy Disk
+Für die Datenschnittstelle zur elektronischen
+Datenkluppe
+sind
+die
+festgelegten Datenübertragungsparameter (Baudrate, Kermit-Protokoll)
+nach StanForD zu verwenden.
+
+isc
+h
+
+en
+
+La
+
+nd
+
+es
+fo
+r
+
+2.2.5 Sortierung
+Sämtliches Nadel- und Laubstammholz
+wird entsprechend den Empfehlungen
+der RVR sortiert. Die Klasseneinteilung
+ist tabellarisch hinterlegt.
+Es muss die Möglichkeit bestehen,
+einen Mindestzopf und/oder einen
+Maximaldurchmesser
+sortierrelevant
+festzulegen.
+
+er
+s
+
+ied
+
+en
+du
+
+ng
+
+inn
+
+er
+
+ha
+lb
+
+2.3.1 On-board Computer (OBC)
+Zentrale Einheit des Mess- und
+Steuersystems
+ist
+der
+On-board
+Computer (OBC). Alle eingebauten
+Systemkomponenten müssen der besonderen Umgebung eines Harvesters
+Rechnung tragen und gegen auftretende
+Beeinträchtigungen unempfindlich sein.
+Diese Beeinträchtigungen entstehen
+in erster Linie durch Beschleunigungskräfte (Vibrationen, Erschütterungen),
+Verschmutzung (Staub, Wasser) und
+klimatische Einwirkungen (Temperatur,
+Feuchtigkeit). Die Bedienung muss
+einfach gestaltet sein und eine
+Lesbarkeit des Displays ist jederzeit zu
+gewährleisten.
+
+ür
+
+die
+
+Ve
+
+rw
+
+2.3.3 Datensicherheit
+Um das Risiko von Datenverlusten
+so gering wie möglich zu halten,
+sind
+entsprechende
+Maßnahmen
+vorzuhalten. Bei einem Ausfall sind alle
+Daten bis zum letzen Trennschnitt des
+laufenden Auftrages zu rekonstruieren.
+
+Nu
+rf
+StanForD (siehe Kapitel 3)
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+2.3.2 Voreinstellungen
+Messund
+Steuersysteme
+von
+Harvestern sind offene Systeme,
+die eine Vielzahl von berechnungsrelevanten Voreinstellungen benötigen.
+Diese Voreinstellungen müssen für
+jede Hiebsmaßmahme bzw. für jeden
+Auftragnehmer getrennt archiviert und
+ausgegeben werden können. Hierzu
+gehören z.B.:
+• Rindenabzüge (tabellarisch),
+• Glättungen (forstübliche Rundung
+nach Empfehlung der RVR),
+• Maßzugaben,
+• Sägefenster,
+• Kalibrier- und Justiereinstellungen (je
+Baumart nach Durchmesserstufen
+und ggf. nach Länge getrennt).
+
+rN
+
+de
+
+Daher ist es notwendig, dass das
+Messsystem des Harvesters die Daten
+in standardisierten Ausgabedateien
+ablegt.
+
+äc
+hs
+
+2.3 Datenverarbeitung und
+informationstechnische Anforderungen
+Bei der Messdatenverarbeitung muss
+streng zwischen der Datenerfassung,
+der Datenverarbeitung und Datenspeicherung unterschieden werden.
+
+Bei der Übertragung von Daten ist
+der Austausch auf Vollständigkeit zu
+überprüfen.
+
+
+
+13
+
+st
+en
+
+Lastenheft Harvestervermessung
+
+3. Dateitypen und Datenstruktur
+
+äc
+hs
+
+isc
+h
+
+en
+
+La
+
+nd
+
+3.2 Datenstruktur
+3.2.1 Auftragsdaten (APT)
+Für jeden Auftrag ist eine eigenständige
+Auftragstabelle (Datei) zu erstellen.
+Darin werden die für den Holzernteauftrag
+benötigten Informationen einschließlich
+der hinterlegten Preismatrizen definiert.
+Diese Datei besteht aus:
+
+er
+s
+
+ied
+
+er
+
+Produktionsinformationen
+Basis für die Beschreibung des
+Arbeitsauftrags ist die Baumart bzw.
+Baumartengruppe. Definiert werden:
+• Baumarteninformationen
+Die Benennung der Baumarten und
+Baumartengruppen erfolgen nach dem
+ELDAT -Standard.
+Die wichtigste Information sind die
+Rindenparameter , die den jeweiligen
+Vorgaben der Auftraggeber entsprechen
+müssen.
+• Preismatrizen
+Preismatrizen
+dienen
+der
+Sortenbildung. Dabei werden sowohl
+verwertbare
+(Verkaufssortimente)
+und unverwertbare Sortimente (XHolz) tabellarisch in Zeilen und Spalten
+hinterlegt. Für die Produktion werden
+
+Nu
+rf
+
+ür
+
+die
+
+Ve
+
+rw
+
+en
+du
+
+ng
+
+inn
+
+Die Daten im StanForD werden
+generell
+in
+einer
+Textdatei
+im
+ASCII- oder zukünftig auch im XMLFormat abgelegt. Die Dateien sind
+sequenziell in Datensätze unterteilt.
+Daten bestehen aus Variablen und
+Prüfsummen. Um eine standardisierte
+Abwicklung aller Informationsprozesse
+zu ermöglichen, werden verschiedene
+Dateitypen verwendet. Die Dateitypen
+setzen sich aus einem meist ähnlich
+aufgebauten Kopf und den dann
+folgenden spezifischen Informationen
+zusammen. Sie unterscheiden sich
+in ihrer Namensgebung durch die
+Dateiendung.
+Die
+Dateiendungen
+sind gleichzeitig Akronyme für den
+Dateiinhalt. Die wesentlichen Dateitypen werden nachfolgend beschrieben.
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+Kopfdaten
+Diese Daten dienen der eindeutigen
+Identifikation des Arbeitsauftrages und
+beinhalten im wesentlichen:
+• Auftragsnummer
+• Flächenidentifikation
+• Auftragsdatum
+• Waldbesitzer
+• Ausführender
+
+rN
+
+ha
+lb
+
+de
+
+3.1 Dateitypen
+Alle
+erforderlichen
+Informationen
+zur Vermessung und Sortierung des
+aufgearbeiteten Holzes werden in
+standardisierter Form auf dem OBC
+des Mess- und Steuersystems des
+Harvesters abgelegt. Die Spezifikationen
+hierzu sind im StanForD (Standard for
+Forestry Data and Communication)
+beschrieben.
+Der
+StanForD
+wurde
+1987
+in
+Zusammenarbeit
+zwischen
+den
+führenden Harvesterherstellern und
+dem schwedischen Forschungsinstitut
+Skogforsk entwickelt und wird seitdem
+laufend gepflegt und aktualisiert.
+Das KWF arbeitet seit 1998 in der
+entsprechenden
+Arbeitsgruppe
+als
+deutscher Partner mit. Die aktuelle
+Version des StanForD ist laufend unter
+www.skogforsk.se abrufbar.
+
+es
+fo
+r
+
+In den Klammern werden jeweils die
+Dateiendungen (Suffix) genannt.
+Beschreibung nach StanForD.
+
+Elektronischer Holzdatenaustausch (www.kwf-online.
+org/eldat.html)
+
+Siehe dazu: RVR Anlage 2: Rindenabzugswerte bzw.
+vorliegende und ggf. abweichende Länderregelungen.
+
+
+14
+
+st
+en
+
+3.2.5 Kontrolldaten (KTR)
+In diesem Datensatz werden die
+Messdaten
+eines
+oder
+mehrerer
+Kontrollstämme nach Maschinenwert
+(M1), Fahrerwert der Kontrollmessung
+(M2) und gegebenenfalls einer weiteren
+Kontrollmessung (M3) abgelegt und
+dokumentiert. Zusätzlich können die
+Kalibrierungsdaten aus der KAL in der
+KTR enthalten sein.
+
+La
+
+nd
+
+es
+fo
+r
+
+weitere Parameter (Sägefenster und
+Längenzugabe) definiert sowie die
+im jeweiligen Vertrag vereinbarten
+Mindestzopf- und Maximaldurchmesser
+beschrieben.
+
+isc
+h
+
+äc
+hs
+er
+s
+ied
+rN
+
+ng
+
+inn
+
+er
+
+ha
+lb
+
+de
+
+3.2.3 Produktionsdaten (PRD)
+Produktionsdaten
+beziehen
+sich
+nicht auf den Baum, sondern nutzen
+die Produkteinheit (Sortiment) als
+Grundlage. Die Produktionsdatei wird
+durch Verschneidung der sortenbezogenen Auftragsdaten mit den
+Einzelstammdaten erzeugt. Sie liefert
+die sortenbezogenen Informationen
+zu Länge, Durchmesser und Volumen
+des Sortenstücks entsprechend der
+hinterlegten Preismatrix.
+
+en
+
+3.2.2 Einzelstammdaten (STM)
+In
+diesem
+Datensatz
+werden
+alle Werte erfasst, die bei der
+Aufarbeitung des einzelnen Baumes
+anfallen. Die gemessenen Einzelwerte
+(Sektionsmaße) für Länge und Durchmesser werden dort baumbezogen
+den
+einzelnen
+Stammabschnitten
+zugeordnet. Hier können fakultativ auch
+Geokoordinaten zugeordnet werden.
+
+rw
+
+en
+du
+
+Alternativ zur PRD kann auch der
+in seinem Umfang erweiterte PRIDatensatz genutzt werden.
+
+Nu
+rf
+
+ür
+
+die
+
+Ve
+
+3.2.4 Kalibrierungsdaten (KAL)
+Grundkalibrierungseinstellungen, aktuelle und vorherige Einstellungen nach
+Längen- und Durchmesserstufen werden
+in diesem Datensatz dokumentiert.
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+15
+
+st
+en
+
+Lastenheft Harvestervermessung
+des Systems, vorgegebene Genauigkeit
+sanforderungen über einen ausreichend
+langen Zeitraum zu gewährleisten.
+
+Mess- und Steuersysteme von Harvestern unterliegen technisch bedingt
+und aufgrund ihres praktischen Einsatzes extremen äußeren Bedingungen,
+die eine regelmäßige Wartung und
+gegebenenfalls Instandsetzung des
+Harvesteraggregats und damit auch
+der Messsysteme (Längenmessrad,
+Entastungsmesser, Vorschubwalzen)
+sowie eine Anpassung des Systems
+an unterschiedliche Witterungs- und
+Bestandesbedingungen erfordern.
+Diese Voraussetzungen machen es
+notwendig, das Messsystem stets zu
+optimieren. Hierfür sind verschiedene
+Methoden anzuwenden.
+
+Eine
+hohe
+Messgenauigkeit
+wird
+durch
+Kalibrierung
+des
+Systems
+gewährleistet. Eine Anpassung an
+unterschiedliche Witterungs- und Bestandesbedingungen
+erfolgt
+nach
+entsprechenden
+Kontrollmessungen
+durch eine Justierung des Systems.
+
+äc
+hs
+
+isc
+h
+
+en
+
+La
+
+nd
+
+es
+fo
+r
+
+4. Kalibrierung, Kontrollmessung und Justierung
+
+er
+s
+
+ied
+rN
+
+de
+
+ha
+lb
+
+Zu unterscheiden sind die tech-nische
+Messgenauigkeit, d.h. die Fähigkeit
+des Systems, unter Nenngebrauchsbedingungen richtige Messergebnisse
+zu liefern, und die praxisbedingte
+Messbeständigkeit, d.h. die Fähigkeit
+
+Merkblatt für die Zulassung zur Eichung von
+Rundholzmessanlagen
+PTB Fachbereich 5.45 - Zulassung von
+Längenmessmitteln. Stand: 05.02.2008.
+
+inn
+
+er
+
+
+
+Fehlergrenzen für die Ermittlung der Stammlänge betragen ± 1 % des Messwertes,
+jedoch nicht weniger als 5 cm
+
+ng
+
+Länge
+
+4.1 Fehlergrenzen
+Für die Messgenauigkeit, die unter
+normierten, optimalen Prüfbedingungen
+festgestellt wird, ergeben sich systembedingt höhere Anforderungen als an
+die Messbeständigkeit unter Praxisbedingungen.
+Die zugrundegelegten Anforderungen
+hinsichtlich der Messgenauigkeit orientieren sich dabei an den Fehlergrenzen
+von Rundholzmessanlagen .
+
+Fehlergrenzen für die Ermittlung der Durchmesser betragen ± 2,5 mm für den
+arithmetischen Mittelwert aus 10 Messungen und ± 1,0 cm für die Einzelmessung.
+
+en
+du
+
+Durchmesser
+
+Tabelle 3: Fehlergrenzen technische Messgenauigkeit
+
+Entsprechend den unterschiedlichen
+technischen Möglichkeiten bei der
+Vermessung im Wald bzw. im Werk sind
+für die praxisbedingte Messbeständigkeit spezifische Fehlergrenzen definiert,
+die den Anforderungen im praktischen
+Einsatz gerecht werden und eine
+Anpassung der Messsysteme an die
+unterschiedlichen
+Witterungsund
+Bestandesbedingungen ermöglichen.
+
+Nu
+rf
+
+ür
+
+die
+
+Ve
+
+rw
+
+Mit diesen Anforderungen soll gewährleistet werden, dass zur Verwendung
+des Harvestermaßes als Kontrollmaß
+zur Werkseingangsvermessung von
+Stammholz vergleichbare technische
+Genauigkeitsanforderungen
+erfüllt
+werden.
+Eine Anpassung an die vorgegebenen
+Fehlertoleranzen erfolgt durch Kalibrierung des Messsystems.
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+16
+
+4.2 Kalibrierung
+Harvester sind durch eine werksseitige
+Kalibrierung vor der Auslieferung
+der Maschine optimal hinsichtlich
+ihrer Messgenauigkeit einzustellen.
+Dies erfolgt für den Durchmesser in
+aller Regel durch Metallprüfkörper
+mit einer Wandstärke von ≥ 10 mm,
+die mindestens den Minimal- und
+Maximaldurchmesser des Aggregats
+abdecken, möglichst jedoch den
+gesamten Durchmesserbereich des
+Harvesteraggregats einbeziehen.
+Die Länge wird aufgrund des erforderlichen Nullschnitts an einem geprüften
+Holzstück kalibriert und sollte den praxisüblichen Längenbereich umfassen.
+
+La
+
+nd
+
+es
+fo
+r
+
+st
+en
+
+Dabei wurden die aus praktischen
+Feldversuchen abgeleiteten Rahmenwerte unterteilt in:
+• Zielbereich – unter Versuchs- und
+Optimalbedingungen erreichbar:
+• Optimierungsbereich – Mindestanforderungen unter Praxisbedingungen
+(s. 4.3)
+• Ausschlussbereich – Fehlergrenzen
+unter Praxisbedingungen.
+
+Zielbereich
+
+ha
+lb
+
+de
+
+rN
+
+< 1,5
+< 6,0
+± 1,0
+< 3,0 %
+
+inn
+
+er
+
+< 2,0
+< 3,0
+± 1,0
+< 2,0 %
+
+Tabelle 4: Messeinrichtungen im Harvesteraggregat
+
+1,5 bis ≤ 2,5
+6,0 bis ≤ 8,0
+
+> 2,5
+> 8,0
+
+3,0 % bis ≤ 5,0 %
+
+> 5,0 %
+
+2,0 bis ≤ 3,0
+3,0 bis ≤ 5,0
+
+> 3,0
+> 5,0
+
+2,0 % bis ≤ 5,0 %
+
+> 5,0 %
+
+en
+du
+
+Ve
+
+rw
+
+Unabhängig von regelmäßig durchgeführten
+Kontrollmessungen
+sind
+zusätzliche Kontrollmessungen immer dann durchzuführen, wenn zu
+erwarten ist, dass die Messergebnisse
+durch äußere Einflüsse beeinträchtigt
+werden.
+Dies kann insbesondere dann der Fall
+sein, wenn
+• Veränderungen am Harvesteraggregat vorgenommen wurden,
+• die Anpressdrücke der Entastungsmesser und/oder Vorschubwalzen
+
+Nu
+rf
+
+ür
+
+die
+
+4.3 Kontrollmessung
+Im Rahmen einer Kontrollmessung
+werden Messwerte des Harvesters mit
+einem Bezugsmaß verglichen, das in
+der Regel durch manuelles Nachmessen
+erhoben wird. Bei der Feststellung von
+Differenzen wird stets das Bezugsmaß
+als 100% gesetzt.
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+Ausschlussbereich
+
+Die Durchführung von regelmäßigen
+Kontrollmessungen wird im Kapitel 5
+beschrieben.
+
+ng
+
+4.2.1 Anforderungen an das Vermessungssystem
+Das Ergebnis der Kalibrierung sowie die
+aktuellen Kalibriereinstellungen müssen
+entsprechend den Vorgaben des
+StanForD automatisiert als Kalibrierungsdaten (siehe 3.2.4) abgelegt
+werden.
+
+Optimierungsbereich
+
+ied
+
+Fehlergrenzen
+Durchmesser [mm]
+arith. Mittelwert
+Standardabweichung [mm]
+Mittelwertdifferenz in %
+Extremwerte (≥ ± 20 mm)
+Länge [cm]
+arith. Mittelwert
+Standardabweichung [cm]
+Mittelwertdifferenz in %
+Extremwerte (≥ ± 10 cm)
+
+er
+s
+
+äc
+hs
+
+isc
+h
+
+en
+
+Eine Anpassung an die vorgegebenen
+Fehlertoleranzen erfolgt durch Kontrollmessung und Justierung des
+Messsystems.
+
+17
+
+st
+en
+
+Lastenheft Harvestervermessung
+
+es
+fo
+r
+
+geändert wurden,
+• technische Defekte am Messsystem
+aufgetreten waren,
+• ein Witterungsumschwung stattgefunden hat,
+• sich der Saftzustand deutlich geändert hat,
+• veränderte Hiebsbedingungen (Baumartenwechsel,
+Bestandesschäden,
+deutlich geänderter BHD des ausscheidenden Bestandes) auftreten.
+Durchmesserabweichung
+(aus min. 10 Messungen)
+
+Längenabweichung
+(aus min. 3 Messungen)
+
+Mittelwert [mm]
+
+Standardabweichung
+[mm]
+
+Sofortige Justierung
+
+> 2,5
+
+>8
+
+Verstärkte Kontrolle 2x
+pro Schicht und Justierung
+beim Eintreten von ≤ 5 aus
+10 Messungen
+
+≥ 1,5
+
+≥6
+
+ied
+
+Standardabweichung
+[cm]
+
+≥3
+
+>5
+
+≥2
+
+>3
+
+rN
+
+de
+
+inn
+
+er
+
+ha
+lb
+
+4.3.1 Anforderungen an das Vermessungssystem
+Kontrollmessungen und die ggf. daraus
+sich ergebenden Justierungen müssen
+jederzeit möglich sein, ohne die laufenden
+Arbeiten dauerhaft zu stören. Daher
+muss das Vermessungssystem in der
+Lage sein, die für eine Kontrollmessung
+erforderlichen Daten für die 3 letzten
+Bäume in der umgekehrten Reihenfolge
+ihrer Aufarbeitung auszugeben.
+
+Auftragsbezogen können vergleichbare
+Baumarten zu Baumartengruppen zusammengefasst werden. Die Justierung
+erfolgt nur durch qualifiziertes Personal.
+
+en
+du
+
+ng
+
+Bei der Justierung wird das Harvestermaß (Maschinenmaß M1) mit
+einem Bezugsmaß (Kontrollmaß M2)
+verglichen und angepasst.
+Die Entscheidung zum Justieren und
+das Ausmaß der Anpassung hängen
+von der Anzahl der Messungen und der
+Höhe der Abweichungen ab.
+
+Ve
+
+rw
+
+4.4 Justierung
+Justierungen des Vermessungssystems
+müssen immer dann durchgeführt
+werden, wenn bei den Kontrollmessungen ein Überschreiten der Fehlergrenzen (s.o) festgestellt wurde und/
+oder systematische Abweichungen
+zwischen Harvestermaß und Kontrollmaß auftreten.
+In eine Justierung einbezogen werden
+alle Baumarten, die mindestens zehn
+Prozent der Hiebsmasse ausmachen.
+
+ür
+
+die
+
+Eine Justierung kann nur für überprüfte
+Durchmesser bzw. Durchmesserbereiche und Längen durchgeführt werden.
+Daher sind mindestens 5 Messwerte
+für den jeweiligen Durchmesserbereich
+und mindestens 10 Messwerte für die
+Länge notwendig.
+
+Nu
+rf
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+Mittelwert[cm]
+
+er
+s
+
+Erforderliche Maßnahme
+
+Tabelle 5: Optimierungsbereich und verstärkte Kontrolle
+
+äc
+hs
+
+isc
+h
+
+en
+
+La
+
+nd
+
+Sollte es im Laufe von Kontrollmessungen zu Abweichungen zwischen Bezugsmaß und Harvestermaß kommen,
+ist eine Justierung bzw. verstärkte
+Kontrolle notwendig:
+
+18
+
+st
+en
+
+5. Kontrollroutine und
+Dokumentation
+
+isc
+h
+
+en
+
+La
+
+nd
+
+Kontrollmessungen durch eine standardisierte Kontrollroutine sowie deren
+Dokumentation tragen zur Optimierung
+der Vermessungssysteme bei und sind
+Voraussetzung für Akzeptanz und
+Vertrauen in die Messergebnisse.
+
+äc
+hs
+
+er
+s
+
+ied
+
+en
+du
+
+ng
+
+inn
+
+er
+
+ha
+lb
+
+Die Justierung muss für mindestens vier
+verschiedene Baumarten möglich sein.
+
+5.1 Kontrollmessung
+Kontrollmessungen sind mindestens
+einmal je Arbeitstag oder Arbeitsschicht
+durchzuführen. Einbezogen werden alle
+Baumarten, die mindestens 10 % der
+Hiebsmasse ausmachen. Bei Auftreten
+einer Abweichung, die eine verstärkte
+Kontrolle (siehe Kapitel 4) notwendig
+macht, sind mindestens zwei Messungen
+pro Schicht durchzuführen.
+
+ür
+
+die
+
+Ve
+
+rw
+
+5.1.1 Auswahl der Kontrollbäume
+Standardverfahren für die Kontrollmessung ist die zufällige Auswahl des
+Kontrollstammes, soweit diese auf den
+Maschinen implementiert ist. Sollte
+keine zufällige Auswahl möglich sein,
+muss der Fahrer selbständig einen
+Baum zur Kontrollmessung auswählen.
+
+Nu
+rf
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+Für die exakte Durchführung von
+Kontrollmessung,
+Justierung
+und
+Dokumentation ist der Fahrer verantwortlich.
+Der
+genaue
+Arbeitsablauf
+einer
+Kontrollmessung ist bei verschiedenen
+Messsystemen
+und
+elektronischen
+Kluppen unterschiedlich gelöst und ist
+in den jeweiligen Benutzerhandbüchern
+eindeutig zu beschreiben.
+
+rN
+
+de
+
+4.4.1 Anforderungen an das Vermessungssystem
+Das Vermessungssystem des Harvesters muss in der Lage sein,
+Einzelstammdaten (3.2.2) eines Kontrollbaumes zu erzeugen und an eine
+elektronische Messkluppe zu senden
+sowie die Kontrollmessdaten (3.2.5)
+aus der Messkluppe einzulesen und
+als erzeugten Datensatz abzulegen
+sowie als Daten für die Justierung
+bereitzustellen.
+
+es
+fo
+r
+
+Es sind mindestens zehn Abschnitte das sind drei Bäume, - zu vermessen,
+um eine ausreichende Grundlage für
+die Justierung zu erhalten. Alternativ
+dazu kann die entsprechende Anzahl von Messwerten aus zeitnah
+vorgenommenen
+Kontrollmessungen
+verwendet werden.
+
+19
+
+st
+en
+
+Lastenheft Harvestervermessung
+
+isc
+h
+
+en
+
+La
+
+nd
+
+es
+fo
+r
+
+Zufällige Auswahl
+Vom OBC des Harvesters wird ein
+gerade gefällter Baum ausgewählt und
+als Kontrollstamm vorgeschlagen. Die
+Meldung erscheint nach dem Fällen
+des Baumes und vor dem ersten
+Sortentrennschnitt. Der Fahrer kann
+den Baum als Kontrollstamm ablehnen,
+zum Beispiel einen extrem krummen,
+fehlerhaften Baum oder Randbaum. In
+einem kürzeren Zeitintervall wird dann
+vom OBC ein neuer Kontrollstamm
+vorgeschlagen.
+
+äc
+hs
+
+Abb. 4: Ablage der Kontrollstämme
+
+de
+
+rN
+
+ied
+
+er
+s
+
+5.1.3 Ausrüstung
+Längenmessung
+Benötigt wird ein Präzisionsmaßband,
+mit dem die Länge des Holzes auf
+ganze Zentimeter genau gemessen
+werden kann.
+Reparaturen an diesen Bandmaßen sind
+nicht zulässig. Im Schadensfall sind die
+Bandmaße auszutauschen.
+Vor dem ersten Einsatz ist sicherzustellen, dass das Bandmaß korrekte
+Ergebnisse liefert. Idealerweise sind die
+Bandmaße geeicht, aber mindestens
+besitzen sie eine Bauartenzulassung.
+Zur Prüfung des Maßbandes besteht
+die Möglichkeit, das Maßband auf
+zwei Meter auszurollen und an der
+Markierung für einen Meter um den
+Daumen zu wenden. Die Markierung für
+zwei Meter und der Nullpunkt müssen
+dann deckungsgleich sein.
+
+Abb. 3: zufällige Auswahl
+
+en
+du
+
+ng
+
+inn
+
+er
+
+ha
+lb
+
+Fahrerauswahl
+Hier sucht der Fahrer selbst einen Kontrollstamm aus, um zum Beispiel zu
+Beginn eines neuen Arbeitsauftrags die
+Vermessungsqualität zu prüfen.
+Die Bäume sollten hinsichtlich Dimension
+und Qualität repräsentativ für den Bestand sein.
+
+die
+
+Ve
+
+rw
+
+5.1.2 Vorbereitung für die Kontrollmessung
+Die zur Kontrollmessung ausgewählten
+Stämme sind in der Reihenfolge ihrer
+Aufarbeitung separat, vorzugsweise
+auf eine Unterlage, abzulegen.
+Sie sollen frei zugänglich und ohne
+gröbere Verunreinigungen sein.
+
+Nu
+rf
+
+ür
+
+Abb. 5: Überprüfung des Maßbandes
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+20
+
+st
+en
+
+en
+
+La
+
+nd
+
+es
+fo
+r
+
+Durchmessermessung
+
+Durchmessermessung
+Zur exakten Durchmessererfassung wird
+eine Kluppe mit Millimeter-Einteilung
+benötigt. Die Kluppe darf keine
+Beschädigungen oder Deformationen
+aufweisen, Kluppenschenkel müssen
+fest sitzen und dürfen kein Spiel
+aufweisen. Dies ist vor jedem Einsatz
+zu prüfen.
+
+isc
+h
+
+Abb. 8: Kreuzweise Messung des
+Durchmessers
+
+den
+
+äc
+hs
+
+Die Durchmesser werden an
+vorgegebenen Stellen gemessen.
+
+er
+s
+
+Jeder
+Durchmesser
+wird
+dabei
+grundsätzlich kreuzweise rechtwinkelig,
+aber mindestens um 60 Grad versetzt,
+gemessen.
+
+rN
+
+ha
+lb
+
+de
+
+Idealerweise sind die Messkluppen
+geeicht, aber mindestens besitzen sie
+eine Bauartenzulassung. Vorzugsweise
+sind elektronische Datenkluppen zu
+verwenden, die eine Kommunikation
+mit dem OBC ermöglichen und die
+über eine entsprechende Software zur
+Kontrollmessung verfügen.
+
+ied
+
+Abb. 6: Kluppenschenkel müssen fest sitzen
+
+er
+
+Abb. 9: Verschiebung der Messstelle aufgrund eines
+Astquirls
+
+inn
+
+Fällt die Messstelle auf einen Astquirl,
+so wird die Messposition zum stärkeren
+Ende des Kontrollstammes verschoben.
+Es wird grundsätzlich „auf“ Rinde
+gemessen. Sollte keine Rinde vorhanden
+sein, ist welche unter zulegen oder der
+Messpunkt zu verschieben.
+
+die
+
+Ve
+
+rw
+
+en
+du
+
+ng
+
+5.1.4 Durchführung der Kontrollmessung
+Längenmessung
+Der Wert der Längenmessung ist der
+Wert der kürzesten Länge zwischen den
+Mittelpunkten der beiden Stammenden
+in ganzen Zentimetern. Das Maßband ist
+bei der Messung stammeben aufzulegen.
+Auf den tatsächlichen Nullpunkt des
+Maßbandes ist zu achten.
+
+ür
+
+Abb. 10: Messung auf Rinde
+
+Nu
+rf
+
+Wird eine elektronische Datenkluppe
+verwendet, muss es dem Messenden
+möglich sein, einzelne Durchmesser
+oder ganze Abschnitte für die Kontroll-
+
+Abb. 7: Längenmessung
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+21
+
+st
+en
+
+Lastenheft Harvestervermessung
+
+6 Qualitätssicherung
+
+nd
+
+La
+
+en
+
+isc
+h
+
+äc
+hs
+
+er
+s
+
+ied
+
+inn
+
+er
+
+ha
+lb
+
+de
+
+5.3 Dokumentation
+Alle Teilschritte der Kontrollmessung
+und Justierung müssen lückenlos durch
+Ausdrucke dokumentierbar sein.
+Aufbau und Inhalt dieser Ausdrucke
+richten sich nach den Anforderungen in
+Kapitel 3.2 und den Musterprotokollen
+in Kapitel 7.3. Aktuelle Versionen sind
+darüber hinaus auf der KWF-Webseite
+(www.kwf-online.de) abrufbar.
+
+en
+du
+
+ng
+
+Es ergibt sich daraus die Notwendigkeit,
+die erforderlichen Prozesse und ihre
+Anwendung sowie deren Abfolge durch
+eine Kontrollroutine festzulegen.
+Die Vermessungsqualität soll laufend
+überwacht und dargestellt, sowie
+durch Kontrollmessungen geprüft und
+analysiert werden.
+Schließlich sind die erforderlichen
+Maßnahmen zu treffen, um die
+definierten Fehlergrenzen nicht zu
+überschreiten und die ggf. notwendigen
+Verbesserungen durchzuführen.
+Die Dokumentation hierüber muss
+vollständig und durch Ausdrucke belegt
+sein sowie jeder Zeit den berechtigten
+Personen intern und extern zugänglich
+gemacht werden können.
+
+Nu
+rf
+
+ür
+
+die
+
+Ve
+
+rw
+
+Die gesamte Dokumentation über
+Kontrolle und Kalibrierung muss mit den
+Messdaten übergeben und aufbewahrt
+werden.
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+Voraussetzung für das Nutzen der Harvestervermessungsdaten für Logistik,
+Kontrolle und weitere geschäftsmäßige
+Prozesse ist die gleich bleibend
+hohe Qualität der Messergebnisse
+(Messbeständigkeit) und deren verlässliche Dokumentation.
+Die Umsetzung einer Kontrollroutine,
+wie in Kapitel 5 ausführlich beschrieben,
+muss dabei die Anforderungen an ein
+umfassendes
+Qualitätsmanagementsystem nach DIN EN ISO 9001:200812 berücksichtigen.
+Die Anforderungen betreffen:
+1. die Sicherstellung einer gleich bleibenden Vermessungsqualität entsprechend
+der
+im
+Lastenheft
+beschriebenen
+Mindestanforderungen,
+2. die optimale Anwendung der Messund Steuersysteme von Harvestern
+einschließlich der Prozesse zur
+ständigen
+Verbesserung
+des
+Systems.
+
+rN
+
+5.2 Justierungen
+OBC geben bei Verwendung einer
+elektronischen Datenkluppe mit entsprechender Software eine Justierung
+sowie den Anpassungsvorschlag vor,
+wenn ausreichend Daten vorliegen.
+Die abschließende Entscheidung darüber
+hat der Fahrer zu treffen. Bei Nutzung
+einer Ausgleichskurve (Regression)
+zur manuellen Durchmesserjustierung
+ist darauf zu achten, dass für den
+gesamten Durchmesserbereich Werte
+zur Einpassung der Kurve vorhanden
+sind.
+
+es
+fo
+r
+
+messung abzuwählen, wenn diese
+aufgrund von Beschädigungen oder
+sonstigen Eigenschaften nicht geeignet
+sind.
+
+22
+
+Nu
+rf
+
+st
+en
+
+nd
+
+La
+
+en
+
+isc
+h
+
+äc
+hs
+
+er
+s
+
+ied
+rN
+
+ür
+
+die
+
+Ve
+
+rw
+
+en
+du
+
+ng
+
+inn
+
+er
+
+ha
+lb
+
+de
+
+1. Vom OBC des Harvesters wird zufallsgesteuert ein Baum ausgewählt und
+als Kontrollstamm vorgeschlagen.
+Der Fahrer nimmt den Kontrollstamm
+an,
+arbeitet
+die
+Sortenstücke
+
+entsprechend dem Arbeitsauftrag auf
+und legt die einzelnen Sortenstücke
+separat und gut zugänglich ab.
+2. Wenn es nicht möglich ist, den Kontrollstamm zu vermessen (z.B.
+extrem krummer, fehlerhafter Baum,
+Randbaum) kann dieser vom Fahrer
+abgelehnt werden. In einem kürzeren
+Zeitintervall wird vom OBC dann ein
+neuer Kontrollstamm vorgeschlagen.
+3. Der Fahrer spielt entsprechend der
+Routine des OBC die Daten des
+Prüfstamms (*.stm-Datei) auf die
+elektronische Kluppe.
+4. Der Fahrer erhebt ein Kontrollmaß, indem
+er
+die
+Messwerte
+der
+Maschine (M1) seinen händisch
+nachgemessenen
+Werten
+(M2)
+gegenüberstellt.
+
+es
+fo
+r
+
+6.1 Kontrollstammverfahren
+SKOGFORSK hat gemeinsam mit den
+skandinavischen Maschinenherstellern
+und den schwedischen Vermessungsvereinen (VMR) eine Kontrollroutine
+entwickelt, die den Nachweis der
+Vermessungsqualität feststellen und
+für den Auftraggeber bescheinigen.
+Wesentlicher
+Bestandteil
+dieser
+Kontrollroutine
+ist
+das
+Kontrollstammverfahren (siehe 5.1) und kann
+wie folgt zusammengefasst werden
+(Abb. 11):
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+Abb. 11: Ablauf des Kontrollstammverfahrens
+
+23
+
+st
+en
+
+Lastenheft Harvestervermessung
+
+rN
+
+ied
+
+er
+s
+
+äc
+hs
+
+isc
+h
+
+en
+
+La
+
+nd
+
+Die Daten werden exklusiv, d.h. über
+Benutzername und durch Kennwort
+geschützt, auf der Plattform hinterlegt.
+Das
+teilnehmende
+Unternehmen
+kann jederzeit die Daten einsehen
+und selbständig Auswertungen für
+ausgewählte Maschinen für die gewünschten Baumarten und den angegebenen Zeitraum abrufen.
+Die Auswertungen können entweder
+direkt auf der Plattform durchgeführt
+oder als Standardbericht erstellt werden
+(Abb. 12).
+
+en
+du
+
+ng
+
+inn
+
+er
+
+ha
+lb
+
+de
+
+6.2 QS Harvester
+Um Validität und Reproduzierbarkeit
+der
+Vermessungsergebnisse
+durch
+eine Kontrollroutine abzusichern, hat
+das KWF gemeinsam mit Partnern die
+webbasierte Plattform QS Harvester
+geschaffen und das schwedische
+Verfahren einer qualitätsgesicherten
+Harvestervermessung an die besonderen Bedingungen in Deutschland
+angepasst.
+Die Kontrolldaten des Kontrollstammverfahrens werden dabei über DFÜVerbindung direkt aus dem OBC oder
+über USB-Schnittstelle am OfficePC auf die QS Harvester-Plattform
+übertragen. Dort werden die Daten
+maschinenbezogen dokumentiert und
+hinsichtlich ihrer Genauigkeit (Differenz
+M2-M1) ausgewertet.
+
+zertifikat bescheinigt. Mit diesem Zertifikat kann der Fahrer die laufende externe Kontrolle dokumentieren.
+
+es
+fo
+r
+
+5. Nach Erhebung des Kontrollmaßes
+werden die in der Kluppe erzeugten
+Kontrolldaten
+(*.ktr-Datei)
+an
+den OBC des Harvesters zurück
+übertragen und gemeinsam mit den
+Maschinenmessungen (*stm-Datei)
+abgespeichert.
+6. Die Daten können als Kontrollausdruck
+ausgegeben oder für eine weitere
+Auswertung übertragen werden.
+
+Nu
+rf
+
+ür
+
+die
+
+Ve
+
+rw
+
+QS
+Harvester
+ist
+ein
+Dienstleistungspaket des KWF für Harvesterfahrer und -unternehmen. Der Teilnehmer erhält den Zugang und die
+Auswertungsmöglichkeiten auf der QS
+Harvester-Webplattform.
+In einer Grundeinweisung wird das Verfahren der Kontrollmessung geschult
+und durch regelmäßige Auswertung die
+Entwicklung der Vermessungsqualität
+festgestellt und kommentiert.
+Die Teilnahme wird durch ein TeilnahmeLastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+24
+
+Seit Anfang 2010 wird QS Harvester
+auch über die RAL-Gütegemeinschaft
+Wald und Landschaftspflege (GGWL)
+im Rahmen des Gütesiegels „Holzernte“
+angeboten. Damit kann eine unabhängige Drittüberprüfung (M3) gewährleistet
+und dokumentiert werden.
+
+st
+en
+es
+fo
+r
+nd
+La
+en
+isc
+h
+äc
+hs
+er
+s
+ied
+rN
+de
+ha
+lb
+er
+inn
+ng
+en
+du
+rw
+Ve
+
+Nu
+rf
+
+ür
+
+die
+
+Abb. 12: Auswertung „Qualitätsentwicklung der Maschine“ für einen frei definierten Zeitraum – QS Harvester Standardbericht
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+25
+
+st
+en
+
+Lastenheft Harvestervermessung
+
+es
+fo
+r
+
+7. Anlagen
+7.1 Rindenparameter
+
+nd
+
+Empfohlene Rindenabzugswerte nach Rahmenvereinbarung für den Rohholzhandel in Deutschland (RVR) 
+
+La
+
+Für die aufgeführte Holzarten, deren Rindenstärken in relativ geringen Grenzen schwanken,sind nachfolgend
+wissenschaftlich hergeleitete Rindenabzüge zu empfehlen:
+	
+
+Holzart
+
+Mittendurchmesser m.R. (mm)
+
+270-509
+
+isc
+h
+
+Fichte
+
+ab 510
+
+äc
+hs
+
+bis 229
+230-389
+
+Tanne
+
+10
+20
+
+380-539
+
+30
+
+540-709
+
+40
+
+ab 710
+
+50
+
+bis 419
+
+10
+
+ab 420
+
+20
+
+bis 189
+
+10
+
+190-299
+
+20
+
+300-449
+
+30
+
+ab 450
+
+40
+
+de
+ng
+
+inn
+
+Esche
+
+10
+
+210-379
+
+ha
+lb
+er
+
+Buche
+
+30
+
+40
+
+rN
+
+Douglasie
+
+20
+
+30
+
+ied
+
+bis 209
+
+10
+
+20
+
+er
+s
+
+390-559
+ab 560
+
+Rindenabzug (mm)
+
+en
+
+bis 269
+
+Ve
+
+rw
+
+Holzart
+
+en
+du
+
+Bei allen anderen wirtschaftlich relevanten Holzarten fehlen wissenschaftlich fundierte Herleitungen.
+In diesen Fällen empfiehlt es sich, soweit keine Messung an der entrindeten Messstelle erfolgt, regionale oder
+hiebsbezogene Rindenabzugswerte zu vereinbaren.Als Orientierungshilfe werden nachfolgende Rindenabzugswerte
+vorgeschlagen:
+
+Nu
+rf
+
+ür
+
+die
+
+Kiefer
+
+Eiche
+
+2
+
+Mittendurchmesser m.R. (mm)
+
+Rindenabzug (mm)
+
+bis 209*
+
+10
+
+210-369
+
+20
+
+370-629
+
+30
+
+ab 630
+
+40
+
+*gilt generell bei Messung über Spiegelrinde
+bis 209
+
+10
+
+210-319
+
+20
+
+320-429
+
+30
+
+430-539
+
+40
+
+ab 540
+
+50
+
+www.rvr-deutschland.de
+
+Mittendurchmesser und Rindenabzugswerte sind in der originalen RVR-Tabelle in ganzen Zentimetern (cm) angegeben.
+
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+st
+en
+nd
+
+es
+fo
+r
+
+7.2 Musterprotokolle (gedruckt)
+7.2.1 Produktionsbericht
+
+18.05.2010/18:32:38
+
+en
+
+Ausdruck (Datum / Uhrzeit):
+
+äc
+hs
+
+isc
+h
+
+1234
+XY-Soft, Version 3,02
+30.04.2010/15:30:12
+Björn
+03.05.2010
+
+La
+
+Hiebsdatenausdruck - Auszug
+Maschinen-Nr.:
+Software / Version :
+Datum / Uhrzeit der letzten Kalibrierung :
+Fahrer :
+Datum Einschlagsbeginn :
+Vermessung mit / ohne Rinde :
+Kubierungsart :
+HKS
+
+Ordnungsmerkmale des Waldbesitzers
+
+Grünwald
+Sausteige
+1
+Hollerbusch
+2,01E+09
+
+er
+s
+
+Forstamt :
+Forstrevier :
+Betrieb :
+Waldort :
+Auftrags-Nr. :
+
+Fichte
+Laub
+605
+249,805
+295,894
+
+Lärche
+0
+0
+0
+
+0
+0
+0
+
+Einzeldaten
+
+Fichte
+LAS D 4m
+RVR / HKS
+
+Durchmesser
+
+Fichte
+Industrieholz
+RVR / HKS
+
+Durchmesser
+
+1a
+
+0
+0
+0,00%
+
+5
+0
+0
+0,00%
+
+6 Summe
+0
+83,024
+0
+413
+0,00%
+100
+
+0
+0
+0,00%
+
+5
+0
+0
+0,00%
+
+6 Summe
+0
+59,732
+0
+271
+0,00%
+100
+
+1a
+1b
+2a
+2b
+3a
+3b
+4a
+4b
+107,049
+0
+0
+0
+0
+0
+0
+0
+1397
+0
+0
+0
+0
+0
+0
+0
+100,00%
+0,00%
+0,00%
+0,00%
+0,00%
+0,00%
+0,00%
+0,00%
+
+5
+0
+0
+0,00%
+
+6 Summe
+0 107,049
+0
+1397
+0,00%
+100
+
+Volumen
+Stück
+Prozent
+
+1a
+
+2a
+
+14,575
+139
+17,56%
+
+1b
+
+2,154
+23
+3,61%
+
+inn
+
+0
+0
+0,00%
+
+2b
+
+21,233
+116
+25,57%
+
+2a
+
+23,605
+85
+28,43%
+
+2b
+
+13,538
+87
+22,66%
+
+21,638
+95
+36,23%
+
+ng
+
+Volumen
+Stück
+Prozent
+
+1b
+1,226
+19
+1,48%
+
+ha
+lb
+
+Durchmesser
+
+er
+
+Fichte
+LAS 5m
+RVR / HKS
+
+Summe
+605
+249,805
+295,894
+
+rN
+
+0
+0,00
+0
+
+de
+
+Kiefer
+Anzahl Bäume
+Total Volumen
+Total Volumen (m.R.)
+
+ied
+
+Hiebsdaten ( Zusammenfassung )
+
+Nu
+rf
+
+ür
+
+die
+
+Ve
+
+rw
+
+en
+du
+
+Volumen
+Stück
+Prozent
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+27
+
+3a
+
+3b
+
+19,091
+48
+22,99%
+
+3a
+15,481
+50
+25,92%
+
+4a
+1,906
+4
+2,30%
+
+3b
+
+4b
+1,388
+2
+1,67%
+
+4a
+5,865
+14
+9,82%
+
+4b
+1,056
+2
+1,77%
+
+st
+en
+
+Lastenheft Harvestervermessung
+
+nd
+
+es
+fo
+r
+
+7.2.2 Justierungsbericht / Kalibrierbericht
+
+Uhrzeit:
+
+Einsatzort:
+
+Unternehmen
+
+Baumart:
+
+Fahrer
+
+isc
+h
+
+Datum:
+
+Software-Version:
+
+Baumart 1
+Durchmesser
+01.01.2010
+
+01.02.2010
+
+Klasse
+
+1
+
+Differenz
+
+[mm]
+
+[mm]
+
+rN
+
+ied
+
+Datum
+
+er
+s
+
+äc
+hs
+
+Maschinen-Nr.:
+
+01.03.2010
+
+2
+
+Differenz
+
+3
+
+[mm]
+
+[mm]
+
+[mm]
+
+de
+
+10
+
+LOGO
+
+en
+
+La
+
+Justierungsprotokoll
+
+20
+
+ha
+lb
+
+30
+
+er
+
+…
+
+01.01.2010
+
+01.02.2010
+
+Klasse
+
+1
+
+Differenz
+
+2
+
+Differenz
+
+3
+
+[cm]
+
+[cm]
+
+[cm]
+
+[cm]
+
+[cm]
+
+en
+du
+
+ng
+
+Datum
+
+inn
+
+Länge
+
+50
+
+100
+
+rw
+
+150
+
+Nu
+rf
+
+ür
+
+die
+
+Ve
+
+…
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+28
+
+01.03.2010
+
+st
+en
+es
+fo
+r
+
+7.2.3 Kontrollmessung
+
+nd
+
+Messprotokoll - Handliste
+Datum:
+
+SoftwareVersion:
+
+Uhrzeit:
+
+Einsatzort:
+
+Unternehmen:
+
+Baumart:
+
+Fahrer:
+
+isc
+h
+
+en
+
+La
+
+Maschine:
+
+Handmaß
+
+Länge (cm)
+Maschinenmaß
+
+Durchmesser (mm)
+Differenz
+Hand-Maschine Handmaß
+Maschinenmaß
+
+er
+s
+
+Baum/
+Sortenstück
+
+äc
+hs
+
+Kommentar:
+
+ied
+
+1
+
+rN
+
+2
+3
+
+de
+
+4
+
+ha
+lb
+
+5
+6
+
+er
+
+7
+
+inn
+
+8
+9
+
+ng
+
+10
+
+Summe:
+
+Mittelwert:
+
+Mittelwert:
+
+en
+du
+
+Summe:
+(Summe/Anzahl)
+
+ja ____
+
+(Summe/Anzahl)
+
+nein ____
+
+rw
+
+Kalibrierung/Justierung notwendig:
+
+die
+
+Ve
+
+Toleranzgrenzen: Längenabweichung: ± 2,0 - 5,0 cm Durchmesserabweichung: ± 1,5 - 2,5 mm
+In beiden Fällen auf systematische Abweichungen vom Mittelwert achten!
+
+Nu
+rf
+
+ür
+
+Unterschrift: ______________________________
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+29
+
+Differenz
+Hand-Maschine
+
+st
+en
+
+Lastenheft Harvestervermessung
+
+….
+Anzahl
+Summe
+Mittelwert
+% Abweichung
+Standardabweichung
+Mittelwertdifferenz
+Extremwerte
+Baum
+Stück
+Nr.
+Nr.
+
+250
+220
+190
+174
+242
+
+inn
+ng
+
+nd
+La
+
+Durchmesser (mm i.R.)
+Hand 2
+Hand
+Harvester Differenz
+[mm]
+[mm]
+[mm]
+[mm]
+262
+270
+260
+2
+230
+204
+212
+18
+200
+195
+193
+7
+175
+184
+179
+-4
+245
+242
+242
+3
+5,00
+26,00
+5,20
+2,39
+7,305
+
+5,00
+1086,00
+217,20
+
+Ve
+
+rw
+
+en
+du
+
+Anzahl
+Summe
+Mittelwert
+% Abweichung
+Standardabweichung
+Mittelwertdifferenz
+Extremwerte
+
+2,00
+2,00
+0,25
+0,06
+0,745
+
+ied
+rN
+de
+
+ha
+lb
+
+Hand 1
+[mm]
+
+er
+
+1
+1
+1
+2
+2
+…
+
+6,00
+2312,00
+385,33
+
+Position
+[cm]
+
+en
+
+412
+411
+411
+252
+412
+414
+
+isc
+h
+
+1
+1
+1
+2
+2
+2
+3
+
+äc
+hs
+
+Hand
+[cm]
+
+LOGO
+
+Datum:
+Uhrzeit:
+Unternehmen:
+Fahrer:
+Länge (cm)
+Harvester
+Differenz
+[cm]
+[cm]
+412
+0
+412
+1
+410
+-1
+252
+0
+413
+1
+415
+1
+
+er
+s
+
+Stück
+Nr.
+
+es
+fo
+r
+
+Kontrollausdruck - Harvester
+Maschinen-Nr.:
+Software-Version:
+Einsatzort:
+Baumart:
+Baum
+Nr.
+
+Nu
+rf
+
+ür
+
+die
+
+Qualitätskennzahlen
+Durchmesser
+Mittelwert
+Standardabweichung
+Mittelwertabweichung
+Exterm Werte
+Länge
+Mittelwert
+Standardabweichung
+Mittelwertabweichung
+Exterm Werte
+
+Zielbereich
+[mm]
+[mm]
+[%]
+>+-20 mm
+
+<1,5
+<6,0
+-1
+<3
+
+[cm]
+[cm]
+[%]
+>+-10 cm
+
+<2,0
+<3
+-1
+<2
+
+Lastenheft Harvestervermessung
+kwf-Bericht 41/2010
+
+30
+
+Optimierungsbereich Ausschlussbereich
+>=1,5 bis 2,5<=
+>=6,0 bis 8,0<=
+
+> 2,5
+> 8,0
+
+>=3 % bis 5%<=
+
+> 5%
+
+>=2,0 bis 5,0<=
+>=3,0 bis 5,0<=
+
+> 5,0
+> 5,0
+
+>=2 % bis 5%<=
+
+> 5%
+
+Werden Sie Mitglied beim KWF. Ihre Vorteile:
+freier Eintritt zur KWF-Tagung (nächste 2012; Ostalb)
+ermäßigter Eintritt zu den KWF-Thementagen
+ermäßigter Eintritt zu zahlreichen weiteren Veranstaltungen (z.B. Agritechnica,
+Elmia, Interforst, Ligna, Metko, Skogs Elmia, usw.)
+sechs Ausgaben
+Informationen“
+
+pro
+
+Jahr
+
+der
+
+KWF-Mitgliederzeitschrift
+
+„Forsttechnische
+
+bis zu 50% Nachlass auf alle vom KWF vertriebenen Schriften und Artikel im KWFShop (www.kwf-shop.de)
+Online-Zugriff auf aktuelle forsttechnische Informationen
+durch Ihre Mitgliedschaft fördern Sie den technischen Fortschritt und den
+Wissenstransfer in der Forstwirtschaft
+
+Jedes neue Mitglied und jeder Werber eines neuen Mitgliedes erhalten zudem:
+
+1 Gutschein über 15€
+der für jeden Artikel aus dem KWF-Shop eingelöst werden kann (Bestllungen online www.kwf-shop.de oder per Post beim KWF möglich.
+Er gilt auch für Eintrittskarten zu KWF-Partnermessen, sofern diese im KWF-Shop angeboten werden. Der Gutschein ist übertragbar. Eine
+Barauszahlung oder Verrechnung mit Mitgliedsbeiträgen usw. ist nicht möglich.
+
+Bitte kopieren Sie untenstehenden Abschnitt und senden Sie ihn an: KWF, Spremberger Str. 1, 64823 Groß-Umstadt
+Bitte senden Sie untenstehenden Abschnitt an: KWF, Spremberger Str. 1, 64823 Groß-Umstadt
+
+o
+
+Ja, ich möchte aktives KWF-Mitglied werden!
+o Ich zahle jährlich 30 € Mitgliedsbeitrag
+o Ich bin noch in Ausbildung oder Student und zahle jährlich 13 € Mitgliedsbeitrag
+
+o
+
+Ja, ich möchte förderndes Mitglied werden und zahle jährlich €....... Mitgliedsbeitrag
+(Mindestbeitrag 65 € jährlich)
+
+o
+
+Ja, ich möchte weiteres Infomaterial über das KWF erhalten
+
+Um in den Genuss der Prämie zu kommen, verpflichte ich mich, mindestens zwei Jahre KWF-Mitglied zu bleiben.
+
+Name
+PLZ, Ort
+Tel.
+eMail
+
+Vorname
+Straße
+Fax
+Geburtsdatum
+
+Ich stimme dem Einzug von meinem Bankkonto zu:
+Konto:
+BLZ:
+bei:
+Kündigungen sind nur zum Jahresende möglich und müssen spätestens zum 1.10. erfolgen.
+
+Ort und Datum
+
+Unterschrift
+
+ISBN 978-3-9811335-6-1
+
+

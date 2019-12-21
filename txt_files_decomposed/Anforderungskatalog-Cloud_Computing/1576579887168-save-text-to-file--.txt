@@ -1,0 +1,6 @@
+Technische und organisatorische Maßnahmen
+zur Überwachung und Provisionierung bzw.
+De-Provisionierung von Cloud-Dienstleistungen
+sind definiert. Dadurch stellt der Cloud-Anbieter
+sicher, dass Ressourcen bereitgestellt bzw. Leistungen gemäß der vertraglichen Vereinbarungen
+erbracht werden und die Einhaltung der Dienstgütevereinbarungen sichergestellt ist.

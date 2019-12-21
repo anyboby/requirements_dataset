@@ -1,0 +1,2 @@
+Diese Filterfunktionen selektieren die Datensätze. Diese Funktionen sollten besteh en
+bleiben und ergänzt werden.

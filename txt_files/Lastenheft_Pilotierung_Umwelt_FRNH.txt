@@ -1,0 +1,1887 @@
+P23R: Lastenheft für die Pilotierung
+Titel,
+1.
+Zeile
+32
+pt
+in der Domäne Umwelt/Emissionen
+
+Titel, 2. Zeile 32 pt
+
+Ein Ergebnisdokument des Projekts P23R | Prozess-Daten-Beschleuniger
+im Auftrag des Bundesministeriums des Innern
+
+Untertitel 20 pt
+
+Denise Bermek
+Frank Clauder
+
+Das P23R-Projekt wurde im Rahmen des IT-Investitionsprogramms
+der Bundesregierung durchgeführt (Fördernummer D4-06-1).
+Generalunternehmer
+			
+
+Projektbeteiligte
+
+Projekt
+P23R | Prozess-Daten-Beschleuniger
+
+P23R: Lastenheft für die Pilotierung
+in der Domäne Umwelt/Emissionen
+Ergebnisdokument
+
+Januar 2013
+Autoren
+Denise Bermek, Atos IT Solutions and Services GmbH
+Frank Clauder, Atos IT Solutions and Services GmbH
+
+Copyright © Bundesministerium des Innern
+
+P23R
+Zusammenfassung
+
+Zusammenfassung
+Im Rahmen der Pilotierung der P23R-Rahmenarchitektur wird die prototypische Implementierung
+einer P23R-Lösung in der Domäne Umwelt/Emissionen durchgeführt. Mit dieser soll die Anwendbarkeit des P23R-Prinzips in dieser Domäne nachgewiesen werden. Die hierzu ausgewählten Berichts- und Meldepflichten sind die Emissionserklärung (11. BImSchV), der Jahresbericht Emissionen
+(13. BImSchV) und der PRTR-Bericht (PRTR-Verordnung). Diese werden in Zusammenarbeit mit Pilotpartnern aus Wirtschaft und Verwaltung zur Anwendung gebracht.
+Die Komponenten der P23R-Pilotlösung werden aus den in der P23R-Rahmenarchitektur spezifizierten Bausteinen der P23R-Infrastruktur und den anzubindenden externen Systemen abgeleitet. Sie
+umfassen neben dem P23R, dem P23R-Client und dem P23R-ControlCentre die Konnektoren, die zur
+Anbindung der relevanten Quell- und Zielsysteme (CEDAR bzw. BUBE-Online) benötigt werden. Ausgehend von den im Lastenheft für die P23R-Pilotlösung in der Domäne Arbeitgebermeldungen spezifizierten Anwendungsfällen werden die an die einzelnen Komponenten gestellten Anforderungen
+festgelegt.
+Um die korrekte Funktionsweise der P23R-Pilotlösung nachzuweisen, werden außerdem Vorgaben
+für den Test der Komponenten und die Prüfung der erzeugten Emissionsberichte und -meldungen
+gemacht. Diese betreffen den Inhalt der durchzuführenden Tests, ihren Ablauf und die dabei zu verwendenden Testdaten.
+
+iii
+
+P23R
+Executive Summary
+
+Executive Summary
+In the context of evaluating the P23R framework architecture a prototypical P23R solution is implemented in the domain of environmental emissions. This P23R pilot solution is intended to demonstrate how the P23R principle is applied in the domain of environmental emissions. The reporting obligations selected for this purpose are the emissions declaration (11. BImSchV), the annual report of
+emissions (13. BImSchV) and the PRTR report (PRTR-Verordnung). These are implemented in collaboration with pilot partners from business and public authorities.
+The components of the P23R pilot solution are derived from the building blocks of the P23R infrastructure specified in the P23R framework architecture and the external systems to be connected. In
+addition to the P23R, the P23R-Client and the P23R-ControlCentre they comprise the connectors
+which are required to integrate the relevant source and target applications (CEDAR and BUBE-Online
+respectively). Based on the use cases described in the requirements specification for the P23R pilot
+solution in the domain of employer reporting the demands imposed upon the respective
+components are defined.
+In order to verify the correct functionality of the P23R pilot solution specifications for testing the
+components and examining the generated emission reports are made in addition. These specifications concern the content of the tests to be executed, the test procedure and the test data to be
+used.
+
+iv
+
+P23R
+Inhaltsverzeichnis
+
+Inhaltsverzeichnis
+1
+
+Einleitung ........................................................................................................................ 1
+1.1
+
+Zweck des Dokuments ........................................................................................ 1
+
+1.2
+
+Kontext, Inhalte und Strukturierung .................................................................. 1
+
+2
+
+Fachlicher Kontext .......................................................................................................... 3
+
+3
+
+Systemüberblick ............................................................................................................. 5
+
+4
+
+3.1
+
+Komponenten der P23R-Pilotlösung .................................................................. 6
+
+3.2
+
+Deployment der P23R-Pilotlösung ..................................................................... 9
+
+Funktionale Anforderungen ......................................................................................... 11
+4.1
+
+P23R-ControlCentre .......................................................................................... 11
+
+4.2
+
+P23R-Client ....................................................................................................... 11
+
+4.3
+
+CEDAR-Connector ............................................................................................. 12
+
+4.4
+
+BUBE-Online-Connector ................................................................................... 13
+
+5
+
+Nicht-Funktionale Anforderungen ............................................................................... 15
+
+6
+
+Anforderungen an den Test.......................................................................................... 17
+6.1
+
+Testinhalt .......................................................................................................... 17
+
+6.2
+
+Testablauf ......................................................................................................... 18
+
+6.3
+
+Testdaten .......................................................................................................... 18
+
+7
+
+Glossar .......................................................................................................................... 23
+
+8
+
+Abkürzungsverzeichnis ................................................................................................. 43
+
+9
+
+Referenzen.................................................................................................................... 45
+
+v
+
+P23R
+Verzeichnis der Abbildungen
+
+Verzeichnis der Abbildungen
+
+vi
+
+Abbildung 1:
+
+Bausteine der P23R-Infrastruktur (UML) gemäß [1] ......................................................5
+
+Abbildung 2:
+
+Anbindung des P23R an Source- und TargetApplication ................................................6
+
+Abbildung 3:
+
+Komponenten der P23R-Pilotlösung ..............................................................................6
+
+Abbildung 4:
+
+Überblick über die Generierungs-Pipeline (UML) gemäß [1] .........................................7
+
+Abbildung 5:
+
+Deployment P23R-Pilotlösung (UML) ...........................................................................10
+
+P23R
+Verzeichnis der Tabellen
+
+Verzeichnis der Tabellen
+Tabelle 1:
+
+Anforderungen aus der fachlichen Spezifikation ...........................................................3
+
+Tabelle 2:
+
+Anwendungsfälle „P23R-ControlCentre“ .....................................................................11
+
+Tabelle 3:
+
+Anwendungsfälle „P23R-Client“ ...................................................................................12
+
+Tabelle 4:
+
+Anwendungsfälle „CEDAR-Connector“ .........................................................................12
+
+Tabelle 5:
+
+Anwendungsfälle „BUBE-Online-Connector“ ...............................................................13
+
+Tabelle 6:
+
+Nicht-funktionale Anforderungen ................................................................................15
+
+Tabelle 7:
+
+Testdaten „Emissionserklärung“ ..................................................................................19
+
+Tabelle 8:
+
+Testdaten „Jahresbericht Emissionen“ .........................................................................19
+
+Tabelle 9:
+
+Testdaten „PRTR-Bericht“.............................................................................................20
+
+vii
+
+P23R
+
+viii
+
+P23R
+Einleitung
+
+1 EINLEITUNG
+1.1 ZWECK DES DOKUMENTS
+Mit der P23R-Pilotierung in der Domäne Umwelt/Emissionen (UWM) wird das Ziel verfolgt, einen
+Nachweis der Anwendbarkeit der P23R-Rahmenarchitektur [1] in dieser Domäne zu erbringen. In diesem Dokument werden alle Anforderungen beschrieben, die an die Umsetzung der P23R-Pilotlösung
+in der Domäne UWM gestellt werden.
+
+1.2 KONTEXT, INHALTE UND STRUKTURIERUNG
+Die in diesem Dokument definierten Anforderungen basieren auf den Ergebnissen der Analyse von
+Berichts- und Meldepflichten in der Domäne UWM [2] sowie der darauf aufbauenden fachlichen
+Spezifikation für die Umsetzung der gesetzlichen Regelungen in einer auf dem P23R-Prinzip basierenden Lösung [3]. Der fachliche Rahmen, der sich für die P23R-Pilotlösung aus diesen beiden Dokumenten ergibt, ist in Kapitel 2 erläutert.
+Kapitel 3 stellt den grundsätzlichen Aufbau einer P23R-Lösung entsprechend den Vorgaben der P23RRahmenarchitektur [1] vor und zeigt, aus welchen Komponenten die P23R-Pilotlösung in der Domäne
+UWM besteht.
+In Kapitel 4 sind die funktionalen Anforderungen an die einzelnen Komponenten der P23R-Pilotlösung definiert. Dazu werden die im Lastenheft für die P23R-Pilotlösung in der Domäne Arbeitgebermeldungen (AGM) [4] dokumentierten Anwendungsfälle verwendet. Alle nicht-funktionalen Anforderungen sind in Kapitel 5 aufgeführt.
+Kapitel 6 beschreibt die Anforderungen, die an den Test der P23R-Pilotlösung, seinen Ablauf und die
+dabei verwendeten Testdaten gestellt werden.
+Das Datenmodell, welches die Struktur der Unternehmensdaten als Grundlage für Erzeugung der
+Emissionsberichte und -meldungen festlegt, ist bereits in [3] definiert (siehe Kapitel 4 bzw. XMLSchema „XUEmission“). Aus diesem Grund ist es im vorliegenden Dokument nicht enthalten.
+Zur Definition der Anforderungen an die P23R-Pilotlösung in der Domäne UWM werden die in [4]
+spezifizierten Anwendungsfälle und Anforderungen wiederverwendet. Diese sind mit den dort verwendeten Identifikatoren (IDs) bezeichnet. Die an die P23R-Pilotlösung in der Domäne UWM zusätzlich gestellten Anforderungen sind mit REQ-UWM-# bezeichnet.
+
+1
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+
+2
+
+P23R
+Fachlicher Kontext
+
+2 FACHLICHER KONTEXT
+Im Rahmen der Analyse von Berichts- und Meldepflichten in der Domäne UWM [2] wurden auf
+Grundlage des Methodenleitfadens 80 Emissionsberichte und -meldungen untersucht und hinsichtlich ihrer Verknüpfung zu Prozesskettenbündeln bewertet. Darauf aufbauend wurden in der fachlichen Spezifikation für die Domäne UWM [3] folgende Berichts- und Meldepflichten einer weitergehenden Analyse unterzogen:
+
+
+Emissionserklärung (11. BImSchV [5]
+
+
+
+Jahresbericht Emissionen (13. BImSchV [6], § 19)
+
+
+
+Bericht zur Unterrichtung der Öffentlichkeit (17. BImSchV [7], § 18)
+
+
+
+PRTR-Bericht (PRTR-VO [8])
+
+Als Grundlage für die automatisierte Abwicklung dieser Berichts- und Meldepflichten in einer P23RLösung wurden dabei die fachlichen Vorgaben für die Umsetzung der gesetzlichen Regelungen in
+Form von Datenmodell- und Benachrichtigungsregelpaketen spezifiziert. Zu diesen Vorgaben gehört
+zum einen das Datenmodell (XML-Schema „XUEmission“), welches die Struktur der Unternehmensdaten festlegt, auf deren Grundlage die betrachteten Emissionsberichte und -meldungen erzeugt
+werden. Zum anderen umfassen sie die Benachrichtigungsregeln, anhand derer die einzelnen Meldungen aus den entsprechend strukturierten Unternehmensdaten erzeugt werden.
+Da die fachlichen Vorgaben für die Umsetzung des Berichts zur Unterrichtung der Öffentlichkeit (vgl.
+17. BImSchV [7]) parallel zur Umsetzung der P23R-Pilotlösung entwickelt wurden, ist dieser Bericht
+nicht im Funktionsumfang der P23R-Pilotlösung enthalten. Aus den für die anderen Emissionsberichte und -meldungen spezifizierten Vorgaben lassen sich die in Tabelle 1 aufgeführten Anforderungen
+an die P23R-Pilotlösung in der Domäne UWM ableiten.
+TABELLE 1:
+Anforderung
+
+REQ-UWM-1
+
+REQ-UWM-2
+
+REQ-UWM-3
+
+REQ-UWM-4
+
+ANFORDERUNGEN AUS DER FACHLICHEN SPEZIFIKATION
+Beschreibung
+Die Unternehmensdaten müssen im Format „XUEmission“ entsprechend Kapitel 4 in [3] bereitgestellt
+werden.
+Für die Erzeugung der Emissionserklärung nach der 11. BImSchV [5] muss eine Benachrichtigungsregel
+entsprechend Abschnitt 5.1 in [3] definiert werden.
+Für die Erzeugung des Jahresberichts Emissionen nach der 13. BImSchV [6] muss eine Benachrichtigungsregel entsprechend Abschnitt 5.2 in [3] definiert werden.
+Für die Erzeugung des PRTR-Berichts nach der PRTR-VO [8] muss eine Benachrichtigungsregel entsprechend Abschnitt 5.3 in [3] definiert werden.
+
+3
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+
+4
+
+P23R
+Systemüberblick
+
+3 SYSTEMÜBERBLICK
+Die Komponenten der P23R-Pilotlösung in der Domäne UWM leiten sich aus den in der P23RRahmenarchitektur [1] spezifizierten Bausteinen der P23R-Infrastruktur ab. Deshalb werden diese
+Bausteine zunächst kurz skizziert, anschließend wird ihre Umsetzung im Rahmen der P23R-Pilotlösung beschrieben.
+Abbildung 1 stellt die Bausteine der P23R-Infrastruktur in einem Überblick dar (siehe Kapitel 2 in [1]).
+
+pkg System Components of P23RInfrastructure
+
+P23RInfrastructure
+«SourceApplication»
+P23RClient
+
+P23RTrustedProxy
+
+SourceApplication
+
+P23R
+
+TargetApplication
+
+P23RControlCentre
+P23RNotificationRulePackageDepot
+
+P23RResponsibilityDirectory
+
+P23RTrustedServ iceListDepot
+
+ABBILDUNG 1:
+
+BAUSTEINE DER P23R-INFRASTRUKTUR (UML) GEMÄß [1]
+
+Der P23R ist der zentrale Baustein der P23R-Infrastruktur. Er ist für die Generierung der Benachrichtigungen (Berichte, Meldungen etc.) auf Basis der durch die SourceApplication (z. B. das IT-Fachsystem eines Unternehmens) bereitgestellten Daten und deren Versand zur zuständigen TargetApplication (z. B. das IT-Fachverfahren einer Verwaltung) verantwortlich. Die für die Erzeugung der Benachrichtigungen erforderlichen Angaben werden in Form von Datenmodell- und Benachrichtigungsregelpaketen im P23R-ControlCentre zur Verfügung gestellt und von dort in den P23R geladen. Zusätzlich wird im P23R-ControlCentre das Zuständigkeitsverzeichnis für die Bestimmung der Benachrichtigungsempfänger und deren Kommunikationsparameter zur Verfügung gestellt. Der P23R-Client wird
+zur Prüfung, ggf. Anpassung und Freigabe der durch den P23R generierten Benachrichtigungen verwendet. Er kann Teil der SourceApplication sein oder wie abgebildet als eigenständiges System (z. B.
+ein Webportal) realisiert werden.
+Um die SourceApplication vom P23R zu entkoppeln, kann sie über einen SourceConnector mit dem
+P23R verbunden sein, der die Daten für die Benachrichtigungserzeugung im durch die Datenmodellpakete vorgegebenen Format vorhält. Alternativ kann die SourceApplication diese Schnittstelle selbst
+anbieten, in dem Fall kann auf einen SourceConnector verzichtet werden. Analog dazu erfolgt der
+Zugriff auf die TargetApplication über einen CommunicationConnector. Abbildung 2 stellt die Anbindung des P23R an die Source- und TargetApplication über den Source- und CommunicationConnector
+dar.
+
+5
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+
+ABBILDUNG 2:
+
+ANBINDUNG DES P23R AN SOURCE- UND TARGETAPPLICATION
+
+3.1 KOMPONENTEN DER P23R-PILOTLÖSUNG
+Ausgehend von den vorgestellten Bausteinen der P23R-Infrastruktur sowie den an den P23R angebundenen externen Systemen (Source- und TargetApplication) wird im Folgenden die Umsetzung
+dieser Komponenten im Kontext der P23R-Pilotlösung in der Domäne UWM dargestellt.
+Die P23R-Pilotlösung wird in Zusammenarbeit mit der BASF SE als Pilotpartner realisiert. Zur Verwaltung der für die Emissionsberichte und -meldungen relevanten Daten wird bei der BASF SE das Umweltmanagementsystem CEDAR (Central Emissions Declaration And Reporting System) eingesetzt.
+Die Abgabe der Emissionsberichte und -meldungen bei der Verwaltung erfolgt über das Berichtssystem BUBE-Online (Betriebliche Umweltdatenberichterstattung). Beide Systeme werden über einen
+entsprechenden Connector (CEDAR-Connector bzw. BUBE-Online-Connector) an den P23R angebunden.
+Demzufolge besteht die P23R-Pilotlösung neben den Bausteinen der P23R-Infrastruktur aus den in
+Abbildung 3 dargestellten Komponenten.
+
+ABBILDUNG 3:
+
+KOMPONENTEN DER P23R-PILOTLÖSUNG
+
+Im Folgenden wird die Funktionalität dieser Komponenten im Kontext der P23R-Pilotlösung kurz erläutert. Detaillierte Anforderungen sind in Kapitel 4 in Form von Anwendungsfällen definiert.
+
+6
+
+P23R
+Systemüberblick
+
+P23R
+Den Kern des P23R bildet die Generierungs-Pipeline, die verschiedene Komponenten zur Erzeugung
+der Benachrichtigungen beinhaltet. Das Ergebnis jeder Komponente ist dabei Input für die jeweils
+folgende Komponente. Abbildung 4 stellt die Komponenten der Generierungs-Pipeline in einem
+Überblick dar (siehe Kapitel 3 in [1]).
+In der Komponente „MessageReceipt“ wird auf Grundlage einer von außen oder innen (zeitgesteuert) empfangenen Nachricht die Abarbeitung der Pipeline mit der zugehörigen Benachrichtigungsregel gestartet. Die Komponente „NotificationGeneration“ erzeugt die Benachrichtigung unter Verwendung der Daten aus der SourceApplication. Dabei werden die Daten von dem durch das Datenmodellpaket vorgegebenen Datenformat in das Zielformat der Benachrichtigung überführt. Die Komponente „NotificationDispatch“ steuert die Freigabe der Benachrichtigung und ermittelt mit Hilfe des
+P23R-ControlCentre den Benachrichtigungsempfänger mit seinen Kommunikationsparametern. Die
+Komponente „NotificationTransport“ übernimmt die eigentliche Übermittlung der Benachrichtigung
+zur TargetApplication unter Verwendung des dafür geeigneten CommunicationConnector.
+pkg Ov erv iew of the GenerationPipeline
+P23R
+SourceApplication
+
+MessageReceipt
+
+(from P23R Infrastructure)
+NotificationGeneration
+
+NotificationDispatch
+
+NotificationTransportation
+
+TargetApplication
+
+(from P23R Infrastructure)
+
+ABBILDUNG 4:
+
+ÜBERBLICK ÜBER DIE GENERIERUNGS-PIPELINE (UML) GEMÄß [1]
+
+Für die Benachrichtigungsgenerierung werden weitere (Support-)Komponenten benötigt, welche in
+Abbildung 4 nicht enthalten sind: Der DataPool übernimmt die Selektion der Quelldaten bei den
+SourceConnectoren. Im ProtocolPool werden detaillierte Informationen über die Verarbeitung im
+P23R gespeichert. Das ModelAndRuleManagement ist für das Laden der Datenmodell- und Benachrichtigungsregelpakete aus dem P23R-ControlCentre und deren interne Bereitstellung für andere
+Komponenten zuständig. Im Scheduling werden Termine verwaltet, welche für den rechtzeitigen
+Start der Benachrichtigungserstellung benötigt werden.
+
+7
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+Die P23R-Pilotlösung in der Domäne UWM nutzt den im Rahmen der P23R-Pilotlösung in der
+Domäne AGM entwickelten P23R. Dieser enthält alle Funktionen, die in der Domäne UWM benötigt
+werden.
+P23R-ControlCentre
+Das P23R-ControlCentre dient zur Verwaltung der für die Berichts- und Meldepflichten in der Domäne UWM definierten Datenmodell- und Benachrichtigungsregelpakete im P23R-Depot und zur Pflege
+der relevanten Benachrichtigungsempfänger mit ihren Kommunikationsparametern im P23R-Zuständigkeitsverzeichnis (im Kontext der umzusetzenden Berichts- und Meldepflichten: BUBE-Online). Diese Aufgaben werden durch Mitarbeiter der Leitstelle wahrgenommen, denen entsprechende Funktionen in einem Leitstellenportal zur Verfügung gestellt werden.
+Darüber hinaus stellt das P23R-ControlCentre dem P23R die verfügbaren Datenmodell- und Benachrichtigungsregelpakete und die relevanten Benachrichtigungsempfänger sowie deren Kommunikationsparameter zur Verfügung. Das Laden der benötigten Datenmodell- und Benachrichtigungsregelpakete in den P23R erfolgt über die Oberfläche des P23R-Client (siehe unten).
+Die durch das P23R-ControlCentre umzusetzenden Anwendungsfälle sind in Abschnitt 4.1 aufgeführt.
+Die P23R-Pilotlösung in der Domäne UWM nutzt das im Rahmen der P23R-Pilotlösung in der Domäne
+AGM entwickelte P23R-ControlCentre.
+P23R-Client
+Der P23R-Client wird als eigenständige Komponente realisiert, seine Funktionalität wird also nicht in
+die SourceApplication CEDAR integriert. Er bietet den zur Nutzung berechtigten Mitarbeitern der
+BASF SE die Möglichkeit, die durch den P23R erzeugten Benachrichtigungen zu prüfen, diese bei Bedarf anzupassen und freizugeben. Darüber hinaus ermöglicht er das Herunterladen der im P23R benötigten Benachrichtigungsregelwerke und bietet eine Einsicht in das Verarbeitungsprotokoll des
+P23R.
+Obwohl die Erzeugung der Benachrichtigungen durch den Scheduler des P23R gesteuert wird, soll es
+zusätzlich möglich sein, die Erzeugung einer Benachrichtigung über eine entsprechende Funktion des
+P23R-Clients explizit zu initiieren.
+Für die Darstellung der Benachrichtigungen im P23R-Client soll dasselbe Layout wie in der P23RPilotlösung für die Domäne AGM verwendet werden.
+Die durch den P23R-Client umzusetzenden Anwendungsfälle sind in Abschnitt 4.2 aufgeführt.
+Die P23R-Pilotlösung in der Domäne UWM nutzt den im Rahmen der P23R-Pilotlösung in der
+Domäne AGM entwickelten P23R-Client.
+CEDAR, CEDAR-Connector
+Im Rahmen der P23R-Pilotlösung wird CEDAR als SourceApplication nicht direkt an den P23R angebunden. Stattdessen wird der CEDAR-Connector als SourceConnector implementiert, der als Datenlieferant für den P23R fungiert und die benötigten Unternehmensdaten im vorgegebenen Format
+(XML-Schema „XUEmission“) zur Verfügung stellt.
+8
+
+P23R
+Systemüberblick
+Die durch den CEDAR-Connector umzusetzenden Anwendungsfälle sind in Abschnitt 4.3 aufgeführt.
+BUBE-Online, BUBE-Online-Connector
+Zur Kommunikation mit dem auf Verwaltungsseite eingesetzten Berichtssystem BUBE-Online wird
+der BUBE-Online-Connector als CommunicationConnector implementiert.
+Gemäß [1] stellt ein CommunicationConnector die Verbindung zur TargetApplication her und überträgt die durch den P23R erzeugten Benachrichtigungen. Voraussetzung dafür ist, dass die TargetApplication eine Schnittstelle zum automatisierten Empfang von Benachrichtigungen bietet. Dies ist
+bei BUBE-Online derzeit nicht der Fall. Stattdessen gibt es nur die Möglichkeit, XML-Dokumente manuell hochzuladen.
+Um die medienbruchfreie Weiterleitung der erzeugten Benachrichtigungen dennoch demonstrieren
+zu können, werden die manuellen Schritte – Anmelden bei BUBE-Online und Importieren der Benachrichtigungen in BUBE-Online – durch entsprechende HTTP-Anfragen des BUBE-Online-Connectors automatisiert. Zusätzlich dazu legt der BUBE-Online-Connector die Benachrichtigungen je Bundesland getrennt voneinander im lokalen Dateisystem ab.
+Die durch den BUBE-Online-Connector umzusetzenden Anwendungsfälle sind in Abschnitt 4.4 aufgeführt.
+
+3.2 DEPLOYMENT DER P23R-PILOTLÖSUNG
+Ausgangspunkt für die Überlegungen des Pilot-Deployments ist das Deployment in einem realen Anwendungsszenario. Dort betreibt das Unternehmen seine eigene SourceApplication, den P23R, den
+P23R-Client und die Connectoren zur Source- und TargetApplication. Das P23R-ControlCentre wird
+von der Öffentlichen Leitstelle bereitgestellt, die TargetApplication von der Verwaltung.
+Für die Pilotierung in der Domäne UWM steht eine Laborumgebung des Fraunhofer FOKUS und eine
+Testumgebung bei der BASF SE zur Verfügung. Die Testumgebung bei der BASF SE besteht aus zwei
+Servern, die sowohl für die P23R-Pilotlösung der Domäne UWM als auch für die P23R-Pilotlösung der
+Domäne AGM genutzt werden. Der Zugriff auf notwendige, bereits bestehende Infrastruktur wird sichergestellt.
+Da das P23R-ControlCentre noch nicht öffentlich zur Verfügung steht, wird es in der Laborumgebung
+installiert. Die TargetApplication der Verwaltung wird für die P23R-Pilotlösung aufgrund einfacherer
+Verfügbarkeit ebenfalls in der Laborumgebung betrieben.
+Alle Komponenten des Unternehmens werden in der BASF-Testumgebung installiert. Die SourceApplication (CEDAR-Testsystem) ist unabhängig von der P23R-Pilotlösung bereits vorhanden und wird
+durch die P23R-Pilotlösung mit genutzt. Der P23R mit dem BUBE-Connector wird auf einem der PilotServer, der P23R-Client und der CEDAR-Connector auf dem anderen Pilot-Server installiert. Die Aufteilung auf zwei Server soll die Unabhängigkeit der Komponenten zeigen.
+Abbildung 5 veranschaulicht das Deployment der Komponenten der P23R-Pilotlösung in der Laborund Testumgebung.
+
+9
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+
+ABBILDUNG 5:
+
+DEPLOYMENT P23R-PILOTLÖSUNG (UML)
+
+Das Deployment der Komponenten der P23R-Pilotlösung in der Domäne UWM orientiert sich am
+Deployment der Komponenten der P23R-Pilotlösung in der Domäne AGM. Die Testumgebung der
+BASF SE wird für die P23R-Pilotlösungen beider Domänen genutzt.
+
+10
+
+P23R
+Funktionale Anforderungen
+
+4 FUNKTIONALE ANFORDERUNGEN
+Die wesentlichen funktionalen Anforderungen an die Komponenten einer P23R-Lösung sind durch
+die in [4] dokumentierten Anwendungsfälle beschrieben. Aus diesem Grund werden die funktionalen
+Anforderungen an die Komponenten der P23R-Pilotlösung in der Domäne UWM auf Basis dieser Anwendungsfälle definiert.
+Im Folgenden sind dazu jeder Komponente der P23R-Pilotlösung (vgl. Abschnitt 3.1) die durch diese
+Komponente umzusetzenden Anwendungsfälle aus [4] zugeordnet. Für jeden Anwendungsfall ist
+festgelegt, wie seine Umsetzung im Kontext der Domäne UWM erfolgen soll.
+
+4.1 P23R-CONTROLCENTRE
+Die durch das P23R-ControlCentre umzusetzenden Anwendungsfälle sind in Tabelle 2 aufgeführt. Die
+durch diese Anwendungsfälle festgelegte Funktionalität wird den Mitarbeitern der Leitstelle in einem
+Leitstellenportal zur Verfügung gestellt. Eine detaillierte Beschreibung der Anwendungsfälle ist in Abschnitt 4.2.1 in [4] zu finden.
+TABELLE 2:
+
+ANWENDUNGSFÄLLE „P23R-CONTROLCENTRE“
+
+Anwendungsfall
+
+Umsetzung
+
+An- und Abmelden eines Benutzers (UC-CC-1)
+
+X
+
+Umsetzung entsprechend [4]
+
+Verwalten der Benutzerkonten (UC-CC-2)
+
+X
+
+Umsetzung entsprechend [4]
+
+X
+
+Umsetzung entsprechend [4]
+
+X
+
+Umsetzung entsprechend [4]
+
+X
+
+Umsetzung entsprechend [4]
+
+X
+
+Umsetzung entsprechend [4]
+
+Hinzufügen eines Datenmodellpakets
+(UC-CC-3)
+Hinzufügen eines Benachrichtigungsregelpakets (UC-CC-4)
+Erzeugen einer aktuellen Paketliste (UC-CC-5)
+Editieren der Kataloge und Verzeichnisse
+(UC-CC-6)
+
+4.2 P23R-CLIENT
+Tabelle 3 enthält die durch den P23R-Client umzusetzenden Anwendungsfälle. Diese beschreiben die
+Funktionen, die von den Mitarbeitern der BASF SE zur Interaktion mit dem P23R benötigt und diesen
+in einer Online-Anwendung zur Verfügung gestellt werden. Eine detaillierte Beschreibung der Anwendungsfälle ist in Abschnitt 4.3.1 in [4] zu finden.
+
+11
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+TABELLE 3:
+
+ANWENDUNGSFÄLLE „P23R-CLIENT“
+
+Anwendungsfall
+
+Umsetzung
+
+An- und Abmelden eines Benutzers (UC-CL-1)
+
+X
+
+Umsetzung entsprechend [4]
+
+Verwalten der Benutzerkonten (UC-CL-2)
+
+X
+
+Umsetzung entsprechend [4]
+
+Einsicht in das P23R-Protokoll (UC-CL-3)
+
+X
+
+Umsetzung entsprechend [4]
+
+X
+
+Umsetzung entsprechend [4]
+
+X
+
+Umsetzung entsprechend [4]
+
+Verwalten der auszuführenden Benachrichtigungsregeln (UC-CL-4)
+Auslösen der Abarbeitung einer Benachrichtigungsregel (UC-CL-5)
+
+Die Unternehmensdaten werden im Format „XUEmission“ durch einen
+Export aus CEDAR im CEDAR-Connector bereitgestellt (vgl. Abschnitt
+Editieren der zu verarbeitenden Unternehmensdaten (UC-CL-6)
+
+-
+
+4.3). Das Editieren der Daten über den P23R-Client ist nicht vorgesehen. Sollten Änderungen an den bereitgestellten Daten erforderlich
+sein, so werden diese in CEDAR vorgenommen und die Daten erneut
+exportiert.
+Umsetzung entsprechend [4]
+
+Bearbeitung und Freigabe einer Benachrichtigung (UC-CL-7)
+
+Hinweis: Alle Inhalte der generierten Benachrichtigung können geänX
+
+dert werden. Da kein Rückfluss der ggf. geänderten Benachrichtigungsdaten in CEDAR vorgesehen ist, sind die betreffenden Daten
+dort ebenfalls zu ändern (organisatorische Regelung).
+
+4.3 CEDAR-CONNECTOR
+In Tabelle 4 sind die durch den CEDAR-Connector in seiner Funktion als SourceConnector umzusetzenden Anwendungsfälle beschrieben. Eine detaillierte Beschreibung der Anwendungsfälle ist in Abschnitt 5.1 in [4] zu finden.
+TABELLE 4:
+
+ANWENDUNGSFÄLLE „CEDAR-CONNECTOR“
+
+Anwendungsfall
+
+Umsetzung
+Umsetzung entsprechend [4] mit folgender Abweichung:
+
+Bereitstellen der Unternehmensdaten
+(UC-SA-1)
+
+X
+
+Die aus CEDAR exportierten Unternehmensdaten liegen bereits im
+Format „XUEmission“ vor, so dass eine Transformation durch den
+CEDAR-Connector entfällt
+
+12
+
+P23R
+Funktionale Anforderungen
+Anwendungsfall
+
+Umsetzung
+Umsetzung entsprechend [4] mit folgender Abweichung:
+
+Vorhalten des Pivot-Datensatzes (UC-SA-2)
+
+X
+
+Die aus CEDAR exportierten Unternehmensdaten liegen bereits im
+Format „XUEmission“ vor, so dass eine Transformation durch den
+CEDAR-Connector entfällt.
+
+4.4 BUBE-ONLINE-CONNECTOR
+Die durch den BUBE-Online-Connector in seiner Funktion als CommunicationConnector umzusetzenden Anwendungsfälle sind in Tabelle 5 aufgeführt. Eine detaillierte Beschreibung der Anwendungsfälle ist in Abschnitt 4.4.1 in [4] zu finden.
+TABELLE 5:
+
+ANWENDUNGSFÄLLE „BUBE-ONLINE-CONNECTOR“
+
+Anwendungsfall
+
+Umsetzung
+Umsetzung entsprechend [4] mit folgender Konkretisierung:
+BUBE-Online besitzt keine Schnittstelle zum automatisierten Empfang
+einer Benachrichtigung, sondern bietet nur die Möglichkeit, diese manuell hochzuladen. Daher werden die manuellen Schritte durch entsprechende HTTP-Anfragen des BUBE-Online-Connectors automatisiert. Die zu automatisierenden Schritte umfassen die Anmeldung bei
+BUBE-Online, die Auswahl des Berichtsmoduls (11. BImSchV, 13. BIm-
+
+Übermitteln einer Benachrichtigung
+(UC-TA-1)
+
+SchV oder PRTR) in Abhängigkeit vom Typ der Benachrichtigung und
+X
+
+den eigentlichen Import der Benachrichtigung. Da das Importieren der
+Benachrichtigungen separat je Bundesland erfolgt, muss für jedes
+Bundesland eine andere Anmeldekennung vorgesehen und abhängig
+vom Inhalt der zu importierenden Benachrichtigung bei der Anmeldung verwendet werden.
+Zusätzlich zum Import der Benachrichtigung in BUBE-Online legt der
+BUBE-Online-Connector sie in dem für das betreffende Bundesland
+vorgesehenen Verzeichnis im lokalen Dateisystem ab. Der Dateiname
+enthält Angaben zum Benachrichtigungstyp und einen Zeitstempel.
+Umsetzung entsprechend [4] mit folgender Konkretisierung:
+Da BUBE-Online nur das manuelle Hochladen von Benachrichtigungen
+
+Erstellen einer Übermittlungsbestätigung
+(UC-TA-2)
+
+unterstützt und dieser Vorgang durch entsprechende HTTP-Anfragen
+X
+
+automatisiert wird (siehe UC-TA-1), erstellt der BUBE-OnlineConnector die Übermittlungsbestätigung auf Grundlage des Statuscodes der letzten zum Import der Benachrichtigung durchgeführten
+HTTP-Anfrage.
+
+13
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+
+14
+
+P23R
+Nicht-Funktionale Anforderungen
+
+5 NICHT-FUNKTIONALE ANFORDERUNGEN
+Die nicht-funktionalen Anforderungen, die an die P23R-Pilotlösung in der Domäne UWM gestellt
+werden, stimmen weitestgehend mit den nicht-funktionalen Anforderungen an die P23R-Pilotlösung
+in der Domäne AGM [4] überein. In Tabelle 6 sind deshalb alle nicht-funktionalen Anforderungen aus
+[4] mit ggf. abweichenden oder ergänzenden Hinweisen hinsichtlich ihrer Umsetzung im Kontext der
+Domäne UWM aufgeführt. Eine Beschreibung der Anforderungen ist in Abschnitt 6.2 in [4] zu finden.
+TABELLE 6:
+
+NICHT-FUNKTIONALE ANFORDERUNGEN
+
+Nicht-funktionale Anforderung
+
+Umsetzung
+Umsetzung entsprechend [4]
+Insbesondere die zur Anbindung der SourceApplication CEDAR bzw.
+der TargetApplication BUBE-Online zu implementierenden Connec-
+
+Konformität zur Rahmenarchitektur (REQ-3)
+
+X
+
+toren sowie der P23R-Client müssen die in [1] spezifizierten Schnittstellen erfüllen. Die zur Abbildung der Berichts- und Meldepflichten
+definierten Benachrichtigungsregeln müssen entsprechend [1] in Benachrichtigungsregelpaketen organisiert sein.
+
+Konformität zum P23R-CI (REQ-4)
+Barrierefreiheit der Benutzeroberflächen
+REQ-5)
+Ausreichende Performance des P23R (REQ-6)
+Integrationsfähigkeit der Musterimplementierung (REQ-7)
+
+X
+
+Umsetzung entsprechend [4]
+
+X
+
+Umsetzung entsprechend [4]
+
+X
+
+Umsetzung entsprechend [4]
+
+X
+
+Umsetzung entsprechend [4]
+
+Umsetzung entsprechend [4]
+Das Protokoll des P23R muss Auskunft über den Generierungsprozess
+einer Benachrichtigung geben. Dazu muss es Informationen über folgende Aktivitäten des P23R bei der Generierung und dem Versand
+einer Benachrichtigungen enthalten:
+- Empfang der die Benachrichtigungsgenerierung auslösenden
+Nachricht
+Durchgängige Nachweisführung (REQ-8)
+
+X
+
+-
+
+Zuordnung der zugehörigen Benachrichtigungsregel
+
+-
+
+Selektion der relevanten Quelldaten aus dem SourceConnector
+(CEDAR-Connector)
+
+-
+
+Transformation der Quelldaten in das Zielformat der TargetApplication (BUBE-Online)
+
+-
+
+Freigabe der Benachrichtigung im P23R-Client
+
+-
+
+Ermittlung des Benachrichtigungsempfängers und seiner Kommunikationsparameter
+
+-
+
+Übermittlung der Benachrichtigung zum Benachrichtigungsempfänger
+
+15
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+
+16
+
+P23R
+Anforderungen an den Test
+
+6 ANFORDERUNGEN AN DEN TEST
+Die korrekte Funktionsweise der P23R-Pilotlösung für die Domäne UWM wird durch einen Funktionstest nachgewiesen. Dieser soll zum einen Aufschluss über das Verhalten der in Kapitel 4 beschriebenen Anwendungsfälle geben und zum anderen die ordnungsgemäße Generierung der Emissionsberichte und -meldungen auf Basis der definierten Benachrichtigungsregeln überprüfen. Die für den
+Test der Benachrichtigungsgenerierung relevanten Aspekte und der grundsätzliche Ablauf des Tests
+sind in Abschnitt 6.1 und 6.2 beschrieben. Anforderungen, die an die zum Test verwendeten Testdaten gestellt werden, sind in Abschnitt 6.3 aufgeführt.
+
+6.1 TESTINHALT
+Im Rahmen des Funktionstests ist die korrekte Generierung der Benachrichtigungen anhand folgender Kriterien zu untersuchen:
+1) Zeitgesteuerte Auslösung der Benachrichtigungsgenerierung
+Es soll geprüft werden, ob die Benachrichtigungen der einzelnen Benachrichtigungstypen (Emissionserklärung nach der 11. BImSchV [5], Jahresbericht Emissionen nach den 13. BImSchV [6],
+PRTR-Bericht nach der PRTR-VO [8]) automatisch zu den in den zugehörigen Benachrichtigungsregeln vorgegebenen Terminen erzeugt werden.
+2) Inhaltliche Korrektheit der erzeugten Benachrichtigungen
+Es soll geprüft werden, ob die erzeugten Benachrichtigungen inhaltlich korrekt sind. Zu diesem
+Zweck soll der Test je Benachrichtigungstyp auf Basis vorgegebener Testdaten sowie zugehöriger
+Referenz-Benachrichtigungen erfolgen. Durch einen Vergleich der bei einem Testdurchlauf erzeugten Benachrichtigung mit der entsprechenden Referenz-Benachrichtigung ist auf diese Weise einfach feststellbar, ob die erzeugte Benachrichtigung mit dem erwarteten Ergebnis übereinstimmt. Anforderungen an die für die einzelnen Benachrichtigungstypen benötigten Testdaten
+sind in Abschnitt 6.3 definiert.
+Die TargetApplication BUBE-Online sieht eine Prüfung der importierten Benachrichtigungen vor.
+Aus diesem Grund soll die inhaltliche Korrektheit der erzeugten Benachrichtigungen nach dem
+Import in BUBE-Online durch eine solche Prüfung verifiziert werden.
+3) Korrekte Übermittlung der erzeugten Benachrichtigungen
+Es soll geprüft werden, ob die erzeugten Benachrichtigungen an den im Zuständigkeitsverzeichnis
+hinterlegten Benachrichtigungsempfänger übermittelt werden. Dabei handelt es sich im Fall der
+betrachteten Benachrichtigungen um das in der Laborumgebung installierte BUBE-Online-System
+(vgl. Abschnitt 3.2).
+4) Durchgängige Nachweisführung der Aktivitäten des P23R
+Es soll geprüft werden, ob die wesentlichen Aktivitäten des P23R bei der Generierung und dem
+Versand einer Benachrichtigung nachvollziehbar im Protokoll aufgezeichnet werden. Die zu protokollierenden Aktivitäten sind in Kapitel 5 (siehe REQ-8) genannt.
+
+17
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+
+6.2 TESTABLAUF
+Um die oben genannten Kriterien im Rahmen des Funktionstests zu untersuchen, besteht sein Ablauf
+grundsätzlich aus folgenden Aktivitäten, die für jeden Benachrichtigungstyp ausgeführt werden:
+
+
+Bereitstellen der Testdaten im CEDAR-Connector
+
+
+
+Bereitstellen der Referenz-Benachrichtigungen aus CEDAR bzw. manuell
+
+
+
+Starten der Benachrichtigungsgenerierung (durch Eintragen eines sinnvoll testbaren Termins
+in der Benachrichtigungsregeln und Aktivieren des Benachrichtigungsregelpakets sowie
+durch manuelles Auslösen der Benachrichtigungsgenerierung im P23R-Client)
+
+
+
+Freigeben der generierten Benachrichtigung im P23R-Client
+
+
+
+Überprüfen der Übermittlung der Benachrichtigung durch den BUBE-Online-Connector (d. h.
+Import der Benachrichtigung in BUBE-Online)
+
+
+
+Vergleichen der Benachrichtigung mit der zugehörigen Referenz-Benachrichtigung
+
+
+
+Starten des Prüfvorgangs in BUBE-Online
+
+
+
+Überprüfen der Protokolleinträge im P23R-Client
+
+6.3 TESTDATEN
+Zur Prüfung der inhaltlichen Korrektheit der erzeugten Benachrichtigungen erfolgt der Test der Benachrichtigungsgenerierung auf Basis vorgegebener Testdaten sowie zugehöriger Referenz-Benachrichtigungen. Um bei diesem Test alle wesentlichen Selektions-, Aggregations- und Transformationsschritte der Benachrichtigungsregeln überprüfen zu können, müssen die Testdaten auf diese Schritte
+abgestimmt sein. Im Folgenden sind deshalb die einzelnen Bedingungen spezifiziert, denen die zum
+Test verwendeten Testdaten genügen müssen. Diese sind aus den in [3] definierten fachlichen Vorgaben für die Benachrichtigungsregeln abgeleitet.
+Die Testdaten werden durch einen Export aus der SourceApplication CEDAR bereitgestellt. Der Export
+erfolgt direkt im Format „XUEmission“. Da CEDAR zusätzlich die Möglichkeit bietet, Daten für die
+Emissionserklärung und den PRTR-Bericht im Format der TargetApplication BUBE-Online zu exportieren, werden die Referenz-Benachrichtigungen für diese Benachrichtigungstypen ebenfalls durch einen Export aus CEDAR gewonnen. Die Referenz-Benachrichtigungen für die Jahresbericht Emissionen
+werden manuell erstellt.
+Emissionserklärung (11. BImSchV)
+Die zum Test der Generierung der Emissionserklärung nach der 11. BImSchV [5] erforderlichen Testdaten müssen die in Tabelle 7 aufgeführten Bedingungen erfüllen.
+
+18
+
+P23R
+Anforderungen an den Test
+TABELLE 7:
+Lfd. Nr.
+
+TESTDATEN „EMISSIONSERKLÄRUNG“
+Beschreibung
+Die Unternehmensdaten müssen mindestens zwei Arbeitsstätten mit einer oder mehreren emissionserklärungspflichtigen Anlagen enthalten, die jeweils mindenstens zwei Quellen umfassen.
+Mindestens eine Arbeitsstätte muss mehr als eine emissionserklärungspflichtige Anlage enthalten.
+
+01
+
+Mindestens eine Arbeitsstätte muss sich im Bundesland „02“, „04“, „05“, „08“, „09“, „10“, „11“ oder „15“ befinden.1)
+Mindestens eine Arbeitsstätte muss sich im Bundesland „01“, „03“, „06“, „07“, „12“, „13“, „14“ oder „16“ befinden.2)
+
+02
+
+03
+
+04
+
+Die Mengen der in den emissionserklärungspflichtigen Anlagen gehandhabten Stoffe müssen in unterschiedlichen Einheiten (t, m3, l) angegeben sein.
+Für gehandhabte Stoffe von emissionserklärungspflichtigen Anlagen mit Verwendungsart = „05“ (Brennstoff)
+müssen zusätzliche Angaben zum Brennstoff (mind. Aggregatzustand, Heizwert und Dichte) vorhanden sein.
+Die jahresbezogenen Angaben zu gehandhabten Stoffen und Emissionen müssen für mindestens zwei unterschiedliche Jahre vorliegen.
+
+1)
+
+Bei diesen Bundesländern sind die Quellen der Arbeitsstätte zuzuordnen.
+
+2)
+
+Bei diesen Bundesländern sind die Quellen der Anlage zuzuordnen.
+
+Jahresbericht Emissionen (13. BImSchV)
+Die zum Test der Generierung des Jahresberichts Emissionen nach der 13. BImSchV [6] erforderlichen
+Testdaten müssen die in Tabelle 8 aufgeführten Bedingungen erfüllen.
+TABELLE 8:
+Lfd. Nr.
+
+TESTDATEN „JAHRESBERICHT EMISSIONEN“
+Beschreibung
+Die Unternehmensdaten müssen mindestens eine Arbeitsstätte mit mindestens einer nach der 13. BImSchV
+
+01
+
+berichtspflichtigen Anlage enthalten.
+Eine Arbeitsstätte soll mehr als eine nach der 13. BImSchV berichtspflichtige Anlage enthalten oder zwei Arbeitsstätten sollen je eine nach der 13. BImSchV berichtspflichtige Anlage enthalten.
+
+02
+
+03
+
+Für mindestens eine der nach der 13. BImSchV berichtspflichtigen Anlage muss ein Genehmigungsdatum angegeben sein.
+Die Einheit, in der die Leistung der nach der 13. BImSchV berichtspflichtigen Anlagen angegeben ist, muss „W“,
+„kW“ oder „MW“ sein.
+Die gehandhabten Stoffe der nach der 13. BImSchV berichtspflichtigen Anlagen müssen
+- mindestens zwei der für den Summenparameter Biobrennstoffe definierten Stoffe (vgl. Tabelle 22 in [3])
+
+04
+
+und / oder
+-
+
+mindestens zwei der für den Summenparameter Festbrennstoffe definierten Stoffe (vgl. Tabelle 23 in [3])
+und / oder
+
+19
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+Lfd. Nr.
+
+Beschreibung
+-
+
+mindestens zwei der für den Summenparameter Flüssigbrennstoffe definierten Stoffe (vgl. Tabelle 24 in
+[3]) und / oder
+
+-
+
+mindestens zwei der für den Summenparameter Gasbrennstoffe definierten Stoffe (vgl. Tabelle 26 in [3])
+
+umfassen.
+Die Mengen der in die Berechnung eines Summenparameters eingehenden Stoffe müssen unterschiedlich sein.
+Die Mengen der in die Berechnung eines Summenparameters eingehenden Stoffe müssen in unterschiedlichen
+Einheiten (t, m3, l) angegeben sein.
+Die Emissionen der nach der 13. BImSchV berichtspflichtigen Anlagen müssen
+- mindestens zwei der für den Summenparameter SOx definierten Stoffe (vgl. Tabelle 27 in [3]) und / oder
+
+05
+
+-
+
+mindestens zwei der für den Summenparameter NOx definierten Stoffe (vgl. Tabelle 28 in [3]) und / oder
+
+-
+
+mindestens zwei der für den Summenparameter Staub definierten Stoffe (vgl. Tabelle 29 in [3])
+
+umfassen.
+Die Mengen der in die Berechnung eines Summenparameters eingehenden Stoffe müssen unterschiedlich sein.
+Für die in die Berechnung eines Summenparameters eingehenden Stoffe sollen unterschiedliche Ermittlungsund Messarten angegeben sein.
+
+06
+
+Die jahresbezogenen Angaben zu gehandhabten Stoffen und Emissionen müssen für mind. zwei unterschiedliche Jahre vorliegen.
+
+PRTR-Bericht (PRTR-VO)
+Die zum Test der Generierung des PRTR-Berichts nach der PRTR-VO [8] erforderlichen Testdaten
+müssen die in Tabelle 9 aufgeführten Bedingungen erfüllen.
+TABELLE 9:
+Lfd. Nr.
+
+TESTDATEN „PRTR-BERICHT“
+Beschreibung
+Die Unternehmensdaten müssen mind. zwei Arbeitsstätten mit einer oder mehreren nach der PRTR-VO be-
+
+01
+
+richtspflichtigen Anlagen enthalten. Mind. eine Arbeitsstätte muss mehr als eine nach der PRTR-VO berichtspflichtige Anlage enthalten.
+Zu den nach der PRTR-VO berichtspflichtigen Anlagen einer Arbeitsstätte müssen Emissionen vorhanden sein,
+die auf mindestens fünf der in Anhang II der PRTR-VO für Freisetzungen in die Luft genannten Schadstoffe abgebildet werden können (vgl. BUBE-Referenztabelle R3013 [9]). Für mindestens einen PRTR-Schadstoff müssen
+mindestens zwei Emissionen mit unterschiedlichen Stoffnummern vorhanden sein.
+Beispiel:
+Emission
+
+02
+
+PRTR-Schadstoff
+
+00001110 -> 002
+00001120 -> 003
+00011230 -> 007
+00014360 -> 007
+00022500 -> 007
+Die Summe der Mengen der Emissionen der Anlagen einer Arbeitsstätte, die auf einen PRTR-Schadstoff abgebildet werden, muss bei einem PRTR-Schadstoff unter dem für diesen Schadstoff definierten Schwellenwert lie-
+
+20
+
+P23R
+Anforderungen an den Test
+Lfd. Nr.
+
+Beschreibung
+gen.
+Die Mengen der Emissionen, die auf einen PRTR-Schadstoff abgebildet werden, müssen unterschiedlich sein.
+Für mindestens einen PRTR-Schadstoff, der sich aus mehreren Emissionen ergibt, sollen für die einzelnen Emissionen unterschiedliche Ermittlungsarten, Ermittlungsverfahren, Verfahrensbeschreibungen und Schutzgründe
+angegeben sein.
+Mindestens eine Emission der Anlagen einer Arbeitsstätte, die auf einen PRTR-Schadstoff abgebildet wird, dessen Menge über dem Schwellenwert liegt, muss zu einem emissionsverursachenden Vorgang mit der Vorgangsart „04“ (Betriebsstörung) oder „07“ (Störfall (nach Störfall-VO)) gehören.
+
+03
+
+Die jahresbezogenen Angaben zu Emissionen müssen für mindestens zwei unterschiedliche Jahre vorliegen.
+
+21
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+
+22
+
+P23R
+Glossar
+
+7 GLOSSAR
+Antrag
+Ein Antragsprozess stellt einen Typ von Prozessketten zwischen Wirtschaft und Verwaltung
+dar, der dadurch gekennzeichnet ist, dass ein Antragsteller bei der zuständigen Behörde eine
+Genehmigung für eine bestimmte Tätigkeit oder auch eine Unterstützungsleistung einholt bzw.
+nachfragt. Die verschiedenen Typen von Prozessketten zwischen Wirtschaft und Verwaltung
+werden durch die Merkmale Auslöser und Richtung des Informationsflusses unterschieden.
+Anträge werden durch ein bestimmtes Anliegen des Antragstellers (eine bestimmte Tätigkeit
+bspw. ein Bau einer Fabrikhalle soll durchgeführt werden oder Unterstützungsleistungen bspw.
+in Form von Subventionen sollen in Anspruch genommen werden) ausgelöst. Im Lauf des Antragsprozesses oder Antragsverfahrens werden Informationen zwischen Antragsteller und Genehmigungsbehörde in beide Richtungen ausgetauscht, d. h. der Informationsfluss ist bidirektional.
+Arbeitgebermeldepflichten
+Der Sammelbegriff Arbeitgebermeldepflichten (kurz AGM) umfasst alle Informations- und
+Meldepflichten, die ein Unternehmen in seiner Funktion als Arbeitgeber erfüllen muss.
+Audit
+Protokollierung von fachlichen Ereignissen, z. B. zum Zweck des Datenschutzes oder zur Wahrung der Betroffenenrechte.
+Authentifizierung
+Unter einer Authentifizierung versteht man die Prüfung einer Authentisierung, d. h. die Überprüfung, dass ein Kommunikationspartner tatsächlich derjenige ist, der er vorgibt zu sein.
+Authentizität
+Unter dem Begriff Authentizität (engl. authenticity) versteht man die Eigenschaft, die gewährleistet, dass der Kommunikationspartner tatsächlich derjenige ist, der er vorgibt zu sein, bzw.
+dass die vorliegenden Informationen von der angegebenen Quelle erstellt wurden.
+Quelle: [10]
+Autorisierung
+Eine Autorisierung ist eine Einräumung von Rechten. Rechte können dabei sowohl an Individuen und abgegrenzte Gruppen vergeben werden als auch an offene Gruppen, die lediglich über
+Eigenschaften ihrer Mitglieder beschrieben sind (z. B. rollenbasierte Berechtigungsvergabe).
+Benachrichtigung (Notification)
+Eine Benachrichtigung ist ein Sammelbegriff für die technische Darstellung im P23R für einen
+Antrag, einen Bericht, eine Meldung oder eine Statistik, der bzw. die an einen Benachrichtigungsempfänger gesendet wird. Eine Benachrichtigung, die ein Benachrichtigungssender an
+den Benachrichtigungsempfänger übermittelt, ergibt sich bspw. aus juristischer Sicht aus den
+Benachrichtigungspflichten der Unternehmen gegenüber der Verwaltung.
+
+23
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+Benachrichtigung, Öffentliche (Legal Notification)
+Eine Öffentliche Benachrichtigung ist der Spezialfall einer Benachrichtigung, deren zugeordnete Öffentliche Benachrichtigungsregel ausdrücklich vom Vorschriftengeber freigegeben ist.
+Öffentliche Benachrichtigungen sind insbesondere:
+
+
+Meldungen (periodisch und anlassbezogen),
+
+
+
+Berichte,
+
+
+
+Anträge.
+
+Benachrichtigungsempfänger (Notification Receiver)
+Der Benachrichtigungsempfänger (bspw. ein Unternehmen, eine Organisation oder eine Verwaltung) benötigt von einem Benachrichtigungssender (bspw. ein Unternehmen, eine Organisation oder eine Verwaltung) Informationen, die er in Form von Benachrichtigungen erhält.
+Benachrichtigungsempfänger für eine Öffentliche Benachrichtigung bezeichnet eine Behörde
+oder eine andere Stelle auf Vollzugsebene mit einem gesetzlichen Auftrag, dessen Rahmen
+eine Öffentliche Benachrichtigung zu empfangen oder anzufordern ist.
+Benachrichtigungsregel (Notification Rule)
+Eine Benachrichtigungsregel (BR) beschreibt, wie technisch aus den Daten des Benachrichtigungssenders (z. B. ein Unternehmen) genau eine Benachrichtigung für den Benachrichtigungsempfänger (z. B. eine Verwaltung) generiert wird. Eine Benachrichtigungsregel enthält
+vor allem verschiedene Berechnungen zur Selektion, Aggregation, Transformation, Validierung
+und Repräsentation sowie weitere vom P23R benötigte Metainformationen. Für die technische
+Umsetzung werden die Benachrichtigungsregeln aus den rechtlichen Vorgaben durch den Gesetzgeber bzw. die Verwaltung abgeleitet.
+Dabei wird zwischen Technischen und Fachlichen Benachrichtigungsregeln unterschieden.
+Technische Benachrichtigungsregeln werden in einer Technischen Benachrichtigungsregelsprache (T-BRS) definiert, direkt durch den P23R verstanden und sind auf allen P23Rs ausführbar.
+Um die Entwicklung und Überprüfung der Benachrichtigungsregeln für Fachleute zu vereinfachen, gibt es fachliche Benachrichtigungsregeln, die in einer Fachlichen Benachrichtigungsregelsprache (F-BRS) definiert werden, durch Fachleute relativ einfach verstanden und geschrieben werden können sowie automatisch in die Technischen Benachrichtigungsregeln
+übersetzbar sind.
+Benachrichtigungsregel, Öffentliche (Legal Notification Rule)
+Eine Öffentliche Benachrichtigungsregel ist ein Spezialfall der Benachrichtigungsregel. Sie basiert auf der Modellierung einer gesetzlichen Vorgabe (der Benachrichtigungspflicht). Die Öffentliche Benachrichtigungsregel wird vom Vorschriftengeber geprüft und als korrekt freigegeben. Während software-technisch keine Unterschiede zur (allgemeinen) Benachrichtigungsregel bestehen, unterscheidet sich die rechtliche Beurteilung der Öffentlichen Benachrichtigungsregel von derjenigen der allgemeinen Benachrichtigungsregel.
+Die unveränderte Anwendung der Öffentlichen Benachrichtigungsregel im P23R begründet
+z. B. eine ausreichende Ausübung der Sorgfaltspflicht bei der Erzeugung bzw. Zusammenstel24
+
+P23R
+Glossar
+lung einer Benachrichtigung mit Hilfe des P23R. Die Richtigkeit der verwendeten Daten bleibt
+davon unberührt.
+Benachrichtigungsregelgruppe (Notification Rule Group)
+Eine Benachrichtigungsregelgruppe (BRG) enthält alle diejenigen Benachrichtigungsregeln, die
+zur Unterstützung einer Meldung, einer Statistik, eines Berichts usw. benötigt werden. Die Benachrichtigungssender können nur Benachrichtigungsregelgruppen in Benachrichtigungsregelpaketen von einer P23R-Leitstelle beziehen. Die Aktivierung von Benachrichtigungsregeln im
+P23R erfolgt immer im Rahmen einer Benachrichtigungsregelgruppe. Welche Benachrichtigungsregelgruppen für einen Benachrichtigungssender tatsächlich erforderlich bzw. sinnvoll
+sind, wird bei der Aktualisierung von Benachrichtigungsregelpaketen mittels spezifischer Entscheidungskriterien für eine Benachrichtigungsregelgruppe überprüft.
+Es kann für eine Meldepflicht innerhalb einer Benachrichtigungsregelgruppe zum einem verschiedene Varianten einer Benachrichtigung geben, bspw. bedingt durch unterschiedliche Unternehmensgrößen. Zum anderen kann es auch mehrere verschiedene, aber zusammengehörende Benachrichtigungen geben, die zur Umsetzung der Meldepflicht benötigt werden, bspw.
+neben der eigentlichen Meldung auch die Anmeldung bei einer Behörde bzgl. der Meldepflicht.
+Benachrichtigungsregelpaket (Notification Rule Package)
+Ein Benachrichtigungsregelpaket ist eine Menge von Technischen Benachrichtigungsregelgruppen sowie den dazugehörigen Teildatenmodellen, wie sie technisch durch eine Leitstelle bereitgestellt werden. Ein Benachrichtigungsregelpaket könnte bspw. alle benötigten Benachrichtigungsregelgruppen für eine Domäne enthalten. Darüber hinaus gibt es ein BasisBenachrichtigungsregelpaket, das die Benachrichtigungsregelgruppen enthält, die grundsätzlich jeder P23R insbesondere für seine Initialisierung benötigt.
+Die Benachrichtigungsregelgruppen in einem Benachrichtigungsregelpaket werden nach Gesichtspunkten der technischen Verwandtschaft und des Anwendernutzens zusammengestellt.
+Sie sind in der Regel nicht deckungsgleich mit der Gruppierung in einem Benachrichtigungsregelwerk.
+Benachrichtigungsregelsprache (Notification Rule Language)
+Eine Benachrichtigungsregelsprache (BRS) beschreibt die Rechtschreibung und Grammatik, wie
+Benachrichtigungsregeln, -gruppen und -pakete sowie Datenmodellpakete zu spezifizieren
+sind. Die Technische Benachrichtigungsregelsprache (T-BRS) wird für die Verteilung der Benachrichtigungsregelpakete und der Datenmodellpakete genutzt, um sicherzustellen, dass jeder P23R unabhängig vom Hersteller die Benachrichtigungsregeln identisch interpretiert.
+Die Fachliche Benachrichtigungsregelsprache (F-BRS) soll dagegen den Fachexperten, die die
+Fachlichen Benachrichtigungsregelwerke entwickeln und spezifizieren müssen, eine möglichst
+einfach zu erstellende, leicht verständliche und fachlich angepasste Beschreibungsform zur
+Verfügung stellen, die dann letztlich aber automatisch in die T-BRS übersetzt wird.
+Siehe auch Benachrichtigungsregel.
+
+25
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+Benachrichtigungsregelwerk (Notification Rule Set)
+Ein Benachrichtigungsregelwerk (BRW) ist eine logisch oder fachlich abgeschlossene Menge
+von Benachrichtigungsregeln. Dies könnten bspw. alle Benachrichtigungsregeln zu einem Gesetz, einem Rechtsgebiet, einer Domäne oder einer Organisationseinheit sein. Die Kriterien der
+Zusammenfassung sind rein fachlicher Art. Es gibt keine zwingende Deckungsgleichheit mit den
+Begriffen „Benachrichtigungsregelpaket“ oder „Benachrichtigungsregelgruppe“.
+Benachrichtigungssender (Notification Sender)
+Der Benachrichtigungssender (bspw. ein Unternehmen, eine Organisation oder eine Verwaltung) sendet Informationen, in Form von Benachrichtigungen, an einen Benachrichtigungsempfänger (bspw. ein Unternehmen, eine Organisation oder eine Verwaltung).
+Benachrichtigungstyp (Notification Type)
+Die Benachrichtigungsregeln generieren eine Benachrichtigung in einem internen, empfängerunabhängigen XML-Format. Jedem dieser XML-Formate kann ein Benachrichtigungstyp zugeordnet werden. Ein Benachrichtigungstyp wird durch einen eindeutigen Namen in Form des
+standardmäßigen XML-Namensraums identifiziert, der in dem XML-Dokument verwendet
+wird.
+Bericht
+Ein Bericht stellt einen Typ von Prozessketten zwischen Wirtschaft und Verwaltung dar, der
+dadurch gekennzeichnet ist, dass ein Unternehmen vorgegebene Informationen über eine bestimmte Tätigkeit bspw. die mit der Verbrennung von Abfällen verbundenen Emissionen abgeben muss. Die verschiedenen Typen von Prozessketten zwischen Wirtschaft und Verwaltung
+werden durch die Merkmale Auslöser und Richtung des Informationsflusses unterschieden.
+Berichte sind dadurch charakterisiert, dass sie neben festgelegten Inhalten einen vorgegeben
+Fälligkeitstermin und eine vorgegebene Frequenz haben, d.h. sie werden durch das Eintreffen
+des Fälligkeitstermins ausgelöst. Informationen fließen im Wesentlichen in eine Richtung, vom
+Unternehmen zur zuständigen Überwachungsbehörde.
+Betreibermodell
+Ein Betreibermodell ist ein Geschäftskonzept für die Bereitstellung von Gütern und Dienstleistungen, bei dem diese nicht mehr an Kunden verkauft, sondern gegen ein leistungsabhängiges
+Entgelt zur Nutzung angeboten werden. Betreibermodelle können somit für die Bereitstellung
+von physischen Produkten und / oder immateriellen Dienstleistungen gestaltet und etabliert
+werden. Betreibermodelle können gemäß den folgenden Kriterien klassifiziert, beschrieben
+und gestaltet werden: Leistungsfokus, Organisationsform, Koordinationsform, Kundenfokus,
+Gegenstand, Leistungsverrechnung, Preismodell, Absatzmarkt, Kontrahierungsform, CenterKonzept und Mitarbeiter.
+Betreiber- und Geschäftsmodell
+Ein Betreibermodell im Kontext des P23R ist ein Geschäftskonzept für die Bereitstellung von
+Gütern und Dienstleistungen gegen ein leistungsabhängiges Entgelt.
+Betreibermodelle können somit für die Bereitstellung von physischen Produkten und / oder
+immateriellen Dienstleistungen gestaltet und etabliert werden. Betreibermodelle können ge26
+
+P23R
+Glossar
+mäß der folgenden Kriterien klassifiziert, beschrieben und gestaltet werden: Zielgruppe, Zielbranche, Anbieter / Provider, Geschäftsfelder, P23R-Lösung, Musterimplementierung, Makeor-Buy-Entscheidung, Betrieb, Preismodell, Abrechnungsmöglichkeiten.
+Datenmodell
+Als Datenmodell wird das in den Benachrichtigungsregeln verwendete logische, von der konkreten Implementierung unabhängige Pivot-Datenmodell bezeichnet, um auf die Daten des
+Benachrichtigungssenders (z. B. eines Unternehmens), die im Datenpool zugänglich sind, zuzugreifen. Aus technischen Gründen wird das Datenmodell noch in Teildatenmodelle untergliedert, gepflegt und verteilt. Ein Teildatenmodell entspricht technisch einem XML-Schema mit
+einem spezifischen XML-Namensraum.
+Das Mapping eines logischen Teildatenmodells in ein konkretes Datenmodell des Quellsystems
+erfolgt beim zugehörigen SourceConnector.
+Datenmodellpaket (Model Package)
+Ein Datenmodellpaket (MP) ist eine Menge von Teildatenmodellen, wie sie technisch durch eine P23R-Leitstelle bereitgestellt werden. Ein Datenmodellpaket könnte bspw. alle benötigten
+Teildatenmodelle für eine Domäne enthalten. Darüber hinaus gibt es ein BasisDatenmodellpaket, das die Teildatenmodelle enthält, die grundsätzlich jeder P23R insbesondere für seine Initialisierung benötigt.
+Die Teildatenmodelle in einem Datenmodellpaket werden nach Gesichtspunkten der technischen Verwandtschaft und des Anwendernutzens zusammengestellt. Sie sind in der Regel nicht
+deckungsgleich mit der Gruppierung in einem Fachlichen Benachrichtigungsregelwerk.
+Datenpool
+Der Datenpool ist die logische Komponente im P23R, die das Abfragen und Zwischenspeichern
+der Quelldaten (Unternehmensdaten) sowie den Zugriff auf diese regelt. Dazu kann ein Cache
+genutzt werden, der die Anfragen mit ihren Antworten zwischenspeichert. Alternativ können
+die Quelldaten im P23R teilweise gespiegelt werden.
+Datenschutz
+Datenschutz soll den Einzelnen davor schützen, dass er durch den Umgang mit seinen
+personenbezogenen Daten in seinem Persönlichkeitsrecht beeinträchtigt wird. Mit Datenschutz wird daher der Schutz personenbezogener Daten vor etwaigem Missbrauch bezeichnet
+(nicht zu verwechseln mit Datensicherheit).
+Datensicherheit
+Datensicherheit beziehungsweise IT-Sicherheit bedeutet „die Durchführung aller organisatorischen und technischen Maßnahmen, um das in der Organisation von Unternehmen und Behörden benötigte Niveau an Vertraulichkeit, Verfügbarkeit, Integrität“ und Prüfbarkeit aller
+verarbeiteten Daten, einschließlich der Programme, sicherzustellen.
+Für den Bereich des Datenschutzes sind die korrespondierenden Pflichten in der Anlage zu § 9
+Satz 1 BDSG konkretisiert.
+Quelle: [11]
+
+27
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+Domäne (Domäne)
+Die Abgrenzung eines Themenbereiches für die Regelerstellung wird im Kontext des P23RPrinzips als „Domäne“ (kurz: „Domäne“) bezeichnet. Die Abgrenzungskriterien sind unterschiedlicher Art; sie können auf Rechtsgebieten, Verwandtschaft durch Nutzung stark überschneidender Datenmengen, gleichen oder verwandten Überwachungsgegenständen, verwandten Geschäftsprozessen, dem spezifischen Bedarf einer bestimmten Branche oder anderen rationalen Kriterien basieren.
+Empfänger
+Empfänger bezeichnet eine Behörde oder eine andere Stelle auf Vollzugsebene mit einem gesetzlichen Auftrag, in dessen Rahmen eine Benachrichtigung zu empfangen oder anzufordern
+ist.
+Fachliche Beratungsstellen
+Fachliche Beratungsstellen können die Ersteller von Benachrichtigungsregeln methodisch unterstützen sowie bei Bedarf die Entwicklung Fachlicher Benachrichtigungsregelsprachen
+(F-BRS) betreuen. Die Einrichtung und der Betrieb Fachlicher Beratungsstellen liegen in der
+Verantwortung interessierter Vorschriftengeber bzw. Vorschriftengebergruppen.
+Fachübergreifende Koordinierungsaufgaben
+Durch das Konzept der Autonomie für die einzelnen P23R-Installationen besteht in einigen Bereichen ein übergreifender Koordinierungsbedarf. Dies kann bspw. folgende Koordinierungsaufgaben betreffen:
+
+28
+
+
+
+Betrieb des P23R-Depots bei einer Öffentlichen Leitstelle für die Bereitstellung von Benachrichtigungsregel- und Datenmodellpaketen
+
+
+
+Prüfung von Benachrichtigungsregeln und Pflege des Pivot-Datenmodells
+
+
+
+Weiterentwicklung der Technischen Benachrichtigungsregelsprache (T-BRS) bei Bedarf
+
+
+
+Einbindung externer Verzeichnisdienste, wie z. B. „Leistungsverzeichnisse“ und „Zuständigkeitsverzeichnisse“, und weiterer Quellen zur Bereitstellung von Zuständigkeitsinformationen über das P23R-Zuständigkeitsverzeichnis
+
+
+
+Angebot eines Online-Entwickler-Portals, um die Entwicklung der Fachlichen Benachrichtigungsregeln zu unterstützen
+
+
+
+Angebot eines Online-Service-Portals, um die Kommunikation mit den P23R-Anbietern
+und P23R-Betreibern zu unterstützen
+
+
+
+Organisation von Präsenzveranstaltungen zum fachlichen Austausch in und zwischen Interessengruppen, wie z. B. Stakeholdergremien, Communities, fachliche Arbeitsgruppen
+
+
+
+Organisation von Kontakten zu anderen Gremien, die für das P23R-Konzept von Interesse
+sind.
+
+P23R
+Glossar
+Fachübergreifende Koordinierungsstelle
+Die Fachübergreifende Koordinierungsstelle ist in ihrer Rolle als Dienstleister für den P23R für
+die Umsetzung der Ziele und Anforderungen des P23R-Prinzips verantwortlich.
+Sie übernimmt die zentrale Koordination aller Aufgaben, die über die Erstellung einzelner Benachrichtigungsregeln und -regelgruppen hinausgehen.
+Siehe auch Fachübergreifende Koordinierungsaufgaben.
+Informations- und Meldepflichten
+Informations- und Meldepflichten sind der Sammelterm für die unterschiedlichen Typen von
+Prozessketten zwischen Wirtschaft und Verwaltung. Sie umfassen Antragsprozesse, Archivpflichten, Berichte, Meldungen.
+Integrität
+Bei der elektronischen Kommunikation ist damit die Unversehrtheit von Informationen und
+Daten gemeint, d. h. dass die Daten bei der Übertragung nicht verändert wurden.
+Quelle: [10]
+Intermediär
+Ein Intermediär ist ein vom Unternehmen beauftragter Dienstleister, der Prozesse für das
+Unternehmen ganz oder teilweise durchführt. Er wird im P23R repräsentiert durch die Rolle
+Intermediär. Der Intermediär ist keine globale Rolle (z. B. Steuerberater, Buchhaltungsservice).
+IT-Grundschutz
+IT-Grundschutz bezeichnet eine Methodik zum Aufbau eines Sicherheitsmanagementsystems
+sowie zur Absicherung von Informationsverbünden über Standard-Sicherheitsmaßnahmen.
+Außerdem wird mit IT-Grundschutz der Zustand bezeichnet, in dem die vom BSI empfohlenen
+Standard-Sicherheitsmaßnahmen umgesetzt sind, die als Gesamtheit von infrastrukturellen,
+organisatorischen, personellen und technischen Sicherheitsmaßnahmen, Institutionen mit
+normalem Schutzbedarf hinreichend absichern.
+Quelle: [12]
+IT-Sicherheit
+IT-Sicherheit bezeichnet einen Zustand, in dem die Risiken, die beim Einsatz von Informationstechnik aufgrund von Bedrohungen und Schwachstellen vorhanden sind, durch angemessene
+Maßnahmen auf ein tragbares Maß reduziert sind. IT-Sicherheit ist also der Zustand, in dem
+Vertraulichkeit, Integrität und Verfügbarkeit von Informationen und Informationstechnik durch
+angemessene Maßnahmen geschützt sind.
+Quelle: [12]
+Kommunikationskanal
+Als Kommunikationskanal bezeichnet man die physische Kommunikationsverbindung zwischen
+dem P23R und dem Benachrichtigungsempfänger, über die Benachrichtigungen versendet
+werden. Die physische Kommunikation erfolgt im P23R durch die verschiedenen Kommunikationsadapter, die die Protokolle, wie Webservices, E-Mail, Fax usw., implementieren.
+29
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+Kommunikationsmaßnahmen
+Kommunikationsmaßnahmen sind als Aktivitäten definiert, die von einem kommunikationstreibenden Unternehmen bewusst zur Erreichung kommunikativer Zielsetzungen eingesetzt
+werden.
+Quelle: [13]
+Kommunikationsmatrix
+Die Kommunikationsmatrix ist eine Darstellungsform der Kommunikationsstrategie bei der
+Kommunikationsinstrumente und -maßnahmen zeitlich integriert und auf konkrete Zielgruppen abgestimmt werden.
+Kommunikationsstrategie
+Unter einer Kommunikationsstrategie werden Maßnahmen grundsätzlicher Art zur Erreichung
+von Kommunikationszielen verstanden. Kommunikationsstrategien können sich in Verwendung einzelner, als auch in Kombination mehrerer Kommunikationsinstrumente
+niederschlagen.
+Quelle: [14]
+Komponente
+Als Komponenten werden im IT-Grundschutz technische Zielobjekte (siehe dort) oder Teile von
+Zielobjekten bezeichnet.
+Quelle: [12]
+Konnektor
+Ein Konnektor ist eine Komponente ohne eigene Geschäftslogik, die in die Kommunikation zwischen zwei Anwendungen (Systemkomponenten) eingefügt wird, um Datenformate oder
+Übertragungsprotokolle zwischen unterschiedlichen Schnittstellen anzupassen.
+Leitstelle, Öffentliche
+Eine Öffentliche Leitstelle ist eine P23R-Leitstelle, die für die Bereitstellung von Öffentlichen
+Benachrichtigungsregel- und Datenmodellpaketen sowie des Öffentlichen P23R-Zuständigkeitsverzeichnisses zuständig ist. Im Idealfall gibt es genau eine Öffentliche Leitstelle.
+Siehe auch P23R-Leitstelle.
+Meldung
+Eine Meldung ist eine Informationsübermittlung von einem Unternehmen an einen Meldungsempfänger im Rahmen einer Prozesskette. Das sind im juristischen Sinne Meldungen, die sich
+aus den Meldepflichten des Unternehmens ergeben.
+Methodenleitfaden (MLF)
+Der Methodenleitfaden bildet ein Kompendium aus unterschiedlichen Modulen. Die einzelnen
+Module des Methodenleitfadens richten sich an Entscheider und Experten, die an der Schnittstelle zwischen Wirtschaft und Verwaltung wirken. Sie unterstützen diese in ihren fachlichen,
+IT-architektonischen, sicherheitstechnischen, wirtschaftlichen und juristischen Analyse- und
+Gestaltungsaufgaben. In digitaler Form gibt es einen Methodenleitfaden-Online.
+30
+
+P23R
+Glossar
+Methodenleitfaden-Online (MLF-Online)
+Der Methodenleitfaden Online ist die webbasierte Variante des Methodenleitfadens, der im
+Projekt Prozess-Daten-Beschleuniger entsteht. Der Methodenleitfaden kann von den Nutzern
+aus der Öffentlichkeit und Fachöffentlichkeit in rollengeführter Anwendung eingesetzt werden.
+Modellierung
+Bei der Vorgehensweise nach IT-Grundschutz wird bei der Modellierung der betrachtete
+Informationsverbund eines Unternehmens oder einer Behörde mit Hilfe der Bausteine aus den
+IT-Grundschutz-Katalogen nachgebildet. Hierzu enthält Kapitel 2.2 der IT-GrundschutzKataloge für jeden Baustein einen Hinweis, auf welche Zielobjekte er anzuwenden ist und
+welche Voraussetzungen dabei gegebenenfalls zu beachten sind.
+Quelle: [12]
+Nachricht (Message)
+Eine Nachricht löst die Generierung einer Benachrichtigung aus. Im Standardfall werden interne Nachrichten innerhalb des P23R zeitgesteuert erzeugt, z. B. um gesetzlichen Meldepflichten
+fristgerecht nachzukommen. Daneben kann auch ein Benachrichtigungsempfänger eine externe (Öffentliche) Nachricht an den P23R senden und damit gezielt eine Benachrichtigung anfordern.
+Eine Nachricht bezieht sich immer auf eine Benachrichtigung. Eine Nachricht kann aus zwei
+Gründen erzeugt werden:
+
+
+Die Nachricht fordert ein Unternehmen auf, eine Benachrichtigung zu erzeugen.
+
+
+
+Die Nachricht ist eine Reaktion auf eine vorhergehende Benachrichtigung. Die Nachricht
+kann eine Eingangsbestätigung, eine Rückfrage, eine Aufforderung zur Korrektur, eine Genehmigung oder Ablehnung eines Antrags oder Ähnliches enthalten.
+
+Art und Form einer Nachricht werden im Rahmen der Benachrichtigungsregel definiert.
+Notfall
+Ein Notfall ist ein Schadensereignis, bei dem Prozesse oder Ressourcen einer Institution nicht
+wie vorgesehen funktionieren. Die Verfügbarkeit der entsprechenden Prozesse oder Ressourcen kann innerhalb einer geforderten Zeit nicht wieder hergestellt werden. Der Geschäftsbetrieb ist stark beeinträchtigt. Eventuell vorhandene Service Level Agreements können nicht
+eingehalten werden. Es entstehen hohe bis sehr hohe Schäden, die sich signifikant und in nicht
+akzeptablem Rahmen auf das Gesamtjahresergebnis eines Unternehmens oder die Aufgabenerfüllung einer Behörde auswirken. Notfälle können nicht mehr im allgemeinen Tagesgeschäft
+abgewickelt werden, sondern erfordern eine gesonderte Notfallbewältigungsorganisation.
+Quelle: [15]
+Notfallkonzept
+Das Notfallkonzept umfasst das Notfallvorsorgekonzept und das Notfallhandbuch.
+Quelle: [15]
+
+31
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+Öffentliche Benachrichtigung (Legal Notification)
+Siehe Benachrichtigung, Öffentliche (Legal Notification).
+Öffentliche Benachrichtigungsregel (Legal Notification Rule)
+Siehe Benachrichtigungsregel, Öffentliche (Legal Notification Rule).
+Öffentliche Leitstelle
+Siehe Leitstelle, Öffentliche.
+P23R
+Unter der Bezeichnung „P23R“ ist derjenige Teil einer P23R-Lösung zu verstehen, der die Generierung und den Versand von Benachrichtigungen über die von der Leitstelle bereitgestellten
+Regelwerke realisiert. Der Name „P23R“ leitet sich von „Prozess-Daten-Beschleuniger“ ab.
+P steht dabei für den ersten Buchstaben, R für den letzten Buchstaben. Dazwischen befinden
+sich 23 Buchstaben.
+P23R-Anwender
+Ein P23R-Anwender ist jede natürliche oder juristische Person, die eine P23R-Lösung zur Abwicklung von Informations- und Meldepflichten einsetzt.
+P23R-Client
+Der P23R selbst stellt ausschließlich Dienstschnittstellen (SOA) zur Verfügung, über die auf seine Funktionalität zugegriffen werden kann. Eine ggf. ergänzende Komponente, die als P23RClient bezeichnet wird, stellt eine grafische Oberfläche zur Bedienung des P23R bereit. Diese
+Funktionalität des P23R-Client kann auch direkt in der Unternehmenssoftware integriert sein.
+P23R-Depot
+Das P23R-Depot stellt Benachrichtigungsregelpakete, die Liste aller Benachrichtigungsregelpakete und die Trusted Service Lists den P23R-Instanzen zur Verfügung. Die Öffentliche Leitstelle hält (mindestens ) alle Öffentlichen Benachrichtigungsregeln auf einem Server zum anonymen Download bereit.
+P23R-Infrastruktur
+Die P23R-Infrastruktur umfasst neben der zentralen Systemkomponente P23R auch den optionalen P23R-Client, die P23R-Leitstelle und den optionalen P23R-TrustedProxy sowie die Definition des P23R-Protokolls.
+P23R-inside
+Unter einer P23R-inside-Lösung versteht man eine P23R-Lösung, bei der relevante P23RArchitekturelementen in eine bestehende IT-Lösung integriert werden. Solche Lösungen setzen ein gutes Verständnis der Rahmenarchitektur voraus und können diese in unterschiedlichen Ausprägungen implementieren.
+P23R-Instanz
+Die P23R-Instanz ist eine in Betrieb befindliche Instanziierung des P23R.
+
+32
+
+P23R
+Glossar
+P23R-Leitstelle
+Eine P23R-Leitstelle ist eine Organisationseinheit, die den Betrieb der P23Rs technisch unterstützt. Sie generiert die Benachrichtigungsregelpakete sowie die Datenmodellpakete und weitere technische Artefakte und stellt diese für den P23R bereit. Darüber hinaus betreibt sie
+noch weitere Dienste für den P23R, z. B. das P23R-Zuständigkeitsverzeichnis.
+Neben einer oder mehreren Öffentlichen Leitstellen kann es in jedem Unternehmen eigene
+Unternehmensleitstellen geben, die eigene Benachrichtigungsregelpakete und Datenmodellpakete sowie weitere Dienste für das Unternehmen bereitstellen.
+Siehe auch Leitstelle, Öffentliche.
+P23R-Lösung
+Eine P23R-Lösung ist eine mögliche Umsetzung der P23R-Rahmenarchitektur durch einen
+Softwareanbieter oder IT-Dienstleister im Rahmen eines Betreiber- und Geschäftsmodells. Wie
+diese jeweils ausgestaltet ist, darf im Rahmen der Architektur frei entschieden werden und basiert in der Regel auf einem der beiden Lösungskonzepte P23R-inside und P23R-standalone.
+P23R-Lösungsanbieter
+Ein P23R-Lösungsanbieter ist ein Softwareanbieter oder IT-Dienstleister, der eine spezifische
+P23R-Lösung auf Basis der P23R-Rahmenarchitektur einem definierten Kundenkreis im Rahmen eines Betreiber- und Geschäftsmodells anbietet. Der P23R-Provider stellt hierbei eine
+Sonderform des P23R-Lösungsanbieters dar.
+P23R-Mandant
+Der P23R-Mandant, in der Regel eine Organisation oder ein Unternehmen (juristische Person)
+oder eine natürliche Person, ist eine Rolle im organisatorischen und juristischen Verhältnis zwischen dem Nutzer eines P23R und einem P23R-Provider. Der P23R-Mandant nutzt eine vom
+Provider bereitgestellte P23R-Instanz, genauer gesagt eine P23R-Mandanteninstanz eines
+P23R.
+P23R-Mandanteninstanz
+Die P23R-Mandanteninstanz ist ein Nutzer einer P23R-Instanz, der eigene getrennte Ressourcen besitzt, bspw. eigene Datenhaltung und eigene aktivierte Benachrichtigungsregeln. Die
+P23R-Mandanteninstanz fasst alle Aspekte einer P23R-Instanz zusammen, die genau einen
+Mandanten betreffen. Man kann sie so betrachten, als ob die P23R-Instanz einzeln genau nur
+für diesen Mandanten betrieben würde. Das betrifft vor allem die getrennte Datenhaltung und
+die Unabhängigkeit der Verarbeitungsprozesse.
+P23R-Musterimplementierung
+Die P23R-Musterimplementierung ist die im Rahmen des Projekts „Pilotierung und Realisierung eines Prozess-Daten-Beschleunigers (P23R) für den Datenaustausch zwischen Wirtschaft
+und Verwaltung“ entstandene Open-Source-Musterimplementierung einer P23R-standaloneLösung. Diese umfasst eine Umsetzung des P23R (inkl. pilotrelevanter Kommunikationskonnektoren), des P23R-Client, sowie einer Laborleitstelle mit Zuständigkeitsverzeichnis.
+
+33
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+P23R-Prinzip
+Das Prinzip Prozess-Daten-Beschleuniger (P23R-Prinzip) beschreibt Methoden und Architekturkonzepte zur effizienten Gestaltung von Prozessen zwischen Wirtschaft und Verwaltung. Es
+zielt darauf ab, Prozessketten zwischen Wirtschaft und Verwaltung sinnvoll zu bündeln und
+zentral bereitgestellte Regelwerke für die automatisierte Abwicklung von Informations- und
+Meldepflichten zu nutzen.
+P23R-Provider
+Ein P23R-Provider stellt einem P23R-Mandanten die technische Infrastruktur zur Verfügung,
+mit der der Mandant in der Lage ist, die Funktionalität des P23R zu nutzen. Der P23R-Provider
+hat keinen Einblick in die im P23R enthaltenen Daten und Profile.
+Es wird nicht zwischen internen und externen P23R-Providern unterschieden, da beide als
+Dienstleister gemäß IT Infrastructure Library (ITIL) zu betrachten sind.
+P23R-Rahmenarchitektur
+P23R-Rahmenarchitektur ist ein Dokument, das einen konzeptionellen Überblick über die vollständige Infrastruktur des Prozess-Daten-Beschleunigers (P23R) und deren Systemkomponenten, die Schnittstellen und die verwendeten Datenstrukturen in den Teilkomponenten des
+P23R sowie ihr Zusammenspiel liefert. Sie soll den Entwicklern eine klare Vorstellung davon
+geben, welche Funktionalität jede Teilkomponente des P23R bzw. Systemkomponente der
+P23R-Infrastruktur haben sollte und wie ein mögliches Systemdesign aussehen könnte.
+P23R-Sicherheitsarchitektur
+P23R-Sicherheitsarchitektur ist ein Dokument, das einen konzeptionellen Überblick über die
+vollständige Sicherheitsinfrastruktur des Prozess-Daten-Beschleunigers (P23R) und den Systemkomponenten der Sicherheitsarchitektur, die Schnittstellen und die verwendeten Datenstrukturen in den Sicherheits-Teilkomponenten des P23R sowie ihr Zusammenspiel im Kontext
+der P23R-Rahmenarchitektur liefert. Sie soll den Entwicklern eine klare Vorstellung davon geben, welche Funktionalität jede Teilkomponente der P23R-Sicherheitsarchitektur im Kontext
+der P23R-Rahmenarchitektur bzw. der zu implementierenden bzw. zu nutzenden Systemkomponenten der P23R-Infrastruktur haben sollte und wie ein mögliches Systemdesign aussehen
+könnte.
+P23R-standalone
+Unter einer P23R-standalone-Lösung versteht man eine P23R-Lösung, die einen eigenständigen P23R – sprich nicht in eine vorhandene IT-Lösung integrierte P23R-inside-Lösung – realisiert.
+P23R-TrustedProxy
+Standardmäßig kommunizieren der P23R und das Fachverfahren direkt über ein eigenes Protokoll. Der P23R-TrustedProxy als optionale Komponente der P23R-Infrastruktur bietet eine
+besonders sichere und vertrauenswürdige Kommunikation. Er wird direkt in der internen Infrastruktur bereitgestellt und erlaubt eine vereinfachte Kommunikation im Intranet mit dem
+P23R.
+
+34
+
+P23R
+Glossar
+Der P23R-TrustedProxy ist der Stellvertreter des P23R in der eigenen Infrastruktur und realisiert alle Sicherheitsfunktionen zwischen P23R und Proxy. Ein P23R-TrustedProxy kann durch
+ein spezielles Deployment eines P23R realisiert werden.
+P23R-Unterstützungsstellen
+P23R-Unterstützungsstellen ist ein Begriff für die Gesamtheit föderativ verteilter Organisationseinheiten. Diese führen Koordinationsaufgaben durch, die einerseits den Betrieb der
+P23R-Infrastruktur operativ und andererseits die Erstellung der benötigten Benachrichtigungsregeln unterstützen sowie ggf. deren Konzepte weiterentwickeln. Möglich sind eine Öffentliche Leitstelle, eine Fachübergreifende Koordinierungsstelle sowie eine dem Bedarf anpassbare
+Anzahl von Fachlichen Beratungsstellen.
+P23R-Zuständigkeitsverzeichnis
+Ein P23R-Zuständigkeitsverzeichnis ist erforderlich, um eine Benachrichtigungsregel im P23R
+eines Unternehmens zu konkretisieren. Mit seiner Hilfe wird anhand der aktuellen Unternehmenscharakteristik und entsprechend den Vorgaben in der Benachrichtigungsregel ein zuständiger Benachrichtigungsempfänger zugeordnet. Weitere Informationen sind Angaben zur
+Kommunikation mit dem Benachrichtigungsempfänger und zur erforderlichen Darstellung der
+Benachrichtigung.
+Die Öffentliche Leitstelle ist für die technische Verfügbarkeit der Informationen verantwortlich.
+Der Betreiber des P23R-Zuständigkeitsverzeichnisses ist nicht notwendigerweise auch der Betreiber der erforderlichen Original-Verzeichnisse. Die erforderlichen Zuständigkeitsinformationen können aus einem zentralen oder aus einem verteilten, föderativen System stammen oder
+speziell für die Benachrichtigungsregel erstellt werden. Die für die Funktion des P23R erforderlichen Informationen müssen jedoch über das P23R-Zuständigkeitsverzeichnis in einem einheitlichen Format bereitgestellt werden.
+Die Anbindung von externen Verzeichnissen an das P23R-Zuständigkeitsverzeichnis ist eine der
+Unterstützungsaufgaben.
+Pivot-Datenmodell
+Das Pivot-Datenmodell vermittelt die Semantik zwischen den verschiedenen Semantiken der
+Quelldatenmodelle (Unternehmensdatenmodelle) zu den verschiedenen Semantiken der Benachrichtigungstypen im P23R (Mapping). Es dient gleichzeitig der Definition des internen Datenmodells. Es ist nicht notwendigerweise ein kanonisches oder normalisiertes Datenmodell.
+Siehe auch Datenmodell.
+Policy
+Eine Policy ist ein Regelwerk, aus dem sich Entscheidungen herleiten lassen. Im Rahmen der
+P23R-Sicherheitsarchitektur werden Policies zur Kodierung von Berechtigungen (Berechtigungspolicies) und zur Steuerung des Dienstzugangs (Sicherheitspolicies) verwendet.
+Policy Decision Point (PDP)
+Ein Policy Decision Point kapselt die Funktionalität zur Prüfung einer Zugriffsanfrage gegen Berechtigungspolicies.
+
+35
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+Policy Enforcement Point (PEP)
+Ein Policy Enforcement Point setzt das Designmuster eines Reference Monitors um, der Kontrollflüsse vor dem Zugriff auf geschützte Ressourcen unterbricht, um von einem Policy
+Decision Point eine Berechtigungsentscheidung abzufragen.
+Pool
+Ein Pool ist die allgemeine Bezeichnung für Daten- und Informationssammlungen. Ob die Daten dabei in einer Datenbank, in XML-Dateien oder anders abgelegt werden, spielt keine Rolle.
+Prozess
+Ein Prozess ist eine logische, zielgerichtete Folge von Funktionen, die zur Schaffung eines Produktes oder einer Dienstleistung dienen und in einem direkten Zusammenhang stehen. Prozesse transformieren Inputfaktoren zu einem Outputfaktor.
+Prozess-Daten-Beschleuniger
+Der Prozess-Daten-Beschleuniger (P23R) ist die zentrale Komponente der P23R-Infrastruktur.
+Der P23R generiert auf Anforderung automatisch eine Benachrichtigung gemäß den vorliegenden Benachrichtigungsregeln. Er verwendet dazu die vorab vom Unternehmen bereitgestellten
+Daten. Bevor eine Benachrichtigung an den Benachrichtigungsempfänger versendet wird, muss
+diese durch das Unternehmen freigegeben werden. Der P23R stellt nur Webservices im Sinne
+einer SOA bereit.
+Prozesskette
+Eine Prozesskette kann als eine logische Verknüpfung von Prozessen gesehen werden. Prozessketten stellen damit eine Kette zusammenhängender Prozesse dar, die zur Erstellung einer
+Dienstleistung oder eines Produkts (Wertschöpfungsorientierung) sowie zu einem gemeinsamen (Geschäfts-)Prozessziel führen sollen.
+PRK-Typ I Wertschöpfungsorientierte Prozessketten: Diese Prozessketten beschreiben Wertschöpfungsprozesse, bei denen ein Unternehmen mit mehreren anderen Unternehmen und
+Verwaltungen interagieren muss. Sie zeichnen sich in der Regel durch eine hohe Anzahl an
+Prozessteilnehmern sowie durch eine komplexe Ablauflogik aus.
+PRK-Typ II Datenorientierte Prozessketten: Diese Prozessketten beschreiben Prozesse, deren
+zentrales Element die daten- und ereignisgetriebene Übermittlung von Daten von den Unternehmen an die Verwaltung ist. Die in einer Prozesskette zwischen den Teilnehmern ausgetauschten Daten und Dokumente fließen oftmals auch in weitere Prozesse, so dass es zu Datenredundanzen kommt. Prozessketten vom Typ II zeichnen sich in der Regel durch eine geringe Anzahl an Prozessteilnehmern und durch eine einfache Ablauflogik aus. Die auszutauschenden Daten und Dokumente müssen im Prozess aufbereitet und an spezifische Formate angepasst werden. Sie weisen i. Allg. einen hohen Grad an Komplexität und Vertraulichkeit auf.
+Prozesskettenbündel
+Prozesskettenbündel bezeichnen die systematische Verbindung von mehreren Prozessketten
+zwischen Wirtschaft und Verwaltung mit dem Ziel, Effizienz, Effektivität sowie die Qualität von
+Informationen für alle Beteiligten zu verbessern. Es gibt unterschiedliche Kriterien, nach denen
+Prozesskettenbündel gebildet werden können.
+36
+
+P23R
+Glossar
+In Abhängigkeit der angewendeten Kriterien unterscheidet man in Prozesskettenbündelung
+vom Typ I und Prozesskettenbündelung vom Typ II. Das Architekturkonzept des Prozess-DatenBeschleunigers beschreibt technische Komponenten, die zur effizienten IT-Unterstützung von
+Prozesskettenbündeln eingesetzt werden können.
+Prozesskettenbündelung Typ I
+Bei der Prozesskettenbündelung vom Typ I werden Prozessketten zwischen Wirtschaft und
+Verwaltung mit einander verbunden, die entlang einer Wertschöpfungskette im Unternehmen
+auftreten. Solche Prozesskettenbündel sind durch eine hohe Anzahl von Akteuren und hohe
+Frequenz gekennzeichnet, da sie jedes Mal im Zusammenhang mit der Wertschöpfungskette
+im Unternehmen auftreten. Ziel der Bündelung ist eine möglichst reibungslose, medienbruchfreie Abwicklung der Wertschöpfungskette im Unternehmen sowie die effiziente Erfüllung gesetzlicher Informationspflichten. Ein Beispiel für eine derartige Prozesskettenbündelung vom
+Typ I ist die Vergabe von privaten Immobilienkrediten (vgl. [16]). Analysekriterien für die Identifikation von Prozessketten, die nach Typ I gebündelt werden können sind: Zugehörigkeit zu
+einem Wertschöpfungs- bzw. zu einem Prozess-Cluster Die Prozesskette wird ausgelöst durch
+den Wertschöpfungsprozess im Unternehmen, wie z. B. Meldung, Antrag, Registerauskunft.
+Prozesskettenbündelung Typ II
+Bei der Prozesskettenbündelung vom Typ II werden Prozessketten zwischen Wirtschaft und
+Verwaltung mit einander verbunden, die durch eine inhaltliche Überschneidung gekennzeichnet sind. Prozessketten, die gleiche oder ähnliche Inhalte zum Gegenstand haben werden mit
+einander so verbunden, dass sie nur noch eine gemeinsame Informationsbasis nutzen. Berichts- oder Meldedaten müssen auf diese Weise nicht mehr redundant ermittelt, gepflegt und
+archiviert werden. Ziel ist es, Berichts- und Meldepflichten an unterschiedliche Adressaten auf
+Verwaltungsseite möglichst effizient und mit hoher Informationsqualität abwickeln zu können.
+Analysekriterien für die Identifikation von Prozessketten, die nach Typ II gebündelt werden
+können, sind: Übereinstimmung von Inhalt, Unternehmenstyp des Informationspflichtigen und
+Richtung des Informationsflusses (von Wirtschaft zu Verwaltung).
+PRTR
+Das PRTR (Pollutant Release and Transfer Register) ist ein Register für Schadstoffemissionen in
+der Luft, in den Böden, in Gewässern, in externen Kläranlagen sowie für entsorgte, gefährliche
+und nicht-gefährliche Abfälle. Das Register ist öffentlich im Internet zugänglich und informiert
+über insgesamt 91 Schadstoffe, die von großen Industriebetrieben freigesetzt werden. Das
+PRTR verfolgt das Ziel, die Öffentlichkeit für Umweltfragen zu sensibilisieren und an der Entscheidungsfindung im Umweltbereich zu beteiligen. Darüber hinaus soll die Umweltleistung
+von Unternehmen verbessert werden.
+Quelle: [17]
+Quellsystem (Source Application)
+Mit Quellsystem wird das Softwaresystem beim Benachrichtigungssender bezeichnet, das die
+Daten für die Generierung der Benachrichtigungen in einem P23R bereitstellt.
+Das kann bspw. das IT-Fachsystem eines Unternehmens sein.
+
+37
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+Reference Monitor
+Ein Reference Monitor ist ein Designmuster für die Kontrolle und Durchsetzung von Zugriffsberechtigungen. Ein Reference Monitor kapselt eine zu schützende Ressource vollständig
+(complete mediation) und stellt sicher, dass jeder Zugriffsversuch auf diese Ressource mit definierten Zugriffsregeln abgeglichen wird. In der P23R-Sicherheitsarchitektur wird ein Reference Monitor durch das Access Control Subsystem realisiert. Die Anbindung an die Anwendungsarchitektur erfolgt über Policy Enforcement Points (PEPs), die aus den Abläufen der
+Anwendung heraus den Übergang zum Access Control Subsystem der Sicherheitsarchitektur
+bilden.
+Schutzbedarf
+Der Schutzbedarf beschreibt, welcher Schutz für die Geschäftsprozesse, die dabei verarbeiteten Informationen und die eingesetzte Informationstechnik ausreichend und angemessen ist.
+Quelle: [12]
+Schutzbedarfsfeststellung
+Bei der Schutzbedarfsfeststellung wird der Schutzbedarf der Geschäftsprozesse, der verarbeiteten Informationen und der IT-Komponenten bestimmt. Hierzu werden für jede Anwendung
+und die verarbeiteten Informationen die zu erwartenden Schäden betrachtet, die bei einer Beeinträchtigung der Grundwerte der Informationssicherheit – Vertraulichkeit, Integrität oder
+Verfügbarkeit – entstehen können. Wichtig ist es dabei auch, die möglichen Folgeschäden realistisch einzuschätzen. Bewährt hat sich eine Einteilung in die drei Schutzbedarfskategorien
+„normal“, „hoch“ und „sehr hoch“.
+Quelle: [12]
+Serviceorientierte Architektur
+Serviceorientierte Architekturen (SOA) beschreiben fachliche Architekturkonzepte zur Vernetzung und Verwendung verteilter Dienste bzw. Services (meist Webservices). Dabei werden die
+Anwendungsbausteine (Services) lose miteinander gekoppelt und je nach Bedarf zu umfassenden Diensten und Dienstleistungen verbunden (Service-Orchestrierung).
+E-Government-Architekturen basieren zunehmend auf SOA-Konzepten.
+Sicherheitsdienst
+Ein Sicherheitsdienst trägt innerhalb einer Sicherheitsarchitektur zur Umsetzung von einem
+oder mehreren Sicherheitszielen (Vertraulichkeit, Integrität, Verfügbarkeit) bei. Beispiele für
+Sicherheitsdienste sind Nutzerauthentifizierung und Zugriffskontrolle.
+Sicherheitskonzept
+Ein Sicherheitskonzept dient zur Umsetzung der Sicherheitsstrategie und beschreibt die geplante Vorgehensweise, um die gesetzten Sicherheitsziele einer Institution zu erreichen. Das
+Sicherheitskonzept ist das zentrale Dokument im Sicherheitsprozess eines Unternehmens
+bzw. einer Behörde. Jede konkrete Sicherheitsmaßnahme muss sich letztlich darauf zurückführen lassen.
+Quelle: [12]
+38
+
+P23R
+Glossar
+Sicherheitsmaßnahme
+Mit Sicherheitsmaßnahme (kurz Maßnahme) werden alle Aktionen bezeichnet, die dazu
+dienen, um Sicherheitsrisiken zu steuern und um diesen entgegenzuwirken. Dies schließt sowohl organisatorische, als auch personelle, technische oder infrastrukturelle Sicherheitsmaßnahmen ein. Synonym werden auch die Begriffe Sicherheitsvorkehrung oder Schutzmaßnahme
+benutzt. Als englische Übersetzung wurde „safeguard“, „security measure“ oder „measure“
+gewählt. Im englischen Sprachraum wird neben „safeguard“ außerdem häufig der Begriff
+„control“ verwendet.
+Quelle: [12]
+Sicherheitsobjekt
+Sicherheitsobjekte sind in Bezug auf ihre Integrität, Authentizität und ggf. auch Vertraulichkeit
+besonders abgesicherte Objekte, die als Ankerpunkte für darauf aufsetzende Sicherheitsmechanismen dienen. Beispiele für Sicherheitsobjekte sind kryptografische Schlüssel und
+Identifikatoren.
+SourceConnector (Quelldatenkonnektor)
+Der SourceConnector ist eine externe Systemkomponente, die nicht zum P23R gehört, und typischerweise vom Hersteller der SourceApplication oder dem P23R-Betreiber bereitgestellt
+wird. Der SourceConnector muss die normative Schnittstelle ISourceDataRead für den P23R
+bereitstellen, damit dieser auf die Daten der SourceApplication zugreifen kann. Ob der
+SourceConnector eine separate Systemkomponente oder eine in die SourceApplication integrierte Schnittstelle ist, ist der Implementierung selbst überlassen, solange die Schnittstelle
+realisiert wird.
+Stakeholder
+Als Stakeholder wird eine natürliche Person (der Mensch in seiner Rolle als Rechtssubjekt)
+oder eine juristische Person (z. B. eine Institution) bezeichnet, die ein Interesse am Verlauf
+oder Ergebnis des P23R-Projekts hat.
+Quelle: [18]
+Unternehmenscharakteristik
+Die Unternehmenscharakteristik ist die Menge aller relevanten Eigenschaften eines Unternehmens, die zur Bestimmung der durch den P23R zu empfehlenden Benachrichtigungsregelgruppen und -regeln erforderlich sind.
+Unterstützungsaufgaben
+Hier handelt es sich um die Gesamtheit an Aufgaben, die die erfolgreiche Umsetzung des
+P23R-Prinzips unterstützen. Dies sind bspw. die Fachübergreifende Koordinierungsaufgaben,
+die technische Bereitstellung der Benachrichtigungsregel- und Datenmodellpakete sowie
+Beratungsaufgaben bei der Erstellung von Benachrichtigungsregeln.
+Siehe Fachübergreifende Koordinierungsaufgaben.
+
+39
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+Verfügbarkeit
+Die Verfügbarkeit von Dienstleistungen, Funktionen eines IT-Systems, IT-Anwendungen oder
+IT-Netzen oder auch von Informationen ist vorhanden, wenn diese von den Anwendern stets
+wie vorgesehen genutzt werden können.
+Quelle: [12]
+Version
+Der Begriff Version wird verwendet, um verschiedene zeitliche Zustände der gleichen Daten zu
+beschreiben. Jede Änderung von Daten erzeugt eine neue Version (eine neue Instanz) dieser
+Daten. Beim P23R müssen ältere Versionen archiviert werden, d. h. sie dürfen nicht verloren
+gehen oder gelöscht werden. Änderungen, z. B. die Beseitigung eines Schreibfehlers in einem
+Attribut, Datenergänzungen etc., werden vom Unternehmen angestoßen und vom Datenpool
+erzeugt.
+Vertraulichkeit
+Vertraulichkeit ist der Schutz vor unbefugter Preisgabe von Informationen. Vertrauliche Daten
+und Informationen dürfen ausschließlich Befugten in der zulässigen Weise zugänglich sein.
+Quelle: [12]
+Vorschriftengeber
+Vorschriftengeber ist in der Regel der Gesetzgeber. In einigen Fällen ist die Situation
+komplexer. Dies gilt dann, wenn der Gesetzgeber nur einen Rechtsrahmen schafft, der von einer anderen Körperschaft auszugestalten ist (z. B. Rechtsrahmen für die Berufsgenossenschaften oder die Ausgestaltung von Durchführungsverordnungen). In solchen Fällen müssen alle
+beteiligten Stellen an den Aufgaben des Vorschriftengebers mitwirken. Nur indirekt betroffen
+sind die Empfänger auf Vollzugsebene.
+Webservice
+Ein Webservice ist eine interoperable Softwareschnittstelle, die über XML beschrieben ist und
+die über in XML kodierte Nachrichten angesprochen wird.
+Wert
+Werte sind alles, was wichtig für eine Institution ist (Vermögen, Wissen, Gegenstände,
+Gesundheit).
+Quelle: [12]
+Zertifizierung
+Als Zertifizierung wird die Zertifizierung nach ISO 27001 auf der Basis von IT-Grundschutz
+bezeichnet.
+Zielgruppe
+Als Zielgruppen wird eine bestimmte Menge von Stakeholdern bezeichnet, die auf kommunikationspolitische Maßnahmen homogener reagieren als die Gesamtmenge aller Stakeholder.
+Quelle: [14]
+
+40
+
+P23R
+Glossar
+Zielsystem (Target Application)
+Mit Zielsystem wird das Softwaresystem bezeichnet, das Benachrichtigungen von einem P23R
+empfängt. Das kann bspw. ein IT-Fachverfahren in der Verwaltung sein.
+Zugang
+Mit Zugang wird die Nutzung von IT-Systemen, System-Komponenten und Netzen bezeichnet. Zugangsberechtigungen erlauben somit einer Person, bestimmte Ressourcen, wie
+IT-Systeme bzw. System-Komponenten und Netze, zu nutzen.
+Quelle: [12]
+
+41
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+
+42
+
+P23R
+Abkürzungsverzeichnis
+
+8 ABKÜRZUNGSVERZEICHNIS
+AGM
+BImSchV
+BMI
+BR
+BRG
+BRP
+BUBE
+CEDAR
+F-BRS
+HTTP
+ID
+IT
+MP
+P23R
+PRTR
+REQ
+SE
+SOA
+T-BRS
+UC
+UML
+UWM
+XML
+
+Arbeitgebermeldungepflichten
+Bundes-Immissionsschutzverordnung
+Bundesministerium des Innern
+Benachrichtigungsregel
+Benachrichtigungsregelgruppe
+Benachrichtigungsregelpaket
+Betriebliche Umweltdatenberichterstattung
+Central Emissions Declaration and Reporting System
+Fachliche Benachrichtigungsregelsprache
+Hypertext Transfer Protocol
+Identifikator
+Informations- und Telekommunikationstechnologie
+Model Package
+Prozess-Daten-Beschleuniger
+Pollutant Release and Transfer Register
+Requirement (Anforderung)
+Societas Europaea, dt.: Europäische Gesellschaft
+Serviceorientierte Architektur
+Technische Benachrichtigungsregelsprache
+Use Case (Anwendungsfall)
+Unified Modeling Language
+Umweltmeldepflichten
+Extensible Markup Language
+
+43
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+
+44
+
+P23R
+Referenzen
+
+9 REFERENZEN
+Alle in diesem Kapitel aufgeführten Ergebnisdokumente des P23R-Projekts werden unter
+www.p23r.de bereitgestellt werden.
+
+[1]
+
+J. Gottschick et al. (2012), P23R: Rahmenarchitektur. (Ergebnisdokument des P23R-Projekts)
+
+[2]
+
+C. Akkaya et al. (2012), P23R: Analyse von Berichts- und Meldepflichten in der Domäne
+Umwelt/Emissionen. (Ergebnisdokument des P23R-Projekts)
+
+[3]
+
+D. Bermek et al. (2013), P23R: Fachliche Spezifikation für die Pilotierung in der Domäne
+Umwelt/Emissionen. (Ergebnisdokument des P23R-Projekts)
+
+[4]
+
+S. Dutkowski, E. Klochkova und A. Söllner (2013), P23R: Lastenheft zu Szenarien und Datenmodellen. (Ergebnisdokument des P23R-Projekts)
+
+[5]
+
+Elfte Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes (Verordnung über
+Emissionserklärungen) (11. BImSchV). Verfügbar unter:
+http://www.gesetze-im-internet.de/bimschv_11_2004/ (zuletzt abgerufen am 01.10.2011).
+
+[6]
+
+Dreizehnte Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes (Verordnung
+über Großfeuerungs- und Gasturbinenanlagen) (13. BImSchV). Verfügbar unter:
+http://www.gesetze-im-internet.de/bimschv_13_2004/ (zuletzt abgerufen am 01.10.2011).
+
+[7]
+
+Siebzehnte Verordnung zur Durchführung des Bundes-Immissionsschutzgesetzes (Verordnung
+über die Verbrennung und die Mitverbrennung von Abfällen) (17. BImSchV).
+Verfügbar unter: http://www.gesetze-im-internet.de/bimschv_17/
+(zuletzt abgerufen am 01.10.2011).
+
+[8]
+
+Europäisches Parlament und Rat (2006), Verordnung Nr. 166/2006 über die Schaffung eines
+Europäischen Schadstofffreisetzungs- und -verbringungsregisters und zur Änderung der Richtlinien 91/689/EWG und 96/61/EG des Rates. Verfügbar unter:
+http://www.prtr.bund.de/typo3/fileadmin/sites/default/files/E-PRTR-VO_dt.pdf
+(zuletzt abgerufen am 01.10.2011).
+
+[9]
+
+BUBE Referenztabellen. Verfügbar unter:
+http://www.prtr.bund.de/w/images/4/4b/Bube-online-xml-1-referenztabellen_100511.zip
+(zuletzt abgerufen am 15.09.2011).
+
+[10]
+
+Bundesamt für Sicherheit in der Informationstechnik (BSI) (2006), Das E-Government-Glossar.
+Verfügbar unter:
+https://www.bsi.bund.de/cae/servlet/contentblob/476872/publicationFile/31173/6_EGloss_
+pdf.pdf ( zuletzt abgerufen am 29.10.2012).
+
+[11]
+
+P. Kramer und M. Meints, „Datenschutz“, in: Handbuch Multimedia-Recht, T. Hoeren und U.
+Sieber (Hrsg.), 23. Auflage. München: Beck, 19. Einzellieferung vom 19. März 2008., Teil 16.5,
+Rn. 3 ff.
+
+45
+
+P23R
+P23R: Lastenheft für die Pilotierung in der Domäne Umwelt/Emissionen
+
+46
+
+[12]
+
+Bundesamt für Sicherheit in der Informationstechnik (BSI), IT-Grundschutz-Glossar.
+Verfügbar unter:
+https://www.bsi.bund.de/DE/Themen/weitereThemen/ITGrundschutzKataloge/Inhalt/Glossa
+r/glossar_node.html (zuletzt abgerufen am 31.10.2012).
+
+[13]
+
+M. Bruhn (2007), Kommunikationspolitik, 4. überarbeitete Auflage, Verlag Franz Vahlen
+GmbH, München.
+
+[14]
+
+Gabler Verlag (Hrsg.), Gabler Wirtschaftslexikon. Verfügbar unter:
+http://wirtschaftslexikon.gabler.de/ (zuletzt abgerufen am 07.11.2012).
+
+[15]
+
+Bundesamt für Sicherheit in der Informationstechnik (BSI), BSI Standard 100-4: Notfallmanagement. Verfügbar unter:
+https://www.bsi.bund.de/cae/servlet/contentblob/471456/publicationFile/30746/standard_
+1004.pdf (zuletzt abgerufen am 29.10.2012).
+
+[16]
+
+N. Fröschle et al. (2009), Machbarkeitsstudie Entwicklung von Prozessketten zwischen Wirtschaft und Verwaltung: Finanzdienstleistungen . Verfügbar unter:
+http://www.p23r.de/publikationen/ (zuletzt abgerufen am 17.11.2011).
+
+[17]
+
+Umweltbundesamt (2010), Leitfaden für die Durchführung der PRTR-Berichtspflicht.
+Verfügbar unter:
+http://www.umweltbundesamt.at/fileadmin/site/publikationen/REP0164.pdf (zuletzt abgerufen am 29.11.2012).
+
+[18]
+
+R. Olbrich (2009), Marketing – Eine Einführung in die marktorientierte Unternehmensführung,
+2. Auflage, Springer-Verlag GmbH, Heidelberg.
+
+P23R
+Referenzen
+
+47
+
+Herausgeber
+Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS
+Kaiserin-Augusta-Allee 31
+10589 Berlin
+Kontakt
+info@p23r.de
+www.p23r.de
+Redaktion
+Johannes Einhaus, Fraunhofer FOKUS
+Dominique Leikauf, :::tsm total-sourcing-management
+Petra Steffens, Fraunhofer FOKUS
+Layout und Satz
+Marie Luise Birkholz, Fraunhofer FOKUS
+Simone Geppert, Fraunhofer FOKUS
+Nachdruck und Weitergabe sind nur unter der Bedingung gestattet,
+dass das Dokument unverändert bleibt.
+
+Copyright © Bundesministerium des Innern
+
+www.p23r.de
+
+

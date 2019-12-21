@@ -1,0 +1,2 @@
+Die Software muss in der Lage sein, eine Datei im mit der auszahlenden Bank abgestimmten Format zu erzeugen und elektronisch an die auszahlende Bank sowie gegebenenfalls weitere befugte und benötigte Empfänger zu übertragen. Die Liste muss daher
+in einem speicherbaren und druckbaren Format ausgegeben werden.

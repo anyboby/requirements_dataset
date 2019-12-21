@@ -1,0 +1,3 @@
+Bei Verwendung von Schaltnetzteilen sind zu dessen Absicherung geeignete und vom
+Gerätehersteller freigegebene Leitungsschutzschalter zu verwenden. Der Einsatz von
+Leistungsschaltern (Motorschutzschalter) ist hier nach Möglichkeit zu vermeiden.

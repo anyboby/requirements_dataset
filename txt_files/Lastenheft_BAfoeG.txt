@@ -1,0 +1,2404 @@
+Niedersächsisches Ministerium
+für Wissenschaft und Kultur
+
+_________________________________________________________________________________
+
+Lastenheft für ein
+BAföG-Verfahren
+
+Stand: 06.12.2017
+Uhrzeit: 12:00
+
+Inhaltsverzeichnis
+
+Inhaltsverzeichnis ........................................................................................................................... II
+1
+
+Ausgangssituation und Zielsetzung ................................................................................... 4
+
+2
+
+Rahmenbedingungen ........................................................................................................... 5
+
+3
+
+Beschreibung der Geschäftsprozesse ............................................................................... 7
+3.1
+
+Erstantrag BAföG ....................................................................................................... 7
+
+3.2 Folgeantrag BAföG ........................................................................................................... 8
+3.3 Änderungsprozess BAföG ................................................................................................ 8
+Gesetzesänderung.................................................................................................................. 9
+4
+
+5
+
+Funktionale Anforderungen ............................................................................................... 11
+4.1
+
+Umsetzung der gesetzlichen Grundlagen ................................................................ 11
+
+4.2
+
+Vorgangsbearbeitung ............................................................................................... 11
+4.2.1
+
+Antragseingang und Anspruchsprüfung dem Grunde nach ..................... 11
+
+4.2.2
+
+Übernahme der Antragsdaten .................................................................. 14
+
+4.2.3
+
+Verarbeitung der Antragsdaten ................................................................ 18
+
+4.2.4
+
+Bescheid erstellen .................................................................................... 20
+
+4.2.5
+
+Übergreifende Anforderungen .................................................................. 21
+
+4.3
+
+Abwicklung Zahlungsverkehr ................................................................................... 25
+
+4.5
+
+Onlineantrag............................................................................................................. 28
+
+4.6
+
+Schnittstellen ............................................................................................................ 28
+4.6.1
+
+Auszahlungen ........................................................................................... 29
+
+4.6.2
+
+Kassenverfahren der Landeshauptkasse ................................................. 29
+
+4.6.3
+
+Darlehensansprüche ................................................................................ 29
+
+4.6.4
+
+Jahresstatistik ........................................................................................... 29
+
+4.6.5
+
+Jahresabschluss Darlehensmeldungen ................................................... 30
+
+4.6.6
+
+Datenabgleich der Vermögenswerte ........................................................ 30
+
+4.6.7
+
+Umsetzung des ZfA-Meldeverfahrens ...................................................... 31
+
+4.6.8
+
+Elektronischer Aktentausch ...................................................................... 31
+
+Technische Anforderungen an die Software ................................................................... 32
+
+Seite II
+
+6
+
+5.1
+
+Architektur ................................................................................................................ 32
+
+5.2
+
+Sicherheitsanforderungen ........................................................................................ 35
+
+5.3
+
+Benutzerfreundlichkeit ............................................................................................. 37
+
+Anforderungen an den Betrieb .......................................................................................... 41
+6.1
+
+Datenschutz und Datensicherheit ............................................................................ 41
+
+6.2
+
+Regulärer Betrieb ..................................................................................................... 42
+
+7
+
+Anforderungen an das Einführungsprojekt ..................................................................... 45
+
+8
+
+Lieferung und Abnahme .................................................................................................... 47
+
+Anhang: Liste der Anforderungen des Lastenheftes ................................................................ 51
+
+Seite III
+
+1 Ausgangssituation und Zielsetzung
+Das Niedersächsische Ministerium für Wissenschaft und Kultur (MWK) möchte das bestehende Verfahren zur Umsetzung des Bundesausbildungsförderungsgesetzes (BAföG)
+ablösen. Einhergehend mit der Beschaffung eines neuen Verfahrens ist die Absicht,
+sämtliche mit der datentechnischen Abwicklung des BAföG erforderlichen Geschäftsprozesse aus einer Hand, also von einem Dienstleister abzufordern.
+Mit Hilfe des Verfahrens werden alle notwendigen Prozesse zur Antragstellung, Berechnung, Bescheiderstellung, Zahlung und Rückforderung im Rahmen der Förderung von
+Schülern und Studierenden (BAföG) von den 46 kommunalen Ämtern für Ausbildungsförderung mit rund 200 Mitarbeiterinnen/Mitarbeitern und den fünf Niedersächsischen Studentenwerken mit rund 165 Mitarbeiterinnen/Mitarbeitern abgewickelt.
+Es steht eine Produktionsumgebung für den laufenden Echtbetrieb sowie eine Referenzumgebung für die Testung zur Verfügung. Die Verfahrensserver und ein Terminalserver
+stehen im Landesnetz und werden im Landesrechenzentrum IT.Niedersachsen (IT.N)
+gehostet.
+Es gibt zwei verschiedene Arten der Nutzung: Die Studentenwerke greifen über einen
+Terminalserverclient auf den Terminalserver und von dort auf das Verfahren zu. Die
+Kommunen nutzen die Anbindung der Kommunen an das Landesnetz und greifen direkt
+auf den BAföG Server zu per http-Protokoll. Einige Kommunen, aber nicht alle verwenden dazu einen http-Proxy zur Netzkopplung. Alle Kommunen sind an das Landesnetz,
+die Studentenwerke sind über das IT.N (Kommunenfirewall) an das Landesnetz angebunden.
+Die in den Studentenwerken stehen Citrix-Clients werden von IT.N betreut.
+Das vorliegende Lastenheft BAföG hat zum Ziel, die fachlichen und technischen Anforderungen sowohl an eine Softwarelösung zur Unterstützung der BAföG- Prozesse in den
+Studentenwerken und kommunalen Ämtern für Ausbildungsförderung als auch an den Anbieter sowie den Betreiber der Software zu formulieren. Dabei soll das Lastenheft insbesondere als Referenz zur Erstellung möglicher Angebote für Anbieter dienen, die die Software betreiben und diese in eigenen Einrichtungen vollumfänglich, inkl. der für die Studentenwerke erforderlichen Exchange-Server-Anbindung betreiben.
+Dazu beschreibt das Dokument ausgehend von den fachlichen Geschäftsprozessen zunächst die funktionalen Anforderungen, die an eine BAföG-Software gestellt werden. Anschließend werden die technischen Anforderungen an die Software einschließlich Sicherheit, Benutzerfreundlichkeit und Architektur sowie die Anforderungen an den Betrieb,
+die Einführung und die Abnahmebedingungen formuliert.
+Lastenheft
+
+Seite 4
+
+2 Rahmenbedingungen
+Das Einführungsprojekt muss in enger Zusammenarbeit von Auftraggeber, Softwareanbieter, Betreiber und den betroffenen Studentenwerken sowie kommunalen Ämtern für
+Ausbildungsförderung durchgeführt werden.
+Die im vorliegenden Lastenheft formulierten Lasten sind mit dem vorangestellten Kürzel
+„LH“ (für Lastenheft) einzeln durchnummeriert (LH 1, LH 2 etc.). Potenzielle Softwareanbieter beziehungsweise Betreiber einer zu beschaffenden BAföG-Software sollen im
+Rahmen des Vergabeverfahrens basierend auf den Lasten ein Pflichtenheft formulieren,
+in dem beschrieben wird, wie die jeweiligen Anforderungen erfüllt werden.
+Soweit Unterschiede in den Anforderungen dieses Lastenheftes nicht gesondert beschrieben sind, gelten die Lasten gleichermaßen für die BAföG-Funktionalität einer Software.
+Die Anforderungen entsprechen dem Stand November 2017. Änderungen in den relevanten Gesetzen und den darüber hinaus zu beachtenden technischen Rahmenbedingungen, die nach dem Zeitpunkt der Erstellung des Lastenheftes eintreten, müssen daher auch ohne explizite Ausführung in diesem Dokument durch eine BAföG-Software abgebildet werden.
+Die Vergabe wird auf der Grundlage nachvollziehbarer Zuschlagskriterien erfolgen. Dabei ist der Preis nicht das einzige Zuschlagskriterium, da die Erfüllung der gesetzlichen
+und fachlichen Vorgaben höher zu gewichten ist als der Preis. Auch die Qualität der BAföG-Software wird dabei berücksichtigt. Vorgenommen wird daher auch aus landeshaushaltsrechtlicher Sicht eine gesamtbetriebswirtschaftliche Betrachtung. So können die
+Sachbearbeitung unterstützende/entlastende Prozesse durch die Software Synergien in
+Form von Einsparpotential bei den Personalkosten in den Folgejahren freisetzen.
+In der beigefügten Bewertungsmatrix sind zwei Gewichtungsstufen sowie die zum Ausschluss des Angebotes führenden gekennzeichneten LH-Positionen (KO-Kriterium) vorgegeben.
+Über die Gewichtungsstufe 1 erfolgt eine prozentuale Gewichtung von Anforderungen
+(von Obergruppen) und über die Gewichtungsstufe 2 erfolgt eine verfeinerte Gewichtung
+jeder einzelnen LH-Position über Untergruppen-Bewertungspunkte (Punkte 1 - 5):
+
+Lastenheft
+
+Seite 5
+
+0 Punkte:
+
+nicht erfüllt
+
+kein Komfort
+
+1 Punkt:
+
+ansatzweise erfüllt
+
+wenig komfortabel
+
+2 Punkte:
+
+teilweise erfüllt
+
+Erleichterung
+
+3 Punkte:
+
+größerenteils erfüllt
+
+komfortabel
+
+4 Punkte:
+
+im Wesentlichen erfüllt
+
+sehr komfortabel
+
+5 Punkte:
+
+voll erfüllt
+
+sehr komfortabel und Synergieeffekt
+
+Die vorgenannten Punktzahlen werden für einzelne Anforderungen über Multiplikatoren
+1, 2 oder 3 erhöht, um diese innerhalb derer Obergruppe oder gegenüber einer anderen
+Obergruppe höher gewichten zu können. Die höchstmögliche Bewertung wäre damit 15
+Punkte (5 Punkte multipliziert mit 3).
+Der prozentuale Anteil der Gewichtungspunkte an der möglichen Gesamtpunktzahl aus
+den einer Obergruppe zugehörigen Untergruppen wird dann in Relation auf die prozentuale Gewichtung der Obergruppe gesetzt.
+Am Ende der Matrix errechnet sich daraus ein prozentuales Ergebnis. Dieses Ergebnis
+ist dann auf die prozentuale Gewichtung der Software-Anforderungen an den Gesamtanforderungen ins Verhältnis zu setzen.
+Die Nichterfüllung einer als Ausschlusskriterium gekennzeichneten Anforderung führt
+zum Ausschluss des Angebotes (KO-Kriterium). Unter Nichterfüllung einer als Ausschlusskriterium gekennzeichneten Anforderung ist auch die fehlende Unterschrift des
+Angebotsanschreibens sowie Ergänzungen oder Änderungen an diesem Dokument zu
+verstehen und führt demnach zum Ausschluss des Angebotes.
+
+Lastenheft
+
+Seite 6
+
+3 Beschreibung der Geschäftsprozesse
+Die Ausbildungsförderung ist eine Sozialleistung im Sinne des Sozialgesetzbuches
+(§§ 1, 12, 18 SGB I). Das Bundesausbildungsförderungsgesetz (BAföG) gilt als besonderer Teil des SGB (§ 68 SGB I) und wird grundsätzlich im Auftrag des Bundes von den
+Ländern ausgeführt (§ 39 Abs. 1 BAföG i. V. m. §§ 12, 18 Abs. 2 SGB I; Art. 104a Abs. 3
+GG).
+Gemäß Bundesausbildungsförderungsgesetz werden Ausbildungen für Studierende und
+Schüler auf Antrag in Form von Darlehen und/oder Zuschüssen oder aber in Form eines
+verzinslichen Bankdarlehens gefördert (§ 17 Abs. 1, 2 und 3 BAföG).
+In den Niedersächsischen Studentenwerken sowie kommunalen Ämtern für Ausbildungsförderung wurden drei fachliche Hauptprozesse (Erstantrag, Folgeantrag, Änderungsprozess) als entscheidende Bestandteile der Bearbeitung von BAföG-Anträgen identifiziert.
+Zusätzlich wurde als elementarer Baustein einer EDV-Lösung zur BAföG-Bearbeitung
+der zentrale Prozess „Gesetzesänderung“ festgestellt.
+
+3.1
+
+Erstantrag BAföG
+
+Die Abgabe eines ersten ausgefüllten Antrages durch einen Antragsteller löst den Prozess „Erstantrag BAföG“ aus. Eine rechtsgültige Unterschrift unter dem Antrag ist Voraussetzung für die Bearbeitung und Bescheidung.
+Mit der Übernahme der Stammdaten (manuell aus dem Papierantrag oder maschinell
+aus dem Onlineantrag) wird eine elektronische Akte angelegt. Wenn alle Unterlagen (Antragsformular und dazugehörige Nachweise) vollständig vorliegen, erfolgt die Anspruchsprüfung dem Grunde nach, ob alle formalen Voraussetzungen für eine Bewilligung von
+BAföG erfüllt sind. Im Falle einer Ablehnung dem Grunde nach sollte diese Entscheidung
+in der Software dokumentiert werden. Nach der Übernahme der weiteren Antragsdaten
+(manuell aus dem Papierantrag oder maschinell aus dem Onlineantrag) werden diese
+verarbeitet. Die Verarbeitung beinhaltet dabei die Freigabe nach dem Vier-Augen-Prinzip
+(Erst- und Zweitfreigabe) sowie eine Plausibilisierung aller eingegebenen Werte vor der
+Verarbeitung der Daten. Im nächsten Schritt wird ein Bescheid erstellt. Der Bescheid enthält in jedem Fall die Berechnung des Bedarfes und des anrechenbaren Einkommens
+beziehungsweise Vermögens. Im Ergebnis kommt es dann entweder zu einem sogenannten „Nullbescheid“, das heißt das anzurechnende Einkommen/Vermögen ist mindestens genauso hoch wie der Bedarf, oder der Förderungsanspruch ist größer als Null,
+so dass eine Auszahlung ausgelöst wird.
+
+Lastenheft
+
+Seite 7
+
+Insbesondere die Übernahme der Stamm- und Vorgangsdaten (inklusive unterstützender
+Nebenrechnungen), die Verarbeitung der Daten und Berechnung des Förderungsanspruches sowie die Bescheiderstellung muss grundsätzlich durch eine BAföG-Software unterstützt werden.
+Die Darstellung und Verwaltung der Auszahlungen ist grundsätzlich in der BAföG-Software vorzusehen, eine entsprechende Schnittstelle zur Erzeugung einer Zahlungsliste
+zur Übermittlung an die auszahlende Bank im Anschluss an jeden Gesamtrechnungslauf
+ist zu bedienen.
+Eine Integration von Textverarbeitungs- und E-Mail-Programmen erleichtert dem Sachbearbeiter die effiziente Erzeugung von Dokumenten zur Kommunikation mit dem Antragsteller.
+Aus dem Bewilligungsprozess heraus muss die Software verschiedene weitere Schnittstellen bedienen. Diese umfassen unter anderem die Bereitstellung von Daten zur kaufmännischen Buchung, statistische Auswertungen für die Übermittlung an das statistische
+Landesamt sowie die Darlehensmeldung an das Bundesverwaltungsamt (BVA).
+
+3.2 Folgeantrag BAföG
+Wenn ein Empfänger, der bereits einmal einen Antrag gestellt hat, einen Antrag für einen
+neuen Bewilligungszeitraum (BWZ) stellt, wird der Prozess „Folgeantrag“ ausgelöst. Eine
+Serviceberechnung unter Zugrundelegung neuer Angaben des Antragstellers ist zu ermöglichen.
+Zunächst wird die Akte um den neuen BWZ ergänzt. Der Sachbearbeiter prüft neben der
+Vollständigkeit aller Antragsformulare und der dazugehörigen Nachweise auch bereits zu
+diesem Zeitpunkt, ob es Änderungen in den Antragsdaten gibt oder nicht. Liegen Änderungen vor, so startet der Änderungsprozess. Liegen keine Änderungen vor, so wird analog zum Erstantrag die Vorgangsbearbeitung mit Übernahme der Antragsdaten, Verarbeitung der Antragsdaten und Bescheiderstellung inklusive aller Detailschritte durchlaufen.
+Enthält der Bescheid im Ergebnis eine weitere Auszahlung von BAföG, so muss sichergestellt sein, dass die Zahlung fortgesetzt wird.
+
+3.3 Änderungsprozess BAföG
+Der Änderungsprozess wird durch die Kenntnis des Sachbearbeiters über eine Änderung
+in den Daten eines Antragstellers ausgelöst. Eine solche Änderung kann sich beispielsweise aus einem Folgeantrag ergeben (sowohl für den aktuellen BWZ als auch in die Zukunft gerichtet im neuen BWZ). Es ist aber auch möglich und üblich, dass Antragsteller
+im Laufe eines BWZ Änderungen mitteilen. Auch kann das zuständige Amt auf dem
+Lastenheft
+
+Seite 8
+
+Wege der Mitteilung von anderen Behörden oder Ausbildungsstätten beispielsweise über
+den Ausbildungsabbruch eines Förderempfängers informiert werden. Für die Auslösung
+des Änderungsprozesses kann, muss aber nicht zwingend, ein Antrag vorliegen.
+Bei Änderungen ist zunächst auch die Prüfung dem Grunde nach durchzuführen, da
+nicht auszuschließen ist, dass die bekannt gewordene Änderung möglicherweise den
+grundsätzlichen Anspruch auf Förderungen nach BAföG berührt. Hierbei muss eine BAföG-Software den Bearbeiter auch beispielsweise bei den Sonderfällen der sofortigen
+Zahlungseinstellung und der rückwirkenden Entziehung unterstützen.
+Besteht nach wie vor der Anspruch dem Grunde nach, ist die normale Vorgangsbearbeitung durchzuführen, wobei insbesondere darauf zu achten ist, dass die Änderung in die
+BAföG-Software übernommen wird. Die üblichen Schritte der Plausibilisierung und des
+Vier-Augen-Prinzips sind auch bei Änderungseingaben, der sofortigen Zahlungseinstellung und der rückwirkenden Entziehung zu beachten.
+Eine Änderung kann im Bescheid zu einem von drei möglichen Ergebnissen führen: Bei
+unveränderter Auszahlungshöhe ergeht ein entsprechender Bescheid an den Förderempfänger. Bei einem erhöhten Zahlbetrag wird dieser ebenfalls in einem Änderungsbescheid dem Empfänger mitgeteilt. Gegebenenfalls muss eine Nachzahlung im System
+verwaltet und ausgezahlt werden.
+In dem Fall, dass der Auszahlungsbetrag niedriger als zuvor ist, ergeht ebenfalls ein entsprechender Änderungsbescheid an den Empfänger. Für den Fall, dass bereits Auszahlungen in zu großer Höhe erfolgt sind, muss die BAföG-Software einerseits die überzahlten Beträge mit noch ausstehenden Auszahlungen gemäß der entsprechenden gesetzlichen Grundlagen verrechnen können und andererseits im Falle einer Rückforderung die
+erforderlichen Daten automatisiert an ein integriertes Forderungsmanagementsystem
+übergeben können, in dem auch die tatsächliche Einzahlung durch den Antragsteller verfolgt und verwaltet werden kann.
+
+Gesetzesänderung
+Ein wichtiger Bestandteil der zentralen Administration ist die Durchführung von Updates
+der BAföG-Software im Falle von Gesetzesänderungen. Änderungen der Gesetzeslage
+müssen einer gemeinsamen Konzepterstellung zwischen Softwarehersteller und Auftrag-
+
+Lastenheft
+
+Seite 9
+
+geber resultieren. Der Softwarehersteller hat sicherzustellen, dass ein erforderliches Update dem Auftraggeber rechtzeitig vor dem Eintritt der jeweiligen Gesetzesänderung für
+ausführliche Tests zur Verfügung gestellt wird.
+Der Test wird zunächst beim Betreiber der BAföG-Software in einer geeigneten Testumgebung durchgeführt. Sollte es an dieser Stelle zu technischen Fehlern kommen, muss
+der Softwarehersteller nachbessern. Anderenfalls werden die Berechnungsergebnisse
+aus den Testläufen durch das Fachreferat im MWK geprüft. Auch hier besteht wieder die
+Verpflichtung für den Softwarehersteller, bei Fehlern nachzubessern.
+Nach der Abnahme der korrekten Berechnungsergebnisse aus den Testläufen wird die
+Softwareaktualisierung in das Produktivsystem übernommen. Parallel dazu muss eine
+entsprechende Information für die Sachbearbeiter in den Studentenwerken und kommunalen Ämtern für Ausbildungsförderung durch den Softwareanbieter erstellt werden.
+Falls durch die Gesetzesänderung eine Vielzahl von Änderungsbescheiden erstellt und
+versendet werden muss, so muss die Software die Möglichkeit eines Massendruckverfahrens bieten. Generell muss die Möglichkeit bestehen, die entsprechenden Bescheide
+in den Studentenwerken und kommunalen Ämtern für Ausbildungsförderung zu erzeugen und zu drucken.
+
+Lastenheft
+
+Seite 10
+
+4 Funktionale Anforderungen
+4.1 Umsetzung der gesetzlichen Grundlagen
+Sowohl für die Berechnung und Bescheidung von BAföG gelten bestimmte gesetzliche
+Vorgaben, die in der Software umgesetzt werden müssen.
+Gesetzliche Grundlagen BAföG
+Die Software muss alle jeweils gültigen gesetzlichen Regelungen des Bundesausbildungsförderungsgesetzes (BAföG) sowie der ergänzenden Änderungsgesetze korrekt
+und vollständig umsetzen. Dabei muss die Software insbesondere in der Lage sein, bei
+Gesetzesänderungen innerhalb eines Förderungszeitraumes die unterschiedlichen Gesetzeslagen für bestehende oder zukünftige Förderempfänger berücksichtigen zu können.
+
+4.2 Vorgangsbearbeitung
+4.2.1 Antragseingang und Anspruchsprüfung dem Grunde nach
+Vorerfassung
+Die Software soll dem Sachbearbeiter die Möglichkeit bieten, Daten zu einem Vorgang
+auch ohne Vergabe einer Förderungsnummer vorerfassen und speichern zu können. Dabei müssen grundsätzlich dieselben Eingabefelder zur Verfügung stehen wie bei der regulären Anlage einer elektronischen Akte mit Vergabe einer Förderungsnummer.
+Die Software muss weiterhin die Möglichkeit bieten, einen vorerfassten Datensatz zu einem beliebigen späteren Zeitpunkt in eine reguläre elektronische Akte mit einer dann automatisch vergebenen Förderungsnummer zu überführen.
+Anlage elektronischer Akte/Vergabe der Förderungsnummer
+In der Software muss eine personenbezogene elektronische Akte (gegebenenfalls auch
+bereits ohne Vorliegen eines Antrages) angelegt werden können.
+Im Rahmen der Neuanlage einer elektronischen Akte ist durch die Software automatisch
+eine fortlaufende, eindeutige Förderungsnummer zu vergeben. Alternativ muss es aber
+auch die Möglichkeit geben, die Förderungsnummer vom Sachbearbeiter zu vergeben.
+Hierbei muss sichergestellt sein, dass Förderungsnummern nicht doppelt vergeben werden können. Zur eindeutigen Identifikation einer Förderung/Akte ist der Förderungsnummer die dreistellige Amtsnummer voranzustellen. Die Förderungsnummer besteht aus 12
+
+Lastenheft
+
+Seite 11
+
+Stellen, wobei es sich bei der letzten Stelle um eine Prüfziffer (in der Regel durch einen
+Punkt abgetrennt) handelt.
+Das Anknüpfen an den Altbestand der dienststellenspezifischen Förderungsnummern
+muss gewährleistet sein, um eine fortlaufende und eindeutige Nummernvergabe sicherzustellen.
+Eingangsregistratur
+In der Software ist eine Eingangsregistratur aller eintreffenden Anträge und weiteren antragsrelevanten Dokumente vorzusehen. Das Eingangsdatum soll auch automatisiert als
+relevanter Stichtag in die Ermittlung des Vermögens des Antragstellers übernommen
+werden.
+Verteilung von Antragsfällen
+Die Software muss eine automatisierte Verteilung der Antragsfälle auf die Sachbearbeiter beziehungsweise auf im System hinterlegte Benutzergruppen anbieten können. Hierbei sind auch Vertreterregelungen zu berücksichtigen.
+Entscheidung dem Grunde nach / Statistische Erfassung
+Die Software muss es dem Sachbearbeiter ermöglichen, die Entscheidung dem Grunde
+nach, ob alle formalen Voraussetzungen für eine Bewilligung von BAföG erfüllt sind, zu
+dokumentieren.
+Für folgende Ablehnungen dem Grunde nach im Rahmen des BAföG muss eine Registrierung in der Software möglich sein, die auch einer automatisierten Auswertung unterworfen werden kann:
+•
+
+•
+•
+•
+•
+•
+Lastenheft
+
+Ausbildungsstätte:
+o Anspruch nach § 2 BAföG
+o Anspruch nach § 3 BAföG
+o Anspruch nach § 5 BAföG
+o Anspruch nach § 6 BAföG
+Erstausbildung, weitere Ausbildung:
+o Anspruch nach § 7 BAföG
+Staatsangehörigkeit:
+o Anspruch nach § 8 BAföG
+Eignung:
+o Anspruch nach § 9 BAföG
+Alter:
+o Anspruch nach § 10 BAföG
+Förderungsdauer:
+Seite 12
+
+•
+•
+•
+•
+
+o Anspruch nach §§ 15, 15a BAföG
+Antrag:
+o Anspruch nach § 46 Abs. 5 BAföG
+Mitwirkung von Ausbildungsstätten:
+o Anspruch nach § 48 BAföG
+Angabe von Tatsachen:
+o Anspruch nach § 60 SGB I
+Fehlende Mitwirkung:
+o Anspruch nach § 66 SGB I
+
+Eine Integration von Formatvorlagen für die MS Office Standardprodukte (inklusive Übernahme definierter Formularfelder in Word-Dokumente) muss möglich sein, so dass der
+Sachbearbeiter basierend auf der Dokumentation der Ablehnung dem Grunde nach einen grundsätzlichen Ablehnungsbescheid ohne größeren Aufwand erstellen und drucken
+kann (vgl. auch LH 37). Auch für die amtsinterne Bearbeitung von Entscheidungen dem
+Grunde nach müssen geeignete Formatvorlagen in der Software hinterlegt sein.
+Dem Grundsatz nach abgelehnte Anträge müssen in der Software so gekennzeichnet
+sein, dass Suchen und statistische Abfragen nach diesem Merkmal möglich sind.
+Weg-Zeit-Berechnung
+Die Software muss dem Sachbearbeiter für Anträge, die eine der in § 2 Abs. 1 Nr. 1 BAföG aufgeführten Ausbildungsstätten betreffen, die Durchführung und Dokumentation der
+Weg-Zeit-Berechnung ermöglichen.
+Unterstützung der Sachbearbeitung/Nachschlagewerke
+Die Software soll integrierte Nachschlagewerke zur Unterstützung des Sachbearbeiters
+unter anderem bei Entscheidungen dem Grunde nach bereithalten. Dies sind beispielsweise:
+•
+•
+
+•
+•
+•
+
+Lastenheft
+
+Bundesministerium für Bildung und Forschung (BMBF)
+Zugang zu den Ausbildungsstättenverzeichnissen der Bundesländer
+o Kontaktdaten
+o Zusätzliche Infos (Freitext zu Abschlüssen, Ausbildungsgängen u. ä.)
+Bewertung ausländischer Abschlüsse
+Zentrale Urteilssammlungen
+Vorschriften des Bundes (beispielsweise Kommentare zum BAföG)
+
+Seite 13
+
+4.2.2 Übernahme der Antragsdaten
+Anlage von Bewilligungszeiträumen
+Die Software muss dem Sachbearbeiter die Möglichkeit bieten, in einer elektronischen
+Akte beliebig viele zukünftige oder vergangene Bewilligungszeiträume anzulegen.
+Wiedervorlagefunktionalität
+Die BAföG-Software muss dem Sachbearbeiter die Möglichkeit bieten, Wiedervorlagetermine für einen Vorgang manuell anzulegen. Die Software soll zusätzlich aus der Sachbearbeitung heraus automatisch Wiedervorlagen vorschlagen (beispielsweise bei der Erstellung eines Anforderungsschreibens). Diese beinhalten einen durch den Sachbearbeiter überschreibbaren Terminvorschlag.
+Offene Wiedervorlagen des Benutzers sowie seiner Benutzergruppen sollen automatisch
+bei Fälligkeit angezeigt werden. Dabei muss die Möglichkeit bestehen, Wiedervorlagen
+auszuschalten beziehungsweise auf einen späteren Wiedervorlagetermin zu verschieben, ohne den jeweiligen Vorgang aufrufen zu müssen. Die Wiedervorlagen eines Benutzers/einer Benutzergruppe müssen jederzeit einsehbar oder aufrufbar und auf andere
+Nutzer übertragbar sein.
+Eingabedaten
+Folgende Daten müssen durch den Sachbearbeiter durch Eingabe erfasst werden können:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Lastenheft
+
+Personenstammdaten inklusive Bankverbindung
+Einkommen und Vermögen Antragsteller
+Daten inklusive Einkommen Eltern
+Daten inklusive Einkommen Ehegatten
+Daten inklusive Einkommen Geschwister
+Daten inklusive Einkommen Kinder
+Daten inklusive Einkommen sonstige Unterhaltsberechtigte
+Bescheid-/Drittempfänger (Abrechnung von Ersatzansprüchen)
+Daten des Bankdarlehens (KfW-Darlehensvertrag)
+Vorgangsdaten (beispielsweise Beginn und Ende BWZ, Ausbildungsstätte)
+Daten zum Bedarf
+Amtswechsel
+Auslandsförderung
+Vordefinierte und freie Bescheidtexte
+Vorausleistungen
+
+Seite 14
+
+•
+•
+
+Vorbehaltsleistungen
+Zahlung/Abrechnung Sonderfälle (beispielsweise Abschlagszahlungen)
+
+Im Fall von Änderungen der Daten (sowohl im aktuellen als auch in vergangenen oder
+zukünftigen BWZ bei einem Folgeantrag) muss der Sachbearbeiter die Möglichkeit haben, diese Änderungen in den entsprechenden Datenfeldern einzugeben und dauerhaft
+zu speichern.
+Protokollierung von Dateneingaben/-änderungen
+Jede Dateneingabe/-änderung ist in der Software mit Datum, Uhrzeit, Benutzer und Wert
+zu protokollieren. Eingabe- und Änderungsprotokolle müssen automatisch in der elektronischen Akte gespeichert sowie als Bestandteil der Papierakte automatisch ausgedruckt
+werden.
+Datenübernahme aus Onlineantrag
+Die Software muss es dem Sachbearbeiter ermöglichen, Daten, die aus dem Onlineantrag stammen und in einer eigenen Datenbank beziehungsweise in einem eigenen Datenbankbereich (getrennt von der Produktivdatenbank) gespeichert wurden, nach einer
+Sichtprüfung und elektronischen Prüfung in die reguläre Eingabemaske und damit in die
+reguläre Vorgangsbearbeitung automatisiert zu übernehmen. Von einer Datenübernahme ohne Prüfung ist an dieser Stelle abzusehen, um einen zusätzlichen Schutz gegen manipulative Dateneingaben einzurichten.
+Speichern ohne Freigabe
+Die Software muss dem Sachbearbeiter die Möglichkeit geben, eingegebene Daten auch
+ohne Freigabe für eine spätere Weiterbearbeitung zu speichern. Fehler der Plausibilisierung (beispielsweise noch fehlende Pflichtfelder) dürfen dabei die Speicherung nicht verhindern. Der Sachbearbeiter muss weiterhin die Möglichkeit haben, den gespeicherten
+Datensatz zu jedem beliebigen Zeitpunkt (auch nach zwischenzeitlicher Abmeldung vom
+System) mittels eindeutig identifizierbarer Kriterien (beispielsweise Förderungsnummer,
+Name, Geburtsdatum) wieder zu finden und zur weiteren Bearbeitung aufzurufen.
+Prüfung Elternunabhängigkeit
+Die Software muss dem Sachbearbeiter die Möglichkeit geben, die Zeiten der Erwerbstätigkeit des Antragsstellers unter Beachtung der jeweils gültigen Einkommen gemäß § 11
+Abs. 3 Nr. 3 und 4 BAföG zu berechnen. Dabei sind die geltenden Verwaltungsvorschriften hinsichtlich der Berechnung von einzelnen Tagen bei halben Monaten sowie das Ansetzen eines ganzen Monats mit 30 Tagen zu berücksichtigen.
+
+Lastenheft
+
+Seite 15
+
+Fällt das Ergebnis so aus, dass die Förderung unabhängig vom Einkommen der Eltern
+zu gewähren ist, so muss dies in der Software entsprechend gekennzeichnet werden
+können. Von der Eingabe der Einkommensdaten der Eltern kann in diesem Fall abgesehen werden; die Plausibilisierungsprüfung muss diese Information entsprechend verarbeiten.
+Berechnung von Einkommen und Vermögen
+Die Software muss das anzurechnende Einkommen des Antragstellers, des Ehegatten,
+der Eltern, der Kinder und der sonstigen Unterhaltsberechtigten inklusive aller Nebenrechnungen ermitteln können. Außerdem muss die Berechnung des Vermögens des Antragstellers möglich sein.
+Die Software muss den Sachbearbeiter bei der Ermittlung des Einkommens nach § 21
+BAföG unterstützen. Dabei sind insbesondere folgende Einkunftsarten zu unterscheiden:
+•
+•
+•
+•
+•
+•
+•
+
+Steuerpflichtiges Einkommen
+Ausbildungsvergütung
+Ausbildungsbeihilfen
+Waisenrenten/-geld
+Leib- und Versorgungsrenten
+Unterhaltsleistungen
+sonstige Einnahmen, die zur Deckung des Lebensbedarfs bestimmt
+sind
+
+Entsprechend der jeweiligen Gesetzeslage sind außerdem unter anderem
+•
+•
+•
+•
+
+Freibeträge nach §§ 23 und 25 BAföG,
+Sozialpauschalen nach § 21 BAföG,
+Werbungskosten nach § 9 EStG und
+Altersentlastungsbetrag
+
+zu berücksichtigen.
+Für den Antragsteller ist außerdem eine Vermögensberechnung nach §§ 27 – 29 BAföG
+durchzuführen. Dabei sind insbesondere zu berücksichtigen:
+•
+•
+•
+•
+•
+
+Lastenheft
+
+Bewegliche und unbewegliche Sachen
+Forderungen
+Sonstige Rechte (beispielsweise Wertpapiere und Firmenanteile)
+Schulden und Lasten
+Freibeträge nach § 29 BAföG
+
+Seite 16
+
+Wichtige Nebenrechnungen, die die Software dem Sachbearbeiter anbieten muss, sind
+insbesondere:
+•
+
+•
+
+•
+•
+
+•
+•
+•
+
+Ermittlung des förderungsrechtlich beachtlichen Einkommens (§ 21
+Abs. 1, 2 und 3 BAföG) und Vermögens (§§ 27 ff. BAföG) des Auszubildenden, des Einkommens des Ehegatten oder Lebenspartners
+und der Eltern gemäß § 21 Abs. 1, 2 und 3 BAföG sowie Vorbehalt
+nach § 24 Abs. 2 BAföG.
+Berechnung des Einkommens des Ehegatten/Lebenspartners sowie der Eltern im Falle von § 24 Abs. 3 und 4 BAföG mit Vergleichsberechnung zu § 24 Abs. 1 BAföG.
+Berechnung der Werbungskosten des Auszubildenden
+Berechnungen des steuerlich nicht erfassten Teils der Rente gemäß des Alterseinkünftegesetzes inklusive des Versorgungsfreibetrages und des Zuschlags zum Versorgungsfreibetrag
+Berechnung der Einkommen von Geschwistern/sonstigen Unterhaltsberechtigten
+Erfassung und Berechnung der Daten, die für die Gewährung von
+Härtefreibeträgen nach § 25 Abs. 6 BAföG beachtlich sind.
+Häufig genutzte Berechnungswerte müssen in der Software hinterlegt sein. Die Übernahme einzelner Werte in die Berechnung muss
+unterstützt werden.
+
+Datenabgleich nach § 45d EStG
+Die Software soll den Sachbearbeiter bei der Durchführung des Datenabgleichs gemäß
+§ 45d EStG unterstützen (vgl. auch LH 59). Dabei müssen die Rückmeldungen des Bundeszentralamts für Steuern (BZSt) im jeweiligen Förderfall angezeigt werden können. Bei
+der Berechnung für vergangene BWZ ist der Vermögensverbrauch für vorangegangene
+BWZ zu berücksichtigen.
+Die Eingabe des beachtlichen zurückgemeldeten Zinseinkommens muss im Rahmen der
+Vermögensberechnung des Antragstellers möglich sein.
+Berechnung von Fehlzeiten
+Für die Ermittlung der Förderung im Rahmen des Schüler-BAföG muss die Software
+dem Sachbearbeiter die Möglichkeit bieten, relevante Fehlzeiten des Antragstellers zu
+berechnen und das Ergebnis (Betrag in Höhe der nicht auszuzahlenden Förderung) in
+der Software zu dokumentieren.
+
+Lastenheft
+
+Seite 17
+
+Zukunftseingaben
+Bereits im Moment des Antrages muss es möglich sein, Angaben, die sich erst im späteren Verlauf des BWZ auswirken, zu berücksichtigen, das heißt es müssen gegebenenfalls Zeitintervalle für verschiedene berechnungsrelevante Daten eingegeben werden
+können. Die möglicherweise im Verlauf des BWZ unterschiedlichen Auszahlungsbeträge
+sind sowohl in der Software als auch im Bescheid direkt darzustellen (vgl. auch LH 27).
+Berechnung von Fristen
+Die Software muss den Sachbearbeiter bei der Berechnung der gesetzlich vorgegebenen Fristen unterstützen. Dies betrifft beispielsweise die Zustellung des Bescheides oder
+die Frist gemäß § 51 Abs. 2 BAföG. Werden aus der Fristberechnung automatisch Wiedervorlagen erstellt, so sollen diese überschreibbare Wiedervorlagetermine enthalten, so
+dass der Sachbearbeiter die Wiedervorlage manuell ändern kann.
+
+4.2.3 Verarbeitung der Antragsdaten
+Berechnung
+Die Software muss anhand der eingegebenen Daten gemäß der jeweils gültigen Rechtslage des BAföG den Bedarf, das anzurechnende Einkommen und Vermögen und den
+daraus resultierenden Förderungsanspruch berechnen.
+Es muss sichergestellt sein, dass die BAföG-Software in jeder Betriebssituation bei gleichen Ausgangsdaten in jedem Rechnungslauf identische Resultate liefert.
+Vier-Augen-Prinzip
+Um den gesetzlichen Vorgaben der Bundeshaushaltsordnung (BHO) sowie der niedersächsischen Landeshaushaltsordnung (LHO) zu entsprechen und um Fehler und Missbrauch zu verhindern, ist das sogenannte Vier-Augen-Prinzip durch eine Erst- und eine
+Zweitfreigabe umzusetzen.
+Ein von einem Sachbearbeiter nach der vollständigen Dateneingabe freigegebener Vorgang muss von einem zur Zweitfreigabe berechtigten Mitarbeiter kontrolliert werden. Erst
+wenn auch durch diesen die Freigabe erfolgt ist, darf der Bescheid gedruckt und der Vorgang im nächsten Rechnungslauf verarbeitet werden.
+Der zur Zweitfreigabe berechtigte Mitarbeiter muss die noch von ihm zu prüfenden Vorgänge übersichtlich, beispielsweise als Liste, dargestellt bekommen. Ebenso müssen
+Vorgänge, denen keine Zweitfreigabe erteilt wurde, dem Sachbearbeiter, der die Erstfreigabe erteilt hat, mit einer dazugehörigen Begründung zur Korrektur wieder vorgelegt
+werden können. Im Bedarfsfall muss es dem zur Zweitfreigabe berechtigten Mitarbeiter
+
+Lastenheft
+
+Seite 18
+
+möglich sein, Änderungseingaben ohne Beteiligung des ersteingebenden Sachbearbeiters vorzunehmen. Dieser Vorgang ist im Freigabeprotokoll festzuhalten.
+Serviceberechnung/Vergleichsberechnung
+Zur sofortigen Ermittlung möglicher Förderungsansprüche muss eine sogenannte Serviceberechnung möglich sein. Diese unterscheidet sich von der vollständigen Berechnung mit Bescheiderstellung dadurch, dass sie auch mit minimaler Dateneingabe und
+Plausibilisierung durchführbar ist. Das Berechnungsergebnis hat jedoch keinerlei Rechtswirkung, sondern dient lediglich Informations- beziehungsweise Auskunftszwecken.
+Das Ergebnis der Serviceberechnung inklusive der Berechnungsschritte muss am Bildschirm darstellbar und druckbar sein. Die eingegebenen Daten und das Ergebnis der
+Serviceberechnung sollen in einer bestehenden oder neu angelegten elektronischen
+Akte speicherbar sein.
+Für eine bereits bestehende elektronische Akte muss eine Vergleichsberechnung möglich sein, in der die Änderungen an berechnungsrelevanten Eingabedaten den gespeicherten Parametern gegenüber gestellt und die daraus resultierenden Auswirkungen im
+Berechnungsergebnis dargestellt und ausgedruckt werden können.
+Berechnung vergangener Bewilligungszeiträume
+Die Software muss die Möglichkeit bieten, bei Änderungen, die bereits vergangene Bewilligungszeiträume betreffen, die Neuberechnung des Förderungsanspruches für diese
+BWZ durchzuführen. Dabei muss sichergestellt sein, dass stets die im jeweils betroffenen Bewilligungszeitraum gültigen gesetzlichen Grundlagen berücksichtigt werden. Die
+Software muss daher die verschiedenen Gesetzeslagen und die damit verbundenen berechnungsrelevanten Kriterien ab Bewilligungszeitraumbeginn 04/2001 vorhalten und in
+Abhängigkeit des betrachteten BWZ anwenden.
+Verrechnung von Rückforderungen
+Im Falle von Rückforderungen muss die Software diese automatisch gemäß den jeweils
+gültigen gesetzlichen Anforderungen mit zukünftigen Auszahlungen verrechnen. Die Verrechnung muss in der Software analog zu Einzahlungen und Auszahlungen monatsgenau dargestellt werden. In Einzelfällen muss der Sachbearbeiter die Möglichkeit haben,
+die automatische Verrechnung zu deaktivieren. Im Fall der Deaktivierung der automatischen Verrechnung muss die Software dem Sachbearbeiter ermöglichen, die Verrechnung offener Rückforderungen mit zukünftigen Auszahlungen manuell zu steuern.
+
+Lastenheft
+
+Seite 19
+
+4.2.4 Bescheid erstellen
+Bescheidauslösung
+Jede Ersteingabe oder Änderung berechnungsrelevanter Daten muss die Berechnung
+und Erstellung eines Bescheides auslösen.
+Zukunftsbescheidung
+Tatsachen, die erst zukünftig Auswirkungen auf die Höhe des Förderungsanspruches
+haben, sollen bereits bei der Eingabe berücksichtigt werden. In dem entsprechenden Bescheid müssen also sowohl die Berechnung für den Zeitraum bis zur bereits bekannten
+Änderung als auch die Berechnung für den Zeitraum nach der bekannten Änderung bis
+zum Ende des BWZ (oder bis zum Eintreten einer weiteren Änderung) dargestellt werden. Außerdem müssen die unterschiedlichen Zahlbeträge je Zahlungsmonat aufgeführt
+werden.
+Bescheiderstellung
+Der BAföG-Bescheid muss mindestens die Anforderungen des § 50 Abs. 2 BAföG erfüllen. Die wesentlichen Bestandteile des BAföG-Bescheids umfassen:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Lastenheft
+
+Amts-/Förderungsnummer
+Kontaktdaten des zuständigen Amtes
+Sachbearbeiter/Ansprechpartner
+Adressat
+Festsetzung des monatlichen Förderbetrages
+Festsetzung des monatlichen Bedarfes (Höhe und Zusammensetzung)
+Festsetzung des monatlich angerechneten Einkommens und Vermögens
+Bewilligungs-/Änderungszeitraum
+Höhe der gewährten Freibeträge
+Abrechnung der Förderungsleistung
+Gesamtabrechnung
+Festsetzung des monatlichen Zahlbetrages
+Einkommensanrechnung des Auszubildenden/Ehegatten/Eltern/
+Vater/Mutter
+Vermögensanrechnung des Auszubildenden
+Angaben über Kinder und sonstige Unterhaltsberechtigte
+Sonstige Angaben (Wohnung, Ausbildungsstätte, Familienstand)
+Rechtsbehelfsbelehrung
+Ergänzende Bestimmungen und Hinweise
+
+Seite 20
+
+o
+o
+o
+o
+o
+o
+o
+o
+o
+o
+
+Änderungsanzeigen
+Ordnungswidrigkeit
+Weiterförderung
+Eignung
+Darlehensrückzahlung
+Unterbrechung der Ausbildung
+Rückfragen
+Konto- und Anschriftenänderungen
+Berücksichtigung bisheriger Rückforderungen
+Erläuterungen
+
+Die Software muss die Möglichkeit bieten, Formatvorlagen für die Erstellung von Bescheiden zu hinterlegen. Diese müssen bestimmte automatisch zu befüllende Formularfelder (beispielsweise Name und Adresse des Antragstellers, Textbausteine) vorhalten.
+Die Software muss dem Sachbearbeiter für die Erstellung des Bescheides sowohl bestimmte vordefinierte Textbausteine als auch die Möglichkeit der Freitexteingabe bieten.
+Die Liste der vordefinierten Textbausteine soll grundsätzlich erweiterbar sein. Mit Hilfe
+dieser Elemente muss es dem Sachbearbeiter möglich sein, individuelle Ergänzungen
+und Informationen in den Bescheid mit aufzunehmen.
+Einkommensunterdrückung
+Die Software muss dem Sachbearbeiter die Möglichkeit bieten, eine Einkommensunterdrückung nach § 50 Abs. 2 S. 3 BAföG für den Bescheiddruck aktivieren zu können.
+Bescheiddruck
+Der Bescheiddruck muss durch die Software sowohl im Rahmen der regulären Bescheiderstellung dezentral in dem jeweiligen Studentenwerk oder kommunalen Amt für Ausbildungsförderung als auch zentral in einem Massendruckverfahren erfolgen können.
+
+4.2.5 Übergreifende Anforderungen
+Plausibilisierung
+Die Software muss jedes Datenfeld für sich bereits bei der Eingabe auf Plausibilität überprüfen. Dabei müssen geeignete Prüfungen auf Feldlänge, Zeichenarten und auf Listen
+(Wertbereichsbeschränkungen inklusive Einschränkung auf zulässige Zeichen) hinterlegt
+sein. Ausgegebene Fehlermeldungen müssen dem Anwender die fehlerhafte Eingabe
+einfach und klar erläutern. Die Eingabeprüfungen müssen Daten in Feldern der
+•
+•
+Lastenheft
+
+Stammdaten des Auszubildenden,
+Daten zur Ausbildung des Antragstellers,
+Seite 21
+
+•
+•
+
+Daten der Eltern des Antragstellers,
+Einkommensdaten (Antragsteller, Ehegatte, Eltern)
+
+plausibilisieren.
+Fehlermeldungen im Rahmen der Eingabeplausibilisierung dürfen ein Speichern des
+Vorganges nicht verhindern.
+Zusätzlich muss vor beziehungsweise bei der Freigabe eines Vorganges (Erst- und
+Zweitfreigabe) eine inhaltliche Plausibilisierung der Eingabedaten in der Software möglich sein. Dabei müssen Prüfungen von datenfeldübergreifenden Abhängigkeiten durchgeführt werden. Fehlermeldungen sind sprechend zu gestalten, damit der Sachbearbeiter den aufgetreten Fehler möglichst effizient korrigieren kann.
+Abzuprüfende Abhängigkeiten umfassen dabei insbesondere (auch übergreifend) folgende Kategorien:
+•
+•
+•
+•
+•
+
+Datenfelder der Stammdaten des Antragstellers
+Datenfelder zur Ausbildung des Antragstellers
+Datenfelder zu Familienangehörigen des Antragstellers (Ehegatte,
+Eltern, Kinder, sonstige Unterhaltsberechtigte)
+Datenfelder zum Bedarf/Einkommen/Förderungsanspruch
+Datenfelder zur Bescheiderstellung
+
+Für die Serviceberechnung ist in der Software eine verkürzte Plausibilisierungsprüfung
+zu hinterlegen, damit diese auch ohne vollständige Antragsdaten durchgeführt werden
+kann.
+Journalisierung
+Die Software soll automatisch alle im Rahmen der Vorgangsbearbeitung entstandenen
+Dokumente (insbesondere Eingabe- und Änderungsprotokolle, Bescheide, Korrespondenz) in der elektronischen Akte des Förderempfängers speichern. Diese muss eindeutig
+über die Amts- und Förderungsnummer identifizierbar sein. Die in der elektronischen
+Akte abgelegten Dokumente sollen nach verschiedenen Kriterien, mindestens aber nach
+Speicherdatum und Dokumentenart, darstellbar sein.
+Archivierung
+Die Software soll den Sachbearbeiter bei der Archivierung sowohl der physischen Papierakte als auch der elektronischen Akten unterstützen. Dafür ist aus der Software auf
+Anforderung durch den Sachbearbeiter eine Vorschlagsliste zu archivierender Förderfälle unter Berücksichtigung noch offener Wiedervorlagen und ausstehender besonderer
+
+Lastenheft
+
+Seite 22
+
+Verwaltungsverfahren zu erstellen. Aus dieser Liste kann der Sachbearbeiter die Fälle
+auswählen, die tatsächlich archiviert werden sollen.
+Zu archivierende Förderfälle müssen in der Software in einen revisionssicheren Archivbereich verschoben werden. Es muss möglich sein, bei Bedarf Fälle aus dem elektronischen Archiv wieder in die Produktivumgebung zu holen. Die Daten sind im elektronischen Archiv genauso lange aufzuheben, wie die Papierakte im physischen Archiv.
+Die Software soll weiterhin die Möglichkeit bieten, eine Vorschlagsliste der aus dem
+elektronischen Archiv und dem Papierarchiv zu vernichtenden Akten zu erstellen. Ein berechtigter Sachbearbeiter soll aus der Vorschlagsliste die tatsächlich zu vernichtenden
+elektronischen Akten auswählen können. Nach erfolgter Löschung der Datensätze aus
+dem elektronischen Archivbestand soll ein Aktenvernichtungsprotokoll (speicherbar und
+druckbar) erstellt werden.
+Sofortige Zahlungseinstellung
+Die Software hat eine Funktion zur sofortigen Zahlungseinstellung bereitzustellen, mit
+der für bereits bewilligte Fälle, bei denen die Kenntnis neuer Tatsachen eine weitere Prüfung erfordert, die Auszahlung – laufende Zahlung sowie eventuelle Nachzahlungen – an
+den Zahlungsempfänger bis auf weiteres gestoppt werden kann. Die Software muss eine
+Dokumentation dieser Entscheidung ermöglichen.
+Rückwirkende Entziehung
+Sollte sich im Rahmen eines Änderungsprozesses ergeben, dass die den Prozess auslösende neue Information Auswirkungen auf die Grundsatzentscheidung eines bereits bewilligten Bescheides hat, muss die Software die rückwirkende Entziehung dieser ursprünglich erteilten Bewilligung unterstützen. Die entsprechende Entscheidung muss im
+System dokumentiert werden. Eine sich gegebenenfalls ergebende Rückforderung soll
+automatisiert ans Forderungsmanagementsystem übergeben werden.
+Akte löschen
+Es muss möglich sein, die Daten einer Akte aus datenschutzrechtlichen Gründen nach
+einem geeigneten Freigabeverfahren vollständig zu löschen.
+Office-Integration
+Eine Integration von Microsoft Word zur teilautomatisierten Dokumentenerstellung muss
+vorhanden sein. Dabei sollen frei definierbare Dokumentenvorlagen mit Datenfeldern der
+Anwendung verknüpft werden können. Jedes Studentenwerk bzw. kommunale Amt für
+Ausbildungsförderung muss hier eigene Vorlagen und eigene Textbausteine hinterlegen
+
+Lastenheft
+
+Seite 23
+
+können, um individuelle Briefköpfe etc. abzubilden. Die Vorlagen müssen im Rahmen eines Einführungsprojektes detailliert definiert und eingerichtet werden.
+Es muss zusätzlich die Möglichkeit bestehen, zu einem späteren Zeitpunkt amtsspezifisch neue Vorlagen und Textbausteine anlegen und speichern zu können. Aus solchen
+Vorlagen erzeugte Dokumente müssen bei Bedarf durch den Sachbearbeiter vor dem
+Speichern/Drucken noch bearbeitet werden können.
+Außerdem ist die Integration eines E-Mail-Programms notwendig, um Mitteilungen mit
+den Antragstellern per E-Mail austauschen zu können. Der entstandene E-Mail-Verkehr
+muss automatisiert zum Förderungsfall abgespeichert werden können.
+Besondere Verwaltungsverfahren
+Die Software muss die Möglichkeit der Erfassung von besonderen Verwaltungsverfahren
+innerhalb der elektronischen Akte zur Verfügung stellen. Diese sind:
+•
+•
+•
+•
+•
+
+Ordnungswidrigkeitsverfahren
+Zwangsgeldverfahren
+Klagen
+Schadenersatzverfahren
+Vorausleistungsverfahren
+
+Für alle Verfahren muss die Eintragung einer Wiedervorlage möglich sein.
+Aktenumlaufvermerk
+Die Software muss dem Sachbearbeiter die Möglichkeit bieten, in der elektronischen
+Akte zu Informations- und Auskunftszwecken einen Aktenumlaufvermerk auf Basis einer
+Auswahlliste (gegebenenfalls mit zusätzlicher Freitexteingabe) zu hinterlegen. Dieser bezeichnet beispielsweise den physischen Ort der Papierakte.
+(Zentrale) Anschreiben/Ablaufmitteilung
+Die Software soll die Möglichkeit bieten, zentrale Formschreiben (gegebenenfalls auch
+ohne Bescheidwirkung) zu erstellen, zu drucken und an bestimmte ausgewählte Empfänger zu verschicken. Diese müssen über eine freie Suche nach beliebigen Kriterien (beispielsweise Familienstand, Kinder, Wohnsituation etc.) im Vorfeld auswählbar sein. Aus
+Praktikabilitätsgründen sollten solche zentralen Mitteilungen auch im Massendruckverfahren zentral oder dezentral durchführbar sein.
+
+Lastenheft
+
+Seite 24
+
+Insbesondere muss es möglich sein, sogenannte Ablaufmitteilungen für BAföG-Empfänger zu erstellen. Dabei handelt es sich um schriftliche Erinnerungen zu einem bestimmten Zeitpunkt (beispielsweise zwei Monate vor Ablauf eines BWZ) an alle aktuellen Empfänger, rechtzeitig einen Antrag für den neuen BWZ zu stellen.
+Die Software soll auch für einzelne Sachbearbeiter die Möglichkeit bieten, nach bestimmten Kriterien Serienbriefe erstellen und drucken zu können.
+Berechnung von Zinsen
+Eine Berechnung der Zinsen nach §§ 47a BAföG, 37 BAföG und 44 SGB I ist vorzusehen. Die Ergebnisse der Zinsberechnungen sind in der Software in geeigneter Weise aktenkundig zu dokumentieren und gegebenenfalls in Bescheide, weiteren Schriftverkehr
+sowie zur Verfolgung in das Forderungsmanagementsystem zu übernehmen.
+Unterstützung Datenpflege
+Die Software soll im Rahmen der Unterstützung der Datenpflege berechtigten Benutzern
+regelmäßig elektronische Akten zur Löschung vorschlagen. Dabei sollen automatisch
+solche elektronischen Akten von der Software ausgewählt werden, für die seit einem definierbaren Zeitraum kein vollständiger Erstantrag gestellt wurde (vorerfasste Vorgänge).
+Der Benutzer soll die Möglichkeit haben, aus diesen Akten die zur Löschung vorgesehenen auszuwählen und nach einem geeigneten Freigabeverfahren die Löschung auszulösen.
+
+4.3 Abwicklung Zahlungsverkehr
+Rechnungslauf/Auszahlungsfrequenz
+Gemäß § 51 Abs. 1 BAföG muss die Auszahlung der Förderung unbar monatlich im Voraus erfolgen.
+Die Software muss daher die Möglichkeit eines regelmäßigen monatlichen Rechnungslaufes bieten, der im Ergebnis die entsprechenden (regelmäßigen) Zahlungslisten erstellt. Zusätzlich soll aber die Möglichkeit bestehen, in bestimmten Fällen (beispielsweise
+bei Nachzahlungen) auch variabel zur Monatsmitte einen Rechnungslauf inklusive Auszahlung durchzuführen.
+Verwaltung der Auszahlungen
+Die Software muss die sich aus den Bescheiden eines Förderfalls ergebenden Auszahlungen in der elektronischen Akte darstellen. Die bereits getätigten sowie die zukünftig
+(bis zum Ende des jeweils betrachteten BWZ) fälligen Zahlbeträge müssen monatsgenau
+
+Lastenheft
+
+Seite 25
+
+dargestellt werden. Dabei müssen auch Vorschussleistungen und sonstige außergewöhnliche Auszahlungen berücksichtigt werden.
+Als Ergebnis des regelmäßigen Rechnungslaufes muss für alle freigegebenen und beschiedenen Förderfälle, die in dem betrachteten Zeitraum eine Auszahlung empfangen,
+eine Zahlungsliste im entsprechenden Format für die auszahlende Bank erzeugt und
+über die entsprechende Schnittstelle (vgl. auch LH 54) übermittelt werden. Die Zahlungsliste muss auch in einem druckbaren Format ausgegeben werden können.
+Darstellung der (Rück-)Forderungen
+Die Software muss die sich aus den Bescheiden eines Förderfalls ergebenden (Rück-)
+Forderungen und Einzahlungen in der elektronischen Akte darstellen (die eigentliche
+Verfolgung der (Rück-)Forderungen erfolgt im Forderungsmanagementsystem, vgl. auch
+LH 46). Die zurückgeforderten Beträge sowie die tatsächlich geleisteten Einzahlungen
+müssen taggenau dargestellt werden.
+Forderungsmanagementsystem
+Die niedersächsische Landeshauptkasse (LHK) nimmt keine Aufgaben im Rahmen einer
+kassentechnischen Verarbeitung/Verwaltung war. Die LHK leitet derzeit täglich nachts
+sämtliche auf dem BAföG-Landeskonto eingehende Geldeingänge an die BAföG-Software zur weiteren Verwaltung weiter.
+Daher muss die BAföG-Software zur kassentechnischen Verwaltung von (Rück-)Forderungen und Geldeingängen ein integriertes Forderungsmanagementsystem bieten.
+In dem Forderungsmanagementsystem muss die Umsetzung der gesetzlichen Anforderungen der §§ 20, 37, 38, 47a BAföG gewährleistet sein. Insbesondere folgende Funktionalitäten müssen unterstützt werden:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+Lastenheft
+
+Darstellung aller (Rück-)Forderungen nach eindeutig identifizierbaren Personenkonten
+Zuordnung tatsächlich geleisteter Einzahlungen zum jeweiligen
+Personenkonto
+Verwaltung von Geldrückläufern (u.a. aufgrund falscher Bankverbindung, die wieder auszuzahlen sind)
+Automatische Erzeugung von Mahnungen
+Verwaltung von Stundungen inklusive Berechnung von Stundungszinsen
+Verwaltung von Beitreibungen
+Verwaltung von Niederschlagungen und Erlassungen
+Verwaltung von Anspruchsübergängen
+Verwaltung von Ersatzansprüchen
+Seite 26
+
+•
+
+Verwaltung von Verwahrungen
+
+Das Forderungsmanagementsystem muss die Möglichkeit bieten, verschiedene vordefinierte oder frei zusammenstellbare Listen (sowohl zur Bildschirmausgabe als auch für
+Ausdrucke) bereitzustellen. Unter anderem sind dies:
+•
+•
+•
+•
+•
+•
+
+Liste der Forderungen
+Liste der Wiederauszahlungen
+Liste der Beitreibungen
+Liste der Personenkonten
+Liste der Stundungen, Niederschlagungen und Erlasse
+Liste der Verwahrbeträge
+
+4.4 Auswerten und Suchen
+Auswertung nach Antragsarten
+Eine Auswertung der Anträge nach einzelnen Antragsarten (beispielsweise Erstantrag,
+Folgeantrag, abgelehnte Anträge dem Grunde nach) in einem bestimmten Zeitraum ist in
+der Software zu ermöglichen.
+Vordefinierte statistische Auswertungen
+Die Software muss die Möglichkeit bieten, regelmäßig genutzte statistische Auswertungen als vordefinierten Abfragen zu hinterlegen und auszuführen. Typische vordefinierte
+statistische Auswertungen sind unter anderem:
+•
+•
+•
+
+(Summen-)Zahlungslisten
+(Summen-)Forderungslisten
+(Summen-)Einzahlungslisten
+
+Die Ergebnislisten müssen speicherbar und druckbar sein.
+Unter anderem soll eine derzeit im Bereich BAföG manuell geführte Statistik mit folgenden Inhalten in der BAföG-Software abgebildet werden:
+•
+•
+•
+•
+•
+•
+Lastenheft
+
+Förderungsnummer
+Name Antragsteller
+Meldung BZSt
+Rückforderung
+Eingezahlter Betrag
+Summen
+Seite 27
+
+Frei definierte statistische Auswertungen
+Die Software muss die Möglichkeit bieten, bei Bedarf frei definierbare statistische Auswertungen über den Datenbestand durchzuführen.
+Freie Suche
+Die Software muss die Möglichkeit bieten, nach beliebigen Feldern beziehungsweise Kriterien in frei zusammenstellbarer Kombination Suchen über den jeweils berechtigten Datenbestand auszuführen. Die Suchergebnisse sind als Liste (am Bildschirm darstellbar
+und druckbar) aufzubereiten. Sofern im Rahmen eines Einführungsprojektes typische
+Suchanfragen identifiziert werden, sollen diese als vordefinierten Standardsuchen in der
+Software hinterlegt werden können.
+
+4.5 Onlineantrag
+Onlineantrag
+Zur Beschleunigung und Vereinfachung des Antragsprozesses ist in der Software die
+Möglichkeit vorzusehen, den BAföG-Antrag auch über ein Onlineformular oder auch unter Verwendung mobiler Endgeräte (analog dem Online-Banking) zu stellen.
+Umfang des Onlineantrags
+Sämtliche im Papierantrag vorhandenen Felder müssen auch entsprechend im Onlineantrag dargestellt werden. Es sind die gleichen Plausibilisierungsprüfungen der Vorgangsbearbeitung (vgl. auch LH 31) auch auf den Onlineantrag anzuwenden und Fehler
+entsprechend dem Anwender zurückzumelden.
+Anhänge zum Onlineantrag
+Alle für die Antragstellung relevanten Dokumente müssen vom Antragsteller unter Sicherstellung eines eindeutigen Bezuges zu seinem Antrag hochgeladen werden können.
+Zudem muss es Eltern/Ehegatten/Geschwistern etc. möglich sein, ihre antragsrelevanten
+Daten ebenfalls über entsprechende Onlineformulare bereitzustellen und mit dem Hauptantrag zu verknüpfen.
+
+4.6 Schnittstellen
+Die Software muss verschiedene Schnittstellen zur Verfügung stellen. Die Anforderungen an die jeweiligen Schnittstellen sind in diesem Kapitel näher beschrieben.
+Sofern es zukünftig zu Änderungen der Anforderungen an den jeweiligen Schnittstellen
+kommen sollte, so müssen der Softwareanbieter und die Software in der Lage sein,
+diese Anpassungen umzusetzen.
+
+Lastenheft
+
+Seite 28
+
+4.6.1 Auszahlungen
+Schnittstelle zur Erzeugung der Auszahlungsdatei
+Die Software muss in der Lage sein, eine Datei im mit der auszahlenden Bank abgestimmten Format zu erzeugen und elektronisch an die auszahlende Bank sowie gegebenenfalls weitere befugte und benötigte Empfänger zu übertragen. Die Liste muss daher
+in einem speicherbaren und druckbaren Format ausgegeben werden.
+
+4.6.2 Kassenverfahren der Landeshauptkasse
+Schnittstelle Landeshaupt-Kassenverfahren
+Das integrierte Forderungsmanagementsystem muss bei der niedersächsischen Landeshauptkasse (LHK) eingegangene Geldeingänge über eine von der LHK definierte
+Schnittstelle entgegen nehmen und verwalten können.
+
+4.6.3 Darlehensansprüche
+Schnittstelle KfW Bankengruppe
+Zu jedem Rechnungslauf (derzeit einmal monatlich) werden statistische Daten über die
+ausgezahlten Darlehensanteile an die KfW übermittelt. Dies sind insbesondere Stammdaten des Antragstellers, Angaben zu Erstausbildung oder Zweitausbildung und Änderungen des Kontostandes.
+Die Daten werden im ASCII-Format zur KfW übertragen. Die Lösung muss eine Funktionalität zur Aufbereitung und Übermittlung der Daten bereitstellen.
+
+4.6.4 Jahresstatistik
+Schnittstelle Statistikmeldung
+Die Software muss die Funktion bieten, jährliche statistische Daten an das Statistische
+Bundesamt zu übermitteln. Die benötigten Daten werden in Form eines Datensatzes, der
+vom Statistischen Bundesamt vorgegeben ist übertragen.
+Der Umfang der zu liefernden statistischen Daten wird im § 55 BAföG definiert.
+Die Statistikmeldung bezieht sich auf den Zeitraum 01.01. bis 31.12. eines jeweiligen Berichtsjahres. Der Liefertermin für die Jahresmeldung an das Statistische Bundesamt ist
+für BAföG jeweils der 1. Juli des nachfolgenden Jahres.
+
+Lastenheft
+
+Seite 29
+
+4.6.5 Jahresabschluss Darlehensmeldungen
+Schnittstelle Bundesverwaltungsamt (BVA)
+An das Bundesverwaltungsamt Köln (BVA) sind die für die Zinsberechnung und den Darlehenseinzug erforderlichen Daten durch die BAföG-Software zu übermitteln. Insbesondere sind dies
+•
+•
+•
+•
+
+die Stammdaten des Antragstellers sowie seiner Eltern,
+die Daten des zuständigen Amtes für Ausbildungsförderung,
+das Ende der Förderungshöchstdauer(n) sowie
+die aktuelle Höhe der Darlehen.
+
+Dabei sind sowohl die im Kalenderjahr geleisteten Darlehen einerseits, als auch die im
+Kalenderjahr getroffenen Änderungen von bereits geleisteten Darlehen andererseits, zu
+berücksichtigen.
+Die Meldungen haben einmal jährlich (bis März des Folgejahres) zu erfolgen. Die übermittelten Daten sind nach Absendung für mindestens drei Monate in der Form beim Absender zu sichern, dass sie der BVA erneut zur Verfügung gestellt werden können.
+Die Rückmeldung an die Länder (Zuordnung Förderungsnummer zur BVA-internen Identifikationsnummer) erfolgt sofort nach Auflösung aller offenen Zuordnungen, spätestens
+bis 30.09. des auf das Jahr der Meldung folgenden Jahres. Die Software muss die zurückgemeldeten Daten verarbeiten und darstellen können.
+Die Daten sind im Textformat per Dateitransfer an das BVA zu verschicken und zu verschlüsseln.
+Des Weiteren sind den Ämtern für Ausbildungsförderung Listen über die gemeldeten
+Darlehen zur Verfügung zu stellen.
+
+4.6.6 Datenabgleich der Vermögenswerte
+Schnittstelle Bundeszentralamt für Steuern (BZSt)
+Die BAföG-Software muss die Möglichkeit bereitstellen, Daten von Förderempfängern
+zum Abgleich mit Vermögensdaten an das BZSt zu übertragen. Dabei werden alle Fälle
+mit Auszahlungen in einem bestimmten Zeitraum berücksichtigt. Insbesondere sind neben dem Namen des Antragsstellers dessen Wohnort sowie die angegebenen Bankverbindungen zu übertragen.
+
+Lastenheft
+
+Seite 30
+
+Vom BZSt werden die dort gemeldeten Freistellungsaufträge und Zinseinkünfte zurückgemeldet. Diese zurückgemeldeten Daten müssen in der Software verarbeitet und in geeigneter Form dargestellt werden können.
+
+4.6.7 Umsetzung des ZfA-Meldeverfahrens
+Die BAföG-Software muss in der Lage sein, dass Datenübermittlungsverfahren nach §
+10 Abs. 4b EStG hinsichtlich der steuerfrei geleisteten Zuschüsse zur Kranken- und Pflegeversicherung durchzuführen.
+
+4.6.8 Elektronischer Aktentausch
+Schnittstelle elektronischer Aktentausch
+Für den Fall, dass ein Antragsteller bundeslandübergreifend den Ausbildungsort wechselt, ist eine Möglichkeit zur Übermittlung der elektronischen Akte zwischen den Ämtern
+für Ausbildungsförderung vorzusehen.
+
+Lastenheft
+
+Seite 31
+
+5 Technische Anforderungen an die Software
+5.1 Architektur
+Für einen performanten, reibungslosen und skalierbaren Einsatz der Software ist eine
+durchdachte Architektur entscheidend. Im Folgenden werden die relevanten Architekturanforderungen an die BAföG-Software beschrieben.
+64-Bit Version
+Grundsätzlich ist die Software mindestens auf Serverseite als 64-Bit Version zur Verfügung zu stellen.
+Schichtenmodell
+Die Software muss Präsentations- und Anwendungslogik in unterschiedliche Architekturschichten logisch oder physisch trennen. Bei physischer Trennung der Schichten soll ein
+Kommunikationsprotokoll, das dem aktuellen Stand der Technik entspricht (beispielsweise TCP/IP) verwendet werden. Der Softwareanbieter hat im Pflichtenheft die benötigte Bandbreite sowie die verwendeten Kommunikationsprotokolle zwischen den Schichten zu beschreiben.
+Datenhaltung
+Die Ablage der Daten muss durch die Software in einem Datenbanksystem gewährleistet
+sein. Der Softwareanbieter muss Produkt, Hersteller, Version sowie Typ (relational, objektrelational o. ä.) der einsetzbaren Datenbanksysteme im Pflichtenheft beschreiben.
+Die Datenhaltung soll vollständig in der Datenbank realisiert und nicht (auch nicht teilweise) ins Dateisystem ausgelagert sein.
+Performanz/Skalierbarkeit
+Das System muss bei bis zu 400 gleichzeitigen Benutzern ohne Leistungseinbußen betrieben werden können. Um dies sowie einen späteren Ausbau der gleichzeitigen Benutzer zu ermöglichen, soll der Serverteil in einzelne Komponenten aufgeteilt werden können. Dabei soll eine beliebige Anzahl von Applikationsservern und Datenbankservern,
+bei einer Web-Architektur auch Webservern, betrieben werden können.
+Das System soll sowohl horizontal (mehr Server) als auch vertikal (mehr Leistung pro
+Server) skalierbar sein und dabei die Server/Benutzer-Relation im Wesentlichen gleich
+halten. Dazu sind die internen Prozesse der Software soweit wie möglich parallelisierbar
+zu gestalten.
+Der Softwareanbieter hat die empfohlene Benutzeranzahl je Server inklusive der Beschreibung eines zugehörigen Referenzservers im Pflichtenheft anzugeben.
+Lastenheft
+
+Seite 32
+
+Anbindung der dezentralen Studentenwerke und kommunalen Ämter für Ausbildungsförderung
+Die fünf dezentralen Studentenwerke und 46 kommunalen Ämter für Ausbildungsförderung müssen an die zentral betriebene Software inklusive des einheitlichen zentralen Datenbestandes angebunden werden. Dies soll entweder über eine Desktop-Client-, eine
+Web- oder eine Terminal-Lösung geschehen.
+Die Kommunikation zwischen zentralem Server und den angeschlossenen Studentenwerken und kommunalen Ämtern für Ausbildungsförderung ist durch geeignete Maßnahmen (Software und Hardware) so abzusichern, dass unbefugten Dritten keine Möglichkeit geboten wird, übermittelte Daten abzufangen oder auszulesen.
+Zusätzlich ist zu beachten, dass die in den Studentenwerk und kommunalen Ämtern für
+Ausbildungsförderung angeschlossenen Windows-Drucker auch aus der Software heraus angesteuert und zum Druck von Bescheiden, Anschreiben etc. genutzt werden können.
+Auch ohne lokale Administrationsberechtigung des angemeldeten Windowsbenutzers
+muss die BAföG-Software auf dem Arbeitsplatzrechner vollständig funktionsfähig sein.
+Der Softwareanbieter muss die vorgesehene Anbindung der dezentralen Studentenwerke sowie der kommunalen Ämter für Ausbildungsförderung im Pflichtenheft beschreiben.
+Architektur und Anbindung Onlineantrag
+Die Datenkommunikation im Rahmen des Onlineantrages muss grundsätzlich nach dem
+aktuellen Stand der Technik verschlüsselt werden. Der Onlineantrag muss zudem vollständig kompatibel zu den aktuell üblichen Webbrowsern sein. Die Anbindung des Onlineantrages an das Produktivsystem der BAföG-Software muss die folgenden Vorgaben
+erfüllen:
+•
+
+•
+
+Lastenheft
+
+Die Datenübertragung zwischen dem Webserver und dem Produktivsystem muss grundsätzlich nach dem aktuellen Stand der Technik verschlüsselt werden
+Die Datenhaltung der Daten aus dem Onlineantrag/aus der
+Webapplikation muss zunächst physisch und logisch getrennt von
+der Datenhaltung der operativen Produktivumgebung realisiert sein.
+Eine bewusste Datenübernahme durch den Sachbearbeiter muss
+möglich sein
+
+Seite 33
+
+•
+
+Aus Anwendersicht muss eine klare Trennung der einzelnen Benutzersitzungen (Sessions) gewährleistet sein, so dass jeder Antragssteller stets nur die eigenen Daten lesen oder modifizieren kann
+
+Der Softwareanbieter muss im Pflichtenheft eine Referenzarchitektur für das Gesamtsystem Onlineantrag beschreiben. Dabei muss er insbesondere auf die folgenden Punkte
+eingehen:
+•
+•
+
+•
+
+Zahl der unterstützten gleichzeitigen Antragsteller
+Sicherstellung der Verfügbarkeit des Onlineantrags für die garantierte Zahl der gleichzeitigen Anwender bei extremen Belastungsspitzen
+Kompatible Webserver
+
+Beschreibung Referenzgesamtarchitektur
+Der Softwareanbieter muss im Pflichtenheft eine Referenzgesamtarchitektur beschreiben, die notwendig ist, um das Gesamtsystem vom Anwender im Studentenwerk sowie
+den kommunalen Ämtern für Ausbildungsförderung bis zum Rechenzentrum inklusive
+Onlineantrag stabil und performant zu betreiben. Der Anbieter soll dabei detailliert auf die
+notwendige Hard- und Software für die folgenden Komponenten eingehen:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Applikations- gegebenenfalls Webserver
+Datenbankserver
+Gegebenenfalls Terminalserver
+Client
+Webserver Onlineantrag
+Datenbankserver Onlineantrag
+Netzwerkanbindung
+Firewall
+Kommunikation zwischen allen Architekturkomponenten
+Betriebsumgebung
+Sonstige Komponenten inklusive aller System- und Optimierungswerkzeuge
+
+Administration der Software
+Die BAföG-Software muss sowohl zentral als auch dezentral administrierbar sein. Folgende Aufgaben müssen unter anderem im Rahmen der Administration durchgeführt
+werden können:
+•
+•
+Lastenheft
+
+Anlage von Benutzern inklusive Vergabe von Berechtigungen
+Zurücksetzen und Neuvergabe eines Benutzerpasswortes
+Seite 34
+
+•
+•
+•
+•
+•
+•
+•
+
+Auswertung von Fehlerprotokollen
+Verwaltung und Neuanlage von Textbausteinen für Bescheide und
+sonstige Korrespondenz
+Verwaltung und Neuanlage von Word-Dokumentvorlagen
+Zeitraumbezogene Parametrisierung von berechnungsrelevanten
+Werten (Freibeträge, Einkommensgrenzen etc.)
+Einrichtung fest hinterlegter (auch ämterübergreifend für das Ministerium) statistischer Auswertungen
+Einrichtung fest hinterlegter Suchen
+Datenpflege
+
+5.2 Sicherheitsanforderungen
+Um unberechtigte Zugriffe auf die im Rahmen der BAföG-Sachbearbeitung genutzten
+Personendaten zu verhindern, in jeder Betriebssituation identische Resultate zu liefern
+und einen unwiederbringlichen Datenverlust zu vermeiden, muss die BAföG-Software die
+nachfolgend beschriebenen Sicherheitsanforderungen umsetzen. Die Software muss
+grundsätzlich Schutz, Vertraulichkeit, Verfügbarkeit und Unveränderbarkeit der Daten sicherstellen können.
+Authentifizierung der Anwender
+Die Authentifizierung der Anwender in den Studentenwerken und kommunalen Ämtern
+für Ausbildungsförderung erfolgt über personenspezifische Benutzerkonten.
+Die Anmeldung zur Software ist über die Eingabe von Benutzernamen und Passwort zu
+gestalten. Die Software muss die Möglichkeit bieten, eine zwangsweise Änderung des
+Passwortes nach Ablauf eines vordefinierbaren Zeitraumes zu verlangen. Dabei sind bestimmte Kriterien zu erfüllen. U. a. dürfen die letzten 5 Kennwörter nicht wieder verwendet werden.
+Benutzer und neue Passwörter dürfen nur durch die lokalen oder zentralen Administratoren angelegt beziehungsweise vergeben werden können.
+Berechtigungsmodell
+Mit Hilfe eines Berechtigungsmodells muss gewährleistet werden, dass die Benutzer nur
+Zugriff auf diejenigen Funktionen und Daten innerhalb der BAföG-Software erhalten, die
+sie für die Erledigung ihrer Aufgaben benötigen.
+Dazu muss die Software über bestimmte vordefinierte Rollen verfügen, die einem angelegten Benutzer zugeordnet werden können. Folgende generische Rollen müssen in der
+Software mindestens hinterlegt sein bzw. im Einführungsprojekt angelegt werden:
+
+Lastenheft
+
+Seite 35
+
+•
+•
+•
+•
+•
+
+Administrator zentral
+Administrator dezentral
+Sachbearbeiter
+Gruppenleiter/Hauptsachbearbeiter
+Sachbearbeiter Forderungsmanagement
+
+Einem Benutzer können generell eine oder mehrere Rollen zugeordnet werden, es dürfen einem einzelnen Benutzer allerdings keine Administratorrollen sowie funktionale Rollen der Sachbearbeitung gleichzeitig zugewiesen werden können.
+Durch die Rolle wird festgelegt, welche Aktionen ein Benutzer innerhalb der BAföG-Software durchführen darf (beispielsweise Eingabe von Stammdaten, Setzen der Erstfreigabe, Setzen der Zweitfreigabe, Lesen von Akten).
+Daneben muss eine Beschränkung des Zugriffes auf die Daten nach weiteren Kriterien,
+insbesondere nach Amtsnummer möglich sein.
+Die Ausgestaltung der Rollen und die Berechtigungsvergabe müssen im Rahmen des
+Betriebes durch die Administratoren erfolgen können.
+In einem Berechtigungskonzept muss das umgesetzte Berechtigungsmodell beschrieben
+werden. Außerdem soll dargestellt werden, wie unnötiger und möglicherweise unberechtigter Datenzugriff dadurch minimiert wird, da es sich bei den Antragsdaten um sensible
+persönliche Daten der Antragsteller und ihrer Angehörigen handelt.
+Benutzergruppen/Vertreterregelungen
+Die BAföG-Software muss die Möglichkeit bieten, Benutzer in Benutzergruppen einzuteilen, um Funktionen zu unterstützen, die sich auch auf Gruppen von Benutzern beziehen
+können. Ein Beispiel hierfür ist eine gruppenbezogene Wiedervorlagefunktion.
+Protokollierung
+Die Software muss in der Lage sein, relevante Aktivitäten im Zusammenhang mit der
+BAföG-Abwicklung zu protokollieren.
+Dabei sind insbesondere folgende Protokolle zu erstellen:
+•
+•
+•
+•
+
+Lastenheft
+
+An- und Abmeldungen der Benutzer sowie gescheiterte Anmeldeversuche eines Benutzers
+Bearbeitung von Daten
+Datenübermittlungen an externe Stellen
+Löschung von Daten
+
+Seite 36
+
+Bei der Protokollierung ist zwischen den Aktivitäten des Systems, der Administratoren
+sowie der Anwender zu unterscheiden.
+Um unrechtmäßigen Zugriff beziehungsweise Zugriffsversuche auf den Datenbestand
+sowie Datenänderungen nachvollziehen zu können, müssen die Protokolle durch berechtigte Personen auswertbar sein.
+Es muss insbesondere verhindert werden, dass ein ändernder Zugriff auf die Protokolldaten durch diejenigen Personen stattfinden kann, deren Tätigkeiten durch die Protokolldaten dokumentiert werden.
+Verhinderung von Code Injection
+Die Software muss durch geeignete Prüfungen die Eingabe von ausführbarem Programmcode in Formularfelder (Code Injection) sowohl im Onlineantrag als auch in den
+Eingabemasken der Vorgangsbearbeitung verhindern.
+Verschlüsselung
+Für die Kommunikation zwischen dem Server und dem Client muss die Software die
+Möglichkeit der Verschlüsselung bieten.
+Zudem sollen die Daten auch verschlüsselt in der Datenbank gespeichert werden können.
+
+5.3 Benutzerfreundlichkeit
+Die Benutzerfreundlichkeit ist eine zentrale Voraussetzung für die Akzeptanz der Software. Die in diesem Kapitel aufgestellten Anforderungen sollen diese sicherstellen.
+Barrierefreiheit
+Die BAföG-Software soll die Anforderungen an eine barrierefreie Software nach der „Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz“ erfüllen. Dies gilt insbesondere für den Onlineantrag.
+
+Lastenheft
+
+Seite 37
+
+Ergonomie
+Die ergonomischen Anforderungen an eine Software nach DIN EN ISO 9241 (Teile 1118 und 110) sind zu erfüllen. Außerdem muss die Software unnötige Interaktionen minimieren und einen konsistenten Aufbau haben. Die wesentlichen ergonomischen Merkmale sind vom Softwareanbieter im Pflichtenheft zu beschreiben.
+Benutzerhandbuch/Hilfefunktion
+Es müssen geeignete Benutzerhandbücher sowohl in elektronischer als auch in gedruckter Form vorliegen. Außerdem müssen wesentliche Bestandteile des Benutzerhandbuches über eine Hilfefunktion innerhalb der Software abgerufen werden können. Dabei
+sollen sich zu den einzelnen Bearbeitungsschritten beziehungsweise Feldern alle relevanten Informationen direkt anzeigen lassen.
+Das Benutzerhandbuch muss für alle im Berechtigungskonzept festgelegten Rollen die
+relevanten Anwendungsfunktionen beschreiben.
+Benutzeroberfläche
+Die Sprache der Benutzeroberfläche muss Deutsch sein. Die Navigation und Bedienung
+muss mit PC-Grundkenntnissen und durch reine Tastaturnavigation möglich sein. Die
+Strukturierung der Informationen in den Eingabemasken ist vom Softwareanbieter im
+Pflichtenheft darzustellen.
+Automatisches Vervollständigen
+Die Software muss die Möglichkeit bieten, Benutzereingaben in Datenfelder sinnvoll zu
+ergänzen. Dies umfasst insbesondere die automatische Vervollständigung basierend auf
+dem möglichen Wertebereich.
+Abgeleitete Felder
+Mit dem Ziel der Arbeitserleichterung sowie dem Ziel der Fehlervermeidung soll die Software in der Lage sein, bestimmte Identifikationsnummern, die in ein Eingabefeld eingetragen werden, automatisch in einem zweiten Feld mit dem dazugehörigen Wert zu ergänzen. Beispiele hierfür sind Postleitzahlen mit den dazugehörigen Städtenamen.
+Da Postleitzahlen nicht immer nur einem eindeutigen Wert zugeordnet sind, müssen
+dem Anwender von der Software alle zugehörigen Ergebniswerte zur Auswahl angezeigt
+werden. Bei einem eindeutigen Ergebniswert soll dieser automatisch in das entsprechende Feld übernommen werden.
+
+Lastenheft
+
+Seite 38
+
+Vorschlagslisten
+Um Falscheingaben zu minimieren beziehungsweise den Wertebereich eines Eingabefeldes auf eine Anzahl von Auswahlmöglichkeiten einzuschränken, soll die Software dem
+Anwender für geeignete Eingabefelder Vorschlagslisten anzeigen. Der Benutzer kann
+dann einen Wert aus den Vorschlägen auswählen, der dann in das entsprechende Feld
+übernommen wird oder gegebenenfalls stattdessen einen eigenen, alternativen Wert eingeben, beispielsweise in einem Titel-Eingabefeld (Dr., Dr.-Ing., Prof. etc.) der Stammdateneingabe oder bei der Eingabe des Aktenumlaufvermerkes.
+Individualisierbarkeit
+Die Software muss für den einzelnen Benutzer individualisierbar sein, beispielsweise hinsichtlich einer Anzeige der letzten vom Benutzer bearbeiteten Fälle oder der zuletzt verwendeten Fenstergröße.
+Vermeidung von Doppeleingaben
+Doppeleingaben von Daten in unterschiedlichen Formularen sind zu vermeiden. Daten,
+die bereits in einem vorhergehenden Formular eingegeben wurden (beispielsweise das
+Geburtsdatum), sollen automatisch in den entsprechenden Datenfeldern anderer Eingabemasken angezeigt werden.
+Bei der Ergänzung eines BWZ für einen bestehenden Antragsteller sind automatisch die
+Daten aus dem vorhergehenden BWZ als Vorschlagswerte in die Eingabemasken zu
+übernehmen.
+Rückmeldungen der Software
+Auf Benutzeraktionen muss die BAföG-Software umgehende Rückmeldungen über das
+Ergebnis beziehungsweise den aktuellen Status der Bearbeitung (beispielsweise „ErstFreigabe erteilt“) ausgeben. Die Software soll dem Benutzer im Fehlerfall sprechende,
+informative Fehlermeldungen anzeigen.
+Rückgängig-Funktion
+Die BAföG-Software muss während der Dateneingabe in der Software eine RückgängigFunktion unterstützen, die es dem Sachbearbeiter ermöglicht, versehentliche Fehleingaben zu korrigieren und den ursprünglichen Wert wiederherzustellen.
+Kopier- und Einfüge-Funktion
+Die BAföG-Software muss eine Funktion zum Kopieren und Einfügen von Daten sowohl
+innerhalb der Anwendung als auch zu anderen Anwendungen der BAföG-Umgebung
+(beispielsweise Office-Programme) bereitstellen.
+
+Lastenheft
+
+Seite 39
+
+Automatisierte Drucker-/Papierfach-Vorauswahl
+Die Software muss die Möglichkeit bieten, je Arbeitsplatz Voreinstellungen hinsichtlich
+der Zuordnung von Dokumenten zu einzelnen Druckern beziehungsweise spezifischen
+Papierfächern treffen zu können. Zudem muss ein Standarddrucker beziehungsweise papierfach festgelegt werden können.
+
+Lastenheft
+
+Seite 40
+
+6 Anforderungen an den Betrieb
+6.1 Datenschutz und Datensicherheit
+Um die Einhaltung von Datenschutz und Datensicherheit zu gewährleisten, sind vom Betreiber der BAföG-Software die in diesem Kapitel gemachten Vorgaben zu erfüllen. Da
+es sich bei Förderungen nach BAföG um Leistungen des Sozialgesetzbuches handelt,
+sind die in diesem Zusammenhang erhobenen und verarbeiteten Daten als sogenannte
+Sozialdaten (§ 67 SGB X) gemäß der Datenschutzbestimmungen des SGB X zu behandeln.
+Datenschutz
+Den maßgeblichen Rahmen für die Datenerhebung, -verarbeitung und -nutzung legen
+die §§ 67 ff. SGB X fest. Der Betreiber der BAföG-Software muss daher grundsätzlich
+alle dort festgelegten Anforderungen an den Schutz der Daten erfüllen. Dies gilt insbesondere für den § 80 SGB X, der die Erhebung, Verarbeitung oder Nutzung von Sozialdaten im Auftrag behandelt.
+Das die Software betreibende Rechenzentrum muss nach dem BSI-Grundschutz
+(Stufe 3) zertifiziert sein. Zur Demonstrierung der Einhaltung der gesetzlichen Datenschutzvorschriften muss beim Betreiber ein Datenschutzaudit gemäß § 78c SGB X
+durchgeführt worden sein.
+Der Betreiber muss geeignete organisatorische und technische Sicherheitsmaßnahmen
+im relevanten Rechenzentrum treffen. Unter anderem gehören dazu Maßnahmen hinsichtlich Zugriffsschutz und Zugangsberechtigungen sowie der Schutz des Systems und
+der Daten vor elementaren Schäden (Feuer, Wasser etc.). Der Betreiber hat die getroffenen Sicherheitsmaßnahmen dem Auftraggeber im Pflichtenheft darzulegen.
+Die im IT-Sicherheitshandbuch des Bundesamtes für Sicherheit in der IT (BSI) beschriebenen Verfahren zur Erstellung eines Sicherheitskonzeptes (beispielsweise die Ermittlung der Schutzbedürftigkeit oder die Bedrohungs- und Risikoanalyse) sind einzuhalten.
+Der Betreiber hat die Einhaltung der Verfahren dem Auftraggeber im Pflichtenheft darzulegen.
+Für die Kommunikation zwischen den einzelnen Servern, beziehungsweise dem Server
+und dem Client, müssen geeignete verschlüsselte Kommunikationsprotokolle eingesetzt
+werden.
+Datensicherung und Wiederherstellung
+Zur Durchführung der regelmäßigen Datensicherung ist vom Betreiber ein geeigneter Sicherungsplan zu erstellen. Diese sowie die verwendete Sicherungssoftware sind dem
+Lastenheft
+
+Seite 41
+
+Auftraggeber im Pflichtenheft darzulegen. Die Sicherung muss im laufenden Betrieb erfolgen können. Zudem sind regelmäßige Wiederherstellungstests zur Sicherstellung der
+Wiederherstellungsfähigkeit durchzuführen.
+Nach einem Schadensfall muss die Wiederherstellung des uneingeschränkt lauffähigen
+Systems von montags bis freitags innerhalb von 24 Stunden gewährleistet werden. Dabei soll der Datenbestand bis zum Ausfallzeitpunkt rekonstruiert werden können. Der Erfolg der Wiederherstellung muss verifizierbar sein.
+Redundanz
+Der Betreiber muss die Möglichkeit einer redundanten Datenhaltung bieten. Dabei ist
+zwischen redundanter Datenhaltung auf Systemebene (gespiegelte Datenträger, Hauptspeicher etc.) und redundanten Systemen (Servern) zu unterscheiden.
+Verpflichtend ist die Vorhaltung einer redundanten Netzwerkinfrastruktur sowie einer redundanten Stromversorgung, Kühlung etc.
+
+6.2 Regulärer Betrieb
+Zentrale Administration
+Der Betreiber muss geeignete Ressourcen für die zentrale Administration der BAföGSoftware und der notwendigen Betriebsumgebung zur Verfügung stellen. Der Betreiber
+soll die geplanten personellen Ressourcen sowie deren technisches und fachliches
+Know-how im Pflichtenheft beschreiben sowie die Kosten für die Systemadministration
+im Preisblatt darstellen.
+Service Desk (Betreiber)
+Um die reibungslose Kommunikation (telefonisch und per E-Mail/Aktionsanforderungssystem) mit dem Auftraggeber sowie insbesondere den Ämtern für Ausbildungsförderung
+zu gewährleisten, hat der Betreiber eine zentrale Anlaufstelle (Service Desk) für alle Serviceanfragen zur Verfügung zu stellen. Die Aufgaben dieses Service Desks umfassen
+insbesondere die Aufnahme, Klassifizierung, Priorisierung, Eskalation und Lösung eines
+Vorfalls.
+Sofern Vorfälle, die auf Fehler in der Software zurückzuführen sind, nicht durch den Betreiber gelöst werden können, müssen diese an den Softwareanbieter eskaliert werden.
+Der Service Desk des Betreibers bleibt auch in diesem Fall zentrale Kommunikationsschnittstelle zum Auftraggeber und den Anwendern (Single Point of Contact).
+
+Lastenheft
+
+Seite 42
+
+Systemverfügbarkeit
+Der Betreiber muss durch seine angebotenen Service Level eine Systemverfügbarkeit
+von mindestens 99 % von montags bis freitags garantieren. Zudem muss zu eben diesen
+Zeiten eine Systemwiederherstellung innerhalb von 24 Stunden gewährleistet werden.
+Reaktionszeit auf Fehlertickets
+Die Reaktionszeit auf Fehlertickets durch den Betreiber darf während der Servicezeiten
+den Zeitraum von einer Stunde nicht überschreiten. Die Reaktion auf ein Ticket muss
+eine Rückmeldung zu dem geschilderten Problem beinhalten.
+Lösungszeit von Fehlertickets
+Gemeldete Fehler, die den Systembetrieb unmittelbar beeinträchtigen, müssen durch
+den Betreiber analog zur Wiederherstellungszeit des Gesamtsystems von Montag bis
+Freitag innerhalb von 24 Stunden behoben werden.
+Reporting der Servicelevel
+Der Betreiber muss monatsweise an den Auftraggeber die Einhaltung der vereinbarten
+Servicelevel berichten.
+Sicherstellung der Durchführung regelmäßiger Jobs
+Der Betreiber muss sicherstellen, dass alle regelmäßigen Jobs gemäß eines festzulegenden Ablaufplanes in der erforderlichen Periodizität fehlerfrei durchgeführt werden.
+Durchzuführende regelmäßige Jobs sind beispielsweise:
+•
+•
+•
+•
+•
+
+Rechnungslauf
+Datenbankwartung
+Datensicherung
+Datenwiederherstellungstest
+Auslösen von Datenübermittlungen an Dritte (Destatis etc.)
+
+Dezentraler Einsatz
+Der Betreiber hat die möglichen Varianten des dezentralen Einsatzes der Software im
+Pflichtenheft und deren Kosten im Preisblatt darzustellen. Dies sind beispielsweise eine
+Anbindung direkt über das Internet, über VPN oder einen Terminalserver. Außerdem
+sind die dafür auf Clientseite jeweils zu schaffenden Voraussetzungen zu benennen.
+
+Lastenheft
+
+Seite 43
+
+Testumgebung
+Beim Betreiber muss eine Testumgebung vorgehalten werden, um Updates/Patches vor
+dem Einspielen in das Produktivsystem testen zu können. Die durchzuführenden Tests
+umfassen Funktionstests, Integrationstests, Lasttests, GUI-Tests und Penetrationstests.
+Change Management (Betreiber)
+Der Betreiber muss ein geeignetes Change-Management umsetzen, um Veränderungen
+am System in nachvollziehbarer, geordneter und effizienter Weise zu planen, zu überwachen und zu dokumentieren. Die beim Betreiber eingesetzten Prozesse sind dem Auftraggeber im Pflichtenheft darzulegen.
+Release Management (Betreiber)
+Aufbauend auf einem Change-Management muss außerdem ein geeignetes Release
+Management vom Betreiber eingesetzt werden. Hierdurch sollen die Freigaben von Softwarereleases sowie deren Roll-out geplant, überwacht und dokumentiert werden und die
+Produktivumgebung vor dem Einspielen fehlerhafter oder falscher Releases geschützt
+werden.
+Das Release Management überführt in den Change-Management-Prozessen genehmigte Änderungen in die Produktivumgebung.
+Die beim Betreiber eingesetzten Prozesse sind dem Auftraggeber im Pflichtenheft darzulegen.
+Configuration Management (Betreiber)
+Der Betreiber muss ein Configuration Management einsetzen, um gegebenenfalls verschiedene Konfigurationen der Software getrennt voneinander verwalten und dokumentieren zu können. Hierbei ist insbesondere auf die organisatorische und technische Trennung der bundeslandspezifischen Unterschiede vom restlichen Betrieb des Anbieters
+einzugehen. Es muss sichergestellt sein, dass die spezifischen Konfigurationen von denen anderer Bundesländer getrennt sind, um bei Updates und Änderungen nicht in Konflikt zu kommen.
+
+Lastenheft
+
+Seite 44
+
+7 Anforderungen an das Einführungsprojekt
+Zeitplan und Inhalte des Einführungsprojektes
+Das Einführungsprojekt für die BAföG-Software soll am 1.3.2018 starten. Die Dauer des
+Einführungsprojektes ist mit 9 Monaten vorgesehen.
+Der Softwareanbieter muss im Pflichtenheft beschreiben, ob und in welchem Umfang die
+Software zum geplanten Einführungsprojekt zur Verfügung steht (BAföG, Forderungsmanagementsystem, Online-Verfahren). Für alle Software- und Hardware-Komponenten ist
+eine möglichst geringe Fehleranfälligkeit zum Einführungszeitpunkt sicherzustellen.
+Wesentliche Projektaufgaben sind von den Projektbeteiligten in gemeinsamer Abstimmung zu berücksichtigen:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Analyse der landesspezifischen Anforderungen
+Customizing der Software und Umsetzung der spezifischen Anpassungen
+Einrichtung der erforderlichen Schnittstellen
+Einrichtung des Systems beim Betreiber
+Einrichtung der Berechtigungen
+Tests (Funktionstest, Integrationstest, Lasttest, GUI-Test, Penetrationstest)
+Schulung der Anwender und Administratoren durch den Softwareanbieter
+Migration der Altdaten
+Parallelbetrieb
+Erstellung Vorabkontrolle und Verfahrensverzeichnis
+Erstellung Sicherheitskonzept
+Einbeziehung der örtlichen Personalvertretungen in den Ämtern für
+Ausbildungsförderung
+Beteiligung Datenschutzbeauftragter
+Abnahme durch den Auftraggeber
+Produktivsetzung
+
+Der Softwareanbieter muss einen Projektplan (Meilensteinplan) für das Einführungsprojekt anhand der oben genannten Projektaufgaben als Teil des Einführungskonzeptes
+(vgl. auch LH 112) vorlegen.
+
+Lastenheft
+
+Seite 45
+
+Schulung der Anwender und Administratoren
+Der Softwareanbieter muss im Rahmen des Einführungsprojektes sämtliche Anwender
+für die Benutzung der BAföG-Software schulen. Inhalte, Dauer und die jeweiligen Zielgruppen der Schulungen müssen dazu im Vorfeld in Form eines Schulungskonzeptes
+festgelegt werden.
+Altdatenmigration
+Der Softwareanbieter muss sicherstellen, dass die Bestandsdaten aus dem Altverfahren
+(„Altdaten“) vollständig und korrekt in das neue System übernommen werden. Dafür hat
+der Softwareanbieter in einem Altdatenmigrationskonzept die technischen Verfahren der
+Datenübernahme sowie die Prüfverfahren darzustellen.
+Tests
+Der Softwareanbieter muss die Funktionsfähigkeit der BAföG-Software im Rahmen des
+Einführungsprojektes durch geeignete Tests überprüfen. Dies umfasst insbesondere
+Funktions-, Integrations-, Last-, GUI- sowie Penetrationstests.
+Vorabkontrolle und Verfahrensverzeichnis
+Der Softwareanbieter muss im Rahmen eines Einführungsprojektes den Aufraggeber bei
+der Durchführung und Dokumentation einer Vorabkontrolle unterstützen, um zu untersuchen, ob durch die beabsichtigte automatisierte Datenverarbeitung das Recht der informationellen Selbstbestimmung gefährdet wird.
+Des Weiteren muss der Softwareanbieter den Aufraggeber bei der Erstellung eines Verfahrensverzeichnisses unterstützen.
+Sicherheitskonzept
+Der Softwareanbieter soll in Zusammenarbeit mit dem Betreiber im Rahmen des Einführungsprojektes den Auftraggeber unterstützen, ein Sicherheitskonzept zu erstellen, in
+dem die Gesamtheit aller funktionalen, technischen und organisatorischen Maßnahmen
+der Software und des Betriebs der Software dargelegt sind, die den Schutz und die Sicherheit des Verfahrens und der erhobenen und verarbeiteten Daten sicherstellen.
+Systemadministrationshandbuch
+Der Softwareanbieter muss dem Auftraggeber ein Systemadministrationshandbuch, das
+die Prozesse und Werkzeuge der Systemadministration beschreibt, zur Verfügung stellen.
+
+Lastenheft
+
+Seite 46
+
+8 Lieferung und Abnahme
+Lieferumfang
+Folgende Dokumente sind dem Auftraggeber bereits im Rahmen des Angebotes zur Verfügung zu stellen:
+•
+•
+•
+
+Pflichtenheft
+Einführungskonzept inklusive Projektmeilensteinplan
+Preisblatt inklusive Zahlungsplan
+
+Der Lieferumfang für eine erfolgreiche Abnahme des Gesamtprojektes durch den Auftraggeber umfasst mindestens:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Softwareinstallation auf Datenträger
+Benutzerhandbuch
+Systemadministrationshandbuch
+Installationsanleitung
+Quellcode (Insolvenz-Backup)
+Schulungskonzept
+Altdatenmigrationskonzept
+Berechtigungskonzept
+Betriebsbereites Gesamtsystem (Altdatenmigration, Berechtigungen, Schulungen etc.)
+Ansprechpartner (Projektmanager des Softwareanbieters)
+
+Pflichtenheft
+Der Softwareanbieter beziehungsweise der Betreiber müssen in einem Pflichtenheft dokumentieren, ob und in welcher Form sie die Anforderungen des vorliegenden Lastenheftes umsetzen können. Insbesondere die Beschreibung der Umsetzung der funktionalen Anforderungen soll die Darstellung der Eingabemasken (GUI) der Software enthalten.
+Das Pflichtenheft ist dem Auftraggeber bereits als Bestandteil des Angebotes zur Verfügung zu stellen.
+Einführungskonzept inklusive Meilensteinplan
+Der Softwareanbieter muss mit dem Auftraggeber ein Einführungskonzept abstimmen, in
+dem die Umsetzung der Gesamtheit der Projektaufgaben in einem Meilensteinplan und
+das Projektmanagement in einem Einführungsprojekt dargestellt werden. Insbesondere
+
+Lastenheft
+
+Seite 47
+
+soll dabei auch auf das Rollenmodell zwischen dem Softwareanbieter, dem Auftraggeber, dem Betreiber und den Ämtern für Ausbildungsförderung sowie auf die Kommunikations- und Eskalationsprozesse eingegangen werden.
+Preisblatt inklusive Zahlungsplan
+Des Weiteren ist ein detailliertes Preisblatt für die Anschaffung, die Einführung und den
+Betrieb der BAföG-Software durch den Softwareanbieter beziehungsweise den Betreiber
+zu liefern. Das Preisblatt sollte dabei mindestens folgende Bestandteile umfassen:
+•
+
+•
+
+•
+
+•
+
+•
+
+Softwarelizenzen (für Produktiv- und Testumgebung)
+o Einmalige oder periodische Kosten
+o Art der Lizenz (beispielsweise je Arbeitsplatz, je Server, landesweite Pauschale für bis zu 400 Arbeitsplätze in 5 Studentenwerken sowie 46 kommunalen Ämtern für Ausbildungsförderung)
+o Aufschlüsselung nach BAföG, Forderungsmanagementsystem, Onlineverfahren
+Weiterentwicklung und Wartung (Softwareanbieter)
+o Aufschlüsselung nach Umsetzung von Gesetzesänderungen, funktionalen/technischen Weiterentwicklungen und
+Wartung
+Einführung
+o Kosten für das Einführungsprojekt inklusive detaillierter Darstellung der einzelnen Leistungen
+Betrieb
+o Pauschale periodische Vergütung zur Erbringung der definierten Servicelevels im Betrieb
+o Kosten der Systemadministration
+Zahlungsplan
+
+Parallelbetrieb
+Die Software muss vor der Freigabe für die Produktivsetzung im Parallelbetrieb mit einer
+relevanten, vom Auftraggeber festzulegenden Anzahl von Echtfällen mindestens für drei
+monatliche Rechnungsläufe die gleichen Berechnungsergebnisse und entsprechenden
+Bescheide wie das bestehende Verfahren liefern.
+Hinterlegung Binärdateien und Quelltext sowie Datenbestand
+Der Softwareanbieter muss initial und in der Folge in Abstimmung mit dem Auftraggeber
+die Binärdateien sowie den Quelltext der Softwarelösung (inklusive der eingesetzten
+Komponenten von Drittanbietern) in der jeweils aktuellen Version für den Auftraggeber
+
+Lastenheft
+
+Seite 48
+
+an geeigneter, vom Auftraggeber zu benennender Stelle (beispielsweise Notar, Rechtsanwalt) hinterlegen. Hierdurch soll im Falle einer Insolvenz oder sonstigen Auflösung des
+Softwareanbieters der Auftraggeber Zugriff auf den Quelltext erhalten.
+Vertragslaufzeit Software
+Die Vertragslaufzeit für die Software soll 5 Jahre betragen. Die Laufzeit soll sich automatisch jeweils um 12 Monate verlängern, soweit der Vertrag nicht mit einer Frist von 12
+Monaten zum Ende eines Kalenderjahres gekündigt wird.
+Vertragliche Rahmenbedingungen Softwareanbieter
+Bei der Vertragsgestaltung zwischen dem Auftraggeber und dem Softwareanbieter sind
+die Grundlagen der „Ergänzenden Vertragsbedingungen für die Beschaffung von Informationstechnik“ (EVB-IT), beziehungsweise in Abhängigkeit des zu verwendenden Vertragstyps ersatzweise die der älteren „Besonderen Vertragsbedingungen für die Beschaffung von DV-Anlagen und Geräten“ (BVB), zu beachten.
+Folgende Service Levels sind für den Softwareanbieter vertraglich vorzusehen:
+Service
+
+Kennzahl
+
+Vereinbarung
+
+Service Desk
+Softwareanbieter
+
+Reaktionszeit auf Fehlertickets
+(vgl. auch LH 94)
+
+ 1 Stunde
+
+Service Desk
+Softwareanbieter
+
+Lösungszeit von Fehlertickets
+(unmittelbare Beeinträchtigung des
+Systembetriebs)
+(vgl. auch LH 95)
+
+ 24 Stunden
+
+(Mo-Fr 7 -19 Uhr)
+(Mo-Fr 7 -19 Uhr)
+
+Vertragslaufzeit Betreiber
+Die Vertragslaufzeit für den Betrieb soll 5 Jahre betragen. Die Laufzeit soll sich automatisch jeweils um 12 Monate verlängern, soweit der Vertrag nicht mit einer Frist von 12
+Monaten zum Ende eines Kalenderjahres gekündigt wird.
+
+Lastenheft
+
+Seite 49
+
+Vertragliche Rahmenbedingungen Betreiber
+Bei der Vertragsgestaltung zwischen dem Auftraggeber und dem Betreiber sind die
+Grundlagen der „Ergänzenden Vertragsbedingungen für die Beschaffung von Informationstechnik“ (EVB-IT), beziehungsweise in Abhängigkeit des zu verwendenden Vertragstyps ersatzweise die der älteren „Besonderen Vertragsbedingungen für die Beschaffung
+von DV-Anlagen und Geräten“ (BVB), zu beachten.
+Folgende Service Levels sind für den Betreiber vertraglich vorzusehen:
+
+Service
+
+Kennzahl
+
+Vereinbarung
+
+BAföG-Software
+
+Systemverfügbarkeit
+(vgl. auch LH 93)
+
+ 99%
+
+Systemwiederherstellung
+(vgl. auch LH 93)
+
+ 24 Stunden
+
+Service Desk
+Betreiber
+
+Reaktionszeit auf Fehlertickets
+(vgl. auch LH 94)
+
+ 1 Stunde
+
+Service Desk
+Betreiber
+
+Lösungszeit von Fehlertickets
+(unmittelbare Beeinträchtigung des
+Systembetriebs)
+(vgl. auch LH 95)
+
+ 24 Stunden
+
+Datensicherung
+
+Lastenheft
+
+(Mo-Fr 7 -19 Uhr)
+(Mo-Fr 7 -19 Uhr)
+(Mo-Fr 7 -19 Uhr)
+(Mo-Fr 7 -19 Uhr)
+
+Seite 50
+
+Anhang: Liste der Anforderungen des Lastenheftes
+
+
+
+
+
+
+
+
+
+
+    
+
+"
+
+#   
+
+$
+
+  % &  
+
+'
+
+#
+
+)
+
+*+, +
+
+-
+
+./   (
+
+2
+
+  % 1
+
+ 3
+
+* %   & "
+
+ 
+
+#  "
+
+ 
+
+4  % 5 +&$
+
+ 
+
+5/ !  6  $
+
+ "
+
+(7
+
+ $
+
+4/ #  &  $
+
+ '
+
+
+
+ )
+
+5 
+
+ -
+
+
+
+ 2
+
+,  -
+
+ 3
+
+
+
+ %   -
+
+ 
+
+
+
+ -
+
+ 
+
+ ++4  7 -
+
+ 
+
+(% 
+
+ "
+
+
+
+ $
+
+
+
+ '
+
+
+
+ )
+
+,
+
+ -
+
+
+
+Lastenheft
+
+    
+
+   !!
+
+  !  
+
+ (  
+
+ #
+
+ 
+ 0
+
+
+
+1
+
+  &!"
+
+    $
+
+ % # !!  !'
+
+
+ % 
+
+8 "$ #()
+  )
+
+ 
+
+
+
+ % 1
+
+2
+
+  &! 2
+
+ % 9/  2
+  3
+  3
+
+   3
+
+Seite 51
+
+ 2
+
+# !!/  
+
+ 3
+
+
+
+ 
+
+4     
+
+ 
+
+:  
+
+ 
+
+
+
+ "
+
+(  ,    
+
+ $
+
+9/ 1  #   
+
+ '
+
+ 
+
+ )
+
+6 +;  
+
+ -
+
+ 1 %  "
+
+ 2
+
+! %! "
+
+ "3
+
+<, = 
+
+ "
+
+
+
+ "
+
+./  57  $
+
+ "
+
+9
+
+ ""
+
+1     $
+
+ "$
+
+5   <9/ += '
+
+ "'
+
+!!?! '
+
+   
+
+% 
+
+
+
+  !   "
+
+ % ,  $
+
+   > $
+
+ ")
+
+1 
+
+)
+
+ "-
+
+     
+
+ 1)
+
+ "2
+
+      
+
+ $3
+
+  (
+
+ 1 -
+
+ -
+
+ $
+
+6  -
+
+ $
+
+.!  6  -
+
+ $
+
+ & ! 6  -
+
+ $"
+
+(
+
+    #      2
+
+ $$
+
+(
+
+   @% 2
+
+ $'
+
+(
+
+   @* 77 2
+
+ $)
+
+(
+
+   (  !  2
+
+ $-
+
+(
+
+   %1 ! <= 3
+
+Lastenheft
+
+Seite 52
+
+ $2
+
+(
+
+     ! / ( <,(=3
+
+ '3
+
+(
+
+     
+
+ '
+
+'"+   
+
+ '
+
+(
+
+ '
+
+5   
+
+ '"
+
+4! (  
+
+ '$
+
+      A! /   
+
+ ''
+
+
+
+ ')
+
+
+
+ '-
+
+!     (1"
+
+ '2
+
+     1$
+
+ )3
+
+
+
+ )
+
+ 77  '
+
+ )
+
+4  '
+
+ )
+
+  % B ;C  )
+
+ )"
+
+
+
+ )$
+
+   )
+
+ )'
+
+#! -
+
+ ))
+
+  
+
+   -
+
+ )-
+
+  &
+
+-
+
+ )2
+
+! 
+
+ -3
+
+    -
+
+ -
+
+
+
+ -
+
+; %     2
+
+ -
+
+!  % 577  2
+
+ -"
+
+9/ !   (12
+
+ -$
+
+9/ & +   2
+
+ -'
+
+@7 +  # /+   2
+
+ -)
+
+!   5 +47 
+
+ --
+
+5
+
+Lastenheft
+
+ 
+
+
+
+! 
+
+    6  
+  9 !
+
+"
+
+ ! $
+
+/  )
+
+ % &  -
+
+  2
+
++1
+
+"3
+
+ "
+
+Seite 53
+
+ -2
+
+5
+
+ 23
+
+9 "
+
+ 2
+
+,  !    "
+
+ 2
+
+(%  5 < = "
+
+ 2
+
+(?!%/  "
+
+ 2"
+
+9        "
+
+ 2$
+
+   %    "
+
+ 2'
+
+97   (%  % "
+
+ 2)
+
+(
+
+ 2-
+
+5   #  "
+
+ 22
+
+E! ""
+
+ 33
+
+B  F! < = ""
+
+ 3
+
+9  F! < =""
+
+ 3
+
+B   F! < = ""
+
+ 3
+
+, 7   ;    # / 7C "$
+
+ 3"
+
+(
+
+ 3$
+
+ !   "'
+
+ 3'
+
+E "'
+
+ 3)
+
+    % 
+
+ 3-
+
+(
+
+ 32
+
+(?!!    
+
+ 3
+
+  *    "
+
+   5
+
+/   !&D  :"
+
+   1  !  "'
+
+ "'
+
+   7 "'
+"'
+
+!")
+
+ 
+
+4
+
+ 
+
+# /  7   % F  7 ")
+
+ 
+
+4     % , 7  "-
+
+ "
+
+4   "-
+
+ $
+
+    &   G H 1  5 "-
+
+ '
+
+    (1 "2
+
+ )
+
+
+
+ -
+
+     "2
+
+Lastenheft
+
+ ")
+
+ 9 !  (1  "2
+
+Seite 54
+
+ 2
+
+Lastenheft
+
+
+
+ 9 !    $3
+
+Seite 55
+
+

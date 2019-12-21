@@ -1,0 +1,5 @@
+Alle Änderungen werden basierend auf einer
+Risikobewertung priorisiert (z. B. als niedrig,
+normal, hoch, Notfall), um eine angemessene
+Autorisierung vor Bereitstellung der Änderung in
+der Produktivumgebung einzuholen.

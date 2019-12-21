@@ -1,0 +1,4 @@
+Deren
+Einhaltung wird durch den Mitarbeiter schriftlich
+bestätigt, bevor Zugriff auf Daten der Cloud-Kunden oder die (geteilte) IT-Infrastruktur möglich
+ist.

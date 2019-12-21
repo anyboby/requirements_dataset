@@ -1,0 +1,6 @@
+Der Reiter 10 soll um ein weiteres
+Feld ergänzt werden, dass für
+interne
+Bemerkungen
+genutzt
+werden kann.

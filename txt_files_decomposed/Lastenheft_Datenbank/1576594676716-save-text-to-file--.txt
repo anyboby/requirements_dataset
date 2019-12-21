@@ -1,0 +1,6 @@
+Die Auswertungen sollen durch
+Diagramme
+ergänzt
+werden.
+Diagramme sollen als *.jpg oder
+*png speicherbar sein.

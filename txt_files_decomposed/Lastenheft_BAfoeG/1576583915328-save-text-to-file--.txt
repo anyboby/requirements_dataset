@@ -1,0 +1,5 @@
+Die Software soll zusätzlich aus der Sachbearbeitung heraus automatisch Wiedervorlagen vorschlagen (beispielsweise bei der Erstellung eines Anforderungsschreibens). Diese beinhalten einen durch den Sachbearbeiter überschreibbaren Terminvorschlag.
+Offene Wiedervorlagen des Benutzers sowie seiner Benutzergruppen sollen automatisch
+bei Fälligkeit angezeigt werden. Dabei muss die Möglichkeit bestehen, Wiedervorlagen
+auszuschalten beziehungsweise auf einen späteren Wiedervorlagetermin zu verschieben, ohne den jeweiligen Vorgang aufrufen zu müssen. Die Wiedervorlagen eines Benutzers/einer Benutzergruppe müssen jederzeit einsehbar oder aufrufbar und auf andere
+Nutzer übertragbar sein.

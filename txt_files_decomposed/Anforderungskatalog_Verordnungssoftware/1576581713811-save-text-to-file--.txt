@@ -1,0 +1,3 @@
+Für Produkte, die nicht eineindeutig durch eine PZN gekennzeichnet sind (z. B.
+Rezepturen), ist mindestens ein Freitextfeld vorzusehen und dieses in der Hausapotheke
+zu speichern.

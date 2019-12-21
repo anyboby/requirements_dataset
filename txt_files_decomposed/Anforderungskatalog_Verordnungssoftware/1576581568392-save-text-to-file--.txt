@@ -1,0 +1,2 @@
+Die KBV ist berechtigt, ein bereits erteiltes Zertifikat zu entziehen, wenn festgestellt wird,
+dass zertifizierte Software den Vorgaben dieses Anforderungskatalogs nicht mehr genügt.

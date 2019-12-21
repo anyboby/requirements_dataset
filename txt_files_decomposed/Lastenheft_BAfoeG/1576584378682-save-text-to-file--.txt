@@ -1,0 +1,1 @@
+Zudem sollen die Daten auch verschlüsselt in der Datenbank gespeichert werden können.

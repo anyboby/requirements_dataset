@@ -1,0 +1,15 @@
+Erfassung
+der
+Kühlgeräteabrechnungen in der
+Datenbank. Der Standort markiert
+die Kühlgeräte, die abgerechnet
+werden sollen und kann sich aus
+diesen Daten eine Abrechnung
+erstellen lassen (als PDF). Diese
+Abrechnung ist in der Datenbank
+hinterlegt. Die Datensätze werden
+als abgerechnet markiert. Die
+Bundeskoordination erhält eine
+Liste in der Datenbank über die
+Kühlgeräte und kann sofort prüfen,
+ob die Eingaben korrekt sind.

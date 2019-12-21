@@ -1,0 +1,7 @@
+Die Verordnungssoftware muss die über die im Nachfolgenden definierte Schnittstelle
+bereitgestellten
+Informationen
+der
+regionalen
+kollektivvertraglichen
+Arzneimittelvereinbarungen nach § 84 Abs. 1 SGB V in die Anwendung integrieren.

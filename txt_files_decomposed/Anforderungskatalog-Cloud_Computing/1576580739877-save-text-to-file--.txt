@@ -1,0 +1,6 @@
+Durch technische Maßnahmen wird
+sichergestellt, dass keine unbekannten (physischen oder virtuellen) Geräte dem (physischen
+oder virtuellen) Netzwerk des Cloud-Anbieters
+beitreten (bspw. durch MACSec gemäß IEEE
+802.1X:2010), vgl. IDM-08).
+

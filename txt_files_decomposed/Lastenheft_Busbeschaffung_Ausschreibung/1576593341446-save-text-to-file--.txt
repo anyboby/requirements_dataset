@@ -1,0 +1,2 @@
+Warnsummer bei nicht eingelegtem Federspeicher und gleichzeitigem ausgeschaltetem
+Motor. Es sollen zwei Arten von Haltewunschanzeigen beim Fahrerplatz verbaut sein.

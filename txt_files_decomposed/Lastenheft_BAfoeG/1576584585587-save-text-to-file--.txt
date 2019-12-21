@@ -1,0 +1,4 @@
+Die Software muss vor der Freigabe für die Produktivsetzung im Parallelbetrieb mit einer
+relevanten, vom Auftraggeber festzulegenden Anzahl von Echtfällen mindestens für drei
+monatliche Rechnungsläufe die gleichen Berechnungsergebnisse und entsprechenden
+Bescheide wie das bestehende Verfahren liefern.

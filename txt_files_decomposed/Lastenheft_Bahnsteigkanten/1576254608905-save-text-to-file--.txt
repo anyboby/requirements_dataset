@@ -1,0 +1,4 @@
+Für Stahlbetonbauteile, die in die Expositionsklasse XF 4 eingestuft sind, ist an Proben aus der Betonproduktion für die
+Bahnsteigfertigteile der Nachweis des Frost- und Tausalzwiderstandes zu führen. Dabei ist das in der DIN CEN/TS 12390-9
+(Vornorm von 08/2006) unter Punkt 7 aufgeführte CDFPrüfverfahren anzuwenden. Der Grenzwert der maximalen Abwitterung nach 28 Frost-Tausalzwechseln ist auf ≤ 800 g/m²
+festgelegt.

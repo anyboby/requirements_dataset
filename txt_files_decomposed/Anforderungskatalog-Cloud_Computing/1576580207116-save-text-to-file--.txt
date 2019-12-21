@@ -1,0 +1,9 @@
+Zwischen den
+Protokollierungsservern und den protokollierten
+Assets erfolgt eine Authentisierung, um die
+Integrität und Authentizität der übertragenen
+und gespeicherten Informationen zu schützen.
+Die Übertragung erfolgt nach einer dem Stand
+der Technik entsprechenden Verschlüsselung
+oder über ein eigenes Administrationsnetz
+(Out-of-Band-Management).

@@ -1,0 +1,4 @@
+Schnittstelle Bundeszentralamt für Steuern (BZSt)
+Die BAföG-Software muss die Möglichkeit bereitstellen, Daten von Förderempfängern
+zum Abgleich mit Vermögensdaten an das BZSt zu übertragen. Dabei werden alle Fälle
+mit Auszahlungen in einem bestimmten Zeitraum berücksichtigt. Insbesondere sind neben dem Namen des Antragsstellers dessen Wohnort sowie die angegebenen Bankverbindungen zu übertragen.

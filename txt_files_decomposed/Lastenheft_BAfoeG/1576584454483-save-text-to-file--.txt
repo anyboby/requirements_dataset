@@ -1,0 +1,2 @@
+Die Sicherung muss im laufenden Betrieb erfolgen können. Zudem sind regelmäßige Wiederherstellungstests zur Sicherstellung der
+Wiederherstellungsfähigkeit durchzuführen.

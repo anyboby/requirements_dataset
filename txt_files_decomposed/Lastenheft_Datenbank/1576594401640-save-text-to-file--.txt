@@ -1,0 +1,7 @@
+Der 3. Haushaltsbesuch wird in der Datenbank als Monitoring bezeichnet und erfasst das
+Nutzerverhalten und die Verbräuche nach den ersten Haushaltsbesuchen. Hierbei werden
+Veränderungen erfasst und Einsparungen ermittelt die durch den Check erreicht wurden.
+Das Monitoring soll wie die anderen Benutzeroberflächen angepasst werden und wird
+durch die Wärmesoforthilfen erweitert. Die Auswertung der Monitoring Daten soll ggf.
+geändert werden. Eine Änderung der Datenerfassung ist zum jetzigen Zeitpunkt nicht
+geplant.

@@ -1,0 +1,10 @@
+Kriterien für Motorauswahl
+ Es sind grundsätzlich nur wartungsfreie Motoren einzusetzen.
+ Die Auswahl der Motoren muss in der Kennlinie und Auslegung den Arbeitsbedingungen angepasst und für eine Einschaltdauer von 100% ED ausgelegt sein. Die Leistung
+ist so zu bemessen, dass der Motor maximal bis 85% seines Leistungsbereiches beansprucht wird.
+ Motoranordnung und – einbauräume
+ Die Motor und die Klemmkästen müssen für Wartungsarbeiten gut zugänglich und gegen Verschmutzung, sowie gegen Einwirkung von Flüssigkeiten und Dämpfen geschützt sein. Sie müssen so ein- bzw. angebaut sein, dass sie leicht und ohne Demontage von Maschinenteilen, ausgenommen Schutzvorrichtungen, auszuwechseln sind.
+ Drehrichtungen müssen dauerhaft und deutlich neben dem Motor angebracht sein.
+ Typenschilder sind so angebracht, dass sie nach dem Entfernen der Schutzvorrichtung einsehbar sind.
+ Die Motoren müssen mindestens die Anforderungen der IEC 60034-30 erfüllen und für
+den Einsatz mit Frequenzumrichtern geeignet sein

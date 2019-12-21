@@ -1,0 +1,4 @@
+Mindestens monatlich wird ein manueller
+Abgleich zwischen den erfolgten Freischaltungen
+der Notfallbenutzer und den entsprechenden
+Genehmigungen durchgeführt.

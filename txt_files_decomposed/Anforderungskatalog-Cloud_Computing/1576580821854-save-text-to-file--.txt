@@ -1,0 +1,10 @@
+Die Architektur des Netzwerks ist nachvollziehbar und aktuell dokumentiert (z. B. in Form
+von Diagrammen), um im Wirkbetrieb Fehler
+in der Verwaltung zu vermeiden und um im
+Schadensfall eine zeitgerechte Wiederherstellung
+gemäß der vertraglichen Verpflichtungen zu
+gewährleisten. Aus der Dokumentation gehen die
+unterschiedlichen Umgebungen (z. B. Administrations-Netzwerk und geteilte Netzwerksegmente)
+und Datenflüsse hervor. Darüber hinaus werden
+die geografischen Lokationen angegeben, in
+denen die Daten gespeichert werden.

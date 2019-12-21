@@ -1,0 +1,4 @@
+Das Sicherheitskonzept beinhaltet die Einrichtung von verschiedenen Sicherheitszonen, die
+durch Sicherheitslinien als überwachte und
+gesicherte Übergänge zwischen den Zonen
+getrennt sind.

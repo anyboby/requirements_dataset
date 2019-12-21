@@ -1,0 +1,7 @@
+Dabei
+ist sicherzustellen, dass die für den Cloud-Dienst
+relevanten Risiken (i. d. R. IT-Risiken) Gegenstand des überprüften Überwachungssystems
+sind. Durch Auslagern von Geschäftsprozessen
+zur Entwicklung und/oder zum Betrieb des
+Cloud-Dienstes auf weitere Dienstleistungsunternehmen, verbleibt die Verantwortung für diese
+Risiken beim Cloud-Anbieter.

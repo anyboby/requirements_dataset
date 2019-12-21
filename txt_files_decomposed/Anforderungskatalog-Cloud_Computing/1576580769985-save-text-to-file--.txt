@@ -1,0 +1,5 @@
+Jeder Netzwerkperimeter wird von Sicherheitsgateways kontrolliert. Die Zugangsberechtigung
+für Netzübergreifende Zugriffe basiert auf
+einer Sicherheitsbewertung auf Grundlage der
+Kundenanforderungen.
+O

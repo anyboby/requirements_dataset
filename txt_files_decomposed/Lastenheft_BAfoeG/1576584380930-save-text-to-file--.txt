@@ -1,0 +1,1 @@
+Die Benutzerfreundlichkeit ist eine zentrale Voraussetzung für die Akzeptanz der Software. Die in diesem Kapitel aufgestellten Anforderungen sollen diese sicherstellen.

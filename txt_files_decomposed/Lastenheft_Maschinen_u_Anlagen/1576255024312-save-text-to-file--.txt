@@ -1,0 +1,3 @@
+Vor den Lichtverteilungen, den Steuerautomaten und FI-Schutzschaltern sind NH-Sicherungen max.
+63 A als Vorsicherungen zur Begrenzung der Kurzschlussleistung einzusetzen.
+Einphasenwechselstromkreise sind auf die 3 Phasen zu verteilen.

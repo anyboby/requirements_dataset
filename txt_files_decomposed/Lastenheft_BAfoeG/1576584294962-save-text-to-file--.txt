@@ -1,0 +1,3 @@
+Der Softwareanbieter muss im Pflichtenheft eine Referenzgesamtarchitektur beschreiben, die notwendig ist, um das Gesamtsystem vom Anwender im Studentenwerk sowie
+den kommunalen Ämtern für Ausbildungsförderung bis zum Rechenzentrum inklusive
+Onlineantrag stabil und performant zu betreiben.

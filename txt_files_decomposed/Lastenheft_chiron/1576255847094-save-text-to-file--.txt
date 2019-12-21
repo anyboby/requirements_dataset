@@ -1,0 +1,2 @@
+NOT-Halt Befehlsgeräte müssen andere Schutzmaßnahmen
+ergänzen und dürfen nicht an deren Stelle treten.

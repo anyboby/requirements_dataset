@@ -1,0 +1,6 @@
+Bevor eine Änderung in der Produktivumgebung
+veröffentlicht wird (Release), ist diese durch eine
+hierzu autorisierte Stelle oder ein entsprechendes
+Gremium dahingehend zu überprüfen, ob die
+geplanten Tests erfolgreich abgeschlossen und die
+erforderlichen Genehmigungen erteilt sind.

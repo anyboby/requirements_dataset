@@ -1,0 +1,6 @@
+Zielsetzung: sicherstellen eines ordnungsgemäßen regelbetriebs einschließlich
+angemessener maßnahmen für planung
+und überwachung der Kapazität, schutz vor
+schadprogrammen, protokollierung und überwachung von ereignissen sowie den umgang
+mit schwachstellen, störungen und fehlern.
+

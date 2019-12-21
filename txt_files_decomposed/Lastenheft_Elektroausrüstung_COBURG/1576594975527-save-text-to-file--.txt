@@ -1,0 +1,4 @@
+Weiterhin sind eine Kabelliste oder geeignete Unterlagen hinzuzufügen, die es erlauben,
+jedes Kabel an der Anlage zu identifizieren, im Ersatzteilfall auszutauschen und ohne
+zusätzliche Angaben zu konfektionieren (Angabe über Länge, Typ, Steckertyp, Lieferant,
+Bestell-Nr.).

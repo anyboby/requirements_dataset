@@ -1,0 +1,7 @@
+Die Hilfefunktion in der Datenbank
+soll
+mit
+Schulungsmaterial
+verbunden / verlinkt werden, um
+den Nutzer eine schnellere Hilfe
+anzubieten.

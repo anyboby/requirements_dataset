@@ -1,0 +1,5 @@
+n Wartungsfreie Elemente verwenden, falls nicht möglich, die
+Schmierung als automatische, drucküberwachte Zentralschmierung auszuführen
+– In folgenden Fällen sind Einzelschmierstellen zulässig:
+Abschmierung kann bei laufender Maschine erfolgen.
+Schmierintervall ist größer als 4 Wochen.

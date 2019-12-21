@@ -1,0 +1,4 @@
+Rechtliche, regulative und gesetzlich vorgeschriebene Anforderungen, sowie die Vorgehensweise,
+um diese Vorgaben einzuhalten sind durch den
+Cloud-Anbieter für den Cloud-Dienst anwendungsbezogen zu identifizieren, dokumentieren
+und regelmäßig zu aktualisieren.

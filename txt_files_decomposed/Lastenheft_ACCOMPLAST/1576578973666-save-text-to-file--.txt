@@ -1,0 +1,4 @@
+Der Anguss ist so zu gestalten, dass er bei der Entformung nicht zerbricht und keine Krümelbildung
+verursacht (bei einer Teileentnahme mit Handling sollte der Anguss unter dem Teil angeordnet sein). Des
+Weiteren ist das Angusssystem so zu konstruieren, dass das Material im Angusssystem möglichst keine
+Schädigungen durch abrupte Strömungsübergänge oder scharfen Kanten erleidet.

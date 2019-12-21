@@ -1,0 +1,2 @@
+Bei mehreren Endgeräten müssen diese über einen internen Switch, angebunden
+werden.

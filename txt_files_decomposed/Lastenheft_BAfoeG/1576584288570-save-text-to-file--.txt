@@ -1,0 +1,1 @@
+Der Softwareanbieter muss im Pflichtenheft eine Referenzarchitektur für das Gesamtsystem Onlineantrag beschreiben. 

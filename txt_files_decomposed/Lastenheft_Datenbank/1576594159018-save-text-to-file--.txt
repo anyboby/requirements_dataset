@@ -1,0 +1,7 @@
+In den Haushaltsberichten werden Tabellen auf mehrere Seiten verteilt, was das Lesen
+und Auswerten erschwert. Bei einigen Berichten erscheinen die Wasserverbräuche sowie
+Heizenergieverbräuche nicht, obwohl diese Daten in der DB eingetragen sind. Im oberen
+Bereich des Haushaltsberichtes soll die Telefonnummer des Haushaltes angezeigt
+werden, damit die Stromsparhelfer nicht lange nach dem Datensatz in der DB suchen
+müssen. Die Sortierung der Verbräuche wird zurzeit im Register 10 durchgeführt, soll aber
+vor der Erstellung des Berichtes abgefragt werden.

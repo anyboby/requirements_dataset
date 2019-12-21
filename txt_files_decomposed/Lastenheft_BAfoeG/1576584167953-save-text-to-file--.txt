@@ -1,0 +1,1 @@
+Die Software muss die Möglichkeit bieten, regelmäßig genutzte statistische Auswertungen als vordefinierten Abfragen zu hinterlegen und auszuführen.

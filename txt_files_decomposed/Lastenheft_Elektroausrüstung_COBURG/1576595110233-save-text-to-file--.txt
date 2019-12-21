@@ -1,0 +1,4 @@
+Bei Drehstrommotoren sind generell Drehrichtungspfeile anzubringen.
+Wird der Motor über einen Frequenzumrichter betrieben, so ist dieser mit einer geeigneten
+Temperaturüberwachung auszustatten ( typischerweise KTY oder PTC ), die direkt am
+Umrichter angeschlossen und von diesem ausgewertet werden kann.

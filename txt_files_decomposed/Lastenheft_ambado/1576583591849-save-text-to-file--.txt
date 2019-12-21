@@ -1,0 +1,2 @@
+Ausfüllhinweise sollen pro Eingabefeld abrufbar sein.
+Die Hinweise stammen aus der AmBADO-Anleitung.

@@ -1,0 +1,3 @@
+Einbau eines Heizöltanks, Tankvolumen mindestens 50 Liter für Zusatzheizung. Anzeige
+des Volumens im Display oder über getrennte Anzeige. Der Tankverschluss muss auf
+der rechten Fahrzeugseite liegen.

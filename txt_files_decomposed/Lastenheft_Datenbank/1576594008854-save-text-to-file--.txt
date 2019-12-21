@@ -1,0 +1,6 @@
+Die GUI soll benutzerfreundlicher gestaltet werden, damit diese weniger fehleranfällig ist.
+Bevor die Daten in den verschiedenen Registern gespeichert werden, muss geprüft
+werden, ob alle wichtigen Bedingungen erfüllt und richtig sind. Wenn nicht, soll der Nutzer
+eine Fehlermeldung mit dem Hinweis auf die falsch eingetragenen Daten erhalten. Für
+jedes Feld muss ein Parameterwert festgelegt werden, der erlaubt und zulässig ist ( z. B.
+Datumfeld: TT.MM.JJJJ).

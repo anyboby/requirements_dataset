@@ -1,0 +1,3 @@
+Zur Vorbereitung des Pilotbetriebs gehören über die Tests hinaus rechtzeitige und
+angemessene Schulungsmaßnahmen für die Datenbankbetreuer. Zu diesem Zeitpunkt
+muss auch eine vollständige Fassung der Benutzer- und Betriebshandbücher vorliegen.

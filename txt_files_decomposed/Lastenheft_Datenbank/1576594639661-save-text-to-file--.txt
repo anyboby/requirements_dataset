@@ -1,0 +1,5 @@
+Es soll möglich sein
+einen
+Screenshot innerhalt der Datenbank
+zu erstellen und an Nutzer zu
+senden.

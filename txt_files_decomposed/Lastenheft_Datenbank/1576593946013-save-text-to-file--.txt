@@ -1,0 +1,8 @@
+Hat ein Nutzer aktuell mehr als eine Rolle in der DB, erhält dieser für jede Rolle separate
+Login-Daten. Das bedeutet, dass er für jede Rolle eine andere E-Mail Adresse und
+Passwort braucht, die über Pagejet1 generiert werden. Jeder Nutzer ist nur einem
+Standort bzw. einer Region zugeordnet. Übt ein Nutzer in zwei Standorten eine Rolle aus,
+braucht dieser wiederum für jeden Standort einen separaten Login. Somit bekommt jeder
+Nutzer für jede Tätigkeit, die er in der DB ausübt, eine zusätzliche E-Mail Adresse und
+Passwort. Ein Nutzer kann für mehrere Standorte und Regionen in mehreren Rollen tätig
+sein.

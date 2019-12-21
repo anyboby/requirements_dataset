@@ -1,0 +1,1 @@
+Die Haltestellenbremse ist mit Anfahrsperren zu versehen – das Lösen der Anfahrsperren erfolgt über das Gaspedal. Im Fahrerdisplay muss ersichtlich sein, ob die Haltestellenbremse aktiviert ist.

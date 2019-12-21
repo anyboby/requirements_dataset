@@ -1,0 +1,4 @@
+Der Betreiber hat die Einhaltung der Verfahren dem Auftraggeber im Pflichtenheft darzulegen.
+Für die Kommunikation zwischen den einzelnen Servern, beziehungsweise dem Server
+und dem Client, müssen geeignete verschlüsselte Kommunikationsprotokolle eingesetzt
+werden.

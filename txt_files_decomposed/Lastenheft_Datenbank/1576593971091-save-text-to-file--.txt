@@ -1,0 +1,5 @@
+Der Nutzer meldet sich für Standort A als Trainer an. Geht der Nutzer nun auf das
+Feld Rollenauswahl, kann er alle Rollen auswählen, die er für den Standort ausübt.
+Mit der Auswahl einer neuen Rolle ist der Nutzer nun mit der Rolle
+Lokalkoordinator und für Standort A eingeloggt. Es sollten wieder nur die
+passenden Daten angezeigt werden.

@@ -1,0 +1,5 @@
+Ergänzende Informationen zur Basisanforderung
+Richtlinien und Anweisungen sollten folgende
+Aspekte berücksichtigen:
+» die sichere Löschung von sensiblen Daten vor
+einer externen Reparatur oder Wartung,

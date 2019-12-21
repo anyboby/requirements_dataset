@@ -1,0 +1,5 @@
+Die Software muss dem Sachbearbeiter die Möglichkeit geben, eingegebene Daten auch
+ohne Freigabe für eine spätere Weiterbearbeitung zu speichern. Fehler der Plausibilisierung (beispielsweise noch fehlende Pflichtfelder) dürfen dabei die Speicherung nicht verhindern. Der Sachbearbeiter muss weiterhin die Möglichkeit haben, den gespeicherten
+Datensatz zu jedem beliebigen Zeitpunkt (auch nach zwischenzeitlicher Abmeldung vom
+System) mittels eindeutig identifizierbarer Kriterien (beispielsweise Förderungsnummer,
+Name, Geburtsdatum) wieder zu finden und zur weiteren Bearbeitung aufzurufen.

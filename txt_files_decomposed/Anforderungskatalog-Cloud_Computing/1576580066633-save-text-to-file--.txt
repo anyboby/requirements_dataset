@@ -1,0 +1,6 @@
+Die Entfernung
+zum Hauptstandort ist hinreichend gewählt, dass
+dortige Katastrophen zu keinem Datenverlust am
+Remote-Standort führen und gleichzeitig gering
+genug, um die vertraglichen Verpflichtungen zu
+Wiederherstellungszeiten erfüllen zu können.

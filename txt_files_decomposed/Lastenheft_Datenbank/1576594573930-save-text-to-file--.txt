@@ -1,0 +1,4 @@
+Vor Beginn des Pilotbetriebs müssen alle Funktionen der Datenbank fertig entwickelt sein.
+Fehler, die im Rahmen des Pilotbetriebs auftreten, sind vom Auftragnehmer in einer
+angemessenen Frist zu beseitigen. Der Auftragnehmer muss ggf. durch weitere
+Abnahmetests den Nachweis erbringen, dass die festgestellten Mängel behoben sind.

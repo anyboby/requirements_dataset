@@ -1,0 +1,2 @@
+Daneben muss eine Beschränkung des Zugriffes auf die Daten nach weiteren Kriterien,
+insbesondere nach Amtsnummer möglich sein.

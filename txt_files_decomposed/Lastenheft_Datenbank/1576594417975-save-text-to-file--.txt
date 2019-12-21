@@ -1,0 +1,6 @@
+Dies ist ein sehr aufwendiger Weg. Besser wäre es, wenn im Status „Abgeschlossen
+Monitoring“ einen Kühlgerätetausch durchgeführt werden könnte ohne den Check in
+verschiedene Status zu versetzen. Optimal wäre es, bei der Erfassung des Kühlgerätes
+nicht das Alter, sondern das Jahr der Erstinbetriebnahme erfassen zu können. Dadurch
+wäre eine automatische Hochrechnung des Alters möglich. Somit müssten die Daten des
+Kühlgerätes nicht erneut erfasst werden.

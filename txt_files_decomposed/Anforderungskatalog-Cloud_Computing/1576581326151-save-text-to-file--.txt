@@ -1,0 +1,11 @@
+Simulierte Ausfälle der Versorgung der Rechenzentren wird in die Übungen (vgl. BCM-03) mit
+eingebunden.
+
+» Test der technischen Vorsorgemaßnahmen
+» Funktionstests
+
+» Stabsübung
+» Stabsrahmenübung
+» Kommunikations- und Alarmierungsübung
+» Simulation von Szenarien
+» Ernstfall- oder Vollübung

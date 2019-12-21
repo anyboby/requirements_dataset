@@ -1,0 +1,5 @@
+Die Beschreibung der Infrastruktur-, Netzwerkund Systemkomponenten sollen so detailliert
+sein, dass der Cloud-Kunde einen guten und für
+Risikoabwägungen im Rahmen seines Sicherheitsmanagements notwendigen Überblick erhält
+ohne jedoch die Sicherheit des Cloud-Anbieters
+durch deren Darlegung zu gefährden.

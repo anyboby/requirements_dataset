@@ -1,0 +1,2 @@
+Die Verordnungssoftware muss die zur Erstellung und Aktualisierung des Medikationsplans
+nach § 31a SGB V notwendigen Funktionen und Informationen enthalten.

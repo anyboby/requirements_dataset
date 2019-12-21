@@ -1,0 +1,6 @@
+Eine
+Verordnungssoftware kann eine bis mehrere dieser Produktlisten enthalten. Daher handelt
+es sich bei den folgenden Anforderungen um konditionale Pflichtfunktionen. Die
+Produktlisten werden in der Verordnungssoftware gespeichert. Sobald eine
+Verordnungssoftware eine Hausapotheke hat, müssen die Funktionen K2-150 bis K2-160
+umgesetzt werden.

@@ -1,0 +1,3 @@
+ In die Zuführleitung der Anlage/Maschine ist ein automatisch gesteuertes Absperrorgan zu
+installieren, damit bei Abschaltung der Steuerspannung die Luft- und Vakuumzufuhr gestoppt wird.
+Sicherheitsrelevante Schaltungen sind ausgenommen.

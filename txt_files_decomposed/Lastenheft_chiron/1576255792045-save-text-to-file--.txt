@@ -1,0 +1,3 @@
+Sämtliche Änderungen und Ergänzungen müssen in die
+Enddokumentation einfließen. Dies gilt auch für die Punkte, die
+erst bei CHIRON umgesetzt wurden.

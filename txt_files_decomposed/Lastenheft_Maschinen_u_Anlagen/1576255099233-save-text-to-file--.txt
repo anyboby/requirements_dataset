@@ -1,0 +1,2 @@
+ Anschlussleitungen von frequenzgesteuerten Motoren sind als abgeschirmte Leitungen
+auszuführen.

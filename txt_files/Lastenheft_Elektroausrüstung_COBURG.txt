@@ -1,0 +1,614 @@
+30.04.2019
+
+Waldrich Coburg-Lastenheft
+der Elektroausrüstung
+Version 6.2
+
+Bearbeiter : Thomas Bätz
+
+Inhaltsverzeichnis
+Inhaltsverzeichnis ........................................................................................................................................... 1
+1
+
+Allgemeine Forderungen ................................................................................................................. 2
+
+2
+
+Normen und Vorschriften ............................................................................................................... 2
+
+3
+
+Dokumentation ................................................................................................................................... 3
+
+4
+
+zusätzliche Informationen zu den Zulieferkomponenten .................................................. 4
+
+5
+
+Elektrische Spezifikation ................................................................................................................. 5
+
+6
+
+Gerätspezifikation .............................................................................................................................. 7
+
+7
+
+Änderungshistorie .......................................................................................................................... 13
+
+1
+
+WACO-Lastenheft der Elektroausrüstung
+
+1
+
+Allgemeine Forderungen
+Das vorliegende Lastenheft ist Bestandteil unseres schriftlichen Auftrages.
+Mit der Annahme des Auftrages verpflichtet sich der Auftragnehmer, die nachstehenden
+Bestimmungen anzuwenden und Forderungen zu erfüllen. Werden sie nicht erfüllt, gilt der
+Auftrag als nicht ordnungsgemäß durchgeführt.
+Die Entwurfskonstruktion und wesentliche Konstruktionsänderungen sind über die
+Einkaufsabteilung mit den WACO-Fachabteilungen der mechanischen und
+Elektrokonstruktion abzustimmen.
+
+2
+
+Normen und Vorschriften
+Die Anlage ist nach den gültigen DIN-/VDE-Vorschriften sowie den gültigen EG-Richtlinien
+auszuführen.
+Es sind die IEC 60204 ( Elektrische Ausrüstung von Maschinen ) sowie die IEC 60038
+( Normspannungen ) einzuhalten.
+Im Allgemeinen gilt, daß die Anlage der Richtlinie 2014/30/EU (EMV-Richtlinie)
+entsprechen muß. Dort sind die Eigenschaften und Fähigkeiten definiert, die das elektrische
+Betriebsmittel aufweisen muß, um in seiner elektromagnetischen Umgebung
+zufriedenstellend zu arbeiten, ohne dabei selbst elektromagnetische Störungen zu
+verursachen, die für andere Betriebsmittel in derselben Umgebung unannehmbar wären.
+Weiterhin sind die Unfallverhütungsvorschriften einzuhalten.
+Die zu liefernde Anlage ist so auszuführen, daß eine spätere CE-Konformitätserklärung der
+gesamten Maschine möglich ist (s.a. Maschinenrichtlinie 2006 / 42 / EG).
+Sondervorschriften werden, falls gefordert, in der Bestellung separat ausgewiesen.
+
+2
+
+3
+
+Dokumentation
+Falls im WACO-Bestelltext keine anderslautenden Vereinbarungen getroffen sind, so sind
+die Stromlauf- und Installationspläne vor Fertigungsbeginn der Komponente an WACO
+(über die Abteilung Einkauf) zur Prüfung und mit der Bitte um schriftliche Genehmigung zu
+senden.
+Spätestens bei Lieferung von Maschinen- bzw. Anlagenkomponenten sind gültige und
+aktuelle Stromlauf- und Installationspläne mit Angaben zu Leistung und Leistungsfaktor an
+WACO zu liefern. Diese enthalten alle Einstellungen auf den eingesetzten Baugruppen ( z.B.
+Schaltereinstellungen ). Soweit keine andere Vereinbarung besteht, ist mit den Plänen eine
+Stückliste in deutscher und englischer Sprache ( im Format MS Excel ), sowie die
+Dokumentation der Unterlieferanten ( z.B. Betriebsanleitungen / Datenblätter von
+elektrischen Bauteilen, etc. ) in geeigneter Form an WACO zu übergeben.
+PLC-/NC-Programme und benötigte Parametereinstellungen von Baugruppen ( z. B.
+Antriebsparameter ) sind der Dokumentation auf Datenträger beizulegen.
+Bei Steuerungen ist nach erfolgter Inbetriebnahme der aktuelle Quellcode aller eingesetzten
+Programme als Datensicherung in geeigneter Form ( z.B. Datenträger, Email ) mitzuliefern.
+Nach der Abnahme der Anlage sind die revidierten Stromlaufpläne innerhalb von 4 Wochen
+an WACO zu liefern.
+Verbindungen von einzelnen Maschinenkomponenten zur Maschine und umgekehrt sind
+auf eine definierte Übergabestelle zu führen, die als Klemmkasten mit Steckverbindung
+ausgeführt ist. Meßsysteme, die an die Antriebe im Schaltschrank anzuklemmen sind, sind
+ohne Trennstelle direkt aufzulegen.
+Beim Einsatz von Antriebsmotoren sind der Dokumentation die vollständigen Datenblätter
+beizulegen. Hierzu gehören ebenfalls Rechenwerte für die Antriebsauslegung mit der
+Angabe der mechanisch maximal zulässigen Drehmomente.
+Weiterhin sind eine Kabelliste oder geeignete Unterlagen hinzuzufügen, die es erlauben,
+jedes Kabel an der Anlage zu identifizieren, im Ersatzteilfall auszutauschen und ohne
+zusätzliche Angaben zu konfektionieren (Angabe über Länge, Typ, Steckertyp, Lieferant,
+Bestell-Nr.).
+
+3
+
+WACO-Lastenheft der Elektroausrüstung
+
+4
+
+zusätzliche Informationen zu den Zulieferkomponenten
+Bei den folgend aufgeführten Zulieferkomponenten sind zusätzlich die spezifizierten
+Angaben zu den abgestimmten Terminen verbindlich zu liefern; die Vorgaben gemäß
+WACO-Lastenheft sind dabei einzuhalten.
+Zu den folgenden Maschinenkomponenten:
+Späneförderer,
+Dunstabsauganlagen,
+Kühlmittelanlagen,
+Zentrifugen,
+Filteranlagen,
+Hydraulikanlagen,
+Schutzumhausungen / Schutztüren (manuell / automatisch),
+Schmieraggregate,
+Werkzeugwechsel-Systeme,
+Werkstück-Spannvorrichtungen,
+Bedienbühnen / Personenlifte
+werden zusätzlich die folgenden Informationen benötigt :
+Spannung (mit Toleranzangabe),
+Frequenz (mit Toleranzangabe),
+Leistungsbedarf / Stromaufnahme / Leistungsfaktor,
+Stern- / Dreieckanlauf möglich / notwendig,
+Anschlußquerschnitte und Vorsicherung,
+Signalleitungen / Leistungsleitungen / Kabeltypen gemäß WACO-Lastenheft,
+Steckverbindungen / Klemmenkästen gemäß WACO-Lastenheft,
+Steckerbelegung,
+Anbauorte / Übergabestellen,
+Leitungsverlegung (Einschränkungen bezüglich Längen und Leitungsführung),
+erforderliche EMV-Maßnahmen,
+Motordaten mit Seriennummern der Hersteller,
+Hinweise auf einzuhaltende Ausführungsvorschriften,
+bei Einzelansteuerung von Pumpen: Angaben für Motorschutzschalter und
+Schützgröße,
+bei Verdrahtung / Installation durch WACO: technische Daten aller elektrischen
+Komponenten.
+
+4
+
+5
+
+Elektrische Spezifikation
+Alle für die Funktion notwendigen elektrischen bzw. elektromechanischen Bauelemente
+sind montiert, verdrahtet und funktionsfähig justiert.
+Die Bauteile einschließlich ihrer Verkabelung sind vor Spänen, Kühlschmiermitteln usw. zu
+schützen und leicht erreichbar anzuordnen.
+Für die Montage / Demontage der Anlage / des Anlagenteiles sind ausreichende und
+montagefreundliche Trennstellen (Stecker, Klemmenkästen etc.) vorzusehen.
+Alle Anbauorte, Kabelverlegungen und Trennstellen sind rechtzeitig vor der Montage mit
+WACO abzustimmen.
+Eventuell erforderliche Kabeldurchführungen sind so zu gestalten, daß Kabel ohne
+Demontage von Steckverbindungen durch diese hindurchgeführt werden können.
+Es ist auf eine getrennte Installation sowie auf eine getrennte Kabel- und Steckerbelegung
+nach :
+Leistungsleitungen für Antriebe ( gegebenenfalls geschirmt ),
+Meßsystemen / Gebern (geschirmte Kabel ),
+digitaler Sensorik / Aktorik,
+analoger Sensorik / Aktorik.
+zu achten.
+Schleppketten:
+Am Anfang und am Ende der Schleppketten ist nach Vorschrift des Schleppkettenherstellers
+eine Zugentlastung anzubringen. In den Schleppketten sind nur hochflexible Schleppkettenleitungen ( s.a. Pkt. 6) zu verwenden.
+Fremdspannungen:
+Bauelemente, die von fremden Spannungsquellen versorgt werden und nach dem
+Ausschalten der Anlage unter Spannung stehen, sind mit orangem Leitungsmaterial und
+orangefarbigen Klemmenkästen zu versehen.
+Bei der Verdrahtung der Elektrokomponenten ist die Kennzeichnung nach WACOStromlaufplan vorzunehmen, sofern diese dort dargestellt sind.
+Es sind normgerechte, mit dem E-Plan übereinstimmende Adernkennzeichnungen
+durchzuführen.
+Auf Anforderung des Lieferanten stellt WACO die Stromlaufpläne zur Verfügung. Diese sind
+nur für Leitungskennzeichnung verwendbar und stellen nicht die Ansteuerung,
+Überwachung und die Signalschnittstelle dar.
+Interne Bauteilkennzeichnung:
+Alle elektrischen und elektromechanischen Bauelemente sind durch dauerhaft an der
+Anlage befestigte Schilder zu kennzeichnen. Bei Bauelementen, die hinter Abdeckungen
+montiert sind, ist auf der Abdeckung zusätzlich das gleiche Schild wie auf dem Bauelement
+anzubringen.
+
+5
+
+WACO-Lastenheft der Elektroausrüstung
+
+Umgebungsbedingungen:
+Alle zum Einsatz kommenden Baulemente müssen den betriebsmäßig vorkommenden
+Belastungen durch Öle und Kühl- / Schmierstoffe dauerhaft standhalten.
+Es gelten folgende Umgebungstemperaturen :+ 5° C bis + 40° C.
+Davon abweichende Umgebungstemperaturen werden in der Bestellung separat
+ausgewiesen.
+Reserven :
+Es sind ausreichende Reserven vorzusehen; Art und Umfang liegen in der Verantwortung
+des Zulieferers (20%).
+Schutzart: IP 65.
+Anschlußbedingungen :
+WACO stellt peripheren Geräten einen 3-Leiteranschluß (3 Phasen und PE ) zur Verfügung.
+Wenn bei Zulieferkomponente ein Neutralleiter benötigt werden sollte, so ist dieser in der
+Komponente selbst ( z.B. über Trafo ) zu bilden. Die Absicherung seitens WACO erfolgt über
+Motorschutzschalter ( bis Phasenstrom von 25 A ) bzw. über NH-Sicherung ( > 25 A ). Eine
+Leistungsangabe mit Angabe des Nennstroms von Seiten des Zulieferers ist deshalb
+zwingend erforderlich.
+Zum separaten Abschalten der peripheren Einrichtungen ist ein separater Hauptschalter
+ohne NOTAUS-Funktion vorzusehen. Die Auswertung durch die Maschinenlogik erfolgt über
+einen, auf Klemmen geführten, potentialfreien Kontakt „[Periphere Einrichtung]
+Betriebsbereit“.
+Der Anlaufstrom für Antriebe mit Leistungen über 5 kW ist beim Einschalten durch
+geeignete Maßnahmen ( z.B. Stern-Dreieck-Anlauf, Sanftanlauf, etc. ) zu begrenzen. Diese
+Maßnahmen sind in der Installation des Zulieferers so durchzuführen, daß eine
+Ansteuerung über die Maschinenlogik durch Fa. Waldrich nicht nötig ist. Die zu
+verwendenden Geräte (s.a. Pkt.6) sind rechtzeitig vor Baubeginn mit WACOElektrokonstruktion abzustimmen.
+Beim Einsatz von elektronischen Bauelementen ( z.B. Frequenzumrichter ) sind Standardgeräte einzusetzen, so daß eine Garantie von 2 Jahren bzw. eine Materialgewährleistung von
+10 Jahren ( ab Zweit-Inbetriebnahme beim Endkunden von WACO ) gewährleistet werden
+kann. Diese Geräte sind ebenso rechtzeitig vor Baubeginn mit WACO Elektrokonstruktion
+abzustimmen.
+Bei Verwendung von Schaltnetzteilen sind zu dessen Absicherung geeignete und vom
+Gerätehersteller freigegebene Leitungsschutzschalter zu verwenden. Der Einsatz von
+Leistungsschaltern (Motorschutzschalter) ist hier nach Möglichkeit zu vermeiden.
+Beleuchtung ( s.a. Pkt. 6.12 ) :
+Anzahl und Position der Beleuchtung ist gemäß DIN 5035-2 auszuführen.
+Die Schutzraumleuchten sind für jede Maschinenseite auf je eine definierte Trennstelle zu
+verdrahten ( Klemmkasten ; Anbauort: siehe Zeichnung Schutzeinrichtung ).
+Die Kabelführung liegt im Verantwortungsbereich des Lieferanten.
+
+Für die Ausführung und Gesamtfunktionalität ist der Lieferant verantwortlich.
+
+6
+
+6
+
+Gerätspezifikation
+Im allgemeinen sind ausschließlich fabrikneue Geräte - keine Auslauftypen oder
+abgekündigte Typen - im Originalzustand einzusetzen. Für alle Bauteile ist eine
+Ersatzteilverfügbarkeit von min. 10 Jahren zu gewährleisten. Folgende Gerätefabrikate und
+Typen sind zu verwenden, sofern keine Sonderbestimmungen zutreffen :
+
+6.1 Einspeisung
+Hauptschalter, manuell betätigt : Fa. Wöhner, Siemens bzw. ABB
+6.2 Schrankmaterial allgemein
+Stecker
+Grenztaster
+Klemmen
+Motorschutzschalter
+Sicherungen
+
+: Fa. Harting, Typ HAN ES 10-, 16- oder 24-polig
+: Fa. Balluff, Siemens,
+: Fa. WAGO ( Federzugklemmen ),
+: Fa. Siemens,
+: Fa. Siemens.
+
+6.3 Umrichtertechnik
+Standardtyp :
+Hersteller, Typserie
+
+: Fa. Siemens, Sinamics G120
+bestehend aus
+Vorzugstyp :
+Power-Modul PM240 mit
+Control Unit CU240E-2F,
+oder ein vergleichbarer und zur Applikation passender
+Frequenzumrichter der G120-Familie, inkl.
+BOP,
+PC-Umrichterverbindungssatz.
+
+Für spezielle Anwendungen im Bereich Fluidik / Lufttechnik :
+Hersteller, Typserie
+: Fa. Kostal, genauer Typ nach Absprache
+Der Einsatz von Umrichtern der Fa. Kostal ist genehmigungspflichtig. Bitte fordern Sie
+eine entsprechende Freigabe über unser Haus an.
+6.4 Drehstromservomotoren
+Hersteller, Typserie
+Motorgeber
+
+: Fa. Siemens, 1FT7- bzw. 1FK7-Motoren,
+: Multiturn-Absolutgeber ( 2048 Str./U ) mit EnDatSchnittstelle bzw. mit Drive-Cliq-Schnittstelle
+Motor-Leistungsstecker : Fa. Intercontec,
+Motor-Geberstecker
+: Fa. Intercontec, 17-polig,
+Antriebsfamilie
+: Fa. Siemens, Sinamics S120 .
+
+7
+
+WACO-Lastenheft der Elektroausrüstung
+
+6.5 Drehstromasynchronmotoren
+Drehstromasynchronmotoren sind nach IEC 60038 mit einer Spannungstoleranz von
++/-10 % auszulegen.
+Es sind Motoren mit Doppelleistungsschild 400V / 50Hz und 460V / 60Hz einzusetzen.
+Motoren mit Leistungen <= 5 kW sind mit Stecker-,
+Motoren mit Leistungen >5 kW mit Klemmenanschlüssen auszurüsten.
+Die Motoren mit Stecker sind nach Desina-Spezifikation Nr. 13 ( www.desina.de )
+auszuführen.
+Bei Drehstrommotoren sind generell Drehrichtungspfeile anzubringen.
+Wird der Motor über einen Frequenzumrichter betrieben, so ist dieser mit einer geeigneten
+Temperaturüberwachung auszustatten ( typischerweise KTY oder PTC ), die direkt am
+Umrichter angeschlossen und von diesem ausgewertet werden kann.
+Im allgemeinen gilt die Empfehlung zum Einsatz von Siemens-Motoren.
+Beachten Sie bitte die gesetzlichen Vorgaben der Mindestwirkungsgrade:
+ab 01.01.2017 müssen Motoren (0,75 kW - 375 kW) mindestens IE3, oder IE2 mit
+Frequenzumrichter entsprechen.
+6.6 PLC-Technik
+Bei Verwendung von PLC-Steuerungen sind
+PLC-Steuerungen : Fa. Siemens, Familie S7-300
+PLC-Material
+: Fa. Siemens, ET200SP
+Kommunikation über
+: ProfiNet I/O, Profibus
+einzusetzen.
+Die Kommmunikations-Schnittstelle muß im Vorfeld mit WACO abgestimmt werden.
+
+6.7 Direkte Meßsysteme
+Hersteller
+
+: vorzugsweise von
+Heidenhain, INA, AMO, Siemens, Schneeberger
+andere Hersteller auf Anfrage bzw. Genehmigung
+
+Stecker
+
+: Heidenhain
+
+6.8 Sensorik
+Näherungsschalter, Reihengrenztaster, etc.:
+vorzugsweise von Fa. Balluff, andere auf Anfrage
+Bei Verwendung von induktiven Näherungsschaltern :
+vorzugsweise M12MI-PSC40B-S04G-M01 BA,
+andere Hersteller bzw. Typen auf Anfrage
+Es sind bevorzugt Bauteile mit M12-Steckverbinder zu verwenden.
+
+8
+
+6.9 Sicherheitstechnik
+
+für manuelle Zugangstüren
+Hersteller, Typserie
+
+: Fa. Euchner, CET3-AR
+
+transpondercodierter Unicode-Sicherheitsschalter mit mechanischer Zuhaltung nach dem
+Ruhestromprinzip sowie integrierter Auswerteelektronik
+mit Steckverbinder M23 (RC18), 19-polig, gerade oder abgewinkelt
+mit PUR-Kabel (16x0,5 + 3x1 mm²), Kabellänge nach Bedarf
+Je nach Applikation finden derzeit folgende Typen Verwendung :
+ohne Fluchtentriegelung bzw. mit Fluchtentriegelung in kurzer oder langer Ausführung
+Zubehör CET :
+Riegel CET,
+
+: CET-A-C/F
+Art.-Nr. : 106172
+( für rechts oder links angeschlagene Türen,
+mit Fluchtentriegelung, Schiebehebel von der Rückseite )
+
+Betätiger CET,
+
+: CET-A-BWK-50X
+Art.-Nr. : 096327
+( manipulationssicherer Transponder im Betätiger integriert )
+
+Notentsperrung CET
+( Drehknopf )
+
+: Notentsperrung CET
+
+Art.-Nr. : 103714
+
+Die Kombination aus Schaltertyp und dessen Zubehörteile ist abhängig von der
+Türapplikation u. muß im Vorfeld mit WACO abgestimmt werden.
+
+für Automatiktüren
+Hersteller, Typserie
+
+: Fa. Euchner, CES…-AR
+
+Transpondercodierter, berührungsloser Unicode-Sicherheitsschalter mit integrierter
+Auswerteelektronik
+Schalter
+
+: CES-I-AR-U-C04-xxx
+
+Art.-Nr. : 119470/1/2/3
+
+Kabelende (offen oder Stecker) und Kabellänge nach Bedarf
+Betätiger
+
+: CES-A-BBN-C04
+
+Art.-Nr. : 115271
+
+9
+
+WACO-Lastenheft der Elektroausrüstung
+
+für sonstige Sicherheitsfunktionen
+Hersteller, Typserie
+
+: Fa. Euchner, NZ2HB-xxx (mit Steckverbinder SR6)
+
+Die Wahl des geeigneten Schaltglieds ist abhängig von der Funktion des Schalters u.
+muß im Vorfeld mit WACO abgestimmt werden.
+
+Lichtschranken
+
+: Fa. Sick ,
+Typenserie C4000 Standard bzw. M4000 Standard ,
+entsprechend des Anwendungsfalls bzw. des Gefährdungspotentials sind der Strahlabstand und die Strahlanzahl zu
+spezifizieren
+
+Schaltleisten
+
+: Fa. Mayser , Fa. Haake
+
+Falls im Bestelltext von Schutzeinrichtungen Tür-Bedieneinheiten gefordert sind, sind diese mit
+den nachfolgenden Siemens-Bauelementen zu bestücken:
+Bedieneinheiten für manuelle Türen nach WACO-Standard :
+LEERGEHÄUSE
+
+3SU1854-0AA00-0AB1
+
+LAMPENFASSUNG MIT FEDERZUGKLEMME U. INTEGRIERTER LED (GN)
+
+3SU1401-2BB40-3AA0
+
+SCHLÜSSELSCHALTER 3 SCHALTSTELL. I-O-II LI:TASTEND, RE:RASTEND
+
+3SU1050-5BP61-0AA0
+
+LEUCHTDRUCKTASTER (GN) M. FL. DRUCKKNOPF
+
+3SU1051-0AB40-0AA0
+
+DRUCKSTÜCK FÜR KNEBEL, SCHLOSS, DRUCKTASTER
+
+3SU1900-0KC10-0AA0
+
+NOT-AUS-PILZDRUCKTASTER, MIT ÜBERLISTUNGSSCHUTZ,
+NACH EN 418,VERRASTEND,DREHENTRIEGELUNG
+
+3SU1050-1HB20-0AA0
+
+SCHALTELEMENT MIT FEDERZUGKLEMME (Ö)
+
+3SU1400-2AA10-3CA0
+
+SCHALTELEMENT MIT FEDERZUGKLEMME (S)
+für Frontplattenbefestigung
+
+3SU1400-2AA10-3BA0
+
+BLINDVERSCHLUSS, RUND METALL
+
+3SU1950-0FA80-0AA0
+
+UNTERLEGSCHILD GELB
+
+3SU1900-0BC31-0AA0
+
+LAMPENFASSUNG MIT FEDERZUGKLEMME UND INTEGRIERTER LED (BL)
+
+3SU1401-2BB50-3AA0
+
+LEUCHTDRUCKTASTER (BL) M. FL. DRUCKKNOPF
+
+3SU1051-0AB50-0AA0
+
+10
+
+6.10 Befehls- / Meldegeräte
+Tast- / Leuchtelemente : Fa. Schlegel, Fa. Siemens
+Zweihandbedienpult
+
+: Fa. Siemens, Programm 3SB3
+
+Warnleuchten
+
+: Fa. Rittal
+
+Leuchtsäulen
+
+: Fa. Rittal
+Montageelement
+LED Dauerlichtelement ROT
+LED Dauerlichtelement GELB
+LED Dauerlichtelement GRÜN
+
+Art.-Nr.
+Art.-Nr.
+Art.-Nr.
+Art.-Nr.
+
+SG 2374.000
+SG 2372.000
+SG 2372.020
+SG 2372.010
+
+6.11 Kabel
+Hersteller
+Eigenschaften
+Kabelmantel-Material
+Kabelmantel- Farbe
+
+: vorzugsweise von Fa. IGUS,
+andere Hersteller nur auf Anfrage
+: TPE oder PUR
+: nach aktueller Normung
+
+Je nach Applikation sind weitere Eigenschaften wie z.B. Schleppfähigkeit, minimaler
+Biegeradius etc. zu beachten.
+6.12 Beleuchtung
+
+Maschinenarbeitsraum- bzw. innenbeleuchtung
+Hersteller, Typserie
+
+: Fa. Waldmann, MACH LED PLUS
+Maschinenleuchte MQAL 84S
+Leuchtenhalter-Set
+M12-Anschlußbuchse gerade
+M12-Anschlußbuchse gewinkelt
+
+Art.-Nr. 113126000-00612973
+Art.-Nr. 408001876-00582065
+Art.-Nr. 336615019-00522018
+Art.-Nr. 336615029-00522015
+
+In Bedienkörben / Bedienbühnen
+Hersteller, Typserie
+
+: gleicher Typ wie oben
+
+oder alternativ und nach Genehmigung durch WACO
+Hersteller, Typserie
+
+: Fa. Waldmann, FLAT TEC
+Maschinenleuchte MZAC 211 N
+Winkelstecker M12
+Kompakt-Leuchtstofflampe
+
+Art.-Nr. 112 536 002
+Art.-Nr. 330 635010
+Art.-Nr. 450 011 230
+
+In Schaltschränken
+Hersteller
+
+: Fa. Rittal
+Systemleuchte 13W, 110-240V
+Anschlußzubehör
+
+11
+
+Art.-Nr. SZ2500.300
+Art.-Nr. SZ2500.600
+
+WACO-Lastenheft der Elektroausrüstung
+
+6.13 Installationsmaterial
+Installationskästen
+Verschraubungen
+Steckverbindungen
+
+: Fa. Rittal, Fa. Rose,
+: metrisch,
+: Fa. Harting, andere Hersteller auf Anfrage
+
+6.14 Bezeichnungen
+Alle Motoren, Kabel und Ventile sind mit wischfest geschwärzten Aluschildern zu versehen
+( z.B. Schlüsselschild, Aluminium, Durchmesser 27 mm, Dicke 1,2 mm ), die entweder mit Nieten
+oder Kabelbindern auf oder in der Nähe des elektrischen Bauteiles anzubringen sind. Die
+Anbringung hat auf alle Fälle so zu erfolgen, daß eine eindeutige Zuordnung möglich ist.
+In den Klemmenkästen sind die Bauteile mit Klebeschildern wischfest zu beschriften. Die
+Anbringung hat sowohl auf dem Bauteil als auch auf der Montageplatte hinter dem Bauteil zu
+erfolgen. Hintergrund ist, dass das Bauteil im Fehlerfall zweifelsfrei identifiziert werden kann und
+nach dem Austausch der entsprechende Einbauort wiedergefunden werden kann. Hinsichtlich der
+Klebeschilder macht WACO keine Vorgaben, da diese für gewöhnlich von außen nicht sichtbar
+sind.
+Hinweis:
+Beispiele von Kennzeichnungen in Form von Bildern sind bei WACO abrufbar.
+
+12
+
+7
+
+Änderungshistorie
+
+Die Änderungshistorie bis zum Versionsstand V5.3 kann in den vorangegangenen Lastenheften
+nachverfolgt werden.
+
+Versionsstandänderung V5.3 auf V6.0 :
+Das Kapitel “Dokumentation” wurde überarbeitet
+Das Kapitel “elektrische Spezifikation” wurde überarbeitet
+Das Kapitel “Gerätespezifikation” wurde überarbeitet. Ältere Gerätetypen wurden entfernt
+bzw. durch neue ersetzt.
+Die äußere Form des Dokuments wurde überarbeitet.
+
+Versionsstandänderung V6.0 auf V6.1 :
+Unter Punkt 2 wurde der Hinweis zur Einhaltung der EMV-Richtlinie hinzugefügt
+Unter Punkt 5 wurde ein Hinweis zur Absicherung von Schaltnetzteilen hinzugefügt
+Unter Punkt 6.3 wurde der Hersteller Kostal hinzugefügt
+
+Versionsstandänderung V6.1 auf V6.2 :
+Unter Punkt 6.9 wurden diverse Aktualisierungen im Bereich der
+o Euchner-Sicherheitsschalter sowie
+o Bedieneinheiten für manuelle Türen
+vorgenommen.
+
+13
+
+

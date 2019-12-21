@@ -1,0 +1,4 @@
+Hinter einer Werbung darf keine Funktion
+hinterlegt sein, die einen unmittelbaren oder mittelbaren Einfluss auf Grundeinstellungen
+bzw. die Konfiguration der Verordnungssoftware (z. B. Filtereinstellungen bei
+Suchfunktionen) hat.

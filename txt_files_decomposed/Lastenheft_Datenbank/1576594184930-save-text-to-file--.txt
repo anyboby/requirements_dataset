@@ -1,0 +1,2 @@
+Es soll die Möglichkeit bestehen, Datensätze nach verschiedenen Kriterien zu filtern, wie
+zum Beispiel nach Anzahl der Personen, Verbrauch, PLZ, Datum, etc.

@@ -1,0 +1,2 @@
+Sofern Ärzte Medikationspläne nach § 31a SGB V nicht erstellen oder aktualisieren müssen,
+kann auf diese Funktion verzichtet werden.

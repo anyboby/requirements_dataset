@@ -1,0 +1,2 @@
+Der Betreiber muss ein Configuration Management einsetzen, um gegebenenfalls verschiedene Konfigurationen der Software getrennt voneinander verwalten und dokumentieren zu können. Hierbei ist insbesondere auf die organisatorische und technische Trennung der bundeslandspezifischen Unterschiede vom restlichen Betrieb des Anbieters
+einzugehen. Es muss sichergestellt sein, dass die spezifischen Konfigurationen von denen anderer Bundesländer getrennt sind, um bei Updates und Änderungen nicht in Konflikt zu kommen.

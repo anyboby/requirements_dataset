@@ -1,0 +1,6 @@
+Sowohl für die Berechnung und Bescheidung von BAföG gelten bestimmte gesetzliche
+Vorgaben, die in der Software umgesetzt werden müssen.
+Gesetzliche Grundlagen BAföG
+Die Software muss alle jeweils gültigen gesetzlichen Regelungen des Bundesausbildungsförderungsgesetzes (BAföG) sowie der ergänzenden Änderungsgesetze korrekt
+und vollständig umsetzen. Dabei muss die Software insbesondere in der Lage sein, bei
+Gesetzesänderungen innerhalb eines Förderungszeitraumes die unterschiedlichen Gesetzeslagen für bestehende oder zukünftige Förderempfänger berücksichtigen zu können.

@@ -1,0 +1,7 @@
+geteilte Verantwortlichkeiten, Mitwirkungspflichten sowie die Schnittstellen zum Melden
+von Sicherheitsvorfällen und Störungen sind in
+Abhängigkeit des Cloud-Modells (Infrastructure-,
+Plattform- oder Software-as-a-Service) und den
+vertraglichen Verpflichtungen definiert, dokumentiert, zugewiesen und an alle betroffenen
+internen und externen Parteien (z. B. Cloud-Kunden, Unterauftragnehmer des Cloud-Anbieters)
+kommuniziert

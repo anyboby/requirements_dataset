@@ -1,0 +1,6 @@
+Der Auftragnehmer verpflichtet sich, alle Daten (Dokumentation, Quellcode, Daten) bei
+Beendigung dem Auftraggeber kostenfrei zu übergeben. Die Übergabe der Daten wird
+durch Datenträger übergeben. Die Nutzerrechte unterliegen alleinig dem Auftraggeber mit
+deren Partnern des Projektes SSC. Eine Weiterverwendung von Quellcode und Wissen
+für andere Softwareanwendungen ist nicht gestattet. Der Auftragnehmer erhält die
+Dokumentation der Berechnungsvorgänge der DB bei Auftragsvergabe.

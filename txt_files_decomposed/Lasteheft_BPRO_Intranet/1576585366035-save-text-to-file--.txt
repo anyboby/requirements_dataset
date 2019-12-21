@@ -1,0 +1,2 @@
+Auslegung generell auf einen Betriebsdruck von 6 bar.
+Iso- Zylinder und Ventile gemäß Anlage sind einzusetzen.

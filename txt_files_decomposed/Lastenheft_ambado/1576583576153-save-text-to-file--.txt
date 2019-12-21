@@ -1,0 +1,3 @@
+Die Umwandlung Kurzversion => Langversion =>
+Kurzversion soll ohne Datenverlust (idealerweise in
+einem Dokument) möglich sein.

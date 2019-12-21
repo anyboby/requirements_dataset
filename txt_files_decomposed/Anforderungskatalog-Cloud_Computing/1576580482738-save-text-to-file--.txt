@@ -1,0 +1,5 @@
+Vergabe und Änderung von Zugriffsberechtigungen für interne und externe Benutzer mit administrativen oder weitreichenden Berechtigungen
+unter Verantwortung des Cloud-Anbieters
+erfolgen gemäß der Richtlinie zur Verwaltung
+von Zugangs- und Zugriffsberechtigungen
+(vgl. IDM-01) oder einer separaten Richtlinie.

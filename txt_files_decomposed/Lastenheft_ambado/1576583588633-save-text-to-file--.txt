@@ -1,0 +1,2 @@
+Angezeigte Fälle müssen aus der Liste heraus
+aufrufbar sein (z. B. durch doppelten Mausklick).

@@ -1,0 +1,6 @@
+WACO stellt peripheren Geräten einen 3-Leiteranschluß (3 Phasen und PE ) zur Verfügung.
+Wenn bei Zulieferkomponente ein Neutralleiter benötigt werden sollte, so ist dieser in der
+Komponente selbst ( z.B. über Trafo ) zu bilden. Die Absicherung seitens WACO erfolgt über
+Motorschutzschalter ( bis Phasenstrom von 25 A ) bzw. über NH-Sicherung ( > 25 A ). Eine
+Leistungsangabe mit Angabe des Nennstroms von Seiten des Zulieferers ist deshalb
+zwingend erforderlich.

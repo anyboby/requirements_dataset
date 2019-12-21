@@ -1,0 +1,8 @@
+Die
+Erfassung der Bestände ist nicht personengebunden. Diese Daten können aus dem
+eShop in eine *.csv Datei exportiert werden. Diese Dateien könnten in die DB eingelesen
+werden, um die Daten der Bestellungen zu haben. Der Standort müsste dann nur noch
+den aktuellen Bestand erfassen und eingeben. Wie viele Soforthilfen er an die Haushalte
+ausgegeben hat, wird in der Datenbank schon verbucht. Anhand dieses Bestandes wird
+der aktuelle Bestand gemessen. Somit müssen die Standorte nur noch die Bestände der
+einzelnen Soforthilfen erfassen und eingeben.

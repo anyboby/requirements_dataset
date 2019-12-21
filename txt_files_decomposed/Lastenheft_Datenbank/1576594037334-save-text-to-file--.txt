@@ -1,0 +1,5 @@
+Einige Kontexthilfen sind nicht eindeutig formuliert. Einige Hilfetexte sind zu komplex und
+ungenau beschrieben (Fragezeichenkästchen). Diese sollten überarbeitet werden. Der
+Bereich “Hilfe?“ ist nicht gepflegt und bietet zu wenige Hilfestellungen. Dieser Bereich soll
+so überarbeitet werden, dass der Auftraggeber die Möglichkeit hat, den Bereich selbst zu
+pflegen und Dokumente zu verlinken.

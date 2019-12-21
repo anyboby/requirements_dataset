@@ -1,0 +1,4 @@
+Es müssen geeignete Benutzerhandbücher sowohl in elektronischer als auch in gedruckter Form vorliegen. Außerdem müssen wesentliche Bestandteile des Benutzerhandbuches über eine Hilfefunktion innerhalb der Software abgerufen werden können. Dabei
+sollen sich zu den einzelnen Bearbeitungsschritten beziehungsweise Feldern alle relevanten Informationen direkt anzeigen lassen.
+Das Benutzerhandbuch muss für alle im Berechtigungskonzept festgelegten Rollen die
+relevanten Anwendungsfunktionen beschreiben.

@@ -1,0 +1,1 @@
+Die Software muss verschiedene Schnittstellen zur Verfügung stellen. Die Anforderungen an die jeweiligen Schnittstellen sind in diesem Kapitel näher beschrieben.

@@ -1,0 +1,3 @@
+ Auf dem Kennzeichnungsschild ist oben oder links der Startpunkt (Ident-Nr. bei Rohrleitungen,
+Ident-Nr. und DIN-Bez. bei Kabel) und unten oder rechts der Endpunkt einzutragen. Bei Kabeln ist
+in der Mitte zusätzlich noch die DIN-Bez. (z.B.W….) aufzuführen.

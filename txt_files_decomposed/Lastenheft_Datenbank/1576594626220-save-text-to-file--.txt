@@ -1,0 +1,6 @@
+Für die Bemerkungsfelder soll es
+möglich
+sein,
+Textbausteine
+festzulegen, die frei auszuwählen
+sind.

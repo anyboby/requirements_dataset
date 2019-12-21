@@ -1,0 +1,5 @@
+Optimal wäre eine Verknüpfung zu den Daten des eShops. Im eShop werden alle Daten
+der Bestellung von Soforthilfen verwaltet (Bestellmenge, Bestelldatum, Produktgruppen,
+Einzelpreis (netto), Einzelpreis (brutto). Die Bestellungen können im eShop komplett
+nachvollzogen werden, da alle Daten der Standorte und ihrer Bestellungen abgespeichert
+sind. Es können nur bestimmte Personen der Standorte im eShop bestellen.

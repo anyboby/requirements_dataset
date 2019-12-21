@@ -1,0 +1,3 @@
+Die Suchfunktion nach Datensätzen ist nicht optimal. Die Suche ist auf zwei Register
+aufgeteilt und zu unübersichtlich aufgebaut. Um nach einer Gutscheinnummer zu suchen,
+muss ein anderes Register geöffnet werden.

@@ -1,0 +1,5 @@
+Abweichende Bussysteme sind nur nach Rücksprache und schriftlicher Freigabe zulässig.
+Die Ausführung der Schnittstelle, Schnittstellenbelegung bzw.
+weiterer Schnittstellen zwischen der Anlage und dem CHIRON
+Bearbeitungszentrum ist zu Beginn des Projekt zu definieren und
+schriftlich genehmigen zu lassen.

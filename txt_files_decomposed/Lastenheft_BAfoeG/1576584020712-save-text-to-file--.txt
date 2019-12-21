@@ -1,0 +1,5 @@
+Tatsachen, die erst zukünftig Auswirkungen auf die Höhe des Förderungsanspruches
+haben, sollen bereits bei der Eingabe berücksichtigt werden. In dem entsprechenden Bescheid müssen also sowohl die Berechnung für den Zeitraum bis zur bereits bekannten
+Änderung als auch die Berechnung für den Zeitraum nach der bekannten Änderung bis
+zum Ende des BWZ (oder bis zum Eintreten einer weiteren Änderung) dargestellt werden. Außerdem müssen die unterschiedlichen Zahlbeträge je Zahlungsmonat aufgeführt
+werden.

@@ -1,0 +1,4 @@
+Das System soll sowohl horizontal (mehr Server) als auch vertikal (mehr Leistung pro
+Server) skalierbar sein und dabei die Server/Benutzer-Relation im Wesentlichen gleich
+halten. Dazu sind die internen Prozesse der Software soweit wie möglich parallelisierbar
+zu gestalten.

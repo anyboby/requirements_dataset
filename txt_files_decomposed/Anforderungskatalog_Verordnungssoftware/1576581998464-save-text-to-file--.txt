@@ -1,0 +1,3 @@
+Die Verordnungshistorie, d.h. die Dokumentation der patientenbezogenen Verordnungsinformationen, ist im
+Praxisverwaltungssystem gespeichert. Die Verordnungsinformationen aus der Verordnungshistorie können auch für die
+Wiederverordnung sowie für Funktionen nach K4-150 und K4-200 genutzt werden.

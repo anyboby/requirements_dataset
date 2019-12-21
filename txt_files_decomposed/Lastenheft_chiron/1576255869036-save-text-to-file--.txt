@@ -1,0 +1,2 @@
+Werden die Werkstückspezifikationen nicht eingehalten oder innerhalb des Projektablaufes vom Kunden verändert, kann gegebenenfalls eine Funktionsbeeinträchtigung innerhalb der Anlage auftreten
+und eine Anpassung der Anlage bis hin zur vollständigen Neukonstruktion notwendig werden.

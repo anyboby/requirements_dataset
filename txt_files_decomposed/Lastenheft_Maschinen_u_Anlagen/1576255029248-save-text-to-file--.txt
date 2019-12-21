@@ -1,0 +1,2 @@
+Für Signallampen ist ein getrennter Kleinspannungstrafo (220V / 24V) vorzusehen, falls die
+Gleichspannungsversorgung hierfür nicht benutzt werden kann.

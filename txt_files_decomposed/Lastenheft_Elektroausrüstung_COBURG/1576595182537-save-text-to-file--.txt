@@ -1,0 +1,4 @@
+Alle Motoren, Kabel und Ventile sind mit wischfest geschwärzten Aluschildern zu versehen
+( z.B. Schlüsselschild, Aluminium, Durchmesser 27 mm, Dicke 1,2 mm ), die entweder mit Nieten
+oder Kabelbindern auf oder in der Nähe des elektrischen Bauteiles anzubringen sind. Die
+Anbringung hat auf alle Fälle so zu erfolgen, daß eine eindeutige Zuordnung möglich ist.

@@ -1,0 +1,3 @@
+Zeitplan und Inhalte des Einführungsprojektes
+Das Einführungsprojekt für die BAföG-Software soll am 1.3.2018 starten. Die Dauer des
+Einführungsprojektes ist mit 9 Monaten vorgesehen.

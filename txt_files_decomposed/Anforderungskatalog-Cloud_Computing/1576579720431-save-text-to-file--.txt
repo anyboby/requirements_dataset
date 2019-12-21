@@ -1,0 +1,7 @@
+Die zur Erbringung des Cloud-Dienstes eingesetzten Assets (z. B. PCs, Peripheriegeräte, Telefone,
+Netzwerkkomponenten, Server, Installationsdokumentationen, Verfahrensanweisungen,
+IT-Anwendungen, Werkzeuge) sind identifiziert
+und inventarisiert. Durch angemessene Prozesse
+und Maßnahmen wird sichergestellt, dass dieses
+Inventar vollständig, richtig, aktuell und konsistent bleibt. Änderungen an den Einträgen im
+Inventar werden nachvollziehbar historisiert.

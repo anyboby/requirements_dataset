@@ -1,0 +1,3 @@
+Die Reaktionszeit auf Fehlertickets durch den Betreiber darf während der Servicezeiten
+den Zeitraum von einer Stunde nicht überschreiten. Die Reaktion auf ein Ticket muss
+eine Rückmeldung zu dem geschilderten Problem beinhalten.

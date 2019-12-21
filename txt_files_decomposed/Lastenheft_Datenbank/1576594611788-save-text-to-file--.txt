@@ -1,0 +1,4 @@
+Bei jedem Feld soll ein Tooltip
+enthalten sein. Diese sollen durch
+den Admin editierbar sein (Ein/Ausschalten und Ändern des
+Textes)

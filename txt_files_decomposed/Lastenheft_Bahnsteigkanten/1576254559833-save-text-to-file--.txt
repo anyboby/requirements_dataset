@@ -1,0 +1,4 @@
+Die bahnsteigseitige Oberfläche der Bahnsteigkanten (Kantenabdeckung) ist entsprechend Ril 813.0205 in weiß/sehr hell
+auszuführen. Gemäß TM 2015-13 I.SBB (Kontrastgestaltung
+der Personenbahnhöfe nach TSI PRM 2015) muss hierfür ein
+LRV-Wert (Lichtreflexionsgrad) von ≥ 50 eingehalten werden.

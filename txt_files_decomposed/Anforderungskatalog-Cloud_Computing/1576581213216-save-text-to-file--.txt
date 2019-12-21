@@ -1,0 +1,5 @@
+Ereignisse, die einen Sicherheitsvorfall darstellen
+könnten, werden durch qualifiziertes Personal des
+Cloud-Anbieters oder in Verbindung mit externen
+Sicherheitsdienstleistern klassifiziert, priorisiert
+und einer Ursachenanalyse unterzogen.

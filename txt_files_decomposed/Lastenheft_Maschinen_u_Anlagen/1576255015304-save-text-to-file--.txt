@@ -1,0 +1,3 @@
+Verbraucherabgänge über 35 Ampere und Drehstrommotoren größer 11 kW sind als NH – Sicherung
+und/oder Sicherungslasttrenner einzubauen. Sicherungsautomaten für die Steuerspannung sind mit
+Hilfskontakte auszurüsten.

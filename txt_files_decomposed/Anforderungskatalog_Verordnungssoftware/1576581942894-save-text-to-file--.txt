@@ -1,0 +1,2 @@
+Steht eine produktbezogene Preishistorie zur Verfügung, sind mindestens die Daten der
+letzten 2 Jahre anzuzeigen.

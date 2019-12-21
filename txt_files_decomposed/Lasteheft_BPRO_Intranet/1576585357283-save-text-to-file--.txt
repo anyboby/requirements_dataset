@@ -1,0 +1,3 @@
+Maschinen werden über Netzwerkkabel min. Cat6 an das BPRO IP- Netzwerk angebunden.
+Der Hersteller bekommt von der BFITS ein IP-Adressraum entsprechend der Anzahl
+der benötigten Endgeräte zugewiesen.

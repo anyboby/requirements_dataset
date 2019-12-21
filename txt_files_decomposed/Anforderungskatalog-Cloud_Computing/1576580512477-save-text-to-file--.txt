@@ -1,0 +1,15 @@
+Die Zuteilung geheimer Authentifizierungsinformationen (z. B. Passwörter, Zertifikate, Sicherheitstoken) an interne und externe Benutzer des
+Cloud-Anbieters oder des Cloud-Kunden erfolgt,
+soweit dies organisatorischen oder technischen
+Verfahren des Cloud-Anbieters unterliegt, in
+einem geordneten Verfahren, das die Vertraulichkeit der Informationen sicherstellt. Soweit diese
+initial vergeben werden, sind diese nur temporär,
+höchstens aber 14 Tage gültig. Benutzer werden
+ferner gezwungen, diese bei der ersten Verwendung zu ändern. Der Zugriff des Cloud-Anbieters auf Authentifizierungsinformationen der
+Cloud-Kunden ist streng reglementiert, mit
+dem Cloud-Kunden kommuniziert und erfolgt
+nur, wenn es für die Aufgabenwahrnehmung
+
+notwendig ist („Need-to-know-Prinzip“).
+Die Zugriffe werden dokumentiert und dem
+Cloud-Kunden mitgeteilt.

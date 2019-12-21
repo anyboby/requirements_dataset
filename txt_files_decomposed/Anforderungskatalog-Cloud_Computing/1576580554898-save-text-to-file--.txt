@@ -1,0 +1,9 @@
+in einem verschlüsselten Verfahren, das dem
+aktuellen Stand der Technik entspricht.
+Ergänzende Informationen zur Basisanforderung
+Sicherheitsparameter umfassen z. B. die Verwendung sicherer Anmeldeverfahren (vgl. IDM-08),
+Sperre nach fehlgeschlagenen Anmeldungen,
+keine Mehrfachanmeldungen mit dem gleichen
+Benutzer, automatische Abmeldung/Sperre nach
+Inaktivität).
+

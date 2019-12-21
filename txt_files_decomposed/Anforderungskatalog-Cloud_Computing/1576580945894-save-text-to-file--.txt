@@ -1,0 +1,4 @@
+Bei der Beschaffung werden Produkte vorgezogen, die nach den „Common Criteria for
+Information Technology Security Evaluation“
+(kurz: Common Criteria – CC) gemäß Prüftiefe
+EAL 4 zertifiziert wurden

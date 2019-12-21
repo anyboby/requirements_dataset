@@ -1,0 +1,2 @@
+Sowohl die SPC-Ausschleusung als auch das Handling von NIOTeilen ist als Option zu sehen, die gegebenenfalls projektbezogen
+umgesetzt werden kann.

@@ -1,0 +1,1 @@
+Pflichtfunktionen müssen in der Verordnungssoftware implementiert sein.

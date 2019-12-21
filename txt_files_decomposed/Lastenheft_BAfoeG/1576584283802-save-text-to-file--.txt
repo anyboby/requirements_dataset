@@ -1,0 +1,1 @@
+Aus Anwendersicht muss eine klare Trennung der einzelnen Benutzersitzungen (Sessions) gewährleistet sein, so dass jeder Antragssteller stets nur die eigenen Daten lesen oder modifizieren kann

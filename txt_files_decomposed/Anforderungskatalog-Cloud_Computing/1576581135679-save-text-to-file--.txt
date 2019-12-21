@@ -1,0 +1,3 @@
+Festgestellte Abweichungen werden gemäß der
+Anforderung OIS-07 einer Risikoanalyse unterzogen, um diese zeitgerecht durch mitigierende
+Maßnahmen wirksam zu adressieren.

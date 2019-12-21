@@ -1,0 +1,3 @@
+Den maßgeblichen Rahmen für die Datenerhebung, -verarbeitung und -nutzung legen
+die §§ 67 ff. SGB X fest. Der Betreiber der BAföG-Software muss daher grundsätzlich
+alle dort festgelegten Anforderungen an den Schutz der Daten erfüllen. Dies gilt insbesondere für den § 80 SGB X, der die Erhebung, Verarbeitung oder Nutzung von Sozialdaten im Auftrag behandelt.

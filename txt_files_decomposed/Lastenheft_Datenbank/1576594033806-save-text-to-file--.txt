@@ -1,0 +1,2 @@
+Es soll für einzelne Module die Möglichkeit bestehen, diese nur für bestimmte Standorte
+sichtbar bzw. aktiv zu schalten.

@@ -1,0 +1,2 @@
+Nach einem Schadensfall muss die Wiederherstellung des uneingeschränkt lauffähigen
+Systems von montags bis freitags innerhalb von 24 Stunden gewährleistet werden. Dabei soll der Datenbestand bis zum Ausfallzeitpunkt rekonstruiert werden können. Der Erfolg der Wiederherstellung muss verifizierbar sein.

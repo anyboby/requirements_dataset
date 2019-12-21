@@ -1,0 +1,4 @@
+Sofern im Rahmen eines Einführungsprojektes typische
+Suchanfragen identifiziert werden, sollen diese als vordefinierten Standardsuchen in der
+Software hinterlegt werden können.
+

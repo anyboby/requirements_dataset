@@ -1,0 +1,3 @@
+Im Betrieb ist eine Maximumüberwachungsanlage vorhanden. Als Eingriffsmöglichkeit ist für sämtliche
+Verbraucher größer 5 kW die Ansteuerung des entsprechenden Leistungsschützes über 2
+nebeneinanderliegenden Reihenklemmen der Klemmleiste X 4 (s.3.4) zu führen.

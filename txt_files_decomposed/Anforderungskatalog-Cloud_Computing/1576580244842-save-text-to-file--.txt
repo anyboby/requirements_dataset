@@ -1,0 +1,2 @@
+Die Verfügbarkeit der Protokollierungs- und
+Überwachungssoftware wird unabhängig überwacht.

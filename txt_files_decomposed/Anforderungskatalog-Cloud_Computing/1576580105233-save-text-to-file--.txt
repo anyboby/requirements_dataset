@@ -1,0 +1,3 @@
+Der Zeitraum, in
+dem Metadaten gespeichert werden, ist vom
+Cloud-Anbieter festgelegt.

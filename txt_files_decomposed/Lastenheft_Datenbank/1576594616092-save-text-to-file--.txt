@@ -1,0 +1,4 @@
+Bevor ein Datensatz gespeichert
+wird, muss die Datenbank auf
+Pflichtfelder prüfen. Meldung an den
+Nutzer falls Daten fehlen.

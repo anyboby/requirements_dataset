@@ -1,0 +1,2 @@
+Zu jedem Rechnungslauf (derzeit einmal monatlich) werden statistische Daten über die
+ausgezahlten Darlehensanteile an die KfW übermittelt. Dies sind insbesondere Stammdaten des Antragstellers, Angaben zu Erstausbildung oder Zweitausbildung und Änderungen des Kontostandes.

@@ -1,0 +1,5 @@
+Es sind Motoren mit Doppelleistungsschild 400V / 50Hz und 460V / 60Hz einzusetzen.
+Motoren mit Leistungen <= 5 kW sind mit Stecker-,
+Motoren mit Leistungen >5 kW mit Klemmenanschlüssen auszurüsten.
+Die Motoren mit Stecker sind nach Desina-Spezifikation Nr. 13 ( www.desina.de )
+auszuführen.

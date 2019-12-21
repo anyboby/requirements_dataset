@@ -1,0 +1,4 @@
+Eine Anhebung des Fahrzeuges erfolgt mit der zuletzt schließenden Tür.
+Bei Ausfall der Absenkanlage muss die Fahrtüchtigkeit des Fahrzeugs gewährleistet
+bleiben (Notschaltung für Werkstattpersonal auf Hauptschalttafel).
+Bei abgesenktem Fahrzeug muss die Haltestellenbremse wirken.

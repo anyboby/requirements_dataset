@@ -1,0 +1,4 @@
+Die Software soll den Sachbearbeiter bei der Durchführung des Datenabgleichs gemäß
+§ 45d EStG unterstützen (vgl. auch LH 59). Dabei müssen die Rückmeldungen des Bundeszentralamts für Steuern (BZSt) im jeweiligen Förderfall angezeigt werden können. Bei
+der Berechnung für vergangene BWZ ist der Vermögensverbrauch für vorangegangene
+BWZ zu berücksichtigen.

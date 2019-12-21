@@ -1,0 +1,6 @@
+Bei Anlage neuer AmBADO-Bögen müssen alle
+bereits verfügbaren und relevanten Datenfelder aus
+der aktuellen vorliegenden AmBADO (Kurz- oder
+Vollversion) übernommen werden. Dabei soll eine
+automatische Rückfrage erfolgen, ob die Daten vom
+Behandler inhaltlich auf Aktualität überprüft wurden.

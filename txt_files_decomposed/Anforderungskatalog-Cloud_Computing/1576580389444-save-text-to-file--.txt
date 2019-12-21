@@ -1,0 +1,3 @@
+Ressourcen im Speichernetz (Storage) sind durch
+sichere Zonierung (LUN Binding und LUN
+Masking) segmentiert.

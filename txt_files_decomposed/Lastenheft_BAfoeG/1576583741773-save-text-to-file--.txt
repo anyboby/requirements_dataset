@@ -1,0 +1,3 @@
+In den Niedersächsischen Studentenwerken sowie kommunalen Ämtern für Ausbildungsförderung wurden drei fachliche Hauptprozesse (Erstantrag, Folgeantrag, Änderungsprozess) als entscheidende Bestandteile der Bearbeitung von BAföG-Anträgen identifiziert.
+Zusätzlich wurde als elementarer Baustein einer EDV-Lösung zur BAföG-Bearbeitung
+der zentrale Prozess „Gesetzesänderung“ festgestellt.

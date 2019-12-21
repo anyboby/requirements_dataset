@@ -1,0 +1,4 @@
+Der Betreiber muss geeignete Ressourcen für die zentrale Administration der BAföGSoftware und der notwendigen Betriebsumgebung zur Verfügung stellen. Der Betreiber
+soll die geplanten personellen Ressourcen sowie deren technisches und fachliches
+Know-how im Pflichtenheft beschreiben sowie die Kosten für die Systemadministration
+im Preisblatt darstellen.

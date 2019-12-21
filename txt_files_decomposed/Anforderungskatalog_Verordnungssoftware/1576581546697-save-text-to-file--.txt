@@ -1,0 +1,3 @@
+Dem Arzt sind sämtliche Informationen zu Arzneimitteln nach Maßgabe dieses
+Anforderungskatalogs jeweils in aufbereiteter Form auf Ebene der Pharmazentralnummer
+(PZN) zur Verfügung zu stellen.

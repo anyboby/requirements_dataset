@@ -1,0 +1,5 @@
+Verfahren und technische Maßnahmen zur
+starken Verschlüsselung und Authentifizierung
+bei der Übertragung von Daten der Cloud-Kunden (z. B. über öffentliche Netze transportierte
+elektronische Nachrichten) sind etabliert.
+E

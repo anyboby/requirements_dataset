@@ -1,0 +1,3 @@
+In den Benutzereinstellungen der Verordnungssoftware ist zudem eine Möglichkeit
+vorzusehen, die es dem Anwender erlaubt, die Begrenzung der angezeigten Suchergebnisse
+auf rabattierte Arzneimittel zu setzen.

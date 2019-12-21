@@ -1,0 +1,16 @@
+Ergänzende Informationen zur Basisanforderung
+In einer Vertraulichkeitsvereinbarung sollte
+beschrieben sein:
+» welche Informationen vertraulich behandelt
+werden müssen,
+» für welchen Zeitraum diese Vertraulichkeitsvereinbarung gilt,
+» welche Aktionen bei Beendigung dieser
+Vereinbarung vorgenommen werden müssen, z. B. Vernichtung oder Rückgabe von
+Datenträgern,
+» wie die Eigentumsrechte an Informationen
+geregelt sind,
+» welche Regelungen für den Gebrauch und die
+Weitergabe von vertraulichen Informationen an
+weitere Partner gelten, falls dies notwendig ist,
+» welche Konsequenzen bei Verletzung der
+Vereinbarung eintreten.

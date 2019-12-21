@@ -1,0 +1,3 @@
+Gemäß § 51 Abs. 1 BAföG muss die Auszahlung der Förderung unbar monatlich im Voraus erfolgen.
+Die Software muss daher die Möglichkeit eines regelmäßigen monatlichen Rechnungslaufes bieten, der im Ergebnis die entsprechenden (regelmäßigen) Zahlungslisten erstellt. Zusätzlich soll aber die Möglichkeit bestehen, in bestimmten Fällen (beispielsweise
+bei Nachzahlungen) auch variabel zur Monatsmitte einen Rechnungslauf inklusive Auszahlung durchzuführen.

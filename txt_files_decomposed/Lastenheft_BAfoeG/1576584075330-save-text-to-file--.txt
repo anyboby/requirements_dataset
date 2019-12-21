@@ -1,0 +1,1 @@
+Zu archivierende Förderfälle müssen in der Software in einen revisionssicheren Archivbereich verschoben werden. Es muss möglich sein, bei Bedarf Fälle aus dem elektronischen Archiv wieder in die Produktivumgebung zu holen. Die Daten sind im elektronischen Archiv genauso lange aufzuheben, wie die Papierakte im physischen Archiv.

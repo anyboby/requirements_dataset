@@ -1,0 +1,1 @@
+Die Kommunikation zwischen zentralem Server und den angeschlossenen Studentenwerken und kommunalen Ämtern für Ausbildungsförderung ist durch geeignete Maßnahmen (Software und Hardware) so abzusichern, dass unbefugten Dritten keine Möglichkeit geboten wird, übermittelte Daten abzufangen oder auszulesen.

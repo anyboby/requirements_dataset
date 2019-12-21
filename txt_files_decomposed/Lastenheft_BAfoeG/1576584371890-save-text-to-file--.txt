@@ -1,0 +1,3 @@
+Um unrechtmäßigen Zugriff beziehungsweise Zugriffsversuche auf den Datenbestand
+sowie Datenänderungen nachvollziehen zu können, müssen die Protokolle durch berechtigte Personen auswertbar sein.
+Es muss insbesondere verhindert werden, dass ein ändernder Zugriff auf die Protokolldaten durch diejenigen Personen stattfinden kann, deren Tätigkeiten durch die Protokolldaten dokumentiert werden.

@@ -1,0 +1,6 @@
+Die Bearbeitung der Abrechnung der Kühlgerätegutscheine wird zurzeit von zwei
+Mitarbeitern des eaD übernommen. Die Standorte können mehrere Abrechnungen in
+einem Zeitraum einreichen. Allerdings sollen die Standorte ihre Abrechnungen
+quartalsweise einreichen. Auf der Abrechnung gibt der Standort den Zeitraum der
+eingelösten Gutscheine an. In einer Auflistung werden die IDs und Gutscheinnummer n
+der Haushalte mit Einlösedatum und ausgezahltem Betrag angegeben.

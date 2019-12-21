@@ -1,0 +1,1 @@
+An Klemmstellen von Reihenklemmen darf nur eine Leitung angeschlossen werden.

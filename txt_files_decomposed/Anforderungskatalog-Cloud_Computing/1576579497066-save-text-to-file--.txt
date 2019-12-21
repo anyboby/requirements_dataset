@@ -1,0 +1,4 @@
+ Seitens des Cloud-Anbieters sind
+mindestens die folgenden Rollen (oder vergleichbare Äquivalente) in der Sicherheitsleitlinie oder
+zugehörigen Richtlinien beschrieben und entsprechende Verantwortlichkeiten zugewiesen:
+» IT-Leiter (CIO)

@@ -1,0 +1,2 @@
+Einbau eines beigestellten TFT-Ultrawide-Bildschirms, 29 Zoll, der Firma Bustec. Nähere
+Informationen im Anhang 8.

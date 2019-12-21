@@ -1,0 +1,4 @@
+Netzwerke, die zum Zwecke
+der Migration oder dem erzeugen von virtuellen
+Maschinen dienen sind ebenfalls physisch oder
+logisch von anderen Netzwerken zu separieren.

@@ -1,0 +1,4 @@
+Verbindungen von einzelnen Maschinenkomponenten zur Maschine und umgekehrt sind
+auf eine definierte Übergabestelle zu führen, die als Klemmkasten mit Steckverbindung
+ausgeführt ist. Meßsysteme, die an die Antriebe im Schaltschrank anzuklemmen sind, sind
+ohne Trennstelle direkt aufzulegen.

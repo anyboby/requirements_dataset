@@ -1,0 +1,3 @@
+Der von der Maschine ausgehende Lärmpegel darf bei Volllast der Maschine bei der
+bestimmungsgemäßen Verwendung nicht größer sein als LE = 78 dB(A). Der Maximalpeak LC,Peak max darf 130 dB(C) nicht überschreiten. Bei möglicher Überschreitung der
+Lärmgrenzwerte hat der Hersteller dieses der BPRO mit der Angebotsabgabe mitzuteilen. Maßnahmen zur bestmöglichen Absenkung des Lärmpegels sind optional vorzuschlagen. Im Außenbereich darf LE nicht über 40 dB(A) liegen.

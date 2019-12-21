@@ -1,0 +1,4 @@
+Die entsprechenden Informationen werden von den Vertragspartnern auf Landesebene über
+die in P1-050 benannte Schnittstelle bereitgestellt.
+Die Schnittstelle und deren Inhalte sind ohne Freischaltung bzw. Maßnahmen zur
+Aktivierung unverzüglich bereitzustellen.

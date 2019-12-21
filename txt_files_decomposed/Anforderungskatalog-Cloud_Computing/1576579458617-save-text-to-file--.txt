@@ -1,0 +1,12 @@
+Eine Sicherheitsleitlinie mit Sicherheitszielen und
+strategischen Vorgaben, wie diese Ziele erreicht
+werden sollen, ist dokumentiert. Die Sicherheitsziele leiten sich von den Unternehmenszielen
+und Geschäftsprozessen, relevanten Gesetzen und
+Verordnungen, sowie der aktuellen und zukünftig
+erwarteten Bedrohungsumgebung in Bezug auf
+Informationssicherheit ab. Die strategischen Vorgaben stellen grundlegende Rahmenbedingungen
+dar, die in weiteren Richtlinien und Anweisungen
+
+AnforDerungsKAtAlog ClouD ComputIng (C5) | ZIelsetZungen unD AnforDerungen
+
+näher spezifiziert werden (vgl. SA-01).

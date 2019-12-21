@@ -1,0 +1,4 @@
+Die Maschine muss so konzipiert und gebaut sein, dass Gefahren durch Maschinenvibrationen auf
+das unter Berücksichtigung des technischen Fortschritts und der verfügbaren Mittel zur
+Verringerung von Vibrationen, vornehmlich an der Quelle, erreichbare niedrigste Niveau gesenkt
+werden.

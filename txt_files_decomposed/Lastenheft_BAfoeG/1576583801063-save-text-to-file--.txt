@@ -1,0 +1,3 @@
+Eine Änderung kann im Bescheid zu einem von drei möglichen Ergebnissen führen: Bei
+unveränderter Auszahlungshöhe ergeht ein entsprechender Bescheid an den Förderempfänger. Bei einem erhöhten Zahlbetrag wird dieser ebenfalls in einem Änderungsbescheid dem Empfänger mitgeteilt. Gegebenenfalls muss eine Nachzahlung im System
+verwaltet und ausgezahlt werden.

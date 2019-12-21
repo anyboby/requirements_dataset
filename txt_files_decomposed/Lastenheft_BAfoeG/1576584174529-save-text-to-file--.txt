@@ -1,0 +1,1 @@
+Die Software muss die Möglichkeit bieten, bei Bedarf frei definierbare statistische Auswertungen über den Datenbestand durchzuführen.

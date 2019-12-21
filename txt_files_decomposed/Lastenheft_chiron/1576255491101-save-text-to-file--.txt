@@ -1,0 +1,3 @@
+Gleichspannungsverbraucher mit einer Last > 2 A dürfen nicht an
+Steuerstromkreise angeschlossen werden und sind mit einer
+entsprechenden Sicherung abzusichern.

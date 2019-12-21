@@ -1,0 +1,2 @@
+Downloadunit mit USB-Zugang und LED Statusanzeige (IBIS Ladeknoten) komplett.
+Anordnung entsprechend Zeichnung 1.01 Teil B VDV 230.

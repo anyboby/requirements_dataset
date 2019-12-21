@@ -1,0 +1,8 @@
+Um die Interoperabilität von Cloud-Diensten zu
+gewährleisten, stehen Daten über dokumentierte
+Eingangs- und Ausgangs-Schnittstellen und in
+anerkannten Industriestandards (z. B. das Open
+Virtualization Format für Virtual Appliances) zur
+Verfügung, um die Kommunikation zwischen
+verschiedenen Komponenten und die Migration
+von Applikationen zu unterstützten.

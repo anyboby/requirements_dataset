@@ -1,0 +1,3 @@
+Auf Benutzeraktionen muss die BAföG-Software umgehende Rückmeldungen über das
+Ergebnis beziehungsweise den aktuellen Status der Bearbeitung (beispielsweise „ErstFreigabe erteilt“) ausgeben. Die Software soll dem Benutzer im Fehlerfall sprechende,
+informative Fehlermeldungen anzeigen.

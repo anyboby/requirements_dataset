@@ -1,0 +1,4 @@
+Für die Caritas soll es eine Auswertungsfunktion geben in der die erfassten Daten zu den
+Stromsparhelfern ausgegeben werden können. Der Lokalkoordinator soll eine Übersicht
+erhalten, wie viele Stromsparhelfer aktuell tätig sind und wie viele Stromsparhelfer
+geplant/bewilligt sind. Dies soll in einer Auswertung mit Direktausgabe umgesetzt werden.

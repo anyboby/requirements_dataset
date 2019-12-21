@@ -1,0 +1,7 @@
+Als
+starke Transportverschlüsselung, die dem Stand
+der Technik entspricht, wird aktuell das Protokoll
+TLS 1.2 in Kombination mit Perfect Forward
+Secrecy angesehen. Im übrigen gilt die Technische
+Richtlinie des BSI TR-02102-2 „Kryptographische
+Verfahren: Empfehlungen und Schlüssellängen.

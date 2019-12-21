@@ -1,0 +1,4 @@
+Die Abdecksteine bzw. Bahnsteigkanten ohne Abdecksteine mit
+Anforderungen an den Kontrast müssen integral durchgefärbt
+sein (z. B. durch die Verwendung von Weißzement und hellen
+Zuschlagsstoffen oder Vorsatzbeton). Nachträgliche Farbaufträge oder Beschichtungen sind nicht zulässig.

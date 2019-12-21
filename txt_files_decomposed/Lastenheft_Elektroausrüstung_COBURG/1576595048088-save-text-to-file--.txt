@@ -1,0 +1,5 @@
+Der Anlaufstrom für Antriebe mit Leistungen über 5 kW ist beim Einschalten durch
+geeignete Maßnahmen ( z.B. Stern-Dreieck-Anlauf, Sanftanlauf, etc. ) zu begrenzen. Diese
+Maßnahmen sind in der Installation des Zulieferers so durchzuführen, daß eine
+Ansteuerung über die Maschinenlogik durch Fa. Waldrich nicht nötig ist. Die zu
+verwendenden Geräte (s.a. Pkt.6) sind rechtzeitig vor Baubeginn mit WACOElektrokonstruktion abzustimmen.

@@ -1,0 +1,5 @@
+Die einzelnen Funktionen müssen in
+der Datenbank an- und ausschaltbar
+für verschiedene Standorte sind.
+Des Weiteren muss die Datenbank
+ohne Problem erweiterbar sein.

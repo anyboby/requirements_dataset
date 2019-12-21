@@ -1,0 +1,4 @@
+Die Erstellung von Statistiken ist möglich. Dabei können verordnungsbezogene Kennzahlen
+(z. B. Kosten, Anzahl Verordnungen, Anzahl DDD) fallzahlbezogen (bezogen auf die
+Gesamtfallzahl), rezeptfallzahlbezogen (bezogen auf die Zahl von Fällen mit mindestens
+einer Verordnung), einzelfallbezogen (bezogen auf einen Fall) dargestellt werden.

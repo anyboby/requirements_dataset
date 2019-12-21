@@ -1,0 +1,4 @@
+Um die Einhaltung von Datenschutz und Datensicherheit zu gewährleisten, sind vom Betreiber der BAföG-Software die in diesem Kapitel gemachten Vorgaben zu erfüllen. Da
+es sich bei Förderungen nach BAföG um Leistungen des Sozialgesetzbuches handelt,
+sind die in diesem Zusammenhang erhobenen und verarbeiteten Daten als sogenannte
+Sozialdaten (§ 67 SGB X) gemäß der Datenschutzbestimmungen des SGB X zu behandeln.

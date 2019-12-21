@@ -1,0 +1,5 @@
+Der Nutzer meldet sich als Trainer für den Standort A an. Geht der Nutzer nun auf
+das Feld Standortauswahl, kann er alle Standorte auswählen für die er eine
+Trainerrolle ausübt. Mit der Auswahl eines neuen Standortes ist der Nutzer nun
+mit der Rolle Trainer und für Standort B eingeloggt. Es sollte nur der Standort zur
+passenden Rolle angezeigt werden.

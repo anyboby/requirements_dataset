@@ -1,0 +1,6 @@
+Richtlinien und Anweisungen mit technischen
+und organisatorischen Maßnahmen sind gemäß
+SA-01 dokumentiert, kommuniziert und bereitgestellt, um Ereignisse auf allen Assets, die zur
+Entwicklung oder Betrieb des Cloud-Dienstes
+verwendet werden, zu protokollieren und an
+zentraler Stelle aufzubewahren.

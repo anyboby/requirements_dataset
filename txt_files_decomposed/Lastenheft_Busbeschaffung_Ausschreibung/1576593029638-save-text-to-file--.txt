@@ -1,0 +1,2 @@
+Alle Komponenten im Motorraum müssen unabhängig voneinander und ohne umfangreiche Demontagen gewechselt werden können. Im Motorraum ist ein „Motor-Start-StopTaster“ zu installieren.
+Eine Motor-Vollastkurve - Verlauf von Leistung, Drehmoment und spezifischem Kraftstoffverbrauch in Abhängigkeit von der Drehzahl - ist mit dem Angebot abzugeben.

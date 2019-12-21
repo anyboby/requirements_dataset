@@ -1,0 +1,2 @@
+Falls nur wenige Anzeigelampen notwendig sind, können auch einzelne Lampentrafoelemente 220
+V/24 V verwendet werden.

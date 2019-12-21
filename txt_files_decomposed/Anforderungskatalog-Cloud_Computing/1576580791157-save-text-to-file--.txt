@@ -1,0 +1,4 @@
+Der Datenverkehr in gemeinsam genutzten Netzwerkumgebungen wird gemäß eines dokumentierten Konzepts zur logischen Segmentierung
+zwischen den Cloud-Kunden auf Netzwerkebene
+segregiert, um die Vertraulichkeit und Integrität
+der übertragenen Daten zu gewährleisten.

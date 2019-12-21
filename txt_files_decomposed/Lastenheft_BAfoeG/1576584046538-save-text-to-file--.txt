@@ -1,0 +1,2 @@
+Fehlermeldungen im Rahmen der Eingabeplausibilisierung dürfen ein Speichern des
+Vorganges nicht verhindern.

@@ -1,0 +1,3 @@
+ Alle zugänglichen Stellen, auch an den Innenseiten, dürfen keine scharfen Kanten und spitzen
+Ecken aufweisen, die zu Verletzungen führen können. Insbesondere müssen an allen Blechteilen
+die Kanten entgratet sein.

@@ -1,0 +1,4 @@
+In Abhängigkeit des Schutzbedarfs
+und der technisch Realisierbarkeit wird eine
+logische oder eine physikalische Trennung von
+Protokoll- und Nutzdaten vorgenommen.

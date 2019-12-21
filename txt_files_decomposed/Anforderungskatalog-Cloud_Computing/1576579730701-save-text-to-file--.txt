@@ -1,0 +1,5 @@
+Der Cloud-Anbieter kann bei einem Ausfall von
+Assets, die für die Verfügbarkeit des Cloud-Dienstes von wesentlicher Bedeutung sind (z. B. zentrale Netzwerkkomponenten), zeitnah erkennen,
+welche Cloud-Kunden davon betroffen sind, um
+eine der Dienstgütevereinbarung entsprechende
+Reaktion aufgetretene Störungen sicherzustellen.

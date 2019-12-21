@@ -1,0 +1,3 @@
+Liegen keine rabattierten Arzneimittel im
+Suchergebnis vor, ist ein entsprechender Hinweis zu geben, das Suchergebnis bleibt in
+diesem Fall unverändert.

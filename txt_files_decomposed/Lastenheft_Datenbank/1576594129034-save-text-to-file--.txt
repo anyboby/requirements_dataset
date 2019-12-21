@@ -1,0 +1,7 @@
+Es sollte möglich sein, Auswertungen als PDF oder als Excel-Datei (*.csv)
+herunterzuladen. Einige Daten sollen in einem Diagramm dargestellt werden. Hierfür gibt
+es festgelegte Definitionen, welche Daten wie abgebildet werden sollen. Das Diagramm
+soll die aktuellen Daten der Woche darstellen (Abfragen werden wochenbezogen
+durchgeführt). Es wäre optimal, bestimmte Daten für das Diagramm auswählen zu
+können. Dabei sollte es möglich sein, zum Beispiel mehrere Wochen abzubilden. Siehe
+Grafik.

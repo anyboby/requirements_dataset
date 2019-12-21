@@ -1,0 +1,5 @@
+Die Richtgrößen sind in der Verordnungssoftware hinterlegt. Dabei sind
+Richtgrößenunterschiede von KV zu KV zu beachten und bei der neuen Softwareaktivierung
+– je nach Vertrag – vom Hersteller/Anbieter oder vom Arzt zu aktualisieren.
+Die entsprechenden Informationen werden von den Vertragspartnern auf Landesebene
+bereitgestellt. Der PVS-Anbieter hält eine Schnittstelle hierfür vor.

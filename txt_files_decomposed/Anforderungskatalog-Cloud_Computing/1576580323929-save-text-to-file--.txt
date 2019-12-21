@@ -1,0 +1,6 @@
+Systemkomponenten, welche für die Erbringung
+des Cloud-Dienstes verwendet werden, sind
+gemäß allgemein etablierter und akzeptierter
+Industriestandards gehärtet. Die herangezogenen
+Härtungsanleitungen werden ebenso wie der
+Umsetzungsstatus dokumentiert.

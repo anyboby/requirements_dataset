@@ -1,0 +1,2 @@
+Die Ermittlung der technischen Verfügbarkeit des Bearbeitungszentrums wird in Anlehnung an die VDI-Richtlinie 3423 durchgeführt. Betrachtet werden nur Einzelmaschinen und nicht verkettete
+Systeme.

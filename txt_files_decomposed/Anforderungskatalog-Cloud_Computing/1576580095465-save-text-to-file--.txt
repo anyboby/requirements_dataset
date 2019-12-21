@@ -1,0 +1,8 @@
+Sicherheit und Verfügbarkeit des Cloud-Dienstes
+beeinträchtigen können, einschließlich einer
+Protokollierung des Aktivierens, Stoppens und
+Pausierens der verschiedenen Protokollierungen.
+Die Protokolle werden bei unerwarteten oder auffälligen Ereignissen durch autorisiertes Personal
+anlassbezogen überprüft, um eine zeitnahe Untersuchung von Störungen und Sicherheitsvorfällen
+sowie das Einleiten geeigneter Maßnahmen zu
+ermöglichen.

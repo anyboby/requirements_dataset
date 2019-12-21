@@ -1,0 +1,2 @@
+Die Datenkommunikation im Rahmen des Onlineantrages muss grundsätzlich nach dem
+aktuellen Stand der Technik verschlüsselt werden. Der Onlineantrag muss zudem vollständig kompatibel zu den aktuell üblichen Webbrowsern sein.

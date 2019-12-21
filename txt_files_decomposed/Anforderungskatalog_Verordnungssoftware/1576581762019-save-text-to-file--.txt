@@ -1,0 +1,6 @@
+Im Rahmen der Anzeige tabellarischer Auswahllisten nach P3-315 (Suchergebnisse), P3320 (Sortierung der Auswahlliste (Grundeinstellung)), P3-400 (Vergleichslisten) oder im
+Rahmen der Wiederholungsverordnung sowie bei Verordnungen aus einer Hausapotheke
+heraus sind mindestens folgende Merkmale entsprechend den Arzneimittelstammdaten nach
+P2-110 in den tabellarischen Auswahllisten anzuzeigen:
+Merkmal
+Handelsname

@@ -1,0 +1,4 @@
+Salze, Ester, Ether, Isomere, Mischungen von Isomeren,
+Komplexe und Derivate eines Wirkstoffs werden als äquivalent
+oder Äquivalenzen bezeichnet. Äquivalente Wirkstoffe haben
+den gleichen ATC-Code.

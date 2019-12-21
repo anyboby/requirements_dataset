@@ -1,0 +1,6 @@
+Der Server muss sich innerhalb der EU befinden und einen hohen Standard an Sicherheit
+aufweisen. Hierzu zählen SSL-Verschlüsslung, täglich automatisierte Backups, schnelle
+Performance, 24/7 Erreichbarkeit, Prüfsiegel nach ISO 27001, schnelle Anbindung und
+24h Support (deutschsprachig). Eine Nutzung des Serveranbieters HostEurope ist
+möglich. Bei dem Anbieter werden aktuell die E-Mail Adressen sowie eine Webseite
+gehostet.

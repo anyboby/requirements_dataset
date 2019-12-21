@@ -1,0 +1,5 @@
+Es kann in einer Verordnungszeile nur ein Vielfaches der Packungsgröße eines
+Fertigarzneimittels verordnet werden. Die Verordnung unterschiedlicher Packungsgrößen in
+einer Rezeptzeile ist unzulässig. Eine zusätzliche Kennzeichnung bei Verordnung eines
+Vielfachen der größten Packungsgröße ist nicht erforderlich.
+D

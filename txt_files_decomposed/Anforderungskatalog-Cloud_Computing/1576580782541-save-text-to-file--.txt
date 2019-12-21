@@ -1,0 +1,5 @@
+Es existieren gesonderte Netzwerke zur administrativen Verwaltung der Infrastruktur und für den
+Betrieb von Managementkonsolen, die logisch
+oder physisch vom Netzwerk der Cloud-Kunden
+getrennt und durch Multi-Faktor-Authentifizierung vor unberechtigten Zugriffen geschützt
+sind (vgl. IDM-08). 

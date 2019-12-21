@@ -1,0 +1,5 @@
+Bei jedem neuen Projektstart hat der Werkzeugbau eine Füll- und Verzugsanalyse zu erstellen um mögliche
+Problemstellungen zeitig zu erkennen, zu lösen und dem Kunden und/ oder ACCOMPLAST mitzuteilen.
+Vor Konstruktionsbeginn wird von dem beauftragtem Werkzeugbau ein am 3D-Teil farblich sichtbarer
+Trennungsverlauf mit Auswerfermarkierungen und Anspritzpunkt angefertigt und mit dem Kunden und/ oder
+ACCOMPLAST abgestimmt (Beispiel siehe Anhang FD EM 15).

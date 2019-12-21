@@ -1,0 +1,4 @@
+ Alle Kabelbahnen und Kabelführungen an Maschinen und Anlage sind als Gitterkabelbahnen in
+rostfreiem Stahl 1.4301, Fabrikat nach Absprache mit Hans Adler OHG auszuführen und so zu
+verlegen, dass mit Sicherheit die Gefahr der Beschädigung durch Transport usw. ausgeschlossen
+wird.

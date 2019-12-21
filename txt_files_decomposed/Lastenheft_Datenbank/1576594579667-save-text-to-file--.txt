@@ -1,0 +1,10 @@
+Die Abnahme findet im Anschluss an den erfolgreichen Pilotbetrieb in Form einer
+Gesamtabnahme sämtlicher Leistungen des Auftragnehmers statt. Die Abnahme
+besteht aus:
+ einer Abnahmeprüfung, vor allem hinsichtlich Funktionalität,
+ einem Probelauf als Erprobungsphase, vor allem hinsichtlich Leistung,
+Performance und Stabilität.
+Voraussetzungen für die Abnahme sind:
+ Beseitigung der in den Tests und im Pilotbetrieb festgestellten Mängel,
+ die Dokumentation muss komplett und in der vereinbarten Form übergeben
+werden.

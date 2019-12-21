@@ -1,0 +1,3 @@
+Liegt eine Störung seitens der Anlage vor oder ist die Ablage eines
+bearbeiteten Teiles nicht möglich, ist die Bearbeitung mit dem
+nächsten Taktende zu beenden.

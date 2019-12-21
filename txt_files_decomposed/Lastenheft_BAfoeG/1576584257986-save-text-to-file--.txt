@@ -1,0 +1,4 @@
+Die Datenhaltung soll vollständig in der Datenbank realisiert und nicht (auch nicht teilweise) ins Dateisystem ausgelagert sein.
+Performanz/Skalierbarkeit
+Das System muss bei bis zu 400 gleichzeitigen Benutzern ohne Leistungseinbußen betrieben werden können. Um dies sowie einen späteren Ausbau der gleichzeitigen Benutzer zu ermöglichen, soll der Serverteil in einzelne Komponenten aufgeteilt werden können. Dabei soll eine beliebige Anzahl von Applikationsservern und Datenbankservern,
+bei einer Web-Architektur auch Webservern, betrieben werden können.

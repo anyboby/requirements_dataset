@@ -1,0 +1,4 @@
+Auffälligkeiten
+werden untersucht, um Missbrauch dieser
+Benutzer festzustellen und zukünftig zu verhindern. Die Aktivitäten der Notfallbenutzer werden
+revisionssicher protokolliert.

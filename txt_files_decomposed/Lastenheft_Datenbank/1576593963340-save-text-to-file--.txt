@@ -1,0 +1,2 @@
+Loggt sich ein Nutzer in die Datenbank ein, muss er das mit einer E-Mail-Adresse und
+Passwort tun. Für das Anmelden sollen zwei Verfahren möglich sein.

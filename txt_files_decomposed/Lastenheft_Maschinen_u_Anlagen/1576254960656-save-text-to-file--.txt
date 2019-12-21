@@ -1,0 +1,2 @@
+ Die angestrebten Druckbereiche müssen auf der Skalierung grün markiert sein, kritische
+Druckbereiche sind rot zu unterlegen.

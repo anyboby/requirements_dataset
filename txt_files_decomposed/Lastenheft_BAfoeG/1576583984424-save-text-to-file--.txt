@@ -1,0 +1,2 @@
+Ein von einem Sachbearbeiter nach der vollständigen Dateneingabe freigegebener Vorgang muss von einem zur Zweitfreigabe berechtigten Mitarbeiter kontrolliert werden. Erst
+wenn auch durch diesen die Freigabe erfolgt ist, darf der Bescheid gedruckt und der Vorgang im nächsten Rechnungslauf verarbeitet werden.

@@ -1,0 +1,8 @@
+Es werden folgende Expositionsklassen gefordert:
+Bahnsteigkanten (Regel-/Eckelemente):
+XF4, XC4, XD3, Feuchtigkeitsklasse WA
+Abdeckstein:
+XF4, XC4, XD3, XM1, Feuchtigkeitsklasse WA
+Fundamente:
+XF1, XC2, Feuchtigkeitsklasse WF
+Die Mindestbetondeckung ist gemäß DIN EN 1992-1-1 einzuhalten

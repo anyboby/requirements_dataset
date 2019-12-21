@@ -1,0 +1,4 @@
+Jeder Nutzer kann verschiedene Rollen im System einnehmen. Hierfür erhält er einmalig
+ein Login. Die Rechteverwaltung sollte so ausgelegt sein, dass ein Nutzer verschiedenen
+Rollen in verschiedenen Regionen und verschiedener Standorte zugeordnet werden
+kann.

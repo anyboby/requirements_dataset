@@ -1,0 +1,3 @@
+Rohrleitungen sind nach DIN 2403 „Kennzeichnung von Rohrleitungen nach dem
+Durchflussstoff“ zu kennzeichnen; bei gefährlichen Durchflussstoffen sind zusätzlich
+die Gefahrensymbole gemäß GHS, bzw. CLP anzubringen.

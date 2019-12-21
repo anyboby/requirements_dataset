@@ -1,0 +1,4 @@
+Ergänzende Informationen zur Basisanforderung
+Das Löschen von Metadaten und Protokolldateien
+ist Gegenstand der Anforderungen RB-11 und
+RB-13.

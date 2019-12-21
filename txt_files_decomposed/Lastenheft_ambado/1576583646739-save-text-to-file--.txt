@@ -1,0 +1,2 @@
+Das Feld „Ambulanzdifferenzierung“ soll farblich
+eindeutig hervorgehoben werden.

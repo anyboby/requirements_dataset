@@ -1,0 +1,4 @@
+Die Begrenzungen von Räumlichkeiten oder
+Gebäuden, die sensible oder kritische Informationen, Informationssysteme oder sonstige Netzwerkinfrastruktur beherbergen, sind physisch
+solide und durch angemessene Sicherheitsmaßnahmen geschützt, die dem Stand der Technik
+entsprechen.

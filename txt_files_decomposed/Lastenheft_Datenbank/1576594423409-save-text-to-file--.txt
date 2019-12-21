@@ -1,0 +1,6 @@
+Es soll möglich sein, als Admin alle Daten selbst zu pflegen, ohne dies weiter an den
+Auftragnehmer zu geben. Die Daten sollen mit einem Zeitstempel verbunden sein. Dies
+wird für die Berechnung und Archivierung benötigt. Werden neue Daten eingespielt oder
+verwendet, müssen die alten Daten für alte Berechnungen noch zur Verfügung stehen.
+Diese werden dann nicht mehr für die Berechnung benötigt, sondern nur für die
+Nachvollziehbarkeit der alten Daten.

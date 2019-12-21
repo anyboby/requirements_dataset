@@ -1,0 +1,1 @@
+Die Software muss für den einzelnen Benutzer individualisierbar sein, beispielsweise hinsichtlich einer Anzeige der letzten vom Benutzer bearbeiteten Fälle oder der zuletzt verwendeten Fenstergröße.

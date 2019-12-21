@@ -1,0 +1,3 @@
+Wandheizgruppen und Bugheizgerät bei Motorstillstand vom Heizkreislauf getrennt.
+Wichtig: Es ist sicherzustellen, dass die Umwälzpumpe auch bei ausgeschalteter Heizung regelmäßig kurz anläuft.
+Als zwingende Voraussetzung für die Auftragsvergabe muss eine FahrerarbeitsplatzKlimaanlage verbaut sein.

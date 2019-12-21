@@ -1,0 +1,5 @@
+Die Software muss die sich aus den Bescheiden eines Förderfalls ergebenden (Rück-)
+Forderungen und Einzahlungen in der elektronischen Akte darstellen (die eigentliche
+Verfolgung der (Rück-)Forderungen erfolgt im Forderungsmanagementsystem, vgl. auch
+LH 46). Die zurückgeforderten Beträge sowie die tatsächlich geleisteten Einzahlungen
+müssen taggenau dargestellt werden.

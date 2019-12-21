@@ -1,0 +1,5 @@
+Die Ausführung der elektrischen Installation und Verdrahtung ist
+nach den einschlägigen Normen und Vorschriften der Elektrotechnik zu realisieren.
+Vor der Übergabe an CHIRON, sind die Prüfungen entsprechend
+der EN 60204-1 (VDE 0113-1) "Elektrische Ausrüstung von
+Maschinen" durchzuführen. Die Prüfprotokolle sind mitzuliefern.

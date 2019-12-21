@@ -1,0 +1,4 @@
+Ergänzende Informationen zur Basisanforderung
+Aus Wirtschaftlichkeitsgründen streben
+Cloud-Anbieter typischerweise eine hohe Auslastung der IT-Ressourcen (CPU, Arbeitsspeicher,
+Speicherplatz, Netzwerk) an.

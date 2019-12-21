@@ -1,0 +1,3 @@
+Der Softwareanbieter muss im Pflichtenheft beschreiben, ob und in welchem Umfang die
+Software zum geplanten Einführungsprojekt zur Verfügung steht (BAföG, Forderungsmanagementsystem, Online-Verfahren). Für alle Software- und Hardware-Komponenten ist
+eine möglichst geringe Fehleranfälligkeit zum Einführungszeitpunkt sicherzustellen.

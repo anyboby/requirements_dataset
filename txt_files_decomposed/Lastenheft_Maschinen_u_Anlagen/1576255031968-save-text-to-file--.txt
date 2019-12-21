@@ -1,0 +1,2 @@
+Bei Geräten, deren Stromversorgung aus einer Batterie entnommen wird, sind die
+Spannungsschwankungen der Batteriespannung zu berücksichtigen.

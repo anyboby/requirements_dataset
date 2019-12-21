@@ -1,0 +1,7 @@
+Die Soforthilfen werden in der DB zurzeit manuell mit dem eShop, über den im Projekt die
+Soforthilfen an die Standorte verschickt werden, abgeglichen. Hierfür muss geprüft
+werden, ob die Soforthilfe noch genutzt wird und ob der Preis der Soforthilfe aktuell ist.
+Diese Daten werden per Hand geändert. Das Pflegen und Ändern der Soforthilfen ist
+zurzeit nur durch Datenbank-Programmierer möglich. Das dauert zu lange und ist
+unflexibel. Soforthilfen, die nicht weiter im Sortiment bleiben, werden zurzeit mit einem
+Preis von 0€ weitergeführt, da diese nicht gelöscht werden dürfen.

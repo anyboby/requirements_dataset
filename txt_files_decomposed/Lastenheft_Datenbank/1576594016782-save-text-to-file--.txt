@@ -1,0 +1,3 @@
+Ein Nutzer mit verschiedenen Rollen hat verschiedene Nutzeroberflächen. Um Daten aus
+einer anderen Rolle anzuzeigen, muss sich der Nutzer erst abmelden und mit der anderen
+Rolle sich erneut anmelden. Mit der neuen Datenbank sollte dies anders gelöst werden.

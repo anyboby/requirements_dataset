@@ -1,0 +1,7 @@
+Bei einer Jahresaktualisierung sollen die zu
+aktualisierenden Felder von den nicht zu
+aktualisierenden Feldern farblich unterschieden
+werden. Während der Eingabe sollen nur die zu
+aktualisierenden Felder ansteuerbar und bearbeitbar
+sein. Die Bearbeitung der anderen Felder soll durch
+einen separaten Korrekturmodus ermöglicht werden.

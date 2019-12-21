@@ -1,0 +1,8 @@
+Die
+Berechnung
+des
+Wärmeverbrauches soll mit in die
+Datenbank
+mit
+aufgenommen
+werden.

@@ -1,0 +1,4 @@
+Die Auswertungen sollen schneller abrufbar sein. Dies ist insbesondere wichtig für
+Auswertungen, die Daten für einen bestimmten Zeitraum abfragen. Die
+Gesamtauswertung über alle Daten soll weiterhin automatisch täglich ausgeführt und
+gespeichert werden.

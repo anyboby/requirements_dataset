@@ -1,0 +1,7 @@
+Räumlichkeiten oder Gebäude die sensible oder
+kritische Informationen, Informationssysteme
+oder sonstige Netzwerkinfrastruktur beherbergen,
+sind durch bauliche, technische und organisatorische Maßnahmen vor Feuer, Wasser, Erdbeben,
+Explosionen, zivile Unruhen und andere Formen
+natürlicher und von Menschen verursachter
+Bedrohungen geschützt.

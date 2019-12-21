@@ -1,0 +1,4 @@
+Der Betreiber hat die möglichen Varianten des dezentralen Einsatzes der Software im
+Pflichtenheft und deren Kosten im Preisblatt darzustellen. Dies sind beispielsweise eine
+Anbindung direkt über das Internet, über VPN oder einen Terminalserver. Außerdem
+sind die dafür auf Clientseite jeweils zu schaffenden Voraussetzungen zu benennen.

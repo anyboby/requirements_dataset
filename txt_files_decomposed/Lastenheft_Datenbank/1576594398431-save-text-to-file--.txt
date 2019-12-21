@@ -1,0 +1,4 @@
+könnte es möglich sein, das nicht nur Kühlgeräte getauscht werden sondern auch andere
+elektrische Großgeräte. Eine Geräteliste ist in der Datenbank hinterlegt und sollte hierfür
+genutzt werden. Die Option der Erweiterung soll bei der Konzeptionierung der neuen
+Datenbank berücksichtig werden.

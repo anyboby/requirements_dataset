@@ -1,0 +1,2 @@
+Nur zulässige Umwandlungen sind zu ermöglichen
+(= keine Kurzversion bei mehr als 3 Patientenkontakten).

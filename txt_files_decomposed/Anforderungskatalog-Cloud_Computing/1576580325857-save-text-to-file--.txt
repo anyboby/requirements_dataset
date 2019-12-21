@@ -1,0 +1,2 @@
+Auf Nachfrage sind die verwendeten Standards
+und die Maßnahmen zur Härtung der Systemkomponenten dem Cloud-Kunden mitzuteilen.

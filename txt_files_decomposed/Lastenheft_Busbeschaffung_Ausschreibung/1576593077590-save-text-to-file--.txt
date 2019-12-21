@@ -1,0 +1,2 @@
+Das Kühlsystem muss die vom Retarder erzeugte Abwärme in allen Betriebszuständen
+aufnehmen und an die Umgebung abgeben können.

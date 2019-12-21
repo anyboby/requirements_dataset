@@ -1,0 +1,6 @@
+Die geschäftlichen
+Anforderungen des Cloud-Anbieters für Umfang,
+Häufigkeit und Dauer der Datensicherung
+ergeben sich aus der Business Impact Analyse
+(vgl. Kontrolle BCM-03) für Entwicklungs- und
+Betriebsprozesse des Cloud-Dienstes.

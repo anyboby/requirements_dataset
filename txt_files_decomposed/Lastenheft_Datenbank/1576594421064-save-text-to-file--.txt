@@ -1,0 +1,5 @@
+Das Ändern von Berechnungswerten oder Daten ist nur durch den Programmierer
+möglich, dies muss geändert werden. Die Daten werden regelmäßig aktualisiert und
+angepasst. Aktuell ist dies mit hohem Zeitaufwand verbunden. Bevor die DB neu
+entwickelt wird, soll geprüft werden, welche Daten vom Administrator gepflegt werden
+können.

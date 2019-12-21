@@ -1,0 +1,3 @@
+Retarder im Getriebe integriert. Er muss über drei-stufig an der Lenksäule und über die
+Trittplatte möglichst stufenlos angesteuert werden können. Die Trittplattenansteuerung
+sollte abschaltbar sein.

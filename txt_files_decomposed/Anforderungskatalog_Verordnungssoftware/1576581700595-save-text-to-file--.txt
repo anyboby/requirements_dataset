@@ -1,0 +1,3 @@
+In der Verordnungssoftware darf die Hausapotheke bei der Erstinstallation keinen Eintrag
+enthalten, also nicht vorbelegt sein. Dies gilt nicht bei Übertragung einer bestehenden
+Hausapotheke im Rahmen des Wechsels der Verordnungssoftware.

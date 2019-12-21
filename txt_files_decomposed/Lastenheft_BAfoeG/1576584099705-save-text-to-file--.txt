@@ -1,0 +1,4 @@
+Die Vorlagen müssen im Rahmen eines Einführungsprojektes detailliert definiert und eingerichtet werden.
+Es muss zusätzlich die Möglichkeit bestehen, zu einem späteren Zeitpunkt amtsspezifisch neue Vorlagen und Textbausteine anlegen und speichern zu können. Aus solchen
+Vorlagen erzeugte Dokumente müssen bei Bedarf durch den Sachbearbeiter vor dem
+Speichern/Drucken noch bearbeitet werden können.

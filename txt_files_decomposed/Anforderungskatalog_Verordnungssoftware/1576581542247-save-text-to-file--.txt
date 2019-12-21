@@ -1,0 +1,8 @@
+Als Grundlage für eine wirtschaftliche Verordnungsweise haben die Kassenärztlichen
+Vereinigungen und die Kassenärztliche Bundesvereinigung sowie die Krankenkassen und
+ihre Verbände die Vertragsärzte1 auch vergleichend über preisgünstige verordnungsfähige
+Leistungen einschließlich der jeweiligen Preise und Entgelte zu informieren sowie nach dem
+allgemeinen anerkannten Stand der medizinischen Erkenntnisse Hinweise zu Indikation und
+therapeutischem Nutzen zu geben. Diese Informationen sind dem Arzt gemäß den
+Regelungen dieses Anforderungskatalogs in der Verordnungssoftware in aktueller Form und
+vollständig zur Verfügung zu stellen.

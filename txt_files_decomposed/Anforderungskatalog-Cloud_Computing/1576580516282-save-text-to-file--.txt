@@ -1,0 +1,4 @@
+Die Benutzer unterschreiben eine Erklärung,
+in der sie versichern, dass sie persönliche (oder
+geteilte) Authentisierungsinformationen vertraulich behandeln und ausschließlich für sich
+(innerhalb der Mitglieder der Gruppe) behalten.

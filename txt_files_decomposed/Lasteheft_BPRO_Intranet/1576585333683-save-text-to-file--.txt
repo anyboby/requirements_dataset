@@ -1,0 +1,2 @@
+Sind PCs oder Terminals an der Maschine integriert, so müssen diese in einem geeigneten Gehäuse untergebracht sein oder als Geräteeinheit mindestens die Schutzart IP 54
+besitzen.

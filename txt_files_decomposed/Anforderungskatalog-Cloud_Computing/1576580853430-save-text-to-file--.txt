@@ -1,0 +1,5 @@
+Anforderungen sind zu identifizieren, dokumentieren und in regelmäßigen Abständen (mindestens jährlich) zu überprüfen. Soweit sich aus
+der Überprüfung ergibt, dass die Anforderungen
+anzupassen sind, werden mit den internen Mitarbeitern, den externen Dienstleistern sowie den
+Lieferanten des Cloud-Anbieters neue Geheimhaltungs- oder Vertraulichkeitserklärungen
+abgeschlossen.

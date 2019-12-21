@@ -1,0 +1,4 @@
+Die Datenbank soll für mobile Endgeräten weiterhin nutzbar sein. Der Nutzer soll die
+Möglichkeit erhalten, die Datenbank mit unterschiedlichen mobilen Endgeräten zu öffnen
+und anzusehen. Mit mobilen Endgeräte sind Smartphones und Tablets gemeint. Hierfür
+soll das Layout für mobile Endgeräte angepasst werden.

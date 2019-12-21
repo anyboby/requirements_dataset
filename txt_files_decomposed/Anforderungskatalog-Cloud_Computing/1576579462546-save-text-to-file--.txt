@@ -1,0 +1,5 @@
+Die Leitlinie
+wird von der Unternehmensleitung verabschiedet
+und an alle betroffenen internen und externen
+Parteien des Cloud-Anbieters (z. B. Cloud-Kunden,
+Unterauftragnehmer) kommuniziert.

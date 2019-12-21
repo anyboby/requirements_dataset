@@ -1,0 +1,3 @@
+Kommen Hilfs- und Betriebsstoffe in der Maschine/Anlage zum Einsatz (Hydrauliköle,
+Schmieröl/-fette, Kühl- oder Kältemittel mit Zusätzen, Schleifmittel) sind entsprechende Sicherheitsdatenblätter frühzeitig zu übergeben. Es sind die Typen bzw. Eigenschaften der Hilfs- und Betriebsstoffe anzugeben, um ggf. alternative Stoffe einsetzen
+zu können (Reduzierung der Stoffvielfalt).

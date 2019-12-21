@@ -1,0 +1,2 @@
+Die Anlage muss bei einer Außentemperatur von 10°C bis 40°C
+voll funktionsfähig bleiben.

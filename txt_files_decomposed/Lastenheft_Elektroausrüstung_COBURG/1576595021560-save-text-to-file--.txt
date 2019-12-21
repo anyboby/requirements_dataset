@@ -1,0 +1,3 @@
+Auf Anforderung des Lieferanten stellt WACO die Stromlaufpläne zur Verfügung. Diese sind
+nur für Leitungskennzeichnung verwendbar und stellen nicht die Ansteuerung,
+Überwachung und die Signalschnittstelle dar.

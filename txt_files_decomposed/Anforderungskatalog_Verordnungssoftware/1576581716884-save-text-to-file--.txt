@@ -1,0 +1,6 @@
+Änderungen der unter P2-110 genannten Daten, die sich – auf Packungsebene – auf
+Fertigarzneimittel und sonstige nach § 31 SGB V in die Arzneimittelversorgung einbezogene
+Produkte beziehen, die in der Hausapotheke gespeichert sind, sind dem Anwender im
+Rahmen der Aktualisierung nach P2-130 in einer Produktliste anzuzeigen und automatisch
+zu übernehmen. Dabei sind Änderungen der Merkmale Preis (09), Festbetragshöhe (013)
+sowie Artikelstatus (018) besonders hervorzuheben.

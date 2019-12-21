@@ -1,0 +1,10 @@
+Zugriffsberechtigungen von Benutzern unter
+Verantwortung des Cloud-Anbieters (interne und
+externe Mitarbeiter) werden mindestens jährlich
+überprüft, um diese zeitnah auf Änderungen im
+Beschäftigungsverhältnis (Kündigung, Versetzung, längerer Abwesenheit/Sabatical/Elternzeit)
+anzupassen. Die Überprüfung erfolgt durch
+hierzu autorisierte Personen aus den Unternehmensbereichen des Cloud-Anbieters, die aufgrund
+ihres Wissens über die Zuständigkeiten die
+Angemessenheit der vergebenen Berechtigungen
+überprüfen können.

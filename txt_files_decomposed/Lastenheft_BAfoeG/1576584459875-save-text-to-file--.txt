@@ -1,0 +1,2 @@
+Der Betreiber muss die Möglichkeit einer redundanten Datenhaltung bieten. Dabei ist
+zwischen redundanter Datenhaltung auf Systemebene (gespiegelte Datenträger, Hauptspeicher etc.) und redundanten Systemen (Servern) zu unterscheiden.

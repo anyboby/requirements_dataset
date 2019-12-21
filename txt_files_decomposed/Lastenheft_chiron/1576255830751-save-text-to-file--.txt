@@ -1,0 +1,2 @@
+Die Kommunikation zwischen Anlage und dem CHIRON Bearbeitungszentrum erfolgt per Profibus oder mit Profinet nach der aktuell
+gültigen CHIRON Dokumentation zur „Schnittstelle für Automation“ .

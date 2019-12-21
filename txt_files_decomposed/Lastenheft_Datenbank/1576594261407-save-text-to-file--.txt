@@ -1,0 +1,5 @@
+Werden Soforthilfen nicht mehr genutzt, sollen diese archiviert werden, mit der Angabe
+des Zeitraums, von wann bis wann die Soforthilfe genutzt wurde, da diese noch für ältere
+Berechnungen genutzt werden. Der Administrator sollte die Möglichkeit haben, für die
+anderen Nutzer Soforthilfen sichtbar und unsichtbar zu schalten. Dies soll verhindern,
+dass alte Soforthilfen weiter auswählbar sind.

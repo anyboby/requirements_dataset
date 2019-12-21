@@ -1,0 +1,2 @@
+Wechseleinsätze und Kerne müssen so kodiert und beschriftet sein, dass ein falsches Einbauen nicht
+möglich ist (Poka Yoke). Wechseleinsatznummern werden mit Auftragserteilung mitgeteilt.

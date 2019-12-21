@@ -1,0 +1,15 @@
+In den Richtlinien und Anweisungen sind mindestens die
+folgenden Aspekte beschrieben:
+» Sicherheit in der Softwareentwicklungsmethodik in Übereinstimmung mit in der Industrie
+etablierten Sicherheitsstandards (z. B. OWASP
+für Webapplikationen),
+» Sicherheit der Entwicklungsumgebung
+(z. B. getrennte Entwicklungs-/Test-/
+Produktivumgebungen),
+» Programmierrichtlinien für jede verwendete
+Programmiersprache (z. B. bezüglich Buffer
+Overflows, verbergen interner Objektreferenzen
+gegenüber Benutzern),
+» Sicherheit in der Versionskontrolle.
+Optionale, weitergehende Anforderungen
+(Vertraulichkeit)

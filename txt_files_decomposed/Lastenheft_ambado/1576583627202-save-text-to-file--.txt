@@ -1,0 +1,3 @@
+Vor der Datenlieferung an BIDAQ muss die manuelle
+Korrektur aller erfassten AmBADO-Bögen jederzeit
+möglich sein.

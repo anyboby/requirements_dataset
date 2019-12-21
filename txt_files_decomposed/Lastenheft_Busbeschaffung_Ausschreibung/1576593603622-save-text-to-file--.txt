@@ -1,0 +1,3 @@
+Das Angebot muss bei Abgabe eine Liste aller Spezialwerkzeuge, Mess- und Prüfgeräte
+enthalten, die für die Instandhaltung und Wartung der Fahrzeuge benötigt werden. Die
+dafür notwendige Software ist bei der Auslieferung der Fahrzeuge mitzuliefern.

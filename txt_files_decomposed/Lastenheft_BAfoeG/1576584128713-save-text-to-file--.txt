@@ -1,0 +1,7 @@
+Eine Berechnung der Zinsen nach §§ 47a BAföG, 37 BAföG und 44 SGB I ist vorzusehen. Die Ergebnisse der Zinsberechnungen sind in der Software in geeigneter Weise aktenkundig zu dokumentieren und gegebenenfalls in Bescheide, weiteren Schriftverkehr
+sowie zur Verfolgung in das Forderungsmanagementsystem zu übernehmen.
+Unterstützung Datenpflege
+Die Software soll im Rahmen der Unterstützung der Datenpflege berechtigten Benutzern
+regelmäßig elektronische Akten zur Löschung vorschlagen. Dabei sollen automatisch
+solche elektronischen Akten von der Software ausgewählt werden, für die seit einem definierbaren Zeitraum kein vollständiger Erstantrag gestellt wurde (vorerfasste Vorgänge).
+Der Benutzer soll die Möglichkeit haben, aus diesen Akten die zur Löschung vorgesehenen auszuwählen und nach einem geeigneten Freigabeverfahren die Löschung auszulösen.

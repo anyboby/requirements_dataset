@@ -1,0 +1,795 @@
+AmBADO-Revision 2017
+
+Anforderungsspezifikation
+(Lastenheft)
+Anforderungen an ein zu entwickelndes Softwaresystem zur Erhebung
+ambulanter Basisdaten gemäß AmBADO-Revision 2017
+
+SoftwareModul
+
+29. 08. 2016
+BIDAQ – Bayerisches Institut für Daten,
+Analysen und Qualitätssicherung
+
+Stephan Bache
+Diplom-Dokumentar (FH)
+
+Kliniken des Bezirks Oberbayern - Kommunalunternehmen (kbo) | Rechtsform: Selbstständiges Kommunalunternehmen des öffentlichen Rechts (Art. 75 BezO)
+Vorstand: Diplom-Volkswirt Martin Spuckti | Verwaltungsratsvorsitzender: Bezirkstagspräsident Josef Mederer | Sitz: Landeshauptstadt München
+Amtsgericht München HRA 90125 | USt-IdNr. DE251869316 | Bankverbindung: HypoVereinsbank AG München IBAN: DE96700202700667964954 BIC: HYVEDEMMXXX
+
+INHALTSVERZEICHNIS
+
+1. ALLGEMEIN ...............................................................................................3
+1.1
+
+Vorbemerkung.....................................................................................................................3
+
+1.2
+
+Zweck..................................................................................................................................3
+
+1.3
+
+Referenzdokumente ............................................................................................................3
+
+2. PRODUKTBESCHREIBUNG ......................................................................5
+2.1
+
+Zielbestimmungen ...............................................................................................................5
+
+2.2
+
+Produkteinsatz / Benutzer ...................................................................................................5
+
+2.3
+
+Produktübersicht .................................................................................................................6
+
+2.4
+
+Produktanforderungen.........................................................................................................7
+
+2.5
+
+Produktdaten..................................................................................................................... 10
+
+AmBADO-Revision 2017 – Anforderungsspezifikation / 29.08.2016
+
+Seite 2 von 10
+
+1. ALLGEMEIN
+1.1
+
+Vorbemerkung
+Das vorliegende Dokument ist in Zusammenarbeit von Mitarbeitern Psychiatrischer
+Institutsambulanzen (PIA) und Mitarbeitern des Bayerischen Instituts für Daten, Analysen und
+Qualitätssicherung (BIDAQ) entstanden. Die Idee dazu ist aus dem gemeinsamen Anliegen
+hervorgegangen, eine möglichst hohe und einheitliche Dokumentationsqualität bei der
+AmBADO in allen Psychiatrischen Institutsambulanzen zu erreichen. Mit der Erfüllung der in
+diesem Dokument aufgeführten Anforderungen an eine AmBADO-Software soll dieses Ziel
+erreicht werden.
+
+1.2
+
+Zweck
+Diese Anforderungsspezifikation (Lastenheft) beschreibt Anforderungen an eine AmBADOSoftware für den Einsatz in Psychiatrischen Institutsambulanzen (PIA) in der
+Erwachsenenpsychiatrie. Sie dient als Grundlage für die Erstellung von einrichtungsspezifischen Umsetzungsspezifikationen (Pflichtenheft) und setzt sich im Wesentlichen aus
+den unter Abschnitt 1.3 aufgeführten Dokumenten und den unter Abschnitt 2.4 aufgelisteten
+Produktanforderungen zusammen.
+Diese Anforderungsspezifikation erhebt keinen Anspruch auf Vollständigkeit.
+
+1.3
+
+Referenzdokumente
+(1) Vereinbarung gemäß §§ 113, 118 und 120 SGB V über die Erbringung, Vergütung
+und Abrechnung von Leistungen der Psychiatrischen Institutsambulanzen (PIA) –
+Stand 07/2016 zuzüglich Nachtrag vom 26.10.2016
+Vertragliche Grundlage zwischen dem Bayerischen Bezirketag (BayBT), der Bayerischen
+Krankenhausgesellschaft e. V (BKG) und den Krankenkassenverbänden, die unter „§ 10
+Qualitätssicherung Absatz 1“ eine nachvollziehbare Dokumentation für alle bayerischen
+Psychiatrischen Institutsambulanzen (PIA) vorsieht. In der Anlage 3 sind sämtliche
+vertragsrelevanten Dokumente aufgeführt.
+(2) AmBADO (Vertragsbestandteil) – Stand 01/2016 zuzüglich Nachtrag vom 26.10.2016
+Zur Dokumentation aller ambulanter Behandlungsfälle wird ein bayernweit gültiger
+Erhebungsbogen verwendet, der in einer Vollversion und einer Kurzversion vorliegt.
+Die AmBADO-Vollversion wird zur Dokumentation eines Normalfalles eingesetzt und
+besteht
+aus
+den
+Formularen
+„Behandlungsbeginn/Jahresaktualisierung“
+und
+„Beendigung“.
+Die AmBADO-Kurzversion ist eine Teilmenge der AmBADO-Vollversion und für die
+Dokumentation von Kurzbehandlungen vorgesehen.
+
+AmBADO-Revision 2017 – Anforderungsspezifikation / 29.08.2016
+
+Seite 3 von 10
+
+(3) AmBADO-Anleitung (Vertragsbestandteil) – Stand 08/2016
+Dieses Dokument richtet sich in erster Linie an die mit der Dokumentation betrauten
+Ambulanzmitarbeiter. Die Anleitung ist in fünf Abschnitte („Allgemeine Hinweise“,
+„Behandlungsbeginn/Jahresaktualisierung“, „Beendigung“, „Kurzversion“ und „Anhang“)
+aufgeteilt. Im Abschnitt „Allgemeine Hinweise“ werden die Grundlagen des AmBADOVerfahrens erläutert. Die anderen Abschnitte enthalten Ausfüllhinweise und -beispiele zu
+den einzelnen Fragen der AmBADO-Bögen.
+(4) Übergabetabelle (Vertragsbestandteil) – Stand 08/2016
+Bei der Übergabetabelle handelt es sich um eine technische Datensatzbeschreibung
+(Feldname, Feldtyp, Feldlänge etc.), die den Aufbau und Inhalt einer an BIDAQ zu
+liefernden AmBADO-Datendatei vorgibt.
+Die Übergabetabelle wird von drei weiteren Dokumenten ergänzt:
+1. AmBADO-Datendatei
+Festlegung formaler und Inhaltlicher Eigenschaften
+2. Erläuterungen zum Feld „Bogenart“
+Hier ist festgehalten, zu welchem Zeitpunkt und unter welchen Bedingungen der
+jeweilige Zahlencode im Feld „Bogenart“ zu hinterlegen ist.
+3. Verzeichnis der Staatennamen für den amtlichen Gebrauch in der Bundesrepublik
+Deutschland (bereitgestellt vom Fachbereich Terminologie des Sprachendienstes
+des Auswärtigen Amts, siehe http://www.auswaertiges-amt.de)
+(5) AmBADO-Datenmigration – Stand 08/2016
+Das Dokument enthält Informationen zur Datenübernahme bei jahresübergreifenden
+Behandlungsfällen. In der mitgeltenden AmBADO-Datenmigrationstabelle ist festgelegt,
+wie die Datenfelder aus der Vorgängerstruktur in die neue Datenstruktur überführt werden
+sollen.
+(6) Übergabeformular (kein Vertragsbestandteil) – Stand 08/2016
+Das Formular dient der Übermittlung von Kontaktdaten der für inhaltliche und technische
+Fragestellungen verantwortlichen Ambulanzansprechpartner. Darüber hinaus ermöglicht
+es die Angabe von auswertungsrelevanten Informationen hinsichtlich der AmBADODatenlieferung. Das ausgefüllte und unterschriebene Formular wird zusammen mit der
+AmBADO-Datendatei an BIDAQ gesendet.
+(7) AmBADO-Datenversand (kein Vertragsbestandteil) – Stand 08/2016
+Das Dokument beschreibt Anforderungen an den einheitlichen und sicheren Versand der
+AmBADO-Daten vom Absender zu BIDAQ.
+
+AmBADO-Revision 2017 – Anforderungsspezifikation / 29.08.2016
+
+Seite 4 von 10
+
+2. PRODUKTBESCHREIBUNG
+2.1
+
+Zielbestimmungen
+Die AmBADO-Software unterstützt die Mitarbeiter
+Anwendungsfällen der ambulanten Basisdokumentation.
+
+der
+
+PIA
+
+in
+
+allen
+
+wichtigen
+
+Dazu verfügt die AmBADO-Software über folgende Eigenschaften bzw. Funktionen (die
+Auflistung ist erweiterbar):
+1. Erfassungsmasken, die die Eingabe von Antworten zu allen in der AmBADO enthaltenen
+Fragen ermöglichen (siehe Referenzdokument 2: AmBADO) – jeweils bezogen auf einen
+AmBADO-Behandlungsfall eines Patienten (siehe Referenzdokument 3: AmBADOAnleitung, „Allgemeine Hinweise“, Punkt 3)
+2. Plausibilitäts- und Vollständigkeitsprüfungen
+Basisdokumentationen (AmBADO)
+
+bei
+
+der
+
+Erstellung
+
+ambulanter
+
+3. automatische Übernahme bereits vorhandener Daten (z. B. aus einer vorher ausgefüllten
+AmBADO)
+4. komfortable Umwandlung von einer AmBADO-Version in eine andere (z. B. Kurzversion
+=> Vollversion)
+5. integrierte Eingabehilfen (z. B. ICD-Diagnosekatalog mit Such- und Auswahlfunktion)
+6. integrierte Listen, aus denen notwendige Dokumentationsschritte sofort erkennbar sind
+(z. B. Fälligkeit einer rückwirkend zu beendenden AmBADO oder einer
+Jahresaktualisierung)
+7. visuelle Hervorhebungen (z. B. farbliche Kennzeichnung zu bearbeitender Felder)
+8. automatisiertes Verfahren für einen BIDAQ-konformen AmBADO-Datenexport
+
+2.2
+
+Produkteinsatz / Benutzer
+Die Software wird von Mitarbeitern Psychiatrischer Institutsambulanzen (PIA) in der
+Erwachsenenpsychiatrie verwendet. Sie dient primär der Dokumentation von ambulanten
+Behandlungsfällen. Folgende Benutzergruppen lassen sich bilden:
+Benutzergruppe 1 – Dokumentierende Mitarbeiter
+In diese Gruppe fallen Ärzte, Psychologen, Pflegepersonal, Sozialpädagogen, Arbeitsund Beschäftigungstherapeuten, medizinische Dokumentare/Dokumentationsassistenten,
+medizinische Fachangestellte und Sachbearbeiter. Vertreter dieser Gruppe sind mit der
+Erfassung von AmBADO-Daten betraut. Diese Gruppe stellt den größten Anteil an Benutzern
+der AmBADO-Software.
+Benutzergruppe 2 – Mitarbeiter aus der IT
+Zu dieser Gruppe zählen Mitarbeiter aus dem IT-/EDV-Bereich, die in erster Linie für den
+ordentlichen Betrieb der Software zuständig sind. Zu den Aufgaben gehören u. a. die
+Verwaltung von Nutzerkonten, der Export von AmBADO-Daten gemäß Übergabetabelle, die
+Gestaltung von Eingabeformularen und die Überprüfung exportierter Daten hinsichtlich ihrer
+Validität.
+
+AmBADO-Revision 2017 – Anforderungsspezifikation / 29.08.2016
+
+Seite 5 von 10
+
+Benutzergruppe 3 – Mitarbeiter des Rechnungswesens
+Die
+elektronische
+Erfassung
+aller
+durch
+die
+PIA-Mitarbeiter
+erbrachten
+Abrechnungsleistungen (einschließlich der AmBADO 101/201) wird unterstützt und kontrolliert
+durch Mitarbeiter des Rechnungswesens. Auf der Basis der Leistungsziffern erfolgt die
+Abrechnung mit den Kostenträgern.
+
+2.3
+
+Produktübersicht
+Das folgende Schaubild zeigt alle Akteure, die sich im unmittelbaren Umfeld der AmBADOSoftware befinden können. Je nach Größe und Anbindung einer Psychiatrischen
+Institutsambulanz (PIA) – z. B. an eine größere Klinik – kann es zu Abweichungen bei der
+Anzahl an Akteuren kommen.
+
+Ambulanz‐
+basisdokumentations‐
+system
+Dokumentierender Mitarbeiter
+
+Systemadministrator Primärsystem / KIS
+
+MA EDV / RZ
+
+Behand./Betreu. MA MD / MFA Sachbearbeiter
+
+MA Rechnungswesen
+
+AmBADO‐KJP‐Programm BADO‐Programm
+
+Legende
+Behand./Betreu. MA =
+Ärzte, Psychologen, Pflegepersonal, Sozialpädagogen und
+Arbeits‐ und Beschäftigungspädagogen
+MD = Medizinischer Dokumentar
+MFA = Medizinischer Fachangestellter
+MA = Mitarbeiter
+KIS = Krankenhaus‐Informations‐System
+EDV = Elektronische‐Datenverarbeitung
+RZ
+= Rechenzentrum
+BADO = Basisdokumentation (stationärer Bereich)
+
+Leistungsabrechnungsprogramm
+
+Kontextorientiertes Anwendungsfalldiagramm
+
+AmBADO-Revision 2017 – Anforderungsspezifikation / 29.08.2016
+
+Seite 6 von 10
+
+2.4
+
+Produktanforderungen
+Dieser Abschnitt enthält eine Auflistung funktionaler und nicht funktionaler Anforderungen an
+die AmBADO-Software. In der letzten Spalte „Art“ ist gekennzeichnet, ob es sich um eine
+Basisanforderung (einrichtungsunabhängig zu erfüllen) oder um eine einrichtungsspezifische
+Anforderung handelt. Die Kennzeichnung von Anforderungen als „einrichtungsspezifisch“
+bietet die Möglichkeit, die Liste um eigene Anforderungen zu erweitern.
+Nicht relevante und/oder als „einrichtungsspezifisch“ gekennzeichnete Anforderungen können
+gestrichen werden. Auf diese Weise entsteht eine an die Bedürfnisse der jeweiligen PIA
+angepasste Anforderungsliste.
+Art*
+
+Nr.
+
+Benutzersicht
+
+Kategorie
+
+Anforderung
+
+1.
+
+Gruppe 1
+
+Allgemein
+
+Wenn die Software PIA-übergreifend eingesetzt
+werden soll, muss gewährleistet sein, dass
+Ambulanzbehandlungsfälle (siehe Referenzdokument 3: AmBADO-Anleitung, Allgemeine Hinweise, Punkt 3), die zeitlich parallel oder überschneidend in zwei oder mehr PIA laufen, unabhängig voneinander dokumentiert werden können.
+Hinweis
+Eine PIA ist derzeit durch eine eindeutige
+Betriebsstättennummer gekennzeichnet.
+
+B
+
+2.
+
+Gruppe 1
+
+Allgemein
+
+Für jeden Patienten ist ein eindeutiger Schlüssel
+einmalig zu vergeben.
+
+B
+
+3.
+
+Gruppe 1
+
+Allgemein
+
+Für jede vollständige AmBADO (vom Erstkontakt/
+Wiederaufnahme bis zur Behandlungsbeendigung)
+ist ein eindeutiger Schlüssel zu vergeben (siehe
+Referenzdokument 3: AmBADO-Anleitung,
+Allgemeine Hinweise, Punkt 3).
+
+B
+
+4.
+
+Gruppe 1
+
+Allgemein
+
+Bei Abschluss/Fertigstellung ist ein AmBADO-Bogen
+auf Vollständigkeit und Plausibilität zu überprüfen.
+
+B
+
+5.
+
+Gruppe 1
+
+Allgemein
+
+Es soll möglich sein, bei AmBADO-Fällen zwischen
+„verpflichtend“ und „freiwillig“ zu unterscheiden. Bei
+mit „freiwillig“ markierten Fällen soll die Angabe eines
+Grundes für die freiwillige Erfassung möglich sein.
+
+B
+
+6.
+
+Gruppe 1
+
+Allgemein
+
+Nach Ablauf eines Dokumentationsjahres, soll die
+Software die minimale Anzahl aller Behandlungsfälle
+im Dokumentationsjahr automatisch ermitteln (Sollmenge).
+
+B
+
+7.
+
+Gruppe 1
+
+Datenübernahme
+
+Daten aus dem Primärsystem/ Klinikinformationssystem sollen in dem Umfang übernommen werden
+können, in dem sie dort vorliegen (Diagnosen,
+Betreuung, Besuchsdatum …).
+
+B
+
+8.
+
+Gruppe 1
+
+Datenübernahme
+
+Bei Anlage neuer AmBADO-Bögen müssen alle
+bereits verfügbaren und relevanten Datenfelder aus
+der aktuellen vorliegenden AmBADO (Kurz- oder
+Vollversion) übernommen werden. Dabei soll eine
+automatische Rückfrage erfolgen, ob die Daten vom
+Behandler inhaltlich auf Aktualität überprüft wurden.
+
+B
+
+AmBADO-Revision 2017 – Anforderungsspezifikation / 29.08.2016
+
+Seite 7 von 10
+
+Art*
+
+Nr.
+
+Benutzersicht
+
+Kategorie
+
+Anforderung
+
+9.
+
+Gruppe 1
+
+Bogenumwandlung
+
+Die Umwandlung Kurzversion => Langversion =>
+Kurzversion soll ohne Datenverlust (idealerweise in
+einem Dokument) möglich sein.
+Nur zulässige Umwandlungen sind zu ermöglichen
+(= keine Kurzversion bei mehr als 3 Patientenkontakten).
+
+B
+
+10.
+
+Gruppe 1
+
+Prüflisten
+
+Eine oder mehrere Listen/Ansichten sind
+bereitzustellen, die jederzeit abrufbar sind und aus
+denen die folgenden Informationen ablesbar sind:
+(1) Behandlungsfälle mit offenem AmBADO-Bogen,
+nach zuständigem Mitarbeiter (Arzt/Psychologe)
+(2) Behandlungsfälle mit abgeschlossenem
+AmBADO-Bogen, jedoch ohne
+korrespondierende Leistungsziffer
+(3) Behandlungsfälle mit abgerechneter Leistungsziffer, jedoch ohne korrespondierenden
+AmBADO-Bogen
+(4) Behandlungsfälle mit fälliger Jahresaktualisierung (JA) einschließlich der Angabe
+des Fälligkeitszeitpunkts
+(5) Behandlungsfälle mit fälliger (rückwirkender)
+Beendigung einschließlich der Angabe des
+Fälligkeitszeitpunkts
+(6) Behandlungsfälle mit zwei leistungsfreien
+Quartalen und Hinweis auf Wiederaufnahme
+(7) Behandlungsfälle, bei denen eine Kurzversion in
+eine Vollversion umgewandelt werden muss
+
+B
+
+11.
+
+Gruppe 1
+
+Listen
+
+Listen müssen sortiert und gefiltert werden können.
+
+B
+
+12.
+
+Gruppe 1
+
+Listen
+
+Listen müssen ausgedruckt und exportiert werden
+können.
+
+B
+
+13.
+
+Gruppe 1
+
+Listen
+
+Angezeigte Fälle müssen aus der Liste heraus
+aufrufbar sein (z. B. durch doppelten Mausklick).
+
+B
+
+14.
+
+Gruppe 1
+
+Listen
+
+Listen müssen systemaktuelle Daten enthalten.
+
+B
+
+15.
+
+Gruppe 1
+
+Eingabehilfe
+
+Ausfüllhinweise sollen pro Eingabefeld abrufbar sein.
+Die Hinweise stammen aus der AmBADO-Anleitung.
+
+B
+
+16.
+
+Gruppe 1
+
+Eingabehilfe
+
+Diagnoselisten mit Such- und Auswahlfunktion sollen
+die Kodierung von Diagnosen und Risiken
+erleichtern.
+
+B
+
+17.
+
+Gruppe 1
+
+Formulargestaltung
+
+Fragen bzw. Items zur Vernetzung sind in Matrixform
+darzustellen – analog der Papierversion – und nicht
+in Listenform. „Veranlassung der PIA-Behandlung“,
+„aktuelle Vorbehandlung (vor Aufnahme in die PIA)“,
+„fremde Mitbehandlung bzw. Mitbetreuung“ und
+„Weiterbehandlung bzw. Nachbetreuung“
+
+B
+
+18.
+
+Gruppe 1
+
+Zusätzliche
+Felder
+
+Daten zur „gesetzlichen Betreuung“ hinsichtlich
+„Aufenthalt“, „Gesundheit“, „Vermögen“, „Sonstige“
+und „Aktenzeichen“ müssen an geeigneter Stelle
+hinterlegt werden können.
+
+E
+
+AmBADO-Revision 2017 – Anforderungsspezifikation / 29.08.2016
+
+Seite 8 von 10
+
+Art*
+
+Nr.
+
+Benutzersicht
+
+Kategorie
+
+Anforderung
+
+19.
+
+Gruppe 1
+
+Zusätzliche
+Felder
+
+Daten zu minderjährigen Kindern von Patienten
+hinsichtlich „Alter“ (aktuell zum Erhebungszeitpunkt)
+und der „Betreuungssituation der Kinder“ („mit
+Patient im Pflegeheim wohnend“, „im Heim wohnend“
+oder „bei Verwandten wohnend“) müssen hinterlegt
+werden können.
+
+E
+
+20.
+
+Gruppe 1
+
+Prüfung
+
+Hinweis auf Behandlungsfälle mit einer
+Verdachtsdiagnose.
+
+E
+
+21.
+
+Gruppe 1
+
+Prüfung
+
+Die mehrfache Eingabe derselben Diagnosen ist zu
+verhindern.
+
+E
+
+22.
+
+Gruppe 2
+
+Eingabehilfe
+
+Das Feld „Datum Behandlungsbeginn“ muss vom
+Benutzer veränderbar/überschreibbar sein.
+
+E
+
+23.
+
+Gruppe 1
+
+Eingabehilfe
+
+Vor der Datenlieferung an BIDAQ muss die manuelle
+Korrektur aller erfassten AmBADO-Bögen jederzeit
+möglich sein.
+
+E
+
+24.
+
+Gruppe 1
+
+Eingabehilfe
+
+Pflichtfelder, die noch bearbeitet werden müssen,
+sind farbig zu markieren.
+
+E
+
+25.
+
+Gruppe 1
+
+Eingabehilfe
+
+Pflichtfelder sind von optionalen Feldern farbig
+eindeutig zu unterscheiden.
+
+E
+
+26.
+
+Gruppe 1
+
+Eingabehilfe
+
+Im AmBADO-Formular soll unmittelbar sichtbar sein,
+ob und wann die Leistungsziffer 101/201
+abgerechnet wurde.
+
+E
+
+27.
+
+Gruppe 1
+
+Eingabehilfe
+
+Nach dem Ausfüllen des AmBADO-Formulars soll die
+Erfassung der Abrechnungsleistung 101/201 im
+Leistungserfassungsprogramm unmittelbar aus dem
+AmBADO-Formular heraus angestoßen werden
+können. Dies soll nur für vollständige und plausible
+Dokumentationen möglich sein.
+
+E
+
+28.
+
+Gruppe 1
+
+Eingabehilfe
+
+Die Ambulanzkennung im AmBADO-Formular soll
+mit der Ambulanzkennung in der Leistungsabrechnung übereinstimmen und automatisch
+vorbelegt werden.
+
+E
+
+29.
+
+Gruppe 1
+
+Eingabehilfe
+
+Die Felder für „Dokumentationsverantwortlicher“
+(Zusatzfeld) und „Unterschrift“ sollen vorbelegt
+werden, sofern in diesen Feldern noch nichts
+eingetragen wurde.
+
+E
+
+30.
+
+Gruppe 1
+
+Eingabehilfe
+
+In die Namensauswahllisten für die Felder
+„Dokumentationsverantwortlicher“ (Zusatzfeld) und
+„Unterschrift“ sollen zur Auswahl eines Namens
+beliebig viele Buchstaben eingegeben werden
+können.
+
+E
+
+31.
+
+Gruppe 1
+
+Eingabehilfe
+
+Das Feld „Dokumentationsverantwortlicher“
+(Zusatzfeld) soll ein Pflichtfeld sein.
+
+E
+
+32.
+
+Gruppe 1
+
+Eingabehilfe
+
+Das Feld „Ambulanzdifferenzierung“ soll farblich
+eindeutig hervorgehoben werden.
+
+E
+
+AmBADO-Revision 2017 – Anforderungsspezifikation / 29.08.2016
+
+Seite 9 von 10
+
+Art*
+
+Nr.
+
+Benutzersicht
+
+Kategorie
+
+Anforderung
+
+33.
+
+Gruppe 1
+
+Eingabehilfe
+
+Bei einer Jahresaktualisierung sollen die zu
+aktualisierenden Felder von den nicht zu
+aktualisierenden Feldern farblich unterschieden
+werden. Während der Eingabe sollen nur die zu
+aktualisierenden Felder ansteuerbar und bearbeitbar
+sein. Die Bearbeitung der anderen Felder soll durch
+einen separaten Korrekturmodus ermöglicht werden.
+
+E
+
+* B = Basisanforderung; E = Einrichtungsspezifische Anforderung
+
+2.5
+
+Produktdaten
+In der nachstehenden Tabelle sind die Daten aufgelistet, auf die die AmBADO-Software
+Bezug nehmen kann. Anhand der aufgeführten Daten lassen sich mögliche Schnittstellen zu
+anderen Programmen leichter identifizieren.
+Nr.
+
+Daten
+
+1.
+
+Patientendaten
+
+2.
+
+Benutzerdaten
+
+3.
+
+Leistungsabrechnungsdaten
+
+4.
+
+Kostenträgerdaten
+
+5.
+
+ambulante Behandlungsdaten (Anamnese, Diagnostik, Therapieplan, Behandlungsergebnis)
+
+AmBADO-Revision 2017 – Anforderungsspezifikation / 29.08.2016
+
+Seite 10 von 10
+
+

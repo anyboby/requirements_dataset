@@ -1,0 +1,1867 @@
+Stand: 20.04.2018
+
+Ausschreibung eines Lieferauftrages über die Lieferung von
+drei Standard-Linien-Niederfluromnibussen mit der ZusatzAntriebstechnologie Mild-Hybrid als Ergänzung zum Dieselmotor
+im Beschaffungsjahr 2018
+
+Auftraggeber und gleichzeitig auch Vergabestelle:
+HofBus GmbH
+Adresse:
+Tel.:
+Fax:
+E-Mail:
+
+Unterkotzauer Weg 25
+95028 Hof
+09281-812-600
+09281-812-670
+hofbus@stadtwerke-hof.de
+
+Aufsichtsratsvorsitzender:
+Geschäftsführung:
+Handelsregister:
+Umsatzsteuer-ID-Nr.:
+Steuer-Nummer:
+
+Oberbürgermeister Dr. Harald Fichtner
+Dipl.-Kfm. Jean Petrahn
+HRB 2717
+DE202441619
+223/116/60466
+
+Dokumenten-Version: final
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Inhaltsverzeichnis der Ausschreibungsunterlagen
+A
+
+Allgemeine Informationen und Bewerbungsbedingungen .......................................... 4
+A.1
+A.2
+A.3
+A.4
+A.5
+A.6
+A.7
+A.8
+A.9
+A.10
+A.11
+A.12
+A.13
+
+B
+
+Auftragsgegenstand / Leistungsgegenstand......................................................... 4
+Ort der Leistungserbringung und Beginn bzw. Ende der Leistung ........................ 4
+Ausschreibungsverfahren ..................................................................................... 5
+Gliederung der Ausschreibungsunterlagen ........................................................... 5
+Ausgabe der Ausschreibungsunterlagen .............................................................. 5
+Ansprechpartner für Rückfragen zu den Ausschreibungsunterlagen ................... 5
+Vertragsbedingungen ........................................................................................... 6
+Berücksichtigung von Angeboten ......................................................................... 6
+Einzureichende Unterlagen von den Bietern ........................................................ 7
+Vergabekriterien und Bewertung der Angebote.................................................... 8
+Wettbewerbskonformes Verhalten des Auftraggebers und der Bieter ................. 9
+Datenschutzrechtliche Bestimmungen ................................................................ 9
+Anzeige von Vergabeverstößen / zuständige Vergabekammer ........................... 9
+
+Lastenheft / Standard-Linien-Niederfluromnibus ...................................................... 10
+B.1 Einhaltung von Rechtsnormen und Fahrzeugstandards ..................................... 10
+B.2 Technische Spezifikationen ................................................................................ 11
+B.2.1 Fahrzeugabmessungen und –ausführung (Fahrzeugaußenseite) ............... 11
+B.2.2 Fahrzeugantrieb / Antriebsaggregat ............................................................. 12
+B.2.3 Getriebe ....................................................................................................... 13
+B.2.4 Anordnung des Haupt-Antriebsaggregates und des Getriebes .................... 13
+B.2.5 Wärme- und Geräuschisolation.................................................................... 13
+B.2.6 Kühlung ........................................................................................................ 14
+B.2.7 Motorölversorgung ....................................................................................... 14
+B.2.8 Fahrwerk Allgemein...................................................................................... 14
+B.2.9 Achsen ......................................................................................................... 14
+B.2.10 Betriebsbremsanlage ................................................................................... 14
+B.2.11 Feststell- und Hilfsbremsanlage ................................................................... 15
+B.2.12 Haltestellenbremse ...................................................................................... 15
+B.2.13 Dauerbremse ............................................................................................... 15
+B.2.14 ABS/ASR/EBS ............................................................................................. 15
+B.2.15 Räder ........................................................................................................... 15
+B.2.16 Niveauregulierung ........................................................................................ 16
+B.2.17 Lenkung ....................................................................................................... 16
+B.2.18 Bodenrahmen .............................................................................................. 16
+B.2.19 Aufbau.......................................................................................................... 16
+B.2.20 Scheiben/Fenster ......................................................................................... 16
+B.2.21 Stoßfänger ................................................................................................... 17
+B.2.22 Spiegel ......................................................................................................... 17
+B.2.23 Türen............................................................................................................ 17
+B.2.24 Einstiegshilfen .............................................................................................. 18
+B.2.25 Absenkanlage ("Kneeling-Funktion") ........................................................... 18
+B.2.26 Sitzanordnung .............................................................................................. 18
+B.2.27 Sitzausführung ............................................................................................. 19
+B.2.28 Haltestangen, Haltewunschtaster und Trennwände .................................... 19
+B.2.29 Haltewunschtaster........................................................................................ 19
+B.2.30 Trennwände ................................................................................................. 19
+B.2.31 Seitenwände ................................................................................................ 19
+2
+
+HofBus GmbH
+
+B.2.32
+B.2.33
+B.2.34
+B.2.35
+B.2.36
+B.2.37
+B.2.38
+B.2.39
+B.2.40
+B.2.41
+B.2.42
+B.2.43
+B.2.44
+B.2.45
+B.2.46
+B.2.47
+B.2.48
+B.2.49
+B.2.50
+B.2.51
+B.2.52
+B.2.53
+B.2.54
+B.2.55
+B.2.56
+B.2.57
+B.2.58
+B.2.59
+B.2.60
+B.2.61
+B.2.62
+B.2.63
+B.2.64
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Decke ........................................................................................................... 19
+Fußboden..................................................................................................... 20
+Sondernutzungsflächen (Rollstuhl-/Kinderwagen-Abstellplätze) .................. 20
+Dachvouten, Dachkanäle ............................................................................. 20
+Piktogramme ................................................................................................ 20
+Sonstiges ..................................................................................................... 21
+Fahrerplatz ................................................................................................... 21
+Lenksäule..................................................................................................... 22
+Kasse/Fahrausweisdrucker .......................................................................... 22
+Heizung/Lüftung ........................................................................................... 22
+Fahrgastinformationen ................................................................................. 23
+Kraftstoffbehälter.......................................................................................... 24
+Luftpresser ................................................................................................... 24
+Lufttrockner .................................................................................................. 24
+Leitungen ..................................................................................................... 25
+Prüfanschlüsse ............................................................................................ 25
+Heizölbehälter .............................................................................................. 25
+Ad-Blue-Tank ............................................................................................... 25
+Schmierung .................................................................................................. 25
+Fremdversorgung ......................................................................................... 25
+Elektrische Anlage ....................................................................................... 26
+Betriebsüberwachung .................................................................................. 26
+Fahrerfenster ............................................................................................... 26
+Beleuchtung ................................................................................................. 27
+Fahrtschreiber .............................................................................................. 27
+Bordinformationssystem .............................................................................. 27
+Funkanlage .................................................................................................. 27
+Ausrufanlage ................................................................................................ 28
+Vollautomatische Fahrgastinformation einschließlich Beleuchtung ............. 28
+Haltestelleninnenanzeige ............................................................................. 28
+Entwerter ...................................................................................................... 28
+19-Zoll-Baugruppenträger ............................................................................ 28
+Vorbauklappe (unterhalb der Scheibenwischer).......................................... 29
+
+B.3 Sonstige Anforderungen an die Bieter und deren Fahrzeuge ................................ 29
+Anlage 1: Anforderungskatalog........................................................................................ 31
+Anlage 2: Bestuhlungsplan .............................................................................................. 43
+Anlage 3: Beispielhafte Bilder der Fahrzeugabmessungen und –ausführung ................. 44
+Anlage 4: Merkblatt zur Busförderung ............................................................................. 45
+Anlage 5: zu ersetzende Altfahrzeuge ............................................................................. 47
+Anlage 6: Gewährleistungsregelung für Linienbusse ....................................................... 48
+Anlage 7: Vergabekriterien .............................................................................................. 51
+Anlage 8: Informationen zum beigestellten 29-Zoll-TFT-Bildschirm ................................ 52
+3
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+A
+
+Allgemeine Informationen und Bewerbungsbedingungen
+
+A.1
+
+Auftragsgegenstand / Leistungsgegenstand
+
+Der Auftraggeber schreibt mit dieser EU-Ausschreibung folgenden Lieferauftrag für das
+Beschaffungsjahr 2018 aus:
+Lieferung von drei Standard-Linien-Niederfluromnibussen gemäß nachfolgendem Lastenheft zum geplanten Auslieferungsdatum Dezember 2018.
+Nur bei Vorhandensein von weiteren Fördermitteln zum Ende des Jahres 2018:
+Ein weiterer Standard-Linien-Niederfluromnibus gemäß nachfolgendem Lastenheft zum geplanten Auslieferungsdatum März 2019.
+A.2
+
+Ort der Leistungserbringung und Beginn bzw. Ende der Leistung
+
+Der Auftraggeber kann vor Erteilung des Auftrages verlangen, dass die Anbieter ein
+Fahrzeug des zu beschaffenden Typs oder gleichwertig unentgeltlich für einen Echteinsatz, mindestens jedoch für 2 Wochen, unentgeltlich zur Verfügung stellen.
+Der Auftraggeber führt ca. zwei Wochen vor der Auslieferung der Omnibusse beim Hersteller eine Abnahme der fertig gestellten Fahrzeuge durch. Dabei müssen die Fahrzeuge von allen Seiten zugänglich und eine Probefahrt möglich sein.
+Die Fahrzeuge werden von Mitarbeiterinnen bzw. Mitarbeitern des Auftraggebers in einer
+Niederlassung des Anbieters in Deutschland abgeholt und überführt. Bis zu diesem Zeitpunkt müssen alle Mängel beseitigt sein, die dabei festgestellt wurden. Ist dies nicht der
+Fall, so erfolgt die Bezahlung der Fahrzeuge erst dann, wenn alle Mängel beseitigt sind
+und die Fahrzeug vom Auftraggeber endgültig abgenommen wurden. Es gelten folgende
+Zahlungsbedingungen für den Lieferauftrag: 10 Tage nach Auslieferung der Fahrzeuge
+beziehungsweise nach Beseitigung aller Mängel.
+Mit der Auftragsvergabe wird ein verbindlicher Liefertermin (spätestens 31.12.2018) festgeschrieben. Die genauen Liefertermine der Fahrzeuge werden bei der Auftragsvergabe
+festgelegt. Der Hersteller verpflichtet sich, diese Termine genauestens einzuhalten, ansonsten ist der Auftraggeber berechtigt, für jeden Tag der Überschreitung Ausfallzeiten
+(170,00 Euro/Tag pro Omnibus) geltend zu machen.
+
+4
+
+HofBus GmbH
+
+A.3
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Ausschreibungsverfahren
+
+Da es sich beim Auftragsgegenstand um Fahrzeuge handelt, die aufgrund ihrer besonderen zusätzlichen Antriebsart eine besondere technische Komponente besitzen müssen,
+kommt als Ausschreibungsverfahren das offene Verfahren nach den Bestimmungen der
+Sektorenverordnung zur Anwendung.
+Die Angebotsabgabe muss per Bote, Post oder in elektronischer Form bis zum
+27.05.2018, 16:00 Uhr, beim Auftraggeber eingegangen sein. Später eingereichte Angebote werden nicht berücksichtigt.
+Die Auftragsvergabe erfolgt bis spätestens zum 30.06.2018.
+A.4
+
+Gliederung der Ausschreibungsunterlagen
+
+Die Ausschreibungsunterlagen sind gemäß oben aufgeführtem Inhaltsverzeichnis gegliedert. Sie sind verbindliche Bestandteile der Ausschreibung.
+
+A.5
+
+Ausgabe der Ausschreibungsunterlagen
+
+Die Ausschreibungsunterlagen können die Bieter nach der Auftragsbekanntmachung
+entweder direkt von der Vergabestelle / vom Auftraggeber erhalten (per E-Mail, Telefax
+oder Post) oder über die URL: https://www.stadtwerke-hof.de/oepnv/ausschreibung.html
+selbstständig downloaden. Die Bieter haben sich eigenverantwortlich über die Veröffentlichung von Bewerber- oder Bieterinformationen zu informieren.
+A.6
+
+Ansprechpartner für Rückfragen zu den Ausschreibungsunterlagen
+
+Für alle kaufmännischen Rückfragen steht den Bietern Herr Daniel Walther, Verkehrsleiter und Betriebsleiter BOKraft der HofBus GmbH, unter folgenden Kontaktdaten zur Verfügung:
+HofBus GmbH, Daniel Walther, Unterkotzauer Weg 25, 95028 Hof,
+Tel.: 09281-812-600, E-Mail: daniel.walther@stadtwerke-hof.de
+Für alle technischen Rückfragen steht den Bietern Herr Udo Lein, Werkstattleiter der
+HofBus GmbH, unter folgenden Kontaktdaten zur Verfügung:
+HofBus GmbH, Udo Lein, Unterkotzauer Weg 25, 95028 Hof,
+5
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Tel.: 09281-812-600, E-Mail: udo.lein@stadtwerke-hof.de
+Es liegt im Verantwortungsbereich des Bieters sich zu versichern, dass ihm bzw. ihr die
+vollständigen Ausschreibungsunterlagen vorliegen. Unklarheiten in den Ausschreibungsunterlagen hat der Bieter schriftlich vor der Angebotsabgabe an den Auftraggeber zu
+melden.
+A.7
+
+Vertragsbedingungen
+
+Ein Angebot ist unter Berücksichtigung dieser Ausschreibungsunterlagen zu erstellen
+und abzugeben.
+Primär gelten bei Vertragsabschluss die Einkaufsbedingungen der Stadtwerke Hof
+GmbH und Ihrer Tochtergesellschaften, die unter folgendem Internet-Link abgerufen
+werden können: https://www.stadtwerke-hof.de/unternehmen/einkaufsbedingungen.html
+Des Weiteren gelten (nachrangig) die Vorschriften und Regelungen des Bürgerlichen
+Gesetzbuches und weitere sonstige betreffende deutsche Rechtsvorschriften.
+Allgemeine Geschäftsbedingungen des Auftragnehmers kommen nicht zur Anwendung.
+A.8
+
+Berücksichtigung von Angeboten
+
+Es werden nur Angebote von Bietern berücksichtigt, die einen signifikanten Umsatz und
+namenhafte Referenzen nachweisen können.
+Außerdem wird ausdrücklich darauf hingewiesen, dass nur diejenigen Angebote berücksichtigt werden können,
+
+
+
+
+bei denen die im nachfolgenden Lastenheft beschriebene alternative Antriebstechnologie (Mild-Hybrid und ergänzendes Rekuperationsmodul) in den Fahrzeugen zur Anwendung kommt,
+bei denen vom Bieter nachgewiesen wird, dass bereits Fahrzeuge mit der alternativen Antriebstechnologie an Verkehrsunternehmen in Deutschland ausgeliefert
+wurden und dass diese Fahrzeuge im täglichen Linienbetrieb (Praxiseinsatz) zum
+Einsatz kommen.
+
+6
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Angebote und dazugehörige Unterlagen sind in deutscher Sprache bei der Vergabestelle
+abzugeben. Sollten Angebote und Unterlagen in einer anderen Sprache abgegeben werden, so werden diese nicht berücksichtigt.
+Die Bieter haben in ihren Angeboten ihren Namen, ihre Adresse, sowie ihre Telefonnummer, Fax-Nummer und E-Mail-Adresse vollständig anzugeben und einen Ansprechpartner zu benennen.
+Unvollständige Angebote werden von der Vergabestelle nicht berücksichtigt.
+Sämtliche in den Ausschreibungsunterlagen geforderten Angaben sind anzugeben bzw.
+zu erläutern, warum diese Angabe nicht gemacht werden kann. Preise sind stets in der
+Währung Euro zu nennen, wobei es sich um Netto-Preise zuzüglich des zur Auftragsvergabe gültigen Umsatzsteuersatzes handelt.
+Händische Eintragungen müssen dokumentenecht sein.
+Es steht den Bietern frei, erläuternde Ergänzungen in einer besonderen Anlage außerhalb des beigefügten Anforderungskatalogs mit der Angebotsabgabe abzugeben.
+Nebenangebote werden nicht zugelassen.
+Ergänzungen oder Korrekturen der Ausschreibungsunterlagen sind nicht zulässig.
+Eingereichte Angebot dürfen nur als verbindliche Angebote (ohne Ausschlusskriterien)
+abgegeben werden.
+A.9
+
+Einzureichende Unterlagen von den Bietern
+
+Folgende Unterlagen sind von den Bietern bei der Angebotsabgabe einzureichen:
+
+
+ausgefüllter Anforderungskatalog (Anlage 1);
+
+
+
+Leistungsbeschreibung (detaillierte Baubeschreibung) für die Fahrzeuge (gemäß
+den technischen Vorgaben des Lastenheftes) inklusive Angabe der Preise der
+einzelnen Anforderungen des Lastenheftes und des Gesamtpreises pro Fahrzeug;
+
+
+
+Referenzliste der Verkehrsunternehmen, bei denen die angebotenen Fahrzeuge
+bereits im Praxistest und Linienbetrieb zum Einsatz kommen;
+
+7
+
+HofBus GmbH
+
+
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Rückkaufsangebote für die zu ersetzenden Altfahrzeuge der HofBus GmbH (gemäß den Erläuterungen der Anlage 5);
+
+
+
+Rücknahmepreis der ausgeschriebenen Omnibusse pro Omnibus nach 10 bis 12
+Jahren.
+
+
+
+Die in der VDV Mitteilung 2315 (Mai 2003) enthaltenen Anlagen 1 und 3 zu den
+Produktlebenszyklus-Kosten sind mit den entsprechenden Zahlen auszufüllen und
+dem Angebot beizulegen.
+
+
+
+Ausgefüllte Tabelle der für die ausgeschriebenen Fahrzeuge zur Anwendung
+kommenden Gewährleistungsregelungen (Anlage 6);
+
+
+
+Leistungsdiagramme und Kraftstoffverbrauch des angebotenen Hauptantriebsaggregates; des Weiteren sind Angaben über folgende Umweltauswirkungen der
+angebotenen Omnibusse abzugeben: Kohlendioxid-Emissionen, Emissionen von
+Stickoxiden, Emissionen von Nichtmethan-Kohlenwasserstoffen und partikelförmige Abgasbestandteile.
+
+
+
+Beschreibung des Werkstattnetzes und der Ersatzteilverfügbarkeit sowie Ersatzteildistribution;
+
+
+
+Beschreibung der Warenanteils-Herkunft der angebotenen Fahrzeuge gemäß §
+55 der Sektorenverordnung.
+
+Anfallende Kosten für die Angebotsbearbeitung und –abgabe werden den Bietern nicht
+erstattet.
+
+A.10 Vergabekriterien und Bewertung der Angebote
+Die Angebotsprüfung und –bewertung durch die Vergabestelle erfolgt gemäß den Vorgaben der §§ 51 ff. der Sektorenverordnung.
+
+Darüber hinaus kommen die in Anlage 7 genannten und erläuterten Vergabekriterien bei
+der Prüfung und Bewertung der Angebote zur Anwendung.
+
+Die Vergabestelle erteilt den Zuschlag für das wirtschaftlichste Angebot unter Berücksichtigung des oben dargestellten Prüfungs- und Bewertungsverfahrens.
+
+8
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+A.11 Wettbewerbskonformes Verhalten des Auftraggebers und der Bieter
+Der Auftraggeber erklärt mit der Auftragsbekanntmachung, dass die vergaberechtlichen
+Grundsätze (Wettbewerbsgrundsatz; Transparenzgebot; Gleichbehandlungsgrundsatz;
+Berücksichtigung mittelständischer Interessen; Eignung der Unternehmen und das Zuschlagskriterium wirtschaftlichstes Angebot) bei dieser Ausschreibung und der späteren
+Auftragsvergabe eingehalten wurden und werden.
+Mit Abgabe eines Angebots erklärt auch jeder Bieter, dass von Seiten des Bieters alles
+unternommen wurde und wird, um die Grundsätze und Vorgaben des Vergaberechts
+einzuhalten.
+Wurde ein Angebot auf der Grundlage von wettbewerbsbeschränkenden Absprachen
+abgegeben, so wird dieses von der Vergabestelle nicht berücksichtigt. Werden derartige
+Absprachen nach der Auftragsvergabe festgestellt, so hat der Auftraggeber das Recht,
+den Vertrag zu kündigen.
+A.12 Datenschutzrechtliche Bestimmungen
+Die Bieter stimmen zu, dass die von ihnen mitgeteilten personenbezogenen Daten zum
+Zwecke der Angebotsprüfung und –bewertung von der Vergabestelle verarbeitet und gespeichert werden und dass der Name des Bieters, der den Zuschlag erhalten hat, an die
+unterlegenen Bieter mitgeteilt wird.
+A.13 Anzeige von Vergabeverstößen / zuständige Vergabekammer
+Zur Nachprüfung behaupteter Verstöße gegen Vergabebestimmungen kann sich der Bieter an die nachfolgend genannte, zuständige Vergabekammer wenden:
+Regierung von Mittelfranken,
+Vergabekammer Nordbayern,
+Postfach 606, 91511 Ansbach,
+Tel. 0981/53-1277, Fax: 0981/53-1837,
+E-Mail: vergabekammer.nordbayern@reg-mfr.bayern.de
+
+Darüber hinaus gelten die Vorschriften zum Nachprüfungsverfahren gemäß den §§ 155
+des Gesetzes gegen Wettbewerbsbeschränkungen.
+
+9
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+B
+
+Lastenheft / Standard-Linien-Niederfluromnibus
+
+B.1
+
+Einhaltung von Rechtsnormen und Fahrzeugstandards
+
+23.04.18
+
+Die Fahrzeuge der Bieter müssen insbesondere nachfolgend genannte Rechtsnormen
+und Fahrzeugstandards einhalten beziehungsweise erfüllen:
+
+
+
+
+
+
+
+
+
+EU-Richtlinie 2001/85/EG (besondere Vorschriften für Fahrzeuge zur Personenbeförderung mit mehr als acht Sitzplätzen außer dem Fahrersitz);
+Fahrzeug-Vorgaben gemäß dem Personenbeförderungsgesetz;
+Fahrzeug-Vorgaben gemäß der Verordnung über den Betrieb von Kraftfahrunternehmen im Personenverkehr;
+Rahmenempfehlungen für Standard-Linien-Niederfluromnibusse der VDV-Schrift
+2309/2001 (in ihrer aktuellen Fassung);
+Fördervoraussetzungen gemäß dem bayerischen Gemeindeverkehrsfinanzierungsgesetz (bayerisches GVFG);
+Richtlinien zur ÖPNV-Förderung (RzÖPNV);
+Richtlinien zur Busförderung gemäß den Vorgaben der Regierung von Oberfranken (siehe Anhang);
+Einhaltung der Abnahmevoraussetzungen für Kraftomnibusse gemäß der Stra-
+
+ßenverkehrszulassungsordnung: insbesondere muss der § 30d (Kraftomnibusse)
+Abs. 3 und 4 der Straßenverkehrszulassungsordnung erfüllt sein;
+ Zulassung für den Einmann-Betrieb im Linienverkehr;
+ Allgemeine sicherheitstechnische und arbeitsmedizinische Vorschriften;
+ Anforderungskatalog des Schülerverkehrs;
+ Zulassungskriterien und Abnahmevoraussetzungen für den Linienverkehr, den Berufsverkehr, den Gelegenheitsverkehr und die Schülerbeförderung;
+ Elektromagnetische Verträglichkeit (EMV), insbesondere Einhaltung der Störgrenze nach DIN 40839.
+Sollten weitere Rechtsnormen oder Fahrzeugstandards, die in der obigen Auflistung nicht
+genannt sind, für einen Einsatz als Omnibus im Linienverkehr (unter 50 Kilometer) eingehalten werden müssen, so müssen die Fahrzeuge der Bieter auch diese nicht explizit
+genannten Vorgaben erfüllen.
+Mit der Abgabe eines Angebots bestätigt der Bieter, dass das angebotene Fahrzeug die
+Rechtsnormen und Fahrzeugstandards (gemäß B.1 dieser Ausschreibungsunterlagen)
+erfüllt beziehungsweise einhält.
+Die in den weiteren Abschnitten des Lastenheftes erläuterten Zusätze zu den Anforderungen an einen Standard-Linien-Niederfluromnibus für die HofBus GmbH präzisieren
+10
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+und ergänzen einzelne Punkte und müssen von den Fahrzeugen der Bieter zusätzlich
+erfüllt werden.
+B.2
+
+Technische Spezifikationen
+
+Nachfolgend werden die technischen Spezifikationen der von der HofBus GmbH benötigten Standard-Linien-Niederfluromnibusse genannt und erläutert.
+B.2.1 Fahrzeugabmessungen und –ausführung (Fahrzeugaußenseite)
+Das Fahrzeug soll eine Fahrzeuglänge von 12 Meter aufweisen, 2 Achsen besitzen und
+in der Niederflurbauweise ausgeführt sein. Es soll eine Anzahl von ca. 32 Fahrgastsitzplätzen aufweisen.
+Tabelle 1: Fahrzeugabmessungen
+
+Fahrzeugausführung
+
+2 Türen
+
+Länge über alles
+
+ca. 12 Meter
+
+Breite über alles
+
+ca. 2,5 Meter
+
+Höhe mit Dachlüfter und Fahrerklimaanla-
+
+ca. 2,9 Meter
+
+ge
+Spurkreis
+
+ca. 18,5 Meter
+
+Wendekreis
+
+ca. 22 Meter
+
+Radstand
+
+ca. 5,9 Meter
+
+zulässiges Gesamtgewicht
+
+18 Tonnen
+
+Fußboden / Einstiegshöhe bei Standardni-
+
+Tür 1: ca. 320 mm; Tür 2: ca. 340 mm
+
+veau
+Quelle: Eigene Darstellung.
+
+Die Außenspiegel müssen den Anforderungen der Schulbuszulassung entsprechen. Sie
+müssen elektrisch verstell- und beheizbar sein, sowie manuell klapp- und abnehmbar
+sein. Außerdem sind sie waschanlagenfest auszuführen.
+Die Seitenscheiben sind in grau einfachverglast auszuführen.
+Als Anlage zu diesen Ausschreibungsunterlagen finden sich Foto-Aufnahmen, anhand
+derer die Fahrzeugausführung beispielhaft dargestellt ist.
+
+11
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+B.2.2 Fahrzeugantrieb / Antriebsaggregat
+Sechs-Zylinder-Dieselmotor mit Direkteinspritzung, EURO VI, Leistung: mindestens 210
+Kilowatt (kW) beziehungsweise 270 PS. Die jeweils erforderlichen Leistungsdiagramme
+und die Treibstoffverbräuche sind beizulegen. Beim Treibstoffverbrauch ist darauf zu
+achten, dass der bisherige Durchschnittsverbrauch im Linienverkehr in Hof von 40 Litern
+maximal um 3 Prozent überschritten werden darf. Wird beim Echteinsatz dieser Wert
+überschritten so muss der Bieter geeignete Maßnahmen einleiten um diesen Wert zu
+erreichen. Angaben zu den eingesetzten Motoren und die entsprechenden Techniken zur
+Abgasnachbehandlung sind in das Angebot einzuarbeiten.
+Alle Komponenten im Motorraum müssen unabhängig voneinander und ohne umfangreiche Demontagen gewechselt werden können. Im Motorraum ist ein „Motor-Start-StopTaster“ zu installieren.
+Eine Motor-Vollastkurve - Verlauf von Leistung, Drehmoment und spezifischem Kraftstoffverbrauch in Abhängigkeit von der Drehzahl - ist mit dem Angebot abzugeben.
+Neben dem Dieselmotor muss das Fahrzeug folgende alternative Antriebstechnologie
+besitzen:
+Die alternative Antriebstechnologie, die in Form eines Mild-Hybrid-Antriebs verbaut sein
+muss, unterstützt den Dieselmotor bei höheren Drehzahlen beziehungsweise bei verstärkter Leistungsabfrage des Motors, beispielsweise beim Anfahren. Eine Fahrt ohne
+Einsatz des Dieselmotors und somit rein durch den Hybrid-Antrieb darf nicht gegeben
+sein.
+Die Hybrid-Technik muss insbesondere folgende technische Einheiten besitzen: zwei
+Supercap-Einheiten mit Wechselrichter auf dem Fahrzeugdach, ein Kühlsystem für Niedertemperaturen und einen Elektromotor in Form eines 48-Volt-Motors.Die 48-VoltTechnik ist entscheidend für die Auftragsvergabe, da eine Schulung der Werkstattmitarbeiter im Bereich der Voll-Hybrid- bzw. Voll-Elektro-Antriebe aktuell nicht erfolgen kann.
+Neben der Hybridtechnik muss das Fahrzeug auch ein Rekuperationsmodul als Speichereinheit oder vergleichbar besitzen.
+Es wird ausdrücklich darauf hingewiesen, dass nur diejenigen Angebote berücksichtigt
+werden können,
+
+
+
+bei denen die oben beschriebene alternative Antriebstechnologie im Fahrzeug zur
+Anwendung kommt,
+bei denen vom Bieter nachgewiesen wird, dass bereits Fahrzeuge mit der alternativen Antriebstechnologie an Verkehrsunternehmen in Deutschland ausgeliefert
+12
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+wurden und dass diese Fahrzeuge im täglichen Linienbetrieb (Praxiseinsatz) zum
+Einsatz kommen.
+B.2.3 Getriebe
+Im Fahrzeug soll ein 4-Gang-Automatik-Getriebe, Fabrikat Voith D 864,5 oder vergleichbar, verbaut sein. Das Getriebe soll einen integrierten Retarder besitzen und auf der Instrumententafel ist ein 3-Tasten-Schalter zur Wahl der Fahrstufen „D(Dauerbetrieb)N(Neutral)-R(Rückwärts) zu verbauen. Des Weiteren soll eine Geschwindigkeitsbegrenzung von 80-85 Kilometer pro Stunde (km/h) eingerichtet sein.
+Es sind Ölwechselintervalle von 180.000 Kilometer oder 3 Jahre vorzusehen.
+Die Mikroprozessorsteuerung muss ein eigenes, vom Getriebe getrenntes, Bauteil sein.
+Diese Steuereinheit muss eine Diagnoseschnittstelle besitzen, die vom Fahrzeuginnenraum aus zugänglich ist und auch während des Fahrbetriebs genutzt werden kann. Über
+diese Schnittstelle müssen alle Ein- und Ausgangswerte sowie gespeicherte Fehler gelesen bzw. gelöscht werden können.
+Die Schaltpunkte müssen in Abhängigkeit von Beladung, Beschleunigung, Topographie
+und niedrigem Kraftstoffverbrauch optimal errechnet und stossfrei geschalten werden.
+Der Retarder muss auch bei geringen Geschwindigkeiten wirksam sein.
+Es ist eine Getriebe-Lebensdauer von 600.000 Kilometer anzustreben.
+Die Getriebeübersetzung muss den Anforderungen eines Stadtverkehrs entsprechen und
+ist nach Rücksprache mit dem Auftraggeber auf den Einsatzzweck abzustimmen.
+B.2.4 Anordnung des Haupt-Antriebsaggregates und des Getriebes
+Motor und Getriebe als Block im Heck eingebaut. Durch Bodendeckel, Seiten- und Heckklappe zugänglich. Auf ein Zwischen-/Winkelgetriebe zwischen Motor und Automatikgetriebe, bzw. zwischen Automatikgetriebe und Triebachse ist zu verzichten.
+
+B.2.5 Wärme- und Geräuschisolation
+Zur Wärme- und Geräuschisolation ist unterhalb des Motorraums eine herausziehbare
+Bodenwanne zu installieren.
+
+13
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+B.2.6 Kühlung
+Das Kühlsystem muss die vom Retarder erzeugte Abwärme in allen Betriebszuständen
+aufnehmen und an die Umgebung abgeben können.
+Viskolüfter, Fabrikat Behr, oder gleichwertiger Art.
+Auch bei extremen Minustemperaturen muss der Motor seine Betriebstemperatur in angemessener Zeit erreichen.
+Kühlwasserablasshahn am tiefsten Punkt des Kühlwasserkreislaufes.
+Transparenter Ausgleichsbehälter mit Befüllung durch separate Klappe auf der rechten
+Fahrzeugseite.
+B.2.7 Motorölversorgung
+Eine Automatische Ölnachfüllung ist nicht vorzusehen; zusätzlicher Ölbehälter zur Verlängerung der Wechselintervalle sollte möglich sein. Ölwechselintervalle von 60.000 km
+jährlich müssen möglich sein.
+Eine Magnetische Motorölablassschraube ist zu verbauen.
+Motoröldruckverlust-Warnleuchte mit Warnsummer.
+B.2.8 Fahrwerk Allgemein
+Es ist eine Abschleppvorrichtung am vorderen und hinteren Teil (Koppelmaul hinten ohne
+Steckdose) des Fahrzeugs anzubringen.
+B.2.9 Achsen
+Stabilisatoren an Vorder- und Hinterachse. Einzelradaufhängung an Vorderachse. Antriebs-Schlupfregelung (ASR) Abschaltung über Taster auf Instrumententafel.
+Achsschenkellager abschmierbar; Radlager wartungsfrei. Antriebsachse mit versetztem
+Mittelantrieb; wartungsfrei.
+Gesamtübersetzung i=6,212 oder vergleichbar.
+
+B.2.10
+
+Betriebsbremsanlage
+
+Druckluftbremsanlage Fabrikat Knorr, oder gleichwertiger Art.
+Trittplattenventil Fabrikat Wabco, oder gleichwertiger Art.
+Innenbelüftete Scheibenbremsen an der Vorderachse über Membranzylinder mit automatischer Bremsbelagsnachstellung; Verschleißanzeige mittels Abstandszeiger.
+14
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+An der Antriebsachse mit Kombizylinder druckluftbetätigte, innenbelüftete Scheibenbremse mit automatischer Bremsbelagnachstellung.
+Bremsbelag asbestfrei Fabrikat Textar oder gleichwertiger Art.
+B.2.11
+
+Feststell- und Hilfsbremsanlage
+
+Feststellbremsventil Fabrikat Knorr oder gleichwertiger Art.
+B.2.12
+
+Haltestellenbremse
+
+Die Haltestellenbremse muss bei geöffneter Tür automatisch wirksam sein. Es ist eine
+Abschaltmöglichkeit auf der Hauptschalttafel für das Werkstattpersonal vorzusehen.
+Die Haltestellenbremse ist mit Anfahrsperren zu versehen – das Lösen der Anfahrsperren erfolgt über das Gaspedal. Im Fahrerdisplay muss ersichtlich sein, ob die Haltestellenbremse aktiviert ist.
+B.2.13
+
+Dauerbremse
+
+Retarder im Getriebe integriert. Er muss über drei-stufig an der Lenksäule und über die
+Trittplatte möglichst stufenlos angesteuert werden können. Die Trittplattenansteuerung
+sollte abschaltbar sein.
+
+B.2.14
+
+ABS/ASR/EBS
+
+Anti-Blockiersystem (ABS), Antriebsschlupfregelung (ASR) und Elektronisches Bremssystem, Fabrikat Wabco oder gleichwertiger Art, muss verbaut sein.
+
+B.2.15
+
+Räder
+
+Stahlfelgen (Farbe: silber) Felgengröße 22,5 x 7,5; Mittenzentrierung.
+6-fach bereift, 275/70 R 22,5. Vorderachse: Goodyear Ultra Grip WTS City M+S mit verstärktem Seitenprofil oder vergleichbar. Hinterachse: Goodyear Ultra Grip WTD City M+S
+mit verstärktem Seitenprofil oder vergleichbar. Alle sechs Reifen sind Neureifen mit Ventilverlängerungen an den Zwillingsreifen.
+Schmutzfänger sollen hinter den Rädern angebracht sein.
+
+15
+
+HofBus GmbH
+
+B.2.16
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Niveauregulierung
+
+Fahrwerksregulierung über ein elektronisch gesteuertes Luftfederungssystem.
+B.2.17
+
+Lenkung
+
+Es muss eine elektrohydraulische Lenkung verbaut sein. Des Weiteren müssen Lenkungsdämpfer installiert sein.
+B.2.18
+
+Bodenrahmen
+
+Bodenrahmen aus Vierkantprofilen, Pressteilen und U-Profilen, an den korrosionsgefährdeten Stellen ausgewachst.
+Radkästen und Batterieraum aus rostfreiem Stahl oder gleichwertig.
+B.2.19
+
+Aufbau
+
+Zur Wärme- und Schallisolierung sind alle Zwischenräume mit Blockschaum zu isolieren.
+Rohre unterhalb Fensterbrüstung bis Bodengerippe mit Wachs ausgespritzt.
+Anbau einer Regenleiste im Bereich des Fahrerfensters und der Türen.
+Motorraum mit Blockschaum schallisoliert; Karosserieunterkante mit Korrosionsschutzlack versehen.
+Radausschnitte ohne Gummikotflügelblenden.
+Lackierung bleifrei.
+Reinweiß RAL 9010:
+Wagen-Nr. mittig über rechten Scheinwerfer, Farbe tiefschwarz RAL 9005, Ziffernhöhe
+80 mm.
+Mit dem Angebot ist ein maßstäblicher Lackierungsplan abzugeben.
+
+B.2.20
+
+Scheiben/Fenster
+
+Bugscheibe in Verbundsicherheitsglas mit Wärmeschutzfolie durchgehend. Keine Spiegelung des Innenraums bei eingeschalteter Beleuchtung.
+Scheibentönung komplett mit wärmedämmender grüner Verglasung.
+Fahrerschiebefenster mit von vorne nach hinten verschiebbarer Scheibe.
+Schilderkastenscheiben Bug Verbundsicherheitsglas, seitlich rechts und links sowie im
+Heck Einscheibensicherheitsglas.
+
+16
+
+HofBus GmbH
+
+B.2.21
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Stoßfänger
+
+Vorne und hinten dreigeteilt. Auffahrschutz entfällt.
+B.2.22
+
+Spiegel
+
+Beidseitig EG-Außenspiegel Fabr. Wilke oder gleichwertig, anklapp- und abnehmbar beheizt, elektrisch verstellbar.
+Stromversorgung für Spiegelhalter links und rechts über Elektroschnellverschluss.
+Einschaltdauer über Zeitschalter auf ca. 10 min. begrenzt
+Innenspiegel: Spiegel-Durchmesser 300mm an der Tür 2. Spiegel in Vorbau Mitte, der
+manuell oder elektrisch einstellbar sein muss.
+
+B.2.23
+
+Türen
+
+Die Türen müssen in Ausführung und Funktion § 35e Straßenverkehrszulassungsordnung entsprechen. Die Türbetätigungen erfolgen über Drucktaster mit roter Kontrollleuchte auf der Instrumententafel.
+Die Türe 1 soll als Innenschwenktür mit pneumatischem Antrieb verbaut sein. Sie soll
+zwei Flügel haben und ca. 1.380 mm breit sein. Außerdem sollen die beiden Türflügel
+nach Bedarf über einen Taster einzeln zu sperren sein. Der Verschluss soll über einen
+Außenvierkant (innen und außen) erfolgen können. Die Türe 1 soll über eine Fangplatte
+mit Führungsbolzen aus Metall geführt werden.
+Die Türe 2 soll als Schwenkschiebetür mit elektrischem Antrieb verbaut sein. Wie die
+Türe 1 soll die Türe 2 zweiflügelig sein und eine Breite von ca. 1.380 mm aufweisen. Außerdem soll die Türe 2 innen mit einem Vierkant verriegelt werden können.
+Zur Notentriegelung der Türen sind Nothähne außen für beide Türen anzubringen. Im
+Innenraum sind die Nothähne hinter einer Abdeckung, die verplombt sein muss, zu verbauen.
+Beide Flügel der Tür 1 mit Doppelverglasung grün getönt.
+An Tür 2 entfällt Haarnadel (Einstiegshilfe). Verglasung bei Tür 2: Einscheibensicherheitsglas, grau getönt.
+Türeinstiegsgriffe sind in der Farbe signalgelb auszuführen.
+
+17
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Beide Türen müssen eine Anfahrsperre aufweisen
+Eine Türautomatik an Tür 2 entfällt.
+Keine Öffnungen oder Schlitze im Boden zur Führung oder Betätigung der Türen.
+Keine optische oder akustische Vorwarnung beim Schließen der Türen.
+Die Reversierung der Bewegung beim Öffnen und Schließen bei einem Widerstand muss
+gewährleistet sein.
+Ein Türöffnungstaster (in der Form eines Kurzhub-Tasters) ist in der zusätzlichen türseitigen Klappe vorn zu verlegen.
+Ein Kinderwagentaster muss an der rechten Fahrzeugaußenseite verbaut sein. Die
+Rückstellung der Nothahnentriegelung erfolgt über einen Taster neben dem Fahrerarbeitsplatz (Anzeige im Display).
+B.2.24
+
+Einstiegshilfen
+
+Mechanische Rampe bei Tür 2. Lange Ausführung ca. 800 mm inklusive Anfahrsperre
+bei Tür 2, klappbar mit Lochplatte und Haken. Der Haken ist neben dem Fahrer leicht
+zugänglich zu befestigen. Ausführung nach Angabe des Auftraggebers.
+
+B.2.25
+
+Absenkanlage ("Kneeling-Funktion")
+
+Nur auf der Türseite ist eine Absenkanlage auszuführen. Die Absenkung wird manuell
+eingeleitet (über den „Totmanntaster“) und muss auch bei geöffneter Tür möglich sein.
+Eine Anhebung des Fahrzeuges erfolgt mit der zuletzt schließenden Tür.
+Bei Ausfall der Absenkanlage muss die Fahrtüchtigkeit des Fahrzeugs gewährleistet
+bleiben (Notschaltung für Werkstattpersonal auf Hauptschalttafel).
+Bei abgesenktem Fahrzeug muss die Haltestellenbremse wirken.
+
+B.2.26
+
+Sitzanordnung
+
+Sitzanordnung gemäß Bestuhlungsplan siehe Anlage 2.
+Klappsitze sind gemäß Bestuhlungsplan vorzusehen.
+Keine Podeste unter Sitzen.
+
+18
+
+HofBus GmbH
+
+B.2.27
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Sitzausführung
+
+Sitze in hellgrau oder gleichwertiger Art (Ausführung gemäß Fahrzeuglieferant) mit Antigraffitibeschichtung,
+Seitenwand befestigte Sitze zwischen den Achsen, Sitzbezug Fa. Schöpf Typ Atlantis,
+Dessin 47482, Farbe 378 oder gleichwertiger Art.
+
+B.2.28
+
+Haltestangen, Haltewunschtaster und Trennwände
+
+Haltestangen in gebogener Ausführung Farbe signalgelb RAL 1003 rilsaniert.
+Festlegung der Haltestangen und der Deckenhaltestangen bei Auftragsbesprechung.
+B.2.29
+
+Haltewunschtaster
+
+Haltewunschtaster anthrazit RAL 7016 oder ultramarinblau RAL 5002 mit roten Drucktasten an jeder Haltestange und an der Fahrerkabinenrückwand.
+Kinderwagenanmeldung Innentaster mit Symbol Kinderwagen vor Tür 2, bei manueller
+Türsteuerung; auf Fahrerdisplay als Kinderwagen erkennbar.
+Rollstuhltaster an den Seitenwänden im Bereich der beiden Sondernutzungsflächen,
+Symbol Rollstuhl auf Fahrerdisplay geschaltet. Alle Anzeigen feststehend nicht blinkend.
+
+B.2.30
+
+Trennwände
+
+Trennwandgestell Farbe anthrazit RAL 7016 rilsaniert. Die Trennwände-Oberfläche ist in
+Glas auszuführen und der Bestuhlungsbreite anzupassen. Es darf zu keiner Spiegelung
+in der Frontscheibe des Fahrzeuges kommen.
+B.2.31
+
+Seitenwände
+
+Seitenwandverkleidung Hartfaserplatten Fabrikat Süddekor oder gleichwertiger Art.
+Fenstersteg in grau, dunkelgrau.
+Fensterbrüstungsleiste in grau.
+Heckecken in grau.
+Kein verstärkter Seitenschutz.
+B.2.32
+
+Decke
+
+Deckenverkleidung mit Hartfaserplatten grau.
+19
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Dachmittelbahn aus Kunststoff unlackiert weiß.
+B.2.33
+
+Fußboden
+
+Fußbodenbelag Farbe aerograu/blau komplett gespitzter PVC-freier Fußbodenbelag in
+Zwei-Komponenten-PU-Technik oder gleichwertiger Art.
+Podestkanten in Aluminium
+Einstiegskanten Aluprofile gelb.
+Es darf keine Pfützenbildung im Fußbodenbereich entstehen (ein Wasserablauf ist zu
+ermöglichen).
+Im Türschwenkbereich kein farblich abgesetzter Fußbodenbelag.
+Der Boden im Durchgangsbereich zwischen Tür 1 und Tür 2 muss stufenlos, podestfrei
+und nahezu eben sein.
+Wagenboden aus wasserfest verleimtem Sperrholz, schalloptimiert verklebt, Unterseiten
+und Stöße speziell imprägniert, Fußboden im Heck bis inklusive Hinterachsradkästen
+schallisoliert.
+B.2.34
+
+Sondernutzungsflächen (Rollstuhl-/Kinderwagen-Abstellplätze)
+
+Die Sondernutzungsflächen sind gegenüber der Tür 2 und rechts neben dem Einstiegsbereich der Tür 2 einzurichten. Pro Sondernutzungsfläche ist ein Rollstuhldrucktaster und
+eine Sicherungsmöglichkeit für einen Rollstuhl vorzusehen.
+
+B.2.35
+
+Dachvouten, Dachkanäle
+
+Dachvouten sind in aerograu auszuführen.
+Dachkanallüftungsanlage: Ausführung mit thermostatisch geregelten Wärmetauschern
+und Gebläsen.
+Dachkanalklappen, hinter denen sich elektrische Einrichtungen befinden, müssen jeweils
+mit einem Zylinderschloss (gleichschließend) absperrbar sein.
+B.2.36
+
+Piktogramme
+
+Beschilderung und Beschriftung, Hinweisschilder und Piktogramme weitestgehend gemäß Typenempfehlung VDV. Anbringung der Schilder auf den Dachklappen.
+Schwerbehindertensitze gemäß EU-Richtlinie 2001/85/EG.
+
+20
+
+HofBus GmbH
+
+B.2.37
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Sonstiges
+
+Nothämmer müssen mit Stahlseilen gesichert sein.
+Europa-Einschubkasten ohne Hutze.
+Halterung für einen Geräteträger (19 Zoll Rahmen, Fabrikat INIT) im Nachrichtentechnischen Fach (Verschluss: Vorreiber) mit Auszugschienen für beigestellte IBIS Peripherie.
+An dem Fenstersteg über der Sondernutzungsfläche gegenüber der Tür 2 ist ein InfoKasten Farbe orange RAL 2002 mit der Aufschrift „Fahrgast-Info“ in Augenhöhe zu montieren.
+1 Kleiderhaken in Fahrerkabine.
+Gepäckablagen in der Farbe RAL 1003 auf den Radkästen der Vorderachse.
+Bugscheibenrollo an der linken Scheibenhälfte, Farbe grau, manuell betätigt.
+Sonnenblende an A-Säule neben Fahrer wenn notwendig.
+Fahrerfensterrollo perforiert, Farbe grau.
+Feuerlöscher Fabr. Minimax 6 PU 6I incl. Halterung hinter Klappe zum Mittelgang in Fahrerkabine.
+Es ist eine einheitliche Schließung nach Vorgabe des Auftraggebers einzubauen.
+
+B.2.38
+
+Fahrerplatz
+
+Es ist ein aktueller VDV-Arbeitsplatz vorzusehen.
+Sitz luftgefedert mit automatischer Gewichtseinstellung, drehbar und mit verstellbarer
+Lendenwirbelstütze, Fabrikat Isringhausen 6860/885 klimatisiert, Bedienteil rechts, „Intelligent Protection System“ oder gleichwertiger Art.
+Fahrerplatztür vorne an der Bugwand angeschlagen mit Aufreissschloß oder elektrischmagnetisch betätigt und Taschenfach.
+Unterbringung einer Fahrertasche, Größe ca. 440x385x200 mm an der Innenseite Fahrerkabinentür muss möglich sein.
+Das Sicherungsfach hinter dem Fahrersitz ist mit einem Vierkantschloss zu versehen.
+Warnsummer bei nicht eingelegtem Federspeicher und gleichzeitigem ausgeschaltetem
+Motor. Es sollen zwei Arten von Haltewunschanzeigen beim Fahrerplatz verbaut sein.
+Einmal soll der Haltewunsch (inklusive Rollstuhl) im Bereich des Displays angezeigt werden. Außerdem soll an der A-Säule eine dimmbare LED-Anzeige angebracht sein, die
+bei der Betätigung eines Haltewunsches in der Farbe rot leuchtet und nach dem Fahrgastwechsel wieder erlischt. Des Weiteren ist im unteren Bereich des Fahrerfensters ei21
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+ne Ablage zu installieren, die geeignet ist, einen DIN-A4-Fahrauftrag und Utensilien (wie
+z.B. den Geldbeutel des Fahrers) aufzunehmen.
+
+B.2.39
+
+Lenksäule
+
+Arretierung der Lenksäule pneumatisch per Taster lösbar. Lenksäulenverstellung nur bei
+eingelegter Haltestellen- oder Feststellbremse möglich. Lenkradschloss an Lenksäule.
+
+B.2.40
+
+Kasse/Fahrausweisdrucker
+
+Es wird ein Fahrscheindrucker EVENDPC2, Fabrikat INIT, auf der Fahrertüre vom Auftraggeber befestigt werden. Dahingehend ist die Fahrertüre mit einer integrierten Kasse
+auszuführen. Der elektrische Anschluss muss vorbereitet sein und eine IBIS-Fähigkeit
+muss vorhanden sein. Außerdem : Vorbereitung für Steuerung der Fahrtzielanzeige über
+den Fahrscheindrucker.
+
+B.2.41
+
+Heizung/Lüftung
+
+Allgemein
+Heizleitungen aus VPE (Wirsbo-Flex, oder gleichwertiger Art) und isoliert, im Heißbereich
+aus Messing. Sämtliche Heizleitungen isolieren. Rückschlagklappe im Heizungsrücklauf,
+Sparschaltung bei abgestelltem Motor.
+Fahrerraum
+Bugheizgerät: Fabrikat Dreiha oder gleichwertiger Art; Steuerung: Manuell.
+Das Frontheizgerät ist für Fahrerplatz, Bugbereich und Scheibenklardüsen manuell und
+wasserseitig stufenlos regelbar. Es kann auf Frisch- oder Umluft geschalten werden.
+Die Beheizung des Fahrerplatzes sollte über einen Luftschacht vor und hinter dem Fahrerplatz erfolgen.
+Luftausströmer links und rechts im Instrumententräger integriert.
+Lüftung/Heizung mit Fahrerarbeitsplatz-Klimatisierung
+Lüftung mit fremdkraftbetätigten Dachluken mit Schließautomatik nach dem Ausschalten
+der Zündung. Hinweise auf Einklemmgefahr an vorderer und hinterer Schließkante.
+Lüftung mit Klappfenstern (mindestens vier Stück; Anordnung nach Vorgabe des Auftraggebers) über den beiden hinteren und vorderen Seitenfenstern.
+22
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Eine thermostatisch geregelte Beheizung ist in der Mischbauweise, bestehend aus Konvektoren und Seitenwandheizer, vorzusehen. Konvektoren sind trittfest ausführen. Anschlüsse der Konvektorenheizung mit Schraubverschluss nicht gelötet. Endkappen der
+Konvektoren zusätzlich befestigen.
+Der Boden im Einstiegsbereich der Tür 1 muss mit Warmluft so beheizt werden können,
+dass auch bei extremen Minustemperaturen kein Schneematsch liegen bleibt.
+Die Wandheizgruppen sind mit den Warmwasserleitungen verschraubt. Heizleistung je
+Gerät ca. 4.200 kcal/h. Über Raumthermostat in 2 Stufen geschaltet.
+Wandheizgruppen und Bugheizgerät bei Motorstillstand vom Heizkreislauf getrennt.
+Wichtig: Es ist sicherzustellen, dass die Umwälzpumpe auch bei ausgeschalteter Heizung regelmäßig kurz anläuft.
+Als zwingende Voraussetzung für die Auftragsvergabe muss eine FahrerarbeitsplatzKlimaanlage verbaut sein.
+Zusatzheizung
+Kühlwasservorwärmgerät mit Warmwasserheizung, Fabr. Webasto Thermo (aktuelles
+Modell) mit zusätzlichem Absperrhahn für Vor- und Rücklauf ohne Zeitschaltuhr für
+Kühlwasservorwärmgerät. Eine kollektorlose Umwälzpumpe ist vorzusehen.
+B.2.42
+
+Fahrgastinformationen
+
+Außeninformationen
+Fahrtziel-, Linien und Streckenverlaufsanzeige LED, Fabrikat Bustec, wird beigestellt:
+
+
+
+
+
+
+(1x) RGB-LED-Anzeige 19x160/13 RGB: 1-32 Weiß: 33- Front 2030x385x43,
+MCP15p
+o Anschlüsse: TE MCP 15p sti,
+o mit integrierter Download-Unit.
+(1x) LED-Anzeige 19x120/10mm, SMD Weiß, 1300x250x45 mm.
+o Anschlüsse: AMP MCP 15pol sti.
+(2x) RGB-LED-Anzeige 19x32/10, Nummer, 450x250x40 mm.
+o Anschlüsse: AMP-MCP 15-polig.
+(1x) RGB-LED-Anzeige 19x32/10, Nummer, 450x250x40 mm.
+23
+
+HofBus GmbH
+
+
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+o Anschlüsse: AMP-MCP 15-polig.
+(1x) Kabelsatz für BT920.000.000 Länge=3 Meter, 2 x JPT10  JPT14 (IBISSternpunkt). IBIS nach VdV 300.
+
+Downloadunit mit USB-Zugang und LED Statusanzeige (IBIS Ladeknoten) komplett.
+Anordnung entsprechend Zeichnung 1.01 Teil B VDV 230.
+Drei-Kreis-Steuerung über Bordrechner, Fabrikat INIT. Verkabelung für IBIS-Steuerung.
+Beleuchtung mit Standlicht eingeschalten (nicht über Sparschaltung).
+Außenlautsprecher bei Tür 2 angeordnet.
+Inneninformation
+Einbau eines beigestellten TFT-Ultrawide-Bildschirms, 29 Zoll, der Firma Bustec. Nähere
+Informationen im Anhang 8.
+Fahrgastzählanlage
+IBIS-Verkabelung vom Sternpunkt zu den beiden Türen für den Einbau von Fahrgastzählgeräten, Fabrikat IRIS Typ IRMA MATRIX, durch die Firma INIT ist vorzusehen. Mit
+Ausschnitten in den Lagerplatten für Sensoren IRMA MATRIX mit Ethernet-Switch im
+Nachrichten-technischen Fach. Ausschnitte mit Abdeckungen.
+
+B.2.43
+
+Kraftstoffbehälter
+
+Kraftstoffanzeige auf Armaturentafel mit konkreter Restmengenangabe. Die Gelbfehlermeldung im Display soll erst bei einer Kraftstoffreserve von 10 % des Tankvolumens erscheinen.
+Tankvolumen: ca. 250 Liter Nutzinhalt.
+Kraftstofffilter beheizt oder wahlweise muss ein elektrisch beheizter Wasserabscheider
+vorhanden sein.
+
+B.2.44
+
+Luftpresser
+
+3-Zylinder Luftpresser, Fabrikat Wabco oder gleichwertiger Art.
+B.2.45
+
+Lufttrockner
+
+Beheizter Lufttrockner, Fabrikat Wabco oder gleichwertiger Art.
+24
+
+HofBus GmbH
+
+B.2.46
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Leitungen
+
+Leitungen im Heißbereich aus nichtrostendem Stahl.
+B.2.47
+
+Prüfanschlüsse
+
+Die Prüfanschlüsse müssen sich hinter der Außenklappe unter dem Fahrerseitenfenster
+befinden.
+Fremdluftanschluss (nach Druckregler) mit Anlasssperre in separatem Fach hinter Klappe zwischen Tür 1 und VA bzw. hinter Klappe abschließbar vor Tür 1 (Einbau und Ausführung nach Absprache).
+Reifenfüllanschluss im Motorraum. Versetzt im Motorraum, damit bei geschlossener
+Klappe der Anschluss nicht knickt.
+
+B.2.48
+
+Heizölbehälter
+
+Einbau eines Heizöltanks, Tankvolumen mindestens 50 Liter für Zusatzheizung. Anzeige
+des Volumens im Display oder über getrennte Anzeige. Der Tankverschluss muss auf
+der rechten Fahrzeugseite liegen.
+B.2.49
+
+Ad-Blue-Tank
+
+Wird auf Grund der Motorentechnik der Einsatz von Ad-Blue notwendig, so ist ein Tank
+von ca. 40 Litern einzubauen. Der Einfüllstutzen soll neben dem für den Kraftstofftank
+liegen. Anzeige des Volumens im Display oder über getrennte Anzeige.
+B.2.50
+
+Schmierung
+
+Eine Schmierung ist über Schmiernippel zu ermöglichen.
+
+B.2.51
+
+Fremdversorgung
+
+Der Türaußentaster sollte hinter einer abschließbaren separaten Klappe entweder zwischen Tür 1 und Vorderachse oder im Vorderbau einzubauen sein. Die entsprechende
+Lösung ist im Angebot zu fixieren. 1 Druckluftfüllanschluss vor Druckregler (Prüfung Abschaltdruck) und 1 Füllanschluss (7 bar) nach Druckregler mit Starsperre. Dabei ist ein
+
+25
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Anschluss im Bug (vor dem Druckregler ohne Anlasssperre) und einer im Heck vorzusehen. Eine externe Wasserversorgung entfällt.
+B.2.52
+
+Elektrische Anlage
+
+Starteranlage
+Startersteuerung mit Zündanlassschloss an der Lenksäule über ein Startsperrrelais wirkend. Startsperre der Motorklappe über Rollenschalter; Start-Stop-Taster im Motorraum.
+Batterien
+2 Batterien 12V, 225 Ah, Fabrikat Varta super Heavy Duty oder gleichwertiger Art.
+Einbau einer Batterieentlüftung.
+Absicherung der elektrischen Anlage über Sicherungsautomaten, Fabrikat ETA oder
+gleichwertig.
+Batterieschlitten mit Schnellverschlüssen rechts und links und 1 Haltegriff.
+Batterieladesteckdose („Nato“-Steckdose) in Batteriefach.
+Spannungswandler 24 auf 12 Volt für Funk in 19-Zoll-Trägerfach.
+Fahrtrichtungs- und Warnblinkanlage
+Schulbusbereitschaftsschaltung.
+Aktivierung über separaten Schalter und löschen über Blinkerstellung links.
+B.2.53
+
+Betriebsüberwachung
+
+Über VDV-Fahrerarbeitsplatz. Festlegung von Schalter bei Auftragsbesprechung.
+Einbau einer Diagnoseschnittstelle. Display umschaltbar, damit bei Prüfung des Bremsdruckes dieser dauerhaft sichtbar ist.
+Einbau eines Unfalldatenspeichers.
+B.2.54
+
+Fahrerfenster
+
+Fahrerfensterheizung: 1 Feld elektrisch beheizbar; Einschaltdauer über Zeitschalter auf
+ca. 10 Min. begrenzt gemäß VdV.
+
+26
+
+HofBus GmbH
+
+B.2.55
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Beleuchtung
+
+Scheinwerfer
+Mit H1, Fabrikat Hella oder gleichwertiger Art.
+Abblendschalter im Lenkstockhebel.
+Nebelscheinwerfer Halogen in Stoßfänger integriert.
+Tagfahrlicht in LED-Technik.
+Zahltisch- und Türbereich-Beleuchtung
+Einstieg-, Zahltisch- und Fahrerbereichsbeleuchtung möglichst mit Halogenleuchten.
+Innenraumbeleuchtung
+Halogenleuchten an der Mitteldecke schaltbar in 2 Gruppen, Lichtabsenkung aller Fahrgastleuchten in 2 Gruppen; Sparschaltung vom Fahrer aus auf I-Tafel bedienbar; eine
+andere vom Hersteller favorisierte Lösung ist im Angebot zu fixieren.
+Die Festlegung der Schaltung erfolgt bei einer Baubesprechung
+B.2.56
+
+Fahrtschreiber
+
+Digitaler Tachograph, Fabrikat VDO oder gleichwertig, mit B7/B8-Kontakt, IBIS-fähig,
+Grenzwertgeber "Stillstand", automatische Pausenschaltung muss vorhanden sein.
+
+B.2.57
+
+Bordinformationssystem
+
+Der Leitungssatz für EBM inklusive der Ethernet-Leitung an 50-polige DSUB-Steckdose
+ist in der Fahrertüre zu verlegen.
+IBIS-fähige-Verkabelung mit Sternpunktverteiler.
+
+B.2.58
+
+Funkanlage
+
+Die elektrischen Voraussetzungen für den Einbau der beigestellten Funkanlage des Fabrikats Kenwood TK 7189 inkl. Halterung, Funkkabel und Handbedienteil müssen gegeben sein. Montage neben 19"-Rahmen.
+Einbau von 2 beigestellten Funkantennen Fabr. Kathrein Typ Nr. K 503921 und einer
+Multiband-Antenne (800-2500 MHZ; Fabrikat Mobile Marks) für GPS, GSM/GPRS, mit
+Kabelsatz (wird beigestellt) mittig auf dem Dach im Bugbereich. Zugangsmöglichkeit vom
+27
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Innenraum muss gewährleistet sein. Die Antennenleitung ist bis ins Nachrichtentechnische Fach zur Rückseite des 19-Zoll-Trägers zu verlegen.
+Montage Funklautsprecher im Dachquerkanal, über Fahrerplatz.
+Mikrofonumschalter Innen- und Außendurchsage neben dem Fahrerplatz, unter dem Seitenfenster eingebaut (Bedienung in Lenkposition möglich).
+
+B.2.59
+
+Ausrufanlage
+
+Schwanenhalsmikrofon links am Eurokasten hängend montiert.
+Steuerung der Ausrufanlage über Fußschalter, Fabrikat Bosch oder vergleichbar, in der
+Ausführung eines Nähmaschinenschalters zu verbauen.
+Montage auf Pedalboden möglichst nahe an der linken Seite der Lenksäule.
+B.2.60
+
+Vollautomatische Fahrgastinformation einschließlich Beleuchtung
+
+IBIS-Verkabelung vorsehen.
+Streckenverlauf-Innenanzeige links entfällt.
+Zielschildbeleuchtung nicht über Sparschaltung legen.
+
+B.2.61
+
+Haltestelleninnenanzeige
+
+Einschlagglocke Abfahrt entfällt.
+
+B.2.62
+
+Entwerter
+
+IBIS- Verkabelung für 2 Entwerter ist vorzusehen.
+Installation der beigestellten Grundplatten für Entwerter Fabr. Elgeba.
+Kabelaustritt in 1.000 mm über Fußboden 90 Grad zur Fahrzeugmitte.
+Bei Tür 1 Kabel in Haltestange rechts, bei Tür II in Haltestange gegenüber Tür II hinter
+Stehperron.
+Entwerterabschaltung bei Motorstart.
+
+B.2.63
+
+19-Zoll-Baugruppenträger
+
+19-Zoll-Einschub auf Teleskopschienen (Anteil Fahrzeuglieferant).
+Montage eines Spannungswandlers für das Funkgerät im NT-Fach.
+
+28
+
+HofBus GmbH
+
+B.2.64
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Vorbauklappe (unterhalb der Scheibenwischer)
+
+Die Vorbauklappe Mitte muss über ein zweites Fangband gesichert sein.
+
+B.3 Sonstige Anforderungen an die Bieter und deren Fahrzeuge
+Herstellerinformationen
+
+Sämtliche Unterlagen und Beschriftungen müssen in deutscher Sprache verfasst sein.
+Alle Maßeinheiten müssen den DIN/ISO-Richtlinien entsprechen.
+Pneumatik- und Stromlaufpläne sind dem jeweiligen IST-Zustand der Omnibusse entsprechend zu erstellen und den einzelnen Fahrzeugen beizulegen.
+Das Angebot muss bei Abgabe eine Liste aller Spezialwerkzeuge, Mess- und Prüfgeräte
+enthalten, die für die Instandhaltung und Wartung der Fahrzeuge benötigt werden. Die
+dafür notwendige Software ist bei der Auslieferung der Fahrzeuge mitzuliefern.
+Computerlesbare Unterlagen (aktueller Stand) über Ersatzteile und Wartungsvorschriften
+sind dem Auftraggeber mit Auslieferung der Fahrzeuge zu übergeben.
+Änderungen im Servicebereich sind während einer Nutzungsdauer von mindestens 12
+Jahren mitzuteilen.
+
+Anleitung für die Instandhaltung
+
+Der Fahrzeughersteller übernimmt die Schulung (in Deutsch gehalten) des technischen
+Personals des Auftraggebers, und berät diesen bei der Instandhaltung und Wartung der
+gelieferten Fahrzeuge durch mindestens halbjährliche Besuche eines deutsch sprechenden Service-Technikers. Die Angabe der zuständigen Serviceniederlassung und des entsprechenden Ansprechpartners ist bei Angebotsabgabe erforderlich.
+Bei Fahrzeugmängeln, die während der Garantiezeit auftreten oder von der Werkstatt
+des Auftraggebers nicht beseitigt werden können, muss eine kurzfristige Reparatur durch
+eine vom Fahrzeughersteller beauftragte Fachwerkstatt gewährleistet sein. Im Angebot
+muss der Hersteller genau die zuständige Fachwerkstatt benennen. Der Auftragnehmer
+verpflichtet sich bei Fahrzeugausfällen, die von ihm zu vertreten sind, und die mehr als
+fünf Tage andauern, ein für den Auftraggeber zum Einsatz im Linienverkehr geeignetes
+Fahrzeug kostenlos bereitzustellen bzw. ist der Auftraggeber berechtigt, den Nutzungs-
+
+29
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+ausfall je Stillstandstag (z.Zt. 170,00 Euro zzgl. MWST) zu fordern.
+
+Zulässige Außen- und Innengeräusche
+Die auftretenden Außen- und Innen-Geräusche dürfen die vorgeschriebenen Grenzwerte
+nicht überschreiten. Des Weiteren dürfen Außen- und Innen-Geräusche als nicht störend
+empfunden werden.
+Qualität, Korrosionsschutz, Aggregatetausch
+Die Beschaffung von Ersatzteilen darf nicht länger als einen Werktag dauern. Verschleißteile müssen innerhalb von 24 Stunden verfügbar sein. Die Anlieferung muss frei Haus
+erfolgen. Werden die Termine wegen einer Nicht-Verfügbarkeit der Teile nicht eingehalten, so behält sich der Auftraggeber vor, Ausfallzeiten geltend zu machen.
+Optimierung des Kraftstoffverbrauchs
+
+Innerhalb eines halben Jahres nach den jeweiligen Fahrzeugauslieferungen ist durch den
+Fahrzeughersteller bzw. durch ein von ihm beauftragtes Unternehmen eine entsprechende Getriebeprogramm-Abstimmung an die lokalen Gegebenheiten beim Auftraggeber
+vorzunehmen.
+
+Recycling
+
+Der Auftragnehmer muss bei der Abgabe des Angebots dem Auftraggeber mitteilen, ob
+und zu welchen Bedingungen (Rücknahmepreis) er die Neufahrzeuge nach einer
+Laufzeit von 10 bzw. 12 Jahren wieder zurücknehmen wird.
+
+30
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Anlage 1: Anforderungskatalog
+Sollte der Platz in den vorgegebenen Zeilen und Spalten der nachfolgenden Tabelle nicht
+ausreichen, so können Ergänzungen auf einem separaten Blatt eingereicht werden.
+Anforderung
+
+komplett
+erfüllt
+
+A.9 Abgabe aller Angebotsunterlagen (gemäß Vorgaben des Kapitels A.9 und der Ausschreibungsunterlagen)
+
+A.11 Wettbewerbskonformes
+Verhalten
+
+B.1 Einhaltung von Rechtsnormen und Fahrzeugstandards
+
+B.2.1 Fahrzeugabmessungen
+und – ausführung
+
+B.2.2 Fahrzeugantrieb / Antriebsaggregat
+
+31
+
+teilweise
+erfüllt
+
+Bemerkung
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+B.2.2 Mild-Hybrid-Antrieb
+
+B.2.3 Getriebe
+
+B.2.4 Anordnung des HauptAntriebsaggregates und des Getriebes
+
+B.2.5 Wärme- und Geräuschisolation
+
+B.2.6 Kühlung
+
+B.2.7 Motorölversorgung
+
+32
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+B.2.8 Fahrwerk Allgemein
+
+B.2.9 Achsen
+
+B.2.10 Betriebsbremsanlage
+
+B.2.11 Feststell- und Hilfsbremsanlage
+
+B.2.12 Haltestellenbremse
+
+B.2.13 Dauerbremse
+
+33
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+B.2.14 ABS/ASR/EBS
+
+B.2.15 Räder
+
+B.2.16 Niveauregulierung
+
+B.2.17 Lenkung
+
+B.2.18 Bodenrahmen
+
+B.2.19 Aufbau
+
+34
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+B.2.20 Scheiben / Fenster
+
+B.2.21 Stoßfänger
+
+B.2.22 Spiegel
+
+B.2.23 Türen
+
+B.2.24 Einstiegshilfen
+
+B.2.25 Absenkanlage (Kneeling)
+
+35
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+B.2.26 Sitzanordnung
+
+B.2.27 Sitzausführung
+
+B.2.28 Haltestangen, Haltewunschtaster und Trennwände
+
+B.2.29 Haltewunschtaster
+
+B.2.30 Trennwände
+
+B.2.31 Seitenwände
+
+36
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+B.2.32 Decke
+
+B.2.33 Fußboden
+
+B.2.34 Sondernutzungsflächen
+
+B.2.35 Dachvouten, Dachkanäle
+
+B.2.36 Piktogramme
+
+B.2.37 Sonstiges
+
+37
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+B.2.38 Fahrerplatz
+
+B.2.39 Lenksäule
+
+B.2.40 Kasse / Fahrausweisdrucker
+
+B.2.41 Heizung / Lüftung
+
+B.2.41 FahrerarbeitsplatzKlimaanlage
+
+B.2.42 Fahrgastinformation
+
+38
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+B.2.43 Kraftstoffbehälter
+
+B.2.44 Luftpresser
+
+B.2.45 Lufttrockner
+
+B.2.46 Leitungen
+
+B.2.47 Prüfanschlüsse
+
+B.2.48 Heizölbehälter
+
+39
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+B.2.49 Ad-Blue-Tank
+
+B.2.50 Schmierung
+
+B.2.51 Fremdversorgung
+
+B.2.52 Elektrische Anlage
+
+B.2.53 Betriebsüberwachung
+
+B.2.54 Fahrerfenster
+
+40
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+B.2.55 Beleuchtung
+
+B.2.56 Fahrtschreiber
+
+B.2.57 Bordinformationssystem
+
+B.2.58 Funkanlage
+
+B.2.59 Ausrufanlage
+
+B.2.60 Vollautomatische Fahrgastinformation einschließlich
+Beleuchtung
+
+41
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+B.2.61 Haltestelleninnenanzeige
+
+B.2.62 Entwerter
+
+B.2.63 19-Zoll-Baugruppenträger
+
+B.2.64 Vorbauklappe
+
+B.3 Sonstige Anforderungen an
+die Bieter und deren Fahrzeuge
+
+Ausgefüllte Anlage 6 - Gewährleistungsregelungen
+
+42
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+Anlage 2: Bestuhlungsplan
+
+Quelle: EvoBus GmbH.
+
+43
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Anlage 3: Beispielhafte Bilder der Fahrzeugabmessungen und –
+ausführung
+
+44
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+Anlage 4: Merkblatt zur Busförderung
+
+45
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+46
+
+23.04.18
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Anlage 5: zu ersetzende Altfahrzeuge
+Folgende Altfahrzeuge sollen durch die Neufahrzeuge in 2018 ersetzt werden:
+2018
+3
+
+KOM Citaro O530
+Baujahr 2005 bis 2006
+Erstzulassung: April und Juni 2005; August 2006
+geschätzter Kilometerstand.
+ca. 500.000 bis 550.000 km
+
+1
+
+KOM Citaro O530
+(wenn weitere Fördermittel in 2018 gewährt werden)
+Baujahr 2006
+Erstzulassung: August 2006
+Geschätzter Kilometerstand:
+ca. 500.000 bis 550.000 km
+
+47
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Anlage 6: Gewährleistungsregelung für Linienbusse
+1.
+
+Wartungsarbeiten
+
+Es muss dem Auftraggeber gestattet sein, dass die vom Auftragnehmer vorgeschriebenen Prüf- und Wartungsarbeiten entsprechend den Wartungsempfehlungen für Nutzfahrzeuge im Umfang der Prüfliste durch geschultes Personal durchgeführt werden.
+Ausgenommen ist hiervon ein eventuell notwendiger Einfahrdienst nach einer bestimmten Kilometerleistung, der kostenmäßig vom Auftragnehmer zu leisten ist.
+Der Auftraggeber verpflichtet sich, die in den Serviceinformationen bekanntgegebenen
+Empfehlungen umgehend in die betreffenden Omnibusse einfließen zu lassen.
+2.
+
+Gewährleistungen
+
+Gewährleistung allgemein:
+Für den gesamten Omnibus, mit Ausnahme der nachfolgend aufgeführten Punkte,
+beträgt die Gewährleistung 24 Monate ohne Kilometer-Begrenzung.
+Korrosionsschäden, Riss- und Bruchsicherheit, Leitungen und Verbindungen:
+Falls sich während einer Einsatzzeit von 12 Jahren wesentliche Korrosionsschäden an
+der Außenverblechung oder am Bodengerippe einschließlich Verrohrung zeigen, welche
+eine aufwendige Grundinstandsetzung erfordern, werden diese Schäden, soweit sie nicht
+durch Fremdverschulden oder Wartungsmängel auftraten, nach vorheriger gemeinsamer
+Abstimmung über den Umfang durch den Auftragnehmer beseitigt.
+Festgestellte Mängel werden dem Auftragnehmer unverzüglich gemeldet. Voraussetzung
+ist jedoch, dass die Wartung und Pflege gemäß Serviceempfehlungen über Nachbehandlung von Korrosionsschutz durchgeführt worden sind.
+In die nachfolgende Tabelle hat jeder Bieter die von ihm garantierte Gewährleistung auf
+die genannten Bauteile und die Ölwechselintervalle (nach Art des Öls) einzutragen und
+zu bestätigen:
+[Sollte der Platz in den vorgegebenen Zeilen und Spalten der nachfolgenden Tabelle nicht ausreichen, so können Ergänzungen auf einem separaten Blatt eingereicht
+werden]
+
+48
+
+HofBus GmbH
+
+Bauteil
+
+Lieferauftrag KOM 2018
+
+Garantierte Gewährleistung
+vom Hersteller /
+Wechselintervalle
+
+Diesel-Motor und angetriebene Achse
+
+Getriebe
+
+Lenkung
+
+Fahrwerk, Bodengruppe,
+Aufbau
+
+Gelenkwellen
+
+Keilriemen
+
+Bremsanlage
+
+49
+
+23.04.18
+
+Optionale, ergänzende
+Gewährleistungsregelung
+(mit Preisangabe)
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Ölwechsel
+
+Ersatzteile:
+Ersatzteile sind nach Auslieferung der Fahrzeuge 15 Jahre lieferbar. Eine kostenfreie
+Anlieferung der Teile beim Auftraggeber innerhalb 24 Stunden wird gewährleistet.
+
+Lebenszyklus-Kosten (LCC)
+Die in der VDV Mitteilung 2315 Mai 2003 enthaltenen Anlagen 1 und 3 sind mit den entsprechenden Zahlen auszufüllen und dem Angebot beizulegen.
+
+50
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Anlage 7: Vergabekriterien
+
+1
+
+Vergabekriterien
+
+Gewichtung
+
+Konformität und Kompatibilität zum vorhandenen Fuhrpark,
+
+20%
+
+den Betriebseinrichtungen, der bestehenden Lagerhaltung
+an Ersatzteilen, Sonderwerkzeugen, Prüfgeräten sowie
+Ausbildungsstand und Ausbildungsbedarf des Fach- und
+Fahrpersonals
+2
+
+Betriebskosten während der Nutzungszeit (12 Jahre/600
+
+20%
+
+TKM) unter den besonderen Betriebsbedingungen der HofBus GmbH sowie Rentabilitätsgesichtspunkte
+3
+
+Ersatzteilwesen, sowie deren längerfristige Sicherstellung
+
+20%
+
+(24-h-Liefergarantie, Versorgungssicherheit über einen Zeitraum von mindestens 18 Jahren nach Auslieferung des
+Fahrzeuges, etc.); Ersatzteilversorgung Entfernung zur
+nächsten Service-Niederlassung vom Betriebshof des Verkehrsbetriebes
+4
+
+Restwert der Fahrzeuge nach Ablauf der Nutzungszeit so-
+
+20%
+
+wie Bereitschaft zur Rücknahme der gebrauchten Omnibusse
+5
+
+Kaufpreis und Einhaltung der Lieferfrist
+
+5%
+
+6
+
+Kundendienstsystem und Einrichtungen für schnelle Hilfe
+
+5%
+
+vor Ort (24-h-Service) sowie Schulungsmöglichkeiten für
+Kunden
+7
+
+Erfüllungsgrad bei der Einhaltung der technischen Vorgaben 5%
+laut Lastenheft der HofBus GmbH
+
+8
+
+Energieverbrauch und Umweltauswirkungen gemäß §59 der
+Sektorenverordnung
+
+51
+
+5%
+
+HofBus GmbH
+
+Lieferauftrag KOM 2018
+
+23.04.18
+
+Anlage 8: Informationen zum beigestellten 29-Zoll-TFT-Bildschirm
+
+52
+
+

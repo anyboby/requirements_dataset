@@ -1,0 +1,2 @@
+Für jeden Patienten ist ein eindeutiger Schlüssel
+einmalig zu vergeben.

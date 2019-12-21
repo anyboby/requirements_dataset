@@ -1,0 +1,7 @@
+Die Eingabeparameter werden in einer separaten Liste
+angehangen. Jedes Feld soll ein Tooltip mit wichtigen Informationen, wie zum Beispiel,
+was eingegeben werden darf, bekommen. Für einige Felder muss eine
+Plausibilitätsprüfung festgelegt werden, um Fehler, wie zum Beispiel “Zweittermin liegt
+vor dem Ersttermin“ vorzubeugen. Der Nutzer soll darauf aufmerksam gemacht werden,
+wenn bestimmte Werte nicht stimmen. Ein Datensatz darf erst abgeschlossen werden,
+wenn alle Pflichtfelder ausgefüllt sind.

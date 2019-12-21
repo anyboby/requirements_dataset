@@ -1,0 +1,2 @@
+Es ist ein RJ45 Anschluss vorzusehen um über einen, von Hans Adler oHG zur Verfügung gestellten
+Internetzugang, Fernwartungen durchzuführen.

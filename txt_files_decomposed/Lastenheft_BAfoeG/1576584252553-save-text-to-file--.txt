@@ -1,0 +1,2 @@
+Die Software muss Präsentations- und Anwendungslogik in unterschiedliche Architekturschichten logisch oder physisch trennen. Bei physischer Trennung der Schichten soll ein
+Kommunikationsprotokoll, das dem aktuellen Stand der Technik entspricht (beispielsweise TCP/IP) verwendet werden. Der Softwareanbieter hat im Pflichtenheft die benötigte Bandbreite sowie die verwendeten Kommunikationsprotokolle zwischen den Schichten zu beschreiben.

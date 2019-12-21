@@ -1,0 +1,7 @@
+Soweit
+Angemessenheit und Wirksamkeit der Segregation nicht mit hinreichender Sicherheit beurteilt
+werden können (z. B. aufgrund einer komplexen
+Implementierung), kann der Nachweis auch über
+Prüfungsergebnisse sachverständiger Dritter
+erfolgen (z. B. Penetrationstests zur Validierung
+des Konzepts).

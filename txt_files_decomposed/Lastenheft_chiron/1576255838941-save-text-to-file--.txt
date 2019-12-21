@@ -1,0 +1,9 @@
+Folgende Harting Komponenten sind für die Schnittstelle vorgesehen:
+n 24-poliges Anbaugehäuse am Bearbeitungszentrum:
+Harting Serie 24B Nr. 09 30 024 0301 (Hardwaresignale)
+n 24-poliges Gehäuseoberteil für Verbindungsleitung:
+Harting Serie 24B Nr. 19 30 024 152 (Hardwaresignale)
+n 16-poliges Anbaugehäuse am Bearbeitungszentrum:
+Harting Serie 16B Nr. 09 30 016 0301 (Bussignale)
+n 16-poliges Durchführungsgehäuse für Verbindungsleitung:
+Harting Serie 16B Nr. 09 30 016 0408 (Bussignale)

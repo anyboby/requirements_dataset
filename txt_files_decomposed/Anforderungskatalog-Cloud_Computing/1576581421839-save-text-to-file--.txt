@@ -1,0 +1,10 @@
+Prüfungen und Beurteilungen von Prozessen,
+IT-Systemen und IT-Komponenten, soweit diese
+ganz oder teilweise im Verantwortungsbereich des
+Cloud-Anbieters liegen und für die Entwicklung
+oder den Betrieb des Cloud-Dienstes relevant
+sind, werden mindestens jährlich durch unabhängige Dritte (z. B. Wirtschaftsprüfer) durchgeführt, um Nichtkonformitäten mit rechtlichen,
+regulativen und gesetzlich vorgeschriebenen
+Anforderungen zu identifizieren. Die identifizierten Abweichungen werden priorisiert und in
+Abhängigkeit ihrer Kritikalität werden Maßnahmen zur Behebung zeitnah definiert, nachverfolgt
+und umgesetzt.

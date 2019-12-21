@@ -1,0 +1,8 @@
+Lokalkoordinatoren dürfen erst nach Prüfung des Checks einen Gutschein erstellen.
+Das Registerblatt soll um ein internes Feld ergänzt werden, in dem die Standorte
+Bemerkungen erfassen können, wie zum Beispiel: Kunde erhält zusätzlichen lokalen KGGutschein im Wert von xyz Euro.
+In der aktuellen Datenbank wird das Alter des Kühlgerätes erfasst. Ist ein Kühlgerät zum
+aktuellen Zeitpunkt nicht zum Tausch berechtigt, wird der Check im Status
+„Abgeschlossen“ beendet. Meldet sich ein Haushalt zu einem späteren Zeitpunkt um das
+Kühlgerät zu tauschen, muss das komplette Register 11 gelöscht werden um das Gerät
+nochmal mit dem neuen Alter zu erfassen, da die Datenbank das Alter nicht hochrechnet.

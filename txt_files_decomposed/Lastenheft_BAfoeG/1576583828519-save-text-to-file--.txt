@@ -1,0 +1,3 @@
+Nach der Abnahme der korrekten Berechnungsergebnisse aus den Testläufen wird die
+Softwareaktualisierung in das Produktivsystem übernommen. Parallel dazu muss eine
+entsprechende Information für die Sachbearbeiter in den Studentenwerken und kommunalen Ämtern für Ausbildungsförderung durch den Softwareanbieter erstellt werden.

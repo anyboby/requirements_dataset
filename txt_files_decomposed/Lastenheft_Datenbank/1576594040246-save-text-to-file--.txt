@@ -1,0 +1,5 @@
+Zur Unterstützung der Nutzer soll ein Hilfebereich mit Suchfunktion aufgebaut werden
+(FAQ). Hier können die Schulungsunterlagen hinterlegt werden. In den Unterlagen sollte
+es möglich sein, nach Wörtern zu suchen. Jede Benutzergruppe sollte eine eigene
+Hilfefunktion bekommen. Optional soll es möglich sein, aus der Datenbank einen
+Screenshot zu erstellen und an die hinterlegte E-Mail Adresse zu senden.

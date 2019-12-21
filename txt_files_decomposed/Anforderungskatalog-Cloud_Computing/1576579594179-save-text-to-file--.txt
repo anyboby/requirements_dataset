@@ -1,0 +1,16 @@
+Leitlinien werden versioniert
+und von der Unternehmensleitung des Cloud-Anbieters freigegeben.
+Die Richtlinien und Anweisungen beschreiben
+mindestens die folgenden Aspekte:
+» Ziele,
+» Geltungsbereiche,
+» Rollen und Verantwortlichkeiten, einschließlich Anforderungen an die Qualifikation
+des Personals und das Einrichten von
+Vertretungsregelungen,
+» die Koordination unterschiedlicher
+Unternehmensbereiche,
+» Sicherheitsarchitektur und -maßnahmen zum
+Schutz von Daten, IT-Anwendungen und IT-Infrastrukturen, die durch den Cloud-Anbieter
+oder von Dritten verwaltet werden sowie
+» Maßnahmen zur Einhaltung rechtlicher und
+regulatorischer Anforderungen (Compliance).

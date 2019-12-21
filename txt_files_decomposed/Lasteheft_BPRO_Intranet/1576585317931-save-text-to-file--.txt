@@ -1,0 +1,14 @@
+Elektroanschluss:
+400V/230V nach DIN EN 60038 / DIN VDE 0100 ff
+Steuerspannung:
+230V AC / 24V DC
+Phasenfolge:
+L1 – L2 – L3 (rechtsläufiges Drehfeld)
+Hauptstrom
+Schwarz
+Steuerstrom AC
+Rot
+Steuerstrom DC
+Blau
+Fremdstromkreis
+violett oder orange

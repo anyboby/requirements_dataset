@@ -1,0 +1,4 @@
+Der Cloud-Anbieter macht in seiner Systembeschreibung nachvollziehbare und transparente
+Angaben zum Cloud-Dienst, die es einem sachverständigen Dritten erlauben, die grundsätzliche
+Eignung des Cloud-Dienstes für die gewünschte
+Anwendung zu beurteilen.

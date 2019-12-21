@@ -1,0 +1,7 @@
+Die Daten des Kühlgerätes/ der
+Kühlgeräte sollen automatisch im
+Reiter 10 eingetragen werden. Der
+Nutzer soll vorher gefragt werden,
+ob er dies möchte. Der Nutzer soll
+weiterhin die Möglichkeit haben die
+Daten im Reiter 10 anzupassen.

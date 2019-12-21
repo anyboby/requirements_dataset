@@ -1,0 +1,8 @@
+Die IT-Systeme, welche der Cloud-Anbieter für die
+Entwicklung und Erbringung des Cloud-Dienstes verwendet, werden mindestens monatlich
+automatisiert auf bekannte Schwachstellen
+(Vulnerabilities) geprüft. Im Falle von Abweichungen zu den erwarteten Konfigurationen (u. a.
+dem erwarteten Patch-Level) werden die Gründe
+hierzu zeitnah analysiert und die Abweichungen
+behoben oder gemäß des Ausnahme-Prozesses
+dokumentiert (vgl. SA-03).

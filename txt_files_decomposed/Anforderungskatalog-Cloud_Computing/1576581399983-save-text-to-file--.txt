@@ -1,0 +1,6 @@
+Unabhängige Überprüfungen und Beurteilungen
+von Systemen oder Komponenten die zur Erbringung der Cloud-Dienste beitragen, sind vom
+Cloud-Anbieter so geplant, dass die folgenden
+Anforderungen erfüllt werden:
+» Es erfolgt ausschließlich lesender Zugriff auf
+Software und Daten.

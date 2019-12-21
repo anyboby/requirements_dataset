@@ -1,0 +1,2 @@
+ Es dürfen nur halogenfreie und flammwidrige Leitungen und Isolierungen nach IEC 60332.1
+eingesetzt werden.

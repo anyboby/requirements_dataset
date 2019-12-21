@@ -1,0 +1,4 @@
+Die Produktgruppen der LED-Lampen werden durch die Angabe eines Lumenbereichs
+unterschieden. Es soll eine Tabelle hinterlegt werden, die den Vergleich der
+verschiedenen Leuchtmittel anzeigt. Hierfür sollten die gängigen Leuchtmittel angezeigt
+werden. Die Grafiken sollen schließbar sein.

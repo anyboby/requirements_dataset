@@ -1,0 +1,2 @@
+ In Eishäusern, TK-Lägern und in Froster- bzw. Kühlzellen sind kältefeste Leitungen zu verwenden,
+die bei Temperaturen bis -30°C beweglich sein müssen.

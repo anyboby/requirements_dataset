@@ -1,0 +1,6 @@
+Neben dem Dieselmotor muss das Fahrzeug folgende alternative Antriebstechnologie
+besitzen:
+Die alternative Antriebstechnologie, die in Form eines Mild-Hybrid-Antriebs verbaut sein
+muss, unterstützt den Dieselmotor bei höheren Drehzahlen beziehungsweise bei verstärkter Leistungsabfrage des Motors, beispielsweise beim Anfahren. Eine Fahrt ohne
+Einsatz des Dieselmotors und somit rein durch den Hybrid-Antrieb darf nicht gegeben
+sein.

@@ -1,0 +1,5 @@
+Für die Verordnungssoftware sind regelmäßig aktualisierte Arzneimittelstammdaten
+bereitzustellen. Über regelmäßige Updates ist zu gewährleisten, dass sämtliche
+Arzneimittelstammdaten auf dem zum Zeitpunkt des Updates aktuellen Stand der
+veröffentlichten Angaben der pharmazeutischen Unternehmer nach § 131 Abs. 4 SGB V
+dargestellt sind.

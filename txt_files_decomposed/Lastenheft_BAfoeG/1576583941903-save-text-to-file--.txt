@@ -1,0 +1,2 @@
+Die Software muss das anzurechnende Einkommen des Antragstellers, des Ehegatten,
+der Eltern, der Kinder und der sonstigen Unterhaltsberechtigten inklusive aller Nebenrechnungen ermitteln können. Außerdem muss die Berechnung des Vermögens des Antragstellers möglich sein.

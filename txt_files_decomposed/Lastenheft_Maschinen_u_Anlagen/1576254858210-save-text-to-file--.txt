@@ -1,0 +1,3 @@
+ Alle produktberührenden Maschinenteile und eingesetzte Werkstoffe müssen glatte
+Oberflächen besitzen und eine Oberflächenbeschaffenheit von Ra ≤ 0,8 µm aufweisen.
+Gesamtoberfläche bei Edelstahlteilen muss gebeizt und passiviert werden.

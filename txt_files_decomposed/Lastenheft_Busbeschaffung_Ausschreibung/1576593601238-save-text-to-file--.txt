@@ -1,0 +1,1 @@
+Pneumatik- und Stromlaufpläne sind dem jeweiligen IST-Zustand der Omnibusse entsprechend zu erstellen und den einzelnen Fahrzeugen beizulegen.

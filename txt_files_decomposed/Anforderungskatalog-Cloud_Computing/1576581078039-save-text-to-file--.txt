@@ -1,0 +1,6 @@
+Zielsetzung: sicherstellen des schutzes
+von Informationen auf die Dienstleister
+bzw. lieferanten des Cloud-Anbieters
+(unterauftragnehmer) zugreifen können
+sowie überwachung der vereinbarten
+leistungen und sicherheitsanforderungen.

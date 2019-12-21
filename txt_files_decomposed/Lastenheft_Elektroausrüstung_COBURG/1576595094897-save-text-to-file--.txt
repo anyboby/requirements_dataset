@@ -1,0 +1,2 @@
+Drehstromasynchronmotoren sind nach IEC 60038 mit einer Spannungstoleranz von
++/-10 % auszulegen.

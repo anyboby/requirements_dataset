@@ -1,0 +1,2 @@
+Für die Gesamtanlage ist ein zentraler Übergabepunkt für die Versorgungsleitungen (Gas,
+Druckluft, Vakuum, Wasser, Strom, Datenleitung) zu schaffen.

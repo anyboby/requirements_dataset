@@ -1,0 +1,5 @@
+Von der Sicherheitsleitlinie abgeleitete Richtlinien
+und Anweisungen zur Informationssicherheit
+oder verwandter Themen sind nach einer einheitlichen Struktur dokumentiert. Sie werden sachund bedarfsgerecht an alle internen und externen
+Mitarbeiter des Cloud-Anbieters kommuniziert
+und bereitgestellt.

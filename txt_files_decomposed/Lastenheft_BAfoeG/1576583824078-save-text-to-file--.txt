@@ -1,0 +1,2 @@
+Der Test wird zunächst beim Betreiber der BAföG-Software in einer geeigneten Testumgebung durchgeführt. Sollte es an dieser Stelle zu technischen Fehlern kommen, muss
+der Softwarehersteller nachbessern. 

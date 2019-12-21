@@ -1,0 +1,3 @@
+Die Protokollierungs- und Überwachungssoftware ist redundant vorhanden, um auch bei
+Ausfällen die Sicherheit und Verfügbarkeit der
+Kunden-Systeme zu überwachen.

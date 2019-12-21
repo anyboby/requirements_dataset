@@ -1,0 +1,4 @@
+Snapshots ersetzen kein Backup, können jedoch
+Teil der Backup-Strategie zum Erreichen des
+Recovery Point Objectives (RPO) sein, sofern sie
+zusätzlich außerhalb der ursprünglichen Datenlokation gespeichert werden.

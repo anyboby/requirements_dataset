@@ -1,0 +1,3 @@
+ Baugruppen sowie sämtliche sonstige Einzelteile eines Rohrsystems sind mit ihrer Ident-Nr. ggf.
+Ident-Nr. und DIN-Bez. zu kennzeichnen. Sämtliche Bediengeräte sind zusätzlich mit den
+notwendigen Klartextbeschriftungen zu versehen.

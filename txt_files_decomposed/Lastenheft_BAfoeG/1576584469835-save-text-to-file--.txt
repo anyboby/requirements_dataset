@@ -1,0 +1,4 @@
+Um die reibungslose Kommunikation (telefonisch und per E-Mail/Aktionsanforderungssystem) mit dem Auftraggeber sowie insbesondere den Ämtern für Ausbildungsförderung
+zu gewährleisten, hat der Betreiber eine zentrale Anlaufstelle (Service Desk) für alle Serviceanfragen zur Verfügung zu stellen. Die Aufgaben dieses Service Desks umfassen
+insbesondere die Aufnahme, Klassifizierung, Priorisierung, Eskalation und Lösung eines
+Vorfalls.

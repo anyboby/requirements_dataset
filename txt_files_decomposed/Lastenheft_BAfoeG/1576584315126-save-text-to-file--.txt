@@ -1,0 +1,1 @@
+Die BAföG-Software muss sowohl zentral als auch dezentral administrierbar sein.

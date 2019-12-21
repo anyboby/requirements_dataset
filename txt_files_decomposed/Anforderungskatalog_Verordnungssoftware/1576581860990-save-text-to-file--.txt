@@ -1,0 +1,2 @@
+Wird das Suchergebnis als Liste von Produkten angezeigt, so sind bei Auswahl eines
+Produktes alle zugehörigen Packungen mit den Merkmalen nach P3-120 anzuzeigen.

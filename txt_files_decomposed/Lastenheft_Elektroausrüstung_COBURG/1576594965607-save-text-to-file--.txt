@@ -1,0 +1,4 @@
+PLC-/NC-Programme und benötigte Parametereinstellungen von Baugruppen ( z. B.
+Antriebsparameter ) sind der Dokumentation auf Datenträger beizulegen.
+Bei Steuerungen ist nach erfolgter Inbetriebnahme der aktuelle Quellcode aller eingesetzten
+Programme als Datensicherung in geeigneter Form ( z.B. Datenträger, Email ) mitzuliefern.

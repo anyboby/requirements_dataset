@@ -1,0 +1,5 @@
+Die Suchfunktion muss zentral
+angeordnet sein. Es soll möglich
+sein nach Freitext zu suchen.
+Es soll möglich sein mit Shortcuts
+wieder in das Suchfeld zu springen.

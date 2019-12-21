@@ -1,0 +1,7 @@
+Basierend auf den Ergebnissen einer gemäß
+OIS-06 durchgeführten Risiko-Analyse, hat der
+Cloud-Anbieter technische Schutzmaßnahmen
+implementiert, die geeignet sind, um netzwerkbasierte Angriffe auf Basis anomaler Eingangs- oder
+Ausgangs-Traffic-Muster (z. B. durch MAC-Spoofing und ARP-Poisoning-Angriffe) und/oder
+Distributed-Denial-of-Service (DDoS) Angriffe
+zeitnah zu erkennen und darauf zu reagieren.

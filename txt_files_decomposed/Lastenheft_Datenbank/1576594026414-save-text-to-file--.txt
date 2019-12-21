@@ -1,0 +1,4 @@
+Bei der Auflistung der Checks (z. B. alle Checks eines Standortes) werden nicht alle
+Daten des Datensatzes angezeigt, die für den Nutzer relevant sind. Die Auflistung der
+Checks soll variabel angepasst werden können mit der Möglichkeit von Ein- und
+Ausschalten der Felder.

@@ -1,0 +1,12 @@
+Die Vertraulichkeit der Anmeldeinformationen
+von internen und externen Benutzern unter
+Verantwortung des Cloud-Anbieter sind durch die
+folgenden Maßnahmen geschützt:
+» Identitätsprüfung durch vertrauenswürdige
+Verfahren,
+» Verwendung anerkannter Industriestandards
+zur Authentifizierung und Autorisierung
+(z. B. Multi-Faktor-Authentifizierung, keine Verwendung von gemeinsam genutzten Authentifizierungsinformationen, automatischer Ablauf),
+» Multi-Faktor-Authentifizierung für Administratoren des Cloud-Anbieters (z. B. durch Smart
+Card oder biometrische Merkmale) ist zwingend
+erforderlich.

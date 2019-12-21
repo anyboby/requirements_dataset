@@ -1,0 +1,13 @@
+Automatische Kontrollen sind implementiert, die
+sich an den folgenden Regelungen orientieren:
+» es erfolgt eine Sperrung von 15 Minuten nach
+5 fehlgeschlagenen Anmeldungen, mit jedem
+Fehlversuch steigt die Wartezeit,
+» eine Mehrfachanmeldung des gleichen Benutzer ist nicht möglich,
+» nach Anmeldung erfolgt eine automatische
+Sperre nach 15 Minuten Inaktivität,
+» die minimale Passwortlänge für privilegierte
+Benutzer beträgt 14 Zeichen und für Benutzer
+ohne weitreichende Berechtigungen 8 Zeichen,
+» es müssen Großbuchstaben, Kleinbuchstaben,
+Sonderzeichen und Zahlen enthalten sein

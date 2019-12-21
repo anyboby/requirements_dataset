@@ -1,0 +1,2 @@
+Mockup: Mockups sind Nachbildungen von grafischen Oberflächen für eine Anwendung.
+Diese haben keine Funktion und dienen als Umsetzungsbeispiele.

@@ -1,0 +1,9 @@
+Nachdem ein Haushalt ein neues Kühlgerät gekauft hat, reicht er seine Unterlagen bei
+dem Standort ein. Der Standort prüft, ob die Anforderungen des Gutscheines erfüllt sind
+und zahlt dem Haushalt den Gutscheinwert aus. Der Lokalkoordinator des Standortes
+trägt das Neugerät mit seinen Daten in die Datenbank ein. Die Unterlagen sendet der
+Standort dem eaD zur Prüfung zu. Hierfür müssen die Standorte eine Abrechnung der
+Kühlgerätegutscheine mit Hilfe eines Standardformulars erstellen. In dem Formular
+werden die Gutscheinnummer, der Check (ID), das Einlösedatum und der ausgezahlter
+Betrag erfasst. Die Formulare werden manuell ausgefüllt. Dieses Formular und die
+Nachweise für die Auszahlung der Gutscheine werden per Post an den eaD gesendet.

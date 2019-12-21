@@ -1,0 +1,2 @@
+Wählt der Arzt einen Reimport aus, so ist auf dem Rezept zusätzlich zu den Angaben nach
+P3-700 der Importeur bzw. Hersteller/Anbieter aufzudrucken.

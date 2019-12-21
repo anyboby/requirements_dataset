@@ -1,0 +1,10 @@
+Der Abgleich ist für die Werte des Jahresverbrauchs und der Geräte-EnergieklassenEinstufung wichtig.
+Hat ein Haushalt einen Gutschein erhalten, diesen aber nicht eingel öst, hat er die
+Möglichkeit, vom Standort einen neuen Gutschein erstellen zu lassen. Diese
+Berechtigung haben nur die Trainer oder die Lokalkoordinatoren. Hier muss der Check
+derzeitig von Status „Abgeschl. Freigabe Kühlgeräte Tausch“ in den Status
+„Nachkontrolle“ gesetzt werden. Danach muss der Stromsparhelfer den Check wieder
+auf „Prüfung“ setzen. Erst danach hat der Trainer/Lokalkoordinator die Möglichkeit, einen
+neuen Gutschein zu erstellen. Dieser Aufwand sollte mit der neuen Datenbank minimiert
+werden. Ist ein Gutschein abgelaufen, sollte der Trainer oder der Lokalkoordinator ohne
+Wechsel des Status die Möglichkeit haben, einen neuen Gutschein zu erstellen.

@@ -1,0 +1,7 @@
+Ergänzende Informationen zur Basisanforderung
+Bei der Übertragung von Daten mit einem
+normalen Schutzbedarf innerhalb der Infrastruktur des Cloud-Anbieters ist keine zwingende Verschlüsselung anzuwenden, soweit die
+Übertragung nicht über öffentliche Netzwerke
+erfolgt. In diesem Fall kann die nicht-öffentliche
+Umgebung des Cloud-Anbieters grundsätzlich als
+vertrauenswürdig angesehen werden kann.

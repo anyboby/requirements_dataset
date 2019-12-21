@@ -1,0 +1,3 @@
+IBIS-Verkabelung vom Sternpunkt zu den beiden Türen für den Einbau von Fahrgastzählgeräten, Fabrikat IRIS Typ IRMA MATRIX, durch die Firma INIT ist vorzusehen. Mit
+Ausschnitten in den Lagerplatten für Sensoren IRMA MATRIX mit Ethernet-Switch im
+Nachrichten-technischen Fach. Ausschnitte mit Abdeckungen.

@@ -1,0 +1,4 @@
+Die Anmeldung zur Software ist über die Eingabe von Benutzernamen und Passwort zu
+gestalten. Die Software muss die Möglichkeit bieten, eine zwangsweise Änderung des
+Passwortes nach Ablauf eines vordefinierbaren Zeitraumes zu verlangen. Dabei sind bestimmte Kriterien zu erfüllen. U. a. dürfen die letzten 5 Kennwörter nicht wieder verwendet werden.
+Benutzer und neue Passwörter dürfen nur durch die lokalen oder zentralen Administratoren angelegt beziehungsweise vergeben werden können.

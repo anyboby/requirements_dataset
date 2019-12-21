@@ -1,0 +1,2 @@
+Die Einträge in der Hausapotheke müssen auf Packungs- und/oder Freitextebene
+gespeichert werden.

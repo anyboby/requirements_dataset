@@ -1,0 +1,4 @@
+Im Gegensatz zu Penetrationstests (vgl. RB-18), die
+manuell und nach einem individuellem Schema
+ablaufen, erfolgt die Prüfung auf offene Schwachstellen automatisiert, unter Verwendung sog.
+Vulnerability Management Werkzeuge.

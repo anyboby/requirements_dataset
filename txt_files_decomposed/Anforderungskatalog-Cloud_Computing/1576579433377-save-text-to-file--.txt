@@ -1,0 +1,2 @@
+Das ISMS umfasst auch die IT-Prozesse zur
+Entwicklung und Betrieb des Cloud-Dienstes.

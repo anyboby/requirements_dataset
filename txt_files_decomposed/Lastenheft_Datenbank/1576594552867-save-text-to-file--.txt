@@ -1,0 +1,7 @@
+Der Auftragnehmer ist verpflichtet, für die Entwicklung eine Dokumentation zu erstellen.
+Hierfür soll, wenn möglich, ein Wiki oder EGroupeware genutzt werden, um ggf. dort
+Fehler der Anwendung an den Auftragnehmer zu melden. Neben einer technischen
+Dokumentation wird auch eine Benutzerdokumentation gefordert. Am Ende des Projektes
+soll die DB-Dokumentation als PDF vorliegen. Die Dokumentation soll sauber und
+fehlerfrei durchgeführt werden. Dazu zählt auch die Beschreibung von Funktionen sowie
+Komponenten.

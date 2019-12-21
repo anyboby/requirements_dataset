@@ -1,0 +1,3 @@
+Eine Auswertung der Anträge nach einzelnen Antragsarten (beispielsweise Erstantrag,
+Folgeantrag, abgelehnte Anträge dem Grunde nach) in einem bestimmten Zeitraum ist in
+der Software zu ermöglichen.

@@ -1,0 +1,1 @@
+Der Softwareanbieter beziehungsweise der Betreiber müssen in einem Pflichtenheft dokumentieren, ob und in welcher Form sie die Anforderungen des vorliegenden Lastenheftes umsetzen können. Insbesondere die Beschreibung der Umsetzung der funktionalen Anforderungen soll die Darstellung der Eingabemasken (GUI) der Software enthalten.

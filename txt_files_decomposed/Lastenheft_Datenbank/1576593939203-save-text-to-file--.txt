@@ -1,0 +1,3 @@
+Die Auflistung der Daten ist unbereinigt und beinhaltet auch „nicht abgeschlossene“
+Datensätze bzw. die Auflistung inaktiver Datensätze sowie nicht abgeschlossener
+Stromsparchecks.

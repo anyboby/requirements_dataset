@@ -1,0 +1,3 @@
+Der Zugriff und die Verwaltung der Protokollierungs- und Überwachungsfunktionalitäten
+ist beschränkt auf ausgewählte und autorisierte
+Mitarbeiter des Cloud-Anbieters.

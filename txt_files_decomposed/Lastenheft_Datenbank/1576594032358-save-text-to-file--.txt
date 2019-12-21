@@ -1,0 +1,8 @@
+Bei Register Nr. 3 „Beleuchtung“ können nicht alle Lampentypen (Fassungen) ausgewählt
+werden. Für den Fall, dass der Haushalt eine Lampe besitzt, die nicht aufgelistet ist, sollte
+das Dropdownfeld mit dem Wert „Sonstiges“ erweitert werden. In das Feld Lampentyp
+kann danach die Lampe eingetragen werden. Somit können alle Lampen des Haushaltes
+erfasst und ggf. eine Anpassung der Soforthilfen durchgeführt werden. Mithilfe einer
+Auswertung kann die Bundeskoordination prüfen, ob es Bedarf an weiteren Lampen
+besteht. Im Reiter 10 soll zusätzlich zum Gerätetyp „Beleuchtung“ auch der Sockel der
+Lampen auswählbar sein, um die Beratung und Auswertung zu verbessern.

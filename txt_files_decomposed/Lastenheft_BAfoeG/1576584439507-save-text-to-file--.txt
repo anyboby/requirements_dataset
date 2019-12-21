@@ -1,0 +1,3 @@
+Das die Software betreibende Rechenzentrum muss nach dem BSI-Grundschutz
+(Stufe 3) zertifiziert sein. Zur Demonstrierung der Einhaltung der gesetzlichen Datenschutzvorschriften muss beim Betreiber ein Datenschutzaudit gemäß § 78c SGB X
+durchgeführt worden sein.

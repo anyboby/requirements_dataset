@@ -1,0 +1,4 @@
+Falls im WACO-Bestelltext keine anderslautenden Vereinbarungen getroffen sind, so sind
+die Stromlauf- und Installationspläne vor Fertigungsbeginn der Komponente an WACO
+(über die Abteilung Einkauf) zur Prüfung und mit der Bitte um schriftliche Genehmigung zu
+senden.

@@ -1,0 +1,3 @@
+Da Postleitzahlen nicht immer nur einem eindeutigen Wert zugeordnet sind, müssen
+dem Anwender von der Software alle zugehörigen Ergebniswerte zur Auswahl angezeigt
+werden. Bei einem eindeutigen Ergebniswert soll dieser automatisch in das entsprechende Feld übernommen werden.

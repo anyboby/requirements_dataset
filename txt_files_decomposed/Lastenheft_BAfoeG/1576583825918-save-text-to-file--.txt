@@ -1,0 +1,3 @@
+Anderenfalls werden die Berechnungsergebnisse
+aus den Testläufen durch das Fachreferat im MWK geprüft. Auch hier besteht wieder die
+Verpflichtung für den Softwarehersteller, bei Fehlern nachzubessern.

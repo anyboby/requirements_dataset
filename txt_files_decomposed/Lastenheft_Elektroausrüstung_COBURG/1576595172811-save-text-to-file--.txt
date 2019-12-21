@@ -1,0 +1,2 @@
+Je nach Applikation sind weitere Eigenschaften wie z.B. Schleppfähigkeit, minimaler
+Biegeradius etc. zu beachten.

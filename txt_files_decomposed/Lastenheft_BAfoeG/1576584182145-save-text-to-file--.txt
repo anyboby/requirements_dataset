@@ -1,0 +1,2 @@
+Die Software muss die Möglichkeit bieten, nach beliebigen Feldern beziehungsweise Kriterien in frei zusammenstellbarer Kombination Suchen über den jeweils berechtigten Datenbestand auszuführen. Die Suchergebnisse sind als Liste (am Bildschirm darstellbar
+und druckbar) aufzubereiten.

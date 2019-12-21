@@ -1,0 +1,4 @@
+Diese Hinweise können
+durch Kennzeichnung erfolgen, müssen aber ohne gesonderte Anwenderaktion im Verlauf
+des Verordnungsdialogs sichtbar sein. Hinweise dürfen den Workflow des Arztes nicht
+unterbrechen.

@@ -1,0 +1,2 @@
+Die Enddokumentation ist fester Bestandteil der konstruierten
+Komponente und wird unmittelbar nach Anforderung ausgeliefert.

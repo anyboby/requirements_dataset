@@ -1,0 +1,3 @@
+Dieser Anforderungskatalog gilt für Verordnungssoftware, die in der vertragsärztlichen
+Versorgung zur elektronischen Verordnung von Arzneimitteln und sonstigen nach § 31 SGB
+V in die Arzneimittelversorgung einbezogenen Produkten zum Einsatz kommen.

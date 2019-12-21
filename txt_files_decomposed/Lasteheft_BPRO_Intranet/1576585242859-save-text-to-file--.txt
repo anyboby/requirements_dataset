@@ -1,0 +1,8 @@
+Für die interne Planung sind nach Abschluss der Konstruktion und je nach Fertigungsstand, folgende Unterlagen zu liefern:
+ Erforderliche Zeichnungen sind dem AG zur Freigabe vorzulegen.
+ Aufstellungsplan im Maßstab 1:100 und als AutoCAD /DXF-Datei
+ Abmessungen und Gewicht der Einzelkomponenten im Anlieferungszustand zum Einbringen an den endgültigen Standort.
+ Aufstellungsmaße, Gewicht, Anschlusspunkte für Energie- und Medienversorgung
+ Leistungsdaten
+ Lastdiagramm bezogen auf elektrische Leistungsaufnahmen
+ Fundamentpläne

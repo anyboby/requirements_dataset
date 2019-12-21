@@ -1,0 +1,4 @@
+Die Software muss dem Sachbearbeiter die Möglichkeit bieten, in einer elektronischen
+Akte beliebig viele zukünftige oder vergangene Bewilligungszeiträume anzulegen.
+Wiedervorlagefunktionalität
+Die BAföG-Software muss dem Sachbearbeiter die Möglichkeit bieten, Wiedervorlagetermine für einen Vorgang manuell anzulegen.

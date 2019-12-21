@@ -1,0 +1,4 @@
+Der Cloud-Anbieter bietet auf Anfrage des
+Cloud-Kunden eine kundenspezifische Protokollierung (in Bezug auf Umfang und Dauer der
+Aufbewahrung) an und stellt diese dem Kunden
+zur Verfügung.

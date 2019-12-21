@@ -1,0 +1,4 @@
+Diese Steuereinheit muss eine Diagnoseschnittstelle besitzen, die vom Fahrzeuginnenraum aus zugänglich ist und auch während des Fahrbetriebs genutzt werden kann. Über
+diese Schnittstelle müssen alle Ein- und Ausgangswerte sowie gespeicherte Fehler gelesen bzw. gelöscht werden können.
+Die Schaltpunkte müssen in Abhängigkeit von Beladung, Beschleunigung, Topographie
+und niedrigem Kraftstoffverbrauch optimal errechnet und stossfrei geschalten werden.

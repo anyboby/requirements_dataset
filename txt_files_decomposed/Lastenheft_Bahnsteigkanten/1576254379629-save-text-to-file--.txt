@@ -1,0 +1,3 @@
+Die Fertigteilfundamente sind mit einer Höhe von 550 mm herzustellen. Die Länge und Breite der Fertigteilfundamente ist in
+Abhängigkeit von den statisch-konstruktiven Anforderungen zu
+wählen.

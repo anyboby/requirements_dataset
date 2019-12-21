@@ -1,0 +1,6 @@
+Die
+Gesamtauswertung
+des
+Projektes soll weiterhin einmal
+täglich nachts ausgeführt und
+gespeichert werden.

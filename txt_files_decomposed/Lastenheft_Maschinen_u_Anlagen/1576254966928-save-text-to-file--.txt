@@ -1,0 +1,3 @@
+ Alle Motoren müssen als Schutzart IP 56 (Fremdkörper: staubgeschützt/Wasserschutz: schwere
+See) haben. Nach Absprache und schriftlicher Genehmigung seitens des Auftraggebers ist auch IP
+55 oder IP 54 möglich.

@@ -1,0 +1,8 @@
+Der Datenbestand der bisherigen DB soll weiterhin genutzt werden. Die Datenbank mit
+den Daten ist die Basis des Projektes. Die Daten liegen aktuell in einer MySQL DB. Bevor
+die Daten mit der neuen DB genutzt werden, soll geprüft werden, ob die Daten bereinigt
+werden können. Es sollen nur Datensätze gelöscht werden, die nicht benötigt werden
+(Datensätze löschen). Damit sind Datensätze gemeint, die ohne Energiedaten sind oder
+nicht nach einer bestimmten Zeit abgeschlossen wurden. Dies soll in Absprache zwischen
+dem Auftraggeber und dem Auftragnehmer geschehen. Gegebenenfalls sollen die
+Standorte die Daten selbst prüfen und löschen.

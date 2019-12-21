@@ -1,0 +1,3 @@
+Das Wechseln eines Standortes oder der Rolle sollte ohne Abmelden möglich sein. Die
+Festlegung der Rechte wird durch die Rollenhierarchie bestimmt. Besitzt ein Nutzer eine
+Berechtigung nicht, soll diese für den jeweiligen Nutzer grau dargestellt werden.

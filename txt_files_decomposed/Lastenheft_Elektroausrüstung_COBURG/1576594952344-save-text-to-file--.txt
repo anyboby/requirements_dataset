@@ -1,0 +1,5 @@
+Im Allgemeinen gilt, daß die Anlage der Richtlinie 2014/30/EU (EMV-Richtlinie)
+entsprechen muß. Dort sind die Eigenschaften und Fähigkeiten definiert, die das elektrische
+Betriebsmittel aufweisen muß, um in seiner elektromagnetischen Umgebung
+zufriedenstellend zu arbeiten, ohne dabei selbst elektromagnetische Störungen zu
+verursachen, die für andere Betriebsmittel in derselben Umgebung unannehmbar wären.

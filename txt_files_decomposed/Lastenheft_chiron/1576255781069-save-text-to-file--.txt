@@ -1,0 +1,2 @@
+PDF-Zeichnungsdokumente immer in schwarz-weiß und in
+originaler Formatgröße ausführen. Layerfarben bei der Konvertierung unterdrücken

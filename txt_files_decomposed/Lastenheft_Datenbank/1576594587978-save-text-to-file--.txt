@@ -1,0 +1,2 @@
+Während der Laufzeit soll Sonderbeauftragung zur Datenbankweiterentwicklung mit
+eingeplant werden. Für diese erfolgen gesonderte Beauftragungen nach Bedarf.

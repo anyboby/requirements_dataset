@@ -1,0 +1,5 @@
+Für jede vollständige AmBADO (vom Erstkontakt/
+Wiederaufnahme bis zur Behandlungsbeendigung)
+ist ein eindeutiger Schlüssel zu vergeben (siehe
+Referenzdokument 3: AmBADO-Anleitung,
+Allgemeine Hinweise, Punkt 3).

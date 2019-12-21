@@ -1,0 +1,3 @@
+Die Daten der Kühlgeräte stammen von co2online und werden einmal im Jahr in der DB
+aktualisiert. Diese Daten dienen als Grundlage für die Berechnung der Einsparungen,
+wenn eine Messung nicht möglich ist.

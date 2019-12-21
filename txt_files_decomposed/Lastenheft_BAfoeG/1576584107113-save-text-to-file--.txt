@@ -1,0 +1,2 @@
+Die Software muss die Möglichkeit der Erfassung von besonderen Verwaltungsverfahren
+innerhalb der elektronischen Akte zur Verfügung stellen.

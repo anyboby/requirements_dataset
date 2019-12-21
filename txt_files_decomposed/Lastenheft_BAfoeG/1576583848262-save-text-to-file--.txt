@@ -1,0 +1,2 @@
+Die Software soll dem Sachbearbeiter die Möglichkeit bieten, Daten zu einem Vorgang
+auch ohne Vergabe einer Förderungsnummer vorerfassen und speichern zu können. Dabei müssen grundsätzlich dieselben Eingabefelder zur Verfügung stehen wie bei der regulären Anlage einer elektronischen Akte mit Vergabe einer Förderungsnummer.

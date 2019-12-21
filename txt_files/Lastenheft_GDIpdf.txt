@@ -1,0 +1,3654 @@
+Lastenheft zur Neuentwicklung der GDI-DE Testsuite
+Version: 1.1
+
+Projektbezeichnung
+
+Neuentwicklung GDI-DE Testsuite
+
+Projektleiter
+Verantwortlich
+
+Anforderungsanalytiker (AG)
+
+Erstellt am
+Zuletzt geändert
+
+10.05.2019 11:09
+
+Bearbeitungszustand
+
+in Bearbeitung
+Vorgelegt
+X
+
+V-Modell-XT Version
+
+2.2
+
+fertig gestellt
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+Änderungsverzeichnis
+Änderungen
+
+Geänderte
+
+Beschreibung der
+
+Nr.
+
+Datum
+
+Version
+
+Kapitel
+
+Änderungen
+
+Autor
+
+Zustand
+
+1
+
+15.02.2017
+1
+
+0.1
+
+Alle
+
+Initiale Produkterstellung
+
+SG
+
+Entwurf
+
+2
+
+24.02.2017
+2
+
+0.2
+
+Alle
+
+Ausarbeitung
+Kontextabgrenzung,
+Architektur, Anwendungsfälle
+
+PL
+
+Entwurf
+
+3
+
+24.02.2017 29.03.
+
+0.3
+
+Alle
+
+Überarbeitung aller Kapitel,
+insbesondere
+Anwendungsfälle,
+Einarbeitung Kommentierung
+SB
+
+SG
+
+Entwurf
+
+4
+
+04.04.2017 –
+07.04.2017
+
+0.4
+
+Alle
+
+Überarbeitung auf der Basis
+der Workshopergebnisse
+
+SG
+
+Entwurf
+
+5
+
+11.04.2017
+
+0.4
+
+Alle
+
+Ergänzungen zu
+Anwendungsfällen und
+einzelnen Kapiteln
+
+PL
+
+Entwurf
+
+6
+
+13.04.2017
+
+0.4
+
+5.2
+
+Ergänzung Anforderung 95
+
+SG
+
+Entwurf
+
+7
+
+20.04.2017
+
+0.5
+
+Alle
+
+Übernahme Änderungen
+BKG, Anpassung
+Anforderung 19, Anpassung
+Abbildung 1
+
+SG
+
+Entwurf
+
+8
+
+02.05.2017
+
+1.0
+
+Alle
+
+Finalisierung des
+Dokumentes
+
+SG
+
+Fertiggestellt
+
+9
+
+27.07.2018
+
+1.1
+
+Alle
+
+Ergänzungen und
+Anpassungen im
+Zusammenhang mit der
+Kriterienkatalogerstellung;
+Glossar hinzugefügt
+
+SG
+
+Fertiggestellt
+
+Prüfverzeichnis
+Die folgende Tabelle zeigt einen Überblick über alle Prüfungen – sowohl Eigenprüfungen
+wie auch Prüfungen durch eigenständige Qualitätssicherung – des vorliegenden
+Dokumentes.
+Datum
+
+Geprüfte
+Version
+
+Zuletzt geändert: 10.05.19
+
+Anmerkungen
+
+Version 1.1
+
+Prüfer
+
+Neuer
+Produktzustand
+
+2 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+Inhaltsverzeichnis
+1
+
+Einleitung ...................................................................................................................... 5
+
+2
+
+Ausgangssituation und Zielsetzung ............................................................................... 6
+
+3
+
+4
+
+2.1
+
+Ausgangssituation .................................................................................................. 6
+
+2.2
+
+Stakeholder ............................................................................................................ 6
+
+2.3
+
+System und Systemkontext .................................................................................... 7
+
+Anwendungsfälle ........................................................................................................... 9
+3.1
+
+Gesamtübersicht der Anwendungsfälle .................................................................. 9
+
+3.2
+
+Am System anmelden ........................................................................................... 10
+
+3.3
+
+Benutzerkonto anlegen ......................................................................................... 11
+
+3.4
+
+Benutzerkonto bearbeiten ..................................................................................... 12
+
+3.5
+
+E-Mail-Adressen abrufen ...................................................................................... 13
+
+3.6
+
+Testkonfiguration anlegen ..................................................................................... 14
+
+3.7
+
+Testkonfigurationen verwalten .............................................................................. 15
+
+3.8
+
+Freischaltung Intervalltest ..................................................................................... 16
+
+3.9
+
+Test ausführen ...................................................................................................... 17
+
+3.10
+
+Testbericht abrufen ............................................................................................ 18
+
+3.11
+
+Testberichte löschen .......................................................................................... 19
+
+3.12
+
+Im Schattenmodus arbeiten ............................................................................... 20
+
+3.13
+
+Testklasse anlegen ............................................................................................ 21
+
+3.14
+
+Konformitätsklasse anlegen .............................................................................. 22
+
+3.15
+
+Testklasse verwalten ......................................................................................... 23
+
+3.16
+
+Konformitätsklassen aktualisieren ..................................................................... 24
+
+3.17
+
+Fachliches Monitoring durchführen ................................................................... 25
+
+3.18
+
+Basisparameter einstellen ................................................................................. 26
+
+3.19
+
+System-Monitoring durchführen ........................................................................ 27
+
+Funktionale Anforderungen ......................................................................................... 28
+4.1
+
+Funktionsumfang Altsystem .................................................................................. 28
+
+4.2
+
+Benutzeroberfläche Startseite .............................................................................. 28
+
+4.3
+
+Benutzeroberfläche Testklassenverwaltung .......................................................... 28
+
+4.4
+
+Benutzeroberfläche Testmanagement .................................................................. 29
+
+4.5
+
+Benutzeroberfläche Testberichte .......................................................................... 30
+
+4.6
+
+Benutzeroberfläche Benutzerverwaltung .............................................................. 31
+
+4.7
+
+Benutzeroberfläche Fachliches Monitoring ........................................................... 33
+
+4.8
+
+Benutzeroberfläche allgemein .............................................................................. 33
+
+4.9
+
+Testklassenverwaltung .......................................................................................... 35
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+3 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+4.10
+
+Testmanagement ............................................................................................... 37
+
+4.11
+
+Testberichte ....................................................................................................... 38
+
+4.12
+
+Schnelltestmodus .............................................................................................. 40
+
+4.13
+
+Rollen ................................................................................................................ 40
+
+4.14
+
+Datenhaltung ..................................................................................................... 40
+
+4.15
+
+Mehrsprachigkeit ............................................................................................... 41
+
+4.16
+
+System-Monitoring............................................................................................. 41
+
+4.17
+
+API´s.................................................................................................................. 42
+
+5
+
+Nicht-Funktionale Anforderungen ................................................................................ 43
+5.1
+
+Randbedingungen ................................................................................................ 43
+
+5.2
+
+Qualitätsanforderungen ........................................................................................ 45
+
+6
+
+Rechte- und Rollenkonzept ......................................................................................... 48
+
+7
+
+Skizze des Lebenszyklus und der Gesamtsystemarchitektur ...................................... 49
+
+8
+
+Lieferumfang ............................................................................................................... 50
+
+9
+
+Abnahmekriterien und Vorgehen zur Abnahmeprüfung ............................................... 52
+
+10
+
+Abkürzungsverzeichnis ............................................................................................ 53
+
+11
+
+Abbildungsverzeichnis ............................................................................................. 54
+
+12
+
+Glossar..................................................................................................................... 55
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+4 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+1
+
+EINLEITUNG
+
+Die GDI-DE Testsuite ist eine der Nationalen Technischen Komponenten der Architektur der
+Geodateninfrastruktur Deutschland (GDI-DE) und dient als zentrale Testplattform der
+Qualitätssicherung innerhalb der GDI-DE.
+Mit der GDI-DE Testsuite kann innerhalb der GDI-DE die Qualität für Geodaten und
+Geodatendienste geprüft werden. Mit Hilfe dieser zentralen Testplattform können
+Datenanbieter und Dienstebereitsteller ihre Geodaten und Dienste auf Konformität zu
+nationalen und internationalen Standards, z.B. den Vorgaben der europäischen INSPIRERichtlinie prüfen.
+Die GDI-DE Testsuite ist seit Ende September 2011 frei nutzbar und unterstützt die Anbieter
+von Geodaten und Geodatendiensten bei der Bereitstellung ihrer Ressourcen innerhalb der
+GDI-DE und der Umsetzung der INSPIRE-Richtlinie. Neben einer Webanwendung
+(https://testsuite.gdi-de.org) und einer Download-Möglichkeit für die lokale Nutzung, ist auch
+eine Schnittstelle für die Ausführung von Tests aus anderen Anwendungen heraus nutzbar.
+Zurzeit stehen Tests für die Prüfung von Metadaten, Katalog-/Suchdiensten (CSW), Karten/Darstellungsdiensten (WMS) und Downloaddiensten (WFS, Atom) bereit.
+Das derzeitige Mengengerüst und Datenvolumen der GDI-Testsuite ist der nachfolgenden
+Abbildung zu entnehmen.
+
+Abbildung 1 Mengengerüst und Datenvolumen der aktuellen GDI-DE Testsuite
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+5 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+2
+
+AUSGANGSSITUATION UND ZIELSETZUNG
+
+2.1
+
+Ausgangssituation
+
+Die GDI-DE Testsuite stellt eine der zentralen Komponenten der GDI-DE dar. Sie ist dabei
+ein wesentliches Werkzeug für die Qualitätssicherung von Geodaten und Geodatendiensten.
+Hinsichtlich der aktuellen Implementierung sind im Betrieb neue Anforderungen und
+Bedürfnisse, insbesondere aus Betriebs- aber auch aus Nutzersicht entstanden. Dazu
+gehört beispielsweise die Integration der Executable Test Suites aus dem INSPIRE Validator
+auf europäischer Ebene oder auch der Ersatz für das eingesetzte Java-Framework echo3,
+welches nicht mehr weiter gepflegt wird. Das Lenkungsgremium der GDI-DE hat
+beschlossen, dass die GDI-DE Testsuite durch eine Neuentwicklung ersetzt werden soll
+(Beschluss Nr. 971). Ziel dieser Neuentwicklung ist es, den vollständigen Funktionsumfang
+der bisherigen Lösung zu erhalten und darüber hinaus den geänderten und erweiterten
+Anforderungen gerecht zu werden. Dieses Lastenheft beschreibt die Anforderungen an die
+Neuentwicklung der GDI-DE Testsuite.
+
+2.2
+
+Stakeholder
+
+Stakeholder
+
+Rolle
+
+Interessen / Erwartungen an das System
+
+Sachgebiet Geodateninfrastruktur
+(BKG)
+
+Fachadministration,
+Ansprechpartner für
+Benutzer
+
+Verantwortlich für Konzeption, Weiterentwicklung und Betrieb des Systems. Ansprechpartner für die Anwender und Stakeholder
+
+Koordinierungsstelle GDI-DE
+
+Fachliche und organisatorische Unterstützung
+
+Mitverantwortlich für Konzeption und Weiterentwicklung des Systems sowie die Abstimmung mit den Bundesländern und Arbeitskreisen
+
+AK Architektur GDI-DE
+
+Steuerungsgremium für
+Architekturthemen
+
+Steuerungsgremium von grundlegenden
+Architekturentscheidungen in der GDI-DE
+
+AK Metadaten, AK Geodienste
+
+Steuerungsgremien für
+die Thematik Metadaten und Geodienste
+
+Steuerungsgremien für die Umsetzung von
+nationalen und internationalen (Weiter-)Entwicklungen zu den Themen Metadaten und
+Geodienste innerhalb der GDI-DE. Ansprechpartner u.a. bei fachlichen Fragen für
+die Betriebsstelle GDI-DE.
+
+Lenkungsgremium der GDI-DE
+
+Entscheidungsgremium
+
+Entscheidungsgremium für alle Änderungen und Entwicklungen der Komponenten
+der GDI-DE.
+
+Kontaktstellen der Bundesländer
+
+Anwender
+
+Nutzer des Systems. Ansprechpartner für
+Geodatenhaltende Stellen.
+
+Geodatenhaltende Stellen
+
+Anwender
+
+Nutzer des Systems
+
+Geodienst-Betreiber
+
+Anwender
+
+Nutzer des Systems
+
+http://www.geoportal.de/DE/GDIDE/Organisation/Lenkungsgremium/Beschluesse_ab_2015/Beschluesse_ab_2015.html%3bjsessionid=A947
+9443386C66146FF82B2DAAA534CD?lang=de#[Beschluss_97]
+1
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+6 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+2.3
+
+System und Systemkontext
+
+Die GDI-DE Testsuite stellt, wie bereits beschrieben, eine der Kernkomponenten der GDIDE dar. Dadurch gehört sie zu einer Reihe von Komponenten, die essentiell für den Betrieb
+der GDI-DE sind. Dies hat zur Folge, dass über die Internetanbindung vor allem zu testende
+Ressourcen eingebunden werden, welche aus allen Bereichen der GDI-DE stammen
+können. Diese Ressourcen können zum Test vollständig über die Internetanbindung mit der
+GDI-DE Testsuite angesprochen werden. Die GDI-DE Testsuite selbst besteht aus
+insgesamt 4 logischen Komponenten (siehe Abbildung 2). Dies ist zum einen der Frontend
+Application Service, welcher die Benutzerschnittstellen abbildet und damit die Schnittstelle
+zum Internet darstellt. Darüber hinaus verfügt die GDI-DE Testsuite über einen
+entsprechenden Application Service, welcher die gesamte Anwendungslogik abbildet.
+Dieser besitzt daher Schnittstellen zum außerhalb des Systems befindlichen E-Mail Server.
+Die Komponente Testengine beinhaltet die Logik zur Durchführung der verschiedenen Tests.
+Hier sind Schnittstellen zur Einbindung weiterer Testengines bspw. aus dem INSPIRE
+Umfeld vorgesehen. Der Application Service besitzt Schnittstellen zum Ansteuern der
+Testengine. Ebenfalls besitzen diese beiden Komponenten Schnittstellen zur Datenhaltung
+der GDI-DE Testsuite, welche Nutzerdaten und Daten zu den Testausführungen beinhaltet.
+Das System ist bis auf den Zugang zum Internet komplett gekapselt und besitzt ansonsten
+keine Schnittstellen zu anderen Systemen im internen Netz des BKG.
+
+Abbildung 2: Kontextabgrenzung
+Der Frontend Application Service stellt in erster Linie die Benutzeroberfläche der GDI-DE
+bereit.
+Abbildung 3 zeigt eine Übersicht der grundsätzlichen Struktur der zukünftigen
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+7 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+Benutzeroberfläche für die GDI-DE.
+
+Über eine öffentlich zugängliche Startseite sind die Komponenten „Schnelltest“ und
+„Benutzerkonto anlegen“ erreichbar. Nach erfolgreicher Anmeldung wird die Startseite für
+angemeldete Benutzer aufgerufen. Die Startseite für angemeldete Benutzer bildet
+wiederrum die zentrale Komponente für die weiteren Komponenten der Benutzeroberfläche.
+Hierzu gehören neben der Benutzerverwaltung und der Testklassenverwaltung
+insbesondere das Testmanagement sowie die Übersicht der Testberichte.
+
+Abbildung 3: Grundlegende Struktur der Weboberfläche
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+8 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3
+
+ANWENDUNGSFÄLLE
+
+3.1
+
+Gesamtübersicht der Anwendungsfälle
+
+Die folgende Übersicht umfasst alle Anwendungsfälle, die für das in diesem Lastenheft
+beschriebene System inklusive der involvierten Akteure. In den anschließenden Kapiteln
+werden die Anwendungsfälle vollständig beschrieben. Die Rollen werden im Kapitel 6
+genauer beschrieben.
+In der Hierarchie der Vererbung von Berechtigungen auf Anwendungsfälle ist abzubilden,
+dass ein Fachadministrator sämtliche Berechtigungen eines registrierten Nutzers erbt.
+
+Abbildung 4: Übersicht über die Akteure und Anwendungsfälle
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+9 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.2
+
+Am System anmelden
+
+Beschreibung Anwendungsfall
+Name
+Am System anmelden
+Kurzbeschreibung
+Alle Nutzer melden sich am System über das Frontend an
+Auslöser
+Neuer Aufruf der Startseite der Applikation, kein Benutzer angemeldet
+Ergebnis
+Anmeldung erfolgreich
+Registrierter Benutzer und Fachadministrator
+Akteure
+Eingehende Informa- Benutzername, Passwort
+tionen
+Standardablauf
+
+Funktionale Anforderungen
+
+0,1,2,3,16,17,24,26,27,62,64,87,88
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+10 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.3
+
+Benutzerkonto anlegen
+
+Beschreibung Anwendungsfall
+Name
+Benutzerkonto anlegen
+Kurzbeschreibung
+Anlegen eines Kontos für einen neuen Benutzer
+Auslöser
+Neuer Aufruf der Startseite der Applikation, kein Benutzer angemeldet, Aufruf der
+Benutzerverwaltung
+Ergebnis
+Benutzerkonto wurde angelegt. Bestätigung Kenntnisnahme Datenschutzerklärung
+und Akzeptieren des Speicherns Personenbezogener Daten ist dokumentiert.
+
+Akteure
+Eingehende Informationen
+
+Anonymer Benutzer (Gast), Fachadministrator
+Benutzername, Passwort, Passwort wiederholen, Anrede, Vorname, Name, E-MailAdresse, Sprache, Möglichkeit zur Bestätigung der Nutzungsbedingungen, Datenschutzerklärung und Speicherung personenbezogener Daten, Captcha
+
+Standardablauf
+
+Funktionale Anforderungen
+
+0,1,2,3,14,15,24,26,27,62,63
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+11 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.4
+
+Benutzerkonto bearbeiten
+
+Beschreibung Anwendungsfall
+Name
+Benutzerkonto bearbeiten
+Kurzbeschreibung
+Ein angemeldeter Benutzer kann seine persönlichen Daten ändern
+Auslöser
+Aufruf der Oberfläche Benutzerkonto bearbeiten
+Ergebnis
+Benutzernamen sind geändert
+Akteure
+Registrierter Benutzer und Fachadministrator
+Eingehende Informa- Formularfelder sind mit den bestehenden Daten vorbefüllt, die folgenden Daten
+können geändert werden: Benutzername, Anrede, Vorname, Name, E-Mail Adtionen
+resse, Sprache, Passwort (in gesondertem Dialog)
+
+Standardablauf
+
+Funktionale Anforderungen
+
+0,1,18,19,20,22,23,24,26,27,62,63
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+12 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.5
+
+E-Mail-Adressen abrufen
+
+Beschreibung Anwendungsfall
+Name
+E-Mail-Adressen abrufen
+Kurzbeschreibung
+Fachadministratoren können alle Email-Adressen der registrierten Benutzer als
+liste herunterladen
+Auslöser
+Fachadministrator ist in der Übersicht zu den Benutzerkonten
+Ergebnis
+Datei mit Liste der Email-Adressen wurde heruntergeladen.
+Akteure
+Fachadministrator
+Eingehende Informa- Angaben zu den Email-Adressen in den Benutzerkonten
+tionen
+Standardablauf
+
+Funktionale Anforderungen
+
+12,21,24,26,27
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+13 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.6
+
+Testkonfiguration anlegen
+
+Beschreibung Anwendungsfall
+Name
+Testkonfiguration anlegen
+Kurzbeschreibung
+Benutzer legen eine neue Testkonfiguration an.
+Auslöser
+Benutzer ist am System angemeldet
+Ergebnis
+Testkonfiguration wurde angelegt
+Akteure
+Registrierter Benutzer, Fachadministrator
+Eingehende Informa- Name, Beschreibung: Freitext, Testklasse, Konformitätsklassen, Dienstequalität,
+Datensatz/Dienst, E-Mail-Benachrichtigung, Ausführungswiederholung
+tionen
+Standardablauf
+
+Funktionale Anforderungen
+
+0,1,3,5,24,25,26,27,33,39,44,87,88
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+14 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.7
+
+Testkonfigurationen verwalten
+
+Beschreibung Anwendungsfall
+Name
+Testkonfiguration verwalten
+Kurzbeschreibung
+Verwaltung der Testkonfigurationen
+Auslöser
+Übersicht über die Testkonfigurationen, Auswahl einer Testkonfiguration
+Ergebnis
+Testkonfiguration geändert oder gelöscht
+Akteure
+Registrierter Benutzer
+Eingehende Informati- Ausgewählte Testkonfiguration
+onen
+Standardablauf
+
+Funktionale Anforderungen
+Zuletzt geändert: 10.05.19
+
+0,1,3,6,7,8,12,22,23,24,26,39,45,48,49,87,88
+
+Version 1.1
+
+15 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.8
+
+Freischaltung Intervalltest
+
+Beschreibung Anwendungsfall
+Name
+Freischaltung Intervalltest
+Kurzbeschreibung
+Fachadministratoren können alle Email-Adressen der registrierten Benutzer als
+liste herunterladen
+Auslöser
+Anforderung zur Freischaltung aus „Testkonfiguration verwalten“
+Ergebnis
+Intervalltestfreigabe durch Dienstebetreiber erfolgt / nicht erfolgt.
+Akteure
+Registrierter Benutzer
+Eingehende Informa- Dienstebetreiber, freizugebender Dienst
+tionen
+Standardablauf
+
+Funktionale Anforderungen
+
+4,5,48,49
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+16 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.9
+
+Test ausführen
+
+Beschreibung Anwendungsfall
+Name
+Test ausführen
+Kurzbeschreibung
+Tests können anhand von Testkonfigurationen ausgeführt werden
+Auslöser
+Benutzer öffnet die Startseite des Systems.
+Ergebnis
+Test wurde durchgeführt, Testberichte können heruntergeladen werden
+Akteure
+Anonymer Benutzer, registrierter Benutzer
+Eingehende Informa- Testkonfiguration / zu testende Ressource
+tionen
+Standardablauf
+
+Funktionale Anforderungen
+
+0,1,7,24,25,26,27,33,38,43,46,47,48,49,51,60,61,87,88
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+17 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.10 Testbericht abrufen
+Beschreibung Anwendungsfall
+Name
+Testbericht abrufen
+Kurzbeschreibung
+Abruf eines Testberichts
+Auslöser
+Abruf eines Testberichts aus der Übersicht aller Testberichte
+Ergebnis
+Erzeugung eines Testberichts zur Darstellung in der Webseite als HTML oder Bereitstellung einer Exportdatei als CSV-, PDF- oder XML-Datei
+Akteure
+Anonymer Benutzer, registrierter Benutzer
+Eingehende Informa- Auswahl eines Testberichts
+tionen
+Standardablauf
+
+Funktionale Anforderungen
+
+0,1,9,10,11,12,13,24,25,26,27,52,53,54,55,56,57,58,59,87,88
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+18 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.11 Testberichte löschen
+Beschreibung Anwendungsfall
+Name
+Testberichte löschen
+Kurzbeschreibung
+Testberichte können gelöscht werden
+Auslöser
+Test wurde ausgeführt, registrierter Benutzer befindet sich in Übersicht zu
+Testberichten
+Ergebnis
+Testberichte sind gelöscht
+Akteure
+Registrierter Benutzer
+Eingehende Informa- Vorhandene Testberichte
+tionen
+Standardablauf
+
+Funktionale Anforderungen
+
+0,9,10,11,12,13,22,23,24,26,58,59,87,88
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+19 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.12 Im Schattenmodus arbeiten
+Beschreibung Anwendungsfall
+Name
+Im Schattenmodus arbeiten
+Kurzbeschreibung
+Fachadministrator kann sich an Benutzerkonten von registrierten Benutzern anmelden und so die Sicht des jeweiligen Benutzers auf das System
+einnehmen, um Fehlfunktionen oder Fehlkonfigurationen leichter erkennen und nachvollziehen zu können.
+Auslöser
+Registrierter Benutzer meldet ein Problem, Fachadministrator befindet
+sich in der Übersicht der Benutzerkonten
+Ergebnis
+Fachadministrator konnte Problem analysieren
+Akteure
+Fachadministrator, registrierter Benutzer
+Eingehende Informa- Anmeldung beim Benutzerkonto des registrierten Benutzers
+tionen
+Standardablauf
+
+Funktionale Anforderungen
+
+1,3,12,17,24,27,30
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+20 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.13 Testklasse anlegen
+Beschreibung Anwendungsfall
+Name
+Testklasse anlegen
+Kurzbeschreibung
+Anlegen einer Testklasse
+Auslöser
+Aufruf der Testklassenübersicht
+Ergebnis
+Testklasse ist angelegt
+Akteure
+Fachadministrator
+Eingehende Informa- Verfügbare Testverfahren
+tionen
+Standardablauf
+
+Funktionale Anforderungen
+
+0,1,4,24,26,27,33, 35,36,38,39,40,41,42,63,87,88
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+21 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.14 Konformitätsklasse anlegen
+Beschreibung Anwendungsfall
+Name
+Konformitätsklasse anlegen
+Kurzbeschreibung
+Die Anwendung ermöglicht das Anlegen neuer Konformitätsklassen
+Auslöser
+Fachadministrator ist am System angemeldet
+Ergebnis
+Konformitätsklasse ist angelegt
+Akteure
+Fachadministration
+Eingehende Informa- Name, Beschreibung, Testsprache, Angabe Testarchive zum Upload,
+Angabe von Anhängen durch Verweise und/ oder Uploads,
+tionen
+weitere Parameter, abhängig von Testsprachenauswahl
+
+Standardablauf
+
+Funktionale Anforderungen
+
+0,1,4,24,26,27,33,34,35,36,40,42,63,87,88
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+22 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.15 Testklasse verwalten
+Beschreibung Anwendungsfall
+Name
+Testklasse verwalten
+Kurzbeschreibung
+Die Anwendung ermöglicht das Löschen und Bearbeiten von vorhandenen Testklassen
+Auslöser
+Aufruf der Testklassenübersicht
+Ergebnis
+Testklasse wurde bearbeitet oder gelöscht
+Akteure
+Fachadministrator
+Eingehende Informati- Ausgewählte Testklasse
+onen
+Standardablauf
+
+Funktionale Anforderungen
+
+Zuletzt geändert: 10.05.19
+
+0,1,3,4,24,26,33,34,36,37,38,40,42,63,87,88
+
+Version 1.1
+
+23 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.16 Konformitätsklassen aktualisieren
+Beschreibung Anwendungsfall
+Name
+Konformitätsklassen aktualisieren
+Kurzbeschreibung
+Fachadministratoren können Konformitätsklassen aktualisieren
+Auslöser
+Konformitätsklassen sollen oder müssen aktualisiert werden
+Ergebnis
+Konformitätsklassen sind aktuell
+Akteure
+Fachadministrator
+Eingehende Informa- Aktualisierte Testskripte, Informationen zu Konformitätsklassen
+tionen
+Standardablauf
+
+Funktionale Anforderungen
+
+0,1,3,26,69,70,71,72
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+24 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.17 Fachliches Monitoring durchführen
+Beschreibung Anwendungsfall
+Name
+Fachliches Monitoring durchführen
+Kurzbeschreibung
+Fachadministratoren können fachliche Eigenschaften des Systems überwachen. Dies impliziert Kennzahlen wie bspw. Anzahl Nutzer, Anzahl Testausführungen pro definiertem Zeitintervall (Tag/Monat/Jahr), Anzahl Testausführungen / Testkonfigurationen pro Testklasse / Konformitätsklasse,
+durchschnittliche Anzahl Testkonfigurationen pro Nutzer.
+Auslöser
+System ist in Benutzung
+Ergebnis
+Berichte zum fachlichen Monitoring
+Akteure
+Fachadministrator
+Eingehende Informa- Anonymisierte Daten aus der Benutzung des Systems
+tionen
+Standardablauf
+
+Funktionale Anforderungen
+
+1,3,26, 50
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+25 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.18 Basisparameter einstellen
+Beschreibung Anwendungsfall
+Name
+System betreiben
+Kurzbeschreibung
+Die Basisparameter des Systems können angepasst werden
+Auslöser
+Basisparameter müssen verändert werden, Installation des Systems
+Ergebnis
+Basisparameter wurden angepasst
+Akteure
+Systemadministrator
+Eingehende Informa- Neue Werte für Basisparameter
+tionen
+Standardablauf
+
+Funktionale Anforderungen
+
+68,92
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+26 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+3.19 System-Monitoring durchführen
+Beschreibung Anwendungsfall
+Name
+System Monitoring durchführen
+Kurzbeschreibung
+Nutzung des Monitoring Tools zur Systemüberwachung
+Auslöser
+System ist in Benutzung
+Ergebnis
+Berichte zum System Monitoring, Fehlermeldungen
+Akteure
+Systemadministrator; Monitoring System
+Eingehende Informa- Systemereignisse und -Protokolle
+tionen
+Standardablauf
+
++Funktionale Anforderungen
+
+69,70,71,72,98
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+27 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+4
+
+FUNKTIONALE ANFORDERUNGEN
+
+Das folgende Kapitel umfasst alle funktionalen Anforderungen an das System. Diese
+wurden nach funktionalen Gruppen angeordnet.
+
+4.1
+ID
+0
+
+4.2
+
+Funktionsumfang Altsystem
+Anforderungstext
+Der vollständige Funktionsumfang der bisherigen Lösung ist Bestandteil des neuen
+Systems
+
+Akzeptanzkriterium
+Die Neuentwicklung deckt die Funktionalitäten
+der bisherigen GDI-DE Testsuite vollumfänglich ab.
+
+Priorität
+Muss
+
+Benutzeroberfläche Startseite
+
+ID
+1
+
+Anforderungstext
+Das System ist eine
+Webanwendung mit
+Benutzeroberfläche
+
+Akzeptanzkriterium
+Die Webanwendung muss so gestaltet
+sein, dass sie funktional angelegt ist, den
+Vorgaben der ISO 9241 entspricht und so
+weit wie es zweckmäßig ist, die Anforderungen der BITV umsetzt.
+
+Priorität
+Muss
+
+2
+
+Das System besitzt
+eine Startseite.
+
+Die Startseite besitzt folgende Komponenten:
+
+Muss
+
+3
+
+4.3
+ID
+4
+
+Das System muss
+eine Startseite für angemeldete Benutzer
+besitzen.
+
+•
+
+Informationen zum Inhalt der GDI-DE
+Testsuite
+
+•
+
+Informationen zur Datenschutz
+
+•
+
+Einen Bereich für die Anmeldung am
+System
+
+•
+
+Eine Weiterleitung zur Nutzer-Registrierung
+
+Die Startseite für angemeldete Benutzer
+besitzt mindestens die folgenden Komponenten:
+•
+
+Schaltfläche zum Abmelden
+
+•
+
+Auswahlmöglichkeit zum Erstellen einer Testkonfiguration
+
+•
+
+Möglichkeit in Webseite Testmanagement zu wechseln
+
+Muss
+
+Benutzeroberfläche Testklassenverwaltung
+Anforderungstext
+Das System besitzt
+eine Webseite zur
+
+Zuletzt geändert: 10.05.19
+
+Akzeptanzkriterium
+Priorität
+Die Weboberfläche unterstützt die Eingabe Muss
+aller notwendigen Parameter zum Anlegen
+neuer Konformitätsklassen.
+Version 1.1
+
+28 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+
+Anforderungstext
+Verwaltung von Testklassen und Konformitätsklassen mit folgendem Umfang:
+•
+
+4.4
+ID
+5
+
+Akzeptanzkriterium
+Die Weboberfläche verfügt über eine
+Übersichtstabelle mit allen Testklassen
+und Konformitätsklassen.
+
+Priorität
+
+Die Weboberfläche ist nur für die Rolle
+Übersicht über
+Fachadministrator verfügbar
+alle Testklassen
+und Konformitätsklassen
+
+•
+
+Assistent zum
+Anlegen neuer
+Testklassen mit
+Angabe von
+Name, Beschreibung und
+
+•
+
+Zuordnung von
+Konformitätsklassen zu Testklassen
+
+Benutzeroberfläche Testmanagement
+Anforderungstext
+Das System besitzt
+eine Benutzeroberfläche zur Erstellung einer Testkonfiguration
+
+Zuletzt geändert: 10.05.19
+
+Akzeptanzkriterium
+Die Benutzeroberfläche besitzt die folgenden Eingabefelder:
+•
+
+ID: Wird automatisch generiert (nach
+speichern)
+
+•
+
+Name: Freitext
+
+•
+
+Beschreibung: Freitext
+
+•
+
+Testklasse: Auswahlbox mit den bestehenden Testklassen
+
+•
+
+Konformitätsklassen: Anzeige und
+Auswahlmöglichkeiten der zur Testklasse gehörenden Konformitätsklassen verpflichtend/optional
+
+•
+
+Dienstequalität: Auswahlmöglichkeit
+ob Dienstequalität mit getestet werden
+soll; nur bei Testklassen, die Dienste
+testen
+
+•
+
+Datensatz/Dienst: Auswahl URL / Datei mit Eingabemöglichkeit
+
+•
+
+E-Mail-Benachrichtigung: Auswahlmöglichkeit, ob eine Benachrichtigungs-E-Mail verschickt werden soll,
+wenn der Test durchgeführt wurde und
+Version 1.1
+
+Priorität
+Muss
+
+29 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+
+Anforderungstext
+
+Akzeptanzkriterium
+ein Testergebnis vorliegt: nein/ja/bei
+Fehler
+•
+
+6
+
+Die Benutzeroberfläche "Testmanagement" verfügt über
+eine Tabelle mit allen
+Testkonfigurationen
+des angemeldeten
+Benutzers.
+
+7
+
+Die Benutzeroberfläche "Testmanagement" verfügt über
+eine Schaltfläche
+"Testkonfiguration
+ausführen" zu jeder
+Testkonfiguration, mit
+der Testkonfigurationen ausgeführt werden können.
+
+8
+
+Die Tabelle mit den
+Testkonfigurationen
+im Bereich Testmanagement muss über
+Schaltflächen in den
+Spaltenköpfen sortierbar sein
+
+4.5
+ID
+9
+
+Priorität
+
+Ausführungswiederholung: Angabe eines Zeitraums und Intervalls, in dem
+Tests regelmäßig ausgeführt werden
+sollen.
+
+Die Übersicht aller Testkonfigurationen
+enthält mindestens die folgenden Informationen:
+• ID,
+• Name,
+• Beschreibung,
+• Testklasse,
+• Testdatum
+Durch Betätigung der Schaltfläche "Testkonfiguration ausführen" werden die entsprechenden Testklassen aufgerufen.
+
+Alle Tabellenspalten sind sortierbar.
+
+Muss
+
+Muss
+
+Muss
+
+Benutzeroberfläche Testberichte
+Anforderungstext
+Das System besitzt
+eine Webseite, die
+eine tabellarische
+Übersicht aller Testberichte eines Benutzers enthält.
+
+Zuletzt geändert: 10.05.19
+
+Akzeptanzkriterium
+Priorität
+Die tabellarische Übersicht enthält mindes- Muss
+tens folgende Spalten:
+• Ergebnis,
+• ID des Berichtes,
+• Testname,
+• ID der Testkonfiguration,
+• Beschreibung/Getestete Ressource,
+• Ausgeführt am,
+• Details
+Innerhalb der Tabelle gibt es keine Scrollbalken
+Version 1.1
+
+30 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+10
+
+11
+
+Anforderungstext
+Über die Spalte Details in der Tabelle zu
+den Testberichten
+müssen Detailinformationen zum durchgeführten Testdurchlauf abgefragt werden
+können.
+
+Akzeptanzkriterium
+Detailansichten haben folgenden Inhalt:
+
+Priorität
+Muss
+
+•
+
+Übersicht der Ergebnisse je Konformitätsklasse (Anzahl bestanden, mit
+Fehler, mit Warnung)
+• Auflistung der durchgeführten Einzeltests
+• Beschreibung der ATS je Einzeltest
+• Ergebnis der Einzeltests (Erfolgsmeldung, Fehlermeldung)
+• Abrufbare Links zur Ressource, Anfrage und Antwort zu jedem Test
+• Zusätzlich bei Schemavalidierungstests Referenz zur Fehlerfundstelle im
+XML-Dokument
+Die Detailansicht zu
+Die Detailansicht muss nach den folgenden Testberichten be- den Statuslevels gefiltert werden können:
+sitzt eine Möglichkeit
+• bestanden
+zur Filterung der An• mit Warnung
+sicht nach dem Sta• mit Fehler
+tus des Einzeltests.
+
+Muss
+
+12
+
+Tabellen müssen immer über die Kopfzeile spaltenweise
+auf- und absteigend
+sortierbar sein.
+
+Die Tabellen zu Testkonfiguration, Testberichten und Benutzerkonten erfüllen die
+Anforderung.
+
+13
+
+Das System muss
+Testberichte in Webseitenform ausliefern
+können.
+
+Testberichte können aus der Übersicht al- Muss
+ler Testberichte heraus als eigene Webseiten aufgerufen werden.
+
+4.6
+ID
+14
+
+Muss
+
+Benutzeroberfläche Benutzerverwaltung
+Anforderungstext
+Das System besitzt
+eine Funktionalität
+zum Registrieren eines neuen Benutzerkontos
+
+Zuletzt geändert: 10.05.19
+
+Akzeptanzkriterium
+Das Anmeldeformular umfasst folgende
+Felder:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Priorität
+Muss
+
+Benutzername
+Passwort
+Passwort wiederholen
+Anrede
+Vorname
+Name
+Email-Adresse
+Sprache
+Bestätigung der Nutzungsbedingungen
+
+Version 1.1
+
+31 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+
+Anforderungstext
+
+15
+
+Das System verfügt
+über ein Double OptIn Verfahren zur Registrierung neuer Benutzerkonten
+
+16
+
+Der Login für Fachadministratoren ist nur
+über ein Multi-Factor
+Authentifizierungsverfahren (MFA) möglich.
+
+Der Login ist für Fachadministratoren ausschließlich über MFA möglich.
+
+Das System muss
+mehrere gleichzeitige
+Anmeldungen an einem Benutzerkonto
+zulassen.
+
+Zwei Nutzer können gleichzeitig mit identischem Benutzerkonto angemeldet sein
+und unabhängig voneinander alle Funktionalitäten nutzen
+
+17
+
+Akzeptanzkriterium
+Priorität
+• Bestätigung Datenschutzbestimmungen und Zustimmung zur Verarbeitung
+personenbezogener Daten
+• Captcha Bestätigung
+Benutzerkonten werden erst nach dem An- Muss
+klicken des Links in der Registrierungsbestätigungs-Email freigeschaltet.
+
+Muss
+
+Das System verfügt über einen entsprechenden Mechanismus
+
+Muss
+
+Sind mehrere Nutzer beim gleichen Benutzerkonto angemeldet, werden entsprechende Warnmeldungen ausgegeben.
+Der Schattenmodus funktioniert wie spezifiziert.
+
+18
+
+19
+
+Das System stellt registrierten Nutzern
+Funktionalitäten bereit, um das eigene
+Benutzerkonto zu
+verändern und zu löschen.
+
+Folgende Daten können durch den Nutzer
+verändert werden:
+
+Das System verfügt
+über Funktionen zum
+Anlegen, Bearbeiten
+und Löschen von Benutzerkonten
+
+Die Funktionen sind in der tabellarischen
+Übersicht zu den Nutzerkonten umgesetzt.
+
+Muss
+
+• Benutzername
+• Anrede
+• Vorname
+• Name
+• E-Mail Adresse
+• Sprache
+Ferner gibt es einen Dialog um das Passwort des Benutzerkontos zu ändern
+Muss
+
+Fachadministratoren verfügen über alle
+drei Funktionen. Fachadministratoren dürfen lediglich das Passwort eines Benutzerkontos verändern. Registrierte Benutzer
+dürfen nur ihr eigenes Benutzerkonto anlegen, bearbeiten und löschen.
+Beim Löschen eines Benutzerkontos werden auch alle Testkonfigurationen und
+Testberichte des Benutzers gelöscht.
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+32 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+20
+
+21
+
+4.7
+ID
+50
+
+Anforderungstext
+Das System besitzt
+eine Webseite mit einer tabellarischen
+Übersicht zu den vorhandenen Benutzerkonten, die von Fachadministratoren abgerufen werden kann
+
+Akzeptanzkriterium
+Die Tabelle enthält folgende Spalten:
+
+Das System verfügt
+über eine Funktionalität zum Auslesen aller Email-Adressen
+der Nutzer des Systems, die der Rolle
+Fachadministrator zur
+Verfügung steht.
+
+Die Funktionalität wird über den Bereich
+Nutzerverwaltung zur Verfügung gestellt.
+
+Anforderungstext
+Das System besitzt
+eine Webseite für die
+Visualisierung von
+Kennzahlen zur fachlichen Systemnutzung:
+
+•
+
+ID
+22
+
+• Benutzername
+• Name
+• Vorname
+• E-Mail
+Die Übersicht zu den Benutzerkonten ist
+nur durch Fachadministratoren einsehbar
+Muss
+
+Die Funktionalität steht nur der Rolle Fachadministrator zur Verfügung
+Die Funktionalität wird nicht über einen
+"mailto"-Link realisiert.
+
+Benutzeroberfläche Fachliches Monitoring
+
+•
+
+4.8
+
+Priorität
+Muss
+
+Übersicht Kennzahlen (fortlaufende Aktualisierung)
+Auswahl bestimmter Kennzahlen und vordefinierter Zeitintervalle zur Anzeige einer grafischen Auswertung
+
+Akzeptanzkriterium
+Die Weboberfläche verfügt über eine
+Übersicht aller geführten Kennzahlen. Der
+Fachadministrator kann einen bestimmten
+Zeitpunkt auswählen und es werden die
+entsprechenden Werte angezeigt (standardmäßig werden die aktuellen Werte angezeigt).
+
+Priorität
+Muss
+
+Die Weboberfläche unterstützt die grafische Anzeige bestimmter Kennzahlen für
+ein vom Nutzer definiertes Zeitintervall
+(Tag, Monat, Jahr).
+Der Nutzer kann sich einen Bericht im
+CSV- oder PDF-Format mit allen Kennzahlen herunterladen.
+
+Benutzeroberfläche allgemein
+Anforderungstext
+Das System muss
+Suchmasken zum
+Auffinden von Testkonfigurationen, Testberichten und Benutzerkonten besitzen
+
+Zuletzt geändert: 10.05.19
+
+Akzeptanzkriterium
+Suchmasken müssen auf den Feldern
+Name, Testklasse, Datum, Ergebnis,
+Name, Vorname und Nutzername
+
+Version 1.1
+
+Priorität
+Muss
+
+33 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+23
+
+Anforderungstext
+Das System unterstützt bei allen vorkommenden Suchfeldern eine Autovervollständigung
+
+Akzeptanzkriterium
+Priorität
+Autovervollständigung ist mindestens für
+Muss
+die Suchfelder im Bereich Testberichte sowie im Bereich Testmanagement umzusetzen
+
+24
+
+Das System verfügt
+bei allen interaktiven
+Elementen der Benutzeroberfläche über
+Tooltips.
+
+Jedes interaktive Element besitzt ein
+Tooltip.
+
+Das System soll eine
+Nutzerführung in
+Form von Assistenten
+für die Prozesse
+"Test ausführen",
+"Bericht abrufen" und
+"Anlegen einer Testkonfiguration" bereitstellen.
+
+Für folgende Prozesse sind Assistenten
+vorhanden:
+
+26
+
+Das System muss
+über eine Online-Hilfe
+verfügen.
+
+Die Online-Hilfe erläutert alle Systemfunktionalitäten
+
+Muss
+
+27
+
+Das System muss bei
+Nutzer-System-Interaktionen eine Fortschrittsanzeige in der
+Benutzeroberfläche
+darstellen
+
+Eine Fortschrittsanzeige wird ab einer Prozessierungsdauer von 3 Sekunden dargestellt
+
+Muss
+
+28
+
+Das System muss
+das Paradigma
+Responsive Design
+für alle Weboberflächen berücksichtigen
+
+Alle Komponenten des Systems mit Weboberflächen berücksichtigen Responsive
+Design
+
+Muss
+
+29
+
+Das System muss
+Alle Komponenten des Systems mit Webdas Corporate Design oberflächen verwenden das Corporate Deder GDI-DE nutzen
+sign der GDI-DE. Notwendige Dokumentationen werden durch den AG bereitgestellt.
+
+Muss
+
+30
+
+Das System besitzt
+einen Schattenmodus, der der Rolle
+Fachadministrator zur
+Verfügung steht
+
+Muss
+
+25
+
+Die Texte der Tooltips sind über eine Datei
+außerhalb des Quellcodes konfigurierbar
+
+•
+•
+•
+
+Muss
+
+Test ausführen
+Bericht abrufen
+Anlegen einer Testkonfiguration
+
+Die Assistenten sind in Form von mehrstufigen Webformularen implementiert.
+
+Der Schattenmodus steht der Rolle Fachadministrator zur Verfügung und besitzt
+folgende Funktionalitäten:
+•
+•
+
+Zuletzt geändert: 10.05.19
+
+Muss
+
+Zugriff auf die Bereiche Testmanagement und Testberichte beliebiger Benutzerkonten
+Dem Fachadministrator stehen alle
+Funktionalitäten dieser Bereiche zur
+Verfügung
+Version 1.1
+
+34 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+
+Anforderungstext
+
+31
+
+Es dürfen keine iFrames verwendet werden
+
+32
+
+Im Rahmen der Feinkonzeption ist ein
+Click-Prototyp für die
+Benutzeroberfläche
+zu entwickeln, der,
+nach Abstimmung mit
+dem AG, Bestandteil
+des Pflichtenheftes
+ist.
+
+4.9
+
+Akzeptanzkriterium
+• Über eine spezielle Schaltfläche kann
+der Schattenmodus beendet werden
+• Der Schattenmodus ist geeignet, "inaktive" Nutzerkonten zu sichten
+Es ist nachzuweisen, dass keine iFrames
+zum Einsatz kommen.
+
+Priorität
+
+Der Click-Prototyp ist hinsichtlich der Benutzerführung vollständig.
+
+Muss
+
+Muss
+
+Testklassenverwaltung
+
+ID
+33
+
+Anforderungstext
+Hinsichtlich der Überprüfung der Dienstqualität ist im Rahmen der Feinkonzeption ein Konzept zu
+erarbeiten
+
+Akzeptanzkriterium
+Das Konzept deckt alle QoS Anforderungen aus den INSPIRE Guidance Dokumenten ab.
+
+Priorität
+Muss
+
+34
+
+Der AN muss ein
+Konzept vorlegen,
+welches eine technische Lösung für die
+Aktualisierung von
+Testklassen im laufenden Betrieb beschreibt.
+
+Das Konzept berücksichtigt die vorhandene Infrastruktur auf der Basis von git.
+
+Muss
+
+Das System besitzt
+eine Funktionalität
+zur Erstellung neuer
+Konformitätsklassen
+
+Beim Anlegen neuer Konformitätsklassen
+müssen die folgenden Parameter angegeben werden können:
+
+35
+
+Zuletzt geändert: 10.05.19
+
+Das Konzept berücksichtigt die Zielsetzung, dass triviale Aktualisierungen von
+Testklassen (bspw. Formulierungsfehler)
+ohne Neustart des Systems erfolgen müssen.
+Muss
+
+•
+•
+•
+•
+•
+
+Name
+Beschreibung
+Testsprache
+Angabe Testarchive zum Upload
+Angabe von Anhängen durch Verweise und/ oder Uploads
+• weitere Parameter, abhängig von
+Testsprachenauswahl
+Die Funktionalität ist nur für die Rolle
+Fachadministrator verfügbar
+Version 1.1
+
+35 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+36
+
+Anforderungstext
+Das System unterstützt Executable
+Test Suites (ETS) auf
+der Basis von
+TestNG und CTL
+(OGC Compliance
+Testing Language).
+
+Akzeptanzkriterium
+Alle in der bisherigen GDI-DE Testsuite
+vorhandenen Testklassen müssen integriert und ausgeführt werden können.
+
+37
+
+Das System muss für
+die Rolle Fachadministrator einen Mechanismus vorhalten,
+der Aktualisierungen
+von Testklassen im
+laufenden Betrieb ermöglicht.
+
+Der Aktualisierungsmechanismus wird an- Muss
+hand des vorgelegten Konzeptes realisiert.
+
+38
+
+Das System unterstützt das Testen von
+geschützten Diensten.
+
+Folgende Autorisierungsmethoden werden
+unterstützt:
+
+39
+
+40
+
+• Benutzername/ Passwort
+• HTTP Basic Authentication
+Das System soll es
+Über folgende Eingabeformate sollen
+ermöglichen, mehrere mehrere Ressourcen für eine TestkonfiguRessourcen zu einer
+ration angegeben werden können:
+Testklasse in einer
+• XML-Dateien
+Testkonfiguration an• Zip-Dateien mit mehreren XML-Dazugeben und zu testeien
+ten.
+• URLs für GetRecordById-Anfragen
+• URLs für CSW GetCapabilities-Anfragen
+Das System muss
+Die ETS des INSPIRE Validator zu MetaSchnittstellen besitdaten, Darstellungsdiensten, Downloadzen, um weitere Exe- diensten und Interoperabilitätsanforderuncutable Test Suites
+gen an Datensätze (http://inspire-sand(ETS) zu integrieren
+box.jrc.ec.europa.eu/validator/) können
+ausgeführt werden.
+
+Priorität
+Muss
+
+Muss
+
+Muss
+
+Muss
+
+Dabei sind die zum Zeitpunkt der Auftragsvergabe aktuellen Versionen zu unterstützen.
+41
+
+Das System besitzt
+eine Funktionalität
+zur Erstellung neuer
+Testklassen
+
+Zuletzt geändert: 10.05.19
+
+Beim Anlegen neuer Testklassen müssen
+die folgenden Parameter angegeben werden können:
+•
+•
+•
+•
+•
+•
+
+Muss
+
+Name
+Beschreibung
+Version
+Servicetyp
+Status
+weitere Parameter, abhängig von der
+Testsprachenauswahl
+Version 1.1
+
+36 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+
+Anforderungstext
+
+Akzeptanzkriterium
+Die Funktionalität ist nur für die Rolle
+Fachadministrator verfügbar.
+
+Priorität
+
+42
+
+Das System muss
+Abhängigkeiten zwischen Konformitätsklassen innerhalb einer Testklasse ermöglichen.
+
+Mehrstufige Testklassen können korrekt
+ausgeführt werden. Mindestens Konformitätsklassen auf der Basis von XML-Schemavalidierungen mit abhängigen weiterführenden Tests müssen unterstützt werden.
+
+Muss
+
+43
+
+Das System muss
+das Testen von sehr
+großen Ressourcen
+ermöglichen.
+
+Dateien von 5 GB Größe können getestet
+werden.
+
+Muss
+
+4.10 Testmanagement
+ID
+44
+
+Anforderungstext
+Das System verfügt
+über eine Funktionalität zum Anlegen
+neuer Testkonfigurationen
+
+Akzeptanzkriterium
+Neue Testkonfigurationen können über die
+API und über die Benutzeroberfläche angelegt werden
+
+Priorität
+Muss
+
+45
+
+Das System verfügt
+über eine Funktionalität zur Auflistung aller
+Testkonfigurationen
+eines Benutzerkontos
+
+Übersichten zu Testkonfigurationen können über die API und über die Benutzeroberfläche abgerufen werden.
+
+Muss
+
+46
+
+Das System verfügt
+über eine Funktionalität zum Ausführen
+von Testkonfigurationen
+
+Testkonfigurationen können über die API
+und die Benutzeroberfläche ausgeführt
+werden.
+
+Muss
+
+47
+
+Das System muss
+eine Funktion bereitstellen mit der der
+Nutzer gestartete
+Testdurchläufe abbrechen kann.
+
+Durch aktives Eingreifen durch den Nutzer
+werden Testdurchläufe abgebrochen und
+der Ausgangszustand wiederhergestellt.
+Bricht ein Nutzer einen Testdurchlauf ab,
+wird dieser angehalten.
+
+Muss
+
+48
+
+Testkonfigurationen
+können nur mit vorgegebenen Werten für
+die Abfrageintervalle
+ohne Zustimmung
+des Dienstbetreibers
+angelegt und ausgeführt werden.
+
+Es ist nicht möglich, ohne Zustimmung des Muss
+Dienstbetreibers Tests mit einem höheren
+Intervall als 1 Testausführung/ Tag anzulegen und auszuführen. Mit Zustimmung des
+Dienstbetreibers gibt es keine Beschränkung
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+37 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+49
+
+Anforderungstext
+Das System ermöglicht registrierten Benutzern mit Dienstbetreiberzustimmung
+das Einstellen von
+Testwiederholungsintervallen in der Testkonfiguration
+
+Akzeptanzkriterium
+Die Einstellmöglichkeit für Intervalltests
+kann über eine Bestätigungsemail an den
+Dienstbetreiber freigeschaltet werden. Die
+Eingabe von Testintervallen ist auf Ganzzahlen beschränkt. Das kleinste Intervall
+ist 1 Stunde.
+
+Priorität
+Muss
+
+51
+
+Der Nutzer kann sich
+beim System abmelden, ohne dass gestartete Testdurchläufe abgebrochen
+werden.
+
+Nach gestarteter Testausführung kann
+sich der Nutzer abmelden, ohne dass die
+Testausführung abgebrochen wird. Nach
+erneuter Anmeldung sieht der Nutzer den
+Status dieser Testausführung (abgeschlossen, laufend)
+
+Muss
+
+Akzeptanzkriterium
+CSV-Dateien müssen folgenden Kriterien
+entsprechen:
+
+Priorität
+Muss
+
+4.11 Testberichte
+ID
+52
+
+53
+
+54
+
+Anforderungstext
+Das System muss
+Testberichte als
+Komma-separierte
+Dateien (*.csv) ausliefern können.
+Das System muss
+Testberichte als PDFDokument (*.pdf)
+ausliefern können
+
+•
+
+Sie können mit MS Excel geöffnet werden
+• Sie enthalten alle Informationen zu einem Testbericht
+PDF-Dateien müssen folgenden Kriterien
+Muss
+entsprechen:
+•
+
+Sie können erfolgreich mit PDF-Readern geöffnet werden
+• Sie enthalten alle Informationen zu einem Testbericht
+Das System muss
+XML-Dateien müssen folgenden Kriterien
+Testberichte als XML- entsprechen:
+Dokumente ausliefern • Sie können erfolgreich mit einem Textkönnen.
+Editor geöffnet werden
+
+Muss
+
+•
+
+55
+
+56
+
+Sie enthalten alle Informationen zu einem Testbericht
+• Sie basieren auf einem im Rahmen
+des Pflichtenheftes erstellten XMLSchema
+Testberichte enthalTestberichte zur gleichen Testausführung
+ten formatunabhängig enthalten im HTML, CSV, PDF und XML
+immer den gleichen
+Format die gleichen Informationen.
+Informationsgehalt
+Testberichte sind immer gleich aufgebaut.
+
+Zuletzt geändert: 10.05.19
+
+Testberichte enthalten die folgenden Elemente:
+Version 1.1
+
+Muss
+
+Muss
+
+38 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+
+Anforderungstext
+
+Akzeptanzkriterium
+Priorität
+• Status der Testausführung (nicht ausgeführt, bestanden, nicht bestanden)
+• Eine Liste mit generierten Kommentaren während der Testausführung, z.B.
+Warnungen, wie sie bei der Schemavalidierung auftreten können
+• ID des Berichtes
+• ID der Testkonfiguration
+• Uhrzeit / Datum der Testausführung
+• Vom Nutzer konfigurierte Bezeichnung
+des ausgeführten Tests
+• Verwendete Testvorlage(n)
+• Kennzeichnung des geprüften Datensatzes/Dienstes
+• Verwendete Diensteanfragen im Volltext
+• Erhaltene Diensteantworten, insbesondere Fehlermeldungen
+* Die Einträge des Feldes "ID der Testkonfiguration" sind Verlinkungen in die entsprechende Übersicht einer Testkonfiguration
+
+57
+
+Fehlermeldungen in
+Testberichten sind
+immer nach dem gleichen Muster aufgebaut.
+
+Folgendes gilt für die Darstellung von Fehlermeldungen in Testberichten:
+
+58
+
+59
+
+Das System besitzt
+Einstellmöglichkeiten
+zur Auswahl des Inhaltes von zu erzeugenden Testberichten
+
+Das System verfügt
+über eine Funktionalität zur Auflistung aller
+
+Zuletzt geändert: 10.05.19
+
+Muss
+
+•
+
+Technische Stacktraces sind menschenlesbar
+• Hauptmeldungen von Stacktraces sind
+ohne technisches Know-How für den
+Nutzer verständlich.
+• Fehlermeldungen sind über die TestEngine Grenzen hinweg gleichförmig
+aufbereitet
+• Die fehlerhaften Stellen einer getesteten Ressource sind identifizierbar
+• Filtereinstellungen wirken sich auf die
+Darstellung im Testbericht aus
+Folgende Einstellmöglichkeiten werden
+unterstützt:
+
+Muss
+
+•
+
+Kurzfassung und Detailansicht zu den
+einzelnen Tests
+• Zusammenfassung des Ergebnisses
+und vollständige Auflistung aller Tests
+• Filter nach bestandenen Tests und
+Fehlern
+Die Auflistung enthält alle Testberichte eines Benutzers inklusive der Informationen
+zu Ergebnis, ID des Berichtes, Testname,
+ID der Testkonfiguration, Beschreibung
+des Testverfahrens (welche Ressource
+Version 1.1
+
+Muss
+
+39 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+
+Anforderungstext
+Testberichte eines
+Benutzerkontos.
+
+Akzeptanzkriterium
+Priorität
+wurde getestet), Ausführungszeitpunkt und
+Details
+
+4.12 Schnelltestmodus
+ID
+60
+
+Anforderungstext
+Das System muss zusätzlich über einen
+Schnelltestmodus mit
+verringertem Funktionsumfang verfügen
+
+Akzeptanzkriterium
+Der vorgesehene Funktionsumfang für
+diese Version des Systems, Schnelltestmodus genannt, umfasst:
+
+Priorität
+Muss
+
+• Auswahl einer Testklasse
+• Ausführen von Tests
+• Ausgabe von Testberichten
+• Download von Testberichten
+Die Weboberfläche zur Testausführung ist
+dabei vereinfacht.
+Der Schnelltestmodus umfasst eine "Standard-Testkonfiguration" für jede Testklasse, die jeweils eine vordefinierte Testkonfiguration darstellt.
+Die Testausführung kann nur Online erfolgen.
+Testberichte werden nicht gespeichert.
+
+61
+
+Der Schnelltestmodus ist über die Startseite der Webanwendung verfügbar.
+
+Der Schnelltestmodus kann ohne Benutzeranmeldung genutzt werden.
+
+Muss
+
+Akzeptanzkriterium
+Die Berechtigungen für die 4 Rollen anonymer Benutzer, registrierter Benutzer,
+Fachadministrator und Systemadministrator sind korrekt.
+
+Priorität
+Muss
+
+Akzeptanzkriterium
+Abgespeicherte Zugangsdaten sind verschlüsselt
+
+Priorität
+Muss
+
+4.13 Rollen
+ID
+62
+
+Anforderungstext
+Das System implementiert das Rollenkonzept vollständig
+und korrekt.
+
+4.14 Datenhaltung
+ID
+63
+
+Anforderungstext
+Das System sieht generell zur Speicherung von Zugangsdaten eine Verschlüsselung vor.
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+40 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+64
+
+Anforderungstext
+Die Daten des bestehenden Systems
+müssen übernommen
+werden.
+
+Akzeptanzkriterium
+Verlustfreie Übernahme der Daten (Nutzer, Testklassen, Konformitätsklassen,
+Testkonfigurationen, Testberichte, QoSDaten).
+
+Priorität
+Muss
+
+4.15 Mehrsprachigkeit
+ID
+68
+
+Anforderungstext
+Das System verfügt
+über einen Konfigurationsmechanismus für
+die Pflege der Übersetzungen.
+
+Akzeptanzkriterium
+Priorität
+Einträge über den KonfigurationsmechaMuss
+nismus erfordern keine Programmierkenntnisse
+Die Übersetzungen werden zentral abgelegt.
+
+4.16 System-Monitoring
+ID
+69
+
+Anforderungstext
+Es muss ein Konzept
+zum Monitoring der
+GDI-DE Testsuite
+Komponenten erarbeitet werden.
+
+Akzeptanzkriterium
+Das Konzept enthält Anforderungen an
+das Monitoring aller Komponenten unter
+der besonderen Berücksichtigung spezifischer Anforderungen die sich aus der zugrundeliegenden Systemarchitektur ergeben.
+
+Priorität
+Muss
+
+Das Konzept legt dar, welche Parameter
+für das Monitoring relevant sind.
+Es ist Bestandteil des Systementwurfs.
+70
+
+Das System muss
+über eine LoggingKomponente verfügen, welche menschenlesbare Logs
+erzeugt.
+
+Geschriebene Log-Daten sind menschenlesbar.
+
+Muss
+
+71
+
+Das Log-System ist
+mehrstufig und protokolliert alle relevanten
+Verarbeitungsschritte.
+
+Das Logsystem ist mindestens 3-stufig
+(Info, Warnung, Fehler)
+
+Muss
+
+Fehlermeldungen des
+Systems bei Testausführungen müssen so
+umfänglich sein, dass
+die Fehlerursache
+eindeutig abzuleiten
+ist.
+
+Bei jeder Fehlermeldung wird im Testbericht der fehlgeschlagene Test beschrieben und weitere Informationen, wie beispielsweise die Stelle an der der Fehler
+aufgetreten ist, zum aufgetretenen Fehler
+ausgegeben.
+
+72
+
+Zuletzt geändert: 10.05.19
+
+Im ausführlichsten Modus werden alle Verarbeitungsschritte protokolliert.
+
+Version 1.1
+
+Muss
+
+41 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+98
+
+Anforderungstext
+Staging- und Produktiv-installation werden
+mit einem Monitoringsystem bereitgestellt.
+
+Akzeptanzkriterium
+Das Monitoringsystem erfüllt die Vorgaben
+des Monitoringkonzeptes.
+
+Priorität
+Muss
+
+4.17 API´s
+ID
+87
+
+Anforderungstext
+Das System muss
+eine SOAP-Schnittstelle besitzen.
+
+Akzeptanzkriterium
+Die SOAP-Schnittstelle deckt alle Funktionen, die angemeldeten Nutzern zur Durchführung von Tests und zum Abrufen von
+Testergebnissen zur Verfügung stehen,
+ab.
+
+Priorität
+Muss
+
+88
+
+Das System muss
+eine REST-Schnittstelle besitzen.
+
+Die REST-Schnittstelle deckt alle Funktionen, die angemeldeten Nutzern zur Durchführung von Tests und zum Abrufen von
+Testergebnissen zur Verfügung stehen,
+ab. Die Schnittstellenbeschreibung soll gemäß Open API Specification erfolgen.
+
+Muss
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+42 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+5
+
+NICHT-FUNKTIONALE ANFORDERUNGEN
+
+5.1
+
+Randbedingungen
+
+ID
+65
+
+Anforderungstext
+Akzeptanzkriterium
+Das System nutzt das In der Datenbank werden folgende InforDBMS PostgreSQL
+mationen abgelegt:
+
+73
+
+Alle eingesetzten
+Softwarepakete besitzen eine Open
+Source Lizenz.
+
+74
+
+Das System ist plattformunabhängig
+
+75
+
+76
+
+• Testkonfigurationen
+• Benutzerkonten
+• Übersetzungen
+• Testberichte
+Der Bieter muss darlegen, welche LizenMuss
+zen die verwendeten Komponenten besitzen und welche bei Neuentwicklungen verwendet werden und welche Nutzungsrechte und -pflichten mit diesen einhergehen.
+Das System ist mindestens unter folgenden Betriebssystemen lauffähig:
+
+• MS Windows Server 2012,
+• Ubuntu Server Edition 16.0.4 LTS
+Das System muss mit Mindestens Apache, NGINX und IIS müseinem Standardwebs- sen unterstützt werden
+erver serverseitig betrieben werden können.
+Das System muss
+mit verbreiteten Programmiersprachen
+und Frameworks entwickelt werden.
+
+77
+
+Das System ist so
+einstellbar, dass
+sämtliche Kommunikation nach außen
+über HTTPS Port 443
+sowie SMTP Port 25
+durchgeführt wird.
+
+78
+
+Das System muss
+vollständig in den folgenden Browsern
+korrekt funktionieren:
+IE ab Version 10, aktuelle Versionen von
+
+Zuletzt geändert: 10.05.19
+
+Priorität
+Muss
+
+Die gewählten Programmiersprachen und
+Frameworks erfüllen Mindestanforderungen in Bezug auf
+
+Muss
+
+Muss
+
+Muss
+
+•
+
+Ausgereiftheit (Dauer Marktverfügbarkeit, Versionsstand, Versions- und
+Supportzyklen)
+• Anzahl Installationen weltweit,
+• Verfügbarkeit von Erweiterungen / Ergänzungen
+Das System ist bei Sperrung sämtlicher
+anderer Ports voll funktionsfähig.
+
+Die zu unterstützenden Browser müssen
+in der nach SAGA-Modul „Technische
+Spezifikationen“ de.bund 5.0.0, Kapitel 6
+vorgegebenen Konfiguration vollständig
+unterstützt werden.
+
+Version 1.1
+
+Muss
+
+Muss
+
+43 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+
+Anforderungstext
+Firefox, Chrome und
+Safari
+
+Akzeptanzkriterium
+
+Priorität
+
+79
+
+Das System muss die Die Webanwendung funktioniert ohne im
+Vorgaben des SAGA- Browser aktiviertes JavaScript vollständig.
+Moduls „Technische
+Spezifikationen“
+de.bund 5.0.0, Kapitel
+6 hinsichtlich aktiver
+Inhalte und JavaScript erfüllen.
+
+Muss
+
+80
+
+Alle Systemkomponenten müssen UTF8 Daten verarbeiten
+und fehlerfrei darstellen
+
+UTF-8 muss gem. Vorgaben des SAGAModul „Technische Spezifikationen“
+de.bund 5.0.0, Kapitel 7.2 als Kodierung
+verwendet bzw. unterstützt werden.
+
+Muss
+
+84
+
+Das System hat den
+Schutzbedarf "normal". Es sind die entsprechenden Bausteine und Maßnahmen gem. zum Ausschreibungszeitpunkt
+aktuellem BSI ITGrundschutz umzusetzen.
+
+Bausteine und Maßnahmen sind zu benennen und nach Absprache umzusetzen.
+
+Muss
+
+85
+
+Das Projekt ist gemäß V-Modell XT 2.2
+durchzuführen
+
+Es findet ein Tailoring statt. Alle nicht
+durch das Tailoring beeinflussbaren Produkte, Rollen und Aktivitäten müssen korrekt umgesetzt werden.
+
+Muss
+
+Alle darüber hinaus durch das Tailoring
+festgelegten Produkte, Rollen und Aktivitäten müssen umgesetzt werden.
+86
+
+Im Rahmen der Projektinitialisierung ist
+ein Konzept zur vorgesehenen Entwicklungsmethode für das
+System vorzulegen
+
+Der AN hat darzulegen, welche Entwicklungsstrategie gem. V-Modell XT gewählt
+wird und wie diese umgesetzt werden soll.
+
+Muss
+
+89
+
+Das System erfüllt die Die geplante Systemarchitektur ist im SysAnforderungen an
+tementwurf darzulegen.
+eine diensteorientierte Architektur
+gem. SAGA-Modul
+„Technische Spezifikationen“ de.bund
+5.0.0, Kapitel 5
+
+Muss
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+44 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+93
+
+5.2
+
+Anforderungstext
+Das System muss auf
+verbreiteten, zukunftssicheren und
+nachhaltigen Technologien basieren
+
+Akzeptanzkriterium
+Im Rahmen des Angebotes ist darzulegen,
+welche Technologien zum Einsatz kommen und es sind Aussagen zur Zukunftssicherheit und Verbreitung zu treffen.
+
+Priorität
+Muss
+
+Qualitätsanforderungen
+
+ID
+66
+
+Anforderungstext
+Testergebnisse werden abhängig von der
+Sprachauswahl angezeigt.
+
+Akzeptanzkriterium
+Priorität
+Testergebnisse werden abhängig von der Muss
+Sprachauswahl ausgegeben. Standardmäßig ist dies Deutsch
+
+67
+
+Das System besitzt
+eine vollständige Unterstützung für Mehrsprachigkeit.
+
+Folgende Sprachen werden vollständig
+unterstützt:
+
+• Deutsch
+• Englisch
+Maßnahmen zur Höherskalierung der
+Muss
+gleichzeitigen Testausführungen sowie der
+Größe von zu testenden Ressourcen müssen getroffen und hinreichend dokumentiert werden.
+
+81
+
+Das System muss
+darauf ausgelegt
+sein, hinsichtlich der
+Skalierbarkeit erweiterbar zu sein.
+
+99
+
+Das System erfüllt die Im Systementwurf sind die diesbezüglich
+Anforderungen an
+getroffenen Designentscheidungen explizit
+eine einfache funktio- benannt und begründet.
+nale Erweiterbarkeit.
+
+100 Sämtliche Systemkomponenten müssen in einer HA-Cluster-Umgebung betrieben werden können.
+
+Muss
+
+Das Produktivsystem wird in einer High
+Availability-Clusterumgebung bereitgestellt.
+
+Muss
+
+Muss
+
+Die System-seitigen Anforderungen an die
+HA-Clusterumgebung sind Systementwurf
+zu konkretisieren, abgestimmt auf das
+diesbezügliche IaaS-Leistungsportfolio
+des ITZ-Bund.
+
+82
+
+Das System erfüllt die Das System entspricht den Anforderungen
+Anforderungen an die an die Barrierefreiheit.
+Barrierefreiheit gem.
+SAGA-Modul „Technische Spezifikationen“ de.bund 5.0.0,
+Kapitel 7
+
+Muss
+
+83
+
+Der vollständige
+Funktionsumfang ist
+mit Unit-, System-
+
+Muss
+
+Zuletzt geändert: 10.05.19
+
+Eine Metrik zur Code-Coverage ist zu definieren und entsprechend einzuhalten.
+
+Version 1.1
+
+45 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+
+Anforderungstext
+und Integrationstests
+zu versehen.
+
+Akzeptanzkriterium
+Automatisierte Testverfahren sind verfügbar.
+
+Priorität
+
+Dokumentationen der erfolgreichen Testausführungen liegen vor.
+90
+
+Der Quellcode muss
+in ausreichender
+Qualität dokumentiert
+werden.
+
+Eine Metrik zur Quellcode-Qualität zeigt
+an, dass die Code-Dokumentation angemessen ist.
+
+Muss
+
+91
+
+Die Vorgehensweise
+zur Dokumentation
+des Quellcodes ist in
+der Feinkonzeption
+darzulegen
+
+Die Vorgehensweise deckt Festlegungen
+zu allen verwendeten Programmiersprachen ab.
+
+Muss
+
+92.1
+
+Für das Deployment
+von geändertem
+Quellcode in Form
+von Softwarepaketen
+in die Staging- und
+die Produktivumgebung werden automatisierte Verfahren bereitgestellt.
+
+Das automatische Deployment eines Soft- Muss
+warepaketes erfolgt zuverlässig und risikofrei auf allen betroffenen Servern der jeweiligen Umgebung.
+
+92
+
+Die Basisparameter
+Alle Basisparameter des Systems können
+des Systems müssen in dieser Datei angepasst werden.
+mittels einer Datei außerhalb des Quellcodes eingestellt werden können.
+
+94
+
+Das System muss
+modular aufgebaut
+sein und mit dem
+Microservices-Architekturmuster kompatibel sein.
+
+Im Rahmen des Angebotes ist darzulegen, Muss
+wie die Modularität des Systems sowie die
+Kompatibilität zum Microservices-Architekturmuster durch das System erfüllt werden
+
+95
+
+Das System muss 20
+Testausführungen
+gleichzeitig verarbeiten
+können.
+
+Es ist nachzuweisen, dass 20 gleichzeitige
+Testausführungen vom System parallel verarbeitet werden können.
+
+96
+
+Muss
+
+Im Wirkbetrieb müssen höhere Belastungen
+mit einer für den Anwender erkennbaren Fehlermeldung abgewiesen werden. Dies gilt für
+API und GUI sowie für alle Testarten.
+
+Das Systemdesign ist Im Systementwurf sind die diesbezüglich
+so ausgelegt, dass es getroffenen Designentscheidungen explizit
+im 24/7 –Betrieb eine benannt und begründet.
+Mindestverfügbarkeit
+von 95% unterstützt.
+
+Zuletzt geändert: 10.05.19
+
+Muss
+
+Version 1.1
+
+Muss
+
+46 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+ID
+97
+
+Anforderungstext
+Die Neuentwicklung
+der GDI-DE Testsuite
+erfolgt in Übereinstimmungen mit der
+„Architektur der Geodateninfrastruktur
+Deutschland“
+
+Zuletzt geändert: 10.05.19
+
+Akzeptanzkriterium
+Die Vorgaben der „Architektur der Geodateninfrastruktur Deutschland“ - hier insbesondere „Architektur der GDI-DE – Technik“ in der aktuellen Version 3.3.0 vom
+01.08.2016 werden eingehalten.
+
+Version 1.1
+
+Priorität
+Muss
+
+47 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+6
+
+RECHTE- UND ROLLENKONZEPT
+
+Das System muss über ein Rechte- und Rollenkonzept verfügen. Dabei sind die folgenden
+Rollen zu unterscheiden:
+1. Anonymer Benutzer / Gast
+2. Registrierter Benutzer
+3. Fachadministrator
+4. Systemadministrator
+Die Rollen verfügen über hierarchisch abgestufte Berechtigungen, die sich auf die
+Zugriffsmöglichkeiten zum System sowie auf die jeweils relevanten Daten beziehen. Dabei
+ist dies so aufzubauen, dass jede Rolle zusätzlich zu den eigenen Berechtigungen die
+Berechtigungen der jeweils über dieser stehenden Rolle erbt (z.B. erbt ein
+Fachadministrator alle Berechtigungen der registrierten Benutzer). Jede der Rollen darf nur
+auf die berechtigten Anwendungsfälle zugreifen. Die Berechtigungen auf die für die jeweilige
+Durchführung eines Anwendungsfalls erforderlichen Daten muss nach dem Minimal-Prinzip
+erfolgen, d.h. dass nur die Berechtigungen an eine Rolle vergeben werden, die zur
+Durchführung der Anwendungsfälle erforderlich sind.
+Die Zugriffsrechte werden unterschieden nach
+a) Lesen
+b) Schreiben
+c) Ändern
+d) Löschen
+Die konkrete Ausgestaltung des Rollen- und Rechtekonzeptes ist Teil der Feinspezifikation
+(Pflichtenheft)
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+48 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+7
+SKIZZE DES LEBENSZYKLUS UND DER
+GESAMTSYSTEMARCHITEKTUR
+Ein Überblick über die Gesamtsystemarchitektur befindet sich in Kapitel 2.3, dort ist neben
+dem Systemkontext bereits eine grobe Architekturskizze enthalten.
+Hinsichtlich der relevanten Lebenszyklusabschnitte sind im Rahmen des Projektes die
+folgenden Phasen relevant:
+Projektinitialisierung
+Gesamtsystemspezifikation (Pflichtenheft)
+Systementwurf
+Implementierung und Integration
+Abnahme
+Betriebsaufnahme und Produktivbetrieb
+Abbildung 5: Im Rahmen des Projektes abzudeckende Lebenszyklusabschnitte
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+49 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+LIEFERUMFANG
+
+8
+
+In der folgenden Tabelle ist definiert, welche Liefergegenstände in welcher Projektphase
+abzuliefern sind. Aus dieser Aufstellung geht darüber hinaus der Mindestumfang der zu liefernden Produkte hervor.
+#
+1
+
+Phase
+Projektinitialisierung
+
+2
+
+Systemspezifikation
+
+3
+
+Systementwurf
+
+4
+
+Liefergegenstand
+ Projekthandbuch
+ Projektinfrastruktur (beim AN)
+ QS-Handbuch
+ CR und Fehlerverfolgungs-System
+ Feinkonzept (Pflichtenheft)
+
+
+
+
+
+
+
+
+
+Implementierung und 
+Integration
+
+
+
+
+
+
+
+
+5
+
+Abnahme
+
+
+
+
+
+6
+
+Betriebsaufnahme und 
+Produktivbetrieb
+
+
+Zuletzt geändert: 10.05.19
+
+Systemarchitektur
+Datenmodell
+Testkonzept
+Monitoringkonzept
+Deploymentkonzept
+Schulungskonzept und -unterlagen
+Migrationskonzept
+Betriebskonzept
+Installierte, lauffähige Anwendung, welche die
+Anforderungen erfüllt
+Installationsroutine, Installationsanleitung
+Sourcen und Executables sowie Config-Files
+etc. des übergebenen Systems in zusammengehöriger Version
+Testdokumentation der durchgeführten Tests
+Benötigte Standard-Software und Lizenzen
+Aufbau einer Staging- und Produktiv-Umgebung
+(HA-Cluster) beim AG
+Datenmigration
+Nutzungsdokumentation:
+o Systemdokumentation
+o Anwenderhandbuch
+o Administrationshandbuch
+o Betriebshandbuch
+o Datensicherungs- und Wiederherstellungskonzept
+o Installationsanleitung
+Schulungsunterlagen
+Installation und Inbetriebnahmen in der Produktivumgebung / Infrastruktur des AG
+Unterstützung der Abnahme
+o Abnahmetestdokumentation
+Durchführung von Schulungen für Fachadministratoren und Systemadministratoren
+Post-Implementation Support für die ersten 3
+KM nach Betriebsaufnahme
+
+Version 1.1
+
+50 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+
+Zuletzt geändert: 10.05.19
+
+Laufende Wartung und Support des Systems im
+Anschluss an den Post-Implementation Support
+
+Version 1.1
+
+51 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+9
+
+ABNAHMEKRITERIEN UND VORGEHEN ZUR ABNAHMEPRÜFUNG
+
+Alle Anforderungen, die in der Priorität mit „Muss“ gekennzeichnet sind, müssen durch das
+System vor Bereitstellung zur Abnahme erfüllt werden. Es müssen alle Anwendungsfälle
+fehlerfrei funktionieren.
+Die unter 8.1-8.4 unter „Liefergegenstand“ aufgeführten Produkte wurden in einer vom AG
+akzeptierten Qualität erstellt.
+Der AG führt die Funktionsprüfung des Gesamtsystems zur Abnahme des vom AN
+bereitgestellten Werkes als Anwendertest in der Anwendertestumgebung des AG durch.
+Dieser Test wird im Folgenden als Abnahmetest bezeichnet.
+Das Gesamtsystem muss in einem lauffähigen, ausreichend getesteten Zustand
+ausgeliefert und zur Abnahme bereitgestellt werden. Es gelten die Vorgaben aus EVB-IT
+System (s. Anlage). Im Rahmen eines Abnahmetests werden vom AG sämtliche
+Anwendungsfälle auf die Erfüllung der Anforderungen getestet. Jede im Lastenheft
+geforderte fachliche Funktion wird mindestens einmal durchgeführt. Hierzu wird im Rahmen
+der Feinspezifikation ein Testkonzept erstellt. Dabei ist ein möglichst hoher
+Automatisierungsgrad der einzelnen Testfälle anzustreben.
+Das Testkonzept wird durch den AN mit Unterstützung des AG erstellt. Gemeinsam mit der
+Bereitstellung zur Abnahme soll der AN seine Testprotokolle übergeben. Die Abnahmetests
+werden durch den AG mit Unterstützung des AN durchgeführt, die Testdaten werden durch
+den AG bereitgestellt. Das Testkonzept muss mindestens folgendes beinhalten:
+•
+Beschreibung der Testumgebung
+•
+Beschreibung der (jeweiligen) Prüfmethode (z.B. Black Box, White Box)
+•
+Beschreibung aller Testfälle (funktional und nicht-funktional).
+Das Testkonzept muss vom AG freigegeben werden. Der AG hat das Recht, Testfälle im
+Testkonzept zu ergänzen.
+Die Testfälle werden vom AN in Abstimmung mit dem AG erstellt, da sie auch zur ANinternen QS genutzt werden. Der AN kann weitere Testfälle ergänzen. Im Rahmen der
+Prüfung von Testfällen, können mehrere Fehler je Testfall auftreten. Fehler können auch bei
+frei durchgeführten Tests auffallen.
+Für die Abnahmetests soll vom AN eine Staging-Umgebung beim AG eingerichtet werden.
+Der AG behält sich vor, im Rahmen der Abnahme auch Tests durch einen externen
+Dienstleister durchführen zu lassen.
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+52 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+ABKÜRZUNGSVERZEICHNIS
+
+10
+
+Erklärung
+
+Abkürzung
+BITV
+
+Barrierefreie-Informationstechnik-Verordnung (Verordnung zur
+Schaffung barrierefreier Informationstechnik nach dem
+Behindertengleichstellungsgesetz)
+
+BKG
+
+Bundesamt für Kartographie und Geodäsie
+
+BSI
+
+Bundesamt für Sicherheit in der Informationstechnik
+
+CTL
+
+OGC Compliance Testing Language
+
+ETS
+
+Executable Test Suites
+
+GDI-DE
+
+Geodateninfrastruktur Deutschland
+
+HA
+
+High-Availability (Cluster)
+
+IaaS
+
+Infrastructure as a Service
+
+MFA
+
+Multi-Factor Authentifizierungsverfahren
+
+OGC
+
+Open Geospatial Consortium
+
+QoS
+
+Quality of Service
+
+SAGA
+
+ein Eigenname (ursprünglich: Standards und Architekturen für
+eGovernment-Anwendungen)
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+53 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+11
+
+ABBILDUNGSVERZEICHNIS
+
+Abbildung 1 Mengengerüst und Datenvolumen der aktuellen GDI-DE Testsuite ................. 5
+Abbildung 2: Kontextabgrenzung ......................................................................................... 7
+Abbildung 3: Grundlegende Struktur der Weboberfläche ..................................................... 8
+Abbildung 4: Übersicht über die Akteure und Anwendungsfälle ........................................... 9
+Abbildung 5: Im Rahmen des Projektes abzudeckende Lebenszyklusabschnitte .............. 49
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+54 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+
+12
+
+GLOSSAR
+
+Begriff
+
+Erläuterung
+
+Abstract Test Suite (ATS)
+
+Als Abstract Test Suite (ATS) wird eine
+Beschreibung von Tests zur Überprüfung von
+Anforderungen eines Standards bezeichnet.
+ATS sind bereits so formuliert, dass sie durch
+eine technische Implementierung als
+Executable Test Suite (ETS) umgesetzt
+werden können.
+
+Assistent
+
+Der Begriff Assistent bezeichnet im
+Projektkontext eine Weboberfläche, mittels
+derer ein Anwender durch mehrere Dialoge
+für eine ergonomische Dateneingabe geführt
+wird
+
+Atom Feed
+
+Atom ist ein Standard zum plattformunabhängigen Austausch von Informationen.
+Ein Atom Feed stellt dabei eine Instanz einer
+solchen Informationssammlung dar. Atom
+Feeds können im Rahmen der INSPIRE
+Richtlinie für die Implementierung von
+INSPIRE Download-Diensten genutzt werden.
+
+Basisparameter
+
+Der Begriff Basisparameter bezeichnet im
+Kontext der GDI-DE Testsuite alle
+Konfigurationen, die für die Skalierung und
+Verteilung der GDI-DE Testsuite im Betrieb
+relevant sind.
+
+Executable Test Suite (ETS)
+
+Als Executable Test Suite (ETS) wird die
+Implementierung einer ATS bezeichnet. Eine
+ETS kann durch verschiedene technische
+Lösungen implementiert werden, die
+wiederum durch spezifische Testengines
+ausgeführt werden können.
+
+GDI-DE
+
+Mit GDI-DE wird die Geodateninfrastruktur in
+Deutschland bezeichnet. Diese besteht aus
+den Geodateninfrastrukturen des Bundes und
+der Länder. Die GDI-DE Testsuite ist eine der
+zentralen Komponenten der GDI-DE.
+
+HA-Cluster
+
+Hochverfügbarkeitscluster (engl. HighAvailability-Cluster – HA-Cluster) werden zur
+Steigerung der Verfügbarkeit bzw. für bessere
+Ausfallsicherheit eingesetzt. Tritt auf einem
+Knoten des Clusters ein Fehler auf, werden
+die auf diesem Knoten laufenden Dienste auf
+einen anderen Knoten migriert. Sowohl die
+Hardware als auch die Software eines HAClusters muss frei von Single-Point-ofFailures (Komponenten, die durch einen
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+55 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+Begriff
+
+Erläuterung
+Fehler das gesamte System zum Ausfall
+brächten) sein. Wikipedia
+
+INSPIRE
+
+Die Infrastructure for Spatial Information in the
+European Community (INSPIRE) beschreibt
+den gesetzlichen Rahmen zur Umsetzung
+einer Geodateninfrastruktur in Europa. Die
+Vorgaben von INSPIRE werden in
+Deutschland durch die GDI-DE umgesetzt.
+
+INSPIRE Darstellungsdienst
+
+Ein INSPIRE Darstellungsdienst dient der
+Bereitstellung von INSPIRE-konformen
+Karten. Die INSPIRE Technical Guidance
+Dokumente sehen eine Implementierung von
+Darstellungsdiensten anhand der OGC
+Standards WMS 1.3.0 und WMTS 1.0.0 vor.
+
+INSPIRE Download-Dienst
+
+Ein INSPIRE Download-Dienst dient der
+Bereitstellung von INSPIRE-konformen
+Datensätzen. Die INSPIRE Technical
+Guidance Dokumente sehen eine
+Implementierung von Download-Diensten
+anhand des OGC Standards WFS 2.0 und
+Atom Feeds vor.
+
+INSPIRE Suchdienst
+
+Ein INSPIRE Suchdienst dient der
+Bereitstellung von INSPIRE-konformen
+Metadatensätzen, die dem Auffinden von
+INSPIRE-konformen Datensätzen dienen. Die
+INSPIRE Technical Guidance Dokumente
+sehen eine Implementierung von
+Suchdiensten anhand des OGC Standards
+CS-W 2.0.2 vor.
+
+Konformitätsklasse
+
+Eine Konformitätsklasse bildet einen
+Teilbereich einer Testklasse ab. Sie ist eine
+Zusammenstellung von Einzeltests, die
+bestanden werden müssen, damit die
+getestete Ressource der Konformitätsklasse
+entspricht.
+
+OGC Catalog Service for the Web
+(CS-W)
+
+Ein OGC CS-W ist ein Katalogdienst, der zum
+Suchen und Finden von Datensätzen und
+Diensten anhand der im Katalogdienst
+eingebundenen Metadaten geeignet ist.
+
+OGC Compliance Testing Language
+(CTL)
+
+Die OGC CTL ist eine Auszeichnungssprache
+zur technischen Umsetzung von Tests. Es
+können einzelne Testschritte implementiert
+werden und Einzeltests zu
+Konformitätsklassen zusammengefasst
+werden.
+
+OGC Geography Markup Language
+
+Geography Markup Language, kurz GML, ist
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+56 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+Begriff
+
+Erläuterung
+
+(GML)
+
+eine Auszeichnungssprache zum Austausch
+raumbezogener Objekte. GML ist eine Dialekt
+von XML und durch Schemabeschreibungen
+festgelegt
+
+OGC TEAM Engine
+
+Die OGC TEAM Engine ist eine Testengine,
+die vom OGC genutzt wird, um SoftwareImplementierungen auf Konformität zu den
+Standards des OGC zu überprüfen. Die OGC
+TEAM Engine nutzt vornehmlich in OGC CTL
+implementierte ETS. Darüber hinaus gibt es
+Schnittstellen zum Einbinden von TestNGbasierten ETS.
+
+OGC Web Feature Service (WFS)
+
+Ein OGC Web Feature Service ist ein
+Geodienst, der die Bereitstellung von
+Geodaten im GML Format vorsieht und durch
+das OGC spezifiziert wurde. Web Feature
+Services bieten GET- und POSTSchnittstellen zum Abfragen von Geodaten.
+
+OGC Web Map Service (WMS)
+
+Ein OGC Web Map Service ist ein Geodienst,
+der der Bereitstellung von Karten dient und
+durch das OGC spezifiziert wurde. Web Map
+Services bieten GET- und POSTSchnittstellen zum Abfragen von Karten
+
+OGC Web Map Tiling Service (WMTS) Ein OGC Web Map Tiling Service ist ein
+Geodienst, der der Bereitstellung von Karten
+in Form von Kacheln dient und durch das
+OGC spezifiziert wurde. Web Map Tiling
+Services bieten GET- und POSTSchnittstellen zum Abfragen von Karten.
+Open Geospatial Consortium (OGC)
+
+Das Open Geospatial Consortium (OGC) ist
+eine gemeinnützige Organisation, die sich
+zum Ziel gesetzt hat, die Entwicklung von
+raumbezogener Informationsverarbeitung auf
+Basis allgemeingültiger, offener Standards
+zum Zweck der Interoperabilität festzulegen
+http://www.opengeospatial.org/
+
+Quality of Service (QoS)
+
+Mit Quality of Service wird die Dienstgüte
+bezeichnet. Diese erlaubt Aussagen zur
+Qualität von Diensten (Leistung und
+Verfügbarkeit). Im Zusammenhang mit der
+GDI-DE Testsuite existieren Testklassen zur
+Überprüfung der QoS von zu testenden
+Ressourcen (INSPIRE Darstellungsdienst und
+INSPIRE Download-Dienst).
+
+Ressource
+
+Im Kontext der GDI-DE Testsuite bezeichnet
+eine Ressource einen Web-Dienst oder eine
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+57 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+Begriff
+
+Erläuterung
+Datei, die anhand der vorhandenen
+Testklassen mittels der GDI-DE Testsuite
+überprüft werden kann.
+
+SAGA
+
+Die Standards und Architekturen für EGovernment-Anwendungen (SAGA) sind eine
+Sammlung verpflichtender Konventionen bei
+der Umsetzung von ITK-Projekten in der
+öffentlichen Verwaltung.
+http://www.cio.bund.de/Web/DE/Architekturenund-Standards/SAGA/saga_node.html
+
+Einzeltest
+
+Einzeltests bestehen aus Testschritten. Ein
+Einzeltest beschreibt den Vorgang zur
+Überprüfung von genau einer Anforderung
+eines Standards. Mehrere Einzeltests bilden
+zusammen Konformitätsklassen
+
+Testklasse
+
+Testklasse bezeichnet die Gesamtheit aller
+Konformitätsklassen, die zum Testen der
+Konformität zu einem bestimmten Standard
+notwendig sind.
+
+Testkonfiguration
+
+Mit Testkonfiguration wird eine Konfiguration
+für Testausführungen zu einer oder mehrerer
+spezifischen Ressource(n) bezeichnet und
+umfasst eine Testzusammenstellung
+bestehend aus einer oder mehreren
+Konformitätsklassen einer Testklasse.
+
+TestNG
+
+TestNG ist eine Java-basierte Testengine. Die
+OGC TEAM Engine besitzt Schnittstellen zur
+Ansprache von auf TestNG basierenden
+Executable Test Suites
+
+Testschritt
+
+Ein Testschritt ist die kleinste Einheit einer
+Einzeltestspezifikation. Ein Einzeltest besteht
+aus mindestens einem Testschritt. Testschritte
+werden in einer ATS beschrieben und in einer
+ETS technisch implementiert.
+
+Testverfahren
+
+Ein Testverfahren bezeichnet den Typ einer
+Testdurchführung. Anhand der vorhandenen
+Testklassen können Ressourcen mittels
+verschiedener Testverfahren überprüft
+werden. Derzeit sind dies
+
+
+Ausführung von Einzeltests
+
+
+
+Ausführung von Mehrfach/Massentests
+
+So ist es möglich genau eine oder mehrere
+Dateien zu überprüfen, je nach Auswahl des
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+58 / 59
+
+Lastenheft Neuentwicklung GDI-DE Testsuite
+Begriff
+
+Erläuterung
+Testverfahrens.
+Zulässige Testverfahren werden auf Ebene
+der Testklassen festgelegt.
+
+V-Modell XT
+
+Das V-Modell XT ist ein Entwicklungsstandard
+für die Planung und Durchführung von ITSystementwicklungsprojekten der öffentlichen
+Hand in der Bundesrepublik Deutschland
+http://www.cio.bund.de/Web/DE/Architekturenund-Standards/V-ModellXT/vmodell_xt_node.html
+
+Zuletzt geändert: 10.05.19
+
+Version 1.1
+
+59 / 59
+
+

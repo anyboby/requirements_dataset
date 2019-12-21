@@ -1,0 +1,7 @@
+Spätestens bei Lieferung von Maschinen- bzw. Anlagenkomponenten sind gültige und
+aktuelle Stromlauf- und Installationspläne mit Angaben zu Leistung und Leistungsfaktor an
+WACO zu liefern. Diese enthalten alle Einstellungen auf den eingesetzten Baugruppen ( z.B.
+Schaltereinstellungen ). Soweit keine andere Vereinbarung besteht, ist mit den Plänen eine
+Stückliste in deutscher und englischer Sprache ( im Format MS Excel ), sowie die
+Dokumentation der Unterlieferanten ( z.B. Betriebsanleitungen / Datenblätter von
+elektrischen Bauteilen, etc. ) in geeigneter Form an WACO zu übergeben.

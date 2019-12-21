@@ -1,0 +1,2 @@
+ Ausgegebene Fehlermeldungen müssen dem Anwender die fehlerhafte Eingabe
+einfach und klar erläutern

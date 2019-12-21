@@ -1,0 +1,3 @@
+Die Software muss die Möglichkeit bieten, je Arbeitsplatz Voreinstellungen hinsichtlich
+der Zuordnung von Dokumenten zu einzelnen Druckern beziehungsweise spezifischen
+Papierfächern treffen zu können. Zudem muss ein Standarddrucker beziehungsweise papierfach festgelegt werden können.

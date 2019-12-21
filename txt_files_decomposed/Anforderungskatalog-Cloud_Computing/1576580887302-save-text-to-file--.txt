@@ -1,0 +1,3 @@
+Der Cloud-Anbieter verwendet sichere Netzwerkprotokolle für den Import und Export von
+Informationen, sowie die Verwaltung des Dienstes
+um die Integrität, Vertraulichkeit und Verfügbarkeit der transportierten Daten sicherzustellen.

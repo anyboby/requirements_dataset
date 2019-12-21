@@ -1,0 +1,4 @@
+Auswertungen sollen als PDF und
+Excel-Datei zur Verfügung stehen,
+dass der Nutzer selbst entscheiden
+kann welche Datei er benötigt.

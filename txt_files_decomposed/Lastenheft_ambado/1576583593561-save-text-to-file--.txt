@@ -1,0 +1,3 @@
+Diagnoselisten mit Such- und Auswahlfunktion sollen
+die Kodierung von Diagnosen und Risiken
+erleichtern.

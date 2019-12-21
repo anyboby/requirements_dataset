@@ -1,0 +1,3 @@
+Verbindungsleitungen zu den Einzelsystemen müssen zum mechanischen Schutz in geeignete, ölbeständige Schläuche, Kabelwannen oder Blechkanäle verlegt werden.
+Kabel im Spänebereich durch Stahlgewebeschläuche mit PURInnenteil oder mit nichtrostenden Blechkanälen schützen.
+Leitungen sind mittels Kabelbefestigungen zu führen.

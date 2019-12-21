@@ -1,0 +1,4 @@
+Dem Ausfall von Versorgungsleistungen wie
+Strom, Kühlung oder Netzanbindungen wird
+durch geeignete Maßnahmen und Redundanzen, in Abstimmung mit den Maßnahmen zur
+Betriebssicherheit, vorgebeugt.

@@ -1,0 +1,5 @@
+Wartung sowie der Support der DB soll vertraglich gestaffelt sein, da der Aufwand bei der
+Einführung der DB am Anfang höher ausfällt. Die Antwortzeit des Dienstleisters darf in
+der Dienstzeit von 08:00 bis 17:00 Uhr 24 Stunden nicht überschreiten, um eine schnelle
+Fehlerbehebung zu gewährleisten. Der Dienstleister muss telefonisch sowie per Email
+erreichbar sein und Aufträge oder Fragen schriftlich bestätigen (Eingangsbestätigung).

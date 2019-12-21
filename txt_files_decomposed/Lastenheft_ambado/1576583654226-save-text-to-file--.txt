@@ -1,0 +1,3 @@
+In der nachstehenden Tabelle sind die Daten aufgelistet, auf die die AmBADO-Software
+Bezug nehmen kann. Anhand der aufgeführten Daten lassen sich mögliche Schnittstellen zu
+anderen Programmen leichter identifizieren.

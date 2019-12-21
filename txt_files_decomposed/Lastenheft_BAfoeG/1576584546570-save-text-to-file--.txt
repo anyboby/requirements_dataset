@@ -1,0 +1,3 @@
+Der Softwareanbieter muss die Funktionsfähigkeit der BAföG-Software im Rahmen des
+Einführungsprojektes durch geeignete Tests überprüfen. Dies umfasst insbesondere
+Funktions-, Integrations-, Last-, GUI- sowie Penetrationstests.

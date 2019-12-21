@@ -1,0 +1,7 @@
+Wird von harmonisierten europäischen Normen oder deutschen Normen und technischen
+Spezifikationen abgewichen, ist nachzuweisen und zu dokumentieren, dass die gleiche Sicherheit auf andere Weise erreicht wurde.
+Die Verpflichtung schließt ein, dass
+ an einer verwendungsfertigen Maschine/Anlage und an Werkzeugen die CEKennzeichnung angebracht ist,
+ für eine Maschine/Anlage und an Werkzeugen mit CE-Kennzeichnung eine EGKonformitätserklärung in deutscher Sprache ausgestellt und beigefügt ist,
+ einer nicht verwendungsfertigen Maschine die Einbauerklärung beiliegt für eine Maschine nach Anhang II B Maschinenrichtlinie eine Bescheinigung einer zugelassenen Prüf – und Zertifizierungsstelle vorgelegt wird (ggf. Nachweis der EGBaumusterprüfung),
+ eine Betriebsanleitung und eine technische Dokumentation nach den unten genannten Vorgaben vorliegen.

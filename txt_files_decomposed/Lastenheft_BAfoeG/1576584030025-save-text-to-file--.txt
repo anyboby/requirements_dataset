@@ -1,0 +1,2 @@
+Die Software muss die Möglichkeit bieten, Formatvorlagen für die Erstellung von Bescheiden zu hinterlegen. Diese müssen bestimmte automatisch zu befüllende Formularfelder (beispielsweise Name und Adresse des Antragstellers, Textbausteine) vorhalten.
+Die Software muss dem Sachbearbeiter für die Erstellung des Bescheides sowohl bestimmte vordefinierte Textbausteine als auch die Möglichkeit der Freitexteingabe bieten.

@@ -1,0 +1,9 @@
+Nach Ablauf der Frist gemäß § 291d Abs. 1 S. 2 i. V. m. Abs. 1a S. 4 SGB V erfolgt das
+Update jeweils zu den am 1. und 15. eines Monats veröffentlichten Angaben gemäß S. 25.
+Werden Änderungen an den Arzneimittelstammdaten vorgenommen, bestimmt der
+Softwareanbieter einen neuen Datenstand und aktualisiert die Preis- und Produktangaben
+sämtlicher Produkte nach den Vorgaben in P2-100. Änderungen, die ohne Festsetzung eines
+neuen Datenstandes vorgenommen werden oder sich auf einzelne Produkte beziehen, sind
+nur zulässig, soweit sie der Korrektur nachträglich festgestellter Fehler dienen. Darüber
+hinaus sind weitere Änderungen der Arzneimittelstammdaten unzulässig. Änderungen, die
+die Produkte der Hausapotheke betreffen, sind zu übernehmen.

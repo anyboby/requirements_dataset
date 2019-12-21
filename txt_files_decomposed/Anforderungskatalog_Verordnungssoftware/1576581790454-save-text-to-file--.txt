@@ -1,0 +1,5 @@
+Für die Abrechnung von Verbandmitteln übermitteln die Verbandmittel-Hersteller die für die Abrechnung nach § 300 SGB V
+erforderlichen Preis- und Produktangaben an die in § 129 Abs. 2 SGB V genannten Verbände sowie an die Kassenärztliche
+Bundesvereinigung und den Gemeinsamen Bundesausschuss im Wege elektronischer Datenübertragung und maschinell
+verwertbar auf Datenträgern (Gültigkeit ab 30.04.2018). Das Merkmal 411 darf erst 12 Monate nach Inkrafttreten der Richtlinie
+des G-BA gemäß § 92 Abs. 1 S. 2 Nr. 6 SGB V in der Verordnungssoftware angezeigt werden.

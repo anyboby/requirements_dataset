@@ -1,0 +1,4 @@
+Gibt es neue Versionen der Entwicklungsumgebung (Frontend und Backend), muss
+gewährleistet sein, dass ein Update nicht die Anpassungen von individualisierten
+Funktionen zur Folge hat und erneute Kosten für die Anpassung anfallen.
+Die vorhandene Softwarearchitektur wird nach Beauftragung zur Verfügung gestellt.

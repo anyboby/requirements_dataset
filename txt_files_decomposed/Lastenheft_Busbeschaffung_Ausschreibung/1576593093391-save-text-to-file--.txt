@@ -1,0 +1,2 @@
+Eine Automatische Ölnachfüllung ist nicht vorzusehen; zusätzlicher Ölbehälter zur Verlängerung der Wechselintervalle sollte möglich sein. Ölwechselintervalle von 60.000 km
+jährlich müssen möglich sein.

@@ -1,0 +1,4 @@
+Maßnahmen zur Umsetzung von Versorgungs- und Wirtschaftlichkeitszielen sowie
+Arzneimittelklassifikationen (DDD, me-too-drugs, Medikationskataloge, etc.), die in Verträgen
+nach § 84 Abs.1 SGB V von den Vertragspartnern auf Landesebene vereinbart wurden, sind
+in der Verordnungssoftware abzubilden

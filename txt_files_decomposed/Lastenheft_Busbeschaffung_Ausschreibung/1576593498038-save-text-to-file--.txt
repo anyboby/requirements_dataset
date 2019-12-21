@@ -1,0 +1,1 @@
+Einbau einer Diagnoseschnittstelle. Display umschaltbar, damit bei Prüfung des Bremsdruckes dieser dauerhaft sichtbar ist.

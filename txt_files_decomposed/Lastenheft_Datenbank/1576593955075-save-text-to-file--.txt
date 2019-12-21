@@ -1,0 +1,4 @@
+Des Weiteren soll es möglich sein, für eine Person eine Vertretung festzulegen. Diese
+soll mit einem Zeitraum terminiert werden. Das Anlegen einer Vertretung richtet sich nach
+der Rollenhierarchie. Ist ein Trainer nicht mehr aktiv, muss die DB eine Meldung anzeigen,
+dass ein anderer Trainer ausgewählt werden muss.

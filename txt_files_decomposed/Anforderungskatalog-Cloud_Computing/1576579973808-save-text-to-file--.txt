@@ -1,0 +1,6 @@
+Optionale, weitergehende Anforderungen
+(Vertraulichkeit und Verfügbarkeit)
+Der Cloud-Anbieter erstellt regelmäßige Reports
+über die durchgeführten Überprüfungen, welche
+durch autorisierte Stellen oder Gremien überprüft
+und analysiert werden

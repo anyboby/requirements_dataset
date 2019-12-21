@@ -1,0 +1,5 @@
+Zielsetzung: Absichern der Autorisierung
+und Authentifizierung von Benutzern
+des Cloud-Anbieters (i. d. r. privilegierte
+Benutzer) und des Cloud-Kunden zum
+Vermeiden von unberechtigtem Zugriff.

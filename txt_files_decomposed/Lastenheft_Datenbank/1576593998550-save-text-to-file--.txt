@@ -1,0 +1,10 @@
+Die GUI der DB ist grafisch nicht mehr auf dem aktuellsten Stand der Entwicklung. Bei
+der Speicherung der Datensätze wird nicht jedes Feld geprüft, ob seine Daten benötigt
+werden (Plausibilitätsprüfung jedes Feldes). Fehlen Daten in einem „abgeschlossenen“
+Datensatz muss der Datensatz vom lokalen Koordinator auf den Status „Nachkontrolle“
+gesetzt werden, um die Daten nachtragen oder ändern zu können. Der Datensatz muss
+dann wieder vom Stromsparhelfer in den Status „Prüfen“ gesetzt werden. Ist der
+Datensatz richtig, muss der Trainer diesen mit dem Status „Abgeschlossen“ schließen.
+Der Aufwand, Daten bei einem abgeschlossenen Datensatz zu ändern, ist sehr hoch.
+Optimal wäre, wenn der Trainer die Möglichkeit hätte, den Datensatz wieder auf
+„Nachkontrolle“ zurück zu setzen.

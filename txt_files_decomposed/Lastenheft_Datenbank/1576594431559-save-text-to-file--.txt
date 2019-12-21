@@ -1,0 +1,3 @@
+Ändert sich eine Funktion in der Datenbank, wird das aktuell über den Projekt-Newsletter
+mitgeteilt. Dieser erscheint in bestimmten Zeitabständen und kann über die Änderungen
+der DB nicht tagesaktuell berichten.

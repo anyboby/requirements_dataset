@@ -1,0 +1,3 @@
+Bei der Datensicherung ist zwischen Backups und
+Snapshots virtueller Maschinen zu unterscheiden.
+S

@@ -1,0 +1,4 @@
+Alle elektrischen und elektromechanischen Bauelemente sind durch dauerhaft an der
+Anlage befestigte Schilder zu kennzeichnen. Bei Bauelementen, die hinter Abdeckungen
+montiert sind, ist auf der Abdeckung zusätzlich das gleiche Schild wie auf dem Bauelement
+anzubringen.

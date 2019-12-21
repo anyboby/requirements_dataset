@@ -1,0 +1,6 @@
+Ziel ist es, die DB nicht nur mit Rechnern zu nutzen, sondern den Zugriff für mobile
+Endgeräte zu ermöglichen. Hierfür soll keine App entwickelt werden, sondern das
+Frontend so optimiert werden, dass Mobilgeräte die Webseite der DB ohne Probleme
+anzeigen können (siehe Mockup). Die Umsetzung soll nicht auf eine WAP-Webnutzung
+begrenzt werden. Bei der Umsetzung werden nur Android- und iOS-Geräte berücksichtigt,
+da diese am meisten genutzt werden.

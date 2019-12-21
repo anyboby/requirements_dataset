@@ -1,0 +1,3 @@
+Die Verordnungssoftware kann eine Warnfunktion zur Ausschöpfung der Richtgröße
+einblenden. Die Funktion richtet sich nach den rechtlichen Vorgaben in § 106 Abs. 5a SGB V
+und wird entsprechend der KV-Richtgrößen aktualisiert.

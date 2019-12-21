@@ -1,0 +1,1 @@
+Die BAföG-Software soll die Anforderungen an eine barrierefreie Software nach der „Verordnung zur Schaffung barrierefreier Informationstechnik nach dem Behindertengleichstellungsgesetz“ erfüllen. Dies gilt insbesondere für den Onlineantrag.

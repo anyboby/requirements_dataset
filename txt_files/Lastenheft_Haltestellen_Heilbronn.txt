@@ -1,0 +1,3291 @@
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+ANHANG A
+
+Lastenheft
+
+Ausstattung ausgewählter Haltestellen
+im Landkreis Heilbronn mit Anlagen zur
+Dynamischen Fahrgastinformation (DFI)
+Heilbronn, 02.05.2018
+
+Vergabestelle:
+Landratsamt Heilbronn
+Bauen, Umwelt und Nahverkehr
+Lerchenstr. 40
+74072 Heilbronn
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Inhaltsverzeichnis
+1
+
+Vorbemerkung ............................................................................................................ 3
+
+2
+
+Rahmenbedingungen und grundsätzliche Anforderungen...................................... 7
+
+3
+
+Beschreibung des Projekts ........................................................................................ 9
+
+4
+
+DFI-Anzeiger .............................................................................................................. 13
+4.1
+
+Allgemeines ........................................................................................................ 13
+
+4.2
+
+Anzeigergehäuse................................................................................................ 16
+
+4.3
+
+Anzeigertechnik TFT........................................................................................... 18
+
+4.4
+
+Anzeigertechnik LED .......................................................................................... 20
+
+4.5
+
+Anzeigerrechner und Kommunikationskomponente ............................................ 21
+
+4.6
+
+Anzeigersoftware ................................................................................................ 23
+
+4.7
+
+Ausführungsformen und Inhalte für TFT-Displays ............................................... 26
+
+4.8
+
+Ausführungsformen und Inhalte für LED-Displays .............................................. 29
+
+4.9
+
+Aufhängung, Mast .............................................................................................. 31
+
+4.10
+
+Montage, elektrischer Anschluss ........................................................................ 35
+
+4.11
+
+Akustische Fahrgastinformation und Montage .................................................... 36
+
+5
+
+Datenschnittstelle und Datenübernahme ................................................................ 38
+
+6
+
+DFI-Verwaltung.......................................................................................................... 40
+
+7
+
+6.1
+
+Allgemeine IT-Anforderungen ............................................................................. 40
+
+6.2
+
+DFI-Verwaltungssoftware ................................................................................... 42
+
+6.3
+
+DFI-Verwaltungshardware/-Server...................................................................... 45
+
+Projektbegleitende Aufgaben................................................................................... 46
+7.1
+
+Baufristenplan, Schulung und Dokumentation .................................................... 46
+
+7.2
+
+Wartung/Pflege ................................................................................................... 49
+
+April 2018
+
+Seite 2 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+1
+Nr.
+
+1.1
+
+Vorbemerkung
+Bieter- erangabe füllt
+
+Anforderung
+
+Das Lastenheft beinhaltet die funktionale Beschreibung der Fahrgastinformationskomponenten der Ausschreibung. Es stellt somit die Grundlage für das Leistungsverzeichnis dar. Im Lastenheft sind vom Anbieter
+zu erfüllende Muss−Kriterien aufgeführt. Durch Abgabe eines Angebotes
+werden diese Muss−Positionen durch den Anbieter bestätigt. Das Lastenheft gilt somit als rechtsverbindlicher Vertragsbestandteil des Gesamtangebotes. Im zur Ausschreibung gehörenden Dokument Projektbeschreibung (Anhang A, Anlage 1) sind allgemeine Informationen zum
+Projekt sowie Standortbeschreibungen enthalten. Mit Abgabe eines Angebotes konstatiert der Anbieter (nachfolgend AN genannt), dass er die
+Projektbeschreibung erhalten und zur Kenntnis genommen hat.
+Zusätzlich zum Lastenheft hat der AN bereits mit Angebotsabgabe eine
+Beschreibung des DFI−Systems und die dazugehörigen Komponenten
+beizufügen, also ein Konzept zur Realisierung des Gesamtsystems
+(siehe hierzu Anforderungen im Lastenheft). Auch dies ist rechtsverbindlicher Vertragsbestandteil des Gesamtangebotes.
+
+x
+
+Auftraggeber (nachfolgend AG genannt)
+Landratsamt Heilbronn
+Bauen, Umwelt und Nahverkehr
+Lerchenstr. 40
+74072 Heilbronn
+Ausgeschrieben werden Anzeiger zur stationären Fahrgastinformation
+(DFI), dies umfasst die Anzeigerhardware und -software, Masten und
+Aufhängungen, Kommunikationskomponenten zum Anschluss an das Internet sowie die DFI-Verwaltungssoftware.
+
+1.2
+
+1.3
+
+Die durch den AN zu erbringende Leistung muss
+- die Lieferung,
+- die Montage,
+- die Inbetriebnahme sowie
+- die Schulung
+aller Komponenten des in diesem Lastenheft beschriebenen Fahrgastinformationssystems im Sinne eines vollständigen und funktionsfähigen
+Gesamtsystems umfassen.
+Die vom AN zu erfüllenden Funktionen sind im vorliegenden Lastenheft
+in Form einer funktionalen Leistungsbeschreibung dargestellt. Das Lastenheft stellt somit die Grundlage für das durch den AN abzugebende
+Leistungsverzeichnis dar. Der AN hat im Leistungsverzeichnis den gesamten Inhalt des Lastenheftes im Sinne des funktionierenden Gesamtsystems zu berücksichtigen.
+
+April 2018
+
+Seite 3 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+1.5
+
+Bei den geforderten Funktionen ist zu beachten:
+1. Funktionen, die mit den Verben (in ihrer jeweiligen grammatikalischen
+Form)
+- müssen,
+- sein,
+- werden,
+- haben ... zu
+zum Bestandteil des Gesamtsystems oder seiner Komponenten erklärt
+werden, müssen durch den AN zwingend angeboten werden. Entscheidend für die Definition als Muss-Kriterium ist das im Lastenheft gesetzte
+Kreuz („x“) in der Spalte „erfüllt“.
+Der AN bestätigt formal die Erfüllung aller Muss-Kriterien durch die Abgabe des Gesamtangebotes.
+2. Funktionen, die mit den Verben (in ihrer jeweiligen grammatikalischen
+Form) wie
+- sollen,
+- können
+zum Bestandteil des Gesamtsystems erklärt werden, sollen durch den
+AN angeboten werden. Diese Funktionen sind durch ein gesetztes Kreuz
+("x") in der Spalte "Bieterangabe" gekennzeichnet.
+
+1.6
+
+Der AN benennt in seinem Konzept (im eigenen Angebot, siehe 1.6) die
+Soll-Funktionen unter Verweis auf die in der linken Spalte des Lastenhefts angegebenen Nummer, die nach Einschätzung des ANs durch sein
+Angebot voll oder nur teilweise erfüllt wird und stellt die Art und den Umfang der Erfüllung dar.
+Der AN hat sein Konzept für die Realisierung des Gesamtsystems ausführlich im Rahmen eines eigenen Angebotes zu beschreiben. Hier wird
+dem AN – im Rahmen der Vorgaben dieses Lastenheftes – Raum zum
+Einsatz von innovativer Technik gegeben. Der AN hat Angaben zu den
+Betriebskosten zu machen (siehe Formblatt «Angaben zum Betrieb»
+(Anhang B, Anlage 1)).
+
+1.4
+
+x
+
+x
+
+x
+
+x
+
+Damit die Angebote der AN miteinander verglichen werden können, werden Beschreibungen jeder Funktion ab Abschnitt 2 aussagekräftige Konstruktionszeichnungen und eine Reihenfolge erwartet, die der Struktur
+des vorliegenden Lastenhefts entspricht.
+
+April 2018
+
+Seite 4 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Referenzen
+Erwartet werden mindestens 3 abgenommene Referenzprojekte mit folgenden Angaben:
+
+1.7
+
+- Projektbezeichnung
+- Ort
+- Auftraggeber
+- Ansprechpartner mit Telefonnummer beim AG
+- Ort der Ausführung
+- Inbetriebnahmedatum und
+- Lieferumfang
+
+x
+
+x
+
+x
+
+x
+
+Die Abnahme der jeweiligen Referenz darf nicht länger als drei Jahre als
+das Submissionsdatum dieses Vorhabens zurückliegen. Alle in 1.8 beschriebenen technischen Funktionen sind nachzuweisen. Falsche Angaben bei den Referenzen führen zwingend zum Ausschluss vom Vergabeverfahren.
+Die Referenzen sind bereits mit Angebotsabgabe vorzulegen.
+Die Referenzen umfassen folgende technische Nachweise und Funktionen:
+- Projekte mit DFI-Anzeigen im Außenbetrieb (LED und TFT, doppelseitig, mehr als 15 Anzeiger pro Projekt, mindestens 3 Referenzen,)
+1.8
+
+- Projekte mit einer Softwarelösung, bei der eine gleichzeitige Datenversorgung der DFI-Anzeiger aus mindestens 2 Quellen mit 2 unterschiedlichen Protokollen wie z.B. VDV453 DFI-Dienst, Pacos, EFA-XML, SIRISX etc. verwirklicht wurden (mindestens 3 Referenzen),
+- Projekte mit einer mandantenfähigen DFI-Verwaltung mit Zuordnung
+von Anzeigern, Benutzern und Administratoren zu unterschiedlichen
+Mandanten (mindestens 3 Referenzen).
+Nutzwertanalyse
+Auf Basis einer Nutzwertanalyse werden abschließend die Angebote bewertet. Hierzu werden folgende Gewichtungsfaktoren berücksichtigt:
+
+1.9
+
+Preis des Angebots
+40%
+Qualität des Systems
+60%
+- Funktionalität des Systems 50%
+- Ästhetik der angebotenen Lösung (Aussehen der Anzeiger) 20%
+- Folgekosten für Betrieb und Instandhaltung 15 %
+- Bewertung des Umsetzungskonzepts 15%
+
+April 2018
+
+Seite 5 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Pflichtenheft
+1.10
+
+Nach Auftragsvergabe ist durch den AN in Zusammenarbeit und Abstimmung mit dem Auftraggeber ein für beide Seiten rechtsverbindliches
+Pflichtenheft des zu liefernden Systems zu erstellen, welches die in diesem Lastenheft gestellten Anforderungen vollumfänglich erfüllt.
+Ziel des Vorhabens
+
+Die wesentlichen Ziele dieses Vorhabens lassen sich wie folgt zusammenfassen:
+ Beschaffung und Installation von 48 DFI-Anzeigern (LED und TFT)
+einschließlich Masten bzw. Aufhängungen und Vorlesefunktion
+(Text-to-Speech)
+ Einrichtung und Inbetriebnahme einer DFI-Verwaltungssoftware
+(multibenutzerfähig, mandantenfähig, browserbasierte Bedienung/Überwachung/Administrierung)
+ Einrichten einer Datenschnittstelle zur NVBW-Datenplattform
+(TRIAS, VDV 431-2) und einer Möglichkeit zum Bezug von Daten
+1.11
+aus bis zur drei weiteren Quellen (VDV 453) zur Anforderung von
+Bus- und Bahn-Soll- und Ist-Daten
+ Selbständiger und autonomer Betrieb der Anlagen, überwacht
+vom Landratsamt Heilbronn und den Gemeinden nach einer kurzen Einführungs- und Schulungsphase
+ Der AN übergibt dem AG ein schlüsselfertiges DFI-Projekt.
+
+x
+
+x
+
+Den Tiefbau für die Masten bzw. den Metallbau für die Halter übernehmen die Bauämter der Gemeinden. Eine terminliche und fachliche Abstimmung zwischen dem AN und den Bauämtern ist vonnöten.
+Eine ausführliche Beschreibung des Projektes ist der zur Ausschreibung
+gehörenden Projektbeschreibung (Anhang A, Anlage 1) zu entnehmen.
+
+April 2018
+
+Seite 6 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+2
+Nr.
+
+2.1
+
+Rahmenbedingungen und grundsätzliche Anforderungen
+Bieter- erangabe füllt
+
+Anforderung
+
+Das Gesamtsystem muss alle relevanten Gesetze, Verordnungen, Normen und Vorschriften – insbesondere
+- das Personenbeförderungsgesetz (PBefG)
+- die Verordnung über den Betrieb von Kraftfahrunternehmen im Personenverkehr (BO Kraft)
+- das Straßenverkehrsgesetz (StVG)
+- die Straßenverkehrsordnung (StVO)
+- die Straßenverkehrszulassungsordnung (StVZO)
+- die DIN-, EN-, ISO- , IEC- und VDE-Normen
+- die VDV-Schriften und VDV-Empfehlungen (insbesondere VDVSchriften 452, 453, 454, 705, 713)
+- TRIAS (Travellers‘ Realtime Information and Advisory Standard), VDVSchriften 431-1 und 431-2
+- das Gesetz über die elektromagnetische Verträglichkeit (EMVG) und
+die Unfallverhütungsvorschriften sowie die anerkannten Regeln der
+Technik für alle in diesem Lastenheft beschriebenen Funktionen und
+Komponenten einhalten.
+Die Komponenten müssen über eine CE-Kennzeichnung verfügen.
+Soweit für die Einhaltung relevanter Gesetze, Verordnungen, Normen
+und Vorschriften ein Nachweis zu erbringen ist, sind diese dem Angebot
+beizufügen.
+Für die gesamte Projektbearbeitung verpflichtet sich der AN zur Einhaltung aller einschlägigen Vorschriften, Normen und Spezifikationen, auch
+wenn diese im Einzelnen nicht genannt sind.
+
+x
+
+Von den Normen und Vorschriften der VDV-Schriften und VDVEmpfehlungen darf abgewichen werden, wenn dies im Lastenheft ausdrücklich gefordert oder zur Erfüllung der geforderten Funktionalität notwendig ist.
+Die Abweichung ist durch den AN nach Art und Umfang eindeutig zu benennen.
+Projektsprache deutsch
+2.2
+
+2.3
+
+Die Verkehrssprache für das Projekt ist deutsch. Alle schriftlichen Dokumente sind in deutscher Sprache auszuführen, ebenso sind alle Besprechungen, Telefonate und dergleichen in Deutsch zu führen. Der Projektleiter muss verhandlungssicher die deutsche Sprache beherrschen.
+Laufzeit
+Bei einer durchschnittlichen täglichen Betriebsdauer von 19 Std. garantiert der AN, dass sein DFI-System (einschließlich aller Komponenten)
+für eine Betriebslaufzeit von mindestens 10 Jahren konzipiert ist.
+
+April 2018
+
+x
+
+x
+
+Seite 7 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Nachbestellung
+Der AN verpflichtet sich für die Dauer von mindestens 10 Jahren nach
+Abnahme, Ersatzteile und Baugruppen gegen Bestellung zu liefern und
+Software-Upgrades gegen Entgelt anzupassen.
+Die Preise im Leistungsverzeichnis stellen verbindliche Angaben für
+eventuelle spätere Nachbestellungen zum Zwecke der Reparatur (keine
+Nachbestellung vollständiger Systeme) für den Zeitraum von vier Jahren ab Abnahme des letzten DFI-Standorts dar.
+2.4
+
+Der AN muss für maßgeblichen Hardware-Einzelteile der Anzeiger inkl.
+Vorlesefunktion Einheitspreise benennen und dem Angebot beilegen, die
+zusätzlich zum Leistungsverzeichnis in einer vom AN zu erstellenden
+Einheitspreisliste aufzuführen sind.
+
+x
+
+x
+
+Zur Erklärung der Begrifflichkeit „des letzten DFI-Standorts“: Die Standorte der DFI-Anlagen verteilen sich über den Landkreis, es sind Haltestellen in insgesamt zwölf Kommunen und in der Wartehalle eines Klinikums auszustatten (siehe auch 3. Beschreibung des Projekts). Möglicherweise wird sich die Installation der Anlagen an der einen oder anderen
+Stelle verzögern.
+Lizenzen und Patente
+
+2.5
+
+Der AN hat den AG und dessen Beauftragte von allen Ansprüchen aus
+angeblichen oder tatsächlichen Verletzungen eines in- oder ausländischen Patentes, Urheberrechtes, Warenzeichens oder sonstigen Schutzrechten freizustellen und die entsprechenden Kosten in die Preise einzukalkulieren, sofern diese in der Lieferleistung und Systemanwendung begründet sind.
+
+April 2018
+
+x
+
+Seite 8 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+3
+Nr.
+
+3.1
+
+3.2
+
+3.3
+
+3.4
+
+Beschreibung des Projekts
+Bieter- erangabe füllt
+
+Anforderung
+
+Das Landratsamt Heilbronn beabsichtigt, die Fahrgastinformation im
+Landkreis zu verbessern. Hierzu sollen an bedeutenden Bahn-Bus-Umsteigepunkten sowie zentralen Omnibusbahnhöfen (ZOB) und zentralen
+Bushaltestellen steigbezogene Anzeiger für dynamische Fahrgastinformation (DFI), die Echtzeit anzeigen, installiert werden. An den BahnBus-Umsteigepunkten sollen außerdem Bahnabfahrten an Übersichtsanzeigern angezeigt werden, um umsteigenden Fahrgästen Anschlussinformationen liefern zu können. Die Anzeiger sollen die jeweils verbleibenden Minuten bis zum Eintreffen des Verkehrsmittels (Countdown; bei
+Folgeabfahrten mit längerem zeitlichen Abstand ist die Anzeige der Abfahrtszeit vorgesehen), die Liniennummer, das Ziel und an manchen Orten die Bus- bzw. Bahnsteige anzeigen.
+Die Soll- und Echtzeitdaten sollen von der Datenplattform der Nahverkehrsgesellschaft Baden-Württemberg (NVBW) bezogen werden und
+über eine DFI-Verwaltungssoftware in der Regel via Mobilfunk an die
+DFI-Anzeiger weitergegeben werden. Der Busverkehr im Landkreis wird
+von den Verkehrsunternehmen Regional Bus Stuttgart GmbH (RBS),
+Omnibus-Verkehr Ruoff GmbH (OVR) und ab Sommer 2018 Rexer Reisen GmbH sowie deren Subunternehmen geleistet. Diese Unternehmen
+liefern bereits heute Soll- und Echtzeitdaten an die NVBW-Plattform bzw.
+werden diese liefern. Mittelfristig werden Teile der Busverkehrsleistungen neu vergeben und es können sich Änderungen in der Datenlieferund Verarbeitungsstruktur ergeben.
+Das Landratsamt Heilbronn wird eine Kontrollstelle einrichten, um den
+datenverkehrlichen Betrieb der Verkehrsunternehmen zu überwachen.
+Kurzfristige Ereignisse (Störungen) im Busverkehr sollen von den Verkehrsunternehmen und von der Kontrollstelle ins DFI-Verwaltungssystem eingepflegt und mittels einer Infotextzeile an den Anzeigern an
+die Fahrgäste kommuniziert werden. Kommunen können Stadtmarketingtexte auf den Anzeigern über die Kontrollstelle im Landratsamt veröffentlichen lassen. Fallen Anzeiger aus oder liegen technische Probleme
+vor, übernimmt das Landratsamt die Kontaktaufnahme zum DFIHersteller. Das System ist in der Skizze auf der folgenden Seite dargestellt.
+Die insgesamt 48 Anzeiger verteilen sich auf 13 Verwaltungsgebiete (12
+Kommunen, ein Klinikum) mit insgesamt 15 Standorten:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+April 2018
+
+Bad Friedrichshall, Bahnhof Jagstfeld
+Bad Friedrichshall, Klinikum am Plattenwald
+Bad Rappenau
+Beilstein
+Brackenheim
+Eppingen
+Gundelsheim
+Lauffen
+Möckmühl
+Neckarsulm Bahnhof West / Bahnhof Ost / ZOB Ballei
+Schwaigern
+Weinsberg
+Obersulm/Willsbach
+
+Seite 9 von 49
+
+April 2018
+
+Disponent
+
+Berechnung
+Ist-Daten
+
+Disponent
+
+Berechnung
+Ist-Daten
+
+Soll-Daten
+
+Ist-Daten
+
+Ist-Daten
+Soll-Daten
+
+Ist-Daten
+Soll-Daten
+
+Kontrolle
+Solldatenaktualität
+
+kurzfristige
+Ereignisse
+(Infotext)
+
+NVBW
+Datenplattform
+Überwachung
+Parametrierung
+Rechteverwaltung
+Infotext u. Medien
+
+Stadtmarketing
+(Infotext)
+Kommune 1
+
+Landratsamt
+
+Kontrolle
+DFI-System+Anzeiger,
+Solldaten, Infotext...
+
+TRIAS
+(VDV 431-2)
+
+Schnittstelle
+
+DFI-Anzeiger
+VerwaltungsSystem
+
+Stadtmarketing
+(Infotext)
+Kommune 2
+
+DFI-Hersteller
+
+Techn. Überwachung
+IT-Support/Reparatur
+
+Systemskizze dynamische Fahrgastinformation über NVBW-Datenplattform im Landkreis Heilbronn (Feb. 2018)
+
+RBL
+
+RBL
+
+Verkehrsunternehmen A
+Zentrale
+(Rechner)
+
+RBL
+
+RBL
+
+Verkehrsunternehmen B
+Zentrale
+(Rechner)
+
+Verkehrsunternehmen C
+
+Quelle: IGV
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Seite 10 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+3.5
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Die Gemeindeverwaltungen sind zuständig für den notwendigen Tiefbauanteil (Fundamentbau der Anzeigermasten) bzw. für die Metallarbeiten
+zur Aufnahme von Anzeigern an vorhandenen Dachträgern. Außerdem
+müssen die Verwaltungen für die Einrichtung der Stromzuführung sorgen.
+Die Projekt-Koordination zwischen dem Landratsamt, der Verwaltungen
+und dem DFI-Anbieter liegt bei einem projektbegleitenden Ingenieurbüro.
+Die DFI-Anlagen werden nach Abschluss des Projekts in das Eigentum
+der jeweiligen Gemeinden übergehen, daher werden sie auch für die
+Kosten des laufenden Betriebs und die Wartung zuständig sein.
+Projektstand
+In der zweiten Jahreshälfte 2016 wurde jede Stadt- und Gemeindeverwaltung besucht, das Klinikum im Frühjahr 2017. Hierbei wurden die Aufgaben, die die Verwaltungen zu leisten haben, erörtert.
+
+3.6
+
+Außerdem wurde vor Ort an den Bus- und Bahnhaltestellen eine Vorfestlegung der DFI-Standorte zusammen mit den bauausführenden Vertretern der Tiefbauämter durchgeführt. Diese berücksichtigt die Anforderungen an die Sichtbeziehungen der Fahrgäste zum Anzeiger sowie baulich
+vorgeschriebene Mindestabstände. Die Ergebnisse wurden in Statusquo-Berichten fotodokumentarisch festgehalten (nicht Bestandteil der
+Ausschreibungsunterlagen).
+Nächste Schritte
+Nach Vergabe sollen die DFI-Standorte zeitnah bei einem gemeinsamen
+Ortstermin mit dem AG, den bauausführenden Vertretern der Kommunalverwaltungen (meist Tiefbauämter), dem Projektleiter des AN und
+dem Projektleiter des Ingenieurbüros endgültig festgelegt werden, damit
+die Fundament- und Stromzuführungsarbeiten beginnen können.
+
+3.7
+
+Wie erwähnt sollen an einigen Standorten die DFI-Anzeiger an vorhandenen Dachträgern angebracht werden. Die von den Kommunalverwaltungen zu beauftragenden Metallbauarbeiten sind in Abstimmung mit
+dem AN zu planen, ebenso sind Fragen hinsichtlich der Stromzuführung
+und der Verortung und Anbringung der Vorlesefunktionstaster zu klären.
+Sind die für die Installation der DFI-Anzeiger vorbereitenden Arbeiten erledigt, kann der AN mit der Einrichtung der Anzeiger vor Ort beginnen.
+Die Arbeiten finden bei laufendem Busverkehrsbetrieb statt. Es ist also
+ggf. in Absprache mit den Verwaltungen eine entsprechende Verkehrssicherung und Baustelleneinrichtung an den Haltestellen vorzusehen.
+
+April 2018
+
+Seite 11 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Um sich ein Bild über die Standorte machen zu können, sind im zur Ausschreibung gehörenden Dokument Projektbeschreibung (Anhang A, Anlage 1) die konzeptionellen Ausarbeitungen in Skizzen/Lageplänen, Fotomontagen und beispielhaften DFI-Abfahrtsmonitoren und jeweiligen Ergebnistabellen für jeden Projektstandort dargestellt.
+3.8
+
+Aufgrund der vielen Standorte und vielen Verwaltungen, die sich über
+den Landkreis verteilen, ist mit einem erhöhten Aufwand für das Projektmanagement für den AN zu rechnen.
+
+x
+
+Die Tabelle unter 4.1 fasst alle Standorte hinsichtlich vorgesehener Anzeiger und Installationen (Mast/Aufhängung) zusammen.
+
+April 2018
+
+Seite 12 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+4 DFI-Anzeiger
+4.1 Allgemeines
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Zum Lieferumfang der DFI-Anzeiger gehören jeweils:
+- Aufhängungen bzw. Masten mit dazugehörigem Ankerkorb
+- für den Außenbetrieb doppelseitige Gehäuse mit LED- bzw. vollfarbigen TFT-Anzeigen
+4.1.1
+- für den Innenbetrieb einseitige Gehäuse mit vollfarbigen TFT-Anzeigen
+- Anzeigerrechner als Industrie-PC
+- Kommunikationskomponenten
+- Vorlesefunktion (Text-to-Speech-Taster)
+- sämtliches Montagematerial.
+
+x
+
+Für die zu installierenden Anlagen der dynamischen Fahrgastinformation
+gelten allgemeine Anforderungen wie
+- modularer Aufbau
+- kompakte Gehäusekonstruktionen
+- Vandalismussicherheit
+- Erweiterbarkeit und Variierbarkeit durch offene und standardisierte
+4.1.2
+Schnittstellen
+- lange Lebensdauer
+- geringer Wartungs- und Montageaufwand.
+
+x
+
+Es sind separat stehende Anzeiger „schlüsselfertig“ inklusive der Aufhängungen bzw. Masten sowie Installation, Verkabelung und Inbetriebnahme anzubieten.
+4.1.3
+
+Werden mehrere Ausrüstungen des gleichen Typs bestellt, sind alle Haltestellen mit Bauteilen desselben Fabrikats und desselben Typs auszurüsten. Auch alle Gehäuseteile müssen baugleich bzw. maßhaltig sein.
+
+x
+
+4.1.4
+
+Alle verbauten Komponenten müssen üblichen Erschütterungen und
+Schwingungen durch Wind, Straßenverkehr etc. statisch sicher standhalten.
+
+x
+
+Alle verbauten Komponenten für die Außenanzeiger müssen innerhalb
+eines im Freien gemessenen Temperaturbereichs zwischen - 30° C und
+4.1.5 + 55° C garantiert funktionieren.
+Die Eigenwärme der Komponenten darf die Funktionsfähigkeit weder der
+Komponenten noch des Gesamtsystems beeinträchtigen.
+Alle Komponenten müssen bei einer relativen Luftfeuchtigkeit im Mo4.1.6
+natsmittel von 80%, gelegentlich bis zu 100% garantiert funktionieren.
+Gemäß VDE 0710 DIN 40050 sind für den Staub- und Wasserschutz die
+Schutzart IP 65 für die Außen- und IP 20 für die Innenanzeiger sowie für
+die elektrische Sicherheit für die Außenanzeiger Schutzklasse I zu be4.1.7
+rücksichtigen. Für Anzeigermasten in unmittelbarer Umgebung von
+Bahnanlagen ist eine Erdung vorzusehen. Alle Masten sind mit einer Erdungslasche auszustatten.
+
+April 2018
+
+x
+
+x
+
+x
+
+Seite 13 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Die DFI-Anzeiger sind für einen mindestens 10-jährigen Betrieb im
+Freien auszulegen.
+Sollten einzelne Komponenten wie z.B. TFT-Panels, Netzteile, Anzeigerrechner, Modems etc. eine geringere Lebensdauer haben, ist diese mit
+den jeweiligen gewöhnlichen Lebensdauern im Konzept angeben.
+4.1.8
+
+Generell ist eine Ersatzteilverfügbarkeit für die verwendeten Komponenten von mindestens 10 Jahren nach Abkündigung des Produktes zuzusichern.
+
+x
+
+x
+
+Die technische Ausführung der DFI-Anzeiger muss eine so genannte
+Ein-Mann-Wartung zulassen.
+Die Anzeigerstandorte im Gebiet der 13 Verwaltungen sind sehr unterschiedlich. Daher werden Anzeiger benötigt, die den jeweiligen Anforderungen gerecht werden wie z. B. Anzeigetechnik (LED/TFT), Zeilenanzahl, Größe, Masten bzw. Aufhängung an bestehenden Einrichtungen,
+ein-/doppelseitige Ausführung, Innen- oder Außenbetrieb usw. Die fol4.1.9 gende Tabelle gibt einen detaillierten Überblick über die auf die Standortanforderungen zugeschnittenen Anzeiger.
+In den Kapiteln 4.2 bis 4.9 werden die Anforderungen an die Anzeiger
+formuliert. Diese sind jeweils auf die in der Tabelle spezifizierten Anzeiger anzuwenden.
+
+April 2018
+
+Seite 14 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+Spezifikationen
+nach Ort
+
+LED-Anzeiger
+An- Zeilen Gleis-/ Breite Größe
+zahl inkl. Steig- Pixel Pixel
+Info
+
+02.05.2018
+
+Bad Friedrichshall
+Hbf Jagstfeld
+Bad Friedrichshall
+Klinikum
+
+2
+
+4
+
+Mast
+mit/ohne
+
+Anzeige
+
+Anzahl
+
+mm
+
+Staberder
+
+nein
+
+192
+
+4
+
+2
+
+TFT-Anzeiger
+
+Auf- Bemerkung
+hängung
+
+Anzahl
+1
+
+kein LED-Anzeiger
+
+1
+
+Bad Rappenau
+ZOB
+
+4
+
+3
+
+nein
+
+192
+
+4
+
+4
+
+2
+
+Beilstein
+Schulzentrum
+
+2
+
+4
+
+nein
+
+192
+
+4
+
+2
+
+1
+
+Brackenheim
+ZOB
+
+3
+
+4
+
+ja
+
+192
+
+4
+
+Eppingen
+ZOB
+
+5
+
+3
+
+nein
+
+192
+
+4
+
+5
+
+1
+
+3
+
+nein
+
+192
+
+4
+
+1
+
+1
+
+5
+
+ja
+
+192
+
+6
+
+1
+
+Gundelsheim
+Bahnhof
+
+3
+
+Lauffen a. N.
+Busbahnhof
+
+2
+
+4
+
+nein
+
+192
+
+4
+
+2
+
+Möckmühl
+Bahnhof
+
+1
+
+4
+
+nein
+
+192
+
+4
+
+1
+
+Neckarsulm
+
+Bahnhof Ost
+
+Salinenstraße
+Friedrichstraße
+
+1
+
+42"
+(46")
+
+außen
+
+1
+
+2
+
+40"
+
+innen
+
+1
+
+1
+
+(42"/43")
+
+1
+
+42"
+(46")
+
+außen
+
+2
+
+1
+
+Masten mit Staberder
+
+1
+
+42"
+(46")
+
+außen
+
+2
+
+1
+
+Aufhängung unter Decke
+keine Vorlesefunktion weil
+Innenraum
+Aufhängung an Wand der
+Bahnunterführung
+zu diskutieren: Platzierung
+Vorlesetaster
+neben 40"-Schulanzeiger -> beide
+Displays gleich groß erwünscht
+Aufhängung an Wand
+keine Vorlesefunktion weil
+Innenraum
+
+kein TFT-Übersichtsanzeiger
+LED-Übersichtsanzeige für Bus und
+Bahn
+
+Farbe Mast: RAL 1019 (graubeige)
+
+kein TFT-Übersichtsanzeiger
+
+1
+
+42"
+(46")
+
+außen
+
+2
+
+1
+
+42"
+(46")
+
+außen
+
+2
+
+1
+
+47"
+(46")
+
+außen
+
+2
+
+1
+
+1
+
+Aufhängung am Dach Abgang
+Bahnunterführung
+zu diskutieren: Platzierung
+Vorlesetaster
+-> Stütze Dach
+Farbe Mast: RAL 1019 (graubeige)
+
+1
+
+getrennte Anzeigen je nach
+Betrachtungsseite Bahn-/Bus
+-> 2. Steuerungsrechner
+notwendig Vorlesetaster soll an
+Tastersäule angebracht werden
+
+nein
+
+192
+
+4
+
+1
+
+kein TFT-Übersichtsanzeiger
+
+2
+
+3
+
+nein
+
+192
+
+4
+
+2
+
+kein TFT-Übersichtsanzeiger
+
+2
+
+4
+
+nein
+
+192
+
+4
+
+2
+
+4
+
+nein
+
+192
+
+4
+
+kein TFT-Übersichtsanzeiger
+
+2
+
+1
+
+kein LED-Anzeiger
+2
+
+3
+
+1
+
+4
+
+1
+
+5
+
+nein
+ja
+
+192
+
+4
+
+192
+
+ja
+
+6
+
+192
+
+6
+
+32
+Breite
+Pixel
+
+Größe
+Pixel
+
+Anzahl
+
+mm
+
+192
+
+4
+
+3-zeilig
+
+x
+
+x
+
+4-zeilig
+
+x
+
+4-zeilig
+5-zeilig
+
+Anzahl
+
+außen
+
+2
+
+außen
+
+2
+
+1
+4
+
+Aufhängungen an ZOBDachauslegern
+zu diskutieren: Platzierung
+
+kein TFT-Übersichtsanzeiger
+
+1
+
+Steiganzeige aufgrund Doppelsteig
+am ZOB
+Farbe Mast und Anzeiger: DB 702
+
+1
+
+LED-Übersichtsanzeige für Bus und
+Bahn
+
+3
+
+3
+
+1
+
+42"
+(46")
+
+außen
+
+2
+
+1
+
+Farbe Mast und Anzeiger: DB 702
+
+kein TFT-Übersichtsanzeiger
+16
+
+6
+
+10
+
+Ort
+
+Größe
+
+innen/
+außen
+
+einseitig
+
+doppel- Anseitig zahl
+
+Bad Rappenau, Eppingen, Gundelsheim,
+NSU Bf Ost Vorplatz, NSU Salinenstraße,
+Schwaigern (DB 703)
+
+40"
+(42"/43")
+
+innen
+
+x
+
+1
+
+innen
+
+x
+
+1
+
+außen
+
+x
+
+2
+
+Ort
+
+6
+15
+
+x
+
+14
+
+x
+
+x
+
+x
+
+x
+
+Summe
+
+Mast/Aufhängungen
+
+4
+
+42"
+(46")
+42"
+(46")
+
+2
+
+29
+
+Spezifikationen
+nach
+Ausstattung
+
+Weinsberg (DB 702)
+
+2
+
+Gundelsheim, Willsbach (DB 703)
+
+Anzahl
+31
+
+Mast (RAL 1019 -graubeige)
+Mast (DB 702 - grau)
+Aufhängung an Ausleger außen (DB 703)
+Wandhalter außen (DB 703)
+Wandhalter innen (grau/schwarz)
+Deckenhalter innen (grau/schwarz)
+Summe
+
+2
+2
+9
+2
+1
+1
+48
+
+Bad Friedrichshall, Beilstein, Brackenheim,
+Lauffen, Möckmühl, NSU Bf West,
+NSU Friedrichstraße
+(DB 703)
+
+1
+
+32
+
+Mast (DB 703 - dunkelgrau)
+
+April 2018
+
+1
+
+3
+
+ZOB Ballei
+Schwaigern
+Bahnhof
+Weinsberg
+Bahnhof
+Willsbach
+Bahnhof
+Summe
+
+Auf- Bemerkung
+hängung
+
+1
+
+2
+
+Bahnhof West
+
+Mast
+mit/ohne
+Staberder
+
+Steiganzeige aufgrund
+Doppelsteigen am ZOB
+Aufhängungen an ZOBDachauslegern
+zu diskutieren: Platzierung
+Vorlesetaster
+-> Stütze Dach
+
+kein LED-Anzeiger
+
+Vorplatz
+
+Größe innen/ ein-/
+außen doppelseitig
+42"
+außen
+2
+(46")
+42"
+innen
+1
+(43")
+
+42"
+(43")
+42"
+(46")
+42"
+(46")
+42"
+(46")
+47"
+(46")
+
+außen
+
+x
+
+10
+
+außen
+
+x
+
+1
+
+außen
+
+x
+
+Summe
+
+1
+
+Beinstein
+(grau/schwarz)
+Klinikum
+(grau/schwarz)
+Bad Rappenau
+(DB 703)
+Friedrichshall, Eppingen,
+Lauffen, Möckmühl, NSU
+Bf West, NSU ZOB Ballei
+(DB 703)
+Weinsberg (DB 702)
+NSU Bf Ost (DB 703)
+
+16
+
+Bildschirmdiagonalen in Klammern sind auch zugelassen.
+Ort
+Bad Friedrichhall, Bad Rappenau, Beilstein, Brackenheim, Eppingen, Gundelsheim, Lauffen, Möckmühl, NSU Bf Ost
+Vorplatz, NSU Salinenstraße, NSU Friedrichstraße, NSU Bf West, Schwaigern, Willsbach
+Möckmühl
+Weinsberg
+Brackenheim, Lauffen, Neckarsulm Bf Ost und ZOB Ballei
+Bad Rappenau
+Beilstein Schulzentrum
+Klinikum am Plattenwald
+
+Seite 15 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+4.2
+Nr.
+
+Anzeigergehäuse
+Bieter- erangabe füllt
+
+Anforderung
+
+Folgende Gehäuseanforderungen sind einzuhalten:
+- Die DFI-Anzeiger sind für einen mindestens 10-jährigen Betrieb im
+Freien auszulegen.
+- Gemäß VDE 0710 DIN 40050 sind für den Staub- und Wasserschutz
+die Schutzart IP 65 für die Außen- und IP 20 für den Innenanzeiger sowie für die elektrische Sicherheit für die Außenanzeiger Schutzklasse I
+zu berücksichtigen. Für Anzeigermasten in unmittelbarer Umgebung von
+Bahnanlagen sind bei der Fundamentherstellung Staberder vorzusehen
+(werden von den Baufirmen der Kommunen gestellt, siehe auch 4.9).
+- Alle verbauten Komponenten müssen innerhalb eines im Freien gemessenen Temperaturbereichs zwischen - 30° C und + 55° C garantiert
+funktionieren. Die Eigenwärme der Komponenten darf die Funktionsfähigkeit weder der Komponenten noch des Gesamtsystems beeinträchtigen.
+- Die Gehäuse sind korrosionsbeständig und unempfindlich gegen Witterungseinflüsse. Das heißt konkret: Alle verbauten Komponenten müssen
+üblichen Erschütterungen und Schwingungen durch Wind, Straßenver4.2.1 kehr etc. statisch sicher standhalten.
+- Die doppelseitigen Anzeigen sind in jeweils einem Gehäuse verbaut.
+- Die Gehäuse der DFI-Anzeiger werden angelehnt an die RAL-Farbe
+DB 703 (dunkelgrau) ausgeführt (Ausnahme: 2 Anzeiger in Weinsberg
+mit DB 702), die Innenanzeiger in grau oder schwarz.
+- Die Frontflächen der Gehäuse für alle Anzeigergrößen sollten geneigt
+sein, um die Lesbarkeit der Anzeiger durch die Draufsicht der Fahrgäste
+zu erhöhen. Es werden jedoch parallele Frontflächen zugelassen.
+- Die Anzeigefläche ist mit entspiegeltem Verbund-Sicherheitsglas mit einer ballwurfsicheren Mindeststärke für TFT-Anzeiger von 6 mm und
+LED-Anzeiger mit 4 mm gemäß DlN 18032-3 ausgeführt.
+- die Gehäuse der LED-Anzeiger mit 4 mm Pixelgröße und 192 Pixelbreite sollen nicht breiter als 1000 mm sein
+- Auf den LED-Gehäusen/Frontflächen sind über dem Display die Spaltentitel der angezeigten Inhalte aufzutragen (beispielsweise per Klebefolie), (siehe hierzu 4.8).
+
+x
+
+x
+
+Für die geforderten Anzeigerbauformen sind Konstruktionszeichnungen
+im Konzept beizulegen.
+Bei Überschreiten der Temperaturgrenzwerte im Gehäuseinneren wird
+der Anzeiger zunächst gedimmt und bei weiterer Temperaturerhöhung
+automatisch abgeschaltet. Die Wiedereinschaltung erfolgt automatisch
+nach Unterschreiten eines einstellbaren unteren Grenzwertes.
+x
+
+4.2.2
+
+Die Geräte sind mit einer Temperaturüberwachung ausgestattet.
+Die Temperaturverläufe sind im DFI-Verwaltungssystem über jegliche
+Zeitintervalle auswertbar.
+
+April 2018
+
+Seite 16 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Aus gestalterischen Gründen werden Anzeigergehäuse mit kompakten
+Ausmaßen erwartet. Die Tiefe des Anzeigergehäuses soll auf das technische Minimum gehalten werden. Der Rahmen um die aktive Displayfläche soll möglichst schmal gehalten werden. Es werden Anzeiger erwartet, die als schlank wahrgenommen werden. Dies gilt für alle Anzeiger
+außen und innen, LED und TFT.
+
+4.2.3
+
+Vom AN werden aussagekräftige Fotos sowie maßstabsgetreue, farbige
+Skizzen bzw. Darstellungen der vorgesehenen Außen- und Innenanzeiger (LED und TFT) beigelegt, aus denen folgende Aspekte eindeutig erkennbar sind:
+- Form und Gestalt des Anzeigers,
+- Vorder-, Seitenansicht (verschiedene Ansichten),
+- Bemaßung der Komponenten mit Display und Gehäuse, insbesondere
+Aufteilung Displayrahmen und Displayfläche.
+
+x
+
+x
+
+Der AG behält sich vor, eine Bemusterung der Displays durchzuführen
+zu lassen.
+
+April 2018
+
+Seite 17 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+4.3
+Nr.
+
+Anzeigertechnik TFT
+Bieter- erangabe füllt
+
+Anforderung
+
+Die TFT-Außenanzeiger an den verschiedenen Standorten erfordern
+unterschiedliche Ausführungen (ein-/doppelseitig, Bildschirmdiagonale,
+etc.) Die Tabelle unter 4.1 gibt darüber Aufschluss.
+Folgende Anforderungen müssen mindestens erfüllt werden:
+- doppelseitige Displays bis auf die beiden Anzeiger in Bad Rappenau (einseitige Displays)
+- die doppelseitigen Displays sind in einem Gehäuse auszuführen
+- Bildschirmdiagonale 42‘‘ (zugelassen ist auch 46“) und für einen Anzeiger
+Neckarsulm Bahnhof Ost 47‘‘ erwünscht (zugelassen ist auch 46“)
+- Full-HD-Auflösung im 16:9-Format mit 1920 x 1080 Bildpunkten (BxH)
+- Lesewinkel: horizontal + vertikal ≥ 120°
+4.3.1 - Display-Helligkeit 42‘‘ (bzw. 46“) und 47“ (bzw. 46“) --Anzeiger: ≥ 2000 cd/m²
+- Kontrast= 1000:1
+- Minimale Anzahl Farben: 16 Mio.
+- Helligkeitsregelung: automatisch, separat für jede Seite
+- LED-Hinterleuchtung
+- Frontglas aus Verbundsicherheitsglas ≥ 6,0 mm, entspiegelt
+- Schließung mit baugleichen Sicherheitsschlössern
+- die Displays weisen mindestens 50% der Leuchtkraft nach 10 Jahren bezogen
+auf den Wert bei der Inbetriebnahme auf
+
+x
+
+x
+
+x
+
+x
+
+Die Anzeige muss auch im Dunkeln und bei direkter Sonneneinstrahlung
+aus einer Entfernung von 15 Metern gut lesbar sein.
+Der AN stellt seine Anzeiger im Konzept mit Fotos und Skizzen dar.
+Für die zwei TFT-Innenanzeiger für das Klinikum am Plattenwald und
+für das Schulzentrum Beilstein kann ein Industrie-Monitor genutzt werden, der auf Dauerbetrieb ausgerichtet ist. Die Tabelle unter 4.1 gibt
+über die Ausführung Aufschluss.
+Folgende Anforderungen müssen mindestens erfüllt werden:
+- einseitige Displays
+- Bildschirmdiagonale Klinikum am Plattenwald: 42‘‘ (43“ wird auch akzeptiert)
+- Bildschirmdiagonale Beilstein Schulzentrum: da in der Eingangshalle bereits
+ein 40“-Schulanzeiger hängt und der Fahrgastanzeiger neben dem Schulanzeiger aufgehängt werden soll, wird eine Bildschirmdiagonale von 40“ gewünscht,
+es werden allerdings auch 42‘‘ bzw. 43“ akzeptiert
+4.3.2 - Full-HD-Auflösung im 16:9-Format mit 1920 x 1080 Bildpunkten (BxH)
+- Lesewinkel: horizontal + vertikal ≥ 120°
+- Display-Helligkeit ≥ 700 cd/m²
+- Kontrast= 1000:1
+- Minimale Anzahl Farben: 16 Mio.
+- Helligkeitsregelung: automatisch
+- LED-Hinterleuchtung
+- Monitore sind auf Dauerbetrieb (24/7) ausgelegt
+- die Displays weisen mindestens 50% der Leuchtkraft nach 10 Jahren bezogen
+auf den Wert bei der Inbetriebnahme.
+- der Anzeigerrechner kann außerhalb des Gehäuses installiert werden, beispielsweise am Wand- bzw. Deckenhalter hinter dem einseitigen Monitor
+
+Der AN stellt seine Anzeger im Konzept mit Fotos und Skizzen dar.
+April 2018
+
+Seite 18 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Die DFI-Anzeiger weisen einen geringen Energieverbrauch auf (inklusive
+eventueller Lüfter bzw. Heizungen). Der jahrestypische Energieverbrauch der DFI-Anzeiger ist anzugeben.
+4.3.3
+
+Die maximale Leistungsaufnahme der zu installierenden DFI-Anzeiger ist
+anzugeben.
+
+x
+
+x
+
+Der AN hat diese Angaben im Formblatt «Angaben zum Betrieb» (Anhang B/Anlage 1) zu machen.
+4.3.4
+
+Alle Lüfter sind in Abhängigkeit von der Temperatur geregelt.
+
+4.3.5
+
+Lüftergeräusche sollen die nähere Umgebung nicht stören / belasten und
+nicht wahrnehmbar sein.
+
+April 2018
+
+x
+
+Seite 19 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+4.4
+Nr.
+
+Anzeigertechnik LED
+Bieter- erangabe füllt
+
+Anforderung
+
+Die LED-Anzeiger an den verschiedenen Standorten erfordern unterschiedliche Ausführungen hinsichtlich Zeilenanzahl, Schriftgröße/Leseabstand und Breite. Die Tabelle unter 4.1 gibt darüber Aufschluss.
+Folgende Anforderungen müssen mindestens erfüllt werden:
+- alle Displays doppelseitig
+- die doppelseitigen Displays sind in einem Gehäuse auszuführen
+- Anzahl Zeilen: drei/vier/fünf Zeilen
+- Schriftgröße mit guter Lesbarkeit aus geringer und mittlerer Distanz
+(ca. 15 m), also Mindestversalhöhe von 28 mm / Pixelgröße 4 mm
+4.4.1
+bzw.
+- Schriftgröße mit guter Lesbarkeit aus mittlerer und weiter Distanz (ca.
+20 m), also Mindestversalhöhe von 40 mm / Pixelgröße 6 mm
+- Breite/Anzahl Schriftzeichen: 32 bis 34 Zeichen (192 Pixel)
+- Lesewinkel: mind. 80° (gemessen von Frontalansicht)
+- Display-Helligkeit ≥ 3000 cd/m²
+- Frontglas aus Verbundsicherheitsglas ≥ 4,0 mm, entspiegelt
+- Schließung mit baugleichen Sicherheitsschlössern
+
+x
+
+x
+
+x
+
+x
+
+Der AN stellt seine Anzeiger im Konzept mit Fotos und Skizzen dar.
+Die DFI-Anzeiger weisen einen geringen Energieverbrauch auf (inklusive
+eventueller Lüfter bzw. Heizungen). Der jahrestypische Energieverbrauch der DFI-Anzeiger ist anzugeben.
+4.4.2
+
+Die maximale Leistungsaufnahme der zu installierenden DFI-Anzeiger ist
+anzugeben.
+Der AN hat diese Angaben im Formblatt «Angaben zum Betrieb» (Anhang B, Anlage 1) zu machen.
+
+April 2018
+
+Seite 20 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+4.5
+Nr.
+
+Anzeigerrechner und Kommunikationskomponente
+Bieter- erangabe füllt
+
+Anforderung
+
+Die DFI-Anzeiger bestehen jeweils aus einem Anzeigerrechner, einem
+(meist) doppelseitigen Display, einem Gehäuse und einer Aufhängung.
+Der Anzeigerrechner
+- kommuniziert mit dem DFI-Verwaltungssystem und -server,
+- steuert alle Prozesse zur Darstellung der Inhalte,
+- überwacht alle Prozesse zur Steuerung der Akustik und
+4.5.1
+- administriert alle Parameter zur Visualisierung.
+
+x
+
+Die Kommunikation zwischen der DFI-Verwaltung und DFI-Anzeiger erfolgt mit drei Ausnahmen per Mobilfunk auf Basis von TCP/IP bzw. TLS.
+Der Anzeigerrechner muss Soll- und Ist-Daten sowie Texte und Medien
+verarbeiten und zur Anzeige bringen.
+Der zu liefernde Industrie-PC, der in allen Anzeigern verbaut wird, muss
+folgende Anforderungen erfüllen:
+- ist im Anzeigergehäuse
+- ist zwingend lüfterlos
+- Betriebssystem mind. Windows 8/10, Linux oder Android
+- SSD-Speicher: mind. 60 GB
+- Prozessor: mindestens Intel- /AMD-Chip Quad Core 2,0 GHz Taktung
+oder vergleichbar
+- Kommunikationskomponente: Mobilfunkmodem/-router mit aktuellen
+Übertragungsstandards GPRS/EDGE/UMTS/LTE/HSPA+ (Ausnahmen
+mit kabelgebundenem DSL-Betrieb: Weinsberg Bussteiganzeiger (Anschluss liegt vor), Innenanzeiger im Klinikum am Plattenwald in Bad
+Friedrichshall und im Schulzentrum Beilstein (häuslicher DSL-Anschluss)
+- Einsatz für Außenanzeiger im erweiterten Temperaturbereich
+von -30°C bis +55°C
+- verfügt über ausreichend Standardschnittstellen (USB, Ethernet etc.),
+um eine höchstmögliche Kompatibilität und Zukunftsfähigkeit der Anzei4.5.2
+gersteuerung zu gewährleisten
+- muss für die TFT-Monitore ruckelfrei Videos (mp4-Kompression oder
+ähnlich) zur Anzeige bringen können
+- steuert das Text-To-Speech-System (Vorlesefunktion), entsprechende
+Einrichtungen beim Anzeigerrechner (ggf. Audioein-/ausgänge etc.) sind
+vorzusehen
+
+x
+
+Der Anzeigerrechner für den doppelseitigen 47“-Übersichtsanzeiger in
+Neckarsulm muss zusätzlich die TFT-Panels getrennt ansteuern können,
+damit auf der einen Displayseite für Fahrgäste vom ZOB zum Bahnhof
+nur die Bahnabfahrten angezeigt werden können und auf der anderen
+Displayseite für die Fahrgäste vom Bahnhof zum ZOB nur die Busabfahrten.
+Der Anzeigerrechner muss alle an ihn gestellten Aufgaben, die im Rahmen des Lastenhefts formuliert sind, erfüllen können.
+
+April 2018
+
+Seite 21 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Zur Kommunikation zwischen Anzeigerrechner und der DFI-Verwaltung
+sind keine proprietären Schnittstellen zugelassen. Es dürfen nur Standardnetzwerkschnittstellen verwendet werden, z.B. Ethernet oder
+4.5.3
+WWAN (Wireless Wide Area Network = LTE, UMTS usw.). Nicht zugelassen sind insbesondere alte serielle Schnittstellen wie RS232 (oder
+vergleichbar), um sie als „Netzwerkschnittstelle“ zu verwenden.
+Das zu erwartende Datenaufkommen pro Monat für einen LED-BussteigAnzeiger und für einen TFT-Übersichtsanzeiger (ohne Bilddateien oder
+dgl.) ist im Formblatt «Angaben zum Betrieb» (Anhang B, Anlage 1) zu
+machen.
+4.5.4
+
+x
+
+x
+
+x
+
+Die Kommunen als künftige Eigentümer haben die Aufgabe, rechtzeitig
+Daten-SIM-Karten zum Zeitpunkt der Aufhängung/Einrichtung der Anzeiger zur Verfügung zu stellen.
+
+April 2018
+
+Seite 22 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+4.6
+Nr.
+
+Anzeigersoftware
+Bieter- erangabe füllt
+
+Anforderung
+
+Die Anzeigersoftware kommuniziert mit dem DFI-Verwaltungssystem.
+Dies umfasst:
+- Empfang von Soll und Echtzeitinformationen
+- Empfang von Sondertexten, Bildern und Videos (nur TFT-Displays)
+- Sendung von Status- und Fehlermeldung
+4.6.1
+
+Die Anzeigersoftware muss sich selbst und das angeschlossenen Display steuern und überwachen.
+
+x
+
+Für den doppelseitigen Übersichtsanzeiger in Neckarsulm muss die Anzeigersoftware die TFT-Panels getrennt ansteuern können.
+Lauftexte und Videos (nur TFT-Displays) werden ruckelfrei und nicht verzerrt wiedergegeben.
+Bei Ausfall der Fahrgastinformation, bei fehlender Kommunikation zum
+DFI-Verwaltungssystem oder während der Aufbauphase werden im
+4.4.2
+Speicher der Anzeigensteuerung Festtexte abgelegt, die vom AG parametrierbar sind.
+Zu übertragene und darzustellende Inhalte sind:
+- Linie
+- Ziel
+- Abfahrtszeit oder Restzeit bis zur Abfahrt (Countdown)
+- Steignummer
+- Sondertexte (fahrt-/linienbezogen, ganzer Bildschirm)
+4.6.3
+- Bilder, Videos (nur TFT-Displays)
+Die Datenübernahme aus vorgelagerten Systemen wie in diesem Fall
+vom DFI-Verwaltungssystem muss sicher, verzögerungsfrei und vollständig erfolgen. Ist die Übertragung fehlerhaft, so müssen entsprechende
+Fehlerberichte erstellt werden, um die Fehler nachfolgend analysieren
+und beheben zu können.
+Bei der Anzeigerüberwachung sendet die Anzeigersoftware folgende Informationen an das DFI-Verwaltungssystem:
+- Anzeigerstatus: online/offline
+- Wartungsmodus: ein/aus
+- Display: ein/aus
+- aktueller Softwarestand.
+4.6.4
+
+Auf Anforderung vom DFI-Verwaltungssystem sendet die Anzeigersoftware folgende Informationen:
+- Anzeigerinhalte als Screenshot
+- Anzeigerinhalte als Stream
+- Alarmmeldungen (Temperatur, Displayfehler)
+- Logdateien zu Fehlerzuständen der Hard- und Software sowie der
+Schnittstelle zum DFI-Verwaltungssystem.
+
+April 2018
+
+x
+
+x
+
+x
+
+Seite 23 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Bei der Anzeigersteuerung kann der Disponent der DFI-Kontrollstelle im
+Wesentlichen dispositive Maßnahmen auf dem Anzeigerrechner einstellen. Die Anzeigersoftware muss daher in der Lage sein, folgende Funktionen zu erfüllen:
+4.6.5 - Darstellung von allgemeinen Sondertexten
+- Darstellung von Fahrt- und Liniensondertexten
+- Einstellung der Gültigkeit aller Sondertexte
+- Visualisierung von Sondertexten auf ganzem oder halben Bildschirm oder auf der untersten Zeile.
+Die DFI-Verwaltungssoftware erlaubt eine Anzeigerkonfiguration aus der
+Ferne und die Auswertung von Logdateien. Die DFIVerwaltungssoftware (siehe 6.2) ist das Gegenstück zur DFIAnzeigersoftware.
+
+x
+
+Folgende Mindestfunktionen müssen DFI-Verwaltungssoftware und Anzeigersoftware im Zusammenspiel leisten:
+- Management von Konfigurationsdateien, Symbolen und Mediendateien
+(z. B. über Dateibrowser)
+- Einfaches Ändern aller Konfigurationsdateien der Displays aus der
+4.6.6
+Ferne
+- Auslesen und Darstellung der Logdateien aus den Anzeigern
+- Fernsteuerung der Anzeiger (Terminalverbindung, Bildschirmsteuerung
+z.B. über VNC)
+- Steuerung und Durchführung von Softwareupdates
+- Anzeige der wichtigsten Parameter und Zustände der Anzeiger sowie
+der aktuellen Bildschirminhalte
+
+x
+
+x
+
+Der AN hat zu allen oben genannten Spiegelstrichen in seinem Konzept
+entsprechende Angaben zu machen und eingängige Screenshots und
+Grafiken zu liefern.
+
+April 2018
+
+Seite 24 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Die Anzeigersoftware muss die folgenden erweiterten Funktionen bieten:
+- Dateidownload von Konfigurationsdateien, Symbolen und
+Mediendateien
+- Fehlerüberwachung und Alarmmeldungen aller Anzeigerkomponenten
+- Aufzeichnen (logging) aller relevanten Prozesse
+- Hinterlegen von Audioprofilen für das Text-to-Speech-System zu Tagesarten
+und Feiertagen (z. B. Lautstärke-Nachtabsenkung)
+- Definition von Bildschirm-Inhalten wie z.B. Rückfallebenen bei fehlender Kommunikation, Abfahrtstabellen, Sondertexten
+- Konfiguration von Protokollen zur Anbindung des Displays an eine Anzahl n
+Datenquellen
+- Definition von Bildschirm-Grundeinstellungen wie Bildschirmbreite, -höhe etc.
+4.6.7 - Definition der Abfahrtsdarstellung mit z.B. Spaltenbreiten; für TFT-Displays:
+Schriften, Schriftgrößen und -farben, Hintergrundfarben etc.
+- Steuerparameter wie Timeouts bei Kommunikationsausfall
+- Erfassung von Fehlerzuständen der Hardware und Software inklusive Schnittstellen
+- Flüssige und effiziente Animationen wie Lauftexte und Übergänge der Inhalte
+- Darstellung von Bildern (jpeg, png und andere Formate – nur TFT-Displays)
+- Abspielen einer Bilder-Playliste.
+
+x
+
+x
+
+Die Anzeigersoftware soll an TFT-Displays Videos (mp4 und andere Formate) darstellen können.
+Der AN hat hierzu in seinem Konzept entsprechende Angaben zu machen und eingängige Screenshots zu liefern.
+4.6.8
+
+Die Uhrzeit wird regelmäßig mit dem DFI-Verwaltungssystem oder einem
+Zeit-Server synchronisiert.
+
+x
+
+Die Datenübertragungen zwischen allen Anzeigern und dem DFIVerwaltungssystem müssen TCP/IP- bzw. TLS-basiert ausgeführt werden.
+4.6.9
+Für das Zusammenspiel der Anzeigersoftware und DFIVerwaltungssoftware gelten die unter 6.1.12 bis 6.1.16 beschriebenen
+Kommunikations- und Sicherheitsstandards.
+Nach Ablauf der planmäßigen Abfahrt muss die Fahrt endgültig von der
+4.6.10
+DFI-Anzeige gelöscht werden.
+4.6.11
+
+4.6.12
+
+4.6.13
+
+4.6.14
+
+4.6.15
+
+x
+
+x
+
+Steht ein Echtzeitdaten abgebendes Fahrzeug im Stau, also verändert
+sich die Restzeit einer angezeigten Abfahrt über eine parametrierbare
+Zeit nicht, muss anstatt der gleichbleibenden Restzeit ein frei einstellbarer Text (z. B. „Stau“) angezeigt werden können.
+Die Anzeigersoftware muss nach Abfahrt die Anzeige der entsprechenden Fahrt löschen. Für das Ausbleiben der aktiven Abmeldung ist ein parametrierbarer Time-out vorzusehen.
+Nach einem Totalausfall des Datenproviders muss das DFI-System selbständig wiederanlaufen. Der AN muss in seinem Konzept darstellen, wie
+der Wiederanlauf des DFI-Systems von statten geht.
+Verlässt ein Fahrzeug die Haltestelle, so ist sicherzustellen, dass die an
+der DFI-Anzeige angekündigte Fahrt zeitnah gelöscht wird („Schnelles
+Löschen“). Hierfür soll ein geeignetes Konzept einschließlich Kostenrahmen vorgestellt werden.
+Die softwareseitigen Voraussetzungen für ein „Schnelles Löschen“ müssen vorgesehen werden, sodass eine eventuell spätere Aufrüstung des
+Systems in dieser Hinsicht möglich ist.
+
+April 2018
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+Seite 25 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+4.7
+Nr.
+
+Ausführungsformen und Inhalte für TFT-Displays
+Bieter- erangabe füllt
+
+Anforderung
+
+Die TFT-Anzeiger müssen mindestens folgende Darstellungen ermöglichen: Insgesamt mindestens 11 Zeilen mit
+1. Zeile: Datum und Uhrzeit
+2. Zeile: Spaltentitel (Linie // Ziel // Gleis/Steig // Abfahrt) sind in einer
+Kopfzeile auszugeben (kleinere Schriftgröße, also die folgenden Zeilen)
+3.-10. Zeile: Linienabfahrten
+11. Zeile: Infotextzeile (wechselnde Sonderinformationen falls sie vorliegen - liegen keine vor, kann die Infotextzeile eine weitere Abfahrt anzeigen)
+Die nächste Abfahrt muss immer oben stehen.
+Anzeige der Linienabfahrten von links nach rechts:
+Symbol des Verkehrsträgers (Bus, S-Bahn, RB, RE etc.) (1 Zeichen)
+Leerzeichen (1 Zeichen)
+Liniennummer (4 Zeichen)
+Leerzeichen (1 Zeichen)
+Linienziel (ca. 20 bis 25 Zeichen)
+Leerzeichen (1 Zeichen)
+Steig-/Gleisnummer (1 Zeichen – je nach örtlicher Anforderung)
+Leerzeichen (1 Zeichen)
+Zeit (5 Zeichen für Abfahrtsanzeige (hh:mm) oder 2 Zeichen für Countdownanzeige (mm)
+
+Für die Echtzeitabfahrtsdarstellung wird die Countdownform gewählt.
+Liegen keine Echtzeitdaten vor oder hat sich ein Fahrzeug noch nicht im
+System registriert, wird die Soll-Zeit, also die fahrplanmäßige Abfahrtszeit in Stunde und Minute angezeigt.
+4.7.1 Für die letzte Minute vor der Abfahrt kann ein Symbol gewählt werden
+(z. B. ein Bild, das einen Bus oder eine Bahn symbolisiert).
+
+x
+
+Layout-Beispiel TFT-Übersichtsanzeiger:
+
+Der AG benennt Schrifttypo, Farben und stellt ggf. ein Logo (jpeg, png oder dgl.) zur Verfügung. Der AN erstellt damit ein Layoutentwurf unter
+Berücksichtigung der oben genannten Rahmenbedingungen. Der Entwurf wird mit dem AG abgestimmt. Anschließend wird das abgestimmte
+Layout für die Anzeiger übernommen und vom AN implementiert.
+April 2018
+
+Seite 26 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Für die Bussteiganzeiger am Neckarsulmer ZOB (Ballei) werden lediglich drei Abfahrten zur Anzeige benötigt, also
+1. Zeile: Steiganzeige (optional)
+2. Zeile: Datum und Uhrzeit
+3. Zeile: Spaltentitel
+4.-6. Zeile: Linienabfahrten
+7. Zeile: Infotextzeile
+Ansonsten gilt alles wie unter 4.5.2.
+Layoutbeispiel Bussteiganzeiger Neckarsulm ZOB (Ballei) Steig A:
+
+x
+
+4.7.2
+
+Sollte sich nach Systemstart im täglichen Betrieb herausstellen, dass es
+sinnvoll wäre, weniger oder mehr Zeilen anzuzeigen, muss das Lay4.7.3 out/die Zeilenanzahl nachträglich veränderbar sein.
+Die Darstellung einer analogen Uhr mit Zeigern anstatt einer Zifferndarstellung muss möglich sein.
+Bezüglich der Schriftart und der Schriftgröße hat der AN die Möglichkeiten seiner Produkte zu beschreiben.
+Folgende Randbedingungen müssen für die Schriftarten berücksichtigt
+werden:
+- Proportionalschrift
+- Buchstaben mit Über- und Unterlängen
+- eine Darstellung von mindestens 3 verschiedenen Schriftarten/Fonts,
+die parametrierbar aufrufbar sind
+4.7.4
+- Groß- und Kleinschreibung, auch mit Unterzug
+- Umlaute, „ß“, Standard-Sonderzeichen (gem. ASCII-Zeichensatz)
+- grafische Symbole und Piktogramme
+
+x
+
+x
+
+x
+
+x
+
+Bei der Layoutgestaltung muss Kontrast und Lesbarkeit im Hinblick auf
+sehbeeinträchtigte Personen beachtet werden. Es sind speziell für den
+Straßenverkehr entwickelte Schriftarten zu verwenden. Siehe hierzu
+auch DIN 1451.
+
+April 2018
+
+Seite 27 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Die Vorankündigungszeit einer Fahrt, also die Zeitspanne vom Erscheinen der Fahrt auf den Anzeigern und der planmäßigen Abfahrtszeit des
+Fahrzeuges von der Haltestelle ist durch einen Parameter (durch den
+Bediener des Verwaltungssystems) voreinstellbar. Ist diese beispielsweise auf 30 min eingestellt, so wird die Fahrt bereits 30 min vor Abfahrt
+4.7.5
+am Anzeiger dargestellt.
+Die Filterung von Taktfahrten muss möglich sein, so dass einstellbar ist,
+ob alle tatsächlich stattfindenden Abfahrten jedweder Linie und Ziel
+(„Wiederholer“) oder ob nur Abfahrten unterschiedlicher Linien bzw. Ziele
+angezeigt werden.
+Für den Fall einer fehlenden Kommunikationsverbindung zwischen DFIVerwaltungssystem und DFI-Anzeigerrechner müssen in den DFI4.7.6
+Anzeigerrechnern entsprechend frei definierte Rückfalltexte abgespeichert und dargestellt werden können.
+Sondertexte werden in der Regel auf der untersten Zeile des Displays
+angezeigt, d. h. eine eventuelle Fahrtankündigung wird überschrieben.
+Darüber hinaus besteht die Möglichkeit, den gesamten Anzeiger für die
+Anzeige von Sondertexten zu nutzen (z. B. Ausfall aller Fahrten an die4.7.7 ser Haltestelle und Hinweis auf Schienenersatzverkehr). Der Bediener
+muss die Möglichkeit haben, lange Texte über die ganze/s Seite/Display,
+also über alle Zeilen, umbrechen zu lassen. Ist der Text in diesem Fall
+länger als eine Displayseite, so erfolgt nach einer vom Bediener frei einstellbaren Zeit ein Seitenwechsel.
+Die Sondertexte müssen durch frei definierte Aufschaltzeiträume angezeigt und gelöscht werden können. Ein vorzeitiges Löschen von Sondertexten muss möglich sein.
+4.7.8
+
+x
+
+x
+
+x
+
+x
+
+Die Anzeige des Sondertextes bleibt so lange erhalten, bis die Gültigkeit
+abläuft oder die Anzeige vom Bediener widerrufen wird.
+
+April 2018
+
+Seite 28 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+4.8
+Nr.
+
+Ausführungsformen und Inhalte für LED-Displays
+Bieter- erangabe füllt
+
+Anforderung
+
+Die LED-Anzeiger müssen mindestens folgende Darstellungen ermöglichen: Je nach Anzeiger 3 bis 5 Zeilen (siehe Tabelle unter 4.1) mit
+Obere Zeilen: Linienabfahrten
+Unterste Zeile: Infotextzeile (wechselnde Sonderinformationen, falls sie
+vorliegen - liegen keine vor, kann die Infotextzeile eine weitere Abfahrt
+anzeigen)
+Die nächste Abfahrt muss immer oben stehen.
+Anzeige der Linienabfahrten von links nach rechts:
+Liniennummer (4 Zeichen)
+Leerzeichen (1 Zeichen)
+Linienziel (20 bis 25 Zeichen - je nach Breite des Anzeigers und je nach Abfahrt- oder
+Countdownanzeige)
+Leerzeichen (1 Zeichen)
+ggf. Steig-/Gleisnummer (1 Zeichen – je nach örtlicher Anforderung)
+Leerzeichen (1 Zeichen)
+Zeit (5 Zeichen für Abfahrtsanzeige (hh:mm) oder 2 Zeichen für Countdownanzeige (mm)
+
+Für die Echtzeitabfahrtsdarstellung wird die Countdownform gewählt.
+Liegen keine Echtzeitdaten vor oder hat sich ein Fahrzeug noch nicht im
+System registriert, wird die Soll-Zeit, also die fahrplanmäßige Abfahrtszeit in Stunde und Minute angezeigt.
+Für die letzte Minute vor der Abfahrt kann ein Symbol gewählt werden
+(z. B. ein Bild, das einen Bus oder eine Bahn symbolisiert).
+Im Anzeiger muss darüber hinaus eine digitale Uhrzeit integriert sein.
+4.8.1
+
+Über der obersten Zeile sind die Spaltentitel aufzutragen (beispielsweise
+per Klebefolie):
+Linie // Ziel // Gleis/Steig // Abfahrt sind in einer Kopfzeile auszugeben
+(kleinere Schriftgröße also die folgenden Zeilen)
+(Gleis/ Steig nur an ausgewählten Standorten (siehe Tabelle in 4.1))
+
+x
+
+Layout-Beispiel LED-Übersichtsanzeiger:
+
+A
+Linie
+
+07:00
+Ziel
+
+Abfahrt
+
+1111 Ziel A
+6
+2222 Ziel B
+07:12
++++ Gute Fahrt auf allen Linien +++
+
+April 2018
+
+Seite 29 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Bezüglich der Schriftart und der Schriftgröße hat der AN die Möglichkeiten seiner Produkte im Konzept zu beschreiben.
+Folgende Randbedingungen müssen für die Schriftarten berücksichtigt
+werden:
+- Proportionalschrift
+- Buchstaben mit Über- und Unterlängen
+- Groß- und Kleinschreibung, auch mit Unterzug
+4.8.2
+- Umlaute, „ß“, Standard-Sonderzeichen (gem. ASCII-Zeichensatz)
+- grafische Symbole und Piktogramme
+Bei der Layoutgestaltung muss Kontrast und Lesbarkeit im Hinblick auf
+sehbeeinträchtigte Personen beachtet werden. Es sind speziell für den
+Straßenverkehr entwickelte Schriftarten zu verwenden. Siehe hierzu
+auch DIN 1451.
+Die Vorankündigungszeit einer Fahrt, also die Zeitspanne vom Erscheinen der Fahrt auf den Anzeigern und der planmäßigen Abfahrtszeit des
+Fahrzeuges von der Haltestelle ist durch einen Parameter (durch den
+Bediener des Verwaltungssystems) voreinstellbar. Ist beispielsweise
+diese Zeit auf 30 min eingestellt, so wird die Fahrt bereits 30 min vor Ab4.8.3
+fahrt am Anzeiger dargestellt.
+Die Filterung von Taktfahrten muss möglich sein, so dass einstellbar ist,
+ob alle tatsächlich stattfindenden Abfahrten jedweder Linie und Ziel
+(„Wiederholer“) oder ob nur Abfahrten unterschiedlicher Linien bzw. Ziele
+angezeigt werden.
+Für den Fall einer fehlenden Kommunikationsverbindung zwischen DFIVerwaltungssystem und DFI-Anzeigerrechner müssen in den DFI4.8.4
+Anzeigerrechnern entsprechend frei definierte Rückfalltexte abgespeichert und dargestellt werden können.
+Sondertexte werden in der Regel auf der untersten Zeile des Displays
+angezeigt, d. h. eine eventuelle Fahrtankündigung wird überschrieben.
+Darüber hinaus besteht die Möglichkeit, den gesamten Anzeiger für die
+Anzeige von Sondertexten zu nutzen (z. B. Ausfall aller Fahrten an die4.8.5 ser Haltestelle und Hinweis auf Schienenersatzverkehr). Der Bediener
+muss die Möglichkeit haben, lange Texte über die ganze/s Seite/Display,
+also über alle Zeilen, umbrechen zu lassen. Ist der Text in diesem Fall
+länger als eine Displayseite, so erfolgt nach einer vom Bediener frei einstellbaren Zeit ein Seitenwechsel.
+Die Sondertexte müssen durch frei definierte Aufschaltzeiträume angezeigt und gelöscht werden können. Ein vorzeitiges Löschen von Sondertexten muss möglich sein.
+4.8.6
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+Die Anzeige des Sondertextes bleibt so lange erhalten, bis die Gültigkeit
+abläuft oder die Anzeige vom Bediener widerrufen wird.
+
+April 2018
+
+Seite 30 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+4.9
+Nr.
+
+Aufhängung, Mast
+Bieter- erangabe füllt
+
+Anforderung
+
+Vorbemerkung
+In der Regel werden an den Standorten neue Masten benötigt, die Teil
+der Ausschreibung sind.
+An einigen Standorten sollen die DFI-Anzeiger an vorhandenen Dachträgern angebracht werden. Zur Unterscheidung wird der Begriff Halter für
+die von den Kommunalverwaltungen zu beauftragenden Metallarbeiten
+benutzt, an welche die DFI-Anzeiger ohne eigenen Mast aufgehängt
+werden sollen. Die am Anzeigergehäuse angebrachte Vorrichtung, die
+zum Anbringen an den Halter vorzusehen ist, wird Aufhängung genannt.
+Beispiel Neckarsulm ZOB Ballei mit Zuständigkeiten AN/Kommunen:
+Kabelkanal
+(Kommune)
+
+Stromzuführung
+(Kommune)
+
+Halter
+(Kommune)
+Aufhängung
+(DFI-AN)
+
+DFI
+Anzeiger
+
+Taster
+
+4.9.1
+
+Strom- u.
+Audiokabel
+für TTSTaster
+(DFI-AN)
+
+Quelle: IGV, Stuttgart
+
+Für den Halter, die Kabelkanäle und die Stromzuführung zum DFIAnzeiger sind die Kommunalverwaltungen zuständig, für die Aufhängung, die Strom- und Audiokabel zum Text-to-Speech-Taster der AN
+(siehe hierzu auch Kapitel 4.10 und 4.11). Nach Vergabe werden beim
+gemeinsamen Vor-Ort-Terminen mit dem AG, dem AN, den Vertretern
+der Kommunen und dem begleitenden Ingenieurbüro mögliche Umsetzungen besprochen.
+
+April 2018
+
+Seite 31 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Standorte der Anzeiger an Masten und Halter
+Die Lichtraumprofile (Abstand von Bahnsteig-/Bordsteinkante) sind zu
+berücksichtigen.
+Der Mindestabstand vom auskragenden Anzeiger (Außenrand) zum
+Fahrbahnrand darf 0,50 m nicht unterschreiten. Dies gilt auch im geöffneten Wartungszustand. Es sind die erforderlichen Sicherheitsabstände
+bei geöffneter Stellung zu berücksichtigen.
+4.9.2
+
+x
+
+Eine vorläufige Festlegung der Standorte wurde vor Ort zusammen mit
+den bauausführenden Vertretern der Tiefbauämter durchgeführt. Diese
+berücksichtigen die Anforderungen an die Sichtbeziehungen der Fahrgäste zum Anzeiger sowie baulich vorgeschriebene Mindestabstände.
+Die Ergebnisse wurden in Status-quo-Berichten fotodokumentarisch festgehalten (nicht Bestandteil der Ausschreibungsunterlagen).
+Eine endgültige Festlegung der Standorte wird beim gemeinsamen
+Vor-Ort-Terminen mit dem AG, dem AN, den Vertretern der Kommunen
+und dem begleitenden Ingenieurbüro abgestimmt.
+Mitwirkung des AN bei der Planung der Halter
+Die Halter, die die DFI-Anzeiger an den Aufhängungen aufnehmen können, werden von den Kommunalverwaltungen zu beauftragenden örtlichen Metallbauern angefertigt.
+Beim gemeinsamen Vor-Ort-Termin werden mögliche Umsetzungen besprochen. Es wird erwartet, dass sich der AN aktiv mit seinem KnowHow an den zu lösenden Aufgaben beteiligt.
+Der AN soll drei unterschiedliche Konstruktionen aus bereits umgesetzten Lösungen an Dachträgern und Auslegern im Konzept darstellen.
+
+4.9.3
+
+Für die Statik der Halter und der DFI-Anzeiger aufnehmenden Gesamtkonstruktion (Dachträger, Ausleger etc.) haben die jeweiligen Metallbauer oder Statik-Ingenieure, die von den Kommunalverwaltungen beauftragt werden, Sorge zu tragen.
+Hierfür muss der AN alle notwendigen Angaben in Form von technischen
+Unterlagen und Zeichnungen zu den DFI-Anzeigern und -Aufhängungen
+wie Gewicht, Gehäusegröße (Flächen) usw. zeitnah nach Vergabe zur
+Verfügung stellen. Aus den Unterlagen müssen alle Angaben hervorgehen, um die Halter konstruieren und die Statik berechnen zu können.
+Der AN ist für die Montage der DFI-Anzeiger an den Haltern zuständig.
+Die Halter müssen also so erstellt werden können, dass eine anschließende Montage möglich ist (technische Zeichnung mit Lage und Durchmesser für Befestigungsschrauben etc.). Für den sicheren Halt der DFIAnzeiger an den Haltern ist der AN verantwortlich.
+
+April 2018
+
+x
+
+x
+
+Seite 32 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Aufhängungen
+Die am Anzeigergehäuse angebrachte Vorrichtung, die zum Anbringen
+an den Halter vorzusehen ist, wird Aufhängung genannt.
+
+4.9.4
+
+Die Aufhängung ist Teil der Ausschreibung, sie muss mitgeliefert werden
+und mit technischen Zeichnungen seitens des AN beschrieben werden,
+damit örtliche Metallbauer entsprechende Halter anfertigen und eine statische Berechnung durchführen (lassen) können.
+
+x
+
+Für die Aufhängungen gelten folgende Mindestanforderungen:
+- Stromzuführung (von oben) ist über entsprechende Öffnung am Halter
+zu berücksichtigen
+- Die Anbindung eines TTS-Tasters mit integriertem Lautsprecher inkl.
+Strom- und Audiokabel an der Stütze ist zu berücksichtigen.
+- Korrosionsschutz (Stahlteile mind. feuerverzinkt)
+- RAL-Farbe DB 703
+- liefern und montieren.
+Masten
+Die Anzeiger werden an Masten mit seitlichem Ausleger montiert. Die
+Masten werden vom AN geliefert und aufgestellt. Hierbei gelten folgende
+Mindestanforderungen:
+- Durchgangshöhe mind. 2,50 m
+- passender Ankerkorb (der vom AG einbetoniert wird)
+- komplette statische Berechnung der Masten inklusive Fundamentplan
+ist nach Vergabe zur Verfügung zu stellen (Berücksichtigung von Eigengewicht und Windlast, siehe DIN 1055-4)
+- Kabelübergangskasten mit Sicherungsautomaten
+- angebaute TTS-Taster mit integriertem Lautsprecher
+4.9.5 - Erdungslasche
+- Korrosionsschutz (Stahlteile mind. feuerverzinkt)
+- RAL-Farbe DB 703 dunkelgrau (die zwei Masten für Weinsberg in DB
+702 grau und die zwei Masten in Möckmühl RAL 1019 graubeige)
+- liefern und montieren
+
+x
+
+x
+
+Für die Masten ist eine technische Zeichnung mit Bemaßung und mehrere Fotos von AN dem Konzept beizulegen.
+Für Anzeigermasten in unmittelbarer Umgebung von Bahnanlagen sind
+bei der Fundamentherstellung Staberder vorzusehen. Diese werden von
+den Kommunen bzw. von deren beauftragten Baufirmen im Rahmen der
+Fundamentierungsarbeiten zur Verfügung gestellt und an die Erdungslasche angeschlossen.
+Nach der Auftragserteilung liefert der AN zur Erstellung der Mast-Fundamente zeitgerecht alle notwendigen Angaben zur statisch sicheren Ausführung sowie exakt bemaßte Zeichnungen, ebenso zur Kabelzuführung.
+Falls es für die Mast-Montage notwendig ist, sind dem Fundamentbauer
+4.9.6
+auch feuerverzinkte Montageplatten und / oder Ankerkörbe vom AN bereitzustellen (siehe hierzu Baufristenplan 7.1).
+Die Beauftragung der Tiefbauunternehmen ist Sache der Kommunen,
+ebenso sorgen die Kommunen für die Stromzuführung.
+April 2018
+
+x
+
+Seite 33 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Anzeiger an Wand und Decke
+Für folgende Anzeigerbefestigungen hat der AN zu sorgen, sie werden
+nicht von den örtlichen Verwaltungen gestellt:
+- eine Deckenbefestigung in der Wartehalle im Klinikum am Plattenwald
+(Bad Friedrichshall) für einen 42“(bzw. 43“)-TFT-Innenanzeiger
+- eine Wandbefestigung in der Eingangshalle im Schulzentrum Beilstein
+für einen 40“-TFT-Innenanzeiger
+- zwei Wandbefestigungen über der Unterführungstreppe am Bahnhof
+Bad Rappenau für zwei 42“(bzw. 46“)-TFT-Außenanzeiger
+4.9.7
+
+x
+
+Die endgültige Festlegung (Wand-/Deckenhalterung) wird im Rahmen
+der Begehung vor Ort festgelegt.
+Für die Befestigungen gelten folgende Mindestanforderungen:
+- Stromzuführung ist über entsprechende Öffnung am Halter zu berücksichtigen
+- komplette statische Berechnung der Befestigungen ist nach Vergabe
+zur Verfügung zustellen
+- Korrosionsschutz (Stahlteile mind. feuerverzinkt)
+- für den Wandhalter außen RAL-Farbe DB 703, für den Wand- und Deckenhalter innen Farbe grau oder schwarz
+- liefern und montieren.
+
+April 2018
+
+Seite 34 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+4.10 Montage, elektrischer Anschluss
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Montage
+4.10.1
+
+4.10.2
+
+4.10.3
+
+Die erforderliche endgültige Standortbestimmung erfolgt bei der gemeinsamen Vor-Ort-Begehung des AG, des AN, der jeweiligen Vertreter der
+Kommunalverwaltungen und des projektbegleitenden Büros.
+Das Aufstellen der Masten und die Montage der Anzeiger an die Halter
+und an die Masten ist Sache des AN und muss in den Einheitspreisen
+berücksichtigt werden. Dies gilt auch für entsprechende Spezialwerkzeuge, Hubwagen etc. für die Montage.
+
+x
+
+x
+
+Die Montagearbeiten finden bei laufendem Busverkehrsbetrieb statt. Es
+ist also seitens des AN eine entsprechende Verkehrssicherung und ggf.
+Baustelleneinrichtung an den Haltestellen vorzusehen, die – abhängig
+von den örtlichen Erfordernissen – mit den Kommunalverwaltungen abzustimmen sind.
+Die DFI-Anzeiger sind vom AN - unter Einhaltung der notwendigen
+Lichtraumprofile - so zu montieren, dass Verletzungen wartender oder
+vorbeigehender Personen ausgeschlossen sind.
+Elektrischer Anschluss
+
+x
+
+Die erforderliche Spannungsversorgung der DFI-Anzeiger wird bis zu
+den Aufhängungen bzw. bis zum Mast-Fundament bauseits durch die
+Kommunalverwaltungen bzw. von deren beauftragten Elektro-Unternehmen bereitgestellt (siehe hierzu Abbildung in Position 4.9.1).
+
+4.10.4
+
+Revisions- und vandalismussicher verbaute Sicherungs- und Fehlerstrom-Schutz-Elemente sowie Erdungsanschlüsse gem. VDE 0100 und
+eine Erdungslasche sind Bestandteile des durch den AN zu liefernden
+Masten. Dazu zählt auch die sichere Kabelführung an der Aufhängung
+bzw. im Masten ab Oberkante Fundament.
+Die Kabelkanäle zwischen Aufhängungen und Vorlesetastern sind Sache der Kommunen, die Strom- und Audiokabel liegen im Aufgabenbereich des AN (siehe hierzu Abbildung in Position 4.9.1).
+
+x
+
+Nach der Auftragserteilung liefert der AN qualifizierte Unterlagen, aus
+denen die bauseits notwendigen Kabelzuführungen, -querschnitte und
+-längen, Spannungs- und Sicherungsanforderungen ersichtlich sind.
+Netzseitig werden 230 Volt / 50 Hz z.B. mit einem Erdkabel NYY-J 3 x
+2,5 mm2 bereitgestellt. Sollte der AN andere Anforderungen haben,
+muss dies im Konzept benannt werden.
+4.10.5
+
+Der netzseitige Kabelanschluss wird von einem Fachbetrieb ausgeführt,
+welcher vom AG bzw. von den Kommunen beauftragt wird.
+
+x
+
+x
+
+Unter- oder Überspannungen dürfen zu keiner Fehlfunktion oder gefährlichen Betriebszuständen führen.
+
+April 2018
+
+Seite 35 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+4.11 Akustische Fahrgastinformation und Montage
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Die visuelle Information wird im Außenbereich akustisch ergänzt. Das
+anzubietende Audio-System basiert auf einer Text-To-Speech-Lösung
+(TTS), die eingegebene oder auf den Displays vorhandene Texte direkt
+an der Haltestelle synthetisch generiert. Hierbei können die Abfahrten
+sowie Sondertexte angesagt werden. Diese Funktion muss durch Fahrgäste an einem vandalismussicheren Taster direkt am Anzeigermast
+bzw. an der Dachstütze aktiviert werden können.
+Für die Anzeiger an den bestellten Standardmasten ist jeweils eine
+Tastereinheit vorzusehen.
+Der Übersichtsanzeiger am Bahnhof Ost in Neckarsulm wird am Bahnhofsdach aufgehängt. Für den Vorlesetaster ist eine freistehende Tastersäule (ca. 1,20 Höhe) vorgesehen, da sich dort keine Dachstütze zum
+Anbringen des Tasters eignet (siehe hierzu auch Projektbeschreibung
+Neckarsulm Bahnhof Ost).
+x
+
+4.11.1
+
+x
+
+Für die Innenanzeiger ist keine Vorlesefunktion vorzusehen.
+Für die Anzeiger mit den Aufhängungen an den Dachträgern werden
+Taster an die Stützen in unmittelbarer Nähe der Anzeiger montiert. Die
+erforderliche endgültige Verortung der Tastereinheit an den Stützen erfolgt beim gemeinsamen Begehungstermin mit AG, AN, den Kommunalvertretern und einem Vertreter des projektbegleitenden Büros.
+Die Kabelkanäle zwischen Aufhängungen und Vorlesetastern sind Sache der Kommunen, die Strom- und Audiokabel liegen im Aufgabenbereich des AN (siehe hierzu Abbildung in Position 4.9.1).
+Sollten weitere Materialien benötigt werden, um die Taster an den Stützen befestigen zu können (Halteplatte, Kabelübergangskasten oder dgl.)
+sind diese vom AN beizubringen und in den Kosten im Leistungsverzeichnis zu berücksichtigen.
+Die Tastereinheit ist im Konzept durch ein/mehrere Fotos darzustellen.
+Die Gehäuse der Tastereinheit müssen folgenden Ansprüchen genügen:
+
+4.11.2
+
+- Korrosionsbeständiges Material und witterungsbeständige Farbbeschichtung
+- Sicherung gegen unbefugtes Öffnen (ggf. mit für alle Gehäuse gleichschließenden Schlössern),
+- Funktionsbeschriftung (erhaben, ausgefräst, gestanzt oder geprägt) im
+Kontrast zur Gehäusefarbe, (z.B. gelb)
+- Funktions-Zusatz-Beschriftung, die von stark sehbehinderten Personen
+gelesen werden kann (Brailleschrift)
+
+x
+
+In allen Fällen sind Störungssicherheit und mindestens Schutzart IP 55
+zu gewährleisten.
+Die Audio-Einheit ist in die Taster-Einheit zu verbauen. Die Lautsprecher-Taster-Kombination ist mit der Anzeiger-Einheit zu verbinden. Der
+Lautsprecher hat eine Leistung von mind. 0,5 W (für den Nahbereich).
+
+April 2018
+
+Seite 36 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+4.11.3
+
+4.11.4
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Komponenten, die Vandalismus ausgesetzt sein können, müssen kostengünstig und unkompliziert ausgetauscht bzw. repariert werden können. Hierzu notwendige Ersatzteile müssen sofort lieferbar sein.
+Montage
+
+x
+
+Die Montage der Taster-Einheiten ist Sache des ANs und muss in den
+Einheitspreisen berücksichtigt werden. Dies gilt auch für entsprechende
+Spezialwerkzeuge, Hubwagen etc. für die Montage. Die Kabelverbindung im Mast sollte vorverkabelt sein; der AN ist hierfür zuständig.
+
+x
+
+Die Taster-Einheiten zur akustischen Information sind vom AN so zu
+montieren, dass Verletzungen wartender oder vorbeigehender Personen
+ausgeschlossen sind.
+Die TTS-Software erfüllt mindestens folgende Anforderungen:
+
+4.11.5
+
+4.11.6
+
+4.11.7
+
+- Text-to-speech, synthetisch von Display- oder eingegebenen Texten
+generiert,
+- Lautstärkeregelung durch hinterlegte Audio-Profile (z. B. LautstärkeNachtabsenkung)
+- Ansagen in Hochdeutsch mit natürlicher Betonung,
+- Fremdworte und Eigennamen über vorkonfigurierte Konfig-Dateien,
+- phonetische Nachbearbeitung zur korrekten Aussprache von Fremdworte und Eigennamen ist jederzeit durch den AG möglich,
+- es werden die Langversionen von Abkürzungen ausgegeben.
+- Um die Bedienbarkeit des Text-to-Speech-Systems zu verbessern, sind
+intelligente Funktionen einzubauen, z. B: nach Initialisierung des Tasters
+soll nach einmaligem kurzem Tastendruck die Ansage auf die nächste
+Anzeigezeile springen und bei einmaligem langem Tastendruck die Ansage abgebrochen werden.
+- Bei der Erstinstallation ist die phonetische Nachbearbeitung der Eigennamen etc. Aufgabe des AN.
+Der AN stellt seine TTS-Funktion im Konzept vor.
+Zur Software gehört eine aussagekräftige und intuitive Dokumentation in
+digitaler Form, aus der für den Anwender alle Funktionen und die Bedienung hervorgehen.
+Ein Pilotton zum Auffinden des Text-to-Speech-Tasters muss angeboten
+werden. Hierzu gehört auch eine voreinstellbare Lautstärke über Ganglinien, womit z.B. die Lautstärke zur Hauptverkehrszeit höher und zur Nebenverkehrszeit und an Wochenenden geringer ist.
+
+April 2018
+
+x
+
+x
+
+x
+
+x
+
+Seite 37 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+5
+Nr.
+
+Datenschnittstelle und Datenübernahme
+Bieter- erangabe füllt
+
+Anforderung
+
+Soll- und Ist- bzw. Echtzeitdaten werden aus dem vorgelagerten System
+der Datendrehscheibe der Nahverkehrsgesellschaft Baden-Württemberg
+NVBW gespeist. Wie in der Beschreibung des Projekts (3.) beschrieben,
+senden die im Landkreis Heilbronn agierenden Verkehrsunternehmen
+Soll- und Ist-Daten an die NVBW bzw. werden dies tun. Die Soll- und IstDaten der Bahnunternehmen sind auch über die Datenplattform zu beziehen (siehe hierzu auch die Systemskizze unter 3.).
+
+5.1
+
+Mittelfristig werden Teile der Busverkehrsleistungen im Landkreis Heilbronn neu vergeben und es können sich Änderungen in der Datenlieferund Verarbeitungsstruktur ergeben. Um auf eventuelle Änderungen reagieren zu können, muss das DFI-Verwaltungssystem auch Daten aus einem oder mehreren Intermodal Transport Control Systemen (ITCS) von
+Busverkehrsunternehmen übernehmen und die Daten gleichzeitig verarbeiten können.
+Das Anschließen bis zu drei ITCS an das DFI-Verwaltungssystem muss
+ohne größere Anpassungs- und Einrichtungsarbeiten am System möglich sein.
+
+x
+
+x
+
+Der AN stellt sein System zur Datenübernahme ins DFI-Verwaltungssystem im Konzept dar.
+
+5.2
+
+5.3
+
+5.4
+
+5.5
+
+Die Kosten pro Einrichtung einer weiteren Datenquelle soll der AN im
+Konzept angeben.
+Für die Daten der NVBW ist die Schnittstelle Travellers‘ Realtime Information and Advisory Standard (TRIAS) (nach VDV-Schrift 431-2) zu
+verwenden.
+Nach Rücksprache mit dem AG sind auch der Gebrauch anderer
+Schnittstellen zur NVBW-Plattform prinzipiell möglich.
+Für die eventuellen Daten aus dem/den ITCS ist die Schnittstelle nach
+VDV 453 zu berücksichtigen.
+Die Datenübernahme aus den vorgelagerten Systemen (Datendrehscheibe der NVBW und ITCS) muss sicher, vollständig und gleichzeitig
+erfolgen. Ist die Übertragung fehlerhaft, so müssen entsprechende Fehlerberichte erstellt werden, um die Fehler nachfolgend analysieren und
+beheben zu können.
+Ziel ist es, Veränderungen möglichst schnell auf den DFI-Anzeigern darzustellen. Verlässt ein Fahrzeug die Haltestelle, so ist sicherzustellen,
+dass die an der DFI-Anzeige angekündigte Fahrt zeitnah gelöscht wird.
+Daher hat der AN sein System zur Datenübernahme auf die Gegebenheiten der NVBW-Plattform so abzustimmen, dass eventuelle Verzögerungen in der Datenweitergabe minimiert werden. Der AN hat sein diesbezügliches Vorgehen im Konzept zu erläutern.
+
+April 2018
+
+x
+
+x
+
+x
+
+x
+
+x
+
+Seite 38 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Alle aus der und zur DFI-Verwaltung übertragenen Daten müssen ebenfalls sicher und vollständig erfolgen.
+
+5.6
+
+5.7
+
+5.8
+
+5.8
+
+Zu den aus den Anzeigern in die DFI-Verwaltung zu übertragenden Daten gehören u.a.:
+- Status Anzeiger (online/offline, ein- oder ausgeschaltet)
+- Anzeigerinhalte (Screenshot; Livestream)
+- Alarmmeldungen (Temperatur, Displayfehler)
+- Logdateien zu Fehlerzuständen der Hardware und Software inklusive
+Schnittstellen
+Zu den aus der DFI-Verwaltung an die Anzeiger zu übertragenden und
+dort zu verarbeitenden Daten gehören u.a.:
+- Sondertexte (Fahrt- und Spezialsondertexte auf einzelnen Zeilen oder
+über den gesamten Bildschirm)
+- Konfigurationsdateien, Symbole und Mediendateien
+- Audioprofile zu Tagesarten und Feiertagen (z. B. Lautstärke-Nachtabsenkung)
+- Bildschirminhalte wie z.B. Rückfallebenen bei fehlender Kommunikation, Abfahrtstabellen, Sondertexten etc.
+- Abfahrtsdarstellung mit z.B. Spaltenbreiten, Schriften, Schriftgrößen
+und -farben, Hintergrundfarben etc.
+- Steuerparameter wie Timeouts bei Ausfall der Kommunikation
+- Ansagen über das TTS-System.
+Ein funktionales Fehlverhalten der DFI-Verwaltung (Server oder Hardware) darf in keinem Fall zu einem flächendeckenden Teil- oder Vollausfall der DFI-Anzeiger führen. Entsprechende Rückfallebenen sind vorzubereiten und im Konzept zu beschreiben.
+Die Kommunikation zwischen allen Systemen basiert auf TCP bzw.
+Transport Layer Security (TLS).
+Der Zugriff auf die DFI-Verwaltung erfolgt über einen gesicherten Webzugang. Eine sichere Verbindung über eine zertifizierte HTTPSKommunikation zwischen Benutzer und der DFI-Verwaltung ist zwingend
+erforderlich und nachzuweisen.
+
+April 2018
+
+x
+
+x
+
+x
+
+x
+
+x
+
+Seite 39 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+6 DFI-Verwaltung
+6.1 Allgemeine IT-Anforderungen
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Die Bedienung der DFI-Verwaltungssoftware muss per Browser möglich
+sein.
+Die Datenübertragung zwischen DFI-Verwaltungssystem und browserbasierten Bedienplätzen muss über das Hypertext Transfer Protocol
+Secure (HTTPS) erfolgen.
+6.1.1
+
+Sie umfasst folgende Elemente:
+- Überwachung aller Anzeiger
+- Parametrierung von Anzeigern
+- Verwaltung und Eingabe von Sondermeldungen (Infotexten) und Medien
+- Verwaltung für Benutzer und Mandanten (Rechteverwaltung).
+
+x
+
+Der AN stellt den Aufbau seiner Verwaltungssoftware anhand einer Grafik und einer textlichen Beschreibung im Konzept dar.
+Der Zugriff auf das System muss über Benutzername und Benutzerpass6.1.2
+wort geschützt sein.
+Die DFI-Verwaltung muss den zeitgleichen Zugriff mehrerer Benutzer
+6.1.3 und Mandanten erlauben. Die Anzahl von Benutzern oder von Mandanten ist nicht limitiert.
+Der Benutzer muss auf den beim AG vorhandenen Arbeitsplatzrechnern
+6.1.4 per Browser betrieben werden können. Der AN garantiert, dass eine leistungsfähige Bedienung der DFI-Verwaltungssoftware möglich ist.
+6.1.5
+
+6.1.6
+
+x
+
+x
+x
+
+x
+
+Die Bereitstellung der Benutzer-Arbeitsplatzrechner inklusive Betriebssystem und Datenbanklizenzen erfolgt durch den AG.
+Die DFI-Verwaltungssoftware arbeitet mithilfe einer Echtzeitdatenbank,
+die fehlerresistent und leistungsstark ist. Damit sind kürzeste Reaktionszeiten aller Module und des Gesamtsystems (im Millisekundenbereich)
+zu garantieren.
+
+x
+
+Die DFI-Verwaltungssoftware verfügt über ein Störungs- und Alarmmeldesystem, über das Störungsmeldungen per E-Mail an entsprechendes
+Servicepersonal automatisch gesendet wird.
+6.1.7
+
+Im Netzwerkbetrieb sollen die verschiedenen Funktionen sowie andere
+Aufgaben verteilt auf mehrere Benutzer auf beliebigen PCs und beliebigen Betriebssystemen durchgeführt werden können.
+
+Der AN garantiert eine kontinuierliche Weiterentwicklung in einem ständigen Pflege- und Entwicklungsprozess insbesondere im Hinblick auf die
+6.1.8
+Software, um die Kompatibilität für mögliche künftige Anforderungen zu
+gewährleisten.
+
+April 2018
+
+x
+
+x
+
+Seite 40 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+Bieter- erangabe füllt
+
+Nr.
+
+Anforderung
+
+6.1.9
+
+Für alle Installationen neuerer Softwareversionen/-updates muss der AN
+ferner garantieren, dass die Funktionsfähigkeit des Systems sowie die
+volle Kompatibilität der bereits erfassten Daten und deren Auswertung
+erhalten bleiben.
+
+x
+
+6.1.10
+
+Die DFI-Verwaltungssoftware muss mindestens 500 Anzeiger verwalten
+können.
+
+x
+
+6.1.11
+
+Der AN richtet das DFI-Verwaltungssystem komplett mit den oben beschriebenen Anforderungen ein, so dass der AG nach entsprechender
+Einweisung und Schulung das DFI-System komplett bedienen kann.
+
+x
+
+6.1.12
+
+6.1.13
+
+6.1.14
+
+6.1.15
+
+6.1.16
+
+Die Kommunikation zwischen den Benutzern, der DFI-Verwaltung und
+den Anzeigern (bzw. deren Rechnern) basiert auf TCP bzw. Transport
+Layer Security (TLS).
+Der Zugriff auf die DFI-Verwaltung erfolgt über einen gesicherten Webzugang. Eine sichere Verbindung über eine zertifizierte HTTPSKommunikation zwischen Benutzer und der DFI-Verwaltung ist zwingend
+erforderlich und nachzuweisen.
+Zur Kommunikation zwischen den Anzeigerrechnern und der DFIVerwaltung sind keine proprietären Schnittstellen zugelassen. Es dürfen
+nur Standardnetzwerkschnittstellen verwendet werden, z.B. Ethernet oder WWAN (Wireless Wide Area Network = LTE, UMTS usw.). Nicht zugelassen sind insbesondere alte serielle Schnittstellen wie RS232 (oder
+vergleichbar), um sie als „Netzwerkschnittstelle“ zu verwenden.
+Das Protokoll zwischen den Anzeigerrechnern und der DFI-Verwaltung
+(bzw. dem Server) muss ein offenes Protokoll sein, das herstellerunabhängig eine breite Funktionalität für alle Arten von Anzeigern beinhaltet.
+Eine Dokumentation des Protokolls ist im Konzept beizufügen.
+Das Protokoll muss für die Datenserialisierung (= Umwandlung eines
+Objekts in einen Bytestrom) einen Standard benutzen, wie etwa JSON,
+XML oder Protocol Buffers und darf nicht auf ein proprietäres Nachrichtenformat setzen.
+Die DFI-Verwaltung muss sich gegenüber den Anzeigern über sein TLS
+Zertifikat authentifizieren. Die Anzeiger müssen sich bei der DFIVerwaltung entweder per Authentifizierungs-Token/Passwort oder ebenfalls per Zertifikat authentifizieren.
+
+April 2018
+
+x
+
+x
+
+x
+
+x
+
+x
+
+x
+
+Seite 41 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+6.2
+Nr.
+
+DFI-Verwaltungssoftware
+Bieter- erangabe füllt
+
+Anforderung
+
+Die DFI-Verwaltungssoftware kommuniziert mit den Anzeigern bzw. der
+jeweiligen Anzeigersoftware.
+Die Menüführung insbesondere zur Eingabe von Sondertexten muss
+prozessgesteuert sein. Die Oberfläche ist visuell ansprechend und entspricht moderner Webgestaltung mit intuitiver Bedienung.
+Alle Buttons, Zeichen, Beschriftungen sind in der Standardeinstellung eines Full-HD-Monitors groß genug und müssen nicht vergrößert werden.
+6.2.1 Tabellarische Übersichten verfügen über einfache Filterfunktionen, wie
+man sie aus anderen Tabellenprogrammen kennt.
+
+x
+
+x
+
+Die nachfolgend beschriebenen Funktionen der DFI-Verwaltungssoftware kann anders gegliedert sein als beschrieben.
+Für alle nachfolgenden Software-Funktionen (6.2.2 bis 6.2.9) sind durch
+den AN in einer Kurzbeschreibung und/oder passende Screenshots im
+Konzept darzustellen.
+Die Startseite der Software präsentiert eine Systemübersicht über die
+nachfolgend beschriebenen Elemente und zeigt entsprechende Schlüsselparameter wie z.B.
+- Anzahl der Displays, die online oder offline sind
+- Anzahl der eingestellten dispositiven Maßnahmen
+- Anzahl der eingegangenen Alarme
+- Anzahl der eingerichteten Benutzer und Mandanten.
+6.2.2
+
+Für den doppelseitigen Übersichtsanzeiger am Neckarsulmer Bahnhof
+muss die Verwaltungssoftware die TFT-Panels getrennt administrieren
+können, damit beispielsweise auf der einen Displayseite für Fahrgäste
+vom Stadtgebiet zum Bahnhof nur die Bahnabfahrten angezeigt werden
+können und auf der anderen Displayseite für die Fahrgäste vom Bahnhof
+zum Stadtgebiet nur die Busabfahrten.
+
+x
+
+Von dieser Startseite kann der Nutzer in die einzelnen Untermenüs abzweigen.
+
+April 2018
+
+Seite 42 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- Erangabe füllt
+
+Anforderung
+
+Um die Anzeiger zu überwachen, müssen alle im System verwalteten
+Anzeiger dargestellt werden, z. B. tabellarisch. In der Übersichtsdarstellung werden alle Anzeiger mit ihrem aktuellen Status angezeigt. Anzeiger, die Fehler aufweisen, werden entsprechend hervorgehoben.
+Bei der Anzeigerüberwachung sendet die Anzeigersoftware folgende Informationen an das DFI-Verwaltungssystem, welche im Überwachungsmenü dargestellt werden:
+
+6.2.3
+
+- Anzeigerstatus: online/offline
+- Wartungsmodus: ein/aus
+- Display: ein/aus
+- aktueller Softwarestand.
+
+x
+
+Auf Anforderung vom DFI-Verwaltungssystem sendet die Anzeigersoftware folgende Informationen:
+- Anzeigerinhalte als Screenshot
+- Anzeigerinhalte als Stream
+- Alarmmeldungen (Temperatur, Displayfehler)
+- Logdateien zu Fehlerzuständen der Hard- und Software sowie der
+Schnittstelle zum DFI-Verwaltungssystem.
+Um Sonder- bzw. Infotexte aufspielen zu können, sind folgende Parameter u.a. einstellbar:
+- Datum, Uhrzeit, Wochentage (Einstellung der Gültigkeit der Sondertexte)
+- Anzeiger (einzeln, Gruppen, fahrtbezogen, linienbezogen)
+6.2.4
+- Vergabe von Textprioritäten
+- Sondertexte auf ganzem oder halbem Bildschirm oder auf der
+untersten Zeile
+- Es ist für jeden Anzeiger getrennt einstellbar, dass anstatt eines Infotextes eine (zusätzliche) Abfahrt angezeigt wird.
+Benutzerverwaltung
+Die Benutzerverwaltung muss so aufgebaut sein, dass ein Administrator
+in der Lage ist, unterschiedliche Benutzer und Mandanten mit unterschiedlichen Rechten einzurichten und zu löschen. Er kann innerhalb
+6.2.5
+dieses Menüs Benutzer und Anzeiger zu einzelnen Mandanten zuordnen.
+
+x
+
+x
+
+Konkret muss es möglich sein, dass Benutzer lediglich Lese- oder Leseund Eingriffsrechte erhalten können.
+
+April 2018
+
+Seite 43 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+Die DFI-Verwaltungssoftware erlaubt eine Anzeigerkonfiguration aus der
+Ferne und die Auswertung von Logdateien. Die Verwaltungssoftware ist
+das Gegenstück zur Anzeigersoftware.
+Folgende Mindestfunktionen müssen DFI-Verwaltungssoftware und Anzeigersoftware im Zusammenspiel leisten:
+
+6.2.6
+
+- Management von Konfigurationsdateien, Symbolen und Mediendateien
+(z. B. über Dateibrowser)
+- Einfaches Ändern aller Konfigurationsdateien der Displays aus der
+Ferne
+- Auslesen und Darstellung der Logdateien aus den Anzeigern
+- Fernsteuerung der Anzeiger (Terminalverbindung, Bildschirmsteuerung
+z.B. über VNC)
+- Steuerung und Durchführung von Software-Updates
+- Anzeige der wichtigsten Parameter und Zustände der Anzeiger sowie
+der aktuellen Bildschirminhalte
+
+x
+
+Mithilfe des Störungsmanagements können Fehlertypen definiert, die
+entsprechende Meldungen triggern sowie E-Mail-Adressen eingetragen
+6.2.7
+werden, die bei entsprechenden Fehlern Meldungen an diese E-Mail-Adresse(n) senden.
+
+x
+
+Die TFT-Anzeiger müssen Texte und vollformatige Bilder (jpeg, png und
+andere Formate) darstellen können. Vollformatige Videos (mp4 und andere Formate) sollen dargestellt werden können.
+Der Benutzer kann für TFT-Anzeiger
+- Playlists von Texten, Bildern (muss) und Videos (soll) – z. B. zur Eigenwerbung – erstellen, verwalten und löschen
+- Ablaufpläne definieren und
+- die erstellten Playlists und Ablaufpläne auf einzelne Displays oder Displaygruppen übertragen.
+6.2.8
+
+Der Benutzer kann dies für einzelne Anzeiger und Anzeigergruppen definieren und Zeitbereiche festlegen.
+
+x
+
+x
+
+Der AN muss sein Verfahren im Konzept vorstellen, wie Bilder im Rahmen einer Playlist mit der Anzeige der ÖPNV-Informationen in einer für
+den Fahrgast sinnvollen und ansprechenden Weise dargestellt werden
+können (zusammen und/oder im Wechsel) und welche Einstellmöglichkeiten dem Benutzer des Systems an die Hand gegeben werden.
+Der AN soll darstellen, wie eine Datenübermittlung von Bildern und Videos zu den Anzeigern ohne negativen Einfluss auf die DFIDatenübertragung stattfinden kann.
+
+April 2018
+
+Seite 44 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+6.3
+Nr.
+
+DFI-Verwaltungshardware/-Server
+Bieter- erangabe füllt
+
+Anforderung
+
+Der DFI-Server ist die zentrale Hardwarekomponente, die zum Betreiben
+des zentralen DFI-Verwaltungssystems benötigt wird.
+Es wird kein DFI-Server als Hardware geliefert, sondern eine Hostinglösung eines Hostingunternehmens durch den AN angeboten. Im Leis6.3.2
+tungsverzeichnis ist daher die Hostinglösung für 10 Jahre Betrieb zu bepreisen.
+Die über das Hosting-Unternehmen zu nutzende Hardware muss mindestens folgende Anforderungen erfüllen:
+6.3.1
+
+- Anzahl der notwendigen Rechnerinstanzen: 1
+- Prozessor: Intel Core i7-6700 Quadcore-Prozessor (oder gleichwertig)
+- Prozessorarchitektur: Skylake (oder gleichwertig)
+- Arbeitsspeicher je Instanz: 64 GB DD4 RAM
+- Anzahl und Kapazität der benötigten Festplatten pro Instanz:
+6.3.3 2 x 500 GB SSD
+- Gemeinsame Nutzung von Teilsystemen: Multitasking, -threading und
+processing ist möglich
+- erforderliches Datenvolumen in Richtung DFI-Anzeiger: mind. 1,5
+GB/Monat
+- garantierte Bandbreite: 1 GBit/s
+- Benötigte Betriebssystemversion: Windows 2016 Server (oder gleichwertig)
+
+X
+
+X
+
+X
+
+Der AN stellt im Konzept einen geeigneten Server vor.
+
+April 2018
+
+Seite 45 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+7 Projektbegleitende Aufgaben
+7.1 Baufristenplan, Schulung und Dokumentation
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Baufristenplan/Umsetzungskonzept
+Der AN hat einen Baufristenplan spätestens 14 Werktage nach Auftragserteilung über seine vertraglichen Leistungen zu erstellen, anhand
+dessen die Einhaltung der Vertragsfristen nachgewiesen und überwacht
+werden kann (siehe Meilensteine unten).
+Aufgrund der vielen Standorte und der vielen Verwaltungen, die sich
+über den Landkreis verteilen, ist mit einem erhöhten, reiseintensiven
+Aufwand für das Projektmanagement für den AN zu rechnen (siehe
+hierzu die Projektbeschreibung (Anhang A, Anlage 1) inkl. Landkarte der
+Standorte). Dies hat der AN in seiner Kostenberechnung zu berücksichtigen.
+Der AN hat in einem Konzept darzustellen, wie er das Projekt mit den
+gegebenen Randbedingungen umsetzen möchte. Das Konzept geht in
+die Bewertung des Gesamtangebotes ein (siehe 1.).
+Weiterführende Abstimmungen werden im Startgespräch mit dem AG
+und dem projektbegleitenden Büro vorgenommen.
+
+7.1.1
+
+Ziel ist es, die Anzeiger im Frühjahr 2019 in Betrieb zu nehmen (siehe
+Bauphasen unten).
+WAS
+
+WANN
+
+Zuschlag (Vergabe durch Verwaltungsausschuss)
+Startgespräch (Projektbeginn)
+Begehung des Projektgebiets (endgültige Standortfestlegung)
+Erstellung eines Pflichtenhefts
+Bestellung Anzeiger
+
+18. Juni 2018
+
+Tiefbau Mast-Fundament und Stromzuführung (Kommunen)
+Einrichten Schnittstelle, Aufbau virtueller Infrastruktur für DFI (Server etc.)
+Installation Anzeiger, Testbetrieb
+(wetterabhängig)
+Abnahme und Betrieb
+
+Herbst 2018
+
+x
+
+x
+
+Juli 2018
+Juli 2018
+
+August/September 2018
+August/September 2018
+spätestens bis 30.09.2018
+Bereitstellung Mast-Fundamentanga- September 2018
+ben, Ankerkorb, Angaben zu Strom
+spätestens bis 30.09.2018
+
+April 2018
+
+Herbst 2018
+spätestens ab 30.11.2018
+Winter 2018/2019
+spätestens ab 31.03.2019
+Frühjahr 2019
+spätestens bis 30.06.2019
+
+Seite 46 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Schulung
+Im Rahmen der Systemrealisierung ist der Auftraggeber in angemessener Weise zu schulen und in alle Bedienhandlungen einzuweisen.
+Die in deutscher Sprache durchzuführende Schulung hat durch Personal
+zu erfolgen, welches
+- in der Durchführung von Schulungen erfahren ist,
+- über tiefgreifendes spezifisches Wissen über das zu schulende System
+verfügt und
+- über das Gesamtprojekt bzw. den Kontext, in dem das zu schulende
+System steht, informiert ist.
+7.1.2
+
+x
+
+x
+
+Die Schulungen müssen beim AG stattfinden. Der AN hat anzugeben,
+wieviel Schulungsstunden/-tage vorgesehen sind. Die Anzahl der zu
+schulenden Personen ist nicht begrenzt.
+Zu sämtlichen Einweisungen und Schulungen müssen ausführliche Unterlagen in Papierform an die Teilnehmer übergeben werden. Diese Unterlagen werden außerdem in digitaler Form zur Verfügung gestellt
+(siehe Dokumentation).
+Die Kosten für alle Zeichnungen, Beschreibungen und Betriebsanleitungen sind im Angebotspreis enthalten.
+Dokumentation
+Die Dokumentation mit allen Unterlagen in deutscher Sprache über die
+vertraglich festgelegten Lieferungen und Leistungen (u. a. Zeichnungen,
+Beschreibungen und Betriebsanleitungen) ist dem AG spätestens bei erfolgter Abnahme in endgültiger Form vorzulegen.
+7.1.3
+Es müssen für das DFI-System eigene Dokumentationen bzw. Bedienhandbücher vom AN erstellt und in elektronischer Form (auch als OnlineDokumentation über Browser möglich) beim AG abgegeben werden.
+Teildokumentationen mit vorläufigen Unterlagen sind dem AG zum frühesten möglichen Zeitpunkt zu übergeben.
+Unterlagen zur Schulung müssen als Papierform ausgegeben werden.
+Zur Dokumentation im Rahmen des Lieferumfangs der Anzeigersoftware
+gehört:
+- installierte Geräte mit Ausrüstungszustand und Konfiguration
+- Konstruktionszeichnungen
+7.1.4 - Anweisung zur Montage, Inbetriebnahme und Außerbetriebnahme
+- Richtlinien und Anleitungen zur Wartung und Reparatur (Handbuch für
+die Instandhaltung)
+- Übersicht über Fehlermeldungen und Fehlercodes
+- Servicefunktionen
+
+April 2018
+
+x
+
+x
+
+Seite 47 von 49
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+Nr.
+
+Bieter- erangabe füllt
+
+Anforderung
+
+Zur Dokumentation im Rahmen des Lieferumfangs der DFIVerwaltungssoftware gehört:
+- die installierte Software (Architektur, Datenstruktur, Programmfunktionen, Schnittstellen etc.)
+- die Bedienung an den abgesetzten Arbeitsplätzen (Anwenderhandbuch)
+- die Systembetreuung (Handbuch für Systemadministratoren: Benutzerverwaltung, Störungen, Reports etc.)
+- Beschreibungen der Schnittstellen (u. a. Feldgeräteschnittstelle zum
+Betrieb von Fremdanzeigern durch die DFI-Verwaltungssoftware)
+- Übersicht Kommunikation
+Alle Dokumentationen werden als kompletter Ausdruck und auf einem digitalen Datenträger in jeweils einfacher Ausführung vor der Abnahme geliefert.
+7.1.5
+
+x
+
+Der AG muss mit Hilfe der Dokumentation in die Lage versetzt werden,
+das System selbständig zu betreiben.
+Die Dokumentation ist Bestandteil der Lieferung und muss vom AN auch
+nach Ablauf der Gewährleistung auf dem aktuellen Stand gehalten werden (z. B. über eine Online-Dokumentation).
+Alle nachträglichen Veränderungen ab Beginn des Probebetriebes am
+System (Hard- und Software) sind zu dokumentieren und dem Auftraggeber unaufgefordert zu übermitteln.
+Vor jeder Softwareauslieferung bzw. jedem Softwareupdate sind vom AN
+interne Tests durchzuführen und zu dokumentieren. Dabei sind jeweils
+die Dokumentationen vorangegangener Tests als Grundlage zu verwenden (Regressionstests), um die Verträglichkeit mit dem Bestandssystem
+sicherzustellen. Der AG ist vor jeder Updateauslieferung schriftlich über
+Umfang und Zeitpunkt des Updates zu informieren.
+
+April 2018
+
+Seite 48 von 50
+
+ANHANG A LASTENHEFT DFI IM LANDKREIS HEILBRONN
+
+7.2
+Nr.
+
+Wartung/Pflege
+Bieter- erangabe füllt
+
+Anforderung
+
+Während des Gewährleistungszeitraums erbringt der Bieter alle Wartungsarbeiten für alle Hard- und Software-Komponenten für 24 Monate
+kostenfrei. Ausgeschlossen von der Gewährleistung sind Störungen oder
+7.2.1 Schäden, die durch Eingriffe Dritter, durch unsachgemäße Bedienung oder durch äußere Einflüsse verursacht wurden (z. B. höhere Gewalt).
+Auch die Reinigung insbesondere der Anzeiger ist weder Bestandteil der
+Gewährleistung noch der Wartung.
+Software
+Für die DFI-Verwaltungssoftware und die Software auf den 48 Anzeigerrechnern ist ein Pflegevertrag auf Basis des den Ausschreibungsunterlagen beiliegenden Pflegevertrages (siehe Rahmenvertrag) der Ergänzenden Vertragsbedingungen für die Lieferung eines IT-Systems (EVB-IT)
+zu erstellen, welcher für die ersten vier Jahre zu bepreisen ist. Der Pfle7.2.2
+gevertrag ist Teil der Ausschreibung.
+
+x
+
+x
+
+x
+
+x
+
+Dieser beinhaltet die Instandhaltung sowie die zeitnahe Störungsbehebung und Wiederherstellung der Betriebsbereitschaft. Sobald neueste
+Programmstände (Updates, Patches) vorliegen, sind diese vom Auftragnehmer zu installieren bzw. unmittelbar per Download zur Verfügung zu
+stellen.
+Hardware
+Für die Hardware (48 DFI-Anzeiger inkl. Displays und Anzeigerrechner
+sowie die Text-To-Speech-Taster) soll ein Angebot für einen Wartungsvertrag erstellt und den abzugebenden Unterlagen beigelegt werden.
+Im Formblatt „Angaben zum Betrieb“ (Anhang B, Anlage 1) sind für
+Hard- und Software die werktäglichen Reaktionszeiten und Wiederher7.2.4
+stellungszeiten anzugeben. Diese gelten ab Eingang einer Störungsmeldung.
+Die Hardware muss bei geringen Defekten vor Ort gewartet werden; bei
+7.2.5
+umfangreicheren Defekten soll sie vor Ort gewartet werden.
+7.2.3
+
+7.2.6
+
+Der nächstgelegene Standort des Servicedienstes muss benannt werden.
+Beratung (Hotline)
+
+x
+
+x
+
+x
+
+x
+
+x
+
+Bei akuten Problemen mit der Hard- und Software soll von Montag bis
+Freitag zu gewöhnlichen Werktagen ein telefonischer Beratungsservice
+7.2.7 zu den gewöhnlichen Bürozeiten (8:30 Uhr bis 17:00 Uhr) für den Auftraggeber zur Verfügung stehen, der geeignete Maßnahmen zur Beseitigung der bestehenden Probleme bis 8.00 Uhr des auf den Tag der Problemmeldung nachfolgenden gewöhnlichen Werktags ausarbeitet.
+Der AN soll seinen Service mit Beratungszeiten angeben.
+
+April 2018
+
+Seite 49 von 49
+
+

@@ -1,0 +1,4 @@
+Für die Umsetzung der einzelnen Funktionen soll der Auftragnehmer einen Zeitplan
+aufstellen mit Meilensteinen. Die Datenbank soll fehlerfrei zum 28.02.2018 in die
+produktive Nutzung übernommen werden. Vorab soll die Anwendung von verschiedenen
+Standorten getestet werden. Hierfür werden 2-3 Monate eingeplant.

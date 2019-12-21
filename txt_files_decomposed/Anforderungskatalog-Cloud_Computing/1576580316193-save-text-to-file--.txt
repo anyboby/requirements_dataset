@@ -1,0 +1,4 @@
+Auf Kundenwunsch informiert der Cloud-Anbieter den Cloud-Kunden in angemessener
+Form über offene Schwachstellen. Die offenen
+Schwachstellen werden ohne Ausnahme zeitnah
+behoben.

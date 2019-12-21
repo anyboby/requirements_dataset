@@ -1,0 +1,11 @@
+Es soll die Möglichkeit bestehen
+Grafiken in den Haushaltsbericht
+einzufügen, die automatisch die
+Daten des Haushaltes wiedergeben.
+Die Grafiken und Diagramme
+müssen so dargestellt werden, dass
+diese
+auch
+in
+schwarz/weiß
+gedruckt werden können.

@@ -1,0 +1,3 @@
+Der Cloud-Anbieter verwendet eine einheitliche Klassifizierung von Informationen und
+Assets, die für Entwicklung und Erbringung des
+Cloud-Dienstes relevant sind.

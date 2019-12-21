@@ -1,0 +1,2 @@
+Die elektrische Ausrüstung ist nach EN 60204-1 (VDE 0113-1)
+in der aktuell gültigen Fassung auszulegen.

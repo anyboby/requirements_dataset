@@ -1,0 +1,4 @@
+Im Rahmen der Neuanlage einer elektronischen Akte ist durch die Software automatisch
+eine fortlaufende, eindeutige Förderungsnummer zu vergeben. Alternativ muss es aber
+auch die Möglichkeit geben, die Förderungsnummer vom Sachbearbeiter zu vergeben.
+Hierbei muss sichergestellt sein, dass Förderungsnummern nicht doppelt vergeben werden können. Zur eindeutigen Identifikation einer Förderung/Akte ist der Förderungsnummer die dreistellige Amtsnummer voranzustellen.

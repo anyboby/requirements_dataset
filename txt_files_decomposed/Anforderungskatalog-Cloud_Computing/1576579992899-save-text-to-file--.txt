@@ -1,0 +1,3 @@
+Richtlinien und Anweisungen mit technischen
+und organisatorischen Maßnahmen zum Vermeiden von Datenverlusten sind sind gemäß SA-01
+dokumentiert, kommuniziert und bereitgestellt.

@@ -1,0 +1,3 @@
+Bearbeitete Teile werden von der Schnittstelle der Maschine
+entnommen und dem Palettiersystem oder Abführeinrichtung
+beschädigungs- und tropffrei zugeführt.

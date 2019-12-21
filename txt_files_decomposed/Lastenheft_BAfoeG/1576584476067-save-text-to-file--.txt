@@ -1,0 +1,3 @@
+Der Betreiber muss durch seine angebotenen Service Level eine Systemverfügbarkeit
+von mindestens 99 % von montags bis freitags garantieren. Zudem muss zu eben diesen
+Zeiten eine Systemwiederherstellung innerhalb von 24 Stunden gewährleistet werden.

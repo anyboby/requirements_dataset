@@ -1,0 +1,2 @@
+Der Betreiber muss ein geeignetes Change-Management umsetzen, um Veränderungen
+am System in nachvollziehbarer, geordneter und effizienter Weise zu planen, zu überwachen und zu dokumentieren. Die beim Betreiber eingesetzten Prozesse sind dem Auftraggeber im Pflichtenheft darzulegen.

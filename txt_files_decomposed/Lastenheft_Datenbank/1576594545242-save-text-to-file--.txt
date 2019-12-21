@@ -1,0 +1,8 @@
+Für die Desktopanwendung sollen die gängigen Browser unterstützt werden.
+Das Thema Sicherheit ist für die DB, sowie für den Server, auf dem die DB liegt ein
+wichtiger Faktor. Die DB beinhaltet personenbezogene Daten, die besonders geschützt
+werden müssen. Zu erwähnen ist, dass die personenbezogenen Daten der Haushalte
+nach 5 Jahren anonymisiert werden. Es dürfen nur Nutzer mit Logindaten Zugriff auf die
+DB haben. Es muss protokolliert werden, wann sich welcher Nutzer anmeldet und
+Änderungen vornimmt. Es soll alle 24 Stunden ein Backup des Systems durchgeführt
+werden. Das Backup soll auf einem gesonderten Bereich gespeichert werden.

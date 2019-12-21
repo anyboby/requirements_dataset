@@ -1,0 +1,7 @@
+Da die Standorte keiner für das Projekt definierten Region, sondern Bundesländern,
+zugeordnet sind, ist es nicht ersichtlich, welcher Standort zu welcher Region gehört. Dies
+erschwert das Handling von Nutzern und Stromspar-Checks. Wenn ein Standort die
+Region wechselt, ist dies zurzeit in der Datenbank nicht abbildbar. Wird ein Standort
+geschlossen und sollen die Daten von einem anderen Standort genutzt werden, ist dies
+ebenfalls nicht möglich. Ein Check kann somit nicht einem anderen Standort zugeordnet
+werden.

@@ -1,0 +1,4 @@
+Weitere Such- und Filteroptionen sind zulässig, sofern der Anwender Transparenz über die
+verwendeten Such- bzw. Filterkriterien hat und die Kriterien auf alle Arzneimittel und
+sonstigen nach § 31 SGB V in die Arzneimittelversorgung einbezogenen Produkte
+gleichermaßen anwendbar sind.

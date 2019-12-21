@@ -1,0 +1,6 @@
+Zielsetzung: ermöglichen der eigenschaft
+den Dienst auf unterschiedlichen
+It-plattformen sicher betreiben zu
+können sowie die möglichkeit zur
+sicheren Anbindung unterschiedlicher
+It-plattformen und Dienstbeendigung.

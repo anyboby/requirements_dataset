@@ -1,0 +1,2850 @@
+Anforderungskatalog nach § 73
+SGB V für Verordnungssoftware
+Anforderungen an Software zur
+Verordnung von Arzneimitteln und
+sonstigen nach § 31 SGB V in die
+Arzneimittelversorgung einbezogenen
+Produkten
+Anlage 23 zu § 29 Bundesmantelvertrag – Ärzte
+[EXT_ITA_VGEX_Anforderungskatalog_AVWG]
+
+Version
+Datum:
+Klassifizierung:
+Status:
+
+4.1
+01.07.2018
+Extern
+In Kraft
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+Inkrafttreten
+Der geänderte Anforderungskatalog tritt zum 01.07.2018 in Kraft. Ausgenommen hiervon
+sind die Nrn. 2.2.3, 2.2.4 sowie 2.2.5 der Pflichtfunktion P2-110. Diese treten zum
+01.08.2018 in Kraft.
+
+Änderungsverzeichnis
+Version
+
+Datum
+
+Änderung
+
+Begründung
+
+2.0
+
+30.01.2008
+
+neues Dokument
+
+2.1
+
+22.05.2008
+
+Anpassungen
+
+2.2
+
+11.06.2008
+
+Anpassungen
+
+2.3
+
+19.11.2008
+
+Anpassungen
+
+3.0
+
+01.04.2012
+
+Anpassungen
+
+3.1
+
+03.01.2012
+
+Anpassungen
+
+3.2
+
+01.10.2016
+
+Kapitel 3.8
+
+Neueinführung
+
+Seite 26
+
+4.0
+
+01.10.2017
+
+Titel
+
+Anpassungen
+
+Seite 1
+
+1. Einleitung
+
+Anpassungen/Ergänzungen
+
+Seite 7
+
+1.1 Zielbestimmung
+
+Anpassungen/Ergänzungen
+
+Seite 7
+
+O1-020
+
+Streichung
+
+Seite 9
+
+P1-050
+
+Neueinführung
+
+Seite 9
+
+P2-100
+
+Anpassungen/Ergänzungen
+
+Seite 10
+
+P2-110
+
+Anpassungen/Ergänzungen
+
+Seite 11
+
+K2-120
+
+Anpassungen
+
+Seite 13
+
+P2-130
+
+Anpassungen/Ergänzungen
+
+Seite 14
+
+P2-140
+
+Anpassungen/Ergänzungen
+
+Seite 14
+
+P2-160
+
+Anpassungen/Ergänzungen
+
+Seite 15
+
+P3-100
+
+Ergänzungen
+
+Seite 15
+
+P3-115
+
+Neueinführung
+
+Seite 15
+
+P3-120
+
+Anpassungen/Ergänzungen
+
+Seite 16
+
+P3-130
+
+Anpassungen/Ergänzungen
+
+Seite 18
+
+P3-210
+
+Anpassungen/Ergänzungen
+
+Seite 19
+
+P3-220
+
+Anpassungen
+
+Seite 20
+
+P3-300
+
+Anpassungen/Ergänzungen
+
+Seite 20
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite
+
+Seite 2 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+Änderungsverzeichnis
+Version
+
+Datum
+
+Änderung
+
+Begründung
+
+O3-310
+
+Anpassungen/Ergänzungen
+
+Seite 20
+
+P3-315
+
+Anpassungen/Ergänzungen
+
+Seite 21
+
+P3-320
+
+Anpassungen/Ergänzungen
+
+Seite 21
+
+P3-325
+
+Anpassungen/Ergänzungen
+
+Seite 21
+
+P3-330
+
+Anpassungen
+
+Seite 22
+
+P3-340
+
+Anpassungen
+
+Seite 22
+
+P3-350
+
+Streichung
+
+Seite 22
+
+P3-400
+
+Anpassungen/Ergänzungen
+
+Seite 22
+
+P3-410
+
+Streichung
+
+Seite 23
+
+P3-430
+
+Anpassungen
+
+Seite 23
+
+P3-440
+
+Neueinführung
+
+Seite 23
+
+P3-500
+
+Streichung
+
+Seite 23
+
+P3-510
+
+Streichung
+
+Seite 23
+
+P3-515
+
+Anpassungen
+
+Seite 23
+
+P3-516
+
+Neueinführung
+
+Seite 24
+
+P3-520
+
+Anpassung
+
+Seite 24
+
+P3-530
+
+Streichung
+
+Seite 24
+
+O3-540
+
+Anpassung
+
+Seite 24
+
+P3-600 (alt K3-600)
+
+Umbenennung/Anpassung/Ergänzung
+
+Seite 25
+
+K3-610
+
+Anpassungen/Ergänzungen
+
+Seite 25
+
+K3-620
+
+Streichung
+
+Seite 25
+
+K3-630
+
+Umbenennung
+
+Seite 25
+
+O3-640
+
+Streichung
+
+Seite 25
+
+O3-650
+
+Anpassungen/Ergänzungen
+
+Seite 25
+
+P3-700
+
+Anpassungen/Ergänzungen
+
+Seite 26
+
+P3-710
+
+Anpassungen
+
+Seite 26
+
+P3-720
+
+Anpassungen
+
+Seite 26
+
+P3-730
+
+Neueinführung
+
+Seite 26
+
+O4-100
+
+Umbenennung/Anpassung
+
+Seite 28
+
+O4-110
+
+Anpassungen
+
+Seite 28
+
+O4-120
+
+Streichung
+
+Seite 28
+
+O4-130
+
+Anpassung
+
+Seite 28
+
+O4-140
+
+Anpassung
+
+Seite 28
+
+O4-200
+
+Streichung
+
+Seite 29
+
+K4-150
+
+Neueinführung
+
+Seite 29
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite
+
+Seite 3 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+Änderungsverzeichnis
+Version
+
+4.1
+
+Datum
+
+01.07.2018
+
+Änderung
+
+Begründung
+
+K4-200
+
+Neueinführung
+
+Seite 29
+
+5. Abkürzungsverzeichnis
+
+Ergänzung
+
+Seite 30
+
+6. Glossar
+
+Ergänzung
+
+Seite 31
+
+Titel +
+gesamtes Dokument
+
+Streichung AM-DB-Abgrenzung sowie
+Aufnahme von allen in die
+Arzneimittelversorgung der
+gesetzlichen Krankenversicherung
+einbezogenen Produkte nach § 31
+SGB V
+
+Einleitung
+
+Streichung AM-DB-Definition und Abgrenzung
+
+Seite 8
+
+2. Arzneimittelstammdaten
+
+Neustrukturierung durch Streichung
+der Überschrift „2.
+Arzneimitteldatenbanken“
+
+Seite 11
+
+P2-100
+
+Aufnahme von allen in die
+Arzneimittelversorgung der
+gesetzlichen Krankenversicherung
+einbezogenen Produkte nach § 31
+SGB V
+
+Seite 11
+
+Klarstellung, dass Anlagen I-VII und
+XII in der gleichen Art und Weise
+abzubilden sind
+
+Seite 11
+
+Klarstellung arzneimittelbezogen =
+packungsbezogen
+
+Seite 11
+
+Definition Arzneimittelstammdaten neu
+
+Seite 11
+
+P2-110
+
+Seite
+
+Aufnahme von allen in die
+Arzneimittelversorgung der
+gesetzlichen Krankenversicherung
+einbezogenen Produkte nach § 31
+SGB V
+
+Gesamtes
+Dokument
+
+Seite 12-15
+
+Merkmal 08: Umbenennung zu
+Packungsgröße und Erweiterung um
+Anzeige, falls „Keine therapiegerechte
+Packungsgröße“, „Keine Angabe“ oder
+„Nicht betroffen“
+
+Seite 12
+
+Merkmal 09: Klarstellung bei AVP
+
+Seite 12
+
+Merkmal 018/019: Zusammenführung
+zu einem Merkmal 018 + Klarstellung
+
+Seite 12
+
+Merkmal 026: Klarstellung
+Hersteller = Anbieter
+
+Seite 12
+
+Redaktionelle Anpassung:
+Rabattvereinbarung anstatt
+Rabattvertrag
+
+Seite 13
+
+Merkmal 101: Umbenannt, vorher 302
+
+Seite 14
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 4 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+Änderungsverzeichnis
+Version
+
+Datum
+
+Änderung
+
+Begründung
+
+Seite
+
+Merkmal 207: Klarstellung
+
+Seite 14
+
+K2-120
+
+Klarstellung der Kondition
+
+Seite 15
+
+O2-145
+
+Neueinführung und Anpassung der
+Hausapotheken-Definition
+
+Seite 17
+
+K2-150
+
+Umwandlung der P2-150 und
+Anpassung
+
+Seite 17
+
+K2-155
+
+Neueinführung
+
+Seite 17
+
+K2-160
+
+Umwandlung der P2-160 und
+Folgeanpassung zu Merkmal 018
+
+Seite 17
+
+3. Produktsuche und verordnung
+
+Umbenennung von
+„Arzneimittelsuche“
+
+Seite 18
+
+P3-120
+
+Klarstellung, dass P3-320
+eingeschlossen
+
+Seite 19
+
+Klarstellung, dass Anzeige auch bei
+Hausapothekenverordnung
+
+Seite 19
+
+P3-700
+
+Aufnahme entsprechender Merkmale
+aller in die Arzneimittelversorgung der
+gesetzlichen Krankenversicherung
+einbezogenen Produkte nach § 31
+SGB V
+
+Seite 19-21
+
+Aufnahme eines
+Verordnungsauschluss-Hinweises für
+nicht therapiegerechte
+Packungsgrößen
+
+Seite 20
+
+Konkretisierung zur RezeptdruckVerpflichtung
+
+Seite 30
+
+Konkretisierung der Datenspeicherung
+
+Seite 30-31
+
+P3-710
+
+Konkretisierung des Importeurs
+(= Hersteller = Anbieter)
+
+Seite 31
+
+P3-730
+
+Ergänzung eines fehlenden Merkmals
+
+Seite 31
+
+K4-150
+
+Klarstellung AVP analog Merkmal 09
+
+Seite 33
+
+Abkürzungsverzeichnis
+
+Korrektur OTC-Arzneimittel
+
+Seite 34
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 5 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+Inhaltsverzeichnis
+Inkrafttreten ......................................................................................................................... 2
+Änderungsverzeichnis ........................................................................................................ 2
+Inhaltsverzeichnis ............................................................................................................... 6
+1.
+
+2.
+
+Einleitung ...................................................................................................................... 8
+1.1
+
+Zielbestimmung ..................................................................................................... 8
+
+1.2
+
+Pflichtfunktionen und optionale Funktionen der Software................................. 9
+
+1.3
+
+Allgemeine Anforderungen an die Verordnungssoftware .................................10
+
+Arzneimittelstammdaten .............................................................................................11
+2.1
+
+Vollständigkeit der Arzneimittelstammdaten .....................................................11
+
+2.2
+
+Inhalte und Einsatz der Arzneimittelstammdaten, Aktualisierung, etc. ............12
+
+2.2.1
+Mindestangaben von Fertigarzneimitteln entsprechend den Preis- und
+Produktinformationen nach § 131 SGB V bzw. den sonstigen genannten Quellen ........12
+2.2.2
+
+Mindestangaben für Medizinprodukte ..............................................................14
+
+2.2.2.1 Mindestangaben für Medizinprodukte nach § 31 Abs. 1 S. 2 SGB V ...............14
+2.2.2.2 Mindestangaben für sonstige Medizinprodukte................................................14
+2.2.3
+
+Mindestangaben für Verbandmittel nach § 31 Abs. 1a SGB V .........................14
+
+2.2.4
+
+Mindestangaben für Teststreifen .....................................................................15
+
+2.2.5
+
+Mindestangaben für bilanzierte Diäten zur enteralen Ernährung .....................15
+
+2.3
+3.
+
+Hausapotheke.......................................................................................................17
+
+Produktsuche und -verordnung .................................................................................18
+3.1
+
+Allgemeine Anforderungen .................................................................................18
+
+3.2
+
+Werbung ...............................................................................................................23
+
+3.3
+
+Produktsuche .......................................................................................................24
+
+3.3.1
+
+Suchoptionen ..................................................................................................24
+
+3.3.2
+
+Darstellung von Suchergebnissen ...................................................................25
+
+3.4
+
+Substitution ..........................................................................................................27
+
+3.5
+
+Sicherstellung von Verordnungsinformationen .................................................28
+
+3.6
+
+Optimierung der effizienten Verordnung ............................................................29
+
+3.7
+Rezeptbedruckung, Angaben auf dem Rezept und
+Konfigurationseinstellungen .........................................................................................30
+3.8
+
+Medikationsplan ...................................................................................................32
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 6 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+4.
+
+Statistische Dienstmöglichkeiten ..............................................................................32
+4.1
+
+Controlling-Funktionen ........................................................................................32
+
+4.2
+
+Statistik-Funktion .................................................................................................33
+
+5.
+
+Abkürzungsverzeichnis ..............................................................................................34
+
+6.
+
+Glossar.........................................................................................................................35
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 7 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+1. Einleitung
+Als Grundlage für eine wirtschaftliche Verordnungsweise haben die Kassenärztlichen
+Vereinigungen und die Kassenärztliche Bundesvereinigung sowie die Krankenkassen und
+ihre Verbände die Vertragsärzte1 auch vergleichend über preisgünstige verordnungsfähige
+Leistungen einschließlich der jeweiligen Preise und Entgelte zu informieren sowie nach dem
+allgemeinen anerkannten Stand der medizinischen Erkenntnisse Hinweise zu Indikation und
+therapeutischem Nutzen zu geben. Diese Informationen sind dem Arzt gemäß den
+Regelungen dieses Anforderungskatalogs in der Verordnungssoftware in aktueller Form und
+vollständig zur Verfügung zu stellen. Verordnungssoftware im Sinne des KBV-Prüfverfahrens
+sind alle Programme oder Programmteile zum Zwecke der Eingabe, Weiterverarbeitung oder
+Ausgabe von Daten, die im Rahmen der vertragsärztlichen Verordnung von Arzneimitteln
+und sonstigen nach § 31 SGB V in die Arzneimittelversorgung einbezogenen Produkten
+benötigt werden.
+Dem Arzt sind sämtliche Informationen zu Arzneimitteln nach Maßgabe dieses
+Anforderungskatalogs jeweils in aufbereiteter Form auf Ebene der Pharmazentralnummer
+(PZN) zur Verfügung zu stellen.
+Es
+ist
+außerdem
+zu
+gewährleisten,
+dass
+dem
+Arzt
+Informationen
+zu
+Arzneimittelvereinbarungen (Rahmenvereinbarungen, Zielvereinbarungen) zur Verfügung
+stehen.
+Nach § 73 SGB V ist in der Verordnungssoftware insbesondere über bestehende
+Rabattvereinbarungen nach § 130a Abs. 8 SGB V sowie über Vereinbarungen nach § 130b
+und § 130c SGB V zu informieren. Diese Angaben sind produktbezogen im Workflow
+anzugeben.
+
+1.1 Zielbestimmung
+Dieser Anforderungskatalog gilt für Verordnungssoftware, die in der vertragsärztlichen
+Versorgung zur elektronischen Verordnung von Arzneimitteln und sonstigen nach § 31 SGB
+V in die Arzneimittelversorgung einbezogenen Produkten zum Einsatz kommen.
+Erweiterungen des Anforderungskatalogs können durch landesspezifische Vereinbarungen,
+die zwischen den Kassenärztlichen Vereinigungen und den Landesverbänden der
+Krankenkassen getroffen werden, erfolgen. Software-Anforderungen, die sich aufgrund von
+Regelungen in Selektivverträgen ergeben, bleiben von diesem Anforderungskatalog
+unberührt.
+Ärzte sollen durch zertifizierte Verordnungssoftware in die Lage versetzt werden, die in § 73
+SGB V und in anderen Rechtsnormen festgeschriebenen Regelungen zu erfüllen.
+Die Verordnungssoftware muss vor ihrem Einsatz durch die KBV zugelassen werden und mit
+dem jeweils aktuellen Datenstand zur Verfügung stehen. Sie sind in regelmäßigen
+Abständen auf ihre Zulassungskonformität zu prüfen. Die Zulassung erfolgt auf der
+Grundlage von § 73 SGB V i. V. m. § 29 Bundesmantelvertrag – Ärzte (BMV-Ä).
+Das Verfahren der Zertifizierung ist im Dokument „Zertifizierungsrichtlinie der KBV“
+beschrieben (www.kbv.de/ita).
+Die KBV ist berechtigt, ein bereits erteiltes Zertifikat zu entziehen, wenn festgestellt wird,
+dass zertifizierte Software den Vorgaben dieses Anforderungskatalogs nicht mehr genügt.
+1
+
+Im Folgenden Arzt/Ärzte. Zur besseren Lesbarkeit werden nur die männlichen Formen (z.B. Arzt) aufgeführt. Hierunter sind
+auch die weiblichen Formen zu verstehen.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 8 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+1.2 Pflichtfunktionen und optionale Funktionen der Software
+Pflichtfunktionen müssen in der Verordnungssoftware implementiert sein.
+Konditionale Pflichtfunktionen müssen implementiert werden, wenn alle jeweils genannten
+Bedingungen erfüllt sind.
+Optionale Funktionen können implementiert werden, wenn alle jeweils genannten
+Bedingungen erfüllt sind.
+Die Umsetzung aller Pflichtfunktionen, der implementierten optionalen Funktionen sowie der
+konditionalen Pflichtfunktionen ist im Rahmen eines Gutachterverfahrens nachzuweisen
+Erläuterung der Funktionsdarstellung:
+
+P4-100
+
+PFLICHTFUNKTION
+Funktionsbezeichnung
+
+Ident-Nummer einer Pflichtfunktion
+
+K8-300
+
+(P2-070)
+
+Ident-Nummer einer älteren Version
+
+KONDITIONALE PFLICHTFUNKTION
+Funktionsbezeichnung
+
+Ident-Nummer einer konditionalen Pflichtfunktion, die an Bedingungen geknüpft ist
+
+O8-300
+
+OPTIONALE FUNKTION
+Funktionsbezeichnung
+
+Ident-Nummer einer optionalen Funktion
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 9 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+1.3 Allgemeine Anforderungen an die Verordnungssoftware
+PFLICHTFUNKTION
+P1-010
+
+Benutzerhandbuch
+
+Dem Arzt muss eine ausreichende Dokumentation zur Verordnungssoftware
+elektronischer Form oder in Form eines Handbuchs zur Verfügung gestellt werden.
+
+P1-030
+
+in
+
+PFLICHTFUNKTION
+Sicherung von Nutzereinstellungen
+
+Einstellungen des Arztes müssen bei Aktualisierung der Verordnungssoftware übernommen
+werden.
+
+P1-040
+
+PFLICHTFUNKTION
+Freischaltung einzelner Informationen zu Arzneimitteln und sonstigen
+nach § 31 SGB V in die Arzneimittelversorgung einbezogenen Produkten
+
+Alle Inhalte von Pflicht- und konditionalen Pflichtfunktionen zu Informationen zu Arzneimitteln
+und sonstigen nach § 31 SGB V in die Arzneimittelversorgung einbezogenen Produkten
+sowie zu Verordnungsinformationen sind ohne Freischaltung bzw. Maßnahmen zur
+Aktivierung unverzüglich bereitzustellen.
+
+P1-050
+
+PFLICHTFUNKTION
+Einbindung der Schnittstelle für Arzneimittelvereinbarungen nach § 84
+Abs. 1 SGB V
+
+Die Verordnungssoftware muss die über die im Nachfolgenden definierte Schnittstelle
+bereitgestellten
+Informationen
+der
+regionalen
+kollektivvertraglichen
+Arzneimittelvereinbarungen nach § 84 Abs. 1 SGB V in die Anwendung integrieren.
+Die Informationen sind gemäß der in der Schnittstellenbeschreibung beschriebenen Art und
+Weise abzubilden.
+Begründung:
+Es ist zu gewährleisten, dass dem Arzt Informationen zu Arzneimittelvereinbarungen
+(Rahmenvereinbarungen, Zielvereinbarungen) zur Verfügung stehen.
+Diese werden in geeigneter Form durch die Vertragspartner auf Bundes-/Landesebene
+(Kassenärztliche Bundesvereinigung, GKV-Spitzenverband, Kassenärztliche Vereinigungen,
+Krankenkassenverbände, Krankenkassen) zur Verfügung gestellt.
+Die Schnittstelle dient der Übermittlung der Inhalte der regionalen, kollektivvertraglichen
+Arzneimittelvereinbarungen in der jeweils aktuellen Version.
+Die hierfür erforderliche Schnittstelle ist definiert in der Datensatzbeschreibung ARV
+(ftp://ftp.kbv.de/ita-update/Stammdateien/).
+Sofern Anpassungen oder Ergänzungen der ARV-Schnittstelle aufgrund regionaler
+Vereinbarungen notwendig werden, die mit der bisherigen Schnittstellenbeschreibung nicht
+abbildbar sind, sind diese von den regionalen Vertragspartnern in Form von technisch
+ausspezifizierten Erweiterungen zur Verfügung zu stellen. Diese werden von der KBV nach
+inhaltlicher und technischer Prüfung in die ARV-Schnittstelle übernommen.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 10 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+2. Arzneimittelstammdaten2
+2.1 Vollständigkeit der Arzneimittelstammdaten
+P2-100
+
+PFLICHTFUNKTION
+Vollständigkeit und Aktualität der Arzneimittelstammdaten
+
+Die Arzneimittelstammdaten bestehen aus einem Preis- und Produktverzeichnis, das alle in
+die Arzneimittelversorgung der gesetzlichen Krankenversicherung einbezogenen Produkte
+nach § 31 SGB V umfasst. Die Arzneimittelstammdaten haben die Merkmale der
+Pflichtfunktion P2-110 und der konditionalen Pflichtfunktion K2-120 zu enthalten. Sie müssen
+mit den Angaben übereinstimmen, welche der pharmazeutische Unternehmer nach § 131
+Abs. 4 SGB V in Verbindung mit dem hierzu getroffenen Rahmenvertrag gemäß § 131
+Abs. 1 SGB V veröffentlicht hat.
+Die Regelungen der Richtlinie nach § 92 Abs. 1 S. 2 Nr. 6 SGB V – Arzneimittel-Richtlinie
+(AM-RL) des G-BA sind abzubilden. Die Texte der AM-RL und der Anlagen I bis VII und XII
+sind als pdf-Datei zu hinterlegen. Ein Link auf die Internetseiten des G-BA ist nicht
+ausreichend.
+Die Inhalte der AM-RL
+
+
+
+
+
+
+
+
+
+Anlage I (OTC-Übersicht),
+Anlage II (Lifestyle Arzneimittel),
+Anlage III (Übersicht über Verordnungseinschränkungen und -ausschlüsse),
+Anlage IV (Therapiehinweise),
+Anlage V (verordnungsfähige Medizinprodukte),
+Anlage VII („aut idem“),
+Anlage XII (frühe Nutzenbewertung nach § 35a SGB V) und
+die Arzneimittelübersicht zur sogenannten Negativliste
+
+sind zudem kontextabhängig und arzneimittelbezogen bzw. packungsbezogen, wie in den
+nachfolgenden Pflichtfunktionen beschrieben, abzubilden.
+Die Verordnungssoftware bildet stichtagsbezogen stets für sämtliche Produkte die
+entsprechend Abs. 1 S. 3 veröffentlichten Preis- und Produktangaben ab. Der Datenstand
+zum Zeitpunkt der Verordnung ist für den Arzt erkennbar anzugeben.
+
+2
+
+Hierunter sind auch die Stammdaten für sonstige nach § 31 SGB V in die Arzneimittelversorgung einbezogene Produkte zu
+verstehen.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 11 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+2.2 Inhalte
+und
+Aktualisierung, etc.
+P2-110
+
+Einsatz
+
+der
+
+Arzneimittelstammdaten,
+
+PFLICHTFUNKTION
+Inhalte der Arzneimittelstammdaten
+
+Die Mindestangaben für Fertigarzneimittel und sonstige nach § 31 SGB V in die
+Arzneimittelversorgung einbezogene Produkte müssen dem Anwender zur Verfügung
+gestellt werden.
+
+2.2.1 Mindestangaben von Fertigarzneimitteln entsprechend den Preis- und
+Produktinformationen nach § 131 SGB V bzw. den sonstigen genannten
+Quellen
+Auf Ebene der Pharmazentralnummer (PZN) (entspricht der Packungsebene) stehen für
+Fertigarzneimittel mindestens die folgenden Informationen zur Verfügung:
+01
+02
+03
+04
+05
+06
+07
+08
+
+09
+010
+011
+012
+013
+014
+015
+016
+017
+018
+019
+020
+021
+022
+023
+024
+025
+026
+027
+028
+
+PZN
+Handelsname bzw. Produktbezeichnung
+Darreichungsform
+Wirkstoff/Wirkstoffe
+Wirkstärke mit Einheit und ggf. Bezug
+Packungsgröße Menge
+Packungsgröße Einheit (z. B. Stück, Flaschen, ml, etc.)
+Packungsgrößenverordnung: „N1“, „N2“ oder „N3“ nach der Verordnung nach § 31
+Abs. 4 S. 1 SGB V (sog. Normgröße nach Packungsgrößenverordnung; im
+Folgenden: N-Kennzeichnung), „Keine therapiegerechte Packungsgröße“, „Keine
+Angabe“ oder „Nicht betroffen“
+Preis (Apothekenverkaufspreis (AVP) nach AMPreisV bzw. § 129 Abs. 5a SGB V bei
+nicht verschreibungspflichtigen Arzneimitteln)
+Derzeit nicht belegt
+Erstattungsbetrag nach § 130b Abs. 1 S. 1 SGB V (maximaler Abgabepreis des
+pharmazeutischen Unternehmers nach § 78 Abs. 3 AMG)
+Erstattungsbetrag löst Abschlag nach § 130a Abs. 1 SGB V ab
+Festbetragshöhe
+Merkmal AVP liegt über, unter oder ist gleich dem Festbetrag (Berechnung durch
+Software)
+Zuzahlungsbetrag (§ 31 Abs. 3 SGB V)
+Mehrkosten bei Festbetragsarzneimitteln (Berechnung durch Software)
+Merkmal Zuzahlungsfreistellung (§ 31 Abs. 3 SGB V)
+Merkmal Artikelstatus:
+Außer Vertrieb, Zurückgezogen, Nicht verkehrsfähig, Löschung
+Derzeit nicht belegt
+Merkmal Apothekenpflicht, aber keine Verschreibungspflicht
+Merkmal Verschreibungspflicht
+Merkmal Betäubungsmittel (BtM)
+Merkmal teratogenes Arzneimittel
+Merkmal Dokumentationspflicht nach Transfusionsgesetz
+Merkmal Import-/Reimport-Arzneimittel
+Hersteller/Anbieter
+ATC-Code der ATC-Klassifikation (amtliche Fassung des ATC-Index für Deutschland,
+DIMDI) in der jeweils gültigen Version (im Folgenden: ATC-Klassifikation nach DIMDI)
+Bedeutung des ATC-Codes der ATC-Klassifikation nach DIMDI
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 12 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+Verordnungshinweise und Inhalte der AM-RL
+029
+030
+031
+032
+
+033
+034
+035
+036
+
+037
+038
+039
+040
+
+Merkmal ehemalige Negativliste3
+Merkmal Lifestyle-Arzneimittel (AM-RL Anlage II)
+Merkmal bedingtes Lifestyle-Arzneimittel (AM-RL Anlage II)
+Merkmal OTC-Arzneimittel mit Ausnahmeregelungen für Kinder ab 12 Jahren und
+Erwachsene (sogenannte OTX-Arzneimittel; AM-RL Anlage I) (Zuordnung erfolgt
+durch AM-DB-Hersteller)
+Für OTX-Arzneimittel: Texte der AM-RL Anlage I (OTC-Ausnahmeliste), anzuzeigen
+bei Kindern ab 12 Jahren und Erwachsenen (siehe P3-130)
+Merkmal Verordnungseinschränkungen der AM-RL Anlage III (Rechtsgrundlage [4])
+(Zuordnung erfolgt durch AM-DB-Hersteller)
+Merkmal Verordnungsausschlüsse der AM-RL Anlage III (Rechtsgrundlagen [1]; [2]
+und [3]) (Zuordnung erfolgt durch AM-DB-Hersteller)
+Für Arzneimittel, die Verordnungseinschränkungen/-ausschlüssen der AM-RL Anlage
+III unterliegen: Texte der AM-RL soweit zutreffend als Kombination aus den Spalten
+„Rechtliche Grundlagen und Hinweise“ und „Arzneimittel und sonstige Produkte“
+(Zuordnung der Texte erfolgt durch AM-DB-Hersteller)
+Merkmal Therapiehinweis des G-BA (AM-RL Anlage IV) (Zuordnung der Texte erfolgt
+durch AM-DB-Hersteller)
+Stand des Therapiehinweises (Datum) und Verweis auf den Therapiehinweis als Link
+auf das hinterlegte pdf-Dokument
+Merkmal Arzneimittel der AM-RL Anlage VII Teil B (Zuordnung durch AM-DBHersteller)
+Merkmal Beschluss zur Nutzenbewertung nach § 35a SGB V (AM-RL Anlage XII)
+liegt vor (Quelle: G-BA, Zuordnung durch AM-DB-Hersteller)
+
+Regionale Arzneimittelvereinbarungen
+041
+042
+
+Merkmal regionale Arzneimittelvereinbarung nach § 84 Abs. 1 SGB V für dieses
+Produkt (abhängig von KV-Zugehörigkeit und Fachgruppe)
+Inhalte der regionalen Arzneimittelvereinbarungen entsprechend der von den KVen in
+Abstimmung mit den regionalen Krankenkassenverbänden zur Verfügung gestellten
+Stammdateien
+
+Rabattvereinbarungen und sonstige Verträge
+043
+044
+045
+046
+047
+
+Merkmal Rabattvereinbarung nach § 130a Abs. 8 SGB V für die jeweilige
+Krankenkasse
+Betrag Zuzahlung (§ 31 Abs. 3 SGB V) aufgrund einer bestehenden
+Rabattvereinbarung nach § 130a Abs. 8 SGB V
+Merkmal Wegfall Mehrkosten (Festbetragsarzneimittel) nach § 31 Abs. 2 SGB V
+aufgrund einer bestehenden Rabattvereinbarung nach § 130a Abs. 8 SGB V
+Merkmal Praxisbesonderheit nach § 130b SGB V
+(Quelle: Homepage des GKV-SV, Aufbereitung durch AM-DB-Hersteller)
+Verweis auf Praxisbesonderheit (Anlage I zur Vereinbarung nach § 130b SGB V)
+(Quelle: Homepage des GKV-SV, Aufbereitung durch AM-DB-Hersteller)
+
+3
+
+Nach § 34 Abs. 3 SGB V: Anlage 2 Nr. 2 bis 6 der Verordnung über unwirtschaftliche Arzneimittel in der GKV (sog.
+Negativliste) gilt als Verordnungsausschluss und wurde mit der gesetzlichen Neuregelung zum 01.01.2011 Teil der AM-RL.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 13 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+Produktinformationen für sonstige Arzneimittel
+101
+
+Bei Homöopathika und Anthroposophika sind die verfügbaren Informationen
+einzustellen.
+
+2.2.2 Mindestangaben für Medizinprodukte
+2.2.2.1 Mindestangaben für Medizinprodukte nach § 31 Abs. 1 S. 2 SGB V
+Auf Ebene der PZN (entspricht der Packungsebene) stehen für Medizinprodukte mindestens
+die folgenden Informationen zur Verfügung:
+201
+202
+203
+
+204
+205
+206
+207
+208
+
+209
+210
+211
+212
+
+PZN
+Bezeichnung des Medizinprodukts
+Zweckbestimmung einschließlich medizinisch notwendiger Fälle für erstattungsfähige
+Medizinprodukte gemäß AM-RL Anlage V (Übersicht der verordnungsfähigen
+Medizinprodukte)
+Zusammensetzung nach Art und Menge, wie vom Hersteller/Anbieter angegeben
+Darreichungsform
+Packungsgröße Menge
+Packungsgröße Einheit
+Preis wie vom Hersteller/Anbieter angegeben unter Angabe, ob es sich um den
+Vertragspreis nach ergänzenden Verträgen gemäß § 129 Abs. 5 SGB V zum
+Rahmenvertrag oder um eine unverbindliche Herstellerangabe handelt
+Hersteller/Anbieter
+ATC-Klassifizierung nach DIMDI, wie vom Hersteller/Anbieter angegeben
+Merkmal verordnungsfähiges Medizinprodukt nach AM-RL Anlage V
+Befristung der Verordnungsfähigkeit laut § 92 Abs.1 S. 2 Nr. 6 SGB V (AM-RL Anlage
+V)
+
+2.2.2.2 Mindestangaben für sonstige Medizinprodukte
+301
+
+Zweckbestimmung der sonstigen Medizinprodukte (nicht in AM-RL Anlage V
+genannte Medizinprodukte) wie vom Hersteller/Anbieter angegeben
+
+2.2.3 Mindestangaben für Verbandmittel nach § 31 Abs. 1a SGB V
+Auf Ebene der PZN (entspricht der Packungsebene) stehen für Verbandmittel mindestens
+die folgenden Informationen zur Verfügung:
+401
+402
+403
+404
+405
+406
+407
+408
+
+409
+410
+411
+
+PZN
+Bezeichnung des Verbandmittels
+Zweckbestimmung wie vom Hersteller/Anbieter angegeben
+Zusammensetzung nach Art und Menge, wie vom Hersteller/Anbieter angegeben
+Darreichungsform
+Packungsgröße Menge
+Packungsgröße Einheit
+Preis wie vom Hersteller/Anbieter angegeben unter Angabe, ob es sich um den
+Vertragspreis nach ergänzenden Verträgen gemäß § 129 Abs. 5 SGB V zum
+Rahmenvertrag oder um eine unverbindliche Herstellerangabe handelt
+Hersteller/Anbieter
+ATC-Klassifizierung nach DIMDI, wie vom Hersteller/Anbieter angegeben
+Merkmal verordnungsfähiges Verbandmittel nach § 31 Abs. 1a SGB V4
+
+4
+
+Für die Abrechnung von Verbandmitteln übermitteln die Verbandmittel-Hersteller die für die Abrechnung nach § 300 SGB V
+erforderlichen Preis- und Produktangaben an die in § 129 Abs. 2 SGB V genannten Verbände sowie an die Kassenärztliche
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 14 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+2.2.4 Mindestangaben für Teststreifen
+Auf Ebene der PZN (entspricht der Packungsebene) stehen für Teststreifen mindestens die
+folgenden Informationen zur Verfügung:
+501
+502
+503
+504
+505
+506
+507
+
+PZN
+Bezeichnung der Teststreifen
+Zusammensetzung nach Art und Menge, wie vom Hersteller/Anbieter angegeben
+Darreichungsform
+Packungsgröße Menge
+Packungsgröße Einheit
+Preis wie vom Hersteller/Anbieter angegeben unter Angabe, ob es sich um den
+Vertragspreis nach ergänzenden Verträgen gemäß § 129 Abs. 5 SGB V zum
+Rahmenvertrag oder um eine unverbindliche Herstellerangabe handelt
+Hersteller/Anbieter
+ATC-Klassifizierung nach DIMDI, wie vom Hersteller/Anbieter angegeben
+Merkmal Verordnungseinschränkungen der AM-RL Anlage III (Zuordnung erfolgt
+durch AM-DB-Hersteller)
+
+508
+509
+510
+
+2.2.5 Mindestangaben für bilanzierte Diäten zur enteralen Ernährung
+Auf Ebene der PZN (entspricht der Packungsebene) stehen für bilanzierte Diäten zur
+enteralen Ernährung mindestens die folgenden Informationen zur Verfügung:
+601
+602
+603
+604
+605
+606
+607
+
+PZN
+Bezeichnung des Diätetikums
+Zusammensetzung nach Art und Menge, wie vom Hersteller/Anbieter angegeben
+Darreichungsform
+Packungsgröße Menge
+Packungsgröße Einheit
+Preis wie vom Hersteller/Anbieter angegeben unter Angabe, ob es sich um den
+Vertragspreis nach ergänzenden Verträgen gemäß § 129 Abs. 5 SGB V zum
+Rahmenvertrag oder um eine unverbindliche Herstellerangabe handelt
+Hersteller/Anbieter
+ATC-Klassifizierung nach DIMDI, wie vom Hersteller/Anbieter angegeben
+Merkmal Diätetikum gemäß § 31 Abs. 5 SGB V
+Merkmal sonstiges Diätetikum
+
+608
+609
+610
+611
+
+K2-120
+
+KONDITIONALE PFLICHTFUNKTION
+Weitere Inhalte der Arzneimittelstammdaten
+
+Weitere Informationen, sofern sie zur Verfügung stehen
+
+
+
+
+
+
+
+
+Indikation (im Wortlaut der Fachinformation)
+Dosierung (im Wortlaut der Fachinformation)
+Weitere Inhaltsstoffe (im Wortlaut der Fachinformation)
+Kontraindikationen (im Wortlaut der Fachinformation)
+Nebenwirkungen (im Wortlaut der Fachinformation)
+Wechselwirkungen (im Wortlaut der Fachinformation)
+Anwendung in der Schwangerschaft und Stillzeit (im Wortlaut der Fachinformation)
+
+Bundesvereinigung und den Gemeinsamen Bundesausschuss im Wege elektronischer Datenübertragung und maschinell
+verwertbar auf Datenträgern (Gültigkeit ab 30.04.2018). Das Merkmal 411 darf erst 12 Monate nach Inkrafttreten der Richtlinie
+des G-BA gemäß § 92 Abs. 1 S. 2 Nr. 6 SGB V in der Verordnungssoftware angezeigt werden.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 15 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+P2-130
+
+PFLICHTFUNKTION
+Aktualisierung und Änderbarkeit der Arzneimittelstammdaten
+
+Für die Verordnungssoftware sind regelmäßig aktualisierte Arzneimittelstammdaten
+bereitzustellen. Über regelmäßige Updates ist zu gewährleisten, dass sämtliche
+Arzneimittelstammdaten auf dem zum Zeitpunkt des Updates aktuellen Stand der
+veröffentlichten Angaben der pharmazeutischen Unternehmer nach § 131 Abs. 4 SGB V
+dargestellt sind.
+Ab dem 01.04.2018 erfolgt das Update mindestens monatlich. Die Möglichkeit eines Updates
+mittels eines Datenträgers bleibt erhalten.
+Nach Ablauf der Frist gemäß § 291d Abs. 1 S. 2 i. V. m. Abs. 1a S. 4 SGB V erfolgt das
+Update jeweils zu den am 1. und 15. eines Monats veröffentlichten Angaben gemäß S. 25.
+Werden Änderungen an den Arzneimittelstammdaten vorgenommen, bestimmt der
+Softwareanbieter einen neuen Datenstand und aktualisiert die Preis- und Produktangaben
+sämtlicher Produkte nach den Vorgaben in P2-100. Änderungen, die ohne Festsetzung eines
+neuen Datenstandes vorgenommen werden oder sich auf einzelne Produkte beziehen, sind
+nur zulässig, soweit sie der Korrektur nachträglich festgestellter Fehler dienen. Darüber
+hinaus sind weitere Änderungen der Arzneimittelstammdaten unzulässig. Änderungen, die
+die Produkte der Hausapotheke betreffen, sind zu übernehmen.
+
+P2-140
+
+PFLICHTFUNKTION
+Prüfregeln zur Aktualität der Arzneimittelstammdaten
+
+In der Verordnungssoftware sind Prüfregeln zu implementieren, die bei Ablauf der Aktualität
+der Arzneimittelstammdaten den Arzt auf durchzuführende Aktualisierungen aufmerksam
+machen. Dem Arzt ist bei erstmaligem Aufruf der Verordnungssoftware ein Hinweis zu
+geben, wenn der Zeitpunkt des vorgesehenen Updates nach P2-130 um fünf Arbeitstage
+überschritten wurde.
+
+5
+
+Die Schnittstelle nach § 291d Abs. 1a SGB V ist von der KBV nach § 291d Abs. 2 SGB V zu definieren und in das
+Interoperabilitätsverzeichnis nach § 291e SGB V bis zum 30.06.2018 einzutragen, sofern die Rechtsverordnung nach § 73 Abs.
+9 SGB V keine weiteren Inhalte vorgibt. Die Implementierung in die Verordnungssoftware hat innerhalb der Frist des § 291d
+Abs. 1 Satz 2 i. V. m. Abs. 1a Satz 4 SGB V zu erfolgen.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 16 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+2.3 Hausapotheke
+OPTIONALE FUNKTION
+O2-145
+
+Hausapotheke
+
+Unter
+Hausapotheke
+sind
+praxisbezogene
+(Betriebsstättennummer/
+Nebenbetriebsstättennummer) oder arztbezogene (Lebenslange Arztnummer) Produktlisten
+zu verstehen, aus denen Verordnungen vorgenommen werden können. Eine
+Verordnungssoftware kann eine bis mehrere dieser Produktlisten enthalten. Daher handelt
+es sich bei den folgenden Anforderungen um konditionale Pflichtfunktionen. Die
+Produktlisten werden in der Verordnungssoftware gespeichert. Sobald eine
+Verordnungssoftware eine Hausapotheke hat, müssen die Funktionen K2-150 bis K2-160
+umgesetzt werden.
+
+K2-150
+
+KONDITIONALE PFLICHTFUNKTION
+Erstinstallation der Verordnungssoftware – leere Hausapotheke (P2-150)
+
+In der Verordnungssoftware darf die Hausapotheke bei der Erstinstallation keinen Eintrag
+enthalten, also nicht vorbelegt sein. Dies gilt nicht bei Übertragung einer bestehenden
+Hausapotheke im Rahmen des Wechsels der Verordnungssoftware.
+
+K2-155
+
+KONDITIONALE PFLICHTFUNKTION
+Einträge in der Hausapotheke
+
+Die Einträge in der Hausapotheke müssen auf Packungs- und/oder Freitextebene
+gespeichert werden.
+
+
+Für Fertigarzneimittel und sonstige nach § 31 SGB V in die Arzneimittelversorgung
+einbezogene Produkte muss auf Packungsebene mindestens die PZN (01) des
+Produktes, sofern vorhanden, in der Hausapotheke gespeichert werden. Weitere
+Informationen zu dieser PZN, die im Rahmen der Verordnung aus der Hausapotheke
+anzuzeigen sind, sind unter P3-120 zu finden.
+
+
+
+Für Produkte, die nicht eineindeutig durch eine PZN gekennzeichnet sind (z. B.
+Rezepturen), ist mindestens ein Freitextfeld vorzusehen und dieses in der Hausapotheke
+zu speichern.
+
+K2-160
+
+KONDITIONALE PFLICHTFUNKTION
+Aktualisierung der Hausapotheke
+
+(P2-160)
+
+Änderungen der unter P2-110 genannten Daten, die sich – auf Packungsebene – auf
+Fertigarzneimittel und sonstige nach § 31 SGB V in die Arzneimittelversorgung einbezogene
+Produkte beziehen, die in der Hausapotheke gespeichert sind, sind dem Anwender im
+Rahmen der Aktualisierung nach P2-130 in einer Produktliste anzuzeigen und automatisch
+zu übernehmen. Dabei sind Änderungen der Merkmale Preis (09), Festbetragshöhe (013)
+sowie Artikelstatus (018) besonders hervorzuheben.
+Änderungen der unter P2-110 genannten Daten, die Produkte der Hausapotheke betreffen,
+sind – sofern diese Daten parallel in der Hausapotheke gespeichert werden – automatisch in
+diese zu übernehmen.
+Alle Pflichtfunktionen des Anforderungskatalogs gelten auch für die Hausapotheke.
+Im Rahmen der Aktualisierung der Arzneimittelstammdaten oder sonstiger Updates der
+Verordnungssoftware darf keine gesteuerte Belegung im Bereich der Hausapotheke
+erfolgen, d.h. es dürfen insbesondere keine Produkte der Hausapotheke hinzugefügt
+werden.
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 17 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+3. Produktsuche und -verordnung
+3.1 Allgemeine Anforderungen
+P3-100
+
+PFLICHTFUNKTION
+Einheitliches Layout von Auswahllisten/Suchergebnissen
+
+Auswahllisten zur Verordnung von Fertigarzneimitteln und sonstigen nach § 31 SGB V in die
+Arzneimittelversorgung einbezogenen Produkten besitzen ein einheitliches Layout ohne
+Hervorhebungen.
+Sofern durch regionale Verträge zwischen Krankenkassen und Kassenärztlichen
+Vereinigungen Abweichendes vereinbart ist, kann eine Hervorhebung erfolgen, wenn der
+Anwender im Verordnungskontext über die Gründe für die Hervorhebung und die rechtliche
+Grundlage durch die Verordnungssoftware entsprechend informiert wird.
+Eine Kennzeichnung von Produkten in Auswahllisten/Suchergebnissen, die Bestandteil einer
+Hausapotheke sind, ist auch durch Hervorhebung zulässig.
+
+P3-110
+
+PFLICHTFUNKTION
+Auswahl aus einem vollständigen Verzeichnis
+
+Die Übernahme eines Fertigarzneimittels oder eines sonstigen nach § 31 SGB V in die
+Arzneimittelversorgung einbezogenen Produktes auf ein Rezept oder in eine Hausapotheke
+erfolgt aus einer Datenbank auf Grundlage eines vollständigen Verzeichnisses nach P2-100.
+
+P3-115
+
+PFLICHTFUNKTION
+Nachträgliche Bearbeitung von Stammdaten
+
+Die nachträgliche Bearbeitung von Stammdaten gemäß P2-100 durch den Anwender ist
+unzulässig. Dem Arzt kann die Möglichkeit gegeben werden, für Einträge der Hausapotheke
+zusätzliche Kurznamen, Bezeichnungen, Kommentare und Tastenkürzel zu vergeben, die
+ihm die Suche in der Hausapotheke bzw. die Verordnung aus der Hausapotheke erleichtern.
+Beim Bedrucken des Rezeptformulars sind jedoch die Originaldaten der
+Arzneimitteldatenbank zu verwenden.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 18 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+P3-120
+
+PFLICHTFUNKTION
+Angaben bei Erst- und Wiederholungsverordnung
+
+Im Rahmen der Anzeige tabellarischer Auswahllisten nach P3-315 (Suchergebnisse), P3320 (Sortierung der Auswahlliste (Grundeinstellung)), P3-400 (Vergleichslisten) oder im
+Rahmen der Wiederholungsverordnung sowie bei Verordnungen aus einer Hausapotheke
+heraus sind mindestens folgende Merkmale entsprechend den Arzneimittelstammdaten nach
+P2-110 in den tabellarischen Auswahllisten anzuzeigen:
+Merkmal
+Handelsname
+
+02, 202, 402, 502, 602
+
+Darreichungsform
+
+03, 205, 405, 504, 604
+
+Kennzeichnung Packungsgrößenverordnung
+
+086
+
+Packungsgröße Menge und Einheit
+
+06 und 07, 206 und 207, 406
+und 407, 505 und 506. 605
+und 606
+
+Preis (AVP gemäß AMPreisV bzw. § 129 Abs. 5a SGB V
+bei Arzneimitteln, ggf. Erstattungsbetrag oder
+Herstellerangabe oder Vertragspreis bei
+Medizinprodukten, Verbandmitteln oder Teststreifen)
+
+09, 208, 408, 507, 607
+
+Gesamtzuzahlung des Patienten als Summe von
+Zuzahlung und Mehrkosten
+
+015 + 016
+
+Festbetragshöhe
+
+013
+
+Kennzeichnung: AVP liegt über/unter/gleich Festbetrag
+
+014
+
+Kennzeichnung: Import-/Reimport-Arzneimittel
+
+025
+
+Wirkstoff/Wirkstoffe
+
+04
+
+Wirkstärke/Wirkstärken
+
+05
+
+Kennzeichnung, falls Arzneimittel von der regionalen
+Arzneimittelvereinbarung betroffen ist
+
+041
+
+Kennzeichnung, falls Rabattvereinbarung nach § 130a
+Abs. 8 SGB V für die Krankenkasse des jeweiligen
+Patienten vorliegt
+
+043
+
+Kennzeichnung ob eine Verordnungseinschränkung
+besteht.
+Dies ist der Fall wenn eine oder mehrere der folgenden
+Bedingungen erfüllt sind:
+- Bei Erwachsenen und Jugendlichen ab
+Vollendung des 12. Lebensjahres bis zur
+Vollendung des 18. Lebensjahres ohne
+Entwicklungsstörungen: Arzneimittel ist ein OTXArzneimittel (AM-RL Anlage I)
+- Arzneimittel ist gemäß AM-RL Anlage III in der
+Verordnung eingeschränkt (Rechtsgrundlage [4])
+- Arzneimittel ist ein bedingt verordnungsfähiges
+Lifestyle Arzneimittel
+
+6
+
+Inhalt gemäß Pflichtfunktion
+P2-110
+
+032
+
+034
+031
+
+Bei Ausprägung „Keine Angabe“ und „Nicht betroffen“ ist die Kennzeichnung der Ausprägung nicht erforderlich.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 19 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+Inhalt gemäß Pflichtfunktion
+P2-110
+
+Merkmal
+Kennzeichnung ob ein Verordnungsausschluss besteht.
+Dies ist der Fall wenn eine oder mehrere der folgenden
+Bedingungen erfüllt sind:
+-
+
+Arzneimittel
+ist
+nach
+Merkmal 08 Keine therapiegerechte
+Packungsgrößenverordnung
+Kennzeichen Packungsgröße
+„Keine therapiegerechte Packungsgröße“ nicht
+verordnungsfähig
+
+-
+
+Arzneimittel ist auf der Negativliste
+
+029
+
+-
+
+Arzneimittel ist ein Lifestyle-Arzneimittel
+
+030
+
+-
+
+Bei Erwachsenen und Jugendlichen ab 020 ja und 021 nein
+Vollendung des 12. Lebensjahres bis zur
+Vollendung des 18. Lebensjahres ohne
+Entwicklungsstörungen:
+Arzneimittel
+ist
+apothekenpflichtig,
+aber
+nicht
+verschreibungspflichtig und nicht auf OTCAusnahmeliste (AM-RL Anlage I)
+
+-
+
+Arzneimittel ist nach AM-RL Anlage III von der 035
+Verordnung ausgeschlossen (Rechtsgrundlagen
+[1], [2] und [3])
+
+Bei Auswahl eines Produktes aus den o.g. tabellarischen Auswahllisten durch Markierung
+oder bei Auswahl eines Produktes aus der Hausapotheke oder im Rahmen der
+Wiederholungsverordnung sind für das ausgewählte Produkt zusätzlich mindestens die
+folgenden Merkmale ohne gesonderte Anwenderaktion anzuzeigen. Die Anzeige darf den
+Workflow der Verordnung nicht unterbrechen:
+Inhalt gemäß Pflichtfunktion
+P2-110
+
+Merkmal
+Zuzahlung
+
+015
+
+Mehrkosten
+
+016
+
+Kennzeichnung: Apothekenpflicht
+
+020
+
+Kennzeichnung: Verschreibungspflicht
+
+021
+
+Kennzeichnung: BtM
+
+022
+
+Kennzeichnung: Teratogenes Arzneimittel
+
+023
+
+Kennzeichnung:
+Transfusionsgesetz
+
+Dokumentationspflicht
+
+nach 024
+
+Kennzeichnung, falls Präparat auf der Negativliste steht
+
+029
+
+Kennzeichnung,
+falls
+Präparat
+unter
+den 030
+Verordnungsausschluss von Arzneimitteln zur Erhöhung
+der Lebensqualität gemäß § 34 Abs. 1 S. 7 SGB V
+(Lifestyle-Arzneimittel) fällt
+Kennzeichnung,
+falls
+Ausnahmen
+vom 031
+Verordnungsausschluss von Arzneimitteln zur Erhöhung
+der Lebensqualität gemäß § 34 Abs. 1 S. 7 SGB V
+(bedingtes Lifestyle-Arzneimittel) möglich sind
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 20 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+Inhalt gemäß Pflichtfunktion
+P2-110
+
+Merkmal
+
+Kennzeichnung bei Jugendlichen über 12 Jahren ohne 032
+Entwicklungsstörungen und Erwachsenen, falls es für
+dieses Arzneimittel Ausnahmen vom gesetzlichen
+Verordnungsausschluss (OTX) gibt
+Kennzeichnung,
+falls
+dieses
+Arzneimittel 034
+Verordnungseinschränkungen der AM-RL Anlage III
+unterliegt
+Kennzeichnung,
+falls
+Verordnungsausschlüssen
+unterliegt
+
+dieses
+der AM-RL
+
+Kennzeichnung, wenn für dieses
+Therapiehinweis des G-BA existiert
+
+Arzneimittel 035
+Anlage III
+
+Arzneimittel
+
+ein 037
+
+Kennzeichnung falls preisgünstigere Produkte vorliegen
+
+Muss berechnet werden
+
+Kennzeichnung (sofern ausgewähltes Produkt nicht Muss berechnet werden
+rabattiert), dass andere rabattierte Produkte mit
+demselben Wirkstoff für die Krankenkasse des jeweiligen
+Patienten zur Verfügung stehen
+Kennzeichnung, falls es sich um ein verordnungsfähiges 211
+Medizinprodukt nach § 31 Abs. 1 Nr. 2 SGB V handelt
+Kennzeichnung, falls es sich um ein verordnungsfähiges 4117
+Verbandmittel nach § 31 Abs. 1a SGB V handelt
+Kennzeichnung, falls der Artikelstatus wie folgt heißt: 018
+Außer Vertrieb, Zurückgezogen, Nicht verkehrsfähig,
+Löschung
+Die Anzeige von Hinweistexten erfolgt bei der beschriebenen Auswahl eines Produktes
+gemäß P3-130.
+Alle übrigen Merkmale gemäß P2-110 und K2-120 stehen dem Arzt in maximal zwei
+Aktionen zur Verfügung.
+Werden zusätzliche Merkmale angezeigt, die nicht den Stammdaten nach P2-100
+entsprechen, so müssen diese herstellerunabhängig sein, objektivierbaren Kriterien folgen
+und dürfen keinen werbenden Charakter haben. Dies entspricht z. B. dem Schulungsmaterial
+mit dem „Blaue-Hand-Logo“.
+
+7
+
+Für die Abrechnung von Verbandmitteln übermitteln die Verbandmittel-Hersteller die für die Abrechnung nach § 300 SGB V
+erforderlichen Preis- und Produktangaben an die in § 129 Abs. 2 SGB V genannten Verbände sowie an die Kassenärztliche
+Bundesvereinigung und den Gemeinsamen Bundesausschuss im Wege elektronischer Datenübertragung und maschinell
+verwertbar auf Datenträgern (Gültigkeit ab 30.04.2018). Das Merkmal 411 darf erst 12 Monate nach Inkrafttreten der Richtlinie
+des G-BA gemäß § 92 Abs. 1 S. 2 Nr. 6 SGB V in der Verordnungssoftware angezeigt werden.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 21 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+P3-130
+
+PFLICHTFUNKTION
+Anzeige von Hinweisen
+
+Sofern ein Produkt einer der folgenden Regelungen unterliegt, sind dem Arzt die
+vollständigen Texte aus der AM-RL bzw. Hinweise aus Arzneimittelvereinbarungen vor oder
+während des Verordnungsvorgangs anzuzeigen:
+
+
+Verordnungsausschlüsse der AM-RL Anlage III bei entsprechenden Arzneimitteln (siehe
+P2-110 Merkmal 034)
+
+
+
+Verordnungseinschränkungen der AM-RL Anlage III bei entsprechenden Arzneimitteln
+(siehe P2-110 Merkmal 033)
+
+
+
+Ausnahmeindikation, nach OTC-Ausnahmeliste (AM-RL Anlage I; siehe P2-110 Merkmal
+032) (nur bei Jugendlichen ab Vollendung des 12. Lebensjahres bis zur Vollendung des
+18. Lebensjahres ohne Entwicklungsstörungen und Erwachsenen anzeigen)
+
+
+
+Verordnungsfähigkeit von Medizinprodukten nach AM-RL Anlage V (medizinisch
+notwendige Fälle und Befristung der Verordnungsfähigkeit, siehe P2-110 Merkmal 203
+und 213)
+
+
+
+Hinweise zu Regelungen der Arzneimittelvereinbarungen nach § 84 Abs.1 SGB V, sofern
+hierzu Daten von der Landesebene bereitgestellt sind, z. B. Leitsubstanzquotenregelung
+(siehe P2-110 Merkmal 040 sowie K3-610 und K3-630)
+
+Die Anzeige der Hinweise erfolgt in einer für den Arzt deutlich wahrnehmbaren,
+wiedererkennbaren und einheitlichen Form, stets an der identischen Stelle der
+Benutzeroberfläche, ohne zusätzliche Anwenderinteraktion und darf den Workflow des
+Arztes nicht unterbrechen. Liegen mehrere Hinweise vor, so sind diese in der hier
+beschriebenen Reihenfolge anzuzeigen.
+Sofern die Hinweistexte eine Länge von 250 Zeichen (einschließlich Leerzeichen)
+überschreiten, sind mindestens die ersten 250 Zeichen anzuzeigen. Der vollständige
+Hinweistext ist auf Anforderung durch eine einzige Anwenderinteraktion anzuzeigen. Die
+Gliederung der Hinweistexte der AM-RL durch Absätze, Zeilenumbruche und
+Aufzählungszeichen ist in vergleichbarer Weise wiederzugeben.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 22 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+3.2 Werbung
+P3-200
+
+PFLICHTFUNKTION
+Werbefreie Verordnungssoftware
+
+Die Anbieter von Verordnungssoftware müssen von Produktwerbung freie Versionen ihrer
+Systeme anbieten. Ein Wechsel in die werbefreie Version muss ohne Datenverlust möglich
+sein.
+
+P3-210
+
+PFLICHTFUNKTION
+Anzeige von Werbung
+
+Werbung ist nur in Form von Werbefenstern zulässig. Diese müssen deutlich erkennbar
+durch die Beschriftung „Werbung“ gekennzeichnet sein und dürfen nicht irreführend als
+Informationsfenster dargestellt werden. Sie müssen für den Arzt direkt als Werbung
+erkennbar sein. Fachliche Inhalte und Werbung müssen eindeutig voneinander abgegrenzt
+sein und dürfen nicht miteinander vermischt werden. Hinter einer Werbung darf keine
+Funktion hinterlegt sein, die unmittelbar oder mittelbar beispielsweise zum Ausstellen einer
+Verordnung, einer Veränderung auf dem Rezept (z. B. Änderung des „aut idem“-Status) oder
+einer Übernahme in die Hausapotheke führt. Hinter einer Werbung darf keine Funktion
+hinterlegt sein, die einen unmittelbaren oder mittelbaren Einfluss auf Grundeinstellungen
+bzw. die Konfiguration der Verordnungssoftware (z. B. Filtereinstellungen bei
+Suchfunktionen) hat.
+Werbung darf nach ihrer Erscheinung, ihrem Ausmaß und ihrer Darstellung nicht vom
+Verordnungsvorgang ablenken. Es muss sichergestellt sein, dass der Arzt die
+Funktionalitäten der Verordnungssoftware auch bei Werbeeinblendungen uneingeschränkt
+nutzen kann. Werbeeinblendungen dürfen den Workflow nicht unterbrechen.
+Werbung oder Hinweise, die ausdrücklich oder sinngemäß auf das Ankreuzen von „aut idem“
+gerichtet sind, sind unzulässig.
+Die Einbindung von Aufrufen herstellerspezifischer Produktkataloge, aus denen direkt oder
+indirekt eine Verordnung erfolgen kann, ist unzulässig. Animierte Werbung ist nicht gestattet.
+
+P3-220
+
+PFLICHTFUNKTION
+Ausschalten von Werbung
+
+Bei der Verordnung muss dem Arzt ermöglicht werden, Werbeeinblendungen oder
+Werbefenster durch eine einzige Aktion auszublenden.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 23 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+3.3 Produktsuche
+3.3.1 Suchoptionen
+
+P3-300
+
+PFLICHTFUNKTION
+Suchoptionen nach Arzneimitteln und sonstigen nach § 31 SGB V in die
+Arzneimittelversorgung einbezogenen Produkten
+
+Arzneimittel und sonstige nach § 31 SGB V in die Arzneimittelversorgung einbezogene
+Produkte müssen nach folgenden Merkmalen gesucht werden können, soweit zutreffend:
+
+
+Handelsname
+
+
+
+Wirkstoffe
+
+
+
+Wirkstoffkombinationen
+
+
+
+ATC-Code der ATC-Klassifikation nach DIMDI; mindestens Wirkstoff- (7-stelliger
+ATC-Code) und Wirkstoffgruppenebene (5-stelliger ATC-Code)
+
+
+
+Bedeutung des ATC-Codes der ATC-Klassifikation nach DIMDI
+
+
+
+Hersteller/Anbieter
+
+
+
+PZN
+
+Eine kombinierte Abfrage ist möglich. Ein Produkt oder Wirkstoff kann auch über die Eingabe
+der ersten Buchstaben aufgerufen werden. Eine Suche mit dem ATC-Code und der
+Bedeutung des ATC-Codes kann entweder durch Eingabe des ATC-Codes (7- oder 5-stellig)
+oder Auswahl aus einer Baumstruktur der ATC-Klassifikation erfolgen.
+
+O3-310
+
+OPTIONALE FUNKTION
+Weitere mögliche Such-/bzw. Filteroptionen
+
+Weitere Such- und Filteroptionen sind zulässig, sofern der Anwender Transparenz über die
+verwendeten Such- bzw. Filterkriterien hat und die Kriterien auf alle Arzneimittel und
+sonstigen nach § 31 SGB V in die Arzneimittelversorgung einbezogenen Produkte
+gleichermaßen anwendbar sind.
+Eine Suche von Arzneimitteln und sonstigen nach § 31 SGB V in die Arzneimittelversorgung
+einbezogenen Produkte oder eine Filterung von Suchergebnissen nach P3-300 kann
+beispielsweise nach folgenden Kriterien ausgeführt werden:
+
+
+Wirkstärke
+
+
+
+Darreichungsform
+
+
+
+weitere Inhaltsstoffe
+
+
+
+N-Kennzeichnung nach Packungsgrößenverordnung
+
+Eine kombinierte Abfrage ist möglich.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 24 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+3.3.2 Darstellung von Suchergebnissen
+
+P3-315
+
+PFLICHTFUNKTION
+Alphabetische Sortierung der Auswahlliste (Grundeinstellung)
+
+Suchergebnisse nach Handelsnamen oder Hersteller/Anbieter werden als nach
+Handelsnamen alphabetisch sortierte Listen von Produkten angezeigt. Sie können auch
+entsprechend den Kriterien von P3-320 sortiert angezeigt werden.
+Wird das Suchergebnis als Liste von Produkten angezeigt, so sind bei Auswahl eines
+Produktes alle zugehörigen Packungen mit den Merkmalen nach P3-120 anzuzeigen.
+
+P3-320
+
+PFLICHTFUNKTION
+Sortierung der Auswahlliste (Grundeinstellung)
+
+Arzneimittel, die weder nach Handels- noch Herstellername gesucht wurden, sind für jeden
+Wirkstoff (maßgeblich ist die ATC-Klassifikation nach DIMDI) nach folgenden Kriterien
+hierarchisch zu sortieren und darzustellen:
+1. Sofern
+das
+Suchergebnis
+Wirkstoffen/Wirkstoffkombinationen
+Wirkstoff/Wirkstoffkombination
+
+Arzneimittel
+umfasst:
+
+mit
+unterschiedlichen
+Gruppierung
+nach
+
+2. Gruppierung nach Darreichungsformen (unter Berücksichtigung austauschbarer
+Darreichungsformen nach AM-RL Anlage VII A)
+3. Innerhalb jeder Gruppierung aufsteigend sortiert nach Wirkstärke (unter
+Berücksichtigung der Äquivalenzen)
+4. Innerhalb jeder Wirkstärke aufsteigend sortiert nach Packungsgröße
+5. Innerhalb identischer Packungsgrößen aufsteigend nach AVP gemäß AMPreisV
+bzw. § 129 Abs. 5a SGB V bei nicht verschreibungspflichtigen Arzneimitteln
+(N-Kennzeichen sind anzuzeigen)
+Sofern in die Auswahlliste automatisch ein Fokus oder Cursor gesetzt wird, ist dieser an den
+Anfang zu setzen. Nur die Anfangsposition der Auswahlliste darf hervorgehoben werden.
+Falls mehrere Produkte preisidentisch sind, ist der gesamte Bereich hervorzuheben.
+Hervorhebungen (z. B. Farbänderungen, Feldunterlegungen o. ä.), die über die im
+Anforderungskatalog geregelten Kennzeichnungen hinausgehen, sowie der Fokus oder die
+Cursorposition dürfen keine Vorauswahl suggerieren. Die Auswahl trifft der Arzt
+unbeeinflusst.
+
+P3-325
+
+PFLICHTFUNKTION
+Preisvergleichssuche und Sortierung
+Preisvergleich (Grundeinstellung)
+
+der
+
+Auswahlliste
+
+nach
+
+Zu jedem Arzneimittel und sonstigem nach § 31 SGB V in die Arzneimittelversorgung
+einbezogenen Produkt muss eine Preisvergleichssuche angeboten werden. In den
+Preisvergleich einzubeziehen sind Arzneimittel mit
+
+
+gleichem Wirkstoff, bei Kombinationsarzneimitteln mit gleicher Wirkstoffkombination
+
+
+
+gleicher Wirkstärke (unter Berücksichtigung der Äquivalenzen)
+
+
+
+gleicher oder nach AM-RL Anlage VII A austauschbarer Darreichungsform
+
+
+
+gleicher N-Kennzeichnung
+Packungsgröße
+
+oder
+
+bei
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+fehlender
+
+N-Kennzeichnung
+
+gleicher
+
+Seite 25 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+Das Ergebnis der Vergleichssuche muss aufsteigend nach AVP – bei Arzneimitteln gemäß
+AMPreisV bzw. bei nicht verschreibungspflichtigen Arzneimitteln gemäß § 129 Abs. 5a SGB
+V sortiert (d. h. das Preiswerteste oben) angezeigt werden.
+Die Liste muss an den Anfang positioniert sein. Nur die Anfangsposition der Auswahlliste
+darf visualisiert werden. Falls mehrere Produkte preisidentisch sind, wäre der gesamte
+Bereich zu markieren. Hervorhebungen (z. B. Farbänderungen, Feldunterlegungen o. ä.), die
+über die im Anforderungskatalog geregelten Kennzeichnungen hinausgehen, sowie der
+Fokus oder die Cursorposition dürfen keine Vorauswahl suggerieren. Die Auswahl trifft der
+Arzt unbeeinflusst.
+
+P3-330
+
+PFLICHTFUNKTION
+Sortierung der Auswahlliste (Variationsmöglichkeiten)
+
+Eine alternative Sortierung oder eine Filterung der Auswahlliste nach folgenden Kriterien
+(auch kombiniert) muss gewährleistet werden:
+
+
+Preis (AVP gemäß AMPreisV bzw.
+verschreibungspflichtigen Arzneimitteln)
+
+
+
+N-Kennzeichnung
+
+
+
+Wirkstärke (unter Berücksichtigung der Äquivalenzen)
+
+
+
+Zuzahlung
+
+
+
+Produkte mit der Kennzeichnung Rabattvereinbarung (043)
+
+P3-340
+
+§
+
+129
+
+Abs.
+
+5a
+
+SGB
+
+V
+
+bei
+
+nicht
+
+PFLICHTFUNKTION
+Anzeige von Detailinformationen
+
+In jeder Programmstellung müssen zu jedem Produkt alle Angaben nach P3-120 als
+Übersicht mit maximal 2 Aktionen aufrufbar sein.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 26 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+3.4 Substitution
+P3-400
+
+PFLICHTFUNKTION
+Substitutionsvorschläge/Verordnungsvorschläge
+
+Die nachfolgend aufgeführten Substitutionsvorschläge für ein ausgewähltes Arzneimittel sind
+nach individueller Arztanforderung mit nur einer Aktion durch die Verordnungssoftware in
+Form von Auswahllisten nach Maßgabe der Pflichtfunktion P3-320 bzw. P3-325 darzustellen:
+1. Wirkstoffgleiche, preisgünstigere, zur Substitution geeignete Arzneimittel
+(Preisvergleich): Die Auswahl und Anzeige erfolgt nach den Kriterien von P3-325
+mit der Maßgabe, dass jene Arzneimittel angezeigt werden, die preisgünstiger
+sind als das ausgewählte Arzneimittel.
+2. Substitutionsvorschläge aus Arzneimittelvereinbarungen nach § 84 Abs. 1 SGB V:
+Die Auswahl erfolgt nach den Kriterien der jeweiligen Arzneimittelvereinbarung
+(vgl. K3-610). Die Darstellung erfolgt gemäß P3-320 soweit die jeweilige
+Arzneimittelvereinbarung nichts Abweichendes vorsieht.
+3. Rabattarzneimittel nach § 130a Abs. 8 SGB V, die zur Substitution des
+Ausgangsarzneimittels geeignet sind: Die Auswahl und Anzeige erfolgt nach den
+Kriterien von P3-325 mit der Maßgabe, dass nur jene Arzneimittel angezeigt
+werden, für die eine Kennzeichnung Rabattvereinbarung (043) vorliegt.
+Darstellungen von Substitutionsvorschlägen ohne vorhergehende individuelle Anforderung
+oder andere als die aufgeführten Substitutionsvorschläge sind unzulässig.
+
+P3-420
+
+PFLICHTFUNKTION
+Vollständige Auflistung aller Substitutionsvorschläge
+
+Fordert der Arzt Substitutionsvorschläge an, so sind alle verfügbaren Arzneimittel zu
+berücksichtigen. Die Anforderungen von P3-320 und P3-325 sind zu berücksichtigen. Die
+endgültige Auswahl erfolgt durch den Arzt.
+
+P3-430
+
+PFLICHTFUNKTION
+Keine automatische Belegung von „aut idem“
+
+Eine automatische Belegung des Rezeptfelds „aut idem“ ist unzulässig. Hersteller-, produktoder gesamtsortimentsbezogene „aut idem“-Konfigurationen sind unzulässig. Für
+Wiederholungsrezepte ist die Übernahme eines durch den Arzt gesetzten „aut idem“Kreuzes für denselben Patienten zulässig. Die endgültige Auswahl erfolgt durch den Arzt.
+
+P3-440
+
+PFLICHTFUNKTION
+Diskriminierungsfreier
+Aufruf
+und
+Substitutionsvorschlägen und Preisvergleich
+
+Anzeige
+
+von
+
+Der Aufruf von Preisvergleichssuchen nach P3-325 und Substitutionsvorschläge nach P3400 muss in vergleichbarer und für den Arzt leicht auffindbarer Weise erfolgen. Die Anzeige
+der verschiedenen Ergebnislisten erfolgt in einheitlicher Form und an gleicher Stelle in der
+Programmoberfläche. Die Art der Vergleichssuche/des Substitutionsvorschlages ist für den
+Arzt erkennbar anzugeben. Ggf. gesetzte Filter und Sortierungen sind für den Arzt erkennbar
+anzuzeigen.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 27 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+3.5 Sicherstellung von Verordnungsinformationen
+P3-515
+
+PFLICHTFUNKTION
+Anzeige von Rabattarzneimitteln im Workflow
+
+In allen Auswahllisten sind in Abhängigkeit von der Krankenkasse des Patienten alle
+rabattierten Produkte (P2-110 Merkmal 043) ohne gesonderte Anwenderaktion einheitlich zu
+kennzeichnen.
+
+P3-516
+
+PFLICHTFUNKTION
+Schnellauswahl von Rabattarzneimitteln
+
+Bei der Anzeige von Suchergebnissen oder Substitutionsvorschlägen auf der Ebene von
+Fertigarzneimittelpackungen (PZN-Ebene) ist dem Anwender durch eine einfache Aktion die
+Möglichkeit zu geben, die angezeigten Ergebnisse auf die für den jeweiligen Patienten
+rabattierten Arzneimittel zu begrenzen. Liegen keine rabattierten Arzneimittel im
+Suchergebnis vor, ist ein entsprechender Hinweis zu geben, das Suchergebnis bleibt in
+diesem Fall unverändert.
+In den Benutzereinstellungen der Verordnungssoftware ist zudem eine Möglichkeit
+vorzusehen, die es dem Anwender erlaubt, die Begrenzung der angezeigten Suchergebnisse
+auf rabattierte Arzneimittel zu setzen. Liegt zu den jeweiligen Suchparametern kein
+rabattiertes Arzneimittel vor, so ist dem Anwender ein entsprechender Hinweis zu geben und
+das Suchergebnis ohne die Eingrenzung auf rabattierte Arzneimittel anzuzeigen.
+
+P3-520
+
+PFLICHTFUNKTION
+Anzeige von preisgünstigeren Arzneimitteln
+
+Bei Arzneimittelverordnungen sind dem Arzt Hinweise auf das Vorliegen preisgünstigerer,
+wirkstoffgleicher zur Substitution geeigneter Arzneimittel zu geben. Diese Hinweise können
+durch Kennzeichnung erfolgen, müssen aber ohne gesonderte Anwenderaktion im Verlauf
+des Verordnungsdialogs sichtbar sein. Hinweise dürfen den Workflow des Arztes nicht
+unterbrechen.
+Die detaillierte Anzeige alternativer Arzneimittel erfolgt auf Anforderung des Arztes gemäß
+P3-400 Nr. 1. P3-325 ist zu beachten.
+
+OPTIONALE FUNKTION
+O3-540
+
+Preishistorie
+
+Steht eine produktbezogene Preishistorie zur Verfügung, sind mindestens die Daten der
+letzten 2 Jahre anzuzeigen.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 28 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+3.6 Optimierung der effizienten Verordnung
+P3-600
+
+PFLICHTFUNKTION
+Bereitstellung der AM-RL inkl. ihrer Anlagen
+
+(K3-600)
+
+Dem Arzt ist die AM-RL nach § 92 Abs. 1 S. 2 Nr. 6 SGB V inkl. ihrer Anlagen entsprechend
+P2-100 auch in Textform als pdf-Datei nach aktuellem Stand zur Verfügung zu stellen.
+Änderungen der AM-RL und deren Anlagen sind mit dem Inkrafttreten im Rahmen der
+nächsten Aktualisierung der Arzneimittelstammdaten zu übernehmen.
+
+P3-610
+
+PFLICHTFUNKTION
+Inhalte aus Arzneimittelvereinbarungen nach § 84 Abs. 1 SGB V (K3-610)
+
+Maßnahmen zur Umsetzung von Versorgungs- und Wirtschaftlichkeitszielen sowie
+Arzneimittelklassifikationen (DDD, me-too-drugs, Medikationskataloge, etc.), die in Verträgen
+nach § 84 Abs.1 SGB V von den Vertragspartnern auf Landesebene vereinbart wurden, sind
+in der Verordnungssoftware abzubilden.
+Finden sich hier konkrete Regelungen bezogen auf einzelne Wirkstoffe etc., so sind die
+betroffenen Arzneimittel mit entsprechenden Informationen zu hinterlegen. Die Anzeige
+erfolgt KV-Bereichs-spezifisch und ggf. Fachgruppenspezifisch, so dass der Arzt nur die für
+ihn maßgeblichen Informationen erhält.
+Die entsprechenden Informationen werden von den Vertragspartnern auf Landesebene über
+die in P1-050 benannte Schnittstelle bereitgestellt.
+Die Schnittstelle und deren Inhalte sind ohne Freischaltung bzw. Maßnahmen zur
+Aktivierung unverzüglich bereitzustellen.
+
+K3-630
+
+KONDITIONALE PFLICHTFUNKTION
+Anzeige von Klassifikationen (DDD, me-too-drugs, Medikationskataloge
+etc.)
+
+Aufgehoben und in P3-610 geregelt.
+
+O3-650
+
+OPTIONALE FUNKTION
+Wirkstoffverordnung
+
+Verordnungen von Arzneimitteln über Wirkstoffbezeichnungen sind möglich. Der Workflow
+darf nicht beeinträchtigt werden. Anstelle eines konkreten Präparates werden in diesem Fall
+nur Wirkstoff/Wirkstoffkombination, Wirkstärke, Darreichungsform und Packungsgröße (oder
+Normgröße) auf dem Rezept angegeben. Ein Setzen des aut-idem-Kreuzes bei
+Wirkstoffverordnungen ist nicht zulässig. Wirkstoffe der AM-RL Anlage VII Teil B (siehe P2110 Merkmal 038) dürfen nicht als Wirkstoffverordnung verordnet werden.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 29 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+3.7 Rezeptbedruckung,
+Angaben
+Konfigurationseinstellungen
+P3-700
+
+auf
+
+dem
+
+Rezept
+
+und
+
+PFLICHTFUNKTION
+Angaben auf dem Rezept
+
+Die Verordnungssoftware muss dem Anwender eine Rezeptbedruckung bereitstellen. Für die
+Bedruckung des Personalienfeldes ist die Technische Anlage zur Anlage 4a (BMV-Ä) zu
+beachten.
+Auf Rezepten dürfen nur Produkt- bzw. Wirkstoffbezeichnung, Wirkstärke, Darreichungsform,
+Packungsgröße und ggf. Normgröße angegeben werden. Die gleichzeitige Angabe von
+Packungsgröße und Normgröße ist zulässig. Soweit verfügbar, ist die PZN anzugeben.
+Es kann in einer Verordnungszeile nur ein Vielfaches der Packungsgröße eines
+Fertigarzneimittels verordnet werden. Die Verordnung unterschiedlicher Packungsgrößen in
+einer Rezeptzeile ist unzulässig. Eine zusätzliche Kennzeichnung bei Verordnung eines
+Vielfachen der größten Packungsgröße ist nicht erforderlich.
+Die gleichzeitige Verwendung eines Arzneiverordnungsblatts (Muster 16) für die Verordnung
+von Hilfsmitteln und Arzneimitteln ist unzulässig. Der Anwender ist bei der Bedruckung ggf.
+darauf hinzuweisen, getrennte Verordnungsblätter zu verwenden.
+Bei der Verordnung von Fertigarzneimitteln ist eine Änderung der aus den
+Arzneimittelstammdaten übernommenen Angaben unzulässig. Weitere Angaben haben
+gesetzlichen und rahmenvertraglichen Bestimmungen zu entsprechen. Darüber
+hinausgehende Angaben auf dem Rezept (z. B. „keine Substitution“, „kein aut-idem“, „das
+Arzneimittel ist zuzahlungsbefreit“ oder Verordnungsbegründungen) sind unzulässig. P3-430
+ist zu beachten.
+Die Verordnungssoftware muss jede Verordnung nach der Rezeptbedruckung mit den unten
+genannten
+Merkmalen
+(sog.
+Verordnungsinformation)
+patientenbezogen
+dem
+Praxisverwaltungssystem für die Verordnungshistorie8 nach den Festlegungen nach § 291d
+Abs. 1a S. 1 Nr. 1 übergeben können.
+Daten des Personalienfeldes
+
+
+Gemäß Technischer Anlage zur Anlage 4a (BMV-Ä)
+
+Verordnungsdaten
+
+
+Packungsbezogene Merkmale
+PZN (01 gemäß P2-110)
+Handelsname (02 gemäß P2-110)
+Preis (AVP gemäß AMPreisV bzw. § 129 Abs. 5a SGB V bei nicht
+verschreibungspflichtigen Arzneimitteln) zum Zeitpunkt der Verordnung (09 gemäß
+P2-110)
+o Anzahl bei Verordnung eines Vielfachen einer Packung
+o
+o
+o
+
+
+o
+
+Freitext
+Der entsprechende Text z. B. Rezeptur oder Wirkstoffbezeichnung
+
+8
+
+Die Verordnungshistorie, d.h. die Dokumentation der patientenbezogenen Verordnungsinformationen, ist im
+Praxisverwaltungssystem gespeichert. Die Verordnungsinformationen aus der Verordnungshistorie können auch für die
+Wiederverordnung sowie für Funktionen nach K4-150 und K4-200 genutzt werden.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 30 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+
+o
+o
+o
+o
+
+Rezepttyp
+Arzneiverordnungsblatt Muster 16 (Anlage 2 BMV-Ä)
+BtM-Rezept (§ 8 Betäubungsmittel-Verschreibungsverordnung)
+T-Rezept (§ 3a Nummer 6 Arzneimittel-Verschreibungsverordnung)
+Privat-Rezept
+
+P3-710
+
+PFLICHTFUNKTION
+Rezeptbedruckung bei Reimporten
+
+Wählt der Arzt einen Reimport aus, so ist auf dem Rezept zusätzlich zu den Angaben nach
+P3-700 der Importeur bzw. Hersteller/Anbieter aufzudrucken.
+
+P3-720
+
+PFLICHTFUNKTION
+Konfigurationseinstellungen
+
+Hersteller- oder produktbezogene Konfigurationseinstellungen zu „aut-idem“ und Reimporten
+sowie die Vorbelegung mit PZN-bezogenen Verordnungsbegründungen sind unzulässig.
+PFLICHTFUNKTION
+P3-730
+
+Formularauswahl
+
+Die Formularauswahl für den Rezeptdruck kann sowohl vor als auch nach der Auswahl der
+zu verordnenden Arzneimittel und sonstigen nach § 31 SGB V in die Arzneimittelversorgung
+einbezogenen Produkte erfolgen.
+Der Rezeptdruck erfolgt bei Arzneimitteln und sonstigen nach § 31 SGB V in die
+Arzneimittelversorgung
+einbezogenen
+Produkten
+in
+der
+Regel
+auf
+dem
+Arzneiverordnungsblatt (Muster 16).Vor der Formularbedruckung muss der Arzt einen
+Hinweis auf das zu verwendende Formular erhalten, wenn das zu verwendende Formular
+von Muster 16 abweicht:
+
+
+Privat-Rezept bei Arzneimitteln der Negativliste
+
+
+
+Privat-Rezept bei Lifestyle-Arzneimitteln
+
+
+
+Privat-Rezept bei Arzneimitteln mit Verordnungsausschluss nach AM-RL Anlage III
+(Rechtsgrundlage [1], [2] und [3])
+
+
+
+Privat-Rezept (oder grünes Rezept, sofern unterstützt) bei apothekenpflichtigen
+Arzneimitteln für Jugendliche über 12 Jahre ohne Entwicklungsstörungen und
+Erwachsene, die nicht als OTX-Arzneimittel gekennzeichnet sind (Merkmal 020)
+
+
+
+Privat-Rezept bei nicht verordnungsfähigen Medizinprodukten
+
+
+
+BtM-Rezept bei Betäubungsmitteln
+
+
+
+T-Rezept bei teratogenen Arzneimitteln
+
+Der Arzt muss jederzeit die Möglichkeit haben, die Vorbelegung des Formulars manuell zu
+ändern. Der Wechsel des Formulars soll ohne Unterbrechung des Verordnungsworkflows
+möglich sein.
+Konfigurationseinstellungen – auch patientenspezifisch, mit denen der Arzt die oben
+genannten Vorgaben übersteuern kann, – sind zulässig (z. B. Voreinstellung Muster 16 bei
+OTC-Produkten für Kinder bis zur Vollendung des 12. Lebensjahres und Jugendliche mit
+Entwicklungsstörungen bis zur Vollendung des 18. Lebensjahres).
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 31 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+3.8 Medikationsplan
+K3-800
+
+KONDITIONALE PFLICHTUNKTION
+Medikationsplan nach § 31a SGB V
+
+(P3-800)
+
+Die Verordnungssoftware muss die zur Erstellung und Aktualisierung des Medikationsplans
+nach § 31a SGB V notwendigen Funktionen und Informationen enthalten.
+Hierfür gelten die Vorgaben und technischen Spezifikationen der zwischen KBV,
+Bundesärztekammer (BÄK) und der für die Wahrnehmung der wirtschaftlichen Interessen
+gebildete maßgebliche Spitzenorganisation der Apotheker auf Bundesebene geschlossenen
+Vereinbarung nach § 31a Abs. 4 SGB V einschließlich ihrer Anlagen (Quelle: Homepage der
+KBV).
+Sofern Ärzte Medikationspläne nach § 31a SGB V nicht erstellen oder aktualisieren müssen,
+kann auf diese Funktion verzichtet werden.
+
+4. Statistische Dienstmöglichkeiten
+4.1 Controlling-Funktionen
+OPTIONALE FUNKTION
+O4-100
+
+Richtgrößen
+
+Die Richtgrößen sind in der Verordnungssoftware hinterlegt. Dabei sind
+Richtgrößenunterschiede von KV zu KV zu beachten und bei der neuen Softwareaktivierung
+– je nach Vertrag – vom Hersteller/Anbieter oder vom Arzt zu aktualisieren.
+Die entsprechenden Informationen werden von den Vertragspartnern auf Landesebene
+bereitgestellt. Der PVS-Anbieter hält eine Schnittstelle hierfür vor.
+
+O4-110
+
+OPTIONALE FUNKTION
+Controlling: Richtgrößenausschöpfung
+
+Die Verordnungssoftware kann eine Warnfunktion zur Ausschöpfung der Richtgröße
+einblenden. Die Funktion richtet sich nach den rechtlichen Vorgaben in § 106 Abs. 5a SGB V
+und wird entsprechend der KV-Richtgrößen aktualisiert.
+Die entsprechenden Informationen werden von den Vertragspartnern auf Landesebene
+bereitgestellt. Der PVS-Anbieter hält eine Schnittstelle hierfür vor.
+Hintergrund: Gesetzliche Grundlage
+(Durchschnittskostenregelung).
+
+O4-130
+
+des
+
+§
+
+84
+
+Abs.
+
+7a
+
+SGB
+
+V
+
+ist
+
+entfallen
+
+OPTIONALE FUNKTION
+Weitere Controllingprogramme
+
+Weitere Controllingprogramme (hinsichtlich der Zielfelder von Zielvereinbarungen, seiner
+verursachten Kosten etc.) werden dem Arzt angeboten. Hierbei sind – falls erforderlich –
+Länderspezifika zu berücksichtigen.
+Die entsprechenden Informationen werden von den Vertragspartnern auf Landesebene über
+die in P1-050 benannte Schnittstelle bereitgestellt.
+Die Schnittstelle und deren Inhalte sind ohne Freischaltung bzw. Maßnahmen zur
+Aktivierung unverzüglich bereitzustellen.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 32 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+O4-140
+
+OPTIONALE FUNKTION
+Preiszuordnung bei Wirkstoffverordnung
+
+Um eine Verknüpfung mit der Verordnungskostenstatistik zu gewährleisten, wird bei einer
+Wirkstoffverordnung der Preis des günstigsten austauschbaren Arzneimittels übernommen.
+
+4.2 Statistik-Funktion
+K4-150
+
+KONDITIONALE PFLICHTFUNKTION
+Export von Verordnungsdaten
+
+Ein einfacher Export von in der ärztlichen Dokumentation gespeicherten Verordnungsdaten
+in Tabellenkalkulationsprogramme ist zu ermöglichen, sofern die Verordnungssoftware keine
+statistischen Dienstmöglichkeiten nach K4-200 anbietet, die eine patientenbezogene und
+patientenübergreifende Zusammenstellung und Auswertung der Verordnungen nach Kosten
+und Anzahl der Verordnungen sowie nach ATC-Code in Bezug auf definierte Zeiträume
+(Jahr, Quartal) ermöglicht.
+Folgende Daten müssen mindestens je verordnetem Produkt exportiert werden können:
+
+
+Datum der Verordnung
+
+
+
+Patientenbezug (Name, Versichertennummer)
+
+
+
+PZN
+
+
+
+Handelsname
+
+
+
+ATC-Code
+
+
+
+Preis (AVP gemäß AMPreisV bzw. § 129 Abs. 5a SGB V
+verschreibungspflichtigen Arzneimitteln) zum Zeitpunkt der Verordnung
+
+
+
+bei Verordnung eines Vielfachen einer Packung ggf. die Anzahl
+
+K4-200
+
+KONDITIONALE PFLICHTFUNKTION
+Erstellung von Statistiken, graphische Darstellung
+
+bei
+
+nicht
+
+(O4-200)
+
+Die Erstellung von Statistiken ist möglich. Dabei können verordnungsbezogene Kennzahlen
+(z. B. Kosten, Anzahl Verordnungen, Anzahl DDD) fallzahlbezogen (bezogen auf die
+Gesamtfallzahl), rezeptfallzahlbezogen (bezogen auf die Zahl von Fällen mit mindestens
+einer Verordnung), einzelfallbezogen (bezogen auf einen Fall) dargestellt werden.
+Eine Aufgliederung der Statistik in Bezug auf einzelne Arzneimittel bzw. Produktgruppen (z.
+B. nach ATC-Code) oder bezogen auf einzelne Patientengruppen (z. B. nach Alter,
+Geschlecht oder ICD-Diagnose) ist möglich.
+Die graphische Darstellung der Ergebnisse ist in Form verschiedener Diagrammtypen nach
+Jahren bzw. Quartalen, Monaten etc. möglich.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 33 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+5. Abkürzungsverzeichnis
+AM-DB
+
+Arzneimittel-Datenbank
+
+AMG
+
+Arzneimittelgesetz
+
+AMPreisV
+
+Arzneimittelpreisverordnung
+
+AM-RL
+
+Arzneimittel-Richtlinie
+
+ARV
+
+Arzneimittelvereinbarungen
+
+ATC
+
+Anatomisch-therapeutisch-chemische Klassifikationssystem
+
+AVP
+
+Apothekenverkaufspreis
+
+BÄK
+
+Bundesärztekammer
+
+BtM
+
+Betäubungsmittel
+
+DDD
+
+Defined Daily Dose
+
+DIMDI
+
+Deutsches Institut für Medizinische Dokumentation und Information
+
+ICD
+
+Internationale statistische Klassifikation der Krankheiten und verwandter
+Gesundheitsprobleme
+
+GKV-SV
+
+Spitzenverband Bund der Krankenkassen
+
+G-BA
+
+Gemeinsamer Bundesausschuss
+
+KBV
+
+Kassenärztliche Bundesvereinigung
+
+KV
+
+Kassenärztliche Vereinigung
+
+OTC
+
+“Over the counter”-Arzneimittel (Bezeichnung für Arzneimittel, die nicht
+verschreibungspflichtig sind)
+
+OTX
+
+Bezeichnung für OTC-Arzneimittel, die verordnungsfähig sind
+
+PVS
+
+Praxisverwaltungssystem
+
+PZN
+
+Pharmazentralnummer
+
+SGB V
+
+Sozialgesetzbuch
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 34 von 35
+
+Anforderungskatalog nach § 73 SGB V für Verordnungssoftware – Version 4.1
+
+6. Glossar
+
+Auswahllisten
+
+Listen, aus denen eine Auswahl getroffen werden kann.
+
+Äquivalenzen
+
+Salze, Ester, Ether, Isomere, Mischungen von Isomeren,
+Komplexe und Derivate eines Wirkstoffs werden als äquivalent
+oder Äquivalenzen bezeichnet. Äquivalente Wirkstoffe haben
+den gleichen ATC-Code.
+
+Hinweis
+
+Als Hinweis wird ein Text (Datenbankattribut) bezeichnet, der
+kontextabhängig zur Verfügung steht. Der Text kann als
+Datenbankattribut zu einer PZN hinterlegt sein oder in
+Abhängigkeit von einem anderen Attribut erzeugt werden. Die
+Anzeige des Textes kann in Form eines Tooltips oder nach
+Anklicken einer entsprechenden Schaltfläche oder eines
+Karteikartenreiters oder
+
+auch ohne jede Benutzeraktion
+
+erfolgen; zum Beispiel müssen die OTC-Ausnahmetexte in
+Form eines Hinweises angezeigt werden.
+Kennzeichnung
+
+Unter Kennzeichnung ist in diesem Dokument die Markierung
+eines Arzneimittels durch Anzeige eines Symbols oder Icons,
+durch farbliche oder gefettete Hervorhebung auf Basis eines
+Merkmals eines Datensatzes zu verstehen; zum Beispiel wird
+die Markierung eines Rabattpräparates mit einem grünen,
+gefetteten ‚R’ ( R ) als Kennzeichnung verstanden.
+
+Merkmal
+
+Charakteristische Eigenschaft z. B. einer Arzneimittelpackung;
+zum Beispiel der AVP oder die Information „AVP liegt unter
+Festbetrag“. Die symbolische Präsentation des Merkmals wird
+hier als Kennzeichnung bezeichnet.
+
+Verweis
+
+Unter Verweis wird ein funktionales Element (Link, Schaltfläche
+etc.) verstanden, das bei Benutzung zur Anzeige weiterer
+Informationen führt, zum Beispiel in Form von PDF-Dateien.
+
+EXT_ITA_VGEX_Anforderungskatalog_AVWG * Version 4.1
+
+Seite 35 von 35
+
+

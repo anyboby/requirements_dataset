@@ -1,0 +1,9 @@
+Bei der Umsetzung der neuen DB ist es wichtig, dass während der Testphase und
+Einführungsphase die alte DB weiterhin zu erreichen ist. Bei der Umsetzung soll eine
+aktuelle Programmiersprache sowie Umgebung genutzt werden. Hierbei soll, wenn
+möglich, auf Open Source-Produkte zurückgegriffen werden. Aktuell wird PHP mit MySQL
+genutzt. Optional kann das System auch in einer anderen webbasierten
+Programmiersprache umgesetzt werden. Die Programmierung und Datenbankstruktur
+sollten die Performance der DB verbessern, sowie das Handling der DB optimieren. Bei
+der Auswahl der Programmiersprache ist darauf zu achten, dass die Datenbanksicherheit
+weiterhin gegeben ist.

@@ -1,0 +1,15 @@
+Die Systembeschreibung beschreibt die folgenden
+Aspekte:
+» Art und Umfang der erbrachten Cloud-Dienste
+gemäß der Dienstgütevereinbarung (Service
+Level Agreements), die einem Vertrag mit den
+Cloud-Kunden typischerweise zugrunde liegt,
+» Grundsätze, Verfahren und Maßnahmen zur
+Erbringung (Entwicklung und/oder Betrieb) des
+Cloud-Dienstes, einschließlich der eingerichteten Kontrollen,
+» Beschreibung der eingesetzten Infrastruktur-,
+Netzwerk- und Systemkomponenten für
+Entwicklung und Betrieb des Cloud-Dienstes,
+» Umgang mit bedeutsamen Vorkommnissen
+und Verhältnissen, die Ausnahmen vom Regelbetrieb darstellen, wie bspw. der Ausfall von
+kritischen IT-Systemen,

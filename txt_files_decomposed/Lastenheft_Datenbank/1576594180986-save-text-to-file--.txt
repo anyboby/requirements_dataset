@@ -1,0 +1,5 @@
+Mit der neuen Datenbank sollen die Standorte die Möglichkeit haben Checks zur
+Löschung vorzumerken. Die Markierung zum Löschen wird direkt im Check durchgeführt,
+durch ein Häkchen mit einen Dropdownfeld im dem der Stromsparhelfer angeben müssen
+warum der Check gelöscht werden soll. Hierfür soll es für die Lokalkoordinatoren und den
+Admin eine Liste mit Löschaufträgen geben.

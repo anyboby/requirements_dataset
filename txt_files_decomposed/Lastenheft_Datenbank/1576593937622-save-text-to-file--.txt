@@ -1,0 +1,5 @@
+Die DB wurde mit PHP 5 und MySQL 5 programmiert. Als Framework wurde Propel 1.3
+verwendet. Die DB kann mit verschiedenen Browsern genutzt werden. Nachfolgend wir d
+der Datenbestand aufgelistet, um einen Überblick über die Datenmenge zu liefern. Der
+Datenbestand ist vom 11. Oktober 2016. In diesem Zusammenhang ist zu erwähnen, dass
+der Datenbestand stetig steigt.

@@ -1,0 +1,5 @@
+Sofern Anpassungen oder Ergänzungen der ARV-Schnittstelle aufgrund regionaler
+Vereinbarungen notwendig werden, die mit der bisherigen Schnittstellenbeschreibung nicht
+abbildbar sind, sind diese von den regionalen Vertragspartnern in Form von technisch
+ausspezifizierten Erweiterungen zur Verfügung zu stellen. Diese werden von der KBV nach
+inhaltlicher und technischer Prüfung in die ARV-Schnittstelle übernommen.

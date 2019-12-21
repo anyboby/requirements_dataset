@@ -1,0 +1,2 @@
+Erfolgt keine anders lautende Farbfestlegung, so sind die Bauteile in den Farben RAL
+5002 (ultramarinblau)und RAL 7035 (lichtgrau) zu beschichten.

@@ -1,0 +1,3 @@
+Die Abrechnungshaushalte werden denn an den eaD-Admin gesendet. Dieser erhält in
+der Datenbank eine Liste mit den abzurechnenden Gutscheinen. Diese Liste soll nach
+Standort und Datum sortierbar sein.

@@ -1,0 +1,3 @@
+Die Software muss den Sachbearbeiter bei der Berechnung der gesetzlich vorgegebenen Fristen unterstützen. Dies betrifft beispielsweise die Zustellung des Bescheides oder
+die Frist gemäß § 51 Abs. 2 BAföG. Werden aus der Fristberechnung automatisch Wiedervorlagen erstellt, so sollen diese überschreibbare Wiedervorlagetermine enthalten, so
+dass der Sachbearbeiter die Wiedervorlage manuell ändern kann.

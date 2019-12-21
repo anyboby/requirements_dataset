@@ -1,0 +1,6 @@
+Nach Eingang der Abrechnung wird geprüft, ob die eingereichten Unterlagen mit der
+Abrechnung übereinstimmen und ob die Gutscheinnummer und die IDs im System (DB)
+vorliegen und ob die Daten des Neugerätes eingetragen sind. Die energiefachliche
+Prüfung muss auch kontrollieren, ob das Neugerät alle Bedingungen des
+Kühlgerätetauschprogrammes erfüllt. (Dies ist unter Abschnitt 1.2.1.16 genauer
+beschrieben.) Des Weiteren wird geprüft ob die Abrechnung rechnerisch richtig ist.

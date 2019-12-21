@@ -1,0 +1,3 @@
+Im Fall von Änderungen der Daten (sowohl im aktuellen als auch in vergangenen oder
+zukünftigen BWZ bei einem Folgeantrag) muss der Sachbearbeiter die Möglichkeit haben, diese Änderungen in den entsprechenden Datenfeldern einzugeben und dauerhaft
+zu speichern.

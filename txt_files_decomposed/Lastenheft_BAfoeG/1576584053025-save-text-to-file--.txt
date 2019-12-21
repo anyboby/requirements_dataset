@@ -1,0 +1,3 @@
+Für die Serviceberechnung ist in der Software eine verkürzte Plausibilisierungsprüfung
+zu hinterlegen, damit diese auch ohne vollständige Antragsdaten durchgeführt werden
+kann.

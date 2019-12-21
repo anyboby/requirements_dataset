@@ -1,0 +1,6 @@
+Optionale, weitergehende Anforderungen
+(Vertraulichkeit)
+Bei IaaS/PaaS ist die sichere Trennung durch
+physisch getrennte Netze oder durch stark
+verschlüsselter VLANs sichergestellt.
+

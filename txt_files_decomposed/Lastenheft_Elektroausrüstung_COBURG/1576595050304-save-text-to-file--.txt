@@ -1,0 +1,4 @@
+Beim Einsatz von elektronischen Bauelementen ( z.B. Frequenzumrichter ) sind Standardgeräte einzusetzen, so daß eine Garantie von 2 Jahren bzw. eine Materialgewährleistung von
+10 Jahren ( ab Zweit-Inbetriebnahme beim Endkunden von WACO ) gewährleistet werden
+kann. Diese Geräte sind ebenso rechtzeitig vor Baubeginn mit WACO Elektrokonstruktion
+abzustimmen.

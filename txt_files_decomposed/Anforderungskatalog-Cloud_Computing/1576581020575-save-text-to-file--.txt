@@ -1,0 +1,4 @@
+Der Auftraggeber einer Änderung führt zuvor eine
+Risikobewertung durch. Alle möglicherweise von
+der Änderung betroffenen Konfigurationsobjekte
+werden auf potenzielle Auswirkungen hin bewertet. Das Ergebnis der Risikobewertung ist angemessen und nachvollziehbar zu dokumentieren.

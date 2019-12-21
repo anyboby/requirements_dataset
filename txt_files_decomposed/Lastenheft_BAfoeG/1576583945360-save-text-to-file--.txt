@@ -1,0 +1,2 @@
+Die Software muss den Sachbearbeiter bei der Ermittlung des Einkommens nach § 21
+BAföG unterstützen.

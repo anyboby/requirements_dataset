@@ -1,0 +1,7 @@
+Mindestens vierteljährlich wird für eine angemessene Zufallsstichprobe von Änderungen in
+der Produktivumgebung (d. h. min. 10% aller in
+diesem Zeitraum abgeschlossenen Änderungen)
+überprüft, ob die internen Anforderungen in
+Bezug auf ordnungsgemäße Klassifizierung, Test
+und Genehmigung von Änderungen eingehalten
+wurden.

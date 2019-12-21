@@ -1,0 +1,13 @@
+Allgemeine Anforderungen
+ Störungen und Unterbrechungen in den Regelkreisen dürfen nicht zu unzulässigen
+oder gefährlichen Betriebszuständen führen. Eine sichere Drehzahlüberwachung
+muss vorgesehen werden, wo Drehzahlabweichungen auftreten können und die Unter- bzw. Überschreiten der jeweiligen zulässigen Drehzahl möglicherweise Schäden
+hervorrufen kann.
+ Bei Positioniersteuerungen und Positionseinrichtungen müssen dauerhafte, gut sichtbare Markierungen (z.B. Nullpunkt, etc.) angebracht werden. Ausführungen ist mit
+dem AG abzusprechen.
+ Der gleichzeitige Betrieb zweier Motoren im Parallelbetrieb an einem Frequenzumrichter ist untersagt.
+ Motor-Schaltung ab 7,5 KW Stern-Dreieck-Schaltung. Maschinen mit Schweranlauf
+(z.B. Absaugungen mit großem Lüfter, Kompressoren) sind mit Frequenzumrichter
+oder nach Freigabe optional mit Sanftanlaufeinrichtung zu versehen (Angabe Mehrpreis für Frequenzumrichter)
+ Bei einer Anlage, welche aus mehreren Komponenten besteht, ist der Schaltschrank
+so zu planen, dass alle Komponenten an diesem zentralen Punkt angeschlossen werden können, dort muss auch der Anschluss für die Gesamtzuleitung sein.

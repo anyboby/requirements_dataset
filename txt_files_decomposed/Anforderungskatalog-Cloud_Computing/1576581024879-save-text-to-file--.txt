@@ -1,0 +1,3 @@
+Es sind Abläufe definiert, um erforderliche Änderungen in Folge von Fehlern oder Sicherheitsbedenken zurückrollen zu können und betroffene
+Systeme oder Dienste im vorherigen Zustand
+wiederherzustellen.

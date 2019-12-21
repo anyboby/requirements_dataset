@@ -1,0 +1,3 @@
+Die Ambulanzkennung im AmBADO-Formular soll
+mit der Ambulanzkennung in der Leistungsabrechnung übereinstimmen und automatisch
+vorbelegt werden.

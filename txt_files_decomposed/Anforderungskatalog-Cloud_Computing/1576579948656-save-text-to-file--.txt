@@ -1,0 +1,4 @@
+Ergänzende Informationen zur Basisanforderung
+Diese Anforderung ergänzt Anforderung UP-02,
+in der die Lokationen dokumentiert werden
+sollen.

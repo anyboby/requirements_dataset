@@ -1,0 +1,6 @@
+Beurteilung und Behandlung von Risiken
+Basisanforderung
+Die Verfahren zur Identifikation, Analyse, Beurteilung und Behandlung von Risiken, einschließlich
+der für den Cloud-Dienst relevanten IT-Risiken,
+werden mindestens jährlich durchlaufen, um
+interne und externe Veränderungen und Einflussfaktoren zu berücksichtigen.

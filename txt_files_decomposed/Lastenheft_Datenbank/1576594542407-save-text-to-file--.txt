@@ -1,0 +1,5 @@
+Die Funktionen müssen mit fiktiven Datensätzen testbar sein. Die Freigabe der
+neu umgesetzten Funktionen wird per Mail bestätigt. Ohne diese Bestätigung darf
+die Funktion nicht in das Livesystem übernommen werden. Die Einarbeitung einer
+neuen Funktion ins Livesystem erfolgt nach einem angemessenen Zeitrahmen.
+Dieser wird mit dem Auftraggeber vorab abgesprochen.

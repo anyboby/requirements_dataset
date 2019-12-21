@@ -1,0 +1,9 @@
+und verarbeiteten Daten der Cloud-Kunden
+in gemeinsam genutzten Ressourcen
+Basisanforderung
+Daten sind auf gemeinsam genutzten virtuellen
+und physischen Ressourcen (Speichernetz,
+Arbeitsspeicher) gemäß eines dokumentierten
+Konzepts sicher und strikt separiert, um die
+Vertraulichkeit und Integrität der gespeicherten
+und verarbeiteten Daten zu gewährleisten.

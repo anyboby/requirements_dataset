@@ -1,0 +1,2 @@
+Es sind die IEC 60204 ( Elektrische Ausrüstung von Maschinen ) sowie die IEC 60038
+( Normspannungen ) einzuhalten.

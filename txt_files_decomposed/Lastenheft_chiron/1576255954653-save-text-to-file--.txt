@@ -1,0 +1,8 @@
+Folgende Forderungen muss der Betreiber der Anlage berücksichtigen und erfüllen:
+n Genaue Einhaltung aller Vorschriften aus den Betriebs- und
+Bedienungsanweisungen.
+n Zulässiger Maschineneinsatz und vorbeugende Wartung.
+n Einsatz von qualifiziertem Personal für Bedienung, Wartung
+und Programmierung.
+n Ausfallursache und -zeit durch beweiskräftige Unterlagen (z.B.
+BDE, Drucker, Logbuch, Trace) aufzeigen.

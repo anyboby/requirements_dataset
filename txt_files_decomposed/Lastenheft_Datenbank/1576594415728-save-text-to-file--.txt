@@ -1,0 +1,13 @@
+Wird nach mindestens einem Jahr der Haushalt zum Monitoring ein drittes Mal besucht,
+kann es vorkommen, dass die Voraussetzungen zur Teilnahme am KG TP in der
+Zwischenzeit erfüllt wurden. Wurde das Monitoring schon abgeschlossen und der
+Haushalt möchte nach dem Termin am Kühlgerätetauschprogramm teilnehmen, muss der
+Lokalkoordinator dem Haushalt die „Freigabe Monitoring“ wieder entziehen. Der Admin
+muss das Kühlgerät im Register 11 löschen. Danach wird der Check in den Status
+„Nachkontrolle“ versetzt. In diesem Status kann der Stromsparhelfer das Gerät mit der
+aktuellen Jahreszahl nochmal erfassen. Der Check wird dann auf „Prüfen“ gesetzt damit
+der Trainer/Lokalkoordinator den Kühlgerätegutschein erstellen kann. Der Check wird
+dann im Status „Abgeschl. Freigabe KG-Tausch“ abgeschlossen. Nun kann der
+Lokalkoordinator die Daten des neuen Kühlgerätes eintragen. Anschließend gibt der Lokal
+Koordinator das Monitoring wieder frei. Nun muss der Trainer den Check wieder in den
+Status „Monitoring Abgeschlossen“ versetzen.

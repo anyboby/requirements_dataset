@@ -1,0 +1,1 @@
+Die BAföG-Software muss während der Dateneingabe in der Software eine RückgängigFunktion unterstützen, die es dem Sachbearbeiter ermöglicht, versehentliche Fehleingaben zu korrigieren und den ursprünglichen Wert wiederherzustellen.

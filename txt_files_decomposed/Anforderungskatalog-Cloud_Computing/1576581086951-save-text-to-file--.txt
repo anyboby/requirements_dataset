@@ -1,0 +1,4 @@
+Die Vorgaben
+dienen der Mitigierung von Risiken, die durch
+den potenziellen Zugriff auf Informationen der
+Cloud-Kunden entstehen können.

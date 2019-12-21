@@ -1,0 +1,7 @@
+Ergänzende Informationen zur Basisanforderung
+Soweit es ein Verfahren zur Verwendung eines
+Generalschlüssels durch den Cloud-Provider gibt,
+ist die Angemessenheit des Verfahrens zu prüfen
+und deren Einhaltung für eine Stichprobe von
+Einsätzen zu überprüfen.
+

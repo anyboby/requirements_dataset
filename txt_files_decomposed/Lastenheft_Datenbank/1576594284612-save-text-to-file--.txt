@@ -1,0 +1,4 @@
+In Zukunft soll die Soforthilfeninventur in der DB erfasst werden. Jeder Standort muss
+zweimal im Jahr eine Inventur seiner Soforthilfen durchführen. Aktuell wird dies mit Excel
+Listen umgesetzt. Mit der Umsetzung der neuen DB soll die Inventur automatisch
+generiert werden.

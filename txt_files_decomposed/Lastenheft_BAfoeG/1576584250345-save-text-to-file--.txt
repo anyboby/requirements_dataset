@@ -1,0 +1,1 @@
+Grundsätzlich ist die Software mindestens auf Serverseite als 64-Bit Version zur Verfügung zu stellen.

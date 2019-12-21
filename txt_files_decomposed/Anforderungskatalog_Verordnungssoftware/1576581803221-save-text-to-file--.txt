@@ -1,0 +1,5 @@
+Die Anzeige der Hinweise erfolgt in einer für den Arzt deutlich wahrnehmbaren,
+wiedererkennbaren und einheitlichen Form, stets an der identischen Stelle der
+Benutzeroberfläche, ohne zusätzliche Anwenderinteraktion und darf den Workflow des
+Arztes nicht unterbrechen. Liegen mehrere Hinweise vor, so sind diese in der hier
+beschriebenen Reihenfolge anzuzeigen.

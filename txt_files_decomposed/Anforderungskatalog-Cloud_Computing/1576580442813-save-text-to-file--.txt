@@ -1,0 +1,17 @@
+Vergabe und Änderung von Zugriffsberechtigungen für Benutzer unter Verantwortung des
+Cloud-Anbieters erfolgen gemäß der Richtlinie
+zur Verwaltung von Zugangs- und Zugriffsberechtigungen. Organisatorische und/oder technische
+Maßnahmen stellen sicher, dass die vergebenen
+Zugriffe die folgenden Anforderungen erfüllen:
+» Zugriffsberechtigungen entsprechen
+dem Prinzip der geringsten Berechtigung
+(„Least-Privilege-Prinzip“),
+» Zugriffsberechtigungen werden nur so vergeben, wie es für die Aufgabenwahrnehmung
+notwendig ist („Need-to-know-Prinzip“),
+» die formale Genehmigung erfolgt durch eine
+autorisierte Person, bevor die Zugriffsberechtigungen eingerichtet werden (d. h. bevor der
+Benutzer auf Daten der Cloud-Kunden oder
+Komponenten der geteilten IT-Infrastruktur
+zugreifen kann),
+» die technisch zugewiesenen Zugriffsberechtigungen die formale Genehmigung nicht
+übersteigen.

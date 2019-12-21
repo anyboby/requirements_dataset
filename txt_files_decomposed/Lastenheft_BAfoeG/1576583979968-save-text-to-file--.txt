@@ -1,0 +1,2 @@
+Die Software muss anhand der eingegebenen Daten gemäß der jeweils gültigen Rechtslage des BAföG den Bedarf, das anzurechnende Einkommen und Vermögen und den
+daraus resultierenden Förderungsanspruch berechnen.

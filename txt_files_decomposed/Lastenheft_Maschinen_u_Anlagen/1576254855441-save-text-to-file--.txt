@@ -1,0 +1,3 @@
+ Falls für die Reinigung eine besondere Einstellung der Anlage sinnvoll ist (z. B. Schließen der
+Vakuumleitungen oder langsamer Kettenvorschub), so muss dieser Betriebszustand gesondert
+definiert und getrennt anwählbar sein.

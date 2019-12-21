@@ -1,0 +1,5 @@
+Die Zuteilung geheimer Authentifizierungsinformationen (z. B. Passwörter, Zertifikate, Sicherheitstoken) an interne und externe Benutzer des
+Cloud-Anbieters oder des Cloud-Kunden erfolgt,
+soweit dies organisatorischen oder technischen
+Verfahren des Cloud-Anbieters unterliegt, in
+einem geordneten Verfahren, das die Vertraulichkeit der Informationen sicherstellt.

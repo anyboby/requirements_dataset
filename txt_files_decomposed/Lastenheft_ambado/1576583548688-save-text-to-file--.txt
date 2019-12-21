@@ -1,0 +1,5 @@
+Dieser Abschnitt enthält eine Auflistung funktionaler und nicht funktionaler Anforderungen an
+die AmBADO-Software. In der letzten Spalte „Art“ ist gekennzeichnet, ob es sich um eine
+Basisanforderung (einrichtungsunabhängig zu erfüllen) oder um eine einrichtungsspezifische
+Anforderung handelt. Die Kennzeichnung von Anforderungen als „einrichtungsspezifisch“
+bietet die Möglichkeit, die Liste um eigene Anforderungen zu erweitern.

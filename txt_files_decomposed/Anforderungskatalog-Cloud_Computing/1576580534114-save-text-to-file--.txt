@@ -1,0 +1,13 @@
+Passwort-Richtlinie organisatorisch gefordert.
+Die Vorgaben müssen mindestens die folgenden
+Anforderungen erfüllen:
+
+Ergänzende Informationen zur Basisanforderung
+
+» Minimale Passwortlänge von 8 Zeichen,
+
+Die Genehmigung kann auch nachträglich
+erfolgen, soweit dies begründet wird.
+
+» Mindestens zwei der folgenden Zeichentypen
+müssen enthalten sein: Großbuchstaben, Kleinbuchstaben, Sonderzeichen und Zahlen,

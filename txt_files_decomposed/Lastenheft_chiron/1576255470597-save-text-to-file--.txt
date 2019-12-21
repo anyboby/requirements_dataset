@@ -1,0 +1,2 @@
+Anschlussleitungen von Analogschaltern, Motoren- und Gebersystemen müssen geschirmt sein.
+Leitungen und Einzeladern sind an beiden Enden mit Zielbezeichnung dauerhaft zu kennzeichnen.

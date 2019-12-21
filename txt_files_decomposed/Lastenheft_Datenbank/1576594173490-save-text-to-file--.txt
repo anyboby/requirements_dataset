@@ -1,0 +1,4 @@
+Die Verbrauchsdaten des Haushaltes sollen nochmal als Diagramm dargestellt werden.
+Das Diagramm soll die größten Stromverbraucher des Haushaltes aufzeigen mit
+Stromverbrauch des Gerätes (kWh/Jahr). Am Diagramm soll erkennbar sein, welches
+Gerät den höchsten Verbrauch hat. Abbildung 7 zeigt ein Beispiel für die Darstellung.

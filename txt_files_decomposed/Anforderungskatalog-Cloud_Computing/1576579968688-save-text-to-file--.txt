@@ -1,0 +1,9 @@
+Die logischen und physischen IT-Systeme,
+die der Cloud-Anbieter zur Entwicklung- und
+Erbringung des Cloud-Dienstes verwendet sowie
+die Perimeter des Netzwerks, die dem Verantwortungsbereich des Cloud-Anbieters unterliegen,
+sind mit Viren-Schutz- und Reparaturprogrammen versehen, die eine signatur- und verhaltensbasierte Erkennung und Entfernung von
+Schadprogrammen ermöglichen. Die Programme
+werden gemäß den vertraglichen Vereinbarungen
+mit dem/n Hersteller/n, mindestens aber täglich
+aktualisiert.

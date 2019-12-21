@@ -1,0 +1,2 @@
+Die Wartungszyklen der externen Anlagenkomponenten sind den
+Wartungszyklen des CHIRON Bearbeitungszentrums anzupassen.

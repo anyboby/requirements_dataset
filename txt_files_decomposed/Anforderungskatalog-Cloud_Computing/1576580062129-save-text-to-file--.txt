@@ -1,0 +1,4 @@
+Soweit die Datensicherung über ein
+Netzwerk zum Remote-Standort übertragen wird,
+erfolgt dies in einer verschlüsselten Form, die dem
+Stand der Technik entspricht.

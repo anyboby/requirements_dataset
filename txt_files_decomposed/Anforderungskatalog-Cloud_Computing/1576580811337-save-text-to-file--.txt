@@ -1,0 +1,27 @@
+Ergänzende Informationen zur Basisanforderung
+Soweit Angemessenheit und Wirksamkeit der
+logischen Segmentierung nicht mit hinreichender
+Sicherheit beurteilt werden können (z. B. aufgrund einer komplexen Implementierung), kann
+der Nachweis auch über Prüfungsergebnisse
+sachverständiger Dritter erfolgen (z. B. Penetrationstests zur Validierung des Konzepts). Die Segregation gespeicherter und verarbeiteten Daten
+ist Gegenstand der Kontrolle RB-23. Zur sicheren
+Segmentierung gemeinsam genutzter Ressourcen
+bei Webanwendungen, die als SaaS bereitgestellt
+werden, sollte die Session-ID in der Grundstufe
+» zufallsgeneriert sein und eine ausreichende
+Entropie von mindestens 128 Bit (16 Zeichen)
+haben, um dem Erraten der Session-ID (zum
+Beispiel durch einen Brute-Force-Angriff)
+standzuhalten,
+» bei der Übertragung und clientseitigen Speicherung ausreichend geschützt sein,
+» eine begrenzte Gültigkeit (Timeout) haben, die
+gemessen an den Anforderungen zur Nutzung
+der Webanwendung möglichst kurz ist,
+» nach erfolgreicher Authentisierung oder
+Wechsel von einem ungesicherten Kommunikationskanal (HTTP) auf einen gesicherten
+Kommunikationskanal (HTTPS) gewechselt
+werden.
+Bei IaaS/PaaS kann sich in der Grundstufe an den
+Anforderungen für einen höheren Schutzbedarf
+orientiert werden.
+

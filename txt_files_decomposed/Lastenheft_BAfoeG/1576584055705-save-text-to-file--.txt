@@ -1,0 +1,5 @@
+Die Software soll automatisch alle im Rahmen der Vorgangsbearbeitung entstandenen
+Dokumente (insbesondere Eingabe- und Änderungsprotokolle, Bescheide, Korrespondenz) in der elektronischen Akte des Förderempfängers speichern. Diese muss eindeutig
+über die Amts- und Förderungsnummer identifizierbar sein. Die in der elektronischen
+Akte abgelegten Dokumente sollen nach verschiedenen Kriterien, mindestens aber nach
+Speicherdatum und Dokumentenart, darstellbar sein.

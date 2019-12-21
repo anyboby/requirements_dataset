@@ -1,0 +1,3 @@
+Bauelemente, die von fremden Spannungsquellen versorgt werden und nach dem
+Ausschalten der Anlage unter Spannung stehen, sind mit orangem Leitungsmaterial und
+orangefarbigen Klemmenkästen zu versehen.

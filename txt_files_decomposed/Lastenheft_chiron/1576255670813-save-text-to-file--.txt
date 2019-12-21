@@ -1,0 +1,2 @@
+n Teilegreifer mit Sensoren für die Anwesenheitskontrolle der
+Werkstücke ausführen.

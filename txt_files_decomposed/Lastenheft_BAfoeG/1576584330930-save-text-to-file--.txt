@@ -1,0 +1,3 @@
+Mit Hilfe eines Berechtigungsmodells muss gewährleistet werden, dass die Benutzer nur
+Zugriff auf diejenigen Funktionen und Daten innerhalb der BAföG-Software erhalten, die
+sie für die Erledigung ihrer Aufgaben benötigen.

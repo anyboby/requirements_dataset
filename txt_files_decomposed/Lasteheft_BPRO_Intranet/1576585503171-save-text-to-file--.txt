@@ -1,0 +1,3 @@
+Die Anlagen sind für einen möglichst niedrigen Energieverbrauch zu konzipieren.
+Die Angabe der Energieeffizienzklassen der verwendeten Komponenten und deren
+Energieverbräuche sowie der gesamte Energieverbrauch der Anlage unter verschiedenen Betriebsbedingungen ist im Angebot (während der Planungs- und Auslegungsphase, vor der Umsetzung) anzugeben.

@@ -1,0 +1,4 @@
+Physische und virtualisierte Netzwerkumgebungen sind so konzipiert und konfiguriert, dass die
+Verbindungen zwischen vertrauenswürdigen und
+nicht vertrauenswürdigen Netzen zu beschränken
+und überwachen sind. 

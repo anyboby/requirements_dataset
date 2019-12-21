@@ -1,0 +1,9 @@
+Sobald ein Nutzer angelegt oder bearbeitet wird, soll dies in der DB protokolliert
+werden. Es soll nachvollziehbar sein, wann sich der Nutzer angemeldet hat. War
+ein Nutzer länger als 6 Wochen nicht mehr aktiv, soll dieser automatisch inaktiv
+geschaltet werden. Die übergeordnete Nutzergruppe (Nutzerhierarchie) soll eine
+Meldung bekommen, in der steht, welcher Nutzer für eine längere Zeit inaktiv war.
+Die Meldung über einen inaktiven Nutzer soll nach vier Wochen erfolgen. Es sollte
+ohne Probleme möglich sein, den Nutzer wieder zu aktivieren. Die Reaktivierung
+eines Nutzers soll für die übergeordnete Nutzergruppe und für den Admin möglich
+sein.

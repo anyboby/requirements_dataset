@@ -1,0 +1,4 @@
+Die Datenübertragung zwischen dem Webserver und dem Produktivsystem muss grundsätzlich nach dem aktuellen Stand der Technik verschlüsselt werden
+Die Datenhaltung der Daten aus dem Onlineantrag/aus der
+Webapplikation muss zunächst physisch und logisch getrennt von
+der Datenhaltung der operativen Produktivumgebung realisiert sein.

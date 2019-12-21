@@ -1,0 +1,3 @@
+Auch ohne lokale Administrationsberechtigung des angemeldeten Windowsbenutzers
+muss die BAföG-Software auf dem Arbeitsplatzrechner vollständig funktionsfähig sein.
+Der Softwareanbieter muss die vorgesehene Anbindung der dezentralen Studentenwerke sowie der kommunalen Ämter für Ausbildungsförderung im Pflichtenheft beschreiben.

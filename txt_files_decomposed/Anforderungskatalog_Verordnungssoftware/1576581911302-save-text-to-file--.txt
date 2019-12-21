@@ -1,0 +1,5 @@
+Der Aufruf von Preisvergleichssuchen nach P3-325 und Substitutionsvorschläge nach P3400 muss in vergleichbarer und für den Arzt leicht auffindbarer Weise erfolgen. Die Anzeige
+der verschiedenen Ergebnislisten erfolgt in einheitlicher Form und an gleicher Stelle in der
+Programmoberfläche. Die Art der Vergleichssuche/des Substitutionsvorschlages ist für den
+Arzt erkennbar anzugeben. Ggf. gesetzte Filter und Sortierungen sind für den Arzt erkennbar
+anzuzeigen.

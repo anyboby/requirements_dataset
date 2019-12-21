@@ -1,0 +1,2 @@
+Das Release Management überführt in den Change-Management-Prozessen genehmigte Änderungen in die Produktivumgebung.
+Die beim Betreiber eingesetzten Prozesse sind dem Auftraggeber im Pflichtenheft darzulegen.

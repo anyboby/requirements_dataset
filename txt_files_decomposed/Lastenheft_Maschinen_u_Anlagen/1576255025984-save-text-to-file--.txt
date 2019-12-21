@@ -1,0 +1,3 @@
+Der Steuerkreis großer Antriebe ist getrennt durch Kleinselbstschalter mit Hilfskontakt abzusichern.
+Regler und Stellmotoren in Regelanlagen sind einzeln und von den Messstromkreisen getrennt
+abzusichern.

@@ -1,0 +1,3 @@
+Beachten Sie bitte die gesetzlichen Vorgaben der Mindestwirkungsgrade:
+ab 01.01.2017 müssen Motoren (0,75 kW - 375 kW) mindestens IE3, oder IE2 mit
+Frequenzumrichter entsprechen.

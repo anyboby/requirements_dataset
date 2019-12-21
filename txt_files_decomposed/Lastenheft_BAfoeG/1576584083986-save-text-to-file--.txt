@@ -1,0 +1,3 @@
+Sollte sich im Rahmen eines Änderungsprozesses ergeben, dass die den Prozess auslösende neue Information Auswirkungen auf die Grundsatzentscheidung eines bereits bewilligten Bescheides hat, muss die Software die rückwirkende Entziehung dieser ursprünglich erteilten Bewilligung unterstützen. Die entsprechende Entscheidung muss im
+System dokumentiert werden. Eine sich gegebenenfalls ergebende Rückforderung soll
+automatisiert ans Forderungsmanagementsystem übergeben werden.

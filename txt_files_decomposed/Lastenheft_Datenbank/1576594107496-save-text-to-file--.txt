@@ -1,0 +1,7 @@
+Des Weiteren sollen verschiedene Filterfunktionen für den Caritas zur Verfügung stehen:
+1. Nach Standort: einzeln, Kombination, alle, Bundesland, Region
+2. Nach Beschäftigungs-/Maßnahme-Typ: einzeln, Kombinationen, alle
+Dabei soll angezeigt werden „Anzahl der Stromsparhelfer geplant/bewilligt“ und „Anzahl
+Stromsparhelfer“ aktuell tätig. Zudem soll eine Filterfunktion zur Vermittlung der
+Stromsparhelfer in den Arbeitsmarkt eingerichtet werden. Hier soll es möglich sein nach
+Standort: einzeln, Kombinationen, alle, Bundesland und Region zu filtern.

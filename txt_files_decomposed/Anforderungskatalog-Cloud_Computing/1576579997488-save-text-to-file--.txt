@@ -1,0 +1,2 @@
+Diese sehen zuverlässige Verfahren für die regelmäßige Sicherung (Backup sowie ggf. Snapshots)
+und Wiederherstellung von Daten (Restore) vor.

@@ -1,0 +1,4 @@
+Während in der Leitlinie kurz und prägnant die
+allgemeinen Sicherheitsziele und eine Strategie
+zur Erreichung dieser Ziele formuliert sein
+müssen, sind typischerweise keine organisatorischen und technischen Details enthalten

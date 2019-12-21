@@ -1,0 +1,1 @@
+Das Anlegen von Unterseiten (z.B. 126a, 126.1) ist nicht zulässig. Zwischen den einzelnen Abschnitten der Stromlaufpläne sind für weitere Erweiterungen sinnvolle Lücken vorzusehen.

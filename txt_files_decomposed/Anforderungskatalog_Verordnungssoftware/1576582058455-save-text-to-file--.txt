@@ -1,0 +1,6 @@
+Ein einfacher Export von in der ärztlichen Dokumentation gespeicherten Verordnungsdaten
+in Tabellenkalkulationsprogramme ist zu ermöglichen, sofern die Verordnungssoftware keine
+statistischen Dienstmöglichkeiten nach K4-200 anbietet, die eine patientenbezogene und
+patientenübergreifende Zusammenstellung und Auswertung der Verordnungen nach Kosten
+und Anzahl der Verordnungen sowie nach ATC-Code in Bezug auf definierte Zeiträume
+(Jahr, Quartal) ermöglicht.

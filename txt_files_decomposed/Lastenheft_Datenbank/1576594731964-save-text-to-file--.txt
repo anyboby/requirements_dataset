@@ -1,0 +1,7 @@
+Die Datenbank soll automatisch
+prüfen, ob das Neugerät ein A+++
+Gerät ist und mindestens eine
+Einsparung von 200kWh/a hat. Sind
+die Kriterien nicht erfüllt erhält der
+Nutzer eine Meldung, die er
+bestätigen muss.

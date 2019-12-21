@@ -1,0 +1,2 @@
+Für eine bereits bestehende elektronische Akte muss eine Vergleichsberechnung möglich sein, in der die Änderungen an berechnungsrelevanten Eingabedaten den gespeicherten Parametern gegenüber gestellt und die daraus resultierenden Auswirkungen im
+Berechnungsergebnis dargestellt und ausgedruckt werden können.

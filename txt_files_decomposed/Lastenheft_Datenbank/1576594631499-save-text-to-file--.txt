@@ -1,0 +1,7 @@
+In der Checkübersicht sollen alle
+wichtigen Daten aufgelistet sein.
+Der
+Nutzer
+soll
+dabei
+Anpassungsmöglichkeiten haben.

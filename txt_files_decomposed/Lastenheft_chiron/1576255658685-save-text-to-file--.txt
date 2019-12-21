@@ -1,0 +1,2 @@
+n Bei Wegfall von elektrischer, pneumatischer oder hydraulischer
+Energie sowie im NOT-Halt Fall müssen die Greifer das Werkstück noch sicher halten können.

@@ -1,0 +1,3 @@
+Für die abgehenden stromführenden Mp-Anschlüsse sind Null-Leiter-Trennklemmen, für die
+Schutzleiter sind Schutzleiterklemmen bei 16 mm² Querschnitt zu verwenden. Anschlüsse ab 25 mm ²
+Querschnitt sind mit feststehenden Reiterklemmen an der Schutzleiterschiene herzustellen.

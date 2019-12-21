@@ -1,0 +1,2 @@
+Das Feld „Datum Behandlungsbeginn“ muss vom
+Benutzer veränderbar/überschreibbar sein.

@@ -1,0 +1,3 @@
+Die Tests finden halbjährlich statt. Diese müssen
+zwingend durch unabhängige Externe durchgeführt werden. Internes Personal für Penetrationstests darf die externen Dienstleister dabei
+unterstützen.

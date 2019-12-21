@@ -1,0 +1,4 @@
+Der Softwareanbieter muss sicherstellen, dass die Bestandsdaten aus dem Altverfahren
+(„Altdaten“) vollständig und korrekt in das neue System übernommen werden. Dafür hat
+der Softwareanbieter in einem Altdatenmigrationskonzept die technischen Verfahren der
+Datenübernahme sowie die Prüfverfahren darzustellen.

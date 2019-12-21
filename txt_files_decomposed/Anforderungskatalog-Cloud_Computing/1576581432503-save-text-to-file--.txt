@@ -1,0 +1,5 @@
+Zielsetzung: gewährleistung der sicherheit
+beim einsatz mobiler endgeräte im
+Verantwortungsbereich des Cloud-Anbieters
+für den Zugriff auf It-systeme zur entwicklung
+und zum Betrieb des Cloud-Dienstes.

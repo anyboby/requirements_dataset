@@ -1,0 +1,2 @@
+Das Forderungsmanagementsystem muss die Möglichkeit bieten, verschiedene vordefinierte oder frei zusammenstellbare Listen (sowohl zur Bildschirmausgabe als auch für
+Ausdrucke) bereitzustellen.

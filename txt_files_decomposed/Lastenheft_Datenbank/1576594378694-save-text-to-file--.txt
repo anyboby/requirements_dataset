@@ -1,0 +1,4 @@
+Liegen die Daten vor, wird die Abrechnung rechnerisch richtig gekennzeichnet und wird
+zur energiefachlichen Prüfung weitergegeben. Diese Schritte müssen alle manuell
+durchgeführt werden. Ist eine Abrechnung nicht korrekt, wird der Standort kontaktiert. Der
+Standort kann fehlende oder falsche Einträge/Dokumente nachreichen.

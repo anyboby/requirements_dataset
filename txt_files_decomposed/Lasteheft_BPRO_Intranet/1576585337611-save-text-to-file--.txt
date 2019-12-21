@@ -1,0 +1,4 @@
+Speichererhaltung und –schutz:
+ Standardmäßig sind nichtflüchtige und wiederbeschreibbare Speichermedien zu verwenden. Bei Netzschwankungen und Netzausfällen sind Unterspannungsversorgungen einzusetzen, um zu gewährleisten, dass die Daten nicht verloren gehen. Dies bedeutet, dass sich der Rechner (PC) automatisch herunterfährt. Die Ausführung ist mit
+BPRO abzustimmen. Ein Supportvertrag muss hier mit dem Hersteller der Maschine
+abgeschlossen werden.

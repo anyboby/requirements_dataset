@@ -1,0 +1,5 @@
+Schnittstellen für eine automatisierte Echtzeit-Überwachung der Dienstleistung (mindestens Kapazität, Verfügbarkeit sowie Behebung von
+Störungen) sind eingerichtet, um die Einhaltung
+der vereinbarten Dienstgütevereinbarungen zu
+überwachen und zeitnah auf Abweichungen
+reagieren zu können.

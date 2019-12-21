@@ -1,0 +1,3 @@
+Durch technische Maßnahmen ist sichergestellt,
+dass sich das Inventar der Assets in regelmäßigen
+Abständen automatisch aktualisiert.

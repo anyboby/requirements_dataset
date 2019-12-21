@@ -1,0 +1,2 @@
+Dabei ist eine Taktzeitreserve von 15 bis 20% für eine eventuelle
+spätere Prozessoptimierung zu berücksichtigen. Bei Abweichungen oder unvertretbar hohem Aufwand ist dies im maschinenspezifischen Pflichtenheft niedergeschrieben.

@@ -1,0 +1,3 @@
+Verfahren zum Change Management beinhalten
+rollenbasierte Autorisierungen, um eine angemessene Funktionstrennung bei Entwicklung,
+Freigabe und Migration von Änderungen zwischen den Umgebungen sicherzustellen.

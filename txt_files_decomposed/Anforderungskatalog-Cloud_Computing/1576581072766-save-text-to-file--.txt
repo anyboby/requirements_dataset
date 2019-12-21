@@ -1,0 +1,3 @@
+Produktivdaten werden
+nicht in Test- oder Entwicklungsumgebungen
+repliziert, um deren Vertraulichkeit zu wahren.

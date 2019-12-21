@@ -1,0 +1,5 @@
+Die Suchfunktion darf für den Nutzer nicht nur auf ID, Ort oder Gutscheinnummer
+beschränkt sein. Felder wie Name, Kundennummer oder Siegelnummer sollen
+hinzugefügt werden. Optimal wäre eine Freitextsuche innerhalb der DB. Die Suche sollte
+zentral angeordnet sein. Des Weiteren sollte es mit Shortcuts möglich sein, wieder in die
+Suchfelder zu springen.

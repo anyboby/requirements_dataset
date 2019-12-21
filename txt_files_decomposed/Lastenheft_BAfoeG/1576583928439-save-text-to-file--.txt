@@ -1,0 +1,3 @@
+Die Software muss es dem Sachbearbeiter ermöglichen, Daten, die aus dem Onlineantrag stammen und in einer eigenen Datenbank beziehungsweise in einem eigenen Datenbankbereich (getrennt von der Produktivdatenbank) gespeichert wurden, nach einer
+Sichtprüfung und elektronischen Prüfung in die reguläre Eingabemaske und damit in die
+reguläre Vorgangsbearbeitung automatisiert zu übernehmen. Von einer Datenübernahme ohne Prüfung ist an dieser Stelle abzusehen, um einen zusätzlichen Schutz gegen manipulative Dateneingaben einzurichten.

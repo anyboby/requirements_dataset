@@ -1,0 +1,5 @@
+Soweit Daten mit einem höheren Schutzbedarf
+übertragen werden, ist auch innerhalb der
+Infrastruktur des Cloud-Anbieters eine starke
+Verschlüsselung zu implementieren.
+

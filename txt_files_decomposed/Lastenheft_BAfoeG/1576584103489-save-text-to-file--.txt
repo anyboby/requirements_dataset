@@ -1,0 +1,3 @@
+Außerdem ist die Integration eines E-Mail-Programms notwendig, um Mitteilungen mit
+den Antragstellern per E-Mail austauschen zu können. Der entstandene E-Mail-Verkehr
+muss automatisiert zum Förderungsfall abgespeichert werden können.

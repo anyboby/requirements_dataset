@@ -1,0 +1,4 @@
+ie
+Auswertungen/Filterfunktion sollen direkt in der Datenbank ausgegeben werden, sowie
+als Excel Exporte zur Verfügung stehen. Die Daten der Vermittlungsauswertung sollen in
+einen Kreisdiagramm dargestellt werden.

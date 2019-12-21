@@ -1,0 +1,3 @@
+In dem Fall, dass der Auszahlungsbetrag niedriger als zuvor ist, ergeht ebenfalls ein entsprechender Änderungsbescheid an den Empfänger. Für den Fall, dass bereits Auszahlungen in zu großer Höhe erfolgt sind, muss die BAföG-Software einerseits die überzahlten Beträge mit noch ausstehenden Auszahlungen gemäß der entsprechenden gesetzlichen Grundlagen verrechnen können und andererseits im Falle einer Rückforderung die
+erforderlichen Daten automatisiert an ein integriertes Forderungsmanagementsystem
+übergeben können, in dem auch die tatsächliche Einzahlung durch den Antragsteller verfolgt und verwaltet werden kann.

@@ -1,0 +1,3 @@
+Ausnahmen von Richtlinien und Anweisungen
+zur Informationssicherheit werden durch hierzu
+autorisierten Gremien oder Stellen des Cloud-Anbieters in dokumentierter Form genehmigt.

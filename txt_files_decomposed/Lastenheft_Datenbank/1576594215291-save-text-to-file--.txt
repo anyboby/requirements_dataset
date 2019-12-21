@@ -1,0 +1,2 @@
+Es wird eine Schnittstelle zwischen der DB und dem eShop benötigt. Optimalerweise
+sollte die Synchronisierung automatisch ablaufen.

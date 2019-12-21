@@ -1,0 +1,7 @@
+Auswertungen können nach bestimmten Rollen in der Datenbank nur als PDF oder als
+Excel-Datei ausgegeben werden. Bei Auswertungen, die nur als PDF-Dateien
+ausgegeben werden, ist eine weitere Verarbeitung der Daten nicht möglich. Der Aufbau
+der Auswertungsfunktion ist zu unübersichtlich. Wird ein bestimmter Wert aus der DB
+benötigt muss hierfür eine neue Abfrage programmiert werden. Die jetzige Datenbank
+besitzt zurzeit 11 Auswertungen, die von unterschiedlichen Nutzern ausgeführt werden.
+Die Auswertungen sollen erhalten bleiben und sollen erweitert werden.

@@ -1,0 +1,4 @@
+Bei Maschinen mit internen und/ oder externen Kühlkreisläufen dürfen Teile die mit Kühlwasser in Berührung kommen (z.B. Verteiler, Ventile), nur aus korrosionsbeständigen Material wie Kunststoff, Edelstahl oder Messing verwendet werden, nicht aus Aluminium. In
+einem System dürfen keine verschiedenen Materialien eingesetzt werden, wenn sich diese
+gegenseitig beeinflussen oder schädigen können. Es sind detaillierte Angaben über die
+Wasserqualität und ggf. notwendige Stabilisierungsmaßnahmen zu machen.

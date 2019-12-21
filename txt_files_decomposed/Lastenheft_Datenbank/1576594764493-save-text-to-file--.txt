@@ -1,0 +1,5 @@
+Ist ein Kühlgerät nicht
+abrechnungsfähig,
+wird
+dies
+entsprechend markiert.

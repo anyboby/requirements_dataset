@@ -1,0 +1,9 @@
+Die Versorgung der Rechenzentren (z. B. Wasser,
+Elektrizität, Temperatur- und Feuchtigkeitskontrolle, Telekommunikation und Internetverbindung) ist abgesichert, überwacht und wird
+regelmäßig gewartet und getestet, um eine durchgängige Wirksamkeit zu gewährleisten. Sie ist mit
+automatischen Ausfallsicherungen und anderen
+Redundanzen konzipiert. Die Wartung wird in
+Übereinstimmung mit den von den Lieferanten
+empfohlenen Wartungsintervallen und Vorgaben
+sowie ausschließlich von autorisiertem Personal
+durchgeführt.

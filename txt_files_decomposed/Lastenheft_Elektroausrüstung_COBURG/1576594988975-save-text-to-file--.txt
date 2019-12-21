@@ -1,0 +1,33 @@
+Bei den folgend aufgeführten Zulieferkomponenten sind zusätzlich die spezifizierten
+Angaben zu den abgestimmten Terminen verbindlich zu liefern; die Vorgaben gemäß
+WACO-Lastenheft sind dabei einzuhalten.
+Zu den folgenden Maschinenkomponenten:
+Späneförderer,
+Dunstabsauganlagen,
+Kühlmittelanlagen,
+Zentrifugen,
+Filteranlagen,
+Hydraulikanlagen,
+Schutzumhausungen / Schutztüren (manuell / automatisch),
+Schmieraggregate,
+Werkzeugwechsel-Systeme,
+Werkstück-Spannvorrichtungen,
+Bedienbühnen / Personenlifte
+werden zusätzlich die folgenden Informationen benötigt :
+Spannung (mit Toleranzangabe),
+Frequenz (mit Toleranzangabe),
+Leistungsbedarf / Stromaufnahme / Leistungsfaktor,
+Stern- / Dreieckanlauf möglich / notwendig,
+Anschlußquerschnitte und Vorsicherung,
+Signalleitungen / Leistungsleitungen / Kabeltypen gemäß WACO-Lastenheft,
+Steckverbindungen / Klemmenkästen gemäß WACO-Lastenheft,
+Steckerbelegung,
+Anbauorte / Übergabestellen,
+Leitungsverlegung (Einschränkungen bezüglich Längen und Leitungsführung),
+erforderliche EMV-Maßnahmen,
+Motordaten mit Seriennummern der Hersteller,
+Hinweise auf einzuhaltende Ausführungsvorschriften,
+bei Einzelansteuerung von Pumpen: Angaben für Motorschutzschalter und
+Schützgröße,
+bei Verdrahtung / Installation durch WACO: technische Daten aller elektrischen
+Komponenten.

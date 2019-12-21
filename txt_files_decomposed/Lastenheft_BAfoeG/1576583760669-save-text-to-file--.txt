@@ -1,0 +1,2 @@
+Insbesondere die Übernahme der Stamm- und Vorgangsdaten (inklusive unterstützender
+Nebenrechnungen), die Verarbeitung der Daten und Berechnung des Förderungsanspruches sowie die Bescheiderstellung muss grundsätzlich durch eine BAföG-Software unterstützt werden.

@@ -1,0 +1,2 @@
+Die Reversierung der Bewegung beim Öffnen und Schließen bei einem Widerstand muss
+gewährleistet sein.

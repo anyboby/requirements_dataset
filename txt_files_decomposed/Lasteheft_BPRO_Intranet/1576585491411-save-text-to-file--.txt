@@ -1,0 +1,11 @@
+Energieversorgungsanlagen und –einrichtungen sind für den Anschluss an die GLT auszurüsten.
+Soweit der AG nicht schriftlich verzichtet, ist folgendes einzubauen:
+ Ethernet – Schnittstelle (Protokoll: TCP7IP)
+ Wahlschalter 2-polig, Hand / Aus / Automatik / GLT mit den Schalterstellungen H, 0, A,
+GLT
+ Potentialfreier Umschaltkontakt für Sammelstörung
+ Messeinrichtungen für einzelnen Energiearten und der entsprechenden Verdrahtung
+bis zum Schaltschrank
+ Betriebsstundenzähler
+ Für Temperatur- / Luftfeuchte- / Leckagefühler sind potentialfreie Umschaltkontakte
+vorzusehen.

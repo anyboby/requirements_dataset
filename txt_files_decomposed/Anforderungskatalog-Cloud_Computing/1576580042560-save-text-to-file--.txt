@@ -1,0 +1,4 @@
+
+Die Datensicherung erfolgt in verschlüsselter
+Form, die dem aktuellen Stand der Technik
+entspricht.

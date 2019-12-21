@@ -1,0 +1,3 @@
+Schaltgeräte dürfen nur mit max. 70 % ihrer Nennleistung belastet werden. Leistungsschütze sind in
+der Bemessung größer als die zugeordneten Hilfsschützen einzubauen. Leistungsschütze sind neben
+den Hauptkontakten mit mind. 2 Öffnern und 2 Schließern als Hilfskontakte auszurüsten.

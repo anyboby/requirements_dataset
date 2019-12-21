@@ -1,0 +1,3 @@
+Die Protokollierung
+ist hinreichend detailliert, um es einem sachverständigen Dritten zu ermöglichen die Aktivitäten
+nachzuvollziehen.

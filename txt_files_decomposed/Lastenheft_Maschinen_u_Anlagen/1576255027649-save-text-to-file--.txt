@@ -1,0 +1,2 @@
+Bei Schalterfall an einem Messkreis, der als Eingabe für einen Regelkreis herangezogen wird, müssen
+die Ausgangsimpulse des Reglers wirkungslos gemacht werden.

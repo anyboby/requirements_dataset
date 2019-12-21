@@ -1,0 +1,9 @@
+Das Programm berücksichtigt verschiedene Profile und umfasst weiterführende Informationen
+für Positionen und Mitarbeiter die umfangreiche
+Berechtigungen oder Zugriff auf sensible Daten
+haben. Externen Mitarbeiter von Dienstleistern
+und Lieferanten des Cloud-Anbieters, die zur
+Entwicklung oder Betrieb des Cloud-Dienstes
+beitragen, werden in den spezifischen Sicherheitsanforderungen des Cloud-Anbieters sowie
+allgemein zum Thema Informationssicherheit
+unterwiesen.

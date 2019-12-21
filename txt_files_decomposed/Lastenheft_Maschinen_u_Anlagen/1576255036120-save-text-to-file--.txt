@@ -1,0 +1,2 @@
+Steuerstromkreise bzw. Steuertrafos sind sekundärzeitig einseitig zu erden, die Erdung muss direkt
+mit der Kontaktabgewandten Seite der Spulen verbunden sein.

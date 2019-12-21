@@ -1,0 +1,1 @@
+Vom BZSt werden die dort gemeldeten Freistellungsaufträge und Zinseinkünfte zurückgemeldet. Diese zurückgemeldeten Daten müssen in der Software verarbeitet und in geeigneter Form dargestellt werden können.

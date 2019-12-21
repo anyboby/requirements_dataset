@@ -1,0 +1,3 @@
+Beim Einsatz von Antriebsmotoren sind der Dokumentation die vollständigen Datenblätter
+beizulegen. Hierzu gehören ebenfalls Rechenwerte für die Antriebsauslegung mit der
+Angabe der mechanisch maximal zulässigen Drehmomente.

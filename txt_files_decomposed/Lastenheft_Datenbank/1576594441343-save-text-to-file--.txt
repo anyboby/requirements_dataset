@@ -1,0 +1,1 @@
+Des Weiteren soll eine Schnittstelle zwischen SSC-DB und eShop hergestellt werden.

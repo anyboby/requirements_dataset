@@ -1,0 +1,4 @@
+Klemmen und Steckverbinder sind dauerhaft zu kennzeichnen. Die
+Übereinstimmung mit dem Stromlaufplan ist sicherzustellen.
+Nicht verwendete Adern bei mehradrigen Kabeln sind beidseitig
+auf Klemmen aufzulegen.

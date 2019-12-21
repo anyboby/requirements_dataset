@@ -1,0 +1,4 @@
+Für die Steuerspannung sind entsprechend ausgelegte Steuertrafos vorzusehen, mit primärseitigem
+Überlastschutz und sekundärzeitigem Kurzschlussschutz. Schmelzsicherungen sind hierfür NICHT zu
+verwenden, die Schutzschalter sind mit Meldekontakten zur Signalisierung des
+Steuerspannungsausfalls zu versehen.

@@ -1,0 +1,8 @@
+Lärmmessung im beladenen und unbeladenen Zustand
+Messpunkt in 1 m Entfernung und 1,5 m Höhe
+Betreiben der Anlage unter Nennlast und normalen Betriebsbedingungen (z.B. automatisiert)
+Abweichungen, z.B. fehlende Werkstücke, sind zu protokollieren
+n Arbeitsplatzbezogene Emissionswerte sind zu ermitteln und zu
+dokumentieren
+n Wahrnehmbare Geräusche wie Kreischen, Pfeifen usw. sind
+anzugeben und im Protokoll zu vermerken

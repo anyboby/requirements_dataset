@@ -1,0 +1,3 @@
+Falls Termine seitens des Auftragnehmers nicht eingehalten
+werden und CHIRON aufgrund unvollständiger oder zu spät gelieferter Dokumentation durch den Kunden belastet wird, leitet
+CHIRON die Belastung an den Auftragnehmer weiter.

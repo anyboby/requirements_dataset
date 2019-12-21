@@ -1,0 +1,5 @@
+Verordnungssoftware im Sinne des KBV-Prüfverfahrens
+sind alle Programme oder Programmteile zum Zwecke der Eingabe, Weiterverarbeitung oder
+Ausgabe von Daten, die im Rahmen der vertragsärztlichen Verordnung von Arzneimitteln
+und sonstigen nach § 31 SGB V in die Arzneimittelversorgung einbezogenen Produkten
+benötigt werden.

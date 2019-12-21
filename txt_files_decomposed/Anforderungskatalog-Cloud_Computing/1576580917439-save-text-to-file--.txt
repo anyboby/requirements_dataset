@@ -1,0 +1,4 @@
+Die hierzu eingesetzten Methoden (z. B. durch
+mehrfaches Überschreiben der Daten, löschen des
+Schlüssels) verhindern eine Wiederherstellung
+mit forensischen Mitteln.

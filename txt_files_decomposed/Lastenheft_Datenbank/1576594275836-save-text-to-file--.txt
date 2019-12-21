@@ -1,0 +1,5 @@
+Zur Berechnung des Heizwärmeverbrauchs sowie des Wärmeverbrauch für Warmwasser
+werden aktuell ein Erfassungsformular und ein Excel-Tool verwendet. Aus der
+vorliegenden Heizkosten- und Warmwasserabrechnung bzw. Betriebs- oder
+Nebenkostenabrechnung des Haushaltes können die für das Tool wesentlichen
+Informationen herausgelesen und in das Tool eingetragen werden.

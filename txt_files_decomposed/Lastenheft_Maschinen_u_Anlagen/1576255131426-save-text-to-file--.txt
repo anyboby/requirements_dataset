@@ -1,0 +1,3 @@
+ Alle mechanischen und elektrischen Teile müssen so beschriftet sein, dass sie eindeutig an Hand
+von Maschinenzeichnungen oder Stromlaufplänen identifiziert werden können (siehe Foto im
+Anhang Kap. 5.5).

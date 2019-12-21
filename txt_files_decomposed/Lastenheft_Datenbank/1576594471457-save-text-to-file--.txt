@@ -1,0 +1,2 @@
+Die Desktopanwendung soll übersichtlicher und strukturierter aufgebaut werden.
+Siehe Anhang.

@@ -1,0 +1,3 @@
+Frontend: Oberfläche, die der Nutzer sieht und mit der er arbeitet.
+Pagejet: Die Nutzer erhalten eine Pagejet-E-Mail-Adresse, die mit der Mailsoftware
+Roundcube verwaltet wird.

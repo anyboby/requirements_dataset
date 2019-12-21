@@ -1,0 +1,4 @@
+Alle sonstige Gefahrstellen, die mit Schutzverkleidungen gesichert sind und nur zu Wartungs- und Reparaturzwecken entfernt werden dürfen, müssen mit Systemen verschlossen sein, die nicht mit einfachen Werkzeugen (Schraubenzieher, Sechskantschrauben) zu
+öffnen sind oder die sich nach dem Entfernen der Sicherungssysteme ganz offensichtlich
+als entfernt zu betrachten sind (Abdeckungen dürfen z.B. nicht durch ihr Eigengewicht in
+Position gehalten werden).

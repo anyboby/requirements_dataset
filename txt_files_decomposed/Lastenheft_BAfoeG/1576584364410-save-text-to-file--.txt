@@ -1,0 +1,2 @@
+Bei der Protokollierung ist zwischen den Aktivitäten des Systems, der Administratoren
+sowie der Anwender zu unterscheiden.

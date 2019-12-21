@@ -1,0 +1,8 @@
+Richtlinien und Anweisungen mit technischen
+und organisatorischen Maßnahmen für eine
+ordnungsgemäße Verwaltung von Änderungen
+(Change Management) an Informationssystemen für die Entwicklung oder den Betrieb des
+Cloud-Dienstes, einschließlich Anwendungen,
+Middleware, Datenbanken, Betriebssystemen
+und Netzwerkkomponenten sind gemäß SA-01
+dokumentiert, kommuniziert und bereitgestellt.

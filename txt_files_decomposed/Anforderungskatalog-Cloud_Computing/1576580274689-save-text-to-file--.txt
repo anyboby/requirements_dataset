@@ -1,0 +1,6 @@
+Die Penetrationstests erfolgen nach einer
+dokumentierten Testmethodik und umfassen die
+für den sicheren Betrieb des Cloud-Dienstes als
+kritisch definierten Infrastruktur-Komponenten,
+die im Rahmen einer Risiko-Analyse als solche
+identifiziert wurden.

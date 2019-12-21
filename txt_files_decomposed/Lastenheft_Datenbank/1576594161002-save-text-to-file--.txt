@@ -1,0 +1,3 @@
+Die Berichte sollen einheitlich abgebildet werden. Tabellen sollen immer auf einer Seite
+abgebildet werden. Berichte sollen immer im PDF-Format ausgegeben werden. Im Bericht
+soll die Kundennummer sowie Rufnummer des Haushaltes erscheinen.

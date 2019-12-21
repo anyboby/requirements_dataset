@@ -1,0 +1,3 @@
+Die Darstellung und Verwaltung der Auszahlungen ist grundsätzlich in der BAföG-Software vorzusehen, eine entsprechende Schnittstelle zur Erzeugung einer Zahlungsliste
+zur Übermittlung an die auszahlende Bank im Anschluss an jeden Gesamtrechnungslauf
+ist zu bedienen.

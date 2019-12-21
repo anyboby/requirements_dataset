@@ -1,0 +1,3 @@
+Zurzeit sind die Soforthilfen in 33 Produktgruppen eingeteilt. Die Inventur soll mit den
+Soforthilfen verknüpft sein.
+Für jede Produktgruppe werden die Bestände zu bestimmten Terminen erfasst.

@@ -1,0 +1,17 @@
+Mindestens folgende Bestandteile der technischen Dokumentation gehören zum Lieferumfang der Maschine und sind in deutscher Sprache sowie in dreifacher Ausfertigung und auf
+CD auszuhändigen:
+ Betriebsanleitung gem. Anhang I Maschinenrichtlinie und DIN EN 82079-1 und Wartungsanleitung spätestens bei der Inbetriebnahme
+ Risikobeurteilung nach DIN EN ISO 12100,
+ Arbeitsunterlagen wie Elektro-, Wartungs-, Pneumatik- Hydraulikplan, mechanische
+Zeichnungen, Bauteilbeschreibungen, Schnittstellen, Geräteanlageplan
+ Stücklisten mit Herstellerbezeichnungen und Hersteller
+ Maschinendatenblatt mit allen Anschlusswerten der Energie- und Medienversorgung,
+ Bestätigung der Einhaltung der BPRO Stoffverbots- und Vermeidungsliste (bei der
+Verwendung von Hilfs- und Betriebsstoffen)
+ Ersatzteilangebot bzw. -liste und Verschleißteilangebot bzw. -liste mit Angabe der Lieferanten und Typenbezeichnung und der Lieferzeit der Bauteile
+ Die Dokumentation der Erstinbetriebnahmen bei Komponenten, wenn diese erforderlich sind (z.B. kraftbetätigte Tore, Druckspeicher).
+ Die Dokumentationen von Zukaufteilen sind in elektronischer Form (z.B. PDFDokumente) bereitzustellen.
+Anforderungen an alle Unterlagen:
+In der Dokumentation sind Abkürzungen möglichst zu vermeiden. Ansonsten sind sinnvolle und aussagekräftige Abkürzungen zu verwenden (Normen sind zu beachten)
+Stromlaufplan:
+ Stromlaufpläne sind nach DIN EN 61082-1 anzufertigen.

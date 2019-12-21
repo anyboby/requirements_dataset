@@ -1,0 +1,2 @@
+Die mehrfache Eingabe derselben Diagnosen ist zu
+verhindern.

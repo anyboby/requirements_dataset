@@ -1,0 +1,6 @@
+Die Angaben müssen einem sachverständigen
+Dritten erlauben, die grundsätzliche Eignung des
+Cloud-Dienstes für die Kundenanwendung zu
+beurteilen. Sofern der Cloud-Anbieter auf Dienste
+Dritter zugreift, hat er diese Angaben von diesen
+eingeholt.

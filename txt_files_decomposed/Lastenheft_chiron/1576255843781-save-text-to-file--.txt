@@ -1,0 +1,2 @@
+Der NOT-Halt Kreis muss 2-kanalig ausgeführt und auf ein Sicherheitsrelais bzw. integrierte Sicherheitstechnik mit 24 VDC
+verdrahtet werden.

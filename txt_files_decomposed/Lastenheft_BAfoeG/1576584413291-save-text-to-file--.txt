@@ -1,0 +1,6 @@
+Doppeleingaben von Daten in unterschiedlichen Formularen sind zu vermeiden. Daten,
+die bereits in einem vorhergehenden Formular eingegeben wurden (beispielsweise das
+Geburtsdatum), sollen automatisch in den entsprechenden Datenfeldern anderer Eingabemasken angezeigt werden.
+Bei der Ergänzung eines BWZ für einen bestehenden Antragsteller sind automatisch die
+Daten aus dem vorhergehenden BWZ als Vorschlagswerte in die Eingabemasken zu
+übernehmen.

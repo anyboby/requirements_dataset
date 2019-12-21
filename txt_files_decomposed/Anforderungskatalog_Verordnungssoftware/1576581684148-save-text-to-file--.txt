@@ -1,0 +1,5 @@
+In der Verordnungssoftware sind Prüfregeln zu implementieren, die bei Ablauf der Aktualität
+der Arzneimittelstammdaten den Arzt auf durchzuführende Aktualisierungen aufmerksam
+machen. Dem Arzt ist bei erstmaligem Aufruf der Verordnungssoftware ein Hinweis zu
+geben, wenn der Zeitpunkt des vorgesehenen Updates nach P2-130 um fünf Arbeitstage
+überschritten wurde.

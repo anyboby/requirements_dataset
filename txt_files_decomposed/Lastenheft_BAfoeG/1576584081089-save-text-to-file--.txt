@@ -1,0 +1,4 @@
+Die Software hat eine Funktion zur sofortigen Zahlungseinstellung bereitzustellen, mit
+der für bereits bewilligte Fälle, bei denen die Kenntnis neuer Tatsachen eine weitere Prüfung erfordert, die Auszahlung – laufende Zahlung sowie eventuelle Nachzahlungen – an
+den Zahlungsempfänger bis auf weiteres gestoppt werden kann. Die Software muss eine
+Dokumentation dieser Entscheidung ermöglichen.

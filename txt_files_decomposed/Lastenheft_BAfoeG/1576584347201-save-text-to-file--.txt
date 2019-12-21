@@ -1,0 +1,2 @@
+Die Ausgestaltung der Rollen und die Berechtigungsvergabe müssen im Rahmen des
+Betriebes durch die Administratoren erfolgen können.

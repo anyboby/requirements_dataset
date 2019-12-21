@@ -1,0 +1,3 @@
+Wenn möglich soll Warmarbeitsstahl verwendet werden (spätere Beschichtung möglich).
+Bei bruchgefährdenden Konturen ist es zwingend notwendig einen spannungsbruchunempfindlichen Stahl
+einzusetzen (z.B. Divar von Uddeholm).

@@ -1,0 +1,2 @@
+Für die Kommunikation zwischen dem Server und dem Client muss die Software die
+Möglichkeit der Verschlüsselung bieten.

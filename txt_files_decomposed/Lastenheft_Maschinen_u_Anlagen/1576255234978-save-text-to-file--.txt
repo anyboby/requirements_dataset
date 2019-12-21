@@ -1,0 +1,3 @@
+Direkt zu kompensieren sind sämtliche motorischen Verbraucher ab 7,5 kW.
+Bei Stern-Dreieck-Einschaltungen der Motoren erfolgt die selbsttätige Zuschaltung des Kondensators
+ebenfalls über gesondertes Schütz nach Einschaltung der Dreieckstufen.

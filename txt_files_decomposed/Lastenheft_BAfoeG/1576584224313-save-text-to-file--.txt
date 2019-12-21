@@ -1,0 +1,3 @@
+Die Daten sind im Textformat per Dateitransfer an das BVA zu verschicken und zu verschlüsseln.
+Des Weiteren sind den Ämtern für Ausbildungsförderung Listen über die gemeldeten
+Darlehen zur Verfügung zu stellen.

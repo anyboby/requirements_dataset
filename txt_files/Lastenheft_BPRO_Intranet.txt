@@ -1,0 +1,801 @@
+Allgemeines Lastenheft
+
+Allgemeines
+Lastenheft
+für Arbeitsmittel, Maschinen und Anlagen
+BLANCO Professional GmbH + Co KG
+
+Ausgabe:
+von:
+
+10
+Juli 2014
+
+Freigegeben:
+
+Stefen Walter
+
+ppa. Thomas Heckner
+
+Allgemeines Lastenheft
+Inhaltsverzeichnis:
+1
+
+Allgemeines ...................................................................................................... 3
+
+1.1
+1.2
+1.3
+1.4
+
+Geltungsbereich ........................................................................................................... 3
+Vertraulichkeitsklausel ................................................................................................. 3
+Zustimmung bei Abweichung gegenüber Vorgaben durch BPRO .......................... 3
+Werksordnung .............................................................................................................. 3
+
+2
+
+Sicherheitsbestimmungen und -forderungen ................................................ 3
+
+2.1
+2.2
+2.3
+2.4
+
+Neue Arbeitsmittel, Maschinen und Anlagen ............................................................. 3
+Dokumentation .............................................................................................................. 4
+Konformitätsverantwortung ........................................................................................ 5
+Gebrauchtmaschinen im EWR deren Baujahr vor dem 1.1.1995 liegt ..................... 5
+
+3
+
+Planung ............................................................................................................. 5
+
+3.1
+3.2
+3.3
+
+Unterlagen ..................................................................................................................... 5
+Maschinenumgebung ................................................................................................... 5
+Aufstellungsort ............................................................................................................. 6
+
+4
+5
+
+Funktionen der Maschine/Anlage.................................................................... 6
+Maschinenteile .................................................................................................. 6
+
+5.1
+5.1.1
+5.1.2
+5.1.3
+5.2
+5.2.1
+5.2.2
+5.2.3
+5.2.4
+5.3
+5.3.1
+5.3.2
+5.3.3
+5.3.4
+5.4
+5.5
+5.6
+5.7
+
+Schließ- und Sicherheitssysteme ............................................................................... 7
+Schutz vor elektrischen Gefahren ............................................................................... 7
+Schutz vor mechanischen Gefahren ........................................................................... 7
+BPRO - Schließsystem ................................................................................................. 7
+Elektrotechnik ............................................................................................................... 7
+Schaltschrank ............................................................................................................... 7
+Elektromotor ................................................................................................................. 7
+Schaltschrankverdrahtung .......................................................................................... 8
+Maschinenverkabelung ................................................................................................ 8
+Informationstechnik (IT) ............................................................................................... 9
+Voraussetzung .............................................................................................................. 9
+Bediener - Terminal ...................................................................................................... 9
+Software......................................................................................................................... 9
+Daten- / Wartungsanbindung für Maschinen ........................................................... 10
+Pneumatik .................................................................................................................... 10
+Hydraulik ..................................................................................................................... 10
+Wasserkühlung ........................................................................................................... 10
+Schmiersysteme ......................................................................................................... 10
+
+6
+7
+8
+9
+10
+
+Farbe und Kennzeichnung ............................................................................. 11
+Schulungen ..................................................................................................... 11
+Schadstoffe / Abfallprodukte ......................................................................... 11
+Technischer Nutzungsgrad und Garantie .................................................... 11
+Wartung, Instandhaltung und Service .......................................................... 12
+
+10.1
+10.2
+
+Wartung ....................................................................................................................... 12
+Service ......................................................................................................................... 12
+
+11
+
+Abnahme ......................................................................................................... 12
+
+11.1
+
+Besonderheit bei der Verwendung von berührungslos wirkenden
+Sicherheitslichtvorhänge (BWS):............................................................................ 13
+
+12
+13
+
+Aufschaltung an Gebäudeleittechnik (GLT) ................................................. 13
+Energieverbrauch ........................................................................................... 13
+
+Anlage Bauteileliste BLANCO Professional GmbH + Co KG............................................... 14
+
+Ausgabe: 10 vom 08.06.2014 / Team A+U
+
+Seite 2 von 14
+
+Allgemeines Lastenheft
+1
+
+Allgemeines
+Arbeitsmittel müssen festgelegten Spezifikationen entsprechen. Mit dem allgemeinen Lastenheft sind die von der BLANCO Professional GmbH + Co KG aufgestellten allgemeinen
+Anforderungen an ein Arbeitsmittel aufgeführt. Die Hersteller bzw. Vertreiber sind verpflichtet nur solche Arbeitsmittel anzubieten und zu liefern, die die Anforderungen dieses
+Lastenheftes erfüllen.
+Unabhängig davon gelten die Einkaufsbedingungen, und weitere schriftlich festgelegte
+Vereinbarungen, insbesondere die Anlage mit der werksspezifischen Festlegung der Bauteilehersteller und ggf. anlagenspezifische Pflichtenhefte.
+
+1.1
+
+Geltungsbereich
+Dieses Lastenheft ist gültig für die BLANCO Professional GmbH + Co KG im folgenden
+BPRO genannt.
+
+1.2
+
+Vertraulichkeitsklausel
+Der Anbieter / Vertragspartner verpflichtet sich, alle die ihm mitgeteilten Kenntnisse und
+Erfahrungen technischer und nicht technischer Art sowie die ihm gegebenenfalls zu treuen
+Händen übergebenen Unterlagen und Muster vertraulich zu behandeln und weder direkt
+noch indirekt an Dritte weiterzugeben, bzw. zugänglich zu machen.
+Bei Umbauten und Erweiterungen hat sich der Auftragnehmer vor Angebotsabgabe über
+den aktuellen Stand der Maschinen, Anlagen und Einrichtungen einschließlich Dokumentation zu informieren. Die dem Auftragnehmer überlassenen Unterlagen dürfen ohne Erlaubnis des Auftraggebers weder kopiert noch dritten Personen zugänglich gemacht werden oder anderweitig ausgewertet werden.
+
+1.3
+
+Zustimmung bei Abweichung gegenüber Vorgaben durch BPRO
+Abweichungen vom allgemeinen Lastenheft müssen ausdrücklich und schriftlich vom Projektleiter bestätigt werden.
+
+1.4
+
+Werksordnung
+Die BPRO- Werksordnung in gültiger Fassung ist zu berücksichtigen und einzuhalten.
+
+2
+
+Sicherheitsbestimmungen und -forderungen
+Alle in der Bundesrepublik Deutschland für dieses Arbeitsmittel zum Zeitpunkt der Abnahme an BPRO geltenden Gesetze, Verordnungen, Vorschriften, Richtlinien, allgemein anerkannte Regeln der Technik sowie Normen, die dem Schutz vor Gefährdungen von Menschen, Tieren, Umwelt sowie Gebäude und Anlagen dienen, sind einzuhalten. Besonderes
+Augenmerk ist auf die den effizienten Einsatz aller Energieträger zu legen. Folgende Anforderungen werden gestellt für:
+
+2.1
+
+Neue Arbeitsmittel, Maschinen und Anlagen
+ Neue Maschinen bzw. Gebrauchtmaschinen nach wesentlichen Änderungen im europäischen Wirtschaftsraum
+ Neue Maschinen bzw. Gebrauchtmaschinen die in den europäischen Wirtschaftsraum
+eingeführt werden
+Fehlen für die bestellte Maschine harmonisierte europäische Normen, verpflichtet sich der
+Auftragnehmer die deutschen Normen und technischen Spezifikationen zu beachten, die
+die Bundesregierung im Verzeichnis Maschinen zum Geräte- und Produktsicherheitsgesetz bekannt gemacht hat.
+
+Ausgabe: 10 vom 08.06.2014 / Team A+U
+
+Seite 3 von 14 Seiten
+
+Allgemeines Lastenheft
+Wird von harmonisierten europäischen Normen oder deutschen Normen und technischen
+Spezifikationen abgewichen, ist nachzuweisen und zu dokumentieren, dass die gleiche Sicherheit auf andere Weise erreicht wurde.
+Die Verpflichtung schließt ein, dass
+ an einer verwendungsfertigen Maschine/Anlage und an Werkzeugen die CEKennzeichnung angebracht ist,
+ für eine Maschine/Anlage und an Werkzeugen mit CE-Kennzeichnung eine EGKonformitätserklärung in deutscher Sprache ausgestellt und beigefügt ist,
+ einer nicht verwendungsfertigen Maschine die Einbauerklärung beiliegt für eine Maschine nach Anhang II B Maschinenrichtlinie eine Bescheinigung einer zugelassenen Prüf – und Zertifizierungsstelle vorgelegt wird (ggf. Nachweis der EGBaumusterprüfung),
+ eine Betriebsanleitung und eine technische Dokumentation nach den unten genannten Vorgaben vorliegen.
+2.2
+
+Dokumentation
+Die vollständigen und endgültigen Unterlagen sind dem AG mindestens 14 Tage vor der
+Endabnahme zu übergeben; ausgedruckt auf Papier und auf Datenträger (CD, DVD in
+den Formaten: 3D-CAD, pdf und ProE).
+Die Unterlagen sind in DIN A4-Ordnern abzuheften und mit einem Register zu versehen.
+Mindestens folgende Bestandteile der technischen Dokumentation gehören zum Lieferumfang der Maschine und sind in deutscher Sprache sowie in dreifacher Ausfertigung und auf
+CD auszuhändigen:
+ Betriebsanleitung gem. Anhang I Maschinenrichtlinie und DIN EN 82079-1 und Wartungsanleitung spätestens bei der Inbetriebnahme
+ Risikobeurteilung nach DIN EN ISO 12100,
+ Arbeitsunterlagen wie Elektro-, Wartungs-, Pneumatik- Hydraulikplan, mechanische
+Zeichnungen, Bauteilbeschreibungen, Schnittstellen, Geräteanlageplan
+ Stücklisten mit Herstellerbezeichnungen und Hersteller
+ Maschinendatenblatt mit allen Anschlusswerten der Energie- und Medienversorgung,
+ Bestätigung der Einhaltung der BPRO Stoffverbots- und Vermeidungsliste (bei der
+Verwendung von Hilfs- und Betriebsstoffen)
+ Ersatzteilangebot bzw. -liste und Verschleißteilangebot bzw. -liste mit Angabe der Lieferanten und Typenbezeichnung und der Lieferzeit der Bauteile
+ Die Dokumentation der Erstinbetriebnahmen bei Komponenten, wenn diese erforderlich sind (z.B. kraftbetätigte Tore, Druckspeicher).
+ Die Dokumentationen von Zukaufteilen sind in elektronischer Form (z.B. PDFDokumente) bereitzustellen.
+Anforderungen an alle Unterlagen:
+In der Dokumentation sind Abkürzungen möglichst zu vermeiden. Ansonsten sind sinnvolle und aussagekräftige Abkürzungen zu verwenden (Normen sind zu beachten)
+Stromlaufplan:
+ Stromlaufpläne sind nach DIN EN 61082-1 anzufertigen.
+
+Ausgabe: 10 vom 08.06.2014 / Team A+U
+
+Seite 4 von 14 Seiten
+
+Allgemeines Lastenheft
+
+
+
+
+
+
+Das Anlegen von Unterseiten (z.B. 126a, 126.1) ist nicht zulässig. Zwischen den einzelnen Abschnitten der Stromlaufpläne sind für weitere Erweiterungen sinnvolle Lücken vorzusehen.
+Alle für einen störungsfreien Betrieb erforderlichen, bzw. von Geräteherstellern geforderten Erdungs-, Abschirmungs- und Entstörungsmaßnahmen sind im Stromlaufplan
+festzuhalten.
+Der Signalaustausch zu anderen Maschinen, Anlagen und Einrichtungen oder übergeordneten Systemen ist zusammengefasst, einschließlich der externen Anschlüsse,
+darzustellen und zu beschreiben.
+
+2.3
+
+Konformitätsverantwortung
+Werden von uns, in Abstimmung mit dem Auftragnehmer, wesentliche Ausrüstungsteile
+der Maschine beigestellt bzw. angebracht und wird keine anders lautende Vereinbarung
+getroffen, so bleibt die Konformitätsverantwortung beim Auftragnehmer.
+Ist der Auftragnehmer Teilmaschinenhersteller einer komplexen Anlage und Lieferant der
+Hauptmaschine bzw. des überwiegenden Teil der Einzelmaschinen, so übernimmt dieser,
+wenn nicht anders vereinbart, die Konformitätsgesamtverantwortung. Alle Teilmaschinenhersteller verpflichten sich auf unser Verlangen, Angaben über die Kompatibilität ihrer Maschinen (oder Teile) mit anderen zu erteilen, soweit dieses für die Beurteilung der Sicherheit einer Gesamtmaschine erforderlich ist.
+
+2.4
+
+Gebrauchtmaschinen im EWR deren Baujahr vor dem 1.1.1995 liegt
+Mit der Annahme des Auftrages verpflichtet sich der Auftragnehmer folgende Bestimmungen bzw. Forderungen zu beachten:
+ Betriebssicherheitsverordnung (BetrSichV)
+ sonstige nationale Bestimmungen, insbesondere die Unfallverhütungsvorschriften
+(BGV)
+ umweltrelevante EU-Richtlinien, nationale Gesetze und Verordnungen
+
+3
+
+Planung
+Für die Gesamtanlage ist ein zentraler Übergabepunkt für die Versorgungsleitungen (Gas,
+Druckluft, Vakuum, Wasser, Strom, Datenleitung) zu schaffen.
+
+3.1
+
+Unterlagen
+Für die interne Planung sind nach Abschluss der Konstruktion und je nach Fertigungsstand, folgende Unterlagen zu liefern:
+ Erforderliche Zeichnungen sind dem AG zur Freigabe vorzulegen.
+ Aufstellungsplan im Maßstab 1:100 und als AutoCAD /DXF-Datei
+ Abmessungen und Gewicht der Einzelkomponenten im Anlieferungszustand zum Einbringen an den endgültigen Standort.
+ Aufstellungsmaße, Gewicht, Anschlusspunkte für Energie- und Medienversorgung
+ Leistungsdaten
+ Lastdiagramm bezogen auf elektrische Leistungsaufnahmen
+ Fundamentpläne
+
+3.2
+
+Maschinenumgebung
+ Temperaturverträglich bis 42°C Umgebungstemperatur.
+
+Ausgabe: 10 vom 08.06.2014 / Team A+U
+
+Seite 5 von 14 Seiten
+
+Allgemeines Lastenheft
+
+
+
+
+
+
+
+Umgebungsluftfeuchte 0 - 90 % nicht kondensierend (Herstellerdaten der Geräte sind
+zu beachten)
+Die Maschine ist so zu gestalten, dass die gesetzlich einzuhaltenden Grenzwerte nicht
+überschritten werden.
+Der von der Maschine ausgehende Lärmpegel darf bei Volllast der Maschine bei der
+bestimmungsgemäßen Verwendung nicht größer sein als LE = 78 dB(A). Der Maximalpeak LC,Peak max darf 130 dB(C) nicht überschreiten. Bei möglicher Überschreitung der
+Lärmgrenzwerte hat der Hersteller dieses der BPRO mit der Angebotsabgabe mitzuteilen. Maßnahmen zur bestmöglichen Absenkung des Lärmpegels sind optional vorzuschlagen. Im Außenbereich darf LE nicht über 40 dB(A) liegen.
+Schutz gegen eventuelle Strahlenbelastung (z.B. Einhausung )
+Angaben über Verträglichkeit von Erschütterungen und Schwingungen oder von der
+Maschine ausgehende Erschütterungen und Schwingungen
+
+3.3
+
+Aufstellungsort
+Das Entladen der Maschinen vom Transporter auf die vorgesehene Fläche übernimmt
+ausschließlich der Auftragnehmer. Ist das zur Verfügung stellen von Hebezeuge, Stapler
+oder Personal notwendig, muss dies mit dem Projektleiter des AG abgestimmt werden.
+Bei flurgestellten Maschinen muss eine Aussage über die Beschaffenheitsanforderungen,
+insbesondere der Tragfähigkeit und Ebenheit des Bodens gemacht werden.
+Werden Fundamente benötigt, müssen diese vom Anbieter berechnet sowie die Anordnung durch Fundamentpläne angegeben sein.
+Die Einplanung der Maschine erfolgt durch den Anbieter. Hierfür müssen Angaben darüber gemacht werden, wo welche Schnittstellen für Energie und Medienversorgung vorzusehen sind. Für den Eintransport sind alle erforderlichen Daten zu liefern (Größe der Einzelteile, Gewichte,). Bauseitige Leistungen sind exakt zu definieren. Des Weiteren müssen
+notwendige Flächen für die Entsorgung, Materialbereitstellung und Abtransport angegeben
+werden.
+Vorgeschriebene Schutzzonen, notwendige Löschwasserrückhaltung und notwendige
+Maßnahmen zur Einhaltung umweltrelevanter EG - Richtlinie, nationaler Gesetze und Verordnungen, sofern sie nicht vom Auftragnehmer umgesetzt wurden, sind anzugeben.
+Die notwendigen Angaben sind spätestens bei der Auftragsvergabe zu liefern.
+
+4
+
+Funktionen der Maschine/Anlage
+Die Funktionen und Arbeitsaufgaben werden in einem separaten Pflichtenheft festgelegt.
+Werden Maschinen oder Anlagen zur direkten Bearbeitung von BPRO- Produkten eingesetzt, so muss sichergestellt sein, dass diese Produkte keine Beschädigung erleiden, deren Ursache die betreffende Maschine oder Anlage ist.
+
+5
+
+Maschinenteile
+Schwere und unhandliche Arbeitsmittel müssen mit geeigneten Trageösen oder Öffnungen für Hebezeuge ausgerüstet sein, um einen gefahrlosen Transport zu ermöglichen.
+Aufstellfüße müssen mit Nivelliereinrichtungen versehen sein.
+Die Bauteile müssen von den in der firmen- bzw. werksspezifischen Anlage aufgeführten Herstellern bezogen werden.
+Abweichungen sind vom Anbieter zu benennen und bedürfen bei der Auftragsvergabe unserer schriftlichen Genehmigung.
+
+Ausgabe: 10 vom 08.06.2014 / Team A+U
+
+Seite 6 von 14 Seiten
+
+Allgemeines Lastenheft
+5.1
+
+Schließ- und Sicherheitssysteme
+Werden Schließsysteme eingesetzt, sind je nach Gefahrenart unterschiedliche Schließsysteme zu verwenden.
+
+5.1.1 Schutz vor elektrischen Gefahren
+Elektrische Anlagen, die mit einem Schließsystem ausgestattet werden, sind mit einem
+Doppelbartschlüssel Größe 3 nach DIN 43668 zu sichern.
+5.1.2 Schutz vor mechanischen Gefahren
+Alle sonstige Gefahrstellen, die mit Schutzverkleidungen gesichert sind und nur zu Wartungs- und Reparaturzwecken entfernt werden dürfen, müssen mit Systemen verschlossen sein, die nicht mit einfachen Werkzeugen (Schraubenzieher, Sechskantschrauben) zu
+öffnen sind oder die sich nach dem Entfernen der Sicherungssysteme ganz offensichtlich
+als entfernt zu betrachten sind (Abdeckungen dürfen z.B. nicht durch ihr Eigengewicht in
+Position gehalten werden).
+5.1.3 BPRO - Schließsystem
+Besonders zu sichernde Bereiche müssen mit dem BPRO- Schließsystem auszurüsten
+sein. Bei einigen Anlagen kann auch eine Sicherung durch Identitätskarten der Mitarbeiter
+gefordert werden. Hierzu sind bei der Vergabe gesonderte Vereinbarungen zu treffen.
+5.2
+
+Elektrotechnik
+Ein Betriebsartenwahlschalter muss vorgesehen werden.
+
+5.2.1 Schaltschrank
+
+
+
+keine Rückverdrahtung im Schaltschrank (hinter der Montageplatte)
+keine hydraulischen oder pneumatischen Geräte im Elektro– Schaltschrank
+
+5.2.2 Elektromotor
+Allgemeine Anforderungen
+ Störungen und Unterbrechungen in den Regelkreisen dürfen nicht zu unzulässigen
+oder gefährlichen Betriebszuständen führen. Eine sichere Drehzahlüberwachung
+muss vorgesehen werden, wo Drehzahlabweichungen auftreten können und die Unter- bzw. Überschreiten der jeweiligen zulässigen Drehzahl möglicherweise Schäden
+hervorrufen kann.
+ Bei Positioniersteuerungen und Positionseinrichtungen müssen dauerhafte, gut sichtbare Markierungen (z.B. Nullpunkt, etc.) angebracht werden. Ausführungen ist mit
+dem AG abzusprechen.
+ Der gleichzeitige Betrieb zweier Motoren im Parallelbetrieb an einem Frequenzumrichter ist untersagt.
+ Motor-Schaltung ab 7,5 KW Stern-Dreieck-Schaltung. Maschinen mit Schweranlauf
+(z.B. Absaugungen mit großem Lüfter, Kompressoren) sind mit Frequenzumrichter
+oder nach Freigabe optional mit Sanftanlaufeinrichtung zu versehen (Angabe Mehrpreis für Frequenzumrichter)
+ Bei einer Anlage, welche aus mehreren Komponenten besteht, ist der Schaltschrank
+so zu planen, dass alle Komponenten an diesem zentralen Punkt angeschlossen werden können, dort muss auch der Anschluss für die Gesamtzuleitung sein.
+Ausgabe: 10 vom 08.06.2014 / Team A+U
+
+Seite 7 von 14 Seiten
+
+Allgemeines Lastenheft
+
+
+Jede Anlage und jeder Schaltschrank muss einem integrierten Hauptschalter besitzen,
+Cekon-Stecker gelten nicht als Hauptschalter.
+
+Kriterien für Motorauswahl
+ Es sind grundsätzlich nur wartungsfreie Motoren einzusetzen.
+ Die Auswahl der Motoren muss in der Kennlinie und Auslegung den Arbeitsbedingungen angepasst und für eine Einschaltdauer von 100% ED ausgelegt sein. Die Leistung
+ist so zu bemessen, dass der Motor maximal bis 85% seines Leistungsbereiches beansprucht wird.
+ Motoranordnung und – einbauräume
+ Die Motor und die Klemmkästen müssen für Wartungsarbeiten gut zugänglich und gegen Verschmutzung, sowie gegen Einwirkung von Flüssigkeiten und Dämpfen geschützt sein. Sie müssen so ein- bzw. angebaut sein, dass sie leicht und ohne Demontage von Maschinenteilen, ausgenommen Schutzvorrichtungen, auszuwechseln sind.
+ Drehrichtungen müssen dauerhaft und deutlich neben dem Motor angebracht sein.
+ Typenschilder sind so angebracht, dass sie nach dem Entfernen der Schutzvorrichtung einsehbar sind.
+ Die Motoren müssen mindestens die Anforderungen der IEC 60034-30 erfüllen und für
+den Einsatz mit Frequenzumrichtern geeignet sein
+5.2.3 Schaltschrankverdrahtung
+Elektroanschluss:
+400V/230V nach DIN EN 60038 / DIN VDE 0100 ff
+Steuerspannung:
+230V AC / 24V DC
+Phasenfolge:
+L1 – L2 – L3 (rechtsläufiges Drehfeld)
+Hauptstrom
+Schwarz
+Steuerstrom AC
+Rot
+Steuerstrom DC
+Blau
+Fremdstromkreis
+violett oder orange
+ Alle Steuerdrähte flexibel in Kabelkanäle verlegt
+ Schutzleiteranschlüsse einzeln lösbar
+ Steuerkabel sind jeweils auf eigene Klemmleisten aufzulegen
+ Alle Klemmen, Klemmleisten, Betriebsmittel und Einzeladern müssen eindeutig beschriftet werden
+Allgemeines
+ Es ist eine Arbeitssteckdose vorzusehen.
+ Zwangslüftung / Zwangskühlung ist dann vorzusehen, wenn die Wärmewerte oder
+Wärmevorgaben 42°C übersteigen. Dies muss vom AN bestätigt werden. Zuschaltung
+Lüfter erfolgt über Thermostat, der im Schaltschrank untergebracht ist.
+ Schaltschränke sollten so dimensioniert werden, dass nach Fertigstellung der Anlage
+noch 20% Platzreserve für Geräte, Klemmleisten und Verdrahtung verbleiben.
+5.2.4 Maschinenverkabelung
+Ölbeständiges Nummernkabel
+Bei Steuer- und Lastleitungen keine Metallschläuche und keine Einzeladern verwenden.
+Ausgabe: 10 vom 08.06.2014 / Team A+U
+
+Seite 8 von 14 Seiten
+
+Allgemeines Lastenheft
+5.3
+
+Informationstechnik (IT)
+
+5.3.1 Voraussetzung
+
+
+
+
+
+Die Blanc + Fischer IT Services (BFITS) ist rechtzeitig in die Planung mit einzubeziehen.
+Netzwerkfähigkeit der Endgeräte der Maschine
+Vergabe der Netzwerkadressen nach Vorgabe der BPRO (BFITS)
+Ansprechpartner für Netzwerk-/IT- Fragen beim Lieferant
+
+5.3.2 Bediener - Terminal
+Sind PCs oder Terminals an der Maschine integriert, so müssen diese in einem geeigneten Gehäuse untergebracht sein oder als Geräteeinheit mindestens die Schutzart IP 54
+besitzen.
+Speichererhaltung und –schutz:
+ Standardmäßig sind nichtflüchtige und wiederbeschreibbare Speichermedien zu verwenden. Bei Netzschwankungen und Netzausfällen sind Unterspannungsversorgungen einzusetzen, um zu gewährleisten, dass die Daten nicht verloren gehen. Dies bedeutet, dass sich der Rechner (PC) automatisch herunterfährt. Die Ausführung ist mit
+BPRO abzustimmen. Ein Supportvertrag muss hier mit dem Hersteller der Maschine
+abgeschlossen werden.
+5.3.3 Software
+Um eine Durchgängigkeit der Daten zu erreichen ist auf die folgenden Punkte zu achten:
+ Falls Software auf Arbeitsplatzrechnern benötigt wird, muss diese unter Windows 7
+SP1 und neuer, bei Servern unter Windows 2008 Server Betriebssystem und neuer
+bzw. SLES in aktueller Version laufen.
+ Wird auf dem Anlagenrechner ein Windows Betriebssystem eingesetzt, so ist dies mit
+dem in der BPRO verwendeten Antivirusprogramm auszustatten. Ausnahme sind
+Rechner ohne Netzwerkanbindung in das BPRO -Netzwerk
+ Die Maschine muss die Möglichkeit zur Datensicherung der Programmierdaten über
+genormte Datenspeichergeräte (externe USB- Festplatte / USB- Stick) haben.
+ Zu liefern ist die gesamte Software mit Zubehör einschließlich Handbücher im Original,
+die für das Einrichten, Betrieb, Wartung und Instandhaltung der Maschinen, Anlagen
+und Einrichten erforderlich ist, wie z.B. Programmier- und Systemsoftware, Quellcode,
+Treiber, Software – Zertifikate, Softwareschutz (z.B. Autorisierungsdiskette, Dongle,
+etc.), Parameterdaten von Komponenten einschließlich der notwendigen Hardware
+(z.B. Leitungen, Schnittstellenkarten, Umsetzer). Andere Software (z.B. SPS Software,
+ProTool, etc.) ist von der Lieferung ausgenommen. Die gesamte Software und Dokumentation ist in deutscher Sprache zu liefern.
+ Softwaretools zur Wartung, Datensicherung und für Testfunktionen sind der BPRO
+auszuhändigen.
+ Soll eine Datenbank zentral im BPRO -Netzwerk abgelegt werden, so kommen nur
+folgende zwei Datenbanksysteme zum Einsatz:
+ Oracle ab Version 11.2
+ Microsoft SQL Server ab Version 2012
+Ausgabe: 10 vom 08.06.2014 / Team A+U
+
+Seite 9 von 14 Seiten
+
+Allgemeines Lastenheft
+
+
+
+
+Softwareschnittstellen für alle softwarebasierten Steuerungskomponenten (z.B.
+Schnittstellen von Frequenzumrichter, Sicherheits-SPS usw.) müssen an einem zentralen Punkt verfügbar gemacht werden. Ist ein PC in der Maschine/Anlage integriert,
+muss ein Zugriff über diesen möglich sein. Andernfalls muss eine zentrale Stelle nach
+Absprache geschaffen werden.
+Die Programmierung sollte wenn möglich in KOP oder FUP darstellbar sein. Bei Bedarf kann auch in strukturiertem Text programmiert werden.
+
+5.3.4 Daten- / Wartungsanbindung für Maschinen
+
+
+
+
+
+
+
+
+
+Die Maschine muss die Möglichkeit bieten, BDE/MDE- Datenerfassung als Option
+nachzurüsten.
+Maschinen werden über Netzwerkkabel min. Cat6 an das BPRO IP- Netzwerk angebunden.
+Der Hersteller bekommt von der BFITS ein IP-Adressraum entsprechend der Anzahl
+der benötigten Endgeräte zugewiesen.
+Die Maschine wird durch Einrichtung eines virtuellen Netzwerks (VLAN) und Zugriffslisten auf den Routern vom BPRO Netzwerk getrennt.
+Bei mehreren Endgeräten müssen diese über einen internen Switch, angebunden
+werden.
+Der Fernwartungszugriff erfolgt über eine browserbasierte VPN Lösung (SSL-VPN
+Box der Fa. Juniper). Diese erlaubt den Zugriff des Herstellers / Betreuers auf alle
+Endgeräte und deren Ports nach Freischaltung durch BFITS.
+Sollte es sich um einen nur wenig genutzten Wartungszugang handeln, so kann auch
+die Fernwartungssoftware Teamviewer genutzt werden.
+
+5.4
+
+Pneumatik
+Auslegung generell auf einen Betriebsdruck von 6 bar.
+Iso- Zylinder und Ventile gemäß Anlage sind einzusetzen.
+
+5.5
+
+Hydraulik
+Iso- Zylinder und Ventile gemäß Anlage sind einzusetzen.
+
+5.6
+
+Wasserkühlung
+Bei Maschinen mit internen und/ oder externen Kühlkreisläufen dürfen Teile die mit Kühlwasser in Berührung kommen (z.B. Verteiler, Ventile), nur aus korrosionsbeständigen Material wie Kunststoff, Edelstahl oder Messing verwendet werden, nicht aus Aluminium. In
+einem System dürfen keine verschiedenen Materialien eingesetzt werden, wenn sich diese
+gegenseitig beeinflussen oder schädigen können. Es sind detaillierte Angaben über die
+Wasserqualität und ggf. notwendige Stabilisierungsmaßnahmen zu machen.
+
+5.7
+
+Schmiersysteme
+Schmiersysteme müssen gut zugänglich und gekennzeichnet sein. Bevorzugt sind automatische Schmiersysteme einzusetzen (siehe Bauteileliste). Kann nicht ausgeschlossen
+werden, dass Schmier- oder andere Betriebsmittel mit den BPRO-Produkten in Kontakt
+kommt, sind lebensmittelrechtlich zugelassene Produkte zu verwenden bzw. uns in der
+Bedienungsanleitung vorzuschlagen.
+
+Ausgabe: 10 vom 08.06.2014 / Team A+U
+
+Seite 10 von 14 Seiten
+
+Allgemeines Lastenheft
+6
+
+Farbe und Kennzeichnung
+
+
+
+
+
+
+
+
+7
+
+Erfolgt keine anders lautende Farbfestlegung, so sind die Bauteile in den Farben RAL
+5002 (ultramarinblau)und RAL 7035 (lichtgrau) zu beschichten.
+Alle Kennzeichnungen, die aus sicherheitstechnischen Gründen angebracht werden,
+müssen der DIN EN ISO 7010 „Sicherheitsfarben und Sicherheitszeichen“ bzw. der
+ASR A 1.3 „Sicherheits- und Gesundheitsschutzkennzeichnung in Arbeitsstätten“ entsprechen. “
+Behälter sind gemäß GHS („Globally Harmonized System of Classification and Labelling of Chemikals") bzw. CLP zu kennzeichnen. Kennzeichnungen nach Gefahrstoffverordnung sind nicht mehr zulässig.
+Rohrleitungen sind nach DIN 2403 „Kennzeichnung von Rohrleitungen nach dem
+Durchflussstoff“ zu kennzeichnen; bei gefährlichen Durchflussstoffen sind zusätzlich
+die Gefahrensymbole gemäß GHS, bzw. CLP anzubringen.
+An den Anlagen dürfen keine Herstellerkennzeichnungen (-logos) angebracht sein.
+
+Schulungen
+Für das Bedien- und Instandhaltungspersonal ist an der Maschine, Anlage und Einrichtungen eine Unterweisung in deutscher Sprache durchzuführen. Die Durchführung der Unterweisung sowie eventuell erforderlichen Schulungsunterlagen gehören zum Lieferumfang. Anzahl der Unterweisungen und die Termine sind rechtszeitig mit dem AG abzustimmen.
+Bedien- und Wartungspersonal muss in folgenden Punkten geschult werden:
+ Grundlagen, Maschinenfunktionen und deren Anwendungsgebiete,
+ Programmierschulung und Bedienungsunterweisung,
+ Wartung und Instandsetzung der Maschine/ Anlage.
+ besondere Gefahren im Umgang mit der Anlage,
+ Mögliche/vorhandene Umweltauswirkungen bei den durchzuführenden Tätigkeiten
+Der Umfang der Schulung ist von der Komplexität der Maschine/Anlage abhängig und ist
+gemeinsam festzulegen. Über die Schulungen sind Protokolle zu führen. Diese sind durch
+Unterschrift (Schulender und Geschulter) zu bestätigen.
+
+8
+
+Hilfs- und Betriebsstoffe / Schadstoffe / Abfallprodukte
+
+
+
+
+
+
+
+Kommen Hilfs- und Betriebsstoffe in der Maschine/Anlage zum Einsatz (Hydrauliköle,
+Schmieröl/-fette, Kühl- oder Kältemittel mit Zusätzen, Schleifmittel) sind entsprechende Sicherheitsdatenblätter frühzeitig zu übergeben. Es sind die Typen bzw. Eigenschaften der Hilfs- und Betriebsstoffe anzugeben, um ggf. alternative Stoffe einsetzen
+zu können (Reduzierung der Stoffvielfalt).
+Für Schadstoffemissionen, die während des Prozesses an der Maschine entstehen,
+muss eine entsprechende Absaugung und Filteranlage vom Anbieter ausgelegt werden, sodass die Arbeitsplatzgrenzwerte dauerhaft sicher eingehalten werden.
+Sind in diesem Zusammenhang Grenzwerte der TA-Luft einzuhalten, muss eine geeignete gut zugängliche Probeentnahmestelle vorhanden sein.
+Für Abfallprodukte, die während des Betriebs der Anlage anfallen, muss ein entsprechendes Entsorgungskonzept ausgearbeitet werden, insbesondere für Hilfs- und Betriebsstoffe. Die Entsorgung ist vor Inbetriebnahme der Anlage zu klären.
+
+Ausgabe: 10 vom 08.06.2014 / Team A+U
+
+Seite 11 von 14 Seiten
+
+Allgemeines Lastenheft
+
+9
+
+Können im Betrieb oder bei Störungen umweltgefährdende Betriebsstoffe austreten,
+müssen Auffang- und Warnvorrichtungen vorhanden sein.
+
+Technischer Nutzungsgrad und Garantie
+Die Maschine (Anlage) muss einen hohen technischen Nutzungsgrad erreichen. Zu Ausfallzeiten gehören auch alle regelmäßigen und unregelmäßigen Wartungsarbeiten.
+Der Lieferant hat die Maschine (Anlage) so zu konstruieren und auszulegen, dass ein
+technischer Nutzungsgrad von mindestens 98% dauerhaft erreicht wird.
+Bei komplexen Anlagen beinhaltet die Verfügbarkeit auch den Ausfall einer einzelnen Systemkomponente, (z.B. bei einer verketteten Anlage einen Roboter) sobald der bestimmungsgemäße Gebrauch nicht mehr gegeben ist.
+Grundlage zur Messung des Nutzungsgrades ist das Führen eines Maschinenlogbuches
+gemäß BPRO - Vorgaben. Sie beginnt mit der Endabnahme der Maschine (Anlage) und
+gilt für die Dauer von 12 Monaten ohne Schichtbegrenzung.
+Bei Unterschreiten des technischen Nutzungsgrads von 98% haben wir das Recht auf
+Nachbesserung. Nach erfolgter Nachbesserung kann für weitere 6 Monate der Nachweis
+über den technischen Nutzungsgrad erbracht werden.
+Wird danach der Nutzungsgrad nicht erreicht, so haben wir das Recht auf Vertragsrücktritt.
+Die Garantie- und Gewährleistungszeit beträgt 24 Monate ohne Schichtbegrenzung. Sie
+verlängert sich um den Zeitraum von Nachbesserungs- oder Nachlieferungsmaßnahmen
+des Lieferers ab Eingang unserer Mängelanzeige solange, bis dieser die Beendigung der
+Maßnahmen schriftlich erklärt oder eine weitere Nachbesserung oder Nachlieferung
+schriftlich ablehnt.
+
+10
+
+Wartung, Instandhaltung und Service
+
+10.1 Wartung
+Eine Beschreibung der Wartungsarbeiten und deren Intervalle, der Nachfüllmengen und
+die notwendigen Hilfs- und Betriebsstoffe ist anzugeben. Alle Wartungsstellen müssen gut
+zugänglich sein und sind eindeutig zu kennzeichnen.
+10.2 Service
+In der Zeit von 07:30 - 16:30 Uhr ist im Hause des Auftragnehmers ein qualifizierter Servicetechniker erreichbar. Ist eine Problemlösung per Telefon, oder Datenleitung nicht möglich, muss ein qualifizierter Servicetechniker innerhalb von 4 Stunden nach Anruf (plus
+Fahrzeit) an der Maschine/Anlage sein. Außerhalb dieser Zeiten (07:30 - 16:30 Uhr) ist eine Notrufnummer zu benennen und der Servicetechniker muss jeweils zum nächsten
+Schichtbeginn bei uns vor Ort eintreffen.
+Abweichend können bei essentiellen Maschinen/Anlagen bei der Vergabe andere Zeiten
+vereinbart werden.
+11
+
+Abnahme
+Abnahmen haben in schriftlicher Form zu erfolgen. Für die kaufmännische Abnahme und
+den Gefahrenübergang ist das BPRO- Abnahmeprotokoll zu verwenden.
+Die sicherheitstechnische Abnahme erfolgt vor Aufnahme des Serienbetriebs durch das
+Team A+U.
+Die Vorabnahme unter möglichst produktionsnahen Bedingungen findet beim Anbieter
+statt.
+
+Ausgabe: 10 vom 08.06.2014 / Team A+U
+
+Seite 12 von 14 Seiten
+
+Allgemeines Lastenheft
+Abnahmemerkmale / Abnahmeprüflinge werden von BPRO definiert.
+Die Ergebnisse werden von BPRO beurteilt und eventuell mit Referenzmessungen verglichen.
+Die Schlussabnahme findet im Werk BPRO statt. Voraussetzung für die Schlussabnahme
+ist die komplette Fertigstellung, die mängelfreie Betriebsbereitschaft und das Vorliegen aller Dokumentationen in deutscher Sprache. Die Schlussabnahme erfolgt durch Feststellung der Prozessfähigkeiten und der sonstigen vereinbarten Kennwerte (siehe spezifisches Pflichtenheft).
+11.1 Besonderheit bei der Verwendung von berührungslos wirkenden Sicherheitslichtvorhänge (BWS):
+ Beim Einsatz von BWS ist eine Prüfung vor der erstmaligen Inbetriebnahme entsprechend den Vorgaben der ZH1/597 bzw. bei Pressen ZH1/281 mit dem Hersteller der
+BWS durchzuführen. Die Koordination erfolgt durch den Auftragnehmer.
+ Spätestens mit der Endabnahme ist ein Protokoll/Dokument der mängelfreien Erstinbetriebnahme BWS zu übergeben (Bestandteil Endabnahme - Bei Nichtvorlage dieses
+Dokumentes findet keine Endabnahme der Anlage statt).
+12
+
+Aufschaltung an Gebäudeleittechnik (GLT)
+Energieversorgungsanlagen und –einrichtungen sind für den Anschluss an die GLT auszurüsten.
+Soweit der AG nicht schriftlich verzichtet, ist folgendes einzubauen:
+ Ethernet – Schnittstelle (Protokoll: TCP7IP)
+ Wahlschalter 2-polig, Hand / Aus / Automatik / GLT mit den Schalterstellungen H, 0, A,
+GLT
+ Potentialfreier Umschaltkontakt für Sammelstörung
+ Messeinrichtungen für einzelnen Energiearten und der entsprechenden Verdrahtung
+bis zum Schaltschrank
+ Betriebsstundenzähler
+ Für Temperatur- / Luftfeuchte- / Leckagefühler sind potentialfreie Umschaltkontakte
+vorzusehen.
+
+13
+
+Energieverbrauch
+
+
+
+
+
+Die Anlagen sind für einen möglichst niedrigen Energieverbrauch zu konzipieren.
+Die Angabe der Energieeffizienzklassen der verwendeten Komponenten und deren
+Energieverbräuche sowie der gesamte Energieverbrauch der Anlage unter verschiedenen Betriebsbedingungen ist im Angebot (während der Planungs- und Auslegungsphase, vor der Umsetzung) anzugeben.
+Vorschläge für weitere mögliche Energieoptimierungen sind dem Angebot als Option
+beizufügen.
+
+Ausgabe: 10 vom 08.06.2014 / Team A+U
+
+Seite 13 von 14 Seiten
+
+Allgemeines Lastenheft
+Anlage Bauteileliste BLANCO Professional GmbH + Co KG
+Bauteil
+Elektrotechnik - Schaltschrank
+
+Hersteller
+
+Schaltschrank /-kühlung
+Rittal
+Schütze
+Siemens
+Befehl und Meldegeräte
+Siemens
+Endschalter
+Siemens
+Sicherheitsschalter mit speziellem Betätiger Euchner / Schmersal
+Motorschutzschalter
+Möller
+Hauptschalter
+Möller
+Induktiv/Kapazitiv Schalter
+IFM Elektronik (steckbar)
+Lichtschranken/Taster
+IFM Elektronik (steckbar)
+Klemmen
+Phönix
+Relais/Koppelgeräte
+Murrelektronik
+Zweihand-Relais
+Pilz GmbH
+Not-Aus Sicherheitsrelais
+Pilz GmbH
+Sicherheitslichtvorhänge (BWS)
+Sick
+Zeitrelais
+Siemens
+Steckverbindung
+Harting / Han E oder baugleich
+Zweihandpult
+im Auftragsfall abzustimmen (Elektroabteilung)
+Elektrotechnik - Automatisierungsgeräte
+Simatic S7
+Siemens
+Kleinsteuerung
+Siemens
+Bediengeräte
+Siemens
+Elektrotechnik – Achsensteuerung / Frequenzumrichter
+im Auftragsfall abzustimmen
+Elektrotechnik - Schaltschrankverdrahtung
+Sammelschienen-Verteilersystem
+Rittal
+Reitersicherungen im Schaltschrank
+Rittal
+Pneumatik
+Wartungseinheiten, Zylinder, SteckverbinFesto
+dungen, Schalldämpfer
+Ventile
+Festo (Type nach Absprache)
+Proportional-Druckregelventile
+Festo
+Hydraulik
+Hydraulikaggregate
+Bosch-Rexroth
+Hydraulikzylinder
+Bosch-Rexroth / Parker
+Hydraulikventile
+Bosch-Rexroth / Vickers
+Hydraulikschläuche
+Bosch-Rexroth / Parker
+Steckverbindungen
+Parker / Ermeto
+Hebezeuge
+Hebezeuge als Bestandteil von Maschinen
+ABUS / Stahl
+Schmiersysteme
+automatische Schmierung
+perma-tec
+
+Anlage zur Ausgabe 10 vom 08.06.2014 / Team A+U
+
+Seite 14 von 14 Seiten
+
+

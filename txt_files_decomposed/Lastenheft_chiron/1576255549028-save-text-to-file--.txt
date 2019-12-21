@@ -1,0 +1,2 @@
+Mechanische Komponenten sind so auszulegen dass bei 3-Schicht
+Betrieb eine Lebensdauer von mindestens 5 Jahren erreicht wird.

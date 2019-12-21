@@ -1,0 +1,3 @@
+Fordert der Arzt Substitutionsvorschläge an, so sind alle verfügbaren Arzneimittel zu
+berücksichtigen. Die Anforderungen von P3-320 und P3-325 sind zu berücksichtigen. Die
+endgültige Auswahl erfolgt durch den Arzt.

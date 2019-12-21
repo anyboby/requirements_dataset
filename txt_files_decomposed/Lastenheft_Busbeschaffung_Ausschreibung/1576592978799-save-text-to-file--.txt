@@ -1,0 +1,2 @@
+Das Fahrzeug soll eine Fahrzeuglänge von 12 Meter aufweisen, 2 Achsen besitzen und
+in der Niederflurbauweise ausgeführt sein. Es soll eine Anzahl von ca. 32 Fahrgastsitzplätzen aufweisen.

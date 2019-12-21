@@ -1,0 +1,3 @@
+In einem Berechtigungskonzept muss das umgesetzte Berechtigungsmodell beschrieben
+werden. Außerdem soll dargestellt werden, wie unnötiger und möglicherweise unberechtigter Datenzugriff dadurch minimiert wird, da es sich bei den Antragsdaten um sensible
+persönliche Daten der Antragsteller und ihrer Angehörigen handelt.

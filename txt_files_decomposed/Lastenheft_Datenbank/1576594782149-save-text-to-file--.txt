@@ -1,0 +1,9 @@
+In der neuen Datenbank soll ein
+Newsticker angelegt werden, damit
+die Nutzer alle Änderungen beim
+Login direkt sehen. Der Newsticker
+soll vom Admin änderbar sein. Alte
+Nachrichten sollen in einen Archiv
+gespeichert werden, damit die
+Nutzer die Nachrichten später
+nochmal nachlesen können.

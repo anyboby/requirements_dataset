@@ -1,0 +1,7 @@
+Organisatorische und/
+oder technische Maßnahmen stellen sicher, dass
+durch die Vergabe dieser Berechtigungen keine
+ungewollten, kritischen Kombinationen entstehen, die gegen das Prinzip der Funktionstrennung
+verstoßen (z. B. Zuweisen von Berechtigungen
+zur Administration der Datenbank wie auch des
+Betriebssystems).

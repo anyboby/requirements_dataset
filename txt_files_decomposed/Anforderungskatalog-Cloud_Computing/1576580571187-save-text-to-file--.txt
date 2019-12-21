@@ -1,0 +1,4 @@
+Sicherheits-Parameter auf Netzwerk,- Betriebssystem- (Host und Gast), Datenbank-, und
+Anwendungsebene (soweit für den Cloud-Dienst
+relevant) sind angemessen konfiguriert, um
+unautorisierte Zugriffe zu verhindern.

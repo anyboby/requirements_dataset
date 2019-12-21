@@ -1,0 +1,4 @@
+Sofern durch regionale Verträge zwischen Krankenkassen und Kassenärztlichen
+Vereinigungen Abweichendes vereinbart ist, kann eine Hervorhebung erfolgen, wenn der
+Anwender im Verordnungskontext über die Gründe für die Hervorhebung und die rechtliche
+Grundlage durch die Verordnungssoftware entsprechend informiert wird.

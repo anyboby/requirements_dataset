@@ -1,0 +1,20 @@
+Richtlinien und Anweisungen mit technischen
+und organisatorischen Maßnahmen sind gemäß
+SA-01 dokumentiert, kommuniziert und bereitgestellt, um das zeitnahe Identifizieren und
+Adressieren von Schwachstellen über alle Ebenen
+des Cloud-Dienstes, die unter seiner Verantwortung stehen, zu gewährleisten. Die Maßnahmen
+umfassen unter anderem:
+
+Die Schwachstellen sollten gemäß Schadenpotenzial klassifiziert sein und einen Zeitraum für die
+erforderliche Reaktion nennen. Als Orientierung
+kann die folgende Einstufung gemäß der SI-Publikation „Ein Praxis-Leitfaden für IS-Penetrationstests“ dienen:
+» Hoch: Sofortige Reaktion
+» Mittel: Kurzfristige Reaktion
+» Niedrig: Mittelfristige Reaktion
+
+» Regelmäßiges Identifizieren und Analysieren
+von Schwachstellen (Vulnerabilities),
+» Regelmäßiges Nachhalten von Maßnahmen
+zum Adressieren identifizierter Maßnahmen
+(z. B. Einspielen von Sicherheitsaktualisierungen
+gemäß interner Zielvorgaben).

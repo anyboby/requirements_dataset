@@ -1,0 +1,3 @@
+Die erstellten Protokolle erlauben eine eindeutige
+Identifizierung von Benutzerzugriffen auf TenantEbene, um (forensische) Analysen im Falle eines
+Sicherheitsvorfalls zu unterstützen.

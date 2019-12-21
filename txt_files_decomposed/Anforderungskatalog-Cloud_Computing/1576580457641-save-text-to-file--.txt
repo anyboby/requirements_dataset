@@ -1,0 +1,10 @@
+bei Veränderungen
+des Arbeitsverhältnisses
+Basisanforderung
+Zugriffsberechtigungen von Benutzern unter
+Verantwortung des Cloud-Anbieters (interne und
+externe Mitarbeiter) werden bei Änderungen im
+Beschäftigungsverhältnis (Kündigung, Versetzung, längerer Abwesenheit/Sabatical/Elternzeit)
+zeitnah, spätestens aber 30 Tage nach Inkrafttreten entzogen bzw. vorübergehend ruhe stellend
+gesetzt. Zugänge werden vollständig deaktiviert
+sobald das Beschäftigungsverhältnis erlischt.

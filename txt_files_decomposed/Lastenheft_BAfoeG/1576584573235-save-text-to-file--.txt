@@ -1,0 +1,5 @@
+Das Pflichtenheft ist dem Auftraggeber bereits als Bestandteil des Angebotes zur Verfügung zu stellen.
+Einführungskonzept inklusive Meilensteinplan
+Der Softwareanbieter muss mit dem Auftraggeber ein Einführungskonzept abstimmen, in
+dem die Umsetzung der Gesamtheit der Projektaufgaben in einem Meilensteinplan und
+das Projektmanagement in einem Einführungsprojekt dargestellt werden.

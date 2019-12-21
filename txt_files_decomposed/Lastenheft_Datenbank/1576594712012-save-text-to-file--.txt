@@ -1,0 +1,8 @@
+Es soll eine Schnittstelle zwischen
+Datenbank und e-Shop geschaffen
+werden.
+Um
+eine
+schnelle
+Synchronisation zwischen beiden
+Systemen zu schaffen.

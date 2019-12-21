@@ -1,0 +1,2 @@
+Die neue Datenbank sollte so aufgebaut sein, das es ohne Probleme möglich ist , eine
+weitere Funktion einzubauen bzw. bestehende Funktionen zu erweitern.

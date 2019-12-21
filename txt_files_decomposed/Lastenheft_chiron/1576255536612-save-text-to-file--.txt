@@ -1,0 +1,3 @@
+Kundenspezifische Anforderungen an Komponenten haben
+Vorrang, falls keine Anforderungen bestehen, sind Komponenten
+der Vorzugsliste CHIRON einzusetzen.

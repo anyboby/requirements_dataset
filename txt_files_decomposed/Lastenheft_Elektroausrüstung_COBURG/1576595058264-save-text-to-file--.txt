@@ -1,0 +1,2 @@
+Die Schutzraumleuchten sind für jede Maschinenseite auf je eine definierte Trennstelle zu
+verdrahten ( Klemmkasten ; Anbauort: siehe Zeichnung Schutzeinrichtung ).

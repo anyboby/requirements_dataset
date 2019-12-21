@@ -1,0 +1,2 @@
+Zusätzlich muss vor beziehungsweise bei der Freigabe eines Vorganges (Erst- und
+Zweitfreigabe) eine inhaltliche Plausibilisierung der Eingabedaten in der Software möglich sein. Dabei müssen Prüfungen von datenfeldübergreifenden Abhängigkeiten durchgeführt werden. Fehlermeldungen sind sprechend zu gestalten, damit der Sachbearbeiter den aufgetreten Fehler möglichst effizient korrigieren kann.

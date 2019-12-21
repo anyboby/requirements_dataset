@@ -1,0 +1,4 @@
+Zwischen Cloud-Anbieter und Cloud-Kunden
+ist vertraglich geregelt, welche Daten dem
+Cloud-Kunden bei Sicherheitsvorfällen zur
+eigenen Analyse zur Verfügung gestellt werden.

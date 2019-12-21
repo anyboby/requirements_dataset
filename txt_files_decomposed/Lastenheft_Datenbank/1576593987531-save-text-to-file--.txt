@@ -1,0 +1,4 @@
+Die personenbezogenen Daten sollen fünf Jahre nach Erstellungsdatum gelöscht bzw.
+unkenntlich gemacht werden. Der Vorgang der Anonymisierung soll automatisch zum
+Ende des Monats ablaufen. Dafür sollen alle personenbezogenen Daten durch „xxx“
+ersetzt werden. Die Energiedaten werden beibehalten.

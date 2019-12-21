@@ -1,0 +1,6 @@
+Eine Zuordnung der Regionen zu Standorten über eine Kennnummer diente als Übersicht,
+welcher Region ein Standort zugewiesen ist. Optional könnte dies als Landkarte
+abgebildet werden. Auf der Karte werden die Standorte sowie die Regionen abgebildet
+und auch die zuständige, regionale energiefachliche Begleitung angezeigt. Es sollte
+möglich sein, einer Region mehrere energiefachliche Begleitungen (Personen)
+zuzuordnen.

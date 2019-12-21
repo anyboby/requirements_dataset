@@ -1,0 +1,4 @@
+Eine Integration von Formatvorlagen für die MS Office Standardprodukte (inklusive Übernahme definierter Formularfelder in Word-Dokumente) muss möglich sein, so dass der
+Sachbearbeiter basierend auf der Dokumentation der Ablehnung dem Grunde nach einen grundsätzlichen Ablehnungsbescheid ohne größeren Aufwand erstellen und drucken
+kann (vgl. auch LH 37). Auch für die amtsinterne Bearbeitung von Entscheidungen dem
+Grunde nach müssen geeignete Formatvorlagen in der Software hinterlegt sein.

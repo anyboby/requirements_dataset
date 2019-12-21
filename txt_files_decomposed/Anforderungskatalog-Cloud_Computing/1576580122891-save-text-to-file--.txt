@@ -1,0 +1,8 @@
+Metadaten sind alle Daten, die beim Cloud-Anbieter durch die Nutzung seines Dienstes durch den
+Cloud-Kunden anfallen und keine Inhaltsdaten
+sind. Dazu gehören u. a. Anmelde/Abmelde-Zeiten, IP-Adressen, GPS-Position des Kunden, welche Ressourcen (Netz, Storage, Computer) genutzt
+wurden, auf welche Daten wann zugegriffen
+wurde, mit wem Daten geteilt wurden, mit wem
+kommuniziert wurde etc. Diese Daten werden
+zum Teil für Abrechnungszwecke und für das
+(Security) Incident Management verwendet. 

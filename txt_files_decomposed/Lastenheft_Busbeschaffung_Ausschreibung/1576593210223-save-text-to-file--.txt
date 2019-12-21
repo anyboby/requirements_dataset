@@ -1,0 +1,5 @@
+Die Türe 1 soll als Innenschwenktür mit pneumatischem Antrieb verbaut sein. Sie soll
+zwei Flügel haben und ca. 1.380 mm breit sein. Außerdem sollen die beiden Türflügel
+nach Bedarf über einen Taster einzeln zu sperren sein. Der Verschluss soll über einen
+Außenvierkant (innen und außen) erfolgen können. Die Türe 1 soll über eine Fangplatte
+mit Führungsbolzen aus Metall geführt werden.

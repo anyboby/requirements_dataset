@@ -1,0 +1,3 @@
+Daten aus dem Primärsystem/ Klinikinformationssystem sollen in dem Umfang übernommen werden
+können, in dem sie dort vorliegen (Diagnosen,
+Betreuung, Besuchsdatum …).

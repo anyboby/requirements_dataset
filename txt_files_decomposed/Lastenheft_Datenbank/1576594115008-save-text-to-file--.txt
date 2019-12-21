@@ -1,0 +1,2 @@
+Das Abrufen von Auswertungen dauert wegen der hohen Zahl an Datensätzen oder an
+Datenbankverknüpfungen zu lange. Die DB Performance muss optimiert werden.

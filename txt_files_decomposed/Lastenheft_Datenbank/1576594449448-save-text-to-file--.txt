@@ -1,0 +1,2 @@
+Roundcube: Roundcube ist eine freie Software für Webmail über IMAP, die in den
+Programmiersprachen PHP und JavaScript entwickelt wird.

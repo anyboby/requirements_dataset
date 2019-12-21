@@ -1,0 +1,4 @@
+Es wird ein Fahrscheindrucker EVENDPC2, Fabrikat INIT, auf der Fahrertüre vom Auftraggeber befestigt werden. Dahingehend ist die Fahrertüre mit einer integrierten Kasse
+auszuführen. Der elektrische Anschluss muss vorbereitet sein und eine IBIS-Fähigkeit
+muss vorhanden sein. Außerdem : Vorbereitung für Steuerung der Fahrtzielanzeige über
+den Fahrscheindrucker.

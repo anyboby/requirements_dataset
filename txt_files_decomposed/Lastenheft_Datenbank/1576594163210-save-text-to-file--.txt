@@ -1,0 +1,5 @@
+Im Haushaltsbericht soll eine Grafik eingearbeitet werden, welche den Verbrauch des
+Haushaltes darstellt. Siehe Abbildung 4. Die Grafik müsste an die Personenanzahl des
+Haushaltes angepasst werden (1, 2, 3, 4, 5-10). Der Verbrauchsbereich wird vom Projekt
+vorgegeben. Die Darstellung der Grafiken muss für schwarz/weiß-Ausdrucke optimiert
+werden.

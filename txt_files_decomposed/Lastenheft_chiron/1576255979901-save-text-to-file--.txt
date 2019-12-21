@@ -1,0 +1,2 @@
+Handrad und Handbediengerät kann von der Maschinensteuerung
+abhängig sein. Abstimmung mit dem Sachbearbeiter

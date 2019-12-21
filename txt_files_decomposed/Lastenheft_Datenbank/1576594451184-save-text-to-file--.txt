@@ -1,0 +1,2 @@
+Backend: Backend beschreibt die Programmierung und die Funktionen im Hintergrund
+der Datenbank. Hierzu gehören das Datenmodell und auch die Datenbankstruktur.

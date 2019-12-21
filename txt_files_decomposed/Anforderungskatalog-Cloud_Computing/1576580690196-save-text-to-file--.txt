@@ -1,0 +1,5 @@
+Ausnahmen
+gelten für Daten, die für die Erbringung des
+Cloud-Dienstes funktionsbedingt nicht verschlüsselt sein können. Die für die Verschlüsselung
+verwendeten privaten Schlüssel sind ausschließlich dem Kunden nach geltenden rechtlichen und
+regulatorischen Verpflichtungen und Anforderungen bekannt.

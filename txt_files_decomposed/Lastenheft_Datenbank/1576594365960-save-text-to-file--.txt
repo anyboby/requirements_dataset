@@ -1,0 +1,4 @@
+In der neuen
+Datenbank soll das Jahr der Erstinbetriebnahme erfasst werden. Die Datenbank soll dann
+automatisch das Alter berechnen. Somit könnten die Standorte Auswertungen über das
+Alter der Kühlgeräte erstellen, um Haushalte gezielt anzusprechen.

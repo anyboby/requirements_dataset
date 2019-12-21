@@ -1,0 +1,3 @@
+Das Ergebnis der Serviceberechnung inklusive der Berechnungsschritte muss am Bildschirm darstellbar und druckbar sein. Die eingegebenen Daten und das Ergebnis der
+Serviceberechnung sollen in einer bestehenden oder neu angelegten elektronischen
+Akte speicherbar sein.

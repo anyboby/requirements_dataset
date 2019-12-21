@@ -1,0 +1,8 @@
+Sicherheitsanforderungen an Dienstleister
+und Lieferanten des Cloud-Anbieters
+Basisanforderung
+Richtlinien und Anweisungen zur Sicherstellung
+des Schutzes von Informationen auf die sonstige Dritte (z. B. Dienstleister bzw. Lieferanten
+des Cloud-Anbieters), die wesentliche Teile zur
+Entwicklung oder zum Betrieb des Cloud-Dienstes beitragen, sind gemäß SA-01 dokumentiert,
+kommuniziert und bereitgestellt.

@@ -1,0 +1,3 @@
+Verdeckte Geräte sind zusätzlich auf den Verkleidungen zu kennzeichnen.
+Die Kennzeichnung der Komponenten muss mit dem Schaltplan
+übereinstimmen.

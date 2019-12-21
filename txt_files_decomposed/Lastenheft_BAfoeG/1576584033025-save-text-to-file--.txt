@@ -1,0 +1,1 @@
+Die Software muss dem Sachbearbeiter die Möglichkeit bieten, eine Einkommensunterdrückung nach § 50 Abs. 2 S. 3 BAföG für den Bescheiddruck aktivieren zu können.

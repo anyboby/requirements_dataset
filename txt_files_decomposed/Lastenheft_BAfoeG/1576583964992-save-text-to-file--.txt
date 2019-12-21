@@ -1,0 +1,4 @@
+Für die Ermittlung der Förderung im Rahmen des Schüler-BAföG muss die Software
+dem Sachbearbeiter die Möglichkeit bieten, relevante Fehlzeiten des Antragstellers zu
+berechnen und das Ergebnis (Betrag in Höhe der nicht auszuzahlenden Förderung) in
+der Software zu dokumentieren.

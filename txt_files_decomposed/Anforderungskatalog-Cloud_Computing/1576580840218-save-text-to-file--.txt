@@ -1,0 +1,7 @@
+Richtlinien und Anweisungen mit technischen
+und organisatorischen Maßnahmen zum Schutz
+der Datenübertragung vor unbefugtem Abfangen,
+Manipulieren, Kopieren, Modifizieren, Umleiten
+oder Vernichten (z. B. Einsatz von Verschlüsselung) sind gemäß SA-01 dokumentiert, kommuniziert und bereitgestellt. Die Vorgaben stellen
+einen Bezug zur Klassifikation von Informationen
+her (vgl. AM-05).

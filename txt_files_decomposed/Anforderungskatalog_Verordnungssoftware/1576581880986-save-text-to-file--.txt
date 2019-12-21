@@ -1,0 +1,3 @@
+Das Ergebnis der Vergleichssuche muss aufsteigend nach AVP – bei Arzneimitteln gemäß
+AMPreisV bzw. bei nicht verschreibungspflichtigen Arzneimitteln gemäß § 129 Abs. 5a SGB
+V sortiert (d. h. das Preiswerteste oben) angezeigt werden.

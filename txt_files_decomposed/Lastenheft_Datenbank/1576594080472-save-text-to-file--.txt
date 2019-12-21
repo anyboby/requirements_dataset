@@ -1,0 +1,4 @@
+In der Datenbank gibt es die Möglichkeit neue Stromsparhelfer anzulegen.
+Stromsparhelfer können einer Region, einem Standort und einem Ausbildungstrainer
+zugewiesen werden. Die bestehenden Funktionen sollen beibehalten werden und durch
+neue Funktionen erweitert werden.

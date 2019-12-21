@@ -1,0 +1,7 @@
+Optionale, weitergehenden Anforderungen
+(Vertraulichkeit und Verfügbarkeit)
+Vorgaben der Unternehmensleitung für den
+Risikoappetit und die Risikotoleranzen des
+Cloud-Anbieters sind in der Richtlinie für das
+Risikomanagement oder einem vergleichbaren
+offiziellen Dokument enthalten.

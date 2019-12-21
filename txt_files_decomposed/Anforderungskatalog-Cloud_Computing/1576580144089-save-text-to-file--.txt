@@ -1,0 +1,5 @@
+Richtlinien und Anweisungen mit technischen
+und organisatorischen Maßnahmen zur sicheren
+Handhabung von Metadaten (Nutzungsdaten)
+sind gemäß SA-01 dokumentiert, kommuniziert
+und bereitgestellt.

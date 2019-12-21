@@ -1,0 +1,6 @@
+Die Verwendung von Notfallbenutzern (für Aktivitäten, die mit personalisierten, administrativen
+Benutzern nicht durchgeführt werden können,
+vgl. IDM-06) ist dokumentiert, zu begründen und
+bedarf der Genehmigung durch eine autorisierte
+Person, die unter Berücksichtigung des Prinzips
+der Funktionstrennung zu erfolgen hat.

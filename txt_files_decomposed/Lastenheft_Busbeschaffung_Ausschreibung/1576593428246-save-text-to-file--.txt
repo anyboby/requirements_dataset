@@ -1,0 +1,1 @@
+Kraftstoffanzeige auf Armaturentafel mit konkreter Restmengenangabe. Die Gelbfehlermeldung im Display soll erst bei einer Kraftstoffreserve von 10 % des Tankvolumens erscheinen.

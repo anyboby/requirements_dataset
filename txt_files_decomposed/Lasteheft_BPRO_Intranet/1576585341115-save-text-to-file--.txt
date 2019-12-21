@@ -1,0 +1,22 @@
+Um eine Durchgängigkeit der Daten zu erreichen ist auf die folgenden Punkte zu achten:
+ Falls Software auf Arbeitsplatzrechnern benötigt wird, muss diese unter Windows 7
+SP1 und neuer, bei Servern unter Windows 2008 Server Betriebssystem und neuer
+bzw. SLES in aktueller Version laufen.
+ Wird auf dem Anlagenrechner ein Windows Betriebssystem eingesetzt, so ist dies mit
+dem in der BPRO verwendeten Antivirusprogramm auszustatten. Ausnahme sind
+Rechner ohne Netzwerkanbindung in das BPRO -Netzwerk
+ Die Maschine muss die Möglichkeit zur Datensicherung der Programmierdaten über
+genormte Datenspeichergeräte (externe USB- Festplatte / USB- Stick) haben.
+ Zu liefern ist die gesamte Software mit Zubehör einschließlich Handbücher im Original,
+die für das Einrichten, Betrieb, Wartung und Instandhaltung der Maschinen, Anlagen
+und Einrichten erforderlich ist, wie z.B. Programmier- und Systemsoftware, Quellcode,
+Treiber, Software – Zertifikate, Softwareschutz (z.B. Autorisierungsdiskette, Dongle,
+etc.), Parameterdaten von Komponenten einschließlich der notwendigen Hardware
+(z.B. Leitungen, Schnittstellenkarten, Umsetzer). Andere Software (z.B. SPS Software,
+ProTool, etc.) ist von der Lieferung ausgenommen. Die gesamte Software und Dokumentation ist in deutscher Sprache zu liefern.
+ Softwaretools zur Wartung, Datensicherung und für Testfunktionen sind der BPRO
+auszuhändigen.
+ Soll eine Datenbank zentral im BPRO -Netzwerk abgelegt werden, so kommen nur
+folgende zwei Datenbanksysteme zum Einsatz:
+ Oracle ab Version 11.2
+ Microsoft SQL Server ab Version 2012

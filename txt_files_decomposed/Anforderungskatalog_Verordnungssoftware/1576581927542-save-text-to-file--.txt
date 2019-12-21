@@ -1,0 +1,3 @@
+Liegt zu den jeweiligen Suchparametern kein
+rabattiertes Arzneimittel vor, so ist dem Anwender ein entsprechender Hinweis zu geben und
+das Suchergebnis ohne die Eingrenzung auf rabattierte Arzneimittel anzuzeigen.

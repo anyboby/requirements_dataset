@@ -1,0 +1,2 @@
+Die Tests sind so gestaltet, dass die Verlässlichkeit
+der Sicherungsdatenträger und die Wiederherstellungszeit mit hinreichender Sicherheit überprüft

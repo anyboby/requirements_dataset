@@ -1,0 +1,3 @@
+Freischaltung des Notfallbenutzers erfolgt nur
+so lange, wie es für die Aufgabenwahrnehmung
+notwendig ist.

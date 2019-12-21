@@ -1,0 +1,10 @@
+Der Cloud-Kunde wird durch den Cloud-Anbieter
+regelmäßig und in einer angemessener Form, die
+den vertraglichen Vereinbarungen entspricht,
+über den Status der ihn betreffenden Störungen
+(Incidents) informiert oder in deren Behebung
+eingebunden. Sobald ein Incident aus Sicht
+des Cloud-Anbieters behoben wurde, wird der
+Cloud-Kunde über die getroffenen Maßnahmen
+informiert. Diese Information ist so detailliert,
+dass der Cloud-Kunde sie in seinem Sicherheitsmanagement verwenden kann.

@@ -1,0 +1,7 @@
+Der Lokalkoordinator erhält in der Datenbank eine Löschliste mit den Datensätzen, die
+gelöscht werden sollen. Datensätze, die in „Prüfung“, „Nachkontrolle“ oder
+Abgeschlossen“ sind, können nur von dem Admin gelöscht werden. Dieser soll, wie auch
+der Lokalkoordinator eine Liste bekommen, in der die Datensätze zum Löschen
+aufgelistet sind. Die Datenbank soll dabei selbst zuordnen, ob der Lokalkoordinator oder
+der Admin den Löschauftrag bekommt. Ggf. sollte es auch möglich sein, den Datensatz
+in der Datenübersicht zu löschen.

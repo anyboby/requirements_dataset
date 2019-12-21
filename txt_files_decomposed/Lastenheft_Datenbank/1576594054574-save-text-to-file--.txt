@@ -1,0 +1,5 @@
+Das Löschen von Datensätzen ist zu aufwändig. Der Admin muss mehrere Klicks bis zum
+Löschen durchführen. Um derzeit einen Datensatz zu löschen, muss dieser erst gesucht
+und geöffnet werden, um diesen dahingehend zu prüfen, ob der Datensatz gelöscht
+werden kann. Als Nächstes muss die Suchmaske wieder aufgerufen werden, um dort den
+Datensatz zu löschen. Diese Löschmaske muss wiederum bestätigt werden.

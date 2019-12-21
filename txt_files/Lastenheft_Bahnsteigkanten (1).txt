@@ -1,0 +1,1511 @@
+Anforderungsmanagement
+
+Technisches Lastenheft
+für Bahnsteigkanten aus Betonfertigteilen von Bahnsteigkonstruktionen in
+BSK-Bauweise
+im Bereich von Infrastrukturanlagen der DB AG
+
+Version 0.1
+DB Station&Service AG
+Bautechnik
+Infrastrukturelle Grundsätze I.SBB(1)
+Europaplatz 1, 10557 Berlin
+
+Impressum
+Herausgebende Stelle:
+DB Station&Service AG
+Infrastrukturelle Grundsätze
+Weilburger Straße 22
+60326 Frankfurt am Main
+Bearbeiter/Ersteller:
+Angelika Brantzko
+Angelika.brantzko@deutschebahn.com
+Tel.: +49/ 69/ 265-24592
+Fax: +49/ 69/ 265-24509
+
+Seite 2
+
+Inhaltsverzeichnis
+1 Allgemeines
+
+4
+
+1.1 Zweck des Dokumentes
+
+4
+
+1.2 Anwendungsbereich
+
+4
+
+1.3 Vertraulichkeit
+
+4
+
+2 Ziele und Nutzen
+
+5
+
+2.1 Ausgangssituation
+
+5
+
+2.2 .Zielsetzung
+
+5
+
+2.3 Pflichtenheft und Anwenderfreigabe
+
+5
+
+3 Produkteinsatz
+
+6
+
+3.1 Produktbeschreibung
+
+6
+
+3.2 Rahmenbedingungen
+
+6
+
+3.3 Systemumgebung und Schnittstellen
+
+6
+
+4 Anforderungskataloge
+
+8
+
+4.1 Erläuterungen
+4.1.1 Gliederung und Aufbau
+4.1.2 Nachweisführung
+
+8
+8
+8
+
+4.2 Funktionaler Anforderungskatalog
+4.2.1 Allgemeines
+4.2.2 Konstruktion
+4.2.3 Tragfähigkeit
+4.2.4 Verkehrssicherheit
+4.2.5 Dauerhaftigkeit
+
+10
+10
+11
+12
+13
+14
+
+4.3 Nichtfunktionaler Anforderungskatalog
+4.3.1 Qualitätssicherung
+4.3.2 Termin- und Kostenrahmen
+4.3.3 Abnahme/Anwenderfreigabe
+
+16
+16
+17
+18
+
+5 Mitgeltende Dokumente
+
+19
+
+5.1 Definitionen und Abkürzungen
+
+19
+
+5.2 Normen/Regelwerke
+
+19
+
+5.3 Anlagen
+
+20
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Seite 3
+
+1 Allgemeines
+1.1 Zweck des Dokumentes
+Dieses Technische Lastenheft regelt die technischen Spezifikationen für Bahnsteigkanten und
+Fundamente aus Betonfertigteilen von Bahnsteigkonstruktionen in BSK-Bauweise, die einer
+Anwenderfreigabe durch die DB Station&Service AG bedürfen.
+Die Erfüllung der in diesem Lastenheft genannten Anforderungen ist Voraussetzung für die Erteilung der Anwenderfreigabe.
+1.2 Anwendungsbereich
+Das Lastenheft gilt für Bahnsteigkanten einschließlich zugehöriger Fundamente aus Betonfertigteilen und deren Verwendung in Personenbahnhöfen der DB AG bei
+•
+
+Neu- und umfassenden Umbauten von Bahnsteigen
+
+•
+
+Teilumbauten oder Verlängerungen von Bahnsteigen
+
+1.3 Vertraulichkeit
+Das vorliegende Lastenheft ist urheberrechtlich geschützt. Der DB Station&Service AG steht an
+dem Lastenheft das ausschließliche und uneingeschränkte Nutzungsrecht zu.
+Vervielfältigungen zum Zweck einer anderweitigen Nutzung bedürfen der Zustimmung der DB
+Station&Service AG durch die geschäftsverantwortliche Stelle. Es ist nur für den vorgesehenen
+Zweck gestattet, das Lastenheft an Dritte weiterzuleiten.
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Seite 4
+
+2 Ziele und Nutzen
+2.1 Ausgangssituation
+Seit dem Entfall der EBA-Typzulassung für Bahnsteige und Bahnsteigsysteme wurde seitens
+der DB Station&Service AG als Übergangslösung eine temporäre Freigabe für Bahnsteigkanten
+aus Betonfertigteilen meist noch auf der Grundlage der ehemaligen EBA-Typzulassung erteilt.
+Eine systematische und vollständige Zusammenstellung aller Anforderungen an Bahnsteigkanten und zugehöriger Fundamente aus Betonfertigteilen einschließlich der erforderlichen Nachweisführung durch den Hersteller/Anbieter in Form eines Technischen Lastenheftes fehlte bisher.
+An Stelle der ehemaligen EBA-Typzulassung für Bahnsteigkonstruktionen ist eine Anwenderfreigabe der DB Station&Service AG erforderlich.
+2.2 .Zielsetzung
+Mit diesem Technischen Lastenheft wird nun ein einheitlicher und nachweisbarer Qualitätsstandard definiert, der für alle Hersteller/Anbieter von Bahnsteigkanten und Fundamente aus Betonfertigteilen von Bahnsteigkonstruktionen in BSK-Bauweise gilt. Es bildet die Grundlage
+• für den Hersteller/Anbieter von Bahnsteigkanten und Fundamente aus Betonfertigteilen
+und seinen Antrag auf Anwenderfreigabe
+• für die DB Station&Service AG zur Bewertung der Antragsunterlagen zwecks Erteilung
+einer Anwenderfreigabe (Typfreigabe).
+Nach dem vorliegenden Technischen Lastenheft können auch Bahnsteigkanten aus Betonfertigteilen von Bahnsteigkonstruktionen in BSK-Bauweise optimiert oder weiterentwickelt werden.
+2.3 Pflichtenheft und Anwenderfreigabe
+Der Hersteller/Anbieter von Bahnsteigkanten und zugehöriger Fundamente aus Betonfertigteilen bestätigt die technische Umsetzung und die Erfüllung der Anforderungen dieses Technischen Lastenheftes in einem sogenannten Pflichtenheft.
+Das Pflichtenheft muss alle im Technischen Lastenheft unter Kapitel 4 Anforderungskataloge
+aufgeführten Unterlagen und Nachweise beinhalten. Die Gliederung des Pflichtenheftes soll der
+Gliederung der Anforderungskataloge entsprechen.
+Die Anwenderfreigabe ist vom Hersteller/Anbieter zu beantragen bei:
+DB Station&Service AG
+Infrastrukturelle Grundsetze (I.SBB(1))
+Weilburger Straße 22
+60326 Frankfurt am Main
+Der Antrag auf Anwenderfreigabe kann auch separat für Bahnsteigkanten inklusive Abdecksteine aus Betonfertigteilen oder Fertigteilfundamente gestellt werden.
+Eine Anwenderfreigabe wird erteilt, wenn der Hersteller/Anbieter mit den eingereichten Unterlagen die Nachweisführung entsprechend der Anforderungskataloge vollständig erbracht hat.
+Die Anwenderfreigabe wird befristet für einen Zeitraum von maximal 5 Jahren erteilt. Bei Vorliegen besonderer Gründe kann eine erteilte Anwenderfreigabe widerrufen werden.
+Hersteller/Anbieter mit Anwenderfreigabe werden in die Liste „Anwenderfreigaben für Bauelemente“ aufgenommen, die auf der Informationsplattform Anlagentechnik, Bautechnik und ITK
+unter dem Bereich Anwenderfreigaben für Bauelemente aktuell veröffentlicht wird.
+Im Verwendungsfall im Zuge eines konkreten Bauprojektes hat der Hersteller/Anbieter
+• eine Kopie des Freigabeschreibens zur Anwenderfreigabe einschließlich der zugehörigen technischen Unterlagen sowie
+• die Systembeschreibung, die Transportanweisung und die Einbauanweisung
+an den AN Bau oder Planer zu übergeben.
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Seite 5
+
+3 Produkteinsatz
+3.1 Produktbeschreibung
+Bahnsteigkonstruktionen in BSK-Bauweise bestehen aus einer Bahnsteigkante einschließlich
+Gründung und dem Bahnsteigkörper. Als Bahnsteigkante kommt ein Betonfertigteil (BSK) mit
+konstruktiver Bewehrung zum Einsatz, das auf einem Fundament (Ortbetonfundament oder
+Fertigeilfundament) gegründet wird. Der Bahnsteigkörper wird aus einer Hinterfüllung oder Erdkern aus frostsicherem, gut durchlässigen Boden und dem Bahnsteigbelag einschließlich Tragschicht hergestellt.
+Für Bahnsteigkonstruktionen in BSK-Bauweise kommen zum Einsatz:
+• Bahnsteigkanten aus Betonfertigteilen mit Regel- und Eckelementen für Bahnsteighöhe
+380 mm ü. SO
+• Bahnsteigkanten aus Betonfertigteilen mit Regel- und Eckelementen für Bahnsteighöhe
+550 mm ü. SO
+• Bahnsteigkanten aus Betonfertigteilen mit Regel- und Eckelementen einschließlich zugehöriger Abdecksteine für Bahnsteighöhe 760 mm ü. SO
+• Bahnsteigkanten aus Betonfertigteilen mit Regel- und Eckelementen einschließlich zugehöriger Abdecksteine für Bahnsteighöhe 960 mm ü. SO
+− ohne Sicherheitsraum
+− mit Sicherheitsraum
+Zudem können Fundamente aus Betonfertigteilen mit einer Höhe von 550 mm zur Gründung
+der Bahnsteigkanten verwendet werden.
+3.2 Rahmenbedingungen
+Grundlage für die Bemessung und Konstruktion von Bahnsteigen ist die Richtlinie 813.0201.
+In der Ril 813.0201 sind die statischen und konstruktiven Anforderungen geregelt. Das Lastenheft präzisiert die statischen und konstruktiven Anforderungen der Ril 813.0201 für Bahnsteigkanten und Fundamente aus Betonfertigteilen und ergänzt die Ril 813.0201 in Bezug auf eine
+einheitliche Nachweisführung.
+Bahnsteigkanten und zugehörige Fundamente aus Betonfertigteilen müssen generell für Außen- und Mittelbahnsteige an allen Gleisen, unabhängig von der Lage in der Gerade bzw. im
+Bogen und für Geschwindigkeiten bis maximal 230 km/h einsetzbar sein.
+Detaillierte Vorgaben zur Bemessung von Bahnsteigkanten und zugehöriger Fundamente enthalt die Anlage 1.
+Der geplante Nutzungszeitraum von Bahnsteigkonstruktionen in BSK-Bauweise mit Bahnsteigkanten aus Betonfertigteilen einschließlich Gründung beträgt 70 Jahre.
+3.3 Systemumgebung und Schnittstellen
+Für den Einbau der Bahnsteigkanten einschließlich Gründung gelten die als Baustandard eingeführten und nachfolgend aufgeführten Regelzeichnungen. In Abhängigkeit von der Bahnsteighöhe, dem Radius und der Überhöhung sind die Einbaumaße und zulässigen Einbautoleranzen
+nach Ril 813.0201A03, Abschnitt 3 anzuwenden.
+IseB BSK 5500 Bahnsteigkantenfertigteil BSK-Bauweise 550 mm ü. SO
+IseB BSK 7600 Bahnsteigkantenfertigteil BSK-Bauweise 760 mm ü. SO
+IseB BSK 9600 Bahnsteigkantenfertigteil BSK-Bauweise 960 mm ü. SO ohne Sicherheitsraum
+IseB BSK 9601 Bahnsteigkantenfertigteil BSK-Bauweise 960 mm ü. SO mit Sicherheitsraum
+IseB BLG 02
+Abdeckstein mit Tropfnase für Bahnsteigkante 760 mm / 960 mm ü. SO
+Hinweise:
+In den Regelzeichnungen ist der Regeleinbau für Bahnsteigkanten mit einem Längenrastermaß
+von 1,00 m dargestellt. Bahnsteigkanten mit einem Längenraster von 2,00 m sind analog einzuTechnisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Seite 6
+
+bauen, der Luftspalt (Fuge zur Gewährleistung der Mindestluftstrecke gemäß Ril 997.xxxx) ist
+dann nach jedem 4. bis 5. Element vorzusehen.
+Anstelle des Ortbetonfundamentes kann auch ein Fertigteilfundament verwendet werden.
+Der Einbau der Bausteigkanten und zugehöriger Fundamente durch den AN Bau erfolgt in der
+Regel mit üblichen Zwei-Wege-Fahrzeugen.
+Die Bahnsteigkante bildet den konstruktiven Abschluss des Bahnsteiges zu Gleisseite hin. Die
+Oberfläche der Bahnsteigkante (Kantenabdeckung) unterliegt somit gesonderten Anforderungen an die visuelle und taktile Erkennbarkeit.
+Einwirkungen wie Regen, Frost, Tausalze, Reinigungsmittel, Bremsstaub und für öffentliche
+Verkehrsflächen typische Verunreinigungen (z. B. Kaffee, Cola) treten im Zuge der Nutzung auf.
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Seite 7
+
+4 Anforderungskataloge
+4.1 Erläuterungen
+4.1.1 Gliederung und Aufbau
+Die folgenden Anforderungen beschreiben das Bauelement in seiner Gesamtheit und sollen
+durch ein Optimum aus Funktionalität, Leistungsfähigkeit, Zuverlässigkeit, Benutzbarkeit, Effizienz und Wirtschaftlichkeit vom Herstellern/Anbietern realisiert werden.
+Die technischen Anforderungen sind in zwei Anforderungskataloge unterteilt. Der funktionale
+Anforderungskatalog beschreibt dabei die produktspezifischen Vorgaben (was soll das Produkt
+können). Der nicht funktionale Anforderungskatalog beschreibt die produktbegleitenden Vorgaben wie beispielsweise die Qualitätssicherung oder Termine und Kosten.
+Die jeweiligen Anforderungen sind dabei wie folgt tabellarisch aufgelistet.
+Anforderungskatalog
+
+Nr.
+
+Attribut
+
+n
+
+Anforderung
+
+Nachweis
+
+Beschreibung
+
+Spezifikation
+
+Quelle
+
+Verfahren
+
+Dokument
+
+Muss/
+Info
+
+<Text>
+
+<Text>
+
+<Text>
+
+<Text>
+
+<Text>
+
+muss
+
+Rutschhemmung
+
+R11
+
+Ril
+813.0201
+
+gem. DIN
+51130
+
+Prüfzertifikat
+
+Beispiel
+
+•
+
+Die Spalte „Nr.“ dient der eindeutigen Identifizierung der Anforderung.
+
+•
+
+Die Spalte „Attribut“ gibt dabei die Wertigkeit der Forderungen an, die wie folgt kodiert ist:
+o
+
+Die Musskriterien beschreiben die zwingend erforderlichen und zu erfüllenden Anforderungen, welche bei Nichterfüllung zum Ausschluss führen können.
+
+o
+
+Das Kriterium Info dient rein zum besseren Verständnis (kein Nachweis notwendig)
+
+•
+
+Die Spalte „Beschreibung“ beschreibt die Anforderung in Textform und verweist wo nötig
+auf entsprechende Anhänge/Dokumente.
+
+•
+
+Die Spalte „Spezifikation“ spezifiziert ggf. die Anforderung durch Grenzwerte/Maße etc.
+
+•
+
+Die Spalte „Quelle“ definiert die zugrundliegende Quelle (Norm, Fachblatt, TSI/EBA, DB)
+
+•
+
+Die Spalte „Verfahren“ beschreibt die erforderliche Nachweisführung (vgl. Kap. 4.2)
+
+•
+
+Die Spalte „Dokument“ definiert das erforderliche Nachweisdokument (Prüfbericht, Plan,
+Prüfzeugnis, etc.)
+
+4.1.2 Nachweisführung
+Bemessung und Konstruktion müssen den anerkannten Regeln der Technik und Technischen
+Baubestimmungen (ELTB und EBRL) entsprechen und dürfen nur nicht wesentlich von ihnen
+abweichen. Sämtliche verwendete Bauprodukte müssen für den geplanten Einsatzzweck über
+einen (eisenbahnspezifischen) Verwendbarkeitsnachweis verfügen.
+Es werden Nachweise vom Hersteller/Anbieter bzw. Auftragnehmer gefordert, um die Erfüllung
+der aufgeführten Anforderungen prüfen zu können. Es sind die, in den einzuhaltenden Normen
+bzw. Regelwerken und in diesem Lastenheft geforderten Spezifikationen und Prüfungen zu erfüllen und entsprechend zu dokumentieren (Nachweisdokument).
+Optimierte oder geänderte Formen von Bahnsteigkanten sind vor Antragstellung mit der o. g.
+anlagentypverantwortlichen Organisationseinheit der DB Station&Service AG abzustimmen.
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Seite 8
+
+Abweichungen oder Änderungen gegenüber dem Lastenheft, oder nicht explizit beschriebene
+Sachverhalte bzw. technische Ausprägungen, sowie Beschreibungen, aus denen Interpretationsspielräume herausgearbeitet werden, sind vorab mit der DB Station&Service AG abzustimmen und schriftlich freigeben zu lassen.
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Seite 9
+
+4.2 Funktionaler Anforderungskatalog
+4.2.1 Allgemeines
+Nr
+
+Attribut
+
+Anforderung
+Kurztext
+
+Nachweis
+Spezifikation
+
+Quelle
+
+Verfahren
+
+Dokument
+
+-
+
+DB
+
+-
+
+Schriftliche
+Bestätigung
+
+Es ist eine allgemeine Systembeschreibung zu erstellen
+
+-
+
+DB
+
+-
+
+Systembeschreibung
+
+Es ist eine Transportanweisung zu erstellen
+
+-
+
+DB
+
+-
+
+Transportanweisung
+
+-
+
+DB
+
+-
+
+Einbauanweisung
+
+Beschreibung
+
+Für die werksmäßige Herstellung der Bahnsteigkanten einschließlich zugehöriger Fundamente sind die anerkannten ReEinhaltung
+geln der Technik, insbesondere die vom Eisenbahn-Bundesamt
+der anerkanneingeführten technischen Baubestimmungen (ELTB und EBRL)
+ten Regeln
+und bauaufsichtlichen Genehmigungsverfahren einzuhalten,
+der Technik
+insbesondere die unter Kap. 5.2 genannten mitgeltende Normen und Richtlinien.
+
+1
+
+muss
+
+2
+
+muss
+
+Systembeschreibung
+
+3
+
+muss
+
+Transportanweisung
+
+4
+
+muss
+
+EinbauanweiEs ist eine Einbauanweisung zu erstellen.
+sung
+
+Lastenheft
+10
+
+4.2.2 Konstruktion
+AttriNr
+but
+
+Anforderung
+Kurztext
+
+Beschreibung
+
+Nachweis
+Spezifikation
+
+Quelle
+
+Verfahren
+
+Dokument
+
+DB
+
+Planunterlagen (Schalpläne mit entsprechenden
+Maßketten)
+
+Schalpläne
+Bahnsteigkanten einschl.
+Abdecksteine
+Schalpläne
+Bahnsteigkanten einschl.
+Abdecksteine
+
+muss
+
+Abmessung
+Bahnsteigkante
+
+Die sichtbaren Seiten der Bahnsteigkanten werden in den Abmessungen nach Anlagen 2 bis 6 im Rahmen der zulässigen
+Toleranzen hergestellt.
+
+muss
+
+Längenrastermaß
+
+Das Längenrastermaß der Regelelemente beträgt in der Regel
+1,00 m, ein Längenraster von 2,00 m ist unter Berücksichtigung
+der Anforderungen an das Gewicht eines Fertigteil-Elementes
+möglich.
+
+-
+
+DB
+
+Planunterlagen (Schalpläne mit entsprechenden
+Maßketten)
+
+muss
+
+Rückseite
+
+Die rückseitige Ausbildung der Bahnsteigkanten im Bereich der
+Hinterfüllung kann herstellerbezogen nach den statischkonstruktiven Erfordernissen erfolgen. Dabei ist zu beachten,
+dass ein Verdichten der lagenweise einzubauenden Hinterfüllung gut möglich ist.
+
+-
+
+DB
+
+Darstellung in den Konstruktionsplänen
+
+Konstruktionspläne
+
+8
+
+muss
+
+Abmessungen Fundament
+
+Die Fertigteilfundamente sind mit einer Höhe von 550 mm herzustellen. Die Länge und Breite der Fertigteilfundamente ist in
+Abhängigkeit von den statisch-konstruktiven Anforderungen zu
+wählen.
+
+-
+
+DB
+
+Planunterlagen (Schalpläne mit entsprechenden
+Maßketten)
+
+Schalpläne
+Fundament(e)
+
+9
+
+muss
+
+Tropfnasen
+
+Abdecksteine sind mit Tropfnase und rauer Oberflächentextur
+an der Unterseite herzustellen.
+
+-
+
+DB
+
+Darstellung in den Konstruktionsplänen
+
+Konstruktionspläne
+
+5
+
+6
+
+7
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Anlagen
+2 bis 6
+
+Seite 11
+
+4.2.3 Tragfähigkeit
+AttriNr
+but
+
+10
+
+muss
+
+Anforderung
+Kurztext
+
+Beschreibung
+
+Standsicherheit
+
+Die Bahnsteigkanten und zugehörigen Fundamente sind ausreichend zu bemessen. Anzusetzen sind die in der Anlage 1
+zusammengestellten Einwirkungen.
+Die bautechnischen Unterlagen mit Standsicherheitsnachweisen und Schal- und Bewehrungsplänen müssen durch einen
+vom Eisenbahn-Bundesamt anerkannten bautechnischen
+Prüfingenieur geprüft sein (ohne Änderungseinträge in grüner
+Farbe).
+Sind Transportanker erforderlich müssen diese sicher (statisch
+geprüft) und geeignet sein und grundsätzlich demontierbar sein.
+Die Transport- und ggf. Schalanker dürfen nicht korrodieren.
+Transportanker müssen über einen Verwendbarkeitsnachweis
+verfügen. Die Anwendungsgrenzen des Verwendbarkeitsnachweises sind einzuhalten. Dies ist durch den bautechnischen
+Prüfer zu prüfen.
+
+11
+
+muss
+
+Transportanker
+
+12
+
+muss
+
+Stahlgüte
+
+Die Stahlgüte der Betonstahlbewehrung muss mindestens B
+500 A nach DIN 488 betragen.
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Nachweis
+Spezifikation
+
+Quelle
+
+Verfahren
+
+Dokument
+
+Anlage 1
+
+DIN EN
+1991-11/NA,
+DB Ril.
+813.0201
+
+Standsicherheitsnachweise und Planunterlagen
+(Schal- und Bewehrungspläne) und bautechnische
+Prüfung
+
+Bautechnischer
+Prüfbericht mit
+Prüfstatik und
+geprüften Planunterlagen
+(ohne Grüneintragungen)
+
+-
+
+DB
+
+Die Sicherheit und Eignung der Transportanker
+ist durch einen Eignungsnachweis zu belegen.
+
+Allg. bauaufsichtliche Zulassung oder
+Prüfzeugnis
+
+B 500 A
+
+DB
+
+-
+
+Stahlsortennachweis
+
+Seite 12
+
+4.2.4 Verkehrssicherheit
+AttriNr
+but
+
+13
+
+14
+
+15
+
+16
+
+Anforderung
+Kurztext
+
+Beschreibung
+
+Nachweis
+Spezifikation
+
+Quelle
+
+Verfahren
+
+Dokument
+
+R11
+
+DIN 51130
+
+Prüfverfahren“ Schiefe
+Ebene“ nach DIN 51130
+
+Prüfzertifikat
+
+muss
+
+Rutschhemmung
+
+Die bahnsteigseitige Oberfläche der Bahnsteigkanten (Kantenabdeckung) muss rutschhemmend sein und mindestens einen
+R-Wert von R 11 gemäß DIN 51130 aufweisen.
+
+muss
+
+Oberflächenstruktur
+
+Die bahnsteigseitige Oberfläche der Bahnsteigkanten (Kantenabdeckung) ist entsprechend Ril 813.0205 mit taktiler, besonders griffiger Struktur auszuführen.
+
+DB Ril
+813.0205
+
+Planunterlage mit Darstellung der Oberflächenstruktur oder Beschreibung mit
+Foto
+
+Planunteralge
+oder Beschreibung mit Foto
+
+Kontrast
+
+Die bahnsteigseitige Oberfläche der Bahnsteigkanten (Kantenabdeckung) ist entsprechend Ril 813.0205 in weiß/sehr hell
+auszuführen. Gemäß TM 2015-13 I.SBB (Kontrastgestaltung
+der Personenbahnhöfe nach TSI PRM 2015) muss hierfür ein
+LRV-Wert (Lichtreflexionsgrad) von ≥ 50 eingehalten werden.
+
+LRV ≥ 50
+
+TM 201513 I.SBB
+
+Prüfung gemäß TM 201513 I.SBB (Kontrastgestaltung der Personenbahnhöfe nach TSI PRM 2015)
+
+Prüfzertifikat
+
+Farbgestaltung
+
+Die Abdecksteine bzw. Bahnsteigkanten ohne Abdecksteine mit
+Anforderungen an den Kontrast müssen integral durchgefärbt
+sein (z. B. durch die Verwendung von Weißzement und hellen
+Zuschlagsstoffen oder Vorsatzbeton). Nachträgliche Farbaufträge oder Beschichtungen sind nicht zulässig.
+
+-
+
+DB
+
+-
+
+Beschreibung
+der Ausführung
+
+muss
+
+muss
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Seite 13
+
+4.2.5 Dauerhaftigkeit
+AttriNr
+but
+
+17
+
+Anforderung
+Kurztext
+
+Nachweis
+Spezifikation
+
+Quelle
+
+Verfahren
+
+Dokument
+
+-
+
+DIN EN
+206
+
+Übereinstimmung Beton
+nach Eigenschaften in
+Fertigteilwerken
+
+Übereinstimmungszertifikat
+nach Bauregelliste A, Teil 1
+
+DIN EN
+1992-1-1
+
+Übereinstimmung mit Expositionsklassen
+
+Bestätigung
+über Betonrezeptur
+
+-
+
+DIN EN
+1992-1-1
+
+Darstellung und Angaben
+Maße in Planunterlagen
+
+Planunterlagen
+
+Nachbehand- Die Nachbehandlung der Stahlbetonfertigteile ist nach DIN EN
+lung
+13670 einzuhalten.
+
+-
+
+DIN EN
+13670
+
+Methoden gemäß DIN EN
+13670 -
+
+schriftliche
+Bestätigung
+
+Zur Sicherstellung der Dauerhaftigkeit und Gewährleistung der
+technischen Nutzungsdauer werden zusätzlich folgende Anforderungen an die Bahnsteigkantenelemente und Abdecksteine
+gestellt (gilt nicht für Fundamente)
+
+-
+
+DB
+
+-
+
+-
+
+Die Gesteinskörnung muss eine gedrungene Kornform ohne
+Ausfallkörnungen besitzen
+
+-
+
+DB
+
+-
+
+schriftliche
+Bestätigung
+
+≤ 22,4 mm
+
+DB
+
+-
+
+Schriftliche
+Bestätigung
+
+MS18
+
+DIN EN
+12620
+
+Prüfung Magnesiumsulfatwiderstand gemäß
+DIN EN 12620
+
+Prüfzertifikat für
+Betonrezeptur
+
+Beschreibung
+
+Beton nach Es wird ein Beton nach Eigenschaften gemäß DIN EN 206 gemuss
+Eigenschaften fordert.
+
+18
+
+muss
+
+Expositionsklassen
+
+19
+
+muss
+
+Betondeckung
+
+20
+
+muss
+
+Es werden folgende Expositionsklassen gefordert:
+Bahnsteigkanten (Regel-/Eckelemente):
+XF4, XC4, XD3, Feuchtigkeitsklasse WA
+Abdeckstein:
+XF4, XC4, XD3, XM1, Feuchtigkeitsklasse WA
+Fundamente:
+XF1, XC2, Feuchtigkeitsklasse WF
+Die Mindestbetondeckung ist gemäß DIN EN 1992-1-1 einzuhalten
+
+21
+
+Info
+
+Dauerhaftigkeit
+
+22
+
+muss
+
+Gesteinskörnung
+
+23
+
+muss
+
+Größtkorn
+
+Größtkorn der Gesteinskörnungen ≤ 22,4 mm
+
+24
+
+muss
+
+FrostTausalzWiderstand
+
+Frost-Tausalz-Widerstand der Gesteinskörnung = Kategorie
+MS18 gemäß DIN EN 12620 (alternativ nach DIN EN 1367-6,
+Abwitterung ≤ 8%).
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+-
+
+Seite 14
+
+25
+
+muss
+
+Alkalireaktivität
+
+Es ist die Richtlinie des DAfStb „Vorbeugende Maßnahmen
+gegen schädigende Alkalireaktion im Beton“ anzuwenden
+
+26
+
+muss
+
+FrostTausalzWiderstand
+
+Für Stahlbetonbauteile, die in die Expositionsklasse XF 4 eingestuft sind, ist an Proben aus der Betonproduktion für die
+Bahnsteigfertigteile der Nachweis des Frost- und Tausalzwiderstandes zu führen. Dabei ist das in der DIN CEN/TS 12390-9
+(Vornorm von 08/2006) unter Punkt 7 aufgeführte CDFPrüfverfahren anzuwenden. Der Grenzwert der maximalen Abwitterung nach 28 Frost-Tausalzwechseln ist auf ≤ 800 g/m²
+festgelegt.
+
+27
+
+muss
+
+Sichtbetonklasse
+
+Die luftseitigen Ansichtsflächen müssen der Sichtbetonklasse
+SB2 gemäß Merkblatt Sichtbeton des DBV entsprechen.
+
+28
+
+muss
+
+Verfärbung
+Es sind keine Gesteinskörnungen mit zersetzlichen, eisenhaltidurch Gegen Bestanteilen zu verwenden (u.a. Pyrite)
+steinskörnung
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+DAfStb
+AlkaliRichtlinie
+
+Nachweis/Nennung der
+Alkaliempfindlichkeitsklasse der Gesteinskörnung
+
+Nachweisdokument
+
+≤ 800 g/m²
+
+DIN
+CEN/TS
+12390-9
+
+CDF-Prüfverfahren gemäß
+DIN CEN/TS 12390-9
+Dieser Nachweis ist die
+entsprechende Betonrezeptur sowie bei Änderungen der Betonrezeptur zu
+erbringen.
+
+Prüfzertifikat
+
+SB2
+
+DBV
+Merkblatt
+Sichtbeton
+
+Prüfung gemäß DBV
+Merkblatt
+
+Prüfzertifikat
+
+-
+
+DB
+
+-
+
+Schriftliche
+Bestätigung
+
+-
+
+Seite 15
+
+4.3 Nichtfunktionaler Anforderungskatalog
+4.3.1 Qualitätssicherung
+Nr
+
+29
+
+30
+
+31
+
+Attribut
+
+Anforderung
+Kurztext
+
+Beschreibung
+
+Nachweis
+Spezifikation
+
+Quelle
+
+Verfahren
+
+Eigen- und
+Fremdüberwachung
+
+Die Güteüberwachung – Eigen- und Fremdüberwachung – ist
+nach den Maßgaben der DIN 18200 in Verbindung mit der DIN
+EN 1992-1-1 für jedes Herstellerwerk durchzuführen.
+
+WPK und
+Fremdüberwachung
+
+Der Nachweis ist anhand
+der werkseigenen ProdukDIN 18200
+tionskontrolle durch eine
+in Verbinständige Betonprüfstelle in
+dung mit
+Verbindung mit einer
+der DIN
+Fremdüberwachung durch
+EN 1992eine anerkannte Überwa1-1
+chungsstelle zu realisieren.
+
+muss
+
+Q1Einstufung
+
+Die Bahnsteigkanten und zugehörige Fundamente aus Betonfertigteilen dürfen nur in zertifizierten Betonwerken hergestellt
+werden. aus und zugehöriger Fertigteilfundamente ist eine Q1Einstufung Im Rahmen der Anbieterbeurteilung erforderlich.
+Hierzu muss der Hersteller im Rahmen der LieferantenbeurteiQ1lung unter anderem nachweisen, dass seine FertigungseinrichEinstufung
+tungen, die Qualitätssicherungsmaßnahmen und die Personalqualifikation die von der DB Station&Service AG an das Produkt
+gestellten spezifischen Anforderungen erfüllen.
+Für Bahnsteigkanten und zugehöriger Fundamente ist eine Q1Einstufung erforderlich.
+
+Im Rahmen einer Auditierung überprüft die Qualitätssicherung der DB AG
+die fertigungstechnische
+und qualitative Leistungsfähigkeit des Herstellers.
+
+muss
+
+Schweißen
+von Betonstählen
+
+Für das Schweißen von Betonstählen hat der Hersteller die
+Eignung gemäß DIN EN ISO 17660 nachzuweisen.
+
+muss
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+DB
+
+Dokument
+
+Zertifizierung
+Eigen- und
+Fremdüberwachung
+
+Zertifikat Q1Einstufung
+
+EignungsnachHerstellerqualifikation nach
+DIN EN
+weis für das
+DIN EN ISO 17660-1 bzw.
+ISO 17660
+Schweißen von
+DIN EN ISO 17660-2
+Betonstahl
+
+-
+
+Seite 16
+
+32
+
+muss
+
+Kennzeichnung
+
+Vom Hersteller ist die Konformität mit den dieser Freigabe zu
+Grunde liegenden Unterlagen im Verwendungsfall zu bestätigen.
+Die Fertigteile sind entsprechend zu kennzeichnen. Auf jedem
+Fertigteil sind deutlich lesbar anzugeben:
+• Herstellerwerk
+• Datum der Herstellung
+• Übereinstimmungszeichen
+Für die Angaben auf dem Lieferschein gelten die Vorgaben
+nach DIN1045-4.
+
+-
+
+DB
+
+Dauerhafte Kennzeichnung der einzelnen Fertigteile
+
+Foto
+
+4.3.2 Termin- und Kostenrahmen
+Bleibt frei
+
+Nr
+
+Attribut
+
+Anforderung
+Kurztext
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Beschreibung
+
+Nachweis
+Spezifikation
+
+Seite 17
+
+Quelle
+
+Verfahren
+
+Dokument
+
+4.3.3 Abnahme/Anwenderfreigabe
+AttriNr
+but
+
+33
+
+34
+
+35
+
+36
+
+muss
+
+muss
+
+muss
+
+Info
+
+Anforderung
+Kurztext
+
+Nachweis
+Spezifikation
+
+Quelle
+
+Verfahren
+
+Dokument
+
+Antragsstellung
+
+Die Anwenderfreigabe von Bahnsteigkanten inklusive Abdecksteine aus Betonfertigteilen und zugehöriger Fertigteilfundamente ist zu beantragen bei:
+DB Station&Service AG
+Infrastrukturelle Grundsetze (I.SBB(1))
+Weilburger Straße 22
+60326 Frankfurt am Main
+
+-
+
+DB
+
+-
+
+Antrag
+
+Antragsform
+
+Der Antrag auf Anwenderfreigabe ist schriftlich (formlos) zu
+stellen, zu unterschreiben und mit dem Pflichtenheft in deutscher Sprache einzureichen. Eine digitale Version des Pflichtenheftes und derer Nachweise sind ebenfalls zu übermitteln.
+
+Digital und
+schriftlich
+
+DB
+
+-
+
+Antrag/
+Dateiträger
+
+Pflichtenheft
+
+Das Pflichtenheft muss alle im Technischen Lastenheft unter
+Kapitel 4 „Anforderungskataloge“ aufgeführten Unterlagen und
+Nachweise beinhalten.
+Die Gliederung des Pflichtenheftes soll der Gliederung der Anforderungskataloge entsprechen.
+
+-
+
+DB
+
+Anfertigen eines Pflichtenheftes mit allen erforderlichen Nachweisen
+
+Pflichtenheft
+
+Gültigkeit
+
+Die Anwenderfreigabe erfolgt in Form eines Schreibens an den
+Hersteller/Anbieter durch die anlagentypverantwortliche Organisationseinheit.
+Die Anwenderfreigabe wird befristet für einen Zeitraum von
+maximal 5 Jahren erteilt. Bei Vorliegen besonderer Gründe
+kann eine erteilte Anwenderfreigabe widerrufen werden.
+
+-
+
+DB
+
+-
+
+-
+
+-
+
+DB
+
+-
+
+-
+
+-
+
+DB
+
+-
+
+-
+
+Beschreibung
+
+37
+
+Info
+
+Freigabeliste
+
+Hersteller/Anbieter mit Anwenderfreigabe werden in die Liste
+„Anwenderfreigaben für Bau-elemente“ aufgenommen, die auf
+der Informationsplattform Anlagentechnik, Bautechnik und ITK
+unter dem Bereich Anwenderfreigaben für Bauelemente aktuell
+veröffentlicht wird.
+
+38
+
+Info
+
+Widerruf
+
+Bei Vorliegen besonderer Gründe kann eine erteilte Anwenderfreigabe widerrufen werden.
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Seite 18
+
+5 Mitgeltende Dokumente
+5.1 Definitionen und Abkürzungen
+Glossar
+Bezeichnung
+
+Beschreibung
+
+Abkürzungen
+Abkürzung
+BSK
+
+Bedeutung
+Bahnsteigkanten
+
+Ril
+
+Richtlinie
+
+TM
+
+Technische Mitteilung
+
+EBA
+
+Eisenbahn-Bundesamt
+
+5.2 Normen/Regelwerke
+Gesetze/Verordnungen/Dokumentationen des Eisenbahn-Bundesamt
+Bezeichnung
+TSI PRM
+
+Beschreibung
+Technische Spezifikationen für die Interoperabilität bezüglich der Zugänglichkeit des Eisenbahnsystems der Union für Menschen mit Behinderungen und Menschen mit eingeschränkter Mobilität
+
+ELTB
+
+Eisenbahnspezifische Listen der Technischen Baubestimmungen
+
+EBRL
+
+Eisenbahnspezifischen Bauregelliste
+
+Regelwerke der Deutschen Bahn AG
+Bezeichnung
+Ril 813.0201
+
+Beschreibung
+Personenbahnhöfe planen, Bahnsteige konstruieren und bemessen
+
+Ril 813.0205
+
+Personenbahnhöfe planen, Ausstattung der Personenbahnhöfe mit taktilen Leitsystem für Blinde und Sehbehinderte
+
+TM 2015-13 I.SBB
+
+Kontrastgestaltung der Personenbahnhöfe nach TSI PRM 2015
+
+Ril 804
+
+Eisenbahnbrücken (und sonstige Ingenieurbauwerke) planen, bauen
+und instand halten
+
+Normen, technische Regelwerke und Sonstige Verweise
+Bezeichnung
+
+Beschreibung
+
+DIN EN 206-1
+
+Beton - Festlegung, Eigenschaften, Herstellung und Konformität (einschließlich Änderungsmitteilungen und nationaler Anhänge)
+
+Lastenheft
+
+DIN 1045-2
+
+Tragwerke aus Beton, Stahlbeton und Spannbeton – Teil 2: Beton –
+Festlegung, Eigenschaften, Herstellung und Konformität – Anwendungsregeln zu DIN EN 206
+
+DIN 1045-3
+
+Tragwerke aus Beton, Stahlbeton und Spannbeton – Teil 3: Bauausführung – Anwendungsregeln zu DIN EN 13670
+
+DIN 1045-4
+
+Tragwerke aus Beton, Stahlbeton und Spannbeton - Teil 4: Ergänzende
+Regeln für die Herstellung und die Konformität von Fertigteilen
+
+DIN EN 13670
+
+Ausführung von Tragwerken aus Beton
+
+DIN EN 15258
+
+Betonfertigteile - Stützwandelemente
+
+DIN EN 1339
+
+Platten aus Beton - Anforderungen und Prüfverfahren
+
+DIN 51130
+
+Bestimmung der rutschhemmenden Eigenschaft
+
+DIN 488-1
+
+Betonstahl – Teil 1: Stahlsorten, Eigenschaften, Kennzeichnung
+
+DIN EN 1080
+
+Stahl für die Bewehrung von Beton - Schweißgeeigneter Betonstahl Allgemeines
+
+DIN 18200
+
+Übereinstimmungsnachweis für Bauprodukte - Werkseigene Produktionskontrolle, Fremdüberwachung und Zertifizierung von Produkten
+
+DIN EN 1991-11/NA
+
+Einwirkungen auf Tragwerke – Teil 1-1: Allgemeine Einwirkungen auf
+Tragwerke – Wichten, Eigengewicht und Nutzlasten im Hochbau
+
+DIN EN 1991-2/NA
+
+Einwirkungen auf Tragwerke – Teil 2: Verkehrslasten auf Brücken
+
+DIN EN 1992-11/NA
+
+Bemessung und Konstruktion von Stahlbeton- und Spannbetontragwerken – Teil 1-1: Allgemeine Bemessungsregeln und Regeln für den
+Hochbau
+
+DIN EN 1997-1
+
+Entwurf, Berechnung und Bemessung in der Geotechnik, Teil 1: Allgemeine Regeln
+
+DIN 1054
+
+Baugrund- Sicherheitsnachweise im Erd- und Grundbau ergänzende
+Regelungen zu DIN EN 1997-1
+
+DIN 4084
+
+Baugrund – Berechnung des Erddrucks
+
+DIN CEN/TS
+12390-9
+
+Prüfung des Frost- und Frost-Tausalzwiderstandes
+
+DIN EN 12350
+
+Prüfung von Frischbeton
+
+DIN EN 12390
+
+Prüfung von Festbeton
+
+DAfStb- Richtlinie
+
+Vorbeugende Maßnahmen gegen schädigende Alkalireaktion im Beton
+
+ZTV-Ing
+
+Zusätzliche Technische Vertragsbedingungen und Richtlinien für Ingenieurbauten
+
+DBV-Merkblatt
+
+Merkblatt Sichtbeton, Deutscher Beton- und Bautechnikverein
+
+5.3 Anlagen
+Anlage 1
+
+Bemessung und Ausführung von Bahnsteigkanten aus Betonfertigteilen von
+Bahnsteigkonstruktionen in BSK-Bauweise
+
+Anlage 2
+
+Regelzeichnungen IseB BSK 3850
+Bahnsteigkanten für Bahnsteighöhe 380 mm ü. SO – Abmessungen
+
+Anlage 3
+
+Regelzeichnungen IseB BSK 5550
+Bahnsteigkanten für Bahnsteighöhe 550 mm ü. SO – Abmessungen
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Seite 20
+
+Anlage 4
+
+Regelzeichnungen IseB BSK 7650
+Bahnsteigkanten für Bahnsteighöhe 760 mm ü. SO – Abmessungen
+
+Anlage 5
+
+Regelzeichnungen IseB BSK 9650
+Bahnsteigkanten ohne Sicherheitsraum für Bahnsteighöhe 960 mm ü. SO – Abmessungen
+
+Anlage 6
+
+Regelzeichnungen IseB BSK 9651
+Bahnsteigkanten mit Sicherheitsraum für Bahnsteighöhe 960 mm ü. SO – Abmessungen
+
+Technisches Lastenheft für Bahnsteigkanten, gültig ab 15.12.2017
+
+Seite 21
+
+

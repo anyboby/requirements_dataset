@@ -1,0 +1,3 @@
+Die BAföG-Software muss eine Funktion zum Kopieren und Einfügen von Daten sowohl
+innerhalb der Anwendung als auch zu anderen Anwendungen der BAföG-Umgebung
+(beispielsweise Office-Programme) bereitstellen.

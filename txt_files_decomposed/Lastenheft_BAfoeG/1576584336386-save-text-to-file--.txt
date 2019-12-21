@@ -1,0 +1,2 @@
+Dazu muss die Software über bestimmte vordefinierte Rollen verfügen, die einem angelegten Benutzer zugeordnet werden können. Folgende generische Rollen müssen in der
+Software mindestens hinterlegt sein bzw. im Einführungsprojekt angelegt werden

@@ -1,0 +1,5 @@
+Mündlich abgestimmte Vereinbarungen sind nicht bindend. Eine
+Anwendung der Abweichung auf weitere Aufträge ist ausgeschlossen.
+Bei Komponenten, die aufgrund von Ausnahmegenehmigungen
+eingesetzt werden, muss sichergestellt sein, dass diese Komponenten für einen Zeitraum von 10 Jahren ab Endabnahme noch
+beschafft werden können.

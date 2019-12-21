@@ -1,0 +1,6 @@
+Soweit
+keine Zwei-Faktor-Authentifizierung oder die
+Verwendung von Einmalpasswörtern möglich
+ist, wird die Verwendung sicherer Passwörter
+auf allen Ebenen und Geräten (einschl. mobilen
+Endgeräten) unter Verantwortung des Cloud-Anbieters technisch erzwungen

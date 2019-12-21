@@ -1,0 +1,6 @@
+Protokollierte Vorfälle werden zentral aggregiert
+und konsolidiert (Event-Korrelation). Regeln zur
+Erkennung von Beziehungen zwischen Vorfällen
+und zur Beurteilung gemäß Kritikalität sind
+implementiert. Die Behandlung dieser Vorfälle
+erfolgt gemäß dem Security Incident Management Prozess.

@@ -1,0 +1,18 @@
+Ergänzende Informationen zur Basisanforderung
+Die Dokumentation des Cloud-Anbieters kann
+u. a. auf die folgenden regulatorischen Anforderungen Bezug nehmen:
+» allgemein anerkannte Buchführungsgrundsätze
+(z. B. gemäß HGB oder IFRS)
+» Anforderungen bzgl. des Datenzugriffs und der
+Prüfbarkeit digitaler Unterlagen (z. B. gemäß
+GDPdU)
+
+» Aktivitäten, die möglicherweise die Verfügbarkeit der Systeme oder Komponenten
+beeinträchtigen und so zu einem Verstoß des
+SLAs führen könnten, werden außerhalb der
+regulären Geschäftszeiten bzw. nicht zu Zeiten
+von Lastspitzen durchgeführt.
+» Die durchgeführten Aktivitäten werden protokolliert und überwacht.
+Optionale, weitergehende Anforderungen
+(Verfügbarkeit)
+Der Cloud-Anbieter hat Vorkehrungen für außerplanmäßige Audits getroffen.

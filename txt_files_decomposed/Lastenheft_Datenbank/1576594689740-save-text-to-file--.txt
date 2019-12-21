@@ -1,0 +1,7 @@
+Bestehende Filterfunktionen sollen
+bestehen bleiben. Einige der
+vorhandenen
+Filterfunktionen
+müssen
+erweitert
+werden.

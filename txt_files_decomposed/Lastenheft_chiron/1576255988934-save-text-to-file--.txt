@@ -1,0 +1,2 @@
+Messsysteme können von der Maschinensteuerung abhängig sein.
+Abstimmung mit dem Sachbearbeiter

@@ -1,0 +1,2 @@
+Jede Anlage und jeder Schaltschrank muss einem integrierten Hauptschalter besitzen,
+Cekon-Stecker gelten nicht als Hauptschalter.

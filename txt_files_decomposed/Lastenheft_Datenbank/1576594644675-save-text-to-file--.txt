@@ -1,0 +1,5 @@
+Lokalkoordinator dürfen Datensätze
+im Status " ohne Termin/zu Besuch"
+und
+"Datenerfassung"
+löschen.

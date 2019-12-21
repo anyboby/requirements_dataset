@@ -1,0 +1,6 @@
+Der Zugriff auf den Quellcode und ergänzende
+für die Entwicklung des Cloud-Dienstes relevante
+Informationen (z. B. Architektur-Dokumentation,
+Testpläne) sind restriktiv vergeben und werden
+überwacht, um die Einführung von nicht autorisierten Funktionen oder das Durchführen unbeabsichtigter Änderungen zu vermeiden.
+

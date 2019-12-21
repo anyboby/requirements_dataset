@@ -1,0 +1,5 @@
+Softwareschnittstellen für alle softwarebasierten Steuerungskomponenten (z.B.
+Schnittstellen von Frequenzumrichter, Sicherheits-SPS usw.) müssen an einem zentralen Punkt verfügbar gemacht werden. Ist ein PC in der Maschine/Anlage integriert,
+muss ein Zugriff über diesen möglich sein. Andernfalls muss eine zentrale Stelle nach
+Absprache geschaffen werden.
+Die Programmierung sollte wenn möglich in KOP oder FUP darstellbar sein. Bei Bedarf kann auch in strukturiertem Text programmiert werden.

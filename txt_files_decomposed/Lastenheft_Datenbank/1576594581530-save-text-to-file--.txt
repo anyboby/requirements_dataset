@@ -1,0 +1,4 @@
+Der Auftragnehmer hat zu dokumentieren und darzulegen, dass alle Objekte und
+Quellcodes übergeben worden sind und elektronisch vorliegen. Stellt sich bei der
+Abnahmeprüfung ein Mangel heraus, so muss der Auftragnehmer diesen unverzüglich
+beseitigen.

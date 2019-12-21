@@ -1,0 +1,4 @@
+Zum separaten Abschalten der peripheren Einrichtungen ist ein separater Hauptschalter
+ohne NOTAUS-Funktion vorzusehen. Die Auswertung durch die Maschinenlogik erfolgt über
+einen, auf Klemmen geführten, potentialfreien Kontakt „[Periphere Einrichtung]
+Betriebsbereit“.

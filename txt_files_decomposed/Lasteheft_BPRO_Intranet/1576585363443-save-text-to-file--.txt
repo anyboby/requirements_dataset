@@ -1,0 +1,2 @@
+Sollte es sich um einen nur wenig genutzten Wartungszugang handeln, so kann auch
+die Fernwartungssoftware Teamviewer genutzt werden.

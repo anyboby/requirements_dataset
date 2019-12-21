@@ -1,0 +1,4 @@
+Die Sammlung und Benutzung
+von Metadaten erfolgt ausschließlich für Abrechnungszwecke, zum Beheben von Störungen und
+Fehlern (Incident Management) sowie zum Bearbeiten von Sicherheitsvorfällen (Security Incident
+Management).

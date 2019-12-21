@@ -1,0 +1,3 @@
+Zur Absicherung der Stromkreise dürfen keine Schmelzsicherungen verwendet werden.
+Nach Ausfall der Netzspannung und Spannungswiederkehr darf
+kein automatischer Wiederanlauf eingeleitet werden.

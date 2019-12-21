@@ -1,0 +1,4 @@
+Die Software muss weiterhin die Möglichkeit bieten, einen vorerfassten Datensatz zu einem beliebigen späteren Zeitpunkt in eine reguläre elektronische Akte mit einer dann automatisch vergebenen Förderungsnummer zu überführen.
+Anlage elektronischer Akte/Vergabe der Förderungsnummer
+In der Software muss eine personenbezogene elektronische Akte (gegebenenfalls auch
+bereits ohne Vorliegen eines Antrages) angelegt werden können.

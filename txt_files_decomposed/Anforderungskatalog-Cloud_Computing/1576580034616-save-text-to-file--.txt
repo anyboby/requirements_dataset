@@ -1,0 +1,4 @@
+Die Tests werden durch qualifizierte
+Mitarbeiter durchgeführt und die Ergebnisse
+nachvollziehbar dokumentiert. Auftretende
+Fehler werden zeitnah behoben.

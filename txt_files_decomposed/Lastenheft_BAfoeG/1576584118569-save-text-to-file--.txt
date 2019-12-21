@@ -1,0 +1,2 @@
+Insbesondere muss es möglich sein, sogenannte Ablaufmitteilungen für BAföG-Empfänger zu erstellen. Dabei handelt es sich um schriftliche Erinnerungen zu einem bestimmten Zeitpunkt (beispielsweise zwei Monate vor Ablauf eines BWZ) an alle aktuellen Empfänger, rechtzeitig einen Antrag für den neuen BWZ zu stellen.
+Die Software soll auch für einzelne Sachbearbeiter die Möglichkeit bieten, nach bestimmten Kriterien Serienbriefe erstellen und drucken zu können.

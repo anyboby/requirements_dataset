@@ -1,0 +1,4 @@
+Der Cloud-Kunde ist bei IaaS/PaaS in der Lage
+die Aufteilung der ihm zur Verwaltung/Nutzung
+zugeordneten Systemressourcen (z. B. Rechenoder Speicherkapazität) zu steuern und zu überwachen, um eine Überbelegung der Ressourcen
+zu vermeiden.

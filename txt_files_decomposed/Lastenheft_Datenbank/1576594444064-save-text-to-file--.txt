@@ -1,0 +1,8 @@
+Zwischen den beiden Datenbanken soll es einen Austausch der Daten zu den Soforthilfen
+geben. Der eShop (Bestellplattform) und die Soforthilfen werden vom
+Logistikunternehmen Siblog verwaltet. Für die Bestellung der Soforthilfen erhalten die
+Standorte ein festgelegtes Guthaben für das sie Energie- und Wassersparartikel und
+andere Materialien (Marketing- und Werbematerialien) bestellen können. Beim
+Synchronisieren der Daten sollen die vorhandenen Daten erst nach Püfung der
+Doppelung überschrieben werden.-Folgende Grafik zeigt die Interaktion der
+Datenbanken.

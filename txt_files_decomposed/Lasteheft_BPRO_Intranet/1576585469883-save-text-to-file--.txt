@@ -1,0 +1,3 @@
+Eine Beschreibung der Wartungsarbeiten und deren Intervalle, der Nachfüllmengen und
+die notwendigen Hilfs- und Betriebsstoffe ist anzugeben. Alle Wartungsstellen müssen gut
+zugänglich sein und sind eindeutig zu kennzeichnen.

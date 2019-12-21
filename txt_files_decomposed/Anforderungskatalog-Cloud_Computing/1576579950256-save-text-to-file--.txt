@@ -1,0 +1,4 @@
+Erbringt ein Cloud-Anbieter seine Dienste
+an mehreren Standorten, dann fragt diese Anforderung danach, ob der Cloud-Anbieter genau
+festlegen kann, an welchem Standort der Dienst
+erbracht und die Daten prozessiert werden.

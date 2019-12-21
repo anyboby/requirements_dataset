@@ -1,0 +1,4 @@
+Die erstellten Protokolle werden auf zentralen
+Protokollierungsservern aufbewahrt, wo sie vor
+unautorisierten Zugriffen und Veränderungen
+geschützt sind.

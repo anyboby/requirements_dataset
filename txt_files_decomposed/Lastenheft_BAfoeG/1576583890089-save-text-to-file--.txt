@@ -1,0 +1,5 @@
+Dem Grundsatz nach abgelehnte Anträge müssen in der Software so gekennzeichnet
+sein, dass Suchen und statistische Abfragen nach diesem Merkmal möglich sind.
+Weg-Zeit-Berechnung
+Die Software muss dem Sachbearbeiter für Anträge, die eine der in § 2 Abs. 1 Nr. 1 BAföG aufgeführten Ausbildungsstätten betreffen, die Durchführung und Dokumentation der
+Weg-Zeit-Berechnung ermöglichen.

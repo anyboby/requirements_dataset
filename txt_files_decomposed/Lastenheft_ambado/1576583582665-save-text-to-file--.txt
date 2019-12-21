@@ -1,0 +1,19 @@
+Eine oder mehrere Listen/Ansichten sind
+bereitzustellen, die jederzeit abrufbar sind und aus
+denen die folgenden Informationen ablesbar sind:
+(1) Behandlungsfälle mit offenem AmBADO-Bogen,
+nach zuständigem Mitarbeiter (Arzt/Psychologe)
+(2) Behandlungsfälle mit abgeschlossenem
+AmBADO-Bogen, jedoch ohne
+korrespondierende Leistungsziffer
+(3) Behandlungsfälle mit abgerechneter Leistungsziffer, jedoch ohne korrespondierenden
+AmBADO-Bogen
+(4) Behandlungsfälle mit fälliger Jahresaktualisierung (JA) einschließlich der Angabe
+des Fälligkeitszeitpunkts
+(5) Behandlungsfälle mit fälliger (rückwirkender)
+Beendigung einschließlich der Angabe des
+Fälligkeitszeitpunkts
+(6) Behandlungsfälle mit zwei leistungsfreien
+Quartalen und Hinweis auf Wiederaufnahme
+(7) Behandlungsfälle, bei denen eine Kurzversion in
+eine Vollversion umgewandelt werden muss

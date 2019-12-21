@@ -1,0 +1,4 @@
+Der Admin soll die Möglichkeit haben, alle Kriterien mit einem Blick zu prüfen. Sind alle
+Eingaben richtig, kann der Datensatz als „abgerechnet“ markiert werden. Somit ist eine
+versehentliche erneute Abrechnung des Kühlgerätetausches nicht mehr möglich. Ist der
+Datensatz nicht korrekt, wird er mit „in Bearbeitung“ oder „keine Abrechnung“ markiert.

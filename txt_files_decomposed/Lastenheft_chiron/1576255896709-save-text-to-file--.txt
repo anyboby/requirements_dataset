@@ -1,0 +1,4 @@
+Vor der Anlage ist in den flüssigkeitsführenden Leitungssystemen
+in der Vor- und Rücklaufleitung je ein Magnetventil einzubauen.
+Diese Magnetventile müssen beim Abschalten der Anlage
+geschlossen werden.

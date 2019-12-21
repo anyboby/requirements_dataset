@@ -1,0 +1,5 @@
+Wenn ein Nutzer verschiedene Rollen in der DB bekommt, sollte es möglich sein, dass
+dieser sich nur mit einem Login (E-Mail-Adresse und Passwort) anmeldet. Die
+Nutzerverwaltung sollte so aufgebaut sein, dass nach der Anmeldung zunächst der
+jeweilige Standort und dann die Rolle ausgewählt werden kann – z.B. durch ein Häckchen
+oder Dropdown-Menü. Die Oberfläche soll sich nach der Auswahl der Rolle anpassen.

@@ -1,0 +1,3 @@
+Der Betreiber muss geeignete organisatorische und technische Sicherheitsmaßnahmen
+im relevanten Rechenzentrum treffen. Unter anderem gehören dazu Maßnahmen hinsichtlich Zugriffsschutz und Zugangsberechtigungen sowie der Schutz des Systems und
+der Daten vor elementaren Schäden (Feuer, Wasser etc.). Der Betreiber hat die getroffenen Sicherheitsmaßnahmen dem Auftraggeber im Pflichtenheft darzulegen.

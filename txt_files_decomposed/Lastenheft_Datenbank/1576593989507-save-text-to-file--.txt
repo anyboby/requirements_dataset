@@ -1,0 +1,6 @@
+Des Weiteren darf durch die ID oder den Stromsparhelfer/Trainer nicht erkennbar sein,
+um welchen Haushalt es sich handelt. Diese Datensätze müssen für eine erneute
+Bearbeitung gesperrt sein. Das bedeutet, dass der Datensatz nicht mehr in einen anderen
+Status versetzt werden kann. Im Registerblatt 10 „Weitere Strom verbrauchende Geräte“
+soll es die Möglichkeit geben einzelne eingegebene Geräte zu löschen, falls ein Gerät
+doppelt oder falsche aufgenommen wurde.

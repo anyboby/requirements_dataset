@@ -1,0 +1,4 @@
+Die Geheimhaltungs- oder Vertraulichkeitserklärungen sind vor Beginn des Vertragsverhältnisses bzw. vor Erteilung des Zugriffs
+auf Daten der Cloud-Nutzer durch interne
+Mitarbeiter, externe Dienstleister oder Lieferanten des Cloud-Anbieters zu unterzeichnen.
+E

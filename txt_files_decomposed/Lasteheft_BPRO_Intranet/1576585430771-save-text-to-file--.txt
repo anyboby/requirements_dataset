@@ -1,0 +1,1 @@
+Bei komplexen Anlagen beinhaltet die Verfügbarkeit auch den Ausfall einer einzelnen Systemkomponente, (z.B. bei einer verketteten Anlage einen Roboter) sobald der bestimmungsgemäße Gebrauch nicht mehr gegeben ist.

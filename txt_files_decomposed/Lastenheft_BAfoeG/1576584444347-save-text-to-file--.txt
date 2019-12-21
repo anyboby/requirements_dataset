@@ -1,0 +1,1 @@
+Die im IT-Sicherheitshandbuch des Bundesamtes für Sicherheit in der IT (BSI) beschriebenen Verfahren zur Erstellung eines Sicherheitskonzeptes (beispielsweise die Ermittlung der Schutzbedürftigkeit oder die Bedrohungs- und Risikoanalyse) sind einzuhalten.

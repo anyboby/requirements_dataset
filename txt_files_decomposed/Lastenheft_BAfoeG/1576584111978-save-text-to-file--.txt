@@ -1,0 +1,5 @@
+Für alle Verfahren muss die Eintragung einer Wiedervorlage möglich sein.
+Aktenumlaufvermerk
+Die Software muss dem Sachbearbeiter die Möglichkeit bieten, in der elektronischen
+Akte zu Informations- und Auskunftszwecken einen Aktenumlaufvermerk auf Basis einer
+Auswahlliste (gegebenenfalls mit zusätzlicher Freitexteingabe) zu hinterlegen. Dieser bezeichnet beispielsweise den physischen Ort der Papierakte.

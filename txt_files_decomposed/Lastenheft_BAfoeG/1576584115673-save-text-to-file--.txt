@@ -1,0 +1,3 @@
+Die Software soll die Möglichkeit bieten, zentrale Formschreiben (gegebenenfalls auch
+ohne Bescheidwirkung) zu erstellen, zu drucken und an bestimmte ausgewählte Empfänger zu verschicken. Diese müssen über eine freie Suche nach beliebigen Kriterien (beispielsweise Familienstand, Kinder, Wohnsituation etc.) im Vorfeld auswählbar sein. Aus
+Praktikabilitätsgründen sollten solche zentralen Mitteilungen auch im Massendruckverfahren zentral oder dezentral durchführbar sein.

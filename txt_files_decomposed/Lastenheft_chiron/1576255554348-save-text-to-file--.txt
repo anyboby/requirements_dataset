@@ -1,0 +1,3 @@
+Die geometrischen Genauigkeiten der Komponenten sind so
+auslegen, dass ein störungsfreier Betrieb der Anlage gewährleistet
+ist.

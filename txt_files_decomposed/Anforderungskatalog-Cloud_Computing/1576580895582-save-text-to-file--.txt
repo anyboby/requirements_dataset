@@ -1,0 +1,5 @@
+Bei Vertragsende kann der Cloud-Kunde die
+Daten, die ihm gemäß der vertraglichen Rahmenbedingungen zustehen, bei dem Cloud-Anbieter
+anfragen und erhält diese in weiterverarbeitbaren
+elektronischen Standardformaten wie z. B. CSV
+oder XML.

@@ -1,0 +1,8 @@
+Ziel ist es, diesen Ablauf für die Standorte, sowie für den eaD zu vereinfachen. Die
+Standorte sollen die Möglichkeit haben, das Abrechnungsformular in der Datenbank
+auszufüllen. Die Datenbank soll vorher prüfen, ob alle benötigten Daten in der Datenbank
+eingetragen sind. Somit können die Standorte nur Gutscheine abrechnen, die die
+Voraussetzungen erfüllen. Für die Erstellung der Abrechnungen kann auch eine Person
+zuständig sein, die aber keine andere Rolle in der DB erfüllt. Daher soll eine neue
+Nutzerrolle erstellt werden, die nur für die Abrechnung zuständig ist. Der Nutzer erhält im
+System eine Liste mit allen Checks, bei denen ein neues Kühlgerät eingetragen wurde.

@@ -1,0 +1,8 @@
+Externe Dienstleister und Lieferanten des
+Cloud-Anbieters, die zur Entwicklung oder
+Betrieb des Cloud-Dienstes beitragen, werden
+vertraglich verpflichtet ihre Mitarbeiter und
+Unterauftragnehmer auf die spezifischen
+Sicherheitsanforderungen des Cloud-Anbieters
+hinzuweisen und ihre Mitarbeiter allgemein zum
+Thema Informationssicherheit zu schulen.

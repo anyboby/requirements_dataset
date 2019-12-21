@@ -1,0 +1,4 @@
+Die Sprache der Benutzeroberfläche muss Deutsch sein. Die Navigation und Bedienung
+muss mit PC-Grundkenntnissen und durch reine Tastaturnavigation möglich sein. Die
+Strukturierung der Informationen in den Eingabemasken ist vom Softwareanbieter im
+Pflichtenheft darzustellen.

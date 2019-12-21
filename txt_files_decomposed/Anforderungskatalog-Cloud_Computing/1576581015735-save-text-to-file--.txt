@@ -1,0 +1,7 @@
+Alle Änderungen am Cloud-Dienst werden Tests
+(z. B. auf Integration, Regression, Sicherheit und
+Benutzerakzeptanz) während der Entwicklung
+und vor der Bereitstellung in der Produktivumgebung unterzogen. Die Tests werden von angemessen qualifiziertem Personal des Cloud-Anbieters
+durchgeführt. Gemäß Dienstgütevereinbarung
+(SLA) werden Änderungen ebenfalls durch den/
+die dazu geeigneten Kunden (Tenants) getestet.

@@ -1,0 +1,4 @@
+Die Definition der Anforderungen ist in das
+Risikomanagement des Cloud-Anbieters eingebunden. Gemäß der Anforderung OIS-07 werden
+sie regelmäßig auf ihre Angemessenheit hin
+überprüft.

@@ -1,0 +1,3 @@
+Wenn ein Empfänger, der bereits einmal einen Antrag gestellt hat, einen Antrag für einen
+neuen Bewilligungszeitraum (BWZ) stellt, wird der Prozess „Folgeantrag“ ausgelöst. Eine
+Serviceberechnung unter Zugrundelegung neuer Angaben des Antragstellers ist zu ermöglichen.

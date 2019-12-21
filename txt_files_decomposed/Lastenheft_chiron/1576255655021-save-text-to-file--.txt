@@ -1,0 +1,3 @@
+n Ein manueller Vorschub von Transporteinrichtungen oder
+Schieben der Teile auf einem Bandsystem muss auch bei
+Ausfall der Antriebe möglich sein.

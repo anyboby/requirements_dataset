@@ -1,0 +1,5 @@
+Für Fertigarzneimittel und sonstige nach § 31 SGB V in die Arzneimittelversorgung
+einbezogene Produkte muss auf Packungsebene mindestens die PZN (01) des
+Produktes, sofern vorhanden, in der Hausapotheke gespeichert werden. Weitere
+Informationen zu dieser PZN, die im Rahmen der Verordnung aus der Hausapotheke
+anzuzeigen sind, sind unter P3-120 zu finden.

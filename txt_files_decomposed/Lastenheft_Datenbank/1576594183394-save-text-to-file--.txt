@@ -1,0 +1,4 @@
+Für die Lokalkoordinatoren wäre eine Filterfunktion für die ausgegebenen
+Kühlgerätegutscheine wichtig. Somit könnten sie schneller die neuen Kühlgeräte
+eintragen. Eine Filterfunktion für eingereichte Kühlgerätegutscheine zur Abrechnung wäre
+optimal um den Status des abgerechneten Kühlgerätes zu sehen.

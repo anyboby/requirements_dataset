@@ -1,0 +1,6 @@
+Es muss möglich sein, die Daten einer Akte aus datenschutzrechtlichen Gründen nach
+einem geeigneten Freigabeverfahren vollständig zu löschen.
+Office-Integration
+Eine Integration von Microsoft Word zur teilautomatisierten Dokumentenerstellung muss
+vorhanden sein. Dabei sollen frei definierbare Dokumentenvorlagen mit Datenfeldern der
+Anwendung verknüpft werden können.

@@ -1,0 +1,9 @@
+Die Verordnungssoftware muss jede Verordnung nach der Rezeptbedruckung mit den unten
+genannten
+Merkmalen
+(sog.
+Verordnungsinformation)
+patientenbezogen
+dem
+Praxisverwaltungssystem für die Verordnungshistorie8 nach den Festlegungen nach § 291d
+Abs. 1a S. 1 Nr. 1 übergeben können.

@@ -1,0 +1,4 @@
+Ergänzende Informationen zur Basisanforderung
+Der Stand der Technik bezüglich starker Verschlüsselungsverfahren und sichere Netzwerkprotokolle ist in der jeweils aktuellen Fassung
+der folgenden technischen Richtlinien des BSI
+festgelegt:

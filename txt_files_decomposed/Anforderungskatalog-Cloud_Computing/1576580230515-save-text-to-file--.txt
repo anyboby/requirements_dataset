@@ -1,0 +1,5 @@
+Der Cloud-Anbieter stellt auf Anfrage des
+Cloud-Kunden die ihn betreffenden Protokolle in
+angemessener Form und zeitnah zur Verfügung,
+damit dieser die ihn betreffenden Vorfälle selbst
+untersuchen kann.

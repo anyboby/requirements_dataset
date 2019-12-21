@@ -1,0 +1,6 @@
+Richtlinien und Anweisungen mit technischen
+und organisatorischen Maßnahmen sind
+gemäß SA-01 dokumentiert, kommuniziert und
+bereitgestellt, um eine schnelle, effektive und
+ordnungsgemäße Reaktion auf alle bekannten
+Sicherheitsvorfälle zu gewährleisten.

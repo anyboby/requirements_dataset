@@ -1,0 +1,10 @@
+Optionale, weitergehende Anforderungen
+(Vertraulichkeit und Verfügbarkeit)
+Intrusion Prevention / Intrusion Detection
+Systeme (IDS/IPS) sind in ein übergreifendes
+SIEM-System (Security Information and Event
+Management) integriert, sodass Ereignisse aus
+IDS/IPS mit anderen Ereignissen korreliert
+werden können, um daraus hervorgehend
+erforderliche (Gegen-) Maßnahmen initiieren
+zu können.

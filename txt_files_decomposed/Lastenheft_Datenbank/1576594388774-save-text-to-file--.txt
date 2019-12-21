@@ -1,0 +1,3 @@
+Checks können per Checkbox an- und ausgeklickt werden. Bevor eine Abrechnung
+erstellt wird, soll das System prüfen, ob der Haushalts-ID oder die Gutscheinnummer
+schon abgerechnet wurde. Die Abrechnung wird als PDF erstellt und im System abgelegt.

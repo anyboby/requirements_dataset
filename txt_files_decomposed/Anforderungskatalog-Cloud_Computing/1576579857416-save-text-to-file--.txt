@@ -1,0 +1,6 @@
+» Analysen der Assets vor der Wiederverwendung
+um Manipulationen oder Fehlfunktionen zu
+vermeiden,
+» Erneuerung von Assets, sofern Verfügbarkeit,
+Sicherheit, Integrität oder Vertraulichkeit
+gefährdet sein könnten.

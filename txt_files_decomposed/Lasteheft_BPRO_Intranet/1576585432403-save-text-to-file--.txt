@@ -1,0 +1,3 @@
+Grundlage zur Messung des Nutzungsgrades ist das Führen eines Maschinenlogbuches
+gemäß BPRO - Vorgaben. Sie beginnt mit der Endabnahme der Maschine (Anlage) und
+gilt für die Dauer von 12 Monaten ohne Schichtbegrenzung.

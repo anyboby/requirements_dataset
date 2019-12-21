@@ -1,0 +1,6 @@
+Verfahren zur regelmäßigen Überwachung
+und Überprüfung der vereinbarten Leistungen
+und Sicherheitsanforderungen von Dritten
+(z. B. Dienstleister bzw. Lieferanten des Cloud-Anbieters), die wesentliche Teile zur Entwicklung
+oder zum Betrieb des Cloud-Dienstes beitragen,
+sind etabliert.

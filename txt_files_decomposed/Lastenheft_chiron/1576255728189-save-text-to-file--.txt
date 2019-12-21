@@ -1,0 +1,4 @@
+Bei neu entwickelten Komponenten nimmt CHIRON grundsätzlich eine Vorabnahme beim Auftragnehmer vor.
+Bei sich wiederholenden Komponenten muss nicht zwangsläufig eine Vorabnahme stattfinden.
+Diese Entscheidung obliegt dem CHIRON Sachbearbeiter und
+ist in der Bestellung vermerkt.

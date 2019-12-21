@@ -1,0 +1,6 @@
+Die nachträgliche Bearbeitung von Stammdaten gemäß P2-100 durch den Anwender ist
+unzulässig. Dem Arzt kann die Möglichkeit gegeben werden, für Einträge der Hausapotheke
+zusätzliche Kurznamen, Bezeichnungen, Kommentare und Tastenkürzel zu vergeben, die
+ihm die Suche in der Hausapotheke bzw. die Verordnung aus der Hausapotheke erleichtern.
+Beim Bedrucken des Rezeptformulars sind jedoch die Originaldaten der
+Arzneimitteldatenbank zu verwenden.

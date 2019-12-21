@@ -1,0 +1,4 @@
+Eine kombinierte Abfrage ist möglich. Ein Produkt oder Wirkstoff kann auch über die Eingabe
+der ersten Buchstaben aufgerufen werden. Eine Suche mit dem ATC-Code und der
+Bedeutung des ATC-Codes kann entweder durch Eingabe des ATC-Codes (7- oder 5-stellig)
+oder Auswahl aus einer Baumstruktur der ATC-Klassifikation erfolgen.

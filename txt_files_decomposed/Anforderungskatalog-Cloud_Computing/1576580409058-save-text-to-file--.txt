@@ -1,0 +1,7 @@
+Zugangsberechtigungen für Benutzer unter
+Verantwortung des Cloud-Anbieters (interne und
+externe Mitarbeiter) werden in einem formalen
+Verfahren erteilt. Organisatorische und/oder
+technische Maßnahmen stellen sicher, dass
+eindeutige Benutzerkennungen vergeben werden,
+die jeden Benutzer eindeutig identifizieren.

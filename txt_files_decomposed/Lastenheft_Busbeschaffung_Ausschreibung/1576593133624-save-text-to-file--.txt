@@ -1,0 +1,2 @@
+Die Haltestellenbremse muss bei geöffneter Tür automatisch wirksam sein. Es ist eine
+Abschaltmöglichkeit auf der Hauptschalttafel für das Werkstattpersonal vorzusehen.

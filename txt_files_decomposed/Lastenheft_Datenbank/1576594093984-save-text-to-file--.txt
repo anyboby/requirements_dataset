@@ -1,0 +1,7 @@
+Der Lokalkoordinator
+erhält eine Meldung, mit den fehlenden, nachzutragenden Daten. Die Felder dürfen auch
+nur für den Lokalkoordinator sichtbar sein. Die Felder sind Pflichtfelder. Nach Ablauf des
+Beschäftigungszeitraums/Bei Eintritt des Enddatums wird der Stromsparhelfer
+automatisch inaktiv. Ist ein Stromsparhelfer länger als 4 Wochen nicht aktiv in der
+Datenbank, so soll der Lokalkoordinator eine Meldung erhalten: „ Ist der Stromsparhelfer
+xxxx noch im Projekt? –Bitte das Ende-Datum aktualisieren, falls notwendig“.

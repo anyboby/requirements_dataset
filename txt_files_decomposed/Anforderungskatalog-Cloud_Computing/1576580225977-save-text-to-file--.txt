@@ -1,0 +1,2 @@
+Der Zugriff und die Verwaltung der Protokollierungs- und Überwachungsfunktionalitäten
+erfordert eine Multi-Faktor-Authentifizierung.

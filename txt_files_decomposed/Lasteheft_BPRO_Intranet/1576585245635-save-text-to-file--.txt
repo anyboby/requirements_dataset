@@ -1,0 +1,2 @@
+Maschinenumgebung
+ Temperaturverträglich bis 42°C Umgebungstemperatur.

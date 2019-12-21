@@ -1,0 +1,5 @@
+Die mit internen Mitarbeitern, externen
+Dienstleistern sowie Lieferanten des Cloud-Anbieters zu schließenden Geheimhaltungs- oder
+Vertraulichkeitserklärungen basieren auf den
+Anforderungen des Cloud-Anbieters zum Schutz
+vertraulicher Daten und betrieblicher Details.

@@ -1,0 +1,3 @@
+Die Sicherheitsschalter von Schutztüren, Sicherheitszäunen und
+weiteren sicherheitsrelevanten Schutzeinrichtungen sind 2-kanalig
+zur Sicherheitstechnik mit 24VDC zu verdrahten.

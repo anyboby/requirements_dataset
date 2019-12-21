@@ -1,0 +1,7 @@
+Es ist auf eine getrennte Installation sowie auf eine getrennte Kabel- und Steckerbelegung
+nach :
+Leistungsleitungen für Antriebe ( gegebenenfalls geschirmt ),
+Meßsystemen / Gebern (geschirmte Kabel ),
+digitaler Sensorik / Aktorik,
+analoger Sensorik / Aktorik.
+zu achten.

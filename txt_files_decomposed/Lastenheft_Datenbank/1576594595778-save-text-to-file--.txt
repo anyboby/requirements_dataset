@@ -1,0 +1,5 @@
+Die
+Dokumentation darf ausschließlich zur Umsetzung der neuen DB verwenden werden.
+Mitwirkender Partner seitens des Auftraggebers Bundesverband der Energie- und
+Klimaschutzagenturen Deutschlands (eaD) e. V. sind die Energieagentur Regio Freiburg
+GmbH und die Berliner Energieagentur GmbH.

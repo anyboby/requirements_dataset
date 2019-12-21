@@ -1,0 +1,4 @@
+Es soll möglich sein, bei AmBADO-Fällen zwischen
+„verpflichtend“ und „freiwillig“ zu unterscheiden. Bei
+mit „freiwillig“ markierten Fällen soll die Angabe eines
+Grundes für die freiwillige Erfassung möglich sein.

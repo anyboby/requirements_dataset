@@ -1,0 +1,3 @@
+Auf Rezepten dürfen nur Produkt- bzw. Wirkstoffbezeichnung, Wirkstärke, Darreichungsform,
+Packungsgröße und ggf. Normgröße angegeben werden. Die gleichzeitige Angabe von
+Packungsgröße und Normgröße ist zulässig. Soweit verfügbar, ist die PZN anzugeben.

@@ -1,0 +1,3 @@
+Der Fernwartungszugriff erfolgt über eine browserbasierte VPN Lösung (SSL-VPN
+Box der Fa. Juniper). Diese erlaubt den Zugriff des Herstellers / Betreuers auf alle
+Endgeräte und deren Ports nach Freischaltung durch BFITS.

@@ -1,0 +1,2 @@
+Einmal soll der Haltewunsch (inklusive Rollstuhl) im Bereich des Displays angezeigt werden. Außerdem soll an der A-Säule eine dimmbare LED-Anzeige angebracht sein, die
+bei der Betätigung eines Haltewunsches in der Farbe rot leuchtet und nach dem Fahrgastwechsel wieder erlischt. Des Weiteren ist im unteren Bereich des Fahrerfensters ei21

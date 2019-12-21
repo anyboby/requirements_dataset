@@ -1,0 +1,6 @@
+Das Anknüpfen an den Altbestand der dienststellenspezifischen Förderungsnummern
+muss gewährleistet sein, um eine fortlaufende und eindeutige Nummernvergabe sicherzustellen.
+Eingangsregistratur
+In der Software ist eine Eingangsregistratur aller eintreffenden Anträge und weiteren antragsrelevanten Dokumente vorzusehen. Das Eingangsdatum soll auch automatisiert als
+relevanter Stichtag in die Ermittlung des Vermögens des Antragstellers übernommen
+werden.

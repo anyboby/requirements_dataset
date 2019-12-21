@@ -1,0 +1,3261 @@
+Lastenheft Datenbank SSC Relaunch
+(Neuentwicklungen + Anpassungen)
+SSC_Kommunal
+
+Auftraggeber
+Autor des Dokuments
+
+Bundesverband der Energie- und
+Klimaschutzagenturen Deutschlands (eaD) e.V.
+Name, Firma, Kontaktdetails (wenn Lastenheft
+beauftragt)
+
+Version des
+Dokuments
+
+Versionsnummer 2.2
+
+Ort, Datum
+
+Berlin, 7. April 2017
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 1 von 50
+
+Weitere Produktinformationen
+Mitwirkend
+
+[nicht beteiligt]
+[nicht beteiligt]
+[nicht beteiligt]
+
+Erzeugung
+
+Projektleiter
+Projektmanager
+Anwender
+
+Plur
+
+Änderungsverzeichnis
+Änderung
+
+Geänderte
+Kapitel
+
+Beschreibung der Änderung
+
+Autor
+
+Nr.
+
+Datum
+
+Version
+
+4
+
+26.10.16
+
+2.1
+
+Alle
+
+Anmerkungen
+
+Nst
+
+5
+
+02.11.16
+
+2.1
+
+Alle
+
+Überarbeitung
+Rechtschreibung
+
+Fod
+
+6
+
+28.11.16
+
+2.2
+
+Alle
+
+Anmerkungen
+
+AG DB
+
+7
+
+14.12.16
+
+2.2.
+
+Alle
+
+Anmerkungen/Überarbeitung
+
+Plur
+
+Zustand
+
+Energieagenturen
+8
+
+22.12.16
+
+SSC_Kommunal
+
+2.2
+
+Alle
+
+Dokument
+Lastenheft SSCDatenbank
+
+Anmerkung /Überarbeitung
+Trainer & LoKo
+
+Version
+06.04.2017
+
+Plur
+
+Seite 2 von 50
+
+Inhaltsverzeichnis
+1 Projektbeschreibung ............................................................................................. 5
+1.1
+
+Einführung und Zielbestimmung ............................................................... 5
+
+1.1.1
+
+Beschreibung des Unternehmens .......................................................... 7
+
+1.1.2
+
+Darstellung der Datenbank und Zielstellung der Ausschr eibung ........... 8
+
+1.1.3
+
+Beschreibung und Hintergründe der geplanten Softwareentwicklung . 10
+
+1.2
+
+Produktübersicht und Einsatz ................................................................. 11
+
+1.2.1
+
+Aktuelle Situation ................................................................................. 12
+
+1.2.1.1
+
+Benutzerverwaltung ........................................................................... 12
+
+1.2.1.2
+
+Administrationsrechte ....................................................................... 13
+
+1.2.1.3
+
+Log-Verlauf ........................................................................................ 14
+
+1.2.1.4
+
+Anonymisieren von personenbezogenen Daten ................................ 15
+
+1.2.1.5
+
+Oberfläche ......................................................................................... 15
+
+1.2.1.6
+
+Hilfefunktion ...................................................................................... 16
+
+1.2.1.7
+
+Suchfunktion von Datensätzen .......................................................... 16
+
+1.2.1.8
+
+Löschfunktion von Datensätzen ........................................................ 16
+
+1.2.1.9
+
+Beschäftigungsverhältnis bei Stromsparhelfern ............................... 17
+
+1.2.1.10
+
+Auswertungen................................................................................. 18
+
+1.2.1.11
+
+Berichte (im PDF-Format) ............................................................... 19
+
+1.2.1.12
+
+Filterfunktionen .............................................................................. 20
+
+1.2.1.13
+
+Standorte und Regionen ................................................................. 21
+
+1.2.1.14
+
+Soforthilfen ..................................................................................... 21
+
+1.2.1.15
+
+Wärmesoforthilfen .......................................................................... 22
+
+1.2.1.16
+
+Wärmeberechnungen ...................................................................... 22
+
+1.2.1.17
+
+Inventur der Soforthilfen ................................................................ 23
+
+1.2.1.18
+
+Kühlgerätetausch ........................................................................... 23
+
+1.2.1.19
+
+Abrechnung Kühlgerätegutschein (IST Zustand) ............................ 25
+
+1.2.1.20
+
+Optional Erweiterung des Tauschprogrammes durch andere Geräte
+26
+
+1.2.1.21
+
+Monitoring ...................................................................................... 27
+
+1.2.1.22
+
+Kühlgerätetausch im Monitoring .................................................... 27
+
+1.2.1.23
+
+Verwalten von Daten in der kompletten DB .................................... 27
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 3 von 50
+
+1.2.1.24
+
+Mobile Endgeräte ............................................................................ 28
+
+1.2.1.25
+
+Newsticker in der Datenbank .......................................................... 28
+
+1.3
+
+Prozessdiagramme (Ist-Zustand) ............................................................. 29
+
+1.4
+
+Beschreibung von Schnittstellen und Techniken .................................... 34
+
+1.4.1 Abkürzungen,
+Nomenklatur,
+fachliche
+Zusammenhänge,
+Datenhierarchie ................................................................................................ 35
+1.5
+
+Produktdetails ......................................................................................... 36
+
+1.5.1
+
+Funktionale Anforderungen .................................................................. 36
+
+1.5.2
+
+Nichtfunktionale Anforderungen (Leistungen, Daten) .......................... 38
+
+1.5.3
+
+Technische Grundlagen ....................................................................... 39
+
+1.6
+
+Qualitätsanforderungen .......................................................................... 41
+
+1.7
+
+Pilotbetrieb .............................................................................................. 42
+
+1.7.1
+
+Formelle Abnahme ............................................................................... 42
+
+1.8
+
+Betrieb ..................................................................................................... 43
+
+1.9
+
+Projektorganisation ................................................................................. 43
+
+1.10
+
+Zeitliche Vorgaben und Deadlines ........................................................... 43
+
+1.11
+
+Kurzübersicht Kann- und Muss-Kriterien ................................................ 44
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 4 von 50
+
+1 Projektbeschreibung
+1.1 Einführung und Zielbestimmung
+Das Projekt Stromspar-Check Kommunal – Haushalte mit geringem Einkommen
+schützen das Klima (1. April 2016 bis 31. März 2019) wird aus der Nationalen
+Klimaschutzinitiative des BMUB gefördert. Mit dem Stromspar-Check können Haushalte
+mit geringem Einkommen an der Erreichung der Klimaschutzziele vor Ort beteiligt werden.
+Auf Bundesebene sind der Deutsche Caritasverband e. V. (DCV) und der Bundesverband
+der Energie- und Klimaschutzagenturen Deutschlands (eaD) e. V. für die
+Projektsteuerung verantwortlich.
+Stromspar-Check Kommunal ab 2016
+Im Zentrum des Vorhabens steht die kommunale Integration, über die sichergestellt
+werden soll, dass den Haushalten das Angebot Stromspar-Check langfristig zur
+Verfügung steht. Es werden unterschiedliche Formen von Beteiligung und Kooperation
+erprobt, die alle auf die Integration lokaler Partner zielen. Anhand der Umsetzung
+unterschiedlicher Modelle zur kommunalen Integration sollen Erkenntnisse über Chancen
+und Hemmnisse zur lokalen Verankerung des Projektansatzes Stromspar-Check
+gewonnen werden. Diese Ergebnisse bilden die Grundlage für die nächsten Schritte auf
+dem Weg zu einem dauerhaften Angebot.
+Ziele des Stromspar-Check Kommunal
+
+Im Rahmen des Projektes werden einkommensschwache Haushalte vor Ort, also in der
+eigenen Wohnung, kostenlos zum Strom- und Wassersparen beraten. Hinzu kommen
+Strom- und Wassersparartikel, so genannte Soforthilfen, im Wert von durchschnittlich 70
+Euro, die direkt in den Haushalten eingebaut werden. Beispiele für Soforthilfen sind:
+LEDs,
+Zeitschaltuhren,
+schaltbare
+Steckdosenleisten,
+Durchflussbegrenzer,
+Sparduschköpfe, Thermohygrometer sowie Raum- und Kühlschrankthermometer.
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 5 von 50
+
+Außerdem erhalten Haushalte mit einem Kühlgerät, das älter als 10 Jahre ist und ein
+Einsparpotenzial von mindestens 200 kWh pro Jahr gegenüber einem vergleichbaren
+A+++ Gerät aufweist, einen Gutschein über 150 Euro. Bei Entsorgung dieses Altgeräts
+und Neuanschaffung eines A+++-Kühlgeräts kann der Haushalt diesen Gutschein
+einlösen.
+Die Haushaltsberater, die so genannten Stromsparhelfer, sind ehemals
+langzeitarbeitslose Menschen, die passgenau auf diese Beratungstätigkeit qualifiziert
+werden. Dazu erhalten sie eine umfassende energiefachliche Schulung durch einen
+professionellen Energieberater und ein intensives Training zur Entwicklung bzw.
+Stabilisierung sozialer Kompetenzen durch den Träger vor Ort. Beide Ausbildungen
+werden über das Bundesprojekt zur Verfügung gestellt.
+Ablauf eines Stromspar-Checks
+
+Kontaktaufnahme Der Haushalt meldet sich bei einem lokalen Projekt freiwillig zum
+Stromspar-Check an.
+1. Besuch
+Erfassung von Verbräuchen durch Abfrage von Nutzerverhalten,
+Verbrauchsmessungen an elektrischen Geräten und von Wasserdurchflüssen
+sowie Überprüfung der Energie- und Wasserkosten-Abrechnung.
+Analyse
+Aus den aufgenommen Verbräuchen werden in der DB die Einsparpotenziale
+durch Einbau und Nutzung von Soforthilfen errechnet.
+2. Besuch
+Der Haushalt erhält seinen individuellen Bericht, der vor Ort besprochen wird,
+notwendige Soforthilfen, ggf. einen Kühlgeräte-Gutschein, sowie wichtige
+Tipps zu Verhaltensänderungen.
+3. Besuch
+Nach einem Jahr hat der Haushalt die Möglichkeit, sich ein weiteres Mal
+beraten zu lassen. Dabei werden u.a. auch die tatsächlichen Einsparungen
+laut Rechnungsvergleich überprüft.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 6 von 50
+
+1.1.1 Beschreibung des Unternehmens
+Der Deutsche Caritasverband (DCV) ist der
+Wohlfahrtsverband der katholischen Kirche
+in Deutschland. Gegründet wurde der DCV
+1897 durch den katholischen Priester
+Lorenz Werthmann als Dachorganisation
+vielfältiger und teilweise bereits lange
+vorher
+tätiger
+Initiativen
+und
+Gruppierungen.
+Menschen in Not in Deutschland erfahren konkrete Hilfe in 27 DiözesanCaritasverbänden, rund 600 Bezirks-, Orts- und Kreis-Caritasverbänden und
+Sozialberatungsstellen,
+in
+17
+caritativen
+Fachverbänden
+und
+in
+den
+Ordensgemeinschaften und Vereinigungen.
+In rund 25.000 Caritas-Einrichtungen für Gesundheits-, Jugend-, Familien-, Alten- und
+Behindertenhilfe sowie in den Einrichtungen für Hilfen in sozialen Notlagen und in der
+Aus- und Fortbildung arbeiten knapp 520.000 hauptberufliche Mitarbeitende in Voll - und
+Teilzeit.
+Darüber hinaus engagieren sich weitere 500.000 Menschen ehrenamtlich in den Diensten
+und Einrichtungen der Caritas. Sie betreuen, pflegen und beraten täglich rund eine Million
+Menschen.
+Im Engagement für arbeitslose Menschen manifestiert sich der Auftrag des Evangeliums
+und der Katholischen Soziallehre. Hilfen für Arbeitslose zu entwickeln und zu fördern, ist
+Zweck der Katholischen Bundesarbeitsgemeinschaft Integration durch Arbeit (IDA) im
+Deutschen Caritasverband. Mit dem Projekt Stromspar-Check hilft sie, benachteiligten
+Menschen Brücken zur Rückkehr auf den Arbeitsmarkt zu bauen.
+Weitere Informationen: caritas.de
+Der Bundesverband der Energie- und
+Klimaschutzagenturen Deutschlands (eaD)
+e. V.
+ist
+die
+bundesweite
+Interessensvertretung der regionalen und
+kommunalen
+Energieund
+Klimaschutzagenturen.
+Er fördert die Zusammenarbeit und den Ideenaustausch seiner Mitglieder und bündelt
+ihre Interessen auf Bundesebene gegenüber den politischen Institutionen, Parteien,
+anderen Verbänden und in den Medien. Derzeit sind 39 Agenturen Mitglied im eaD.
+Die Mitglieder des eaD beraten die öffentliche Hand, Wirtschaft und Verbraucher zu
+Energieeinsparpotenzialen, entwickeln für jeden Kunden passgenaue Dienstleistungen
+zur Minimierung des Energieeinsatzes und setzen als Schrittmacher für die Energiewende
+mit ihren Projekten und Kampagnen Tag für Tag die energie- und klimaschutzpolitischen
+Ziele in den Regionen und Kommunen konkret um.
+Weitere Informationen: energieagenturen.de
+Die Datenbank ist für beide Verbundpartner ein zentrales Instrument des Projekts und
+wird gemeinsam verantwortet. Über die inhaltliche Weiterentwicklung und die finanzielle
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 7 von 50
+
+Ausstattung wird gemeinsam entschieden. Der eaD ist für die Ausschreibung und
+Beauftragung des Dienstleisters zuständig und dessen direkter Auftraggeber.
+
+1.1.2 Darstellung der Datenbank und Zielstellung der
+Ausschreibung
+Die Datenbank ist das zentrale Instrument des Projektes Stromspar -Check, in dem alle
+Vorgänge des Stromspar-Checks zusammenlaufen. Dementsprechend wird die
+Datenbank von einer großen Zahl von Nutzern mit unterschiedlichen Rollen genutzt. Die
+Datenbank wird genutzt, um die durchgeführten Stromspar-Checks zu erfassen, mögliche
+Energieeinsparungen zu berechnen und ausgegebene Soforthilfen zu dokumentieren,
+durchgeführte Monitorings zu erfassen, den Kühlgerätetausch abzuwickeln und die
+erfassten Daten auszuwerten. Je nach Rolle haben die einzelnen Nutzer Zugriff auf
+unterschiedliche Informationen, unterschiedliche Möglichkeiten, Daten einzutragen und
+Auswertungen abzufragen.
+
+Abbildung 1: GUI der SSC-Datenbank
+
+Mit Stand 1.2.2017 waren die folgenden Nutzer in den jeweiligen Rollen in der Datenbank
+angelegt:
+
+
+
+
+
+Stromsparhelfer/innen, Trainer/innen und Lokale Koordinator/innen sind
+standortbezogen angelegt:
+5.533 Stromsparhelfer/innen
+(Erfassung der in den Haushalten festgestellten Werte in der Datenbank, Auswahl
+der Soforthilfen)
+513 Trainer/innen (Qualitätssicherung: Plausibilitätsprüfung, der von den
+Stromsparhelfern erfassten Haushaltsdaten und der ausgewählten Soforthilfen)
+578
+Lokale
+Koordinator/innen
+(Anlegen
+von
+Haushalten
+und
+Trainer/innen/Stromsparhelfer/innen, Abwicklung des Kühlgerätetauschs)
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 8 von 50
+
+Überregional angelegt sind:
+ 42 Regionale Koordinator/innen (Qualitätssicherung: Auswertung aggregierter
+Daten von einzelnen Standorten, Nutzerverwaltung auf lokaler Ebene)
+ 28 Bundeskoordinator/innen (Qualitätssicherung: Auswertung aggregierter Daten
+von einzelnen Standorten und Regionen sowie bundesweit, Nutzerverwaltung auf
+regionaler und lokaler Ebene)
+ 1 Administrator (Qualitätssicherung: Auswertung aggregierter Daten von einzelnen
+Standorten und Regionen sowie bundesweit, Nutzerverwaltung auf regionaler,
+lokaler und Bundesebene)
+Es soll eine neue Rolle hinzugefügt werden: Energiefachliche Begleitung.
+Eine ausführliche Darstellung der einzelnen Rollen und der Rechte findet sich auf Seite
+36.
+Des Weiteren waren angelegt:
+ 12 Regionen
+ 213 Standorte
+Stand 06.04. waren 257.671 Haushaltsdatensätze sowie 64 Soforthilfen und 536
+Preisdatensätze erfasst.
+In ihrer Funktionalität ist die Datenbank um den Ablauf eines Haushaltschecks aufgebaut.
+Ein Check durchwandert im Verlauf folgende Status:
+-
+
+-
+
+-
+
+-
+
+-
+
+Ohne Termin: Haushalt wurde angelegt, noch kein Termin für Check vereinbart
+Datenerfassung:
+Der/die
+Stromsparhelfer/in
+erfasst
+die
+Daten
+vom
+Haushaltsbesuch und versetzt den Check in den Status „Prüfung“.
+Prüfung: Der/die Trainer/in prüft, die von den Stromsparhelfer/innen erfassten
+Daten auf Plausibilität. Falls der/die Trainer/in die erfassten Daten für plausibel
+hält, verändert er/sie den Check in den Status „Abgeschlossen“. Falls nicht, wird
+der Check mit Anmerkungen vom/von der Trainer/in versehen (an welchen Stellen
+noch Nacharbeiten notwendig sind) und in den Status „Nachkontrolle“ versetzt.
+Nachkontrolle: Die Stromsparhelfer/innen bearbeiten auf Grundlage der
+Anmerkungen des/der Trainers/Trainerin den Check erneut. Dann wird der Check
+wieder in den Status Prüfung versetzt. Die Vorgänge „Prüfung“ und „Nachkontrolle“
+können sich mehrfach wiederholen.
+Abgeschlossen: Der Check wurde vom/von der Trainer/in abgeschlossen, ohne
+Freigabe zum Kühlgerätetausch
+Abgeschlossen Freigabe Kühlgerätetausch: Der Check wurde vom/von der
+Trainer/in abgeschlossen, und es wurde eine Freigabe zum Kühlgerätetausch
+erteilt.
+Monitoring abgeschlossen: Es wurde ein dritter Haushaltsbesuch durchgeführt.
+Nach Abschluss dieses Haushaltsbesuch und der Eintragung der Daten in die
+Datenbank wurden diese vom/von der Trainer/in geprüft und – bei Plausibilität –
+der Check in „Monitoring abgeschlossen“ versetzt.
+Nach Abschluss eines Checks kann nur der/die Lokalkoordinator/in den Check
+wieder freigeben.
+
+Um Berechnungen zu den erfassten Werten vornehmen zu können, sind entsprechende
+Parameter, Berechnungsformeln und Annahmen zu einzelnen Feldern hinterlegt.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 9 von 50
+
+Zudem werden die Erfassung der ausgegebenen Soforthilfen und der Kühlgerätetausch
+durch die Datenbank abgewickelt. Auch hier sind entsprechende Werte hinterlegt, z.B.
+eine umfangreiche Liste von Kühlgeräten mit Verbrauchswerten.
+Aus den erfassten Daten werden – je nach Rolle - unterschiedliche Auswertungen
+generiert, die sich auf Standorte, Regionen oder auf das gesamte Projekt beziehen
+können.
+Die derzeitige Datenbank ist im Verlauf von 8 Jahren gewachsen, so dass sie technisch
+nicht auf dem aktuellen Stand ist und von der Programmierung an ihre Grenzen stößt. Sie
+soll daher nach einer Neuprogrammierung schneller und an die sich geänderten
+Anforderungen durch das Projekt angepasst werden. Im Kernbereich, Abwicklung der
+Stromspar-Checks und Monitoring (Status Datenerfassung, Prüfung, Nachkontrolle,
+Abgeschlossen, Monitoring) – sollen aber keine tiefgreifenden Veränderungen
+vorgenommen werden, sondern die Funktionen der bisherigen Datenbank übernommen
+werden. Auch die oben genannten Rollen sollen beibehalten werden, lediglich die
+erwähnte Rolle „Energiefachliche Begleitung“ soll neu einger ichtet werden.
+Die Datenbank soll durch die Neuprogrammierung nutzerfreundlicher (z. B. durch
+Optimierung von Abläufen und Schaffung neuer Funktionen, u.a. im Bereich Soforthilfen
+und Kühlgerätetausch), schneller und flexibler werden. Da das Projekt sich kontinuierlich
+fortentwickelt, muss sie so aufgebaut werden, dass auch in Zukunft neue Module und
+Elemente möglichst problemlos in die Datenbank integriert werden können. Zudem sollen
+die Auswertungsmöglichkeiten deutlich ausgeweitet und flexibler werden.
+
+1.1.3 Beschreibung und Hintergründe der geplanten
+Softwareentwicklung
+Die vorhandene Datenbank (im Weiteren als DB abgekürzt) soll neu aufgesetzt werden.
+Die DB soll an die aktuellen Rahmenbedingungen der Softwaretechnik angepasst werden,
+und flexibler aufgebaut werden, so dass Anpassungen und Erweiterungen einfacher
+realisiert werden können. Wichtige Rahmenbedingung zur Neuentwicklung ist die
+Datensicherheit. Um die Nutzung der DB zu optimieren, muss die Benutzeroberfläche
+angepasst werden. Geplant ist auch eine Umsetzung für mobile Endgeräte.
+Die DB soll komprimiert werden, um ihre Performance zu steigern und somit ein optimales
+Arbeiten zu ermöglichen. Das Handling (Oberfläche) der DB ist für die Nutzer bereits
+vertraut, daher sollten keine großen Änderungen vorgenommen werden. Die DB soll um
+weitere Funktionen erweitert und neu aufgebaut werden.
+Die Funktionen sollen effizienter und vereinfacht werden um die Bedienung und
+Anwendbarkeit zu erleichtern. Dafür soll die Oberfläche auf Optimierungsmöglichkeiten
+für jede Nutzergruppe geprüft werden. Einige der vorhandenen Funktionen müssen vom
+Handling angepasst werden.
+Die Auswertungsfunktion der Daten soll flexibler gestaltet werden, um
+nutzerrollenspezifische Auswertung zu generieren. Des Weiteren ist es geplant, die
+Datenbank auch externen Nutzern zur Verfügung zu stellen, die allgemeine und
+standortspezifische, jedoch anonymisierte Projektauswertungen einsehen können. Mit
+externen Nutzern sind projektnahe Personen, wie zum Beispiel Mitarbeiter von
+Kommunen gemeint, die Standorte finanzieren. Die Umstellung von der alten zur neuen
+DB soll an einem festgelegten Termin stattfinden. Vor der Freischaltung soll die
+Entwicklung der DB durch stetiges Testen der Mitarbeiter gewährleistet werden, um die
+DB fehlerfrei in die produktive Phase zu überführen. Außerdem soll die DB auch von
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 10 von 50
+
+ausgewählten Standorten (max. 10 Standorte) getestet werden um ggf. Bugs zu
+identifizieren.
+Die DB wird stetig erweitert und ergänzt durch die Anpassung von Prozessen und
+Abläufen. Sollte die Datenbank erweitert werden, sollte dies ohne hohen
+Wartungsaufwand möglich sein. Dies wird im Abschnitt 1.3 näher erläutert.
+
+1.2 Produktübersicht und Einsatz
+Die DB wird von unterschiedlichen Usergruppen genutzt, um Energiedaten der Haushalte
+zu erfassen, zu prüfen, zu bearbeiten und auszuwerten. Die User haben unterschiedliche
+Berechtigungen (s. 1.1.2) für die Eingabe und Bearbeitung der Daten.
+Die Energiedaten werden von einem oder zwei Stromsparhelfern erfasst. Die Erfassung
+vor Ort wird mithilfe eines Erfassungsbogens durchgeführt. Dieser ist im Excel-Format
+angelegt und wird vor dem Haushaltsbesuch ausgedruckt. Während des Termins werden
+die Daten manuell eingetragen. Erfasst werden unterschiedliche Energiedaten sowie
+Haushaltsdaten. Dazu zählen zum Beispiel Strom-, Wasser- und Wärmeverbrauch sowie
+Haushaltsgröße, Personenanzahl und Transferleistungen. Diese Daten werden für die
+Berechnungen der Einsparpotenziale benötigt. Die Stromsparhelfer erfassen die
+Energieverbräuche des Haushaltes und können – falls angebracht – verschiedene
+Soforthilfen einbauen. Die DB errechnet den Ist-Verbrauch im Vergleich zum Verbrauch
+nach dem Einbau der Soforthilfen und zeigt den Nutzern die Einsparpotenziale sowie die
+Amortisationszeit an. Der Trainer prüft die eingetragenen Daten auf Plausibilität. Sind die
+Daten noch nicht plausibel, werden diese für die Stromsparhelfer wieder zur
+Nachbearbeitung freigegeben. Dieser Vorgang kann mehrmals wiederholt werden. Beim
+zweiten Haushaltsbesuch erhält der Haushalt die Soforthilfen sowie einen Bericht, den
+die DB generiert. In diesem Bericht kann der Haushalt erkennen, welche Einsparungen
+die installierten Soforthilfen bewirken. Durch die Regelung der Nutzerrechte können die
+verschiedenen Nutzer die Checks in unterschiedliche Status versetzen.
+Eine Besonderheit ist hier der Kühlgerätetausch. Ist ein Kühlgerät (Kühlschrank und/oder
+Gefrierschrank, ggf. Kombigerät) im Haushalt vorhanden, werden alle Daten des Gerätes
+erfasst. Erfüllt das Gerät bestimmte Kriterien, erhält der Haushalt einen Gutschein für
+einen Kühlgerätetausch. Der Gutschein wird vom zugeordneten Trainer erstellt.
+Nach einem Jahr kann der Haushalt, wenn er bestimmte Bedingungen erfüllt
+(Bestätigung, dass der Haushalt weiterhin kontaktiert werden darf und Vorliegen der
+Stromrechnung), zum Monitoring besucht werden. Im Monitoring werden die Haushalte
+zum Nutzerverhalten und zu den Einsparungen durch die Soforthilfen befragt.
+Das Anlegen von Logins ist nur in eine Richtung möglich, von der Rolle der
+Administratoren bis hin zur Rolle der Lokalen Koordinatoren. Trainer und Stromsparhelfer
+können keine Logins anlegen.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 11 von 50
+
+1.2.1 Aktuelle Situation
+Die DB wurde mit PHP 5 und MySQL 5 programmiert. Als Framework wurde Propel 1.3
+verwendet. Die DB kann mit verschiedenen Browsern genutzt werden. Nachfolgend wir d
+der Datenbestand aufgelistet, um einen Überblick über die Datenmenge zu liefern. Der
+Datenbestand ist vom 11. Oktober 2016. In diesem Zusammenhang ist zu erwähnen, dass
+der Datenbestand stetig steigt.
+Die Auflistung der Daten ist unbereinigt und beinhaltet auch „nicht abgeschlossene“
+Datensätze bzw. die Auflistung inaktiver Datensätze sowie nicht abgeschlossener
+Stromsparchecks.
+Wie im Abschnitt 1.1.2 beschrieben, arbeitet eine Vielzahl von Usern mit den Daten. Die
+bestehenden Berechtigungen sollen bei der Neuentwicklung beibehalten werden.
+In den nachfolgenden Kapiteln werden die Schwachstellen und Problembereiche sowie
+die dazu passenden Änderungsvorschläge und Erweiterungen für die neue DB aufgelistet.
+Die beiden Abschnitte gehören zusammen und sollten auch zusammen betrachtet
+werden.
+
+1.2.1.1
+
+Benutzerverwaltung
+
+Hat ein Nutzer aktuell mehr als eine Rolle in der DB, erhält dieser für jede Rolle separate
+Login-Daten. Das bedeutet, dass er für jede Rolle eine andere E-Mail Adresse und
+Passwort braucht, die über Pagejet1 generiert werden. Jeder Nutzer ist nur einem
+Standort bzw. einer Region zugeordnet. Übt ein Nutzer in zwei Standorten eine Rolle aus,
+braucht dieser wiederum für jeden Standort einen separaten Login. Somit bekommt jeder
+Nutzer für jede Tätigkeit, die er in der DB ausübt, eine zusätzliche E-Mail Adresse und
+Passwort. Ein Nutzer kann für mehrere Standorte und Regionen in mehreren Rollen tätig
+sein.
+Wenn ein Nutzer verschiedene Rollen in der DB bekommt, sollte es möglich sein, dass
+dieser sich nur mit einem Login (E-Mail-Adresse und Passwort) anmeldet. Die
+Nutzerverwaltung sollte so aufgebaut sein, dass nach der Anmeldung zunächst der
+jeweilige Standort und dann die Rolle ausgewählt werden kann – z.B. durch ein Häckchen
+oder Dropdown-Menü. Die Oberfläche soll sich nach der Auswahl der Rolle anpassen.
+Das Wechseln eines Standortes oder der Rolle sollte ohne Abmelden möglich sein. Die
+Festlegung der Rechte wird durch die Rollenhierarchie bestimmt. Besitzt ein Nutzer eine
+Berechtigung nicht, soll diese für den jeweiligen Nutzer grau dargestellt werden.
+Des Weiteren soll es möglich sein, für eine Person eine Vertretung festzulegen. Diese
+soll mit einem Zeitraum terminiert werden. Das Anlegen einer Vertretung richtet sich nach
+der Rollenhierarchie. Ist ein Trainer nicht mehr aktiv, muss die DB eine Meldung anzeigen,
+dass ein anderer Trainer ausgewählt werden muss.
+Beispiel:
+Frau Schüler ist Trainerin in der Region 40, Standort 412. Nach einem Jahr wird sie auch
+Lokale Koordinatorin in der Region 30, Standort 315. Beide Rollen führt sie danach mit
+einem Login aus.
+
+1
+
+Erläuterung im Abschnitt 1.4.1
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 12 von 50
+
+Abbildung 2: Benutzerverwaltung mit Zuordnung nach Region und Standort
+
+Loggt sich ein Nutzer in die Datenbank ein, muss er das mit einer E-Mail-Adresse und
+Passwort tun. Für das Anmelden sollen zwei Verfahren möglich sein.
+
+
+Der Nutzer meldet sich als Trainer für den Standort A an. Geht der Nutzer nun auf
+das Feld Standortauswahl, kann er alle Standorte auswählen für die er eine
+Trainerrolle ausübt. Mit der Auswahl eines neuen Standortes ist der Nutzer nun
+mit der Rolle Trainer und für Standort B eingeloggt. Es sollte nur der Standort zur
+passenden Rolle angezeigt werden.
+
+
+
+Der Nutzer meldet sich für Standort A als Trainer an. Geht der Nutzer nun auf das
+Feld Rollenauswahl, kann er alle Rollen auswählen, die er für den Standort ausübt.
+Mit der Auswahl einer neuen Rolle ist der Nutzer nun mit der Rolle
+Lokalkoordinator und für Standort A eingeloggt. Es sollten wieder nur die
+passenden Daten angezeigt werden.
+
+Danach kann der Nutzer zunächst einen Standort und dann eine Rolle auswählen, denen
+er zugeordnet ist.
+Um die Datensicherheit in der neuen Datenbank zu erhöhen, muss jeder Nutzer alle 6
+Monate ein neues Passwort festlegen.
+
+1.2.1.2
+
+Administrationsrechte
+
+Der Administrator verfügt zurzeit nicht über alle Rechte in der DB. Der Administrator sollte
+über alle Rechte in der DB verfügen. Das beinhaltet:
+
+
+das Löschen von Datensätzen,
+o
+
+Löschen von Kühlgerätetausch-Daten (Register 11),
+
+o
+
+Löschen von Gutscheinen,
+
+o
+
+Löschen der Siegelnummer (Register 11),
+
+
+
+das Anlegen von Datensätzen,
+
+
+
+die Änderung von Datensätzen, wie
+o
+
+Neuausstellung eines Kühlgerätegutscheines (Register 11)
+
+o
+
+Statusänderung des Datensatzes.
+
+Dies dient ausschließlich der Fehlerbehebung bzw. Nachvollziehbarkeit von Fehlern. Es
+sollte möglich sein, eine Funktion einzubauen, in dem der Admin festlegen kann, in
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 13 von 50
+
+welcher Rolle er gerade den Datensatz ansehen will. Für andere Nutzer soll im DatensatzLog nachvollziehbar sein, was der Admin geändert hat. Anfragen nach Änderungen
+müssen dem Admin schriftlich zukommen.
+
+1.2.1.3
+
+
+Log-Verlauf
+
+Für Datensätze
+Alle Änderungen, die an den Stromspar-Checks durchgeführt werden, sollen
+protokolliert werden. Dies ist in der aktuellen DB umgesetzt und soll in der neuen
+DB weiter genutzt werden. Hierbei sollen alle Nutzerrollen davon betroffen sein
+(siehe Abbildung 2). Der Aufbau des Logs sollte verständlicher und
+nachvollziehbarer sein (genaue Erkennung, welches Feld wie geändert wurde).
+
+Abbildung 3: Log-Verlauf eines Datensatzes
+
+
+
+Sobald ein Nutzer angelegt oder bearbeitet wird, soll dies in der DB protokolliert
+werden. Es soll nachvollziehbar sein, wann sich der Nutzer angemeldet hat. War
+ein Nutzer länger als 6 Wochen nicht mehr aktiv, soll dieser automatisch inaktiv
+geschaltet werden. Die übergeordnete Nutzergruppe (Nutzerhierarchie) soll eine
+Meldung bekommen, in der steht, welcher Nutzer für eine längere Zeit inaktiv war.
+Die Meldung über einen inaktiven Nutzer soll nach vier Wochen erfolgen. Es sollte
+ohne Probleme möglich sein, den Nutzer wieder zu aktivieren. Die Reaktivierung
+eines Nutzers soll für die übergeordnete Nutzergruppe und für den Admin möglich
+sein.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 14 von 50
+
+1.2.1.4
+
+Anonymisieren von personenbezogenen Daten
+
+Die personenbezogenen Daten sollen fünf Jahre nach Erstellungsdatum gelöscht bzw.
+unkenntlich gemacht werden. Der Vorgang der Anonymisierung soll automatisch zum
+Ende des Monats ablaufen. Dafür sollen alle personenbezogenen Daten durch „xxx“
+ersetzt werden. Die Energiedaten werden beibehalten.
+Des Weiteren darf durch die ID oder den Stromsparhelfer/Trainer nicht erkennbar sein,
+um welchen Haushalt es sich handelt. Diese Datensätze müssen für eine erneute
+Bearbeitung gesperrt sein. Das bedeutet, dass der Datensatz nicht mehr in einen anderen
+Status versetzt werden kann. Im Registerblatt 10 „Weitere Strom verbrauchende Geräte“
+soll es die Möglichkeit geben einzelne eingegebene Geräte zu löschen, falls ein Gerät
+doppelt oder falsche aufgenommen wurde.
+
+1.2.1.5
+
+Oberfläche
+
+Die GUI der DB ist grafisch nicht mehr auf dem aktuellsten Stand der Entwicklung. Bei
+der Speicherung der Datensätze wird nicht jedes Feld geprüft, ob seine Daten benötigt
+werden (Plausibilitätsprüfung jedes Feldes). Fehlen Daten in einem „abgeschlossenen“
+Datensatz muss der Datensatz vom lokalen Koordinator auf den Status „Nachkontrolle“
+gesetzt werden, um die Daten nachtragen oder ändern zu können. Der Datensatz muss
+dann wieder vom Stromsparhelfer in den Status „Prüfen“ gesetzt werden. Ist der
+Datensatz richtig, muss der Trainer diesen mit dem Status „Abgeschlossen“ schließen.
+Der Aufwand, Daten bei einem abgeschlossenen Datensatz zu ändern, ist sehr hoch.
+Optimal wäre, wenn der Trainer die Möglichkeit hätte, den Datensatz wieder auf
+„Nachkontrolle“ zurück zu setzen.
+Die GUI soll benutzerfreundlicher gestaltet werden, damit diese weniger fehleranfällig ist.
+Bevor die Daten in den verschiedenen Registern gespeichert werden, muss geprüft
+werden, ob alle wichtigen Bedingungen erfüllt und richtig sind. Wenn nicht, soll der Nutzer
+eine Fehlermeldung mit dem Hinweis auf die falsch eingetragenen Daten erhalten. Für
+jedes Feld muss ein Parameterwert festgelegt werden, der erlaubt und zulässig ist ( z. B.
+Datumfeld: TT.MM.JJJJ). Die Eingabeparameter werden in einer separaten Liste
+angehangen. Jedes Feld soll ein Tooltip mit wichtigen Informationen, wie zum Beispiel,
+was eingegeben werden darf, bekommen. Für einige Felder muss eine
+Plausibilitätsprüfung festgelegt werden, um Fehler, wie zum Beispiel “Zweittermin liegt
+vor dem Ersttermin“ vorzubeugen. Der Nutzer soll darauf aufmerksam gemacht werden,
+wenn bestimmte Werte nicht stimmen. Ein Datensatz darf erst abgeschlossen werden,
+wenn alle Pflichtfelder ausgefüllt sind.
+In einigen Reitern sollen Textbausteine angeboten werden, die die Stromsparhelfer in
+entsprechende Felder übernehmen kann. Die Standorte sollen einen Bereich in der
+Datenbank erhalten in dem sie für ihren Standort Textbausteine erstellen können. Diese
+können sie im Reiter 9 und Reiter 10 neben den Standard-Textbausteinen auswählen.
+Ein Nutzer mit verschiedenen Rollen hat verschiedene Nutzeroberflächen. Um Daten aus
+einer anderen Rolle anzuzeigen, muss sich der Nutzer erst abmelden und mit der anderen
+Rolle sich erneut anmelden. Mit der neuen Datenbank sollte dies anders gelöst werden.
+Dabei ist zu beachten, dass ein Nutzer nicht nur für verschiedene Rollen, sondern auch
+für verschiedene Standorte zuständig sein kann. Ziel ist, dass ein*e Nutzer*in mit lediglich
+einem Account all die ihm zugewiesenen Rollen für die ihm zugewiesenen Standorte
+bedienen kann (siehe Kapitel 1.2.1.1)
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 15 von 50
+
+Bei der Auflistung der Checks (z. B. alle Checks eines Standortes) werden nicht alle
+Daten des Datensatzes angezeigt, die für den Nutzer relevant sind. Die Auflistung der
+Checks soll variabel angepasst werden können mit der Möglichkeit von Ein- und
+Ausschalten der Felder.
+Bei Register Nr. 3 „Beleuchtung“ können nicht alle Lampentypen (Fassungen) ausgewählt
+werden. Für den Fall, dass der Haushalt eine Lampe besitzt, die nicht aufgelistet ist, sollte
+das Dropdownfeld mit dem Wert „Sonstiges“ erweitert werden. In das Feld Lampentyp
+kann danach die Lampe eingetragen werden. Somit können alle Lampen des Haushaltes
+erfasst und ggf. eine Anpassung der Soforthilfen durchgeführt werden. Mithilfe einer
+Auswertung kann die Bundeskoordination prüfen, ob es Bedarf an weiteren Lampen
+besteht. Im Reiter 10 soll zusätzlich zum Gerätetyp „Beleuchtung“ auch der Sockel der
+Lampen auswählbar sein, um die Beratung und Auswertung zu verbessern.
+Es soll für einzelne Module die Möglichkeit bestehen, diese nur für bestimmte Standorte
+sichtbar bzw. aktiv zu schalten.
+
+1.2.1.6
+
+Hilfefunktion
+
+Einige Kontexthilfen sind nicht eindeutig formuliert. Einige Hilfetexte sind zu komplex und
+ungenau beschrieben (Fragezeichenkästchen). Diese sollten überarbeitet werden. Der
+Bereich “Hilfe?“ ist nicht gepflegt und bietet zu wenige Hilfestellungen. Dieser Bereich soll
+so überarbeitet werden, dass der Auftraggeber die Möglichkeit hat, den Bereich selbst zu
+pflegen und Dokumente zu verlinken.
+Zur Unterstützung der Nutzer soll ein Hilfebereich mit Suchfunktion aufgebaut werden
+(FAQ). Hier können die Schulungsunterlagen hinterlegt werden. In den Unterlagen sollte
+es möglich sein, nach Wörtern zu suchen. Jede Benutzergruppe sollte eine eigene
+Hilfefunktion bekommen. Optional soll es möglich sein, aus der Datenbank einen
+Screenshot zu erstellen und an die hinterlegte E-Mail Adresse zu senden.
+
+1.2.1.7
+
+Suchfunktion von Datensätzen
+
+Die Suchfunktion nach Datensätzen ist nicht optimal. Die Suche ist auf zwei Register
+aufgeteilt und zu unübersichtlich aufgebaut. Um nach einer Gutscheinnummer zu suchen,
+muss ein anderes Register geöffnet werden.
+Die Suchfunktion darf für den Nutzer nicht nur auf ID, Ort oder Gutscheinnummer
+beschränkt sein. Felder wie Name, Kundennummer oder Siegelnummer sollen
+hinzugefügt werden. Optimal wäre eine Freitextsuche innerhalb der DB. Die Suche sollte
+zentral angeordnet sein. Des Weiteren sollte es mit Shortcuts möglich sein, wieder in die
+Suchfelder zu springen.
+
+1.2.1.8
+
+Löschfunktion von Datensätzen
+
+Das Löschen von Datensätzen ist zu aufwändig. Der Admin muss mehrere Klicks bis zum
+Löschen durchführen. Um derzeit einen Datensatz zu löschen, muss dieser erst gesucht
+und geöffnet werden, um diesen dahingehend zu prüfen, ob der Datensatz gelöscht
+werden kann. Als Nächstes muss die Suchmaske wieder aufgerufen werden, um dort den
+Datensatz zu löschen. Diese Löschmaske muss wiederum bestätigt werden.
+Das Löschen von Datensätzen sollte einfacher und optimierter ablaufen. Hierfür soll es
+auch für Lokalkoordinatoren möglich sein, Datensätze zu löschen, wenn diese im Status
+„ohne Termin / zu besuchen“ und „Datenerfassung“ sind. Dafür können Stromsparhelfer
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 16 von 50
+
+den zu löschenden Datensatz markieren und einen Grund für das Löschen auswählen.
+Die Auswahlmöglichkeiten wären:
+ Kunde hat kein Interesse mehr
+ Doppelt angelegt
+ Kunde nicht mehr erreichbar
+ Sonstiges mit Kommentarfeld (verpflichtend).
+Der Lokalkoordinator erhält in der Datenbank eine Löschliste mit den Datensätzen, die
+gelöscht werden sollen. Datensätze, die in „Prüfung“, „Nachkontrolle“ oder
+Abgeschlossen“ sind, können nur von dem Admin gelöscht werden. Dieser soll, wie auch
+der Lokalkoordinator eine Liste bekommen, in der die Datensätze zum Löschen
+aufgelistet sind. Die Datenbank soll dabei selbst zuordnen, ob der Lokalkoordinator oder
+der Admin den Löschauftrag bekommt. Ggf. sollte es auch möglich sein, den Datensatz
+in der Datenübersicht zu löschen.
+Hat ein Haushalt an einem Stromspar-Check teilgenommen und möchte, dass seine
+personenbezogenen Daten gelöscht werden, sollte die Löschfunktion die Daten durch
+„xxx“ ersetzen. Die Energiedaten bleiben für Auswertungen erhalten. Dies ist in der DB
+umgesetzt und sollte auch beibehalten werden.
+
+1.2.1.9 Beschäftigungsverhältnis bei Stromsparhelfern
+In der Datenbank gibt es die Möglichkeit neue Stromsparhelfer anzulegen.
+Stromsparhelfer können einer Region, einem Standort und einem Ausbildungstrainer
+zugewiesen werden. Die bestehenden Funktionen sollen beibehalten werden und durch
+neue Funktionen erweitert werden.
+
+Abbildung 4: Anlegen von neuen Stromsparhelfer
+
+Mit der neuen Datenbank soll es möglich sein, den Beschäftigungs-/Maßnahmetyp mit
+Beginn und Ende, sowie Status und Vermittlung zu erfassen. Im „Status“ wird erfasst ,
+welcher Beschäftigungs-/Maßnahmetyp dem Stromsparhelfer zugeordnet ist. Im Feld
+„Vermittlung“ wird der Vermittlungsstand des Stromsparhelfers eingetragen. Die Felder
+sollen in der Maske „neuen Stromsparhelfer anlegen“ hinzugefügt werden. Die Eingabe
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 17 von 50
+
+der Felder soll nur für Lokalkoordinatoren möglich sein. Legt der Administrator einen
+neuen Stromsparhelfer an, so dürfen die neuen Felder frei bleiben. Der Lokalkoordinator
+erhält eine Meldung, mit den fehlenden, nachzutragenden Daten. Die Felder dürfen auch
+nur für den Lokalkoordinator sichtbar sein. Die Felder sind Pflichtfelder. Nach Ablauf des
+Beschäftigungszeitraums/Bei Eintritt des Enddatums wird der Stromsparhelfer
+automatisch inaktiv. Ist ein Stromsparhelfer länger als 4 Wochen nicht aktiv in der
+Datenbank, so soll der Lokalkoordinator eine Meldung erhalten: „ Ist der Stromsparhelfer
+xxxx noch im Projekt? –Bitte das Ende-Datum aktualisieren, falls notwendig“.
+Für die Caritas soll es eine Auswertungsfunktion geben in der die erfassten Daten zu den
+Stromsparhelfern ausgegeben werden können. Der Lokalkoordinator soll eine Übersicht
+erhalten, wie viele Stromsparhelfer aktuell tätig sind und wie viele Stromsparhelfer
+geplant/bewilligt sind. Dies soll in einer Auswertung mit Direktausgabe umgesetzt werden.
+Des Weiteren sollen verschiedene Filterfunktionen für den Caritas zur Verfügung stehen:
+1. Nach Standort: einzeln, Kombination, alle, Bundesland, Region
+2. Nach Beschäftigungs-/Maßnahme-Typ: einzeln, Kombinationen, alle
+Dabei soll angezeigt werden „Anzahl der Stromsparhelfer geplant/bewilligt“ und „Anzahl
+Stromsparhelfer“ aktuell tätig. Zudem soll eine Filterfunktion zur Vermittlung der
+Stromsparhelfer in den Arbeitsmarkt eingerichtet werden. Hier soll es möglich sein nach
+Standort: einzeln, Kombinationen, alle, Bundesland und Region zu filtern. Die
+Auswertungen/Filterfunktion sollen direkt in der Datenbank ausgegeben werden, sowie
+als Excel Exporte zur Verfügung stehen. Die Daten der Vermittlungsauswertung sollen in
+einen Kreisdiagramm dargestellt werden.
+
+1.2.1.10
+
+Auswertungen
+
+Das Abrufen von Auswertungen dauert wegen der hohen Zahl an Datensätzen oder an
+Datenbankverknüpfungen zu lange. Die DB Performance muss optimiert werden.
+Auswertungen können nach bestimmten Rollen in der Datenbank nur als PDF oder als
+Excel-Datei ausgegeben werden. Bei Auswertungen, die nur als PDF-Dateien
+ausgegeben werden, ist eine weitere Verarbeitung der Daten nicht möglich. Der Aufbau
+der Auswertungsfunktion ist zu unübersichtlich. Wird ein bestimmter Wert aus der DB
+benötigt muss hierfür eine neue Abfrage programmiert werden. Die jetzige Datenbank
+besitzt zurzeit 11 Auswertungen, die von unterschiedlichen Nutzern ausgeführt werden.
+Die Auswertungen sollen erhalten bleiben und sollen erweitert werden.
+Die Auswertungen sollen schneller abrufbar sein. Dies ist insbesondere wichtig für
+Auswertungen, die Daten für einen bestimmten Zeitraum abfragen. Die
+Gesamtauswertung über alle Daten soll weiterhin automatisch täglich ausgeführt und
+gespeichert werden.
+Es sollte möglich sein, Auswertungen als PDF oder als Excel-Datei (*.csv)
+herunterzuladen. Einige Daten sollen in einem Diagramm dargestellt werden. Hierfür gibt
+es festgelegte Definitionen, welche Daten wie abgebildet werden sollen. Das Diagramm
+soll die aktuellen Daten der Woche darstellen (Abfragen werden wochenbezogen
+durchgeführt). Es wäre optimal, bestimmte Daten für das Diagramm auswählen zu
+können. Dabei sollte es möglich sein, zum Beispiel mehrere Wochen abzubilden. Siehe
+Grafik.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 18 von 50
+
+Entwicklung Checkzahlen SSC Kommunal
+18.000
+
+15.686
+
+16.000
+14.891
+14.115
+
+13.462
+
+14.000
+12.780
+
+12.258
+11.538
+
+12.000
+
+10.899
+10.200
+9.531
+
+10.000
+8.646
+
+8.000
+
+6.000
+
+4.000
+
+2.000
+885
+
+776
+
+669
+
+699
+
+639
+
+720
+
+522
+
+682
+
+653
+
+776
+
+795
+
+0
+KW 25
+
+KW 26
+
+KW 27
+
+KW 28
+
+KW 29
+
+Checkzahlen (seit 04/2016)
+
+KW 30
+
+KW 31
+
+KW 32
+
+KW 33
+
+KW 34
+
+KW 35
+
+Veränderung zur Vorwoche
+
+Abbildung 5: Beispiel einer Grafik für die Auswertung
+
+Das Auslesen der Daten sollte automatisch ablaufen. Die Diagramme sollen als *.jpg oder
+*.png speicherbar sein. Des Weiteren sollte es möglich sein, die Daten und das Diagramm
+in eine Excel-Datei zu exportieren.
+Es sollte möglich sein, Auswertungen flexibler aufzubauen. Eine genaue Liste der
+Auswertungen ist im Anhang des Dokumentes.
+
+1.2.1.11
+
+Berichte (im PDF-Format)
+
+In den Haushaltsberichten werden Tabellen auf mehrere Seiten verteilt, was das Lesen
+und Auswerten erschwert. Bei einigen Berichten erscheinen die Wasserverbräuche sowie
+Heizenergieverbräuche nicht, obwohl diese Daten in der DB eingetragen sind. Im oberen
+Bereich des Haushaltsberichtes soll die Telefonnummer des Haushaltes angezeigt
+werden, damit die Stromsparhelfer nicht lange nach dem Datensatz in der DB suchen
+müssen. Die Sortierung der Verbräuche wird zurzeit im Register 10 durchgeführt, soll aber
+vor der Erstellung des Berichtes abgefragt werden.
+Die Berichte sollen einheitlich abgebildet werden. Tabellen sollen immer auf einer Seite
+abgebildet werden. Berichte sollen immer im PDF-Format ausgegeben werden. Im Bericht
+soll die Kundennummer sowie Rufnummer des Haushaltes erscheinen.
+Im Haushaltsbericht soll eine Grafik eingearbeitet werden, welche den Verbrauch des
+Haushaltes darstellt. Siehe Abbildung 4. Die Grafik müsste an die Personenanzahl des
+Haushaltes angepasst werden (1, 2, 3, 4, 5-10). Der Verbrauchsbereich wird vom Projekt
+vorgegeben. Die Darstellung der Grafiken muss für schwarz/weiß-Ausdrucke optimiert
+werden.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 19 von 50
+
+Abbildung 6: Beispiel - grafische Darstellung des Haushalsverbrauches
+
+Zu dem Verbrauch soll im Haushaltsbericht das Einsparpotenzial mit einer Grafik
+dargestellt werden. Siehe Abbildung 6.
+
+Abbildung 7: Beispiel - grafische Darstellungen der Einsparpotenziales in €/Jahr
+
+Die Verbrauchsdaten des Haushaltes sollen nochmal als Diagramm dargestellt werden.
+Das Diagramm soll die größten Stromverbraucher des Haushaltes aufzeigen mit
+Stromverbrauch des Gerätes (kWh/Jahr). Am Diagramm soll erkennbar sein, welches
+Gerät den höchsten Verbrauch hat. Abbildung 7 zeigt ein Beispiel für die Darstellung.
+
+Abbildung 8: Diagramm, das die größten Stromverbraucher eines Haushaltes aufzeigt
+
+1.2.1.12
+
+Filterfunktionen
+
+Die aktuelle Datenbank besitzt noch nicht viele Filterfunktionen. Für die Standorte gibt es
+folgende Filterfunktionen:
+ Haushalte mit vorliegender Stromrechnung und Bereitschaft zur Kontaktaufnahme,
+ Haushalte auf Warteliste Kühlgerätegutschein,
+ Haushalte mit Einsparpotential Kühlgerät und Bereitschaft zur Kontaktaufnahme,
+ Haushalte im Monitoring.
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 20 von 50
+
+Diese Filterfunktionen selektieren die Datensätze. Diese Funktionen sollten besteh en
+bleiben und ergänzt werden.
+Mit der neuen Datenbank sollen die Standorte die Möglichkeit haben Checks zur
+Löschung vorzumerken. Die Markierung zum Löschen wird direkt im Check durchgeführt,
+durch ein Häkchen mit einen Dropdownfeld im dem der Stromsparhelfer angeben müssen
+warum der Check gelöscht werden soll. Hierfür soll es für die Lokalkoordinatoren und den
+Admin eine Liste mit Löschaufträgen geben.
+Für die Lokalkoordinatoren wäre eine Filterfunktion für die ausgegebenen
+Kühlgerätegutscheine wichtig. Somit könnten sie schneller die neuen Kühlgeräte
+eintragen. Eine Filterfunktion für eingereichte Kühlgerätegutscheine zur Abrechnung wäre
+optimal um den Status des abgerechneten Kühlgerätes zu sehen.
+Es soll die Möglichkeit bestehen, Datensätze nach verschiedenen Kriterien zu filtern, wie
+zum Beispiel nach Anzahl der Personen, Verbrauch, PLZ, Datum, etc.
+
+1.2.1.13
+
+Standorte und Regionen
+
+Da die Standorte keiner für das Projekt definierten Region, sondern Bundesländern,
+zugeordnet sind, ist es nicht ersichtlich, welcher Standort zu welcher Region gehört. Dies
+erschwert das Handling von Nutzern und Stromspar-Checks. Wenn ein Standort die
+Region wechselt, ist dies zurzeit in der Datenbank nicht abbildbar. Wird ein Standort
+geschlossen und sollen die Daten von einem anderen Standort genutzt werden, ist dies
+ebenfalls nicht möglich. Ein Check kann somit nicht einem anderen Standort zugeordnet
+werden.
+Eine Zuordnung der Regionen zu Standorten über eine Kennnummer diente als Übersicht,
+welcher Region ein Standort zugewiesen ist. Optional könnte dies als Landkarte
+abgebildet werden. Auf der Karte werden die Standorte sowie die Regionen abgebildet
+und auch die zuständige, regionale energiefachliche Begleitung angezeigt. Es sollte
+möglich sein, einer Region mehrere energiefachliche Begleitungen (Personen)
+zuzuordnen.
+Beispiel:
+ID Bundesland Region
+Standortname
+Standortnr.
+Berlin-Reinickendorf Diözesan-Caritasverband
+3
+Berlin
+10
+109
+Berlin
+Nordrhein10
+40
+Bonn Caritasverband für die Stadt Bonn e.V.
+404
+Westfalen
+Eine Tabelle der Zuordnungen befindet sich im Anhang des Lastenheftes.
+
+1.2.1.14
+
+Soforthilfen
+
+Die Soforthilfen werden in der DB zurzeit manuell mit dem eShop, über den im Projekt die
+Soforthilfen an die Standorte verschickt werden, abgeglichen. Hierfür muss geprüft
+werden, ob die Soforthilfe noch genutzt wird und ob der Preis der Soforthilfe aktuell ist.
+Diese Daten werden per Hand geändert. Das Pflegen und Ändern der Soforthilfen ist
+zurzeit nur durch Datenbank-Programmierer möglich. Das dauert zu lange und ist
+unflexibel. Soforthilfen, die nicht weiter im Sortiment bleiben, werden zurzeit mit einem
+Preis von 0€ weitergeführt, da diese nicht gelöscht werden dürfen.
+Es wird eine Schnittstelle zwischen der DB und dem eShop benötigt. Optimalerweise
+sollte die Synchronisierung automatisch ablaufen. Hierfür soll eine Liste (*.csv)
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 21 von 50
+
+eingelesen werden. Das Synchronisieren sollte in der DB keine Daten löschen, nur neue
+Daten einfügen und vorher prüfen, ob der Datensatz bereits vorhanden ist. Der Admin
+bekommt beim Importieren einen Importbericht, der ihn über Differenzen informiert.
+Werden Soforthilfen nicht mehr genutzt, sollen diese archiviert werden, mit der Angabe
+des Zeitraums, von wann bis wann die Soforthilfe genutzt wurde, da diese noch für ältere
+Berechnungen genutzt werden. Der Administrator sollte die Möglichkeit haben, für die
+anderen Nutzer Soforthilfen sichtbar und unsichtbar zu schalten. Dies soll verhindern,
+dass alte Soforthilfen weiter auswählbar sind.
+Die Produktgruppen der LED-Lampen werden durch die Angabe eines Lumenbereichs
+unterschieden. Es soll eine Tabelle hinterlegt werden, die den Vergleich der
+verschiedenen Leuchtmittel anzeigt. Hierfür sollten die gängigen Leuchtmittel angezeigt
+werden. Die Grafiken sollen schließbar sein.
+
+Abbildung 9: Vergleich von Leuchtmitteln2
+
+Für die Nutzer der Datenbank soll an jeder Stelle klar ersichtlich sein, ob ein Wert anhand
+der Verkaufs- oder Einkaufspreise kalkuliert wird, bspw. durch eine farbliche
+Hervorhebung oder ein Hinweisschild.
+
+1.2.1.15
+
+Wärmesoforthilfen
+
+Im Winter 2016/2017 wurde eine Pilotphase für Wärmesoforthilfen gestartet. Hierfür muss
+die DB erweitert werden. Für diesen Bereich werden im Laufe des Projektes genaue
+Anforderungen an die DB definiert.
+
+1.2.1.16
+
+Wärmeberechnungen
+
+Zur Berechnung des Heizwärmeverbrauchs sowie des Wärmeverbrauch für Warmwasser
+werden aktuell ein Erfassungsformular und ein Excel-Tool verwendet. Aus der
+vorliegenden Heizkosten- und Warmwasserabrechnung bzw. Betriebs- oder
+Nebenkostenabrechnung des Haushaltes können die für das Tool wesentlichen
+Informationen herausgelesen und in das Tool eingetragen werden. Für die neue
+
+2
+
+http://ledsparlampen.ch/fileadmin/user_upload/WarumLed/led-lumen-werte.jpg
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 22 von 50
+
+Datenbank ist eine ähnliche Berechnung geplant. Dies ermöglicht eine schnelle
+Bearbeitung der Checks.
+
+1.2.1.17
+
+Inventur der Soforthilfen
+
+In Zukunft soll die Soforthilfeninventur in der DB erfasst werden. Jeder Standort muss
+zweimal im Jahr eine Inventur seiner Soforthilfen durchführen. Aktuell wird dies mit Excel
+Listen umgesetzt. Mit der Umsetzung der neuen DB soll die Inventur automatisch
+generiert werden.
+Zurzeit sind die Soforthilfen in 33 Produktgruppen eingeteilt. Die Inventur soll mit den
+Soforthilfen verknüpft sein.
+Für jede Produktgruppe werden die Bestände zu bestimmten Terminen erfasst. Für die
+Inventur werden verschiedene Werte der Produkte erfasst:
+
+
+Bestand zum Stichtag
+
+
+
+Lieferungen im Halbjahr (vor dem Stichtag)
+
+
+
+Ausgaben im Halbjahr (vor dem Stichtag)
+
+
+
+Sollbestand (Berechnet sich aus dem gemeldeten Bestand zum Stichtag +
+Lieferungen im Halbjahr - Ausgaben im Halbjahr)
+
+
+
+Differenz (Sollbestand – Bestand zum Stichtag)
+
+Optimal wäre eine Verknüpfung zu den Daten des eShops. Im eShop werden alle Daten
+der Bestellung von Soforthilfen verwaltet (Bestellmenge, Bestelldatum, Produktgruppen,
+Einzelpreis (netto), Einzelpreis (brutto). Die Bestellungen können im eShop komplett
+nachvollzogen werden, da alle Daten der Standorte und ihrer Bestellungen abgespeichert
+sind. Es können nur bestimmte Personen der Standorte im eShop bestellen. Die
+Erfassung der Bestände ist nicht personengebunden. Diese Daten können aus dem
+eShop in eine *.csv Datei exportiert werden. Diese Dateien könnten in die DB eingelesen
+werden, um die Daten der Bestellungen zu haben. Der Standort müsste dann nur noch
+den aktuellen Bestand erfassen und eingeben. Wie viele Soforthilfen er an die Haushalte
+ausgegeben hat, wird in der Datenbank schon verbucht. Anhand dieses Bestandes wird
+der aktuelle Bestand gemessen. Somit müssen die Standorte nur noch die Bestände der
+einzelnen Soforthilfen erfassen und eingeben.
+
+1.2.1.18
+
+Kühlgerätetausch
+
+Die Daten der Kühlgeräte stammen von co2online und werden einmal im Jahr in der DB
+aktualisiert. Diese Daten dienen als Grundlage für die Berechnung der Einsparungen,
+wenn eine Messung nicht möglich ist.
+Die Erfassung der Kühlgeräte läuft derzeit in zwei Registern ab. Die Kühlgeräte werden
+im Register 11 ausführlich erfasst und im Register 10 deren Verbrauch eingetragen. Die
+von der Datenbank ermittelten Werte aus Register 11 müssen dabei manuell in Reiter 10
+übertragen werden. Dieser Prozess soll erleichtert werden, indem ein Button „Speichern
+und übertragen in Reiter 10“ eine automatische Übertragung der relevanten Daten
+ermöglicht. Werden die Daten in R11 nachträglich geändert und ein weiteres Mal der
+Button gedrückt, soll die Datenbank vorher prüfen, ob im Register 10 schon einmal ein
+Kühlgerät eingetragen wurde. Ist dies der Fall, soll die Datenbank eine Meldung mit
+Möglichkeiten geben: Der Nutzer kann dann entscheiden, ob er die Daten überschreiben
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 23 von 50
+
+oder neu anlegen möchte. Daten im Register 10 sollten für die Nutzer in diesem Fall
+löschbar/änderbar sein. Für lokale Gerätetauschprogramme soll diese Möglichkeit auch
+bestehen.
+Wurde ein Kühlgerät getauscht, muss zurzeit manuell geprüft werden, ob das Neugerät
+ein A+++-Gerät ist und mindestens eine Einsparung von 200kWh/a hat. Der Abgleich soll
+automatisch ablaufen, da dies aktuell mit einem sehr hohen Zeitaufwand verbunden ist.
+Der Abgleich ist für die Werte des Jahresverbrauchs und der Geräte-EnergieklassenEinstufung wichtig.
+Hat ein Haushalt einen Gutschein erhalten, diesen aber nicht eingel öst, hat er die
+Möglichkeit, vom Standort einen neuen Gutschein erstellen zu lassen. Diese
+Berechtigung haben nur die Trainer oder die Lokalkoordinatoren. Hier muss der Check
+derzeitig von Status „Abgeschl. Freigabe Kühlgeräte Tausch“ in den Status
+„Nachkontrolle“ gesetzt werden. Danach muss der Stromsparhelfer den Check wieder
+auf „Prüfung“ setzen. Erst danach hat der Trainer/Lokalkoordinator die Möglichkeit, einen
+neuen Gutschein zu erstellen. Dieser Aufwand sollte mit der neuen Datenbank minimiert
+werden. Ist ein Gutschein abgelaufen, sollte der Trainer oder der Lokalkoordinator ohne
+Wechsel des Status die Möglichkeit haben, einen neuen Gutschein zu erstellen.
+Lokalkoordinatoren dürfen erst nach Prüfung des Checks einen Gutschein erstellen.
+Das Registerblatt soll um ein internes Feld ergänzt werden, in dem die Standorte
+Bemerkungen erfassen können, wie zum Beispiel: Kunde erhält zusätzlichen lokalen KGGutschein im Wert von xyz Euro.
+In der aktuellen Datenbank wird das Alter des Kühlgerätes erfasst. Ist ein Kühlgerät zum
+aktuellen Zeitpunkt nicht zum Tausch berechtigt, wird der Check im Status
+„Abgeschlossen“ beendet. Meldet sich ein Haushalt zu einem späteren Zeitpunkt um das
+Kühlgerät zu tauschen, muss das komplette Register 11 gelöscht werden um das Gerät
+nochmal mit dem neuen Alter zu erfassen, da die Datenbank das Alter nicht hochrechnet.
+Die sollte mit der neuen Datenbank einfacher und besser ablaufen. In der neuen
+Datenbank soll das Jahr der Erstinbetriebnahme erfasst werden. Die Datenbank soll dann
+automatisch das Alter berechnen. Somit könnten die Standorte Auswertungen über das
+Alter der Kühlgeräte erstellen, um Haushalte gezielt anzusprechen.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 24 von 50
+
+1.2.1.19
+
+Abrechnung Kühlgerätegutschein (IST Zustand)
+
+Abbildung 10: Prozess Kühlgerätetausch in der Datenbank
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 25 von 50
+
+Nachdem ein Haushalt ein neues Kühlgerät gekauft hat, reicht er seine Unterlagen bei
+dem Standort ein. Der Standort prüft, ob die Anforderungen des Gutscheines erfüllt sind
+und zahlt dem Haushalt den Gutscheinwert aus. Der Lokalkoordinator des Standortes
+trägt das Neugerät mit seinen Daten in die Datenbank ein. Die Unterlagen sendet der
+Standort dem eaD zur Prüfung zu. Hierfür müssen die Standorte eine Abrechnung der
+Kühlgerätegutscheine mit Hilfe eines Standardformulars erstellen. In dem Formular
+werden die Gutscheinnummer, der Check (ID), das Einlösedatum und der ausgezahlter
+Betrag erfasst. Die Formulare werden manuell ausgefüllt. Dieses Formular und die
+Nachweise für die Auszahlung der Gutscheine werden per Post an den eaD gesendet.
+Die Bearbeitung der Abrechnung der Kühlgerätegutscheine wird zurzeit von zwei
+Mitarbeitern des eaD übernommen. Die Standorte können mehrere Abrechnungen in
+einem Zeitraum einreichen. Allerdings sollen die Standorte ihre Abrechnungen
+quartalsweise einreichen. Auf der Abrechnung gibt der Standort den Zeitraum der
+eingelösten Gutscheine an. In einer Auflistung werden die IDs und Gutscheinnummer n
+der Haushalte mit Einlösedatum und ausgezahltem Betrag angegeben.
+Nach Eingang der Abrechnung wird geprüft, ob die eingereichten Unterlagen mit der
+Abrechnung übereinstimmen und ob die Gutscheinnummer und die IDs im System (DB)
+vorliegen und ob die Daten des Neugerätes eingetragen sind. Die energiefachliche
+Prüfung muss auch kontrollieren, ob das Neugerät alle Bedingungen des
+Kühlgerätetauschprogrammes erfüllt. (Dies ist unter Abschnitt 1.2.1.16 genauer
+beschrieben.) Des Weiteren wird geprüft ob die Abrechnung rechnerisch richtig ist.
+Liegen die Daten vor, wird die Abrechnung rechnerisch richtig gekennzeichnet und wird
+zur energiefachlichen Prüfung weitergegeben. Diese Schritte müssen alle manuell
+durchgeführt werden. Ist eine Abrechnung nicht korrekt, wird der Standort kontaktiert. Der
+Standort kann fehlende oder falsche Einträge/Dokumente nachreichen.
+Ziel ist es, diesen Ablauf für die Standorte, sowie für den eaD zu vereinfachen. Die
+Standorte sollen die Möglichkeit haben, das Abrechnungsformular in der Datenbank
+auszufüllen. Die Datenbank soll vorher prüfen, ob alle benötigten Daten in der Datenbank
+eingetragen sind. Somit können die Standorte nur Gutscheine abrechnen, die die
+Voraussetzungen erfüllen. Für die Erstellung der Abrechnungen kann auch eine Person
+zuständig sein, die aber keine andere Rolle in der DB erfüllt. Daher soll eine neue
+Nutzerrolle erstellt werden, die nur für die Abrechnung zuständig ist. Der Nutzer erhält im
+System eine Liste mit allen Checks, bei denen ein neues Kühlgerät eingetragen wurde.
+Diese Daten darf der Nutzer einsehen. Aus den Checks wird die Abrechnung erstellt.
+Checks können per Checkbox an- und ausgeklickt werden. Bevor eine Abrechnung
+erstellt wird, soll das System prüfen, ob der Haushalts-ID oder die Gutscheinnummer
+schon abgerechnet wurde. Die Abrechnung wird als PDF erstellt und im System abgelegt.
+Die Abrechnungshaushalte werden denn an den eaD-Admin gesendet. Dieser erhält in
+der Datenbank eine Liste mit den abzurechnenden Gutscheinen. Diese Liste soll nach
+Standort und Datum sortierbar sein.
+Der Admin soll die Möglichkeit haben, alle Kriterien mit einem Blick zu prüfen. Sind alle
+Eingaben richtig, kann der Datensatz als „abgerechnet“ markiert werden. Somit ist eine
+versehentliche erneute Abrechnung des Kühlgerätetausches nicht mehr möglich. Ist der
+Datensatz nicht korrekt, wird er mit „in Bearbeitung“ oder „keine Abrechnung“ markiert.
+
+1.2.1.20 Optional Erweiterung des Tauschprogrammes durch
+andere Geräte
+Die neue Datenbank sollte so aufgebaut sein, das es ohne Probleme möglich ist , eine
+weitere Funktion einzubauen bzw. bestehende Funktionen zu erweitern. Zum Bespiel
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 26 von 50
+
+könnte es möglich sein, das nicht nur Kühlgeräte getauscht werden sondern auch andere
+elektrische Großgeräte. Eine Geräteliste ist in der Datenbank hinterlegt und sollte hierfür
+genutzt werden. Die Option der Erweiterung soll bei der Konzeptionierung der neuen
+Datenbank berücksichtig werden.
+
+1.2.1.21
+
+Monitoring
+
+Der 3. Haushaltsbesuch wird in der Datenbank als Monitoring bezeichnet und erfasst das
+Nutzerverhalten und die Verbräuche nach den ersten Haushaltsbesuchen. Hierbei werden
+Veränderungen erfasst und Einsparungen ermittelt die durch den Check erreicht wurden.
+Das Monitoring soll wie die anderen Benutzeroberflächen angepasst werden und wird
+durch die Wärmesoforthilfen erweitert. Die Auswertung der Monitoring Daten soll ggf.
+geändert werden. Eine Änderung der Datenerfassung ist zum jetzigen Zeitpunkt nicht
+geplant.
+
+1.2.1.22
+
+Kühlgerätetausch im Monitoring
+
+Wird nach mindestens einem Jahr der Haushalt zum Monitoring ein drittes Mal besucht,
+kann es vorkommen, dass die Voraussetzungen zur Teilnahme am KG TP in der
+Zwischenzeit erfüllt wurden. Wurde das Monitoring schon abgeschlossen und der
+Haushalt möchte nach dem Termin am Kühlgerätetauschprogramm teilnehmen, muss der
+Lokalkoordinator dem Haushalt die „Freigabe Monitoring“ wieder entziehen. Der Admin
+muss das Kühlgerät im Register 11 löschen. Danach wird der Check in den Status
+„Nachkontrolle“ versetzt. In diesem Status kann der Stromsparhelfer das Gerät mit der
+aktuellen Jahreszahl nochmal erfassen. Der Check wird dann auf „Prüfen“ gesetzt damit
+der Trainer/Lokalkoordinator den Kühlgerätegutschein erstellen kann. Der Check wird
+dann im Status „Abgeschl. Freigabe KG-Tausch“ abgeschlossen. Nun kann der
+Lokalkoordinator die Daten des neuen Kühlgerätes eintragen. Anschließend gibt der Lokal
+Koordinator das Monitoring wieder frei. Nun muss der Trainer den Check wieder in den
+Status „Monitoring Abgeschlossen“ versetzen.
+Dies ist ein sehr aufwendiger Weg. Besser wäre es, wenn im Status „Abgeschlossen
+Monitoring“ einen Kühlgerätetausch durchgeführt werden könnte ohne den Check in
+verschiedene Status zu versetzen. Optimal wäre es, bei der Erfassung des Kühlgerätes
+nicht das Alter, sondern das Jahr der Erstinbetriebnahme erfassen zu können. Dadurch
+wäre eine automatische Hochrechnung des Alters möglich. Somit müssten die Daten des
+Kühlgerätes nicht erneut erfasst werden.
+
+1.2.1.23
+
+Verwalten von Daten in der kompletten DB
+
+Das Ändern von Berechnungswerten oder Daten ist nur durch den Programmierer
+möglich, dies muss geändert werden. Die Daten werden regelmäßig aktualisiert und
+angepasst. Aktuell ist dies mit hohem Zeitaufwand verbunden. Bevor die DB neu
+entwickelt wird, soll geprüft werden, welche Daten vom Administrator gepflegt werden
+können.
+Es soll möglich sein, als Admin alle Daten selbst zu pflegen, ohne dies weiter an den
+Auftragnehmer zu geben. Die Daten sollen mit einem Zeitstempel verbunden sein. Dies
+wird für die Berechnung und Archivierung benötigt. Werden neue Daten eingespielt oder
+verwendet, müssen die alten Daten für alte Berechnungen noch zur Verfügung stehen.
+Diese werden dann nicht mehr für die Berechnung benötigt, sondern nur für die
+Nachvollziehbarkeit der alten Daten.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 27 von 50
+
+Zu den Daten zählen:
+ Soforthilfen
+o Eingabe von Soforthilfen
+o Ändern von Soforthilfen
+o Archivieren von Soforthilfen
+o Sichtbar/unsichtbar Schalten von Soforthilfen
+ Kühlgerätedaten
+o Archivieren von Daten
+(Das Einspielen der Daten wird vom Auftragnehmer übernommen. Optional
+soll eine Funktion entwickelt werden um die Daten selbstständig zu
+importieren)
+ CO2-Werte
+o Eingabe von CO 2-Werten
+o Ändern von CO 2-Werten
+o Archivieren von CO 2-Werten
+ Berechnungswerte (Anpassung und Archivierung):
+o Wärme
+o Wasser
+o Strom
+Im Anhang des Dokumentes befindet sich eine Liste der Variablen der Datenbank. Es
+sollen keine Daten überschrieben oder gelöscht werden. Die Daten sollen für spätere
+Zeitpunkte gespeichert werden um die Änderungen nachvollziehen zu können
+(Revisionssicherheit).
+
+1.2.1.24
+
+Mobile Endgeräte
+
+Die Datenbank soll für mobile Endgeräten weiterhin nutzbar sein. Der Nutzer soll die
+Möglichkeit erhalten, die Datenbank mit unterschiedlichen mobilen Endgeräten zu öffnen
+und anzusehen. Mit mobilen Endgeräte sind Smartphones und Tablets gemeint. Hierfür
+soll das Layout für mobile Endgeräte angepasst werden.
+Die Nutzer sollen des Weiteren die Möglichkeit haben, die Daten in einen digitalen
+Erfassungsbogen einzutragen. Der digitale Erfassungsbogen soll auch ohne mobilen
+Datenverkehr oder Internetverbindung die Einträge speichern, so dass die Daten später
+in die Datenbank eingespielt (synchronisiert) werden können. Dabei ist zu beachten, dass
+die Nutzer unterschiedliche mobile Endgeräte nutzen (Android, iOS, etc.).
+
+1.2.1.25
+
+Newsticker in der Datenbank
+
+Ändert sich eine Funktion in der Datenbank, wird das aktuell über den Projekt-Newsletter
+mitgeteilt. Dieser erscheint in bestimmten Zeitabständen und kann über die Änderungen
+der DB nicht tagesaktuell berichten.
+Die neue Datenbank soll die Möglichkeit bieten, wichtige Informationen mit einem
+Datenbank-internen Newsletter zu versenden. Somit bekommen die Nutzer zeitnah
+aktuelle Informationen. Optimal wäre ein Popup Fenster mit Änderungen, das bei jeder
+Anmeldung erscheint. Die Funktion zum Eintragen eines neuen Beitrages soll nur dem
+Admin zur Verfügung stehen. Es sollte auch die Möglichkeit geben, bestimmten
+Nutzergruppen auszuwählen, die Informationen erhalten sollen.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 28 von 50
+
+1.3 Prozessdiagramme (Ist-Zustand)
+
+Abbildung 11: Prozessdiagramm 1. und 2. Haushaltsbesuch mit Usergruppen
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 29 von 50
+
+Abbildung 12: 3. Haushaltsbesuch Monitoring
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 30 von 50
+
+Abbildung 13: Abgleich Soforthilfen in Siblog-DB und SSC-DB
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 31 von 50
+
+Abbildung 14: Ablauf zum Löschen von Datensätzen (Nur Admin berechtigt)
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 32 von 50
+
+Abbildung 15: Prozessablauf Kühlgerätetausch ohne Einlösung des Gutscheines
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 33 von 50
+
+1.4 Beschreibung von Schnittstellen und Techniken
+Der Datenbestand der bisherigen DB soll weiterhin genutzt werden. Die Datenbank mit
+den Daten ist die Basis des Projektes. Die Daten liegen aktuell in einer MySQL DB. Bevor
+die Daten mit der neuen DB genutzt werden, soll geprüft werden, ob die Daten bereinigt
+werden können. Es sollen nur Datensätze gelöscht werden, die nicht benötigt werden
+(Datensätze löschen). Damit sind Datensätze gemeint, die ohne Energiedaten sind oder
+nicht nach einer bestimmten Zeit abgeschlossen wurden. Dies soll in Absprache zwischen
+dem Auftraggeber und dem Auftragnehmer geschehen. Gegebenenfalls sollen die
+Standorte die Daten selbst prüfen und löschen.
+Des Weiteren soll eine Schnittstelle zwischen SSC-DB und eShop hergestellt werden.
+Zwischen den beiden Datenbanken soll es einen Austausch der Daten zu den Soforthilfen
+geben. Der eShop (Bestellplattform) und die Soforthilfen werden vom
+Logistikunternehmen Siblog verwaltet. Für die Bestellung der Soforthilfen erhalten die
+Standorte ein festgelegtes Guthaben für das sie Energie- und Wassersparartikel und
+andere Materialien (Marketing- und Werbematerialien) bestellen können. Beim
+Synchronisieren der Daten sollen die vorhandenen Daten erst nach Püfung der
+Doppelung überschrieben werden.-Folgende Grafik zeigt die Interaktion der
+Datenbanken.
+
+Abbildung 16: Interaktion der Datenbanken
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 34 von 50
+
+1.4.1 Abkürzungen, Nomenklatur, fachliche Zusammenhänge,
+Datenhierarchie
+Frontend: Oberfläche, die der Nutzer sieht und mit der er arbeitet.
+Pagejet: Die Nutzer erhalten eine Pagejet-E-Mail-Adresse, die mit der Mailsoftware
+Roundcube verwaltet wird.
+Roundcube: Roundcube ist eine freie Software für Webmail über IMAP, die in den
+Programmiersprachen PHP und JavaScript entwickelt wird.
+Backend: Backend beschreibt die Programmierung und die Funktionen im Hintergrund
+der Datenbank. Hierzu gehören das Datenmodell und auch die Datenbankstruktur.
+ISO27001: Die ISO 27001 ist die international führende Norm für InformationssicherheitsManagementsysteme (ISMS).
+eaD: Bundesverband der Energie- und Klimaschutzagenturen Deutschlands (eaD) e.V.
+Mockup: Mockups sind Nachbildungen von grafischen Oberflächen für eine Anwendung.
+Diese haben keine Funktion und dienen als Umsetzungsbeispiele.
+SSC: Stromspar-Check.
+eShop: Der eShop wird von Siblog zur Verfügung gestellt. Im eShop können die
+projektbezogenen Energie- und Wassersparartikel (sog. Soforthilfen) bestellt werden.
+Soforthilfen: Soforthilfen sind Produkte, die den (Energie-, Wasser- und Wärme-)
+Verbrauch des Haushaltes reduzieren sollen.
+SSH: Stromsparhelfer. Ehemalige Langzeitarbeitslose, die zu Energiesparberatern
+geschult werden. Sie beraten Haushalte mit geringem Einkommen und geben kostenlose
+Soforthilfen aus.
+GUI: graphical user interface,die grafische Benutzeroberfläche.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 35 von 50
+
+1.5 Produktdetails
+1.5.1 Funktionale Anforderungen
+Im Anhang des Dokumentes sind die Mockups der Datenbank. Dargestellt werden die
+Mockups für die Desktopanwendung.
+
+
+Benutzeroberfläche
+Desktopanwendung:
+Die Desktopanwendung soll übersichtlicher und strukturierter aufgebaut werden.
+Siehe Anhang.
+Mobile Endgeräte:
+Um dem Stromsparhelfer die Eingabe zu vereinfachen, soll die DB mit mobilen
+Geräten abrufbar sein. Dafür soll die DB-Webseite mit dem Darstellungscode für
+Mobilgeräte erweitert werden. Hierbei ist drauf zu achten, dass die neue DB für die
+gängigen Geräte und Browser erreichbar ist. Der Nutzer soll die Funktion haben,
+auch auf die Desktopansicht zu wechseln. Dies könnte für Tablet-Nutzer relevant
+sein. Die Umsetzung soll in 320x480 und 768x1024 Pixel umgesetzt werden. In
+der Programmierung sollte abgefragt werden, welche Displaygröße das Gerät hat.
+
+
+
+Rechte
+User
+
+Stromsparhelfer
+
+Rechte
+
+
+
+
+
+
+
+
+
+Trainer
+
+
+
+
+
+SSC_Kommunal
+
+Anlegen von Terminen für zugewiesene Haushalte und somit
+Statusänderung von „zu besuchen“ auf „Datenerhebung“
+manuelle Erfassung der zu erhebenden Daten des jeweiligen
+Haushalts
+Zusätzlich zu den erhobenen Daten Möglichkeit der
+Speicherung des 1. Besuchstermins und des 2.
+Besuchstermins
+Statusänderung von „Datenerhebung“ auf „Prüfung“ und
+somit Freigabe des Haushaltsdatensatzes für die Prüfung
+durch den Trainer
+Ggf. Nachbearbeitung des Datensatzes nach erneuter
+Zuordnung des Datensatzes durch den Trainer (Status zu
+dem Zeitpunkt auf „Nachkontrolle“) und anschließende
+Statusänderung auf „Prüfung“
+Hinterlassen von Kommentaren im Haushaltsdatensatz
+Generieren von PDF-Berichten zum Verbleib beim Haushalt,
+unabhängig von der Freigabe des Datensatzes durch den
+Trainer
+Prüfung von Haushaltsdatensätzen
+Status von „Prüfung“ auf „Abgeschlossen/Abgeschlossen
+KG-Tausch freigegeben“ setzen, wenn der Datensatz in
+Ordnung war
+Ggf. Status von „Prüfung“ auf „Nachkontrolle“ setzen und
+Zuweisung des Datensatzes zurück an den Stromsparhelfer
+zur Nachbearbeitung
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 36 von 50
+
+
+
+
+
+
+Lokalkoordinatoren
+
+
+
+
+
+
+
+
+
+
+
+
+
+Regionale
+energiefachliche
+Begleitung
+
+
+
+
+
+
+
+
+
+
+
+
+Regionale
+Koordinatoren
+
+
+
+
+
+
+
+
+
+
+
+SSC_Kommunal
+
+Ggf. erneute Prüfung des Datensatzes und anschließende
+Statusänderung auf „Abgeschlossen“ oder erneut auf
+„Nachkontrolle“ (siehe oben)
+Ggf. Status von „Abgeschlossen“ auf „Prüfung“ oder
+„Nachkontrolle“ setzen
+Kommentare im Haushaltsdatensatz hinterlassen
+Berichte (entsprechend der Rollenberechtigung) generieren
+Status Änderung beim Monitoring auf „Nachkontrolle“ oder
+„Monitoring abgeschlossen“
+1. & 2. Termin anlegen und löschen können
+Anlegen, Bearbeiten von Stromsparhelfern
+Auslösung der automatischen Zusendung der Zugangsdaten
+per E-Mail an den Stromsparhelfer
+Automatisierte Vergabe eines neuen Passworts für den
+Stromsparhelfer
+Ändern des Status des Stromsparhelfers (aktiv/inaktiv)
+Zuordnen des Trainers zum Stromsparhelfer, der diesen
+ausgebildet hat
+Anlegen von Haushalten
+Zuweisung eines Haushaltsdatensatzes an einen oder zwei
+Stromsparhelfer
+Zuweisung Trainer zum Haushaltsdatensatz
+Berechtigung zum Löschen von Haushaltsdatensätzen in
+allen Status außer „Abgeschlossen“
+Prüfung von Haushaltsdatensätzen und ggf. Rücksetzen des
+Status „Abgeschlossen“ auf „Prüfung“ oder „Nachkontrolle“
+Kommentare im Haushaltsdatensatz hinterlassen
+Berichte generieren
+Anlegen, Bearbeiten von Standorten
+Ändern des Status des Standorts (aktiv/inaktiv)
+Anlegen, Bearbeiten von Lokalen Koordinatoren
+Auslösung der automatischen Zusendung der Zugangsdaten
+per E-Mail an den Lokalen Koordinator.
+Ändern des Status des Lokalen Koordinators (aktiv/inaktiv)
+Anlegen, Bearbeiten von Trainern
+Auslösung der automatischen Zusendung der Zugangsdaten
+per E-Mail an den Trainer.
+Automatisierte Vergabe eines neuen Passworts für den
+Stromsparhelfer
+Ändern des Status des Trainers (aktiv/inaktiv)
+Berichte generieren
+Anlegen, Bearbeiten von Standorten
+Ändern des Status des Standorts (aktiv/inaktiv)
+Anlegen, Bearbeiten von Lokalen Koordinatoren
+Auslösung der automatischen Zusendung der Zugangsdaten
+per E-Mail an den Lokalen Koordinator.
+Ändern des Status des Lokalen Koordinators (aktiv/inaktiv)
+Anlegen, Bearbeiten von Trainern
+Auslösung der automatischen Zusendung der Zugangsdaten
+per E-Mail an den Trainer.
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 37 von 50
+
+
+
+Bundesweite
+Koordinatoren
+
+Auswertungen
+(Caritas)
+
+Administrator
+
+
+
+Automatisierte Vergabe eines neuen Passworts für den
+Stromsparhelfer
+ Ändern des Status des Trainers (aktiv/inaktiv)
+ Berichte generieren
+ Anlegen, Bearbeiten von Regionen mit den folgenden
+Datenfeldern:
+ Ändern des Status der Region (aktiv/inaktiv)
+ Anlegen, Bearbeiten von Regionalen Koordinatoren
+ Auslösung der automatischen Zusendung der Zugangsdaten
+per E-Mail an den Regionalen Koordinator
+ Automatisierte Vergabe eines neuen Passworts für den
+Stromsparhelfer
+ Ändern des Status des Regionalen Koordinators
+(aktiv/inaktiv)
+ Bundesweite Koordinatoren können im System Berichte
+generieren, die als PDF-Dateien online zum Download zur
+Verfügung gestellt werden. Bevor die ausführlichen
+Auswertungen generiert werden, besteht je nach
+Berichtsform für den Nutzer die Möglichkeit, vorab
+vereinbarte, standardisierte Voreinstellungen wie z.B.
+Eingrenzung nach Regionen oder Standorten vorzunehmen.
+Generieren von Berichten im System, die als PDF-Dateien
+online zum Download zur Verfügung gestellt werden. Bevor die
+ausführlichen Auswertungen generiert werden, besteht je nach
+Berichtsform für den Nutzer die Möglichkeit, vorab vereinbarte,
+standardisierte Voreinstellungen wie z.B. Eingrenzung nach
+Regionen oder Standorten vorzunehmen.
+Administratoren nehmen sämtliche Rechte wahr, die alle
+anderen Rollen auch wahrnehmen können. Entsprechend
+können sie Systemakteure anlegen, bearbeiten und den
+Aktivitätsstatus dieser Akteure jederzeit ändern. Administratoren
+haben auch die Möglichkeit, in sämtliche Datensätze
+hineinzuschauen und diese ggf. zu verändern. Änderungen und
+Anfragen müssen dem Admin schriftlich zukommen.
+
+Mehrsprachigkeit
+
+Für die DB ist keine Mehrsprachigkeit geplant.
+
+1.5.2 Nichtfunktionale Anforderungen (Leistungen, Daten)
+Die DB wird zurzeit von ca. 1.913 Usern aktiv genutzt. Die Useranzahl wird im Laufe der
+Projektzeit um ca. 15% steigen. Dabei ist zu erwähnen, dass User nach Beendigung nicht
+gelöscht, sondern nur inaktiv geschaltet werden. Die Datenmenge der erfassten
+Datensätze wird im Laufe der Projektzeit um ca. 58% steigen. Davon werden ca. 4% der
+Datensätze wieder gelöscht.
+Die Installation der DB soll von beauftragten Auftragnehmern ausgeführt werden.
+Technische Voraussetzungen werden im nachfolgenden Abschnitt 1.5.3 erläutert.
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 38 von 50
+
+Wartung sowie der Support der DB soll vertraglich gestaffelt sein, da der Aufwand bei der
+Einführung der DB am Anfang höher ausfällt. Die Antwortzeit des Dienstleisters darf in
+der Dienstzeit von 08:00 bis 17:00 Uhr 24 Stunden nicht überschreiten, um eine schnelle
+Fehlerbehebung zu gewährleisten. Der Dienstleister muss telefonisch sowie per Email
+erreichbar sein und Aufträge oder Fragen schriftlich bestätigen (Eingangsbestätigung).
+Der Dienstleister muss sicherstellen, dass auch während einer Abwesenheit
+(Krankheit/Urlaub) des Projektleiters durch Vertretung eine kompetente Bearbeitung der
+Datenbank gewährleistet ist.
+
+1.5.3 Technische Grundlagen
+Die Funktionen der aktuellen DB sollen in die neue DB übernommen werden. Gibt es
+Optimierungsmöglichkeiten der Funktionen, können diese in Absprache mit dem
+Auftraggeber eingearbeitet werden.
+Bei der Umsetzung der neuen DB ist es wichtig, dass während der Testphase und
+Einführungsphase die alte DB weiterhin zu erreichen ist. Bei der Umsetzung soll eine
+aktuelle Programmiersprache sowie Umgebung genutzt werden. Hierbei soll, wenn
+möglich, auf Open Source-Produkte zurückgegriffen werden. Aktuell wird PHP mit MySQL
+genutzt. Optional kann das System auch in einer anderen webbasierten
+Programmiersprache umgesetzt werden. Die Programmierung und Datenbankstruktur
+sollten die Performance der DB verbessern, sowie das Handling der DB optimieren. Bei
+der Auswahl der Programmiersprache ist darauf zu achten, dass die Datenbanksicherheit
+weiterhin gegeben ist.
+Die Infrastruktur der DB ist so geregelt, dass mehrere User mit verschiedenen Browsern
+ggf. mit unterschiedlichen Geräten auf die DB zugreifen und dort Daten eintragen,
+bearbeiten oder auswerten.
+
+Abbildung 17: Infrastruktur der DB
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 39 von 50
+
+Jeder Nutzer kann verschiedene Rollen im System einnehmen. Hierfür erhält er einmalig
+ein Login. Die Rechteverwaltung sollte so ausgelegt sein, dass ein Nutzer verschiedenen
+Rollen in verschiedenen Regionen und verschiedener Standorte zugeordnet werden
+kann.
+Ziel ist es, die DB nicht nur mit Rechnern zu nutzen, sondern den Zugriff für mobile
+Endgeräte zu ermöglichen. Hierfür soll keine App entwickelt werden, sondern das
+Frontend so optimiert werden, dass Mobilgeräte die Webseite der DB ohne Probleme
+anzeigen können (siehe Mockup). Die Umsetzung soll nicht auf eine WAP-Webnutzung
+begrenzt werden. Bei der Umsetzung werden nur Android- und iOS-Geräte berücksichtigt,
+da diese am meisten genutzt werden.
+Die DB wird für drei weitere Anwendungsgebiete gespiegelt. Für diese Anwendungen wird
+nur das Frontend verwendet.
+1. Trainingsdatenbank: Das Frontend wird für Schulungszwecke genutzt. In dieser
+Datenbank werden nur fiktive Datensätze angelegt. Das Handling soll dem LiveSystem entsprechen. Das Einloggen von Nutzern in der Testdatenbank sollte so
+aufgebaut sein, das der Nutzer sich mit Benutzername und Passwort anmeldet.
+2. Assoziierte Datenbank: Diese DB soll externen Nutzern zur Verfügung stehen. Bei
+diesen Nutzern soll es die Möglichkeit geben, Funktionen zu sperren. Die Nutzer
+dieser DB sollen nur Zugriff auf ihre Daten haben. Die Daten des Checks dürfen
+gelesen werden, wobei hier die personenbezogenen Daten für diese Nutzer
+gesperrt sind. Diese Daten sollen für externe Nutzer anonymisiert werden. Die
+externen Nutzer haben das Recht, alle Daten des Haushaltes mit Energiedaten zu
+lesen und für Auswertungen oder Berichte zu verwenden. Zusätzlich erhalten die
+externen Nutzer eine eigene DB für ihre eigenen Daten.
+
+Abbildung 18: Aufbau DB für externe Nutzer
+
+3. Testdatenbank: In dieser DB sollen neu entwickelte Funktionen vor der Einführung
+in das Livesystem, zum Testen zur Verfügung stehen. Die Testdatenbank muss
+vom Grundaufbau identisch mit dem Livesystem sein. Probeänderungen sollen
+eingepflegt und für einen bestimmten Zeitraum (z.B. 6 Wochen) getestet werden.
+Danach muss entschieden werden, ob die Änderung in die „echte“ DB
+übernommen oder wieder gelöscht wird, so dass die Testdatenbank wieder der
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 40 von 50
+
+echten DB entspricht. Alle aktuellen Abweichungen von der DB sollen inkl. der
+Test-Frist übersichtlich aufgelistet sein.
+Die Funktionen müssen mit fiktiven Datensätzen testbar sein. Die Freigabe der
+neu umgesetzten Funktionen wird per Mail bestätigt. Ohne diese Bestätigung darf
+die Funktion nicht in das Livesystem übernommen werden. Die Einarbeitung einer
+neuen Funktion ins Livesystem erfolgt nach einem angemessenen Zeitrahmen.
+Dieser wird mit dem Auftraggeber vorab abgesprochen.
+Für die Desktopanwendung sollen die gängigen Browser unterstützt werden.
+Das Thema Sicherheit ist für die DB, sowie für den Server, auf dem die DB liegt ein
+wichtiger Faktor. Die DB beinhaltet personenbezogene Daten, die besonders geschützt
+werden müssen. Zu erwähnen ist, dass die personenbezogenen Daten der Haushalte
+nach 5 Jahren anonymisiert werden. Es dürfen nur Nutzer mit Logindaten Zugriff auf die
+DB haben. Es muss protokolliert werden, wann sich welcher Nutzer anmeldet und
+Änderungen vornimmt. Es soll alle 24 Stunden ein Backup des Systems durchgeführt
+werden. Das Backup soll auf einem gesonderten Bereich gespeichert werden.
+Der Server muss sich innerhalb der EU befinden und einen hohen Standard an Sicherheit
+aufweisen. Hierzu zählen SSL-Verschlüsslung, täglich automatisierte Backups, schnelle
+Performance, 24/7 Erreichbarkeit, Prüfsiegel nach ISO 27001, schnelle Anbindung und
+24h Support (deutschsprachig). Eine Nutzung des Serveranbieters HostEurope ist
+möglich. Bei dem Anbieter werden aktuell die E-Mail Adressen sowie eine Webseite
+gehostet.
+Gibt es neue Versionen der Entwicklungsumgebung (Frontend und Backend), muss
+gewährleistet sein, dass ein Update nicht die Anpassungen von individualisierten
+Funktionen zur Folge hat und erneute Kosten für die Anpassung anfallen.
+Die vorhandene Softwarearchitektur wird nach Beauftragung zur Verfügung gestellt.
+
+1.6 Qualitätsanforderungen
+Der Auftragnehmer ist verpflichtet, für die Entwicklung eine Dokumentation zu erstellen.
+Hierfür soll, wenn möglich, ein Wiki oder EGroupeware genutzt werden, um ggf. dort
+Fehler der Anwendung an den Auftragnehmer zu melden. Neben einer technischen
+Dokumentation wird auch eine Benutzerdokumentation gefordert. Am Ende des Projektes
+soll die DB-Dokumentation als PDF vorliegen. Die Dokumentation soll sauber und
+fehlerfrei durchgeführt werden. Dazu zählt auch die Beschreibung von Funktionen sowie
+Komponenten.
+Das Melden von Fehlern oder Erweiterungen soll über ein Ticketsystem laufen. Mit dem
+Ticketsystem werden alle Aufträge erfasst. Diese werden mit einem Status versehen um
+den Auftraggeber dem Bearbeitungsstatus mitzuteilen. Fragen und Antworten werden mit
+im Ticketsystem geschrieben. Das Ticketsystem soll für das Live-System sowie für die
+Testdatenbank zur Verfügung stehen.
+Der Dienstleister muss an Werktagen von 08:00 bis 17:00 Uhr erreichbar (telefonisch
+und/oder E-Mail) sein. Ein Debuggen von Fehlern, die das System bei der Funktionalität
+einschränken, muss binnen 24 Stunden umgesetzt werden. Der Auftragnehmer muss
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 41 von 50
+
+gewährleisten, dass mindestens zwei Mitarbeiter mit der DB vertraut sind, wovon
+ganzjährig mindestens eine Person als Ansprechpartner für Fragen zur Verfügung steht
+(Urlaubsvertretung). Des Weiteren muss der Auftragnehmer Referenzen zum Online DBHosting nachweisen können. Eine volle Einbindung in die Anwendung soll durch einen
+Mitarbeiter des eaD sowie eine Vertretung umgesetzt werden. Für die Beauftragung wird
+eine genaue Planung der Umsetzung mit Meilenstein gefordert.
+Die Qualitätssicherung soll durch regelmäßige Termine zwischen Auftraggeber und
+Auftragnehmer gewährleistet werden, um den Status der Umsetzung im Blick zu halten.
+Eine Festlegung der Termine findet bei Start des Projektes statt. Die Termine finden
+persönlich oder telefonisch statt. Bei der Übergabe der fertigen Anwendung soll ein
+Schulungstermin zwischen Auftragnehmer und Auftraggeber vereinbart werden.
+Als interne Richtlinie liegt ein Corporate Design vor. Dies wird zur Verfügung gestellt.
+Während der Entwicklungsphase stellt der Auftraggeber regelmäßige Testversionen zur
+Verfügung. Hierfür werden Abnahmetests durchgeführt. Für die Abnahmetests muss der
+Auftraggeber dem Auftragnehmer die dafür notwendigen Dokumente zur Verfügung
+stellen. Der Auftraggeber erstellt für jeden Abnahmetest einen Bericht mit Fehlern und
+Verbesserungsvorschlägen. Nach Abnahme einer Funktion muss gewährleistet sein, dass
+diese sich im Nachgang nicht ändert.
+
+1.7 Pilotbetrieb
+Zur Vorbereitung des Pilotbetriebs gehören über die Tests hinaus rechtzeitige und
+angemessene Schulungsmaßnahmen für die Datenbankbetreuer. Zu diesem Zeitpunkt
+muss auch eine vollständige Fassung der Benutzer- und Betriebshandbücher vorliegen.
+Vor Beginn des Pilotbetriebs müssen alle Funktionen der Datenbank fertig entwickelt sein.
+Fehler, die im Rahmen des Pilotbetriebs auftreten, sind vom Auftragnehmer in einer
+angemessenen Frist zu beseitigen. Der Auftragnehmer muss ggf. durch weitere
+Abnahmetests den Nachweis erbringen, dass die festgestellten Mängel behoben sind.
+
+1.7.1 Formelle Abnahme
+Die Abnahme findet im Anschluss an den erfolgreichen Pilotbetrieb in Form einer
+Gesamtabnahme sämtlicher Leistungen des Auftragnehmers statt. Die Abnahme
+besteht aus:
+ einer Abnahmeprüfung, vor allem hinsichtlich Funktionalität,
+ einem Probelauf als Erprobungsphase, vor allem hinsichtlich Leistung,
+Performance und Stabilität.
+Voraussetzungen für die Abnahme sind:
+ Beseitigung der in den Tests und im Pilotbetrieb festgestellten Mängel,
+ die Dokumentation muss komplett und in der vereinbarten Form übergeben
+werden.
+Der Auftragnehmer hat zu dokumentieren und darzulegen, dass alle Objekte und
+Quellcodes übergeben worden sind und elektronisch vorliegen. Stellt sich bei der
+Abnahmeprüfung ein Mangel heraus, so muss der Auftragnehmer diesen unverzüglich
+beseitigen.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 42 von 50
+
+1.8 Betrieb
+Die DB soll auf einem externen Server betrieben werden. Für die Wartung und Support
+der DB und des Servers ist der Auftragnehmer zuständig. Der Auftragnehmer muss den
+Auftraggeber sofort informieren, wenn es zu technischen Problemen kommt. Der Server
+soll 24/7 erreichbar sein. Die Wartungs- sowie Supportleistungen sollen während der
+Vertragszeit gestaffelt werden. Beauftragungen müssen immer in schriftlicher Form
+vorliegen. Jeder Schriftverkehr muss vom Auftragnehmer formlos schriftlich bestätigt
+werden.
+Während der Laufzeit soll Sonderbeauftragung zur Datenbankweiterentwicklung mit
+eingeplant werden. Für diese erfolgen gesonderte Beauftragungen nach Bedarf.
+
+1.9 Projektorganisation
+Der Auftragnehmer verpflichtet sich, alle Daten (Dokumentation, Quellcode, Daten) bei
+Beendigung dem Auftraggeber kostenfrei zu übergeben. Die Übergabe der Daten wird
+durch Datenträger übergeben. Die Nutzerrechte unterliegen alleinig dem Auftraggeber mit
+deren Partnern des Projektes SSC. Eine Weiterverwendung von Quellcode und Wissen
+für andere Softwareanwendungen ist nicht gestattet. Der Auftragnehmer erhält die
+Dokumentation der Berechnungsvorgänge der DB bei Auftragsvergabe. Die
+Dokumentation darf ausschließlich zur Umsetzung der neuen DB verwenden werden.
+Mitwirkender Partner seitens des Auftraggebers Bundesverband der Energie- und
+Klimaschutzagenturen Deutschlands (eaD) e. V. sind die Energieagentur Regio Freiburg
+GmbH und die Berliner Energieagentur GmbH.
+
+1.10 Zeitliche Vorgaben und Deadlines
+Der Start ist abhängig von der Auftragsvergabe. Während der Entwicklung soll dem
+Auftraggeber in regelmäßigen Abständen eine Testversion zur Verfügung gestellt werden.
+Diese sollte unter der Testdatenbank zur Verfügung stehen.
+Für die Umsetzung der einzelnen Funktionen soll der Auftragnehmer einen Zeitplan
+aufstellen mit Meilensteinen. Die Datenbank soll fehlerfrei zum 28.02.2018 in die
+produktive Nutzung übernommen werden. Vorab soll die Anwendung von verschiedenen
+Standorten getestet werden. Hierfür werden 2-3 Monate eingeplant.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 43 von 50
+
+1.11 Kurzübersicht Kann- und Muss-Kriterien
+Kapitel
+
+Thema
+
+1.5.1
+
+Kann
+
+Muss
+
+Beschreibung
+
+mobile Endgeräte
+
+x
+
+Umsetzung der Datenbank als
+mobile Version. Die Funktion muss
+angelegt sein.
+
+mobile Endgeräte Erfassungsbogen
+
+x
+
+Erfassung von Checks mit mobilen
+Endgeräten. Zwischenspeicherung
+der Daten auch ohne mobile Daten,
+nach Verbindung mit dem Internet
+sollen die Daten synchronisiert
+werden. Die Funktion muss angelegt
+werden. Es soll eine Schnittstelle mit
+der Datenbank geschaffen werden
+um eine einfache Synchronisierung
+zu ermöglichen. Die Umsetzung soll
+eventuell mit einer App umgesetzt
+werden.
+
+1.1.3
+
+Komprimierung der
+Datenbank
+
+x
+
+Die Datenbank soll regelmäßig
+komprimiert
+werden,
+um
+die
+Performance der Datenbank zu
+verbessern.
+
+1.1.3
+
+flexiblere
+Auswertungsfunktion
+
+x
+
+Die Auswertungsfunktion soll neu
+gestaltet werden. Zum Beispiel
+sollen Boolean-Checkboxen durch
+Select-Checkbox-Menüs
+ersetzt
+werden.
+Damit
+soll
+die
+Auswertungsfunktion übersichtlicher
+gestaltet
+werden.
+Es
+soll
+verschiedene
+Auswahlmöglichkeiten geben um
+eine Auswertung erstellen zu
+lassen.
+
+1.5.3
+
+externe Nutzer
+
+1.2.1.1
+
+Benutzerverwaltung
+
+1.2.1.24
+1.5.1
+1.2.1.24
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+x
+
+Es soll die Möglichkeit bestehen,
+externen Nutzern Zugriff auf die
+Datenbank zu gewährleisten. Es soll
+zwei Möglichkeiten geben: 1.
+projektnahe Personen bekommen
+Zugriff auf die Datenbank um
+Auswertungen ansehen zu können.
+2.
+Externe
+Personen
+sollen
+Nutzerrechte an der Datenbank
+erhalten.
+Verweis
+auf
+Lizensierungsmodell.
+x
+
+Version
+06.04.2017
+
+Nutzer benötigen nur noch ein Login
+für
+verschiedene
+Rollen
+und
+Standorte in der Datenbank.
+Seite 44 von 50
+
+1.2.1.1
+
+Vertreter für einen
+Nutzer anlegen
+
+x
+
+Festlegung einer Vertretung für
+einen Nutzer für einen bestimmten
+Zeitraum.
+Die
+Vertretung
+hat
+während des bestimmten Zeitraums
+die gleichen Rechte
+in der
+Datenbank.
+
+1.2.1.2
+
+Adminrechte
+
+x
+
+Der Admin verfügt über alle Rechte
+in der Datenbank. Dies beinhaltet
+lesen, schreiben und löschen.
+
+1.2.1.2
+
+Ansicht für Admin
+
+x
+
+Der Admin soll die Möglichkeit
+besitzen die Ansicht für sich so zu
+ändern, dass er die gleiche Ansicht
+hat wie der Nutzer, der Hilfestellung
+benötigt.
+
+1.2.1.3
+
+Log-Verlauf
+Datensätze
+
+x
+
+Der Log-Verlauf soll verständlicher
+und nachvollziehbarer sein.
+
+1.2.1.3
+
+Log-Verlauf Nutzer
+
+x
+
+Nachvollziehbar, wann sich Nutzer
+einloggen, dient zur Kontrolle der
+Aktivität der Nutzer.
+
+1.2.1.4
+
+Anonymisierung von
+personenbezogenen
+Daten
+
+x
+
+Personenbezogene Daten sollen
+nach 5 Jahren automatisch durch
+xxx ersetzt werden. Durchführung
+weiterhin monatlich. Energiedaten
+sollen
+erhalten
+bleiben.
+Die
+Datensätze
+die anonymisiert
+wurden,
+dürfen
+nicht
+mehr
+bearbeitet werden.
+
+1.2.1.5
+
+Oberfläche
+
+x
+
+Anpassung
+der
+grafischen
+Oberfläche. Die Oberfläche soll
+dynamischer und übersichtlicher
+gestaltet werden.
+
+1.2.1.5
+
+Parameterprüfung
+
+x
+
+Jedes Feld in der Datenbank muss
+geprüft werden, ob es den
+zulässigen Parametern entspricht.
+Ist dies nicht der Fall, soll der Nutzer
+eine Mitteilung erhalten, dass der
+Wert geprüft werden muss.
+
+1.2.1.5
+
+Trainer dürfen
+Abgeschlossene
+Datensätze auf
+Nachkontrolle
+setzen.
+
+x
+
+Trainer dürfen "Abgeschlossene"
+Datensätze
+wieder
+auf
+"Nachkontrolle" setzen.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 45 von 50
+
+1.2.1.5
+
+Lokalkoordinatoren
+freigabe
+Kühlgerätegutschein
+
+x
+
+Lokalkoordinatoren
+dürfen
+Kühlgeräte-gutscheine
+erst
+erstellen, wenn der Check vom
+Trainer geprüft wurde.
+
+1.2.1.5
+
+Pflichtfelder
+
+x
+
+Bevor ein Datensatz gespeichert
+wird, muss die Datenbank auf
+Pflichtfelder prüfen. Meldung an den
+Nutzer falls Daten fehlen.
+
+1.2.1.5
+
+Tooltip
+
+x
+
+Bei jedem Feld soll ein Tooltip
+enthalten sein. Diese sollen durch
+den Admin editierbar sein (Ein/Ausschalten und Ändern des
+Textes)
+
+1.2
+
+Plausiblitätsprüfung
+von Feldern
+
+x
+
+Für einige Felder muss eine
+Plausibilitätsprüfung
+festgelegt
+werden. Zum Beispiel erstes Datum
+darf nicht nach zweitem Datum
+liegen
+
+1.2.1.5
+
+Reiter 9 und 10
+Textbausteine
+
+x
+
+Für die Bemerkungsfelder soll es
+möglich
+sein,
+Textbausteine
+festzulegen, die frei auszuwählen
+sind.
+
+1.2.1.5
+
+Reiter 9 und 10
+Textbausteine
+Standortbezogen
+
+x
+
+Standorte
+können
+selbst
+Textbausteine erstellen und mit in
+die Auswahl für Reiter 9 und 10
+auswählen.
+
+1.2.1.5
+
+Checkübersicht
+
+x
+
+In der Checkübersicht sollen alle
+wichtigen Daten aufgelistet sein.
+Der
+Nutzer
+soll
+dabei
+Anpassungsmöglichkeiten haben.
+
+1.2.1.5
+
+Erfassung Lampen
+
+x
+
+Im Reiter 3 (Beleuchtung) soll die
+Lampen mit Fassungen erfasst
+werden, die nicht im Projekt
+vorhanden sind, um diese später
+auszuwerten.
+
+1.2.1.6
+
+Hilfefunktion
+
+x
+
+Die Hilfefunktion in der Datenbank
+soll
+mit
+Schulungsmaterial
+verbunden / verlinkt werden, um
+den Nutzer eine schnellere Hilfe
+anzubieten.
+
+1.2.1.6
+
+Hilfefunktion mit
+Screenshot
+
+x
+
+Es soll möglich sein
+einen
+Screenshot innerhalt der Datenbank
+zu erstellen und an Nutzer zu
+senden.
+
+1.2.1.5
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+Version
+06.04.2017
+
+Seite 46 von 50
+
+1.2.1.7
+
+Suchfunktion von
+Datensätzen
+
+1.2.1.7
+
+Suchfunktion mit
+Shortcut
+
+1.2.1.8
+
+Löschen von
+Datensätzen
+
+x
+
+Lokalkoordinator dürfen Datensätze
+im Status " ohne Termin/zu Besuch"
+und
+"Datenerfassung"
+löschen.
+Stromsparhelfer und Trainer sollen
+die Möglichkeit haben Datensätze
+zu für das Löschen zu markieren.
+Hierfür
+müssen
+Sie
+eine
+Begründung
+angeben.
+Die
+Datensätze, die gelöscht werden
+sollen, werden dem jeweiligen
+Löschberechtigen (Lokalkoordinator
+oder
+Admin)
+in
+einer
+Liste
+aufgeführt. Die zuständige Person
+kann dann die Checks direkt in der
+Datenbank löschen.
+
+1.2.1.8
+
+Sperrung von
+anonymisierten
+Datensätzen
+
+x
+
+Wurde ein Datensatz nach 5 Jahren
+(oder wollte der Haushalt eine
+Anonymisierung
+seiner
+personenbezogenen
+Daten)
+anonymisiert, darf dieser nicht mehr
+bearbeitet werden.
+
+1.2.1.10
+
+Datenbank
+Performance
+
+x
+
+Optimierung
+der
+DatenbankPerformance durch Anpassung von
+Strukturen
+wie
+zum
+Beispiel
+Abfragen
+
+1.2.1.10
+
+Auswertungen
+Format
+
+x
+
+Auswertungen sollen als PDF und
+Excel-Datei zur Verfügung stehen,
+dass der Nutzer selbst entscheiden
+kann welche Datei er benötigt.
+
+1.2.1.10
+
+Gesamtauswertung
+
+x
+
+Die
+Gesamtauswertung
+des
+Projektes soll weiterhin einmal
+täglich nachts ausgeführt und
+gespeichert werden.
+
+1.2.1.10
+
+Diagramme in
+Auswertungen
+
+x
+
+Die Auswertungen sollen durch
+Diagramme
+ergänzt
+werden.
+Diagramme sollen als *.jpg oder
+*png speicherbar sein.
+
+1.2.1.11
+
+Haushaltsbericht
+
+x
+
+Der Aufbau des Haushaltsberichtes
+soll
+angepasst
+werden,
+dass
+Tabellen zum Beispiel nicht auf
+mehreren Seiten verteilt werden.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+x
+
+x
+
+Die Suchfunktion muss zentral
+angeordnet sein. Es soll möglich
+sein nach Freitext zu suchen.
+Es soll möglich sein mit Shortcuts
+wieder in das Suchfeld zu springen.
+
+Version
+06.04.2017
+
+Seite 47 von 50
+
+Der Bericht soll durch
+Angaben ergänzt werden.
+
+weitere
+
+1.2.1.11
+
+Haushaltsbericht
+Energiegrafiken
+
+x
+
+Es soll die Möglichkeit bestehen
+Grafiken in den Haushaltsbericht
+einzufügen, die automatisch die
+Daten des Haushaltes wiedergeben.
+Die Grafiken und Diagramme
+müssen so dargestellt werden, dass
+diese
+auch
+in
+schwarz/weiß
+gedruckt werden können.
+
+1.2.1.12
+
+Filterfunktion
+
+x
+
+Bestehende Filterfunktionen sollen
+bestehen bleiben. Einige der
+vorhandenen
+Filterfunktionen
+müssen
+erweitert
+werden.
+Unteranderem durch die Auflistung
+von Datensätze zur Löschung und
+Auflistung der Haushalte, die ein
+Kühlgerätegutschein
+erhalten
+haben. Des Weiteren soll es möglich
+sein,
+Datensätze
+nach
+verschiedenen Kriterien zu filtern,
+wie zum Beispiel nach Anzahl der
+Personen, Verbrauch, PLZ etc.
+
+1.2.1.13
+
+Zuordnung
+Standorte zur
+Region
+
+x
+
+Zuordnung von Standorten zu einer
+Bundesland
+und
+Region
+mit
+eindeutiger Standortnummer. Mit
+der Möglichkeit den Standort einer
+anderen Region zu zuordnen.
+
+1.2.1.14
+
+Verwaltung von
+Soforthilfen
+
+x
+
+Verwaltung
+beinhaltet:
+Bearbeiten,
+Archivieren,
+Ausschalten
+
+1.4
+
+Schnittstelle e-Shop
+und Datenbank
+
+x
+
+Es soll eine Schnittstelle zwischen
+Datenbank und e-Shop geschaffen
+werden.
+Um
+eine
+schnelle
+Synchronisation zwischen beiden
+Systemen zu schaffen.
+
+1.2.1.15
+
+Erweiterung der
+Datenbank durch
+Wärmesoforthilfen
+
+x
+
+Aus dem bestehenden Tool sollen
+die Berechnungen in die neue
+Datenbank übernommen werden.
+
+1.2.1.20
+
+Erweiterung der
+Datenbank durch
+weitere Funktionen
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+von Soforthilfen, dies
+das
+Anlegen,
+das
+das Löschen, das
+das
+Anund
+von Soforthilfen.
+
+Die einzelnen Funktionen müssen in
+der Datenbank an- und ausschaltbar
+für verschiedene Standorte sind.
+Des Weiteren muss die Datenbank
+ohne Problem erweiterbar sein.
+
+Version
+06.04.2017
+
+Seite 48 von 50
+
+1.2.1.16
+
+Berechnung Wärme
+
+1.2.1.17
+
+Inventur der
+Soforthilfen
+
+1.2.1.18
+
+Archivierung der
+Kühlgeräte-Daten
+
+x
+
+Die Daten, die von CO2Online
+kommen
+müssen
+nach
+neu
+einspielen von Daten nach Jahren
+archiviert werden.
+
+1.2.1.18
+
+Übernahme Daten
+von Reiter 11 in
+Reiter 10
+
+x
+
+Die Daten des Kühlgerätes/ der
+Kühlgeräte sollen automatisch im
+Reiter 10 eingetragen werden. Der
+Nutzer soll vorher gefragt werden,
+ob er dies möchte. Der Nutzer soll
+weiterhin die Möglichkeit haben die
+Daten im Reiter 10 anzupassen.
+
+1.2.1.18
+
+Automatischer
+Abgleich Neugerät
+in kWh-Bereich
+
+x
+
+Die Datenbank soll automatisch
+prüfen, ob das Neugerät ein A+++
+Gerät ist und mindestens eine
+Einsparung von 200kWh/a hat. Sind
+die Kriterien nicht erfüllt erhält der
+Nutzer eine Meldung, die er
+bestätigen muss.
+
+1.2.1.18
+
+Übernahme Daten
+von Reiter 11 in
+Reiter 10
+
+1.2.1.18
+
+Kühlgeräte Alter
+
+x
+
+In der Datenbank muss das Jahr der
+Erstinbetriebnahme erfasst werden.
+Die Datenbank soll automatisch das
+Alter des Kühlgerätes errechnen.
+
+1.2.1.19
+
+Abrechnung
+Kühlgerätegutschein
+
+x
+
+Erfassung
+der
+Kühlgeräteabrechnungen in der
+Datenbank. Der Standort markiert
+die Kühlgeräte, die abgerechnet
+werden sollen und kann sich aus
+diesen Daten eine Abrechnung
+erstellen lassen (als PDF). Diese
+Abrechnung ist in der Datenbank
+hinterlegt. Die Datensätze werden
+als abgerechnet markiert. Die
+Bundeskoordination erhält eine
+Liste in der Datenbank über die
+Kühlgeräte und kann sofort prüfen,
+ob die Eingaben korrekt sind. Sind
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+x
+
+x
+
+Die
+Berechnung
+des
+Wärmeverbrauches soll mit in die
+Datenbank
+mit
+aufgenommen
+werden.
+Einbindung der Inventur in die
+Datenbank in Verbindung mit der
+Schnittstelle zum e-Shop
+
+x
+
+Der Reiter 10 soll um ein weiteres
+Feld ergänzt werden, dass für
+interne
+Bemerkungen
+genutzt
+werden kann.
+
+Version
+06.04.2017
+
+Seite 49 von 50
+
+dieses nicht korrekt, erhält der
+Standort eine Meldung in der
+Datenbank. Ist ein Kühlgerät nicht
+abrechnungsfähig,
+wird
+dies
+entsprechend markiert.
+1.2.1.20
+
+Erweiterung des
+Tauschprogrammes
+durch andere Geräte
+
+1.2.1.21
+
+Monitoring
+
+x
+
+Erweiterung
+der
+bestehenden
+Oberfläche durch die geplanten
+Wärmesoforthilfen.
+
+1.2.1.22
+
+Kühlgerätetausch im
+Monitoring
+
+x
+
+Der Tausch von Kühlgeräten im
+Monitoring muss einfacher gestaltet
+werden. Hierfür muss der Prozess in
+der neuen Datenbank angepasst
+werden.
+
+1.2.1.23
+
+Verwaltung von
+Daten in der
+kompletten
+Datenbank
+
+x
+
+Alle Daten die mit Berechnungen zu
+tun haben sollen änderbar und
+archiviert werden. Folgende Daten
+sollen gespeichert und archiviert
+werden(mit
+Zeitstempel):
+Soforthilfen, Kühlgerätedaten, CO2Werte, Berechnungswerte.
+
+1.2.1.25
+
+Newsticker in der
+Datenbank
+
+x
+
+In der neuen Datenbank soll ein
+Newsticker angelegt werden, damit
+die Nutzer alle Änderungen beim
+Login direkt sehen. Der Newsticker
+soll vom Admin änderbar sein. Alte
+Nachrichten sollen in einen Archiv
+gespeichert werden, damit die
+Nutzer die Nachrichten später
+nochmal nachlesen können.
+
+1.2.1.9
+
+Beschäftigungs/Maßnahmen-Typ
+Stromsparhelfer
+
+x
+
+In der neuen Datenbank soll der
+Beschäftigung-/Maßnahmen-Typ
+der Stromsparhelfer erfasst werden.
+Diese Funktion soll nur der Caritas
+zur
+Verfügung
+stehen
+um
+Auswertungen durchzuführen.
+
+SSC_Kommunal
+
+Dokument
+Lastenheft SSCDatenbank
+
+x
+
+In
+der
+Datenbank
+soll
+die
+Möglichkeit
+bestehen
+ohne
+Probleme
+weitere
+Module
+einzuarbeiten, wie zum Beispiel ein
+Tauschprogramm
+für
+weitere
+Haushaltsgroßgeräte.
+
+Version
+06.04.2017
+
+Seite 50 von 50
+
+

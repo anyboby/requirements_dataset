@@ -1,0 +1,5 @@
+Die DB wird zurzeit von ca. 1.913 Usern aktiv genutzt. Die Useranzahl wird im Laufe der
+Projektzeit um ca. 15% steigen. Dabei ist zu erwähnen, dass User nach Beendigung nicht
+gelöscht, sondern nur inaktiv geschaltet werden. Die Datenmenge der erfassten
+Datensätze wird im Laufe der Projektzeit um ca. 58% steigen. Davon werden ca. 4% der
+Datensätze wieder gelöscht.

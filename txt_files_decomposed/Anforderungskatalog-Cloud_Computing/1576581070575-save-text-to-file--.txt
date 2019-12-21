@@ -1,0 +1,2 @@
+Produktivumgebungen sind von Nicht-Produktivumgebungen physisch oder logisch getrennt, um
+unbefugten Zugriff oder Änderungen an Produktivdaten zu vermeiden.

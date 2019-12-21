@@ -1,0 +1,6 @@
+Zielsetzung: sicherstellen, dass mitarbeiter,
+Dienstleister und lieferanten ihre Aufgaben
+verstehen, sich ihrer Verantwortung in Bezug
+auf Informationssicherheit bewusst sind und
+die Assets der organisation bei änderung der
+Aufgaben oder Beendigung geschützt werden.

@@ -1,0 +1,1693 @@
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+Lastenheft Maschinen und Anlagen
+
+Diese Richtlinien sind für den gesamten Lieferumfang bindend und verbindlicher
+Bestandteil des Vertrages. Sollten zwischen den Vertragsparteien vor der
+schriftlichen Auftragserteilung anders lautende Vereinbarungen getroffen werden,
+bedürfen diese der schriftlichen Bestätigung. Alle Änderungen und Abweichungen
+müssen vom Auftragnehmer schriftlich beantragt und vom zuständigen Projektleiter
+gegengezeichnet werden. Eine eventuelle Ausnahmegenehmigung gilt jeweils nur für
+die betreffende Bestellung. Abweichungen vom Standard gehen zu Lasten des
+Auftragnehmers. Mündliche Absprachen sind gegenstandslos. Alle früheren
+„Lastenhefte“ verlieren hiermit ihre Gültigkeit.
+
+_________________________________________________________________________________
+TA00244702
+1
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+Inhaltsverzeichnis
+Abbildungsverzeichnis
+
+4
+
+1 Allgemeine Liefer-und Montagebedingungen
+
+5
+
+1.1 Allgemeine Vorschriften, Richtlinien und Auflagen
+
+5
+
+1.2 Hygiene und Sicherheit bei Hans Adler oHG
+
+6
+
+1.3 Örtliche Voraussetzungen
+
+6
+
+1.4 Transport
+
+7
+
+1.5 Subunternehmer
+
+7
+
+1.6 Montage/Aufstellung/Inbetriebnahme
+
+7
+
+1.7 Schulung
+
+7
+
+1.8 Leistungen/Gewährleistung/Übergabe
+
+8
+
+1.9 Kundendienst
+
+9
+
+2 Mindestanforderungen an die Dokumentation
+
+11
+
+3 Bauliche Anforderungen an Maschinen und Anlagen
+
+13
+
+3.1 Lärm
+
+13
+
+3.2 Vibrationen
+
+13
+
+3.3 Reinigung und Hygiene
+
+13
+
+3.4 Format-und Produktwechsel
+
+13
+
+3.5 Werkstoffe
+
+14
+
+3.6 Motoren und Kraftübertragung
+
+14
+
+3.7 Stellfüße/Räder/Höhenverstellung
+
+15
+
+3.8 Flanschlagergehäuse an den Förderbändern
+
+15
+
+3.9 Schmierung
+
+15
+
+3.10 Abdeckungen und Türen
+
+15
+
+3.11 Schaltschränke
+
+15
+
+3.12 Leitungen, Kabelbahnen und Kabelführungen
+
+17
+
+3.13 Pneumatische Komponente
+
+18
+
+3.14 Ergonomische Gestaltung von Arbeitsplätzen und Schnittstellen zum Bedienpersonal
+
+18
+
+3.15 Isolierungen
+
+18
+
+3.16 Beschriftungen
+
+19
+
+3.17 Antriebe, Lagerungen und Bänder
+
+20
+
+3.18 Befestigungen der Maschinen im Bodenbereich
+
+20
+
+3.19 Treppen/Übergänge/Steigleitern
+
+20
+
+3.20 Messeinrichtungen
+
+21
+
+3.21 Überwachung und Datenerfassung für ein zentrales Leitsystem ZTL
+
+21
+
+3.22 Maximumüberwachungsanlage
+
+21
+
+3.23 Blindstromkompensation
+
+21
+
+_________________________________________________________________________________
+TA00244702
+2
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+4 Standard Katalog/Verwendete Normteile bei Hans Adler
+oHG
+
+22
+
+4.1 Elektrische/Elektronische Normteile
+
+22
+
+4.2 Schalter
+
+22
+
+4.3 Sensoren
+
+22
+
+4.4 Regelungen/Steuerungen
+
+22
+
+4.5 E.-Versorgung
+
+23
+
+4.6 Optokoppler
+
+23
+
+4.7 Anzeigen
+
+23
+
+4.8 Befehlsgeräte
+
+23
+
+4.9 Waagen
+
+23
+
+4.10 Pneumatische Normteile
+
+23
+
+4.11 Hydraulische Normteile
+
+24
+
+5 Anlagen
+
+24
+
+5.1 Reinigungs-und Desinfektionsmittel
+
+24
+
+5.2 Schmiermittel
+
+24
+
+5.3 Betriebsordnung für Fremdfirmen Arbeitssicherheit, Umweltschutz und Hygiene auf dem Gelände
+der Hans Adler oHG
+25
+5.4 Fotografieren von Anlagenteilen
+
+27
+
+5.5 Anhang Bilder
+
+27
+
+_________________________________________________________________________________
+TA00244702
+3
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+Abbildungsverzeichnis
+Abb. 1: Kabelbeschriftung ..................................................................................................................... 27
+Abb. 2: Beschriftung .............................................................................................................................. 27
+Abb. 3: Systembeschriftung .................................................................................................................. 28
+Abb. 4: Schaltschrankbeschriftung ........................................................................................................ 28
+Abb. 5: Schaltschrankkennzeichnung .................................................................................................... 28
+Abb. 6: Flanschlagergehäuse aus Kunststoff mit Abdeckung................................................................ 29
+Abb. 7: Flanschlagergehäuse aus Kunststoff ohne Abdeckung ............................................................. 29
+Abb. 8: Stellungsanzeiger ...................................................................................................................... 30
+Abb. 9: Stellfüße .................................................................................................................................... 30
+Abb. 10: Auffangwanne ......................................................................................................................... 31
+Abb. 11: Auffangwanne unter Produktionsband .................................................................................. 31
+
+_________________________________________________________________________________
+TA00244702
+4
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+1 Allgemeine Liefer-und Montagebedingungen
+1.1 Allgemeine Vorschriften, Richtlinien und Auflagen
+1.1.1 Allgemeine Vorschriften
+In allen Ausführungen hat die Anlage dem derzeitigen Stand der Technik sowie allen einschlägigen
+behördlichen Vorschriften und Richtlinien zu entsprechen, wie z.B.
+ Unfallverhütungsvorschriften (BGV) der Berufsgenossenschaft Nahrungs-und Genussmittel
+ VDE-Richtlinien (DIN-VDE 0113, DIN- VDE 0660-500, …)
+ Vorschriften des Gewerbeaufsichtsamtes Baden Württemberg
+ TÜV-Vorschriften, TÜV Süd
+ Vorschriften des örtlichen Energieversorgungs-Unternehmen
+ Richtlinien der Europäischen Union
+ Hygienevorschriften der Hans Adler oHG
+ Bundesemissionsschutzgesetz inkl. TA-Luft, TA-Lärm und zugehörige Rechtsverordnungen
+ Unfallverhütungsvorschriften
+ FCKW-Halon Verbots-Verordnung
+ FDA-Vorschriften für Kunststoffe
+ FDA-Vorschriften für Schmierstoffe
+ Maschinenrichtlinie 2006/42/EG
+ Hygienic Design
+
+1.1.2 CE-Zeichen
+Es ist an der Anlage eine Kennzeichnung mit den CE-Zeichen vorzunehmen und eine entsprechende
+Konformitätserklärung in der einzureichenden Dokumentation mitzuliefern. Eine im Rahmen dieser
+Erklärung erstellte Gefahrenanalyse (FMEA) muss mitgeliefert werden!
+
+1.1.3 Bereitzustellende Unterlagen
+Das genaue Aufmaß ist vor Ort durch den Auftragnehmer durchzuführen. Die zum Bau und Installation
+der Anlagen erforderlichen Informationen wie z.B. Zeichnungen, Muster jeglicher Art,
+Gebäudeabmessungen, Transportwege, Einbringungsmöglichkeiten, Torbreite und Torhöhe,
+verarbeitete Stoffe und deren Verhalten usw. sind, soweit sie dem Auftragnehmer nicht bekannt sind,
+von diesem rechtzeitig einzuholen.
+
+1.1.4 Zu liefernden Unterlagen/Genehmigungen
+Vor Fertigungsbeginn sind uns zur Freigabe vorzulegen:
+ vermasste Übersichts- und Ausführungszeichnungen der Anlagen inkl. Schutzverkleidungen
+und Schutztüren.
+ Schalt-und Stromlaufpläne sowie Geräteanordnungsplan (siehe auch Elektrovorschriften).
+ Lieferung technischer Unterlagen entsprechend Punkt 2 (Dokumentation).
+ Zeitschema für die Fertigung, Probelauf und Lieferung.
+Mit der Fertigung darf erst begonnen werden, wenn die Zeichnungen mit unserem
+Freigabevermerk beim Auftragnehmer vorliegen.
+Gegebenenfalls muss der Auftragnehmer die Rückgabe der Zeichnungen anmahnen. Der
+Freigabevermerk seitens des Auftraggebers berührt die Gewährleistungs-, Haftungs-, Aufklärungs-und
+Erkundigungspflicht des Auftragsnehmers nicht.
+Einvernehmliche Änderungen während des Projektfortschrittes sind vom Auftragnehmer zu
+dokumentieren.
+
+_________________________________________________________________________________
+TA00244702
+5
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+1.1.5 Freigabe zur Auslieferung (FAT)
+Eine Freigabe zur Auslieferung der Anlage erfolgt, sofern eine Vorabnahme durchgeführt
+wird, im Herstellerwerk.
+Dies beinhaltet:
+ Funktionstest der Anlage
+ Probelauf mit Produkt und/oder Verpackung unter Produktionsbedingungen
+ Vollständigkeitskontrolle (Checkliste für Maschinenabnahmen)
+ Kontrolle der Verarbeitung und der eingesetzten Materialien
+Der Termin ist spätestens 3 Wochen vor Auslieferung mit uns abzustimmen
+Wir behalten uns vor, während der Fertigung im Herstellerwerk über die technische Ausführung und
+den Stand der Arbeiten zu informieren.
+
+1.2 Hygiene und Sicherheit bei Hans Adler oHG
+Vor Beginn der Arbeitsaufnahme auf unserem Werksgelände hat sich Ihr verantwortlicher Bau- bzw.
+Montageleiter oder sein Stellvertreter bei dem zuständigen Auftraggeber unserer Firma zu melden und
+sich über sein Verhalten im Werk informieren zu lassen. Die konkrete Abstimmung der erforderlichen
+Arbeiten (insbesondere erforderliche Arbeiten nach thermischen Verfahren oder Arbeiten im High Risk
+Bereich) erfolgt mit den internen Auftraggebern vor Ort.
+Bei Hans Adler oHG gelten die Vorschriften der Lebensmittelhygieneverordnung und Wichtige
+Hygieneregeln für Handwerker (siehe Kap. 5.3). Die Hygieneregeln werden durch den zuständigen
+Projektleiter geschult. Die Erstbelehrung nach dem Infektionsschutzgesetz muss vorhanden sein! Die
+Kenntnisnahme und Schulung ist schriftlich mit den Namen der Fremdhandwerker/Monteure
+rechtzeitig vor Beginn der Arbeiten bei Hans Adler oHG einzureichen.
+Die Fremdhandwerker/Monteure bekommen vor Arbeitsbeginn eine
+Hygieneschutzarbeitskleidung vom Auftraggeber!
+Bei der Arbeit anfallende Abfälle (auch Sonderabfälle) hat der Auftragnehmer auf eigene Gefahr und
+eigene Kosten zu entsorgen.
+Für die Einhaltung der für Sie im Zusammenhang mit der Ausführung der Arbeiten verbindlichen
+Arbeits-, Arbeitnehmer-, Unfallverhütungs-und Umweltschutzbestimmungen ist der Auftragnehmer
+verantwortlich. Gefährliche Arbeiten dürfen nur geeigneten Personen, denen die damit verbundenen
+Gefahren bekannt sind, übertragen werden.
+Unsere Maschinen, Geräte und Transportmittel, insbesondere Flurförderfahrzeuge, dürfen von den
+Mitarbeitern des Auftragnehmers nur dann benutzt werden, wenn:
+ dies von Hans Adler oHG genehmigt worden ist
+ wenn der von Ihnen benannte Fahrer einen gültigen Fahrausweis für das einzusetzende Gerät
+vorweisen kann.
+Der Auftragnehmer sichert Hans Adler oHG zu, dass die Ausrüstung und Werkzeuge, die auf das
+Firmengelände gebracht werden, keine offensichtliche Schäden haben und für den geplanten Einsatz
+geeignet sind.
+Ein ortsveränderlicher FI – Schutzschalter muss mitgeführt werden.
+
+1.3 Örtliche Voraussetzungen
+Die Örtlichkeit, d.h. der Aufstellungsort und die Räumlichkeiten, sowie die zu verarbeitenden Produkte
+sind dem Auftragnehmer aus Gesprächen, Besuchen und Versuchen bekannt und im Folgenden
+spezifiziert.
+
+_________________________________________________________________________________
+TA00244702
+6
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+1.4 Transport
+Der Auftragnehmer hat für einen unfallsicheren Transports bis zum Aufstellungsort zu sorgen.
+Die maximalen Abmessungen und Gewichte der zu transportierenden Güter sind vor der Verladung
+dem Auftraggeber anzuzeigen.
+Das Gewicht der Maschine/Anlage muss gut lesbar und an gut sichtbarer Stelle dauerhaft angebracht
+werden, damit beim Transport die richtigen Hebewerkzeuge verwendet werden können.
+Das größte Teil der Anlage darf eine Länge von 5,00 m nicht überschreiten. Maximale
+Anlagen/Maschinenabmessungen: Breite: 2m; Höhe: 2.5m.
+Der Auftragnehmer muss sich über den Aufstellungs-und Montageort, Transportweg, sowie
+Montageöffnungen und Aufzüge informieren und dementsprechend die Anlagenteile anzuliefern.
+Für den Transport sind die entsprechenden Transporthilfen (Ösen, Paletten, Abstandsbohlen usw.)
+vorzusehen. Stapler und Fahrer für das Abladen/Aufstellen der Anlagen können von Hans Adler oHG
+nach Absprache zur Verfügung gestellt werden. Eventuell anfallende Kosten sind vom Auftragnehmer
+zu tragen.
+
+1.5 Subunternehmer
+Bei Montagearbeiten auf dem Gelände von Hans Adler oHG dürfen Subunternehmer nur nach
+schriftlicher Genehmigung des zuständigen Projektleiters beauftragt werden.
+Alle Subunternehmer müssen die Hygiene- und Sicherheitsvorschriften einhalten, siehe Punkt
+1.2
+
+1.6 Montage/Aufstellung/Inbetriebnahme
+Die Montage/Aufstellung erfolgt nach der Absprache mit dem Projektleiter. Grundsätzlich gilt:
+Aufstellung der Maschine/Anlage erfolgt an produktionsfreien Zeiten.
+Die Montage/Aufstellung/Inbetriebnahme und der Energieanschluss erfolgen durch den
+Auftragnehmer und sind im Gesamtumfang enthalten. Nach Absprache kann der Energieanschluss
+von Hans Adler oHG übernommen werden.
+Die „Betriebsordnung für Fremdfirmen über Arbeitssicherheit“ (siehe Punkt 5.3), Umweltschutz
+und Hygiene sind bei einem Personaleinsatz des Auftragnehmers auf dem Werksgelände von
+Hans Adler oHG unbedingt einzuhalten!
+
+1.7 Schulung
+Die Schulung dient zur Befähigung zum Bedienen der Anlage sowie zur Störungsbeseitigung.
+Die Schulung beinhaltet Theorie und eine praktische Einweisung.
+Die Schulung erfolgt:
+ bei der Endmontage im Herstellwerk
+ bei/nach Inbetriebnahme im Hause des Auftraggebers
+Folgende Punkte soll die Schulung beinhalten:
+ Bedienung der Anlage oder Anlagenteile
+ Sicherheitsrelevante Aspekte der gelieferten Anlage
+ Erkennen, Auswerten, Dokumentieren und Beseitigen von Störungen
+ Ändern von Logikteilen und Parametern
+ Neuanfahren nach Totalausfall
+ Verhalten nach Not-Aus Funktion
+ Format -und Produktwechsel inkl. Reinigung
+_________________________________________________________________________________
+TA00244702
+7
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+Geschult werden:
+ Bedienungs-/Produktionspersonal in Früh-, Spät- und Nachtschicht
+ technisches Personal (Mechaniker, Elektriker)
+ zuständiger Produktions- und Abteilungsleiter
+Die Schulungen werden durch Fachpersonal des Auftragnehmers durchgeführt und sind im
+Gesamtumfang enthalten. Das Schulungsprogramm beinhaltet alle notwendigen zur Schulung
+begleitenden Unterlagen.
+Alle Unterlagen (z.B.: Bedienungsunterlagen, Betriebsanleitung, eingesetzte
+Systemkomponente…) müssen in der Amtssprache Deutsch erstellt werden.
+Dem Instandhaltungs-und Bedienungspersonal ist auf Wunsch bereits bei der Endmontage bzw.
+Freigabe zur Auslieferung Gelegenheit zur Einarbeitung zu bieten.
+
+1.8 Leistungen/Gewährleistung/Übergabe
+1.8.1 Abnahmelauf
+Die garantierten Daten wie Leistungen, Ausbringung, Verfügbarkeit, Wirkungsgrad, usw. sind uns in
+einem einwöchigen, einschichtigen, störungsfreien Abnahmelauf unter Produktionsbedingungen in
+unserem Werk vorzufahren.
+Wahlweise kann der Abnahmelauf auch unter der Regie des Auftraggebers durchgeführt werden,
+sofern dies vereinbart wurde.
+Werden die zugesicherten Leistungen bei dem Abnahmelauf nicht erreicht, so ist der Auftragnehmer
+verpflichtet, zeitnah für geeignete Abhilfe zu sorgen.
+
+1.8.2 Abnahmekriterien
+Die Abnahme erstreckt sich über einen Zeitraum von acht Stunden Produktionszeit und dem
+spezifizierten Wirkungsgrad. In Abhängigkeit von der Produktion kann sich die Abnahme auf mehrere
+Tage verteilen, ist allerdings auf 4 Wochen störungsfreien Betrieb begrenzt.
+Ist vom Auftragnehmer der Nachweis erbracht worden, dass die vertraglich vereinbarten Leistungs-,
+Dichtigkeits- und Garantiedaten erreicht werden, so wird nach der Abnahme ein gemeinsames
+Abnahmeprotokoll in dreifacher Ausfertigung gemäß Anlage im Leistungsverzeichnis erstellt und
+beiderseits rechtsverbindlich unterzeichnet.
+Der Auftraggeber behält sich mit dieser Abnahme gegenüber dem Auftragnehmer sämtliche
+vertragliche und gesetzliche Ansprüche vor.
+Zeigt sich bei dem Abnahmeversuch, dass die Anlage nicht die vertraglich spezifizierten Daten
+erbringt, so muss der Auftragnehmer unverzüglich um eine zeitnahe Wiederholung des
+Abnahmeversuches nachsuchen.
+Dem Auftragnehmer wird für Probeläufe ausreichend Produkt zur Verfügung gestellt.
+Die Nennleistung der Maschine/Linie wird gemäß der schriftlichen Festlegung garantiert.
+Die Anlage gilt als abgenommen, wenn:
+
+
+
+
+
+
+
+die Anlage vollständig angeliefert, montiert und die Inbetriebnahme erfolgt ist
+der garantierte Wirkungsgrad erreicht wurde
+der Lärmpegel nicht überschritten wurde
+die garantierte Standardabweichung nicht überschritten wurde
+die garantierten Leistungen erbracht wurden
+die garantierten Produkt- und Formatumstellzeiten, Reinigungszeiten und die Rüstzeit nach
+der Reinigung eingehalten werden
+
+_________________________________________________________________________________
+TA00244702
+8
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+
+
+
+
+
+Ablage: TEC.ZB Nr. 2447-02
+
+CE -Konformitätsbescheinigung/Herstellererklärung vorliegt
+alle technischen Unterlagen vorliegen (siehe Kap. 2)
+die zugesicherten technischen Eigenschaften erfüllt sind
+eine mängelfreie Abnahme der entsprechenden Behörden und BG vorliegt
+
+1.8.3 Gewährleistung
+Die Gewährleistung erstreckt sich über eine Zeitdauer von 24 Monaten. Bei Störungen garantiert der
+Auftragnehmer innerhalb von 20 Stunden fachkundiges Personal zu Fehlerbeseitigung zu senden.
+Der Auftragnehmer garantiert störungsfreien und funktionsgerechten Lauf der Anlage, wobei als
+Maßstab die durch den Auftrag zugesagten Leistungen zugrunde gelegt werden.
+Nach der Abnahme festgestellte Mängel oder Abweichungen, entbinden den Auftragnehmer nicht
+von der Verpflichtung, diese nach den vorliegenden Vorschriften zu beheben.
+Ergeben sich bei der Abnahme von Maschinen bzw. Anlagen Abweichungen von den
+Technischen Anforderungen, welche nicht schriftlich genehmigt worden sind, so ist der
+Auftragnehmer verpflichtet, die Korrekturen kostenlos vorzunehmen.
+Die Gewährleistung gilt in gleichem Maße auch für die von Auftragnehmer eingebaute
+Fremdfabrikate. Teile bzw. Verschleißteile, die von der Garantie ausgenommen sind, müssen im
+Angebot detailliert schriftlich angegeben werden.
+Die Bezahlung noch offener Rechnungsbeträge ist von einer mängelfreien Übernahme abhängig.
+
+1.8.4 Übergabe
+Spätestens 3 Wochen nach erfolgter Abnahme der Maschinen bzw. Anlagen, hat der
+Auftragnehmer dem Auftraggeber vollständige Dokumentationsunterlagen in Amtssprache
+auszuhändigen.
+Alle Dokumentationsunterlagen müssen dem letzten Stand der Maschine/Anlage entsprechen,
+eventuelle Änderungen bei der Abnahme müssen eingearbeitet werden.
+
+1.9 Kundendienst
+1.9.1 Verfügbarkeit
+Die Verfügbarkeit der Monteure, Techniker muss innerhalb 20 Stunden gewährleistet werden. Der
+Auftragnehmer verpflichtet sich, dass nach Abruf innerhalb von 20 Stunden, Mitarbeiter seines Hauses
+zur Fehlerdiagnose/-behebung am Aufstellungsort sind. Ein Notdienst zur sofortigen Hilfe ist
+einzurichten.
+
+1.9.2 Ersatzteile
+Der Auftragnehmer verpflichtet sich spätestens 3 Wochen nach erfolgtem Abnahmelauf, eine
+umfassende und vollständige Ersatzteilliste mit allen Ersatz- und Verschleißteilen zusenden.
+Der Auftragnehmer sichert eine Verfügbarkeit der im Ersatzteilangebot gelisteten Ersatzteile von 95%
+innerhalb von 24 Stunden am Aufstellungsort zu.
+Ersatzteile müssen in einem Zeitraum von 10 Jahren nach Abnahmedatum durch den Auftragnehmer
+lieferbar sein.
+Aus dieser Liste müssen die genauen Artikelbezeichnungen und - typen der Hersteller und dessen
+Teile bzw. Artikelnummer hervorgehen.
+
+_________________________________________________________________________________
+TA00244702
+9
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+1.10 Maßsystem und Maschinenelemente
+Alle Anlagen sind vollständig nach dem metrischen Maßsystem zu fertigen, sofern Hans Adler oHG
+nichts anderes vorgegeben hat.
+Als Maschinenelemente sind Normteile entsprechend den DIN-Normen zu verwenden.
+
+_________________________________________________________________________________
+TA00244702
+10
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+2 Mindestanforderungen an die Dokumentation
+Die vollständige Dokumentation gilt als Bestandteil der Inbetriebnahme. Folgende Unterlagen sind
+spätestens bei der Inbetriebnahme in deutscher Sprache in 3-facher Papierausführung und zusätzlich
+auf CD-ROM oder anderem digitalem Speichermedium vorzulegen:
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+E-Schaltpläne
+Ein-und Ausgangspläne SPS
+Programmausdruck der Steuerung inkl. Symbolerläuterung in Deutsch inkl. CD-ROM mit
+Programm
+Stromlauf-, Kabel- und Klemmenpläne inkl. CD-ROM mit DXF/DWG-file
+Geräte – Stückliste mit genauer Typenbezeichnung, Beschreibung sowie Positionspläne
+Aufstellungsplan incl. CD – ROM mit DXF/DWG-file für AutoCad 2000 bis 2006
+Bedienungsanweisung, Funktionsbeschreibung
+Wartungsvorschriften inkl. Checklisten
+Pläne und Listen für Pneumatik/Hydraulik und Schmierung
+Ersatzteillisten (für mechanische und elektrische Bauteile) mit Positionsplänen inkl. der
+Originalbezeichnung der Hersteller
+Gefahrenanalyse (FMEA) gemäß CE-Konformitätserklärung
+Zulassung nach BGA oder FDA für alle potentiell mit dem offenen Lebensmittel in Berührung
+kommenden Kunststoffteile
+Technische Datenblätter und H1-Zulassung nach USDA für alle Schmierstoffe
+Technische Datenblätter und H1-Zulassung nach USDA für alle Hydrauliköle
+Adressenpool mit Ansprechpartnern und Telefonnummern für Notfälle
+
+Ein Aufstellungsplan mit allen benötigten Versorgungsanschlüssen (Strom, Wasser, Vakuum, Dampf,
+Schutzgas und Druckluft) ist spätestens 6 Wochen vor Anlieferung beim Auftraggeber einzureichen.
+Alle aufgeführten Piktogramme sind gemäß den aktuellen Normen aufzuführen.
+Die Bedienungsanleitung/-anweisung ist klar und verständlich zu schreiben. Die sichere Handhabung
+für den Anwender und das Produkt muss gewährleistet sein.
+Die Bedienungsanleitung/-anweisung muss folgende Angaben enthalten:
+1. Allgemeine Informationen für die Maschine
+ Angaben über die Kennzeichnung
+ Angaben über die bestimmungsgemäße Verwendung
+ Hinweise zum vorhersehbaren Fehlgebrauch
+ Sicherheitshinweise als Ergebnis der Gefahrenanalyse
+ Definition der Arbeitsplätze
+2. Weitere erforderliche Angaben zu:
+ Inbetriebnahme
+ Verwendung
+ Handhabung
+ Installation
+ Montage/Demontage
+ Rüsten
+ Alle erforderlichen Hinweise zu Montage und Benutzung von auswechselbaren
+Ausrüstungen
+ Instandhaltung/Wartung
+ Hinweise zu Schmierstoffen
+ Störungsbeseitigung
+ Einarbeitungshinweise
+ Hinweise zu ergänzenden Werkzeugen
+ Hinweise zur Verminderung von Lärm und Vibrationen
+ Hinweis beim Einsatz in explosionsgefährdeter Atmosphäre
+ Reinigungsverfahren
+_________________________________________________________________________________
+TA00244702
+11
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+ Desinfektionsverfahren
+Alle Anlagen sind mit einem Typenschild mit CE-Kennzeichnung zu versehen. Das Typenschild ist an
+gut sichtbarer Stelle dauerhaft anzubringen.
+Inhalt:
+
+
+
+
+
+Hersteller mit Adresse und Telefonnummer
+Bezeichnung der Serie oder des Typs
+Maschinennummer
+Baujahr
+
+Betriebsanleitungen/-anweisungen müssen den allgemeinen Wissensstand und die
+Verständnisfähigkeit des Benutzers berücksichtigen.
+
+_________________________________________________________________________________
+TA00244702
+12
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+3 Bauliche Anforderungen an Maschinen und Anlagen
+3.1 Lärm
+Die Maschine darf unter Produktionsbedingungen am Aufstellungsort den Lärmpegel von 75 db(A)
+nicht überschreiten.
+
+3.2 Vibrationen
+Die Maschine muss so konzipiert und gebaut sein, dass Gefahren durch Maschinenvibrationen auf
+das unter Berücksichtigung des technischen Fortschritts und der verfügbaren Mittel zur
+Verringerung von Vibrationen, vornehmlich an der Quelle, erreichbare niedrigste Niveau gesenkt
+werden.
+
+3.3 Reinigung und Hygiene
+ Alle Anlagenteile müssen Reinigung und Desinfektion ermöglichen.
+ Sämtliche Bauteile und eingesetzte Werkstoffe sind so auszulegen, dass sie von stark sauren
+und/oder basischen Reinigungs-und Desinfektionsmitteln nicht beeinträchtigt werden. Eine Liste
+der eingesetzten Reinigungs-und Desinfektionsmittel ist unter der Anlage Nr. 5.1 zu finden.
+ Die entsprechenden Anlagenteile werden mit Reinigungsmittel eingeschäumt und nach
+entsprechender Einwirkungszeit im Mittel-und Hochdruckverfahren mit Wasser abgespritzt.
+ Der Temperaturbereich des eingesetzten Wassers ist 10 bis 40°C.
+ Sicherheitsdatenblätter für die oben genannten Chemikalien können auf Anfrage von Hans Adler
+OHG zur Verfügung gestellt werden.
+ Die gesamte Anlage ist konstruktiv so zu gestalten, dass optimale und leichte
+Reinigungsmöglichkeiten gewährleistet sind. Insbesondere sind Toträume und waagerechte
+Oberflächen zu vermeiden.
+ Sämtliche Anlagenteile sind nach Hygienic design zu konstruieren und herzustellen.
+ Teile, die zur Reinigung entnommen werden, müssen ohne Werkzeug entnehmbar und
+gekennzeichnet sein. Andere Systeme sind nach Rücksprache und schriftlicher Genehmigung
+durch Hans Adler OHG möglich.
+ Bei der Konstruktion der Anlage ist eine Bodenfreiheit von ca. 150 mm einzuhalten. Eine Änderung
+bedarf der schriftlichen Genehmigung durch Hans Adler OHG
+ Des Weiteren dürfen die Rahmenkonstruktionen keine offenen oder zu öffnenden Löcher oder
+Gewinde enthalten. Befestigungen sind entweder aufzuschweißen oder die Bohrungen mit
+eingeschweißten Hülsen zu verschließen.
+ Falls für die Reinigung eine besondere Einstellung der Anlage sinnvoll ist (z. B. Schließen der
+Vakuumleitungen oder langsamer Kettenvorschub), so muss dieser Betriebszustand gesondert
+definiert und getrennt anwählbar sein.
+ Schrauben sollten so angebracht werden, dass ein Produktkontakt vermieden wird.
+ Alle produktberührenden Maschinenteile und eingesetzte Werkstoffe müssen glatte
+Oberflächen besitzen und eine Oberflächenbeschaffenheit von Ra ≤ 0,8 µm aufweisen.
+Gesamtoberfläche bei Edelstahlteilen muss gebeizt und passiviert werden.
+ Glasperlengestrahlte Oberflächen sind für produktberührte Oberflächen nicht erlaubt. Im
+Sichtbereich der Anlagen sind glasperlengestrahlte Oberflächen nur nach vorheriger Genehmigung
+des Auftragsgebers zu verwenden.
+
+3.4 Format-und Produktwechsel
+ Es ist anzustreben, dass der Format- und/oder Produktwechsel ohne Werkzeuggebrauch
+durchgeführt werden kann. Wechselteile müssen gekennzeichnet sein. Ist der Werkzeuggebrauch
+nicht auszuschließen, ist eine schriftliche Genehmigung durch Hans Adler OHG erforderlich.
+ Verstellungen sind mit Einstellhilfen (Stellungsanzeigen, Skalen u. a.) zur reproduzierbaren
+Einstellung der Maschine zu versehen. (siehe Foto im Anhang Kap. 5.5)
+ Die Formatdatenblätter mit den Einstellwerten sind Hans Adler OHG spätestens 3 Wochen nach
+erfolgtem Abnahmelauf mit der Dokumentation auszuhändigen.
+ Die Anlage/Maschine muss so konstruiert sein, dass geübtes Personal einen Produktwechsel
+innerhalb kürzester Zeit durchführen kann. Dieser beinhaltet die Reinigung sowie den Wiederanlauf
+_________________________________________________________________________________
+TA00244702
+13
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+bis zum Erreichen des geforderten Wirkungs- und Nutzungsgrades. Die Personenanzahl und die
+erwartete Zeit für den Produktwechsel ist Hans Adler OHG vor Vertragsabschluss anzugeben.
+
+3.5 Werkstoffe
+ Alle Bauteile und eingesetzte Werkstoffe, die mit Produkt in Berührung kommen bzw. nass
+gereinigt werden müssen oder während der Nassreinigung mit Reinigungsmitteln in Kontakt
+kommen, müssen in rostfreiem Stahl 1.4301 oder höherwertig ausgeführt werden.
+ Transportgurte und Kettenelemente von Kettengliederförderern müssen aus Kunststoffen gefertigt
+sein, für die eine Lebensmittelzulassung besteht. Zulassungszertifikat für Lebensmittel nach FDA
+bzw. USDA muss vorliegen. Sie müssen für die während des Produktionsbetriebes auftretenden
+Temperaturen ausgelegt sein.
+ Förderbandkörper sind komplett aus rostfreiem Stahl 1.4301 zu fertigen.
+ Lackierter Stahl ist nur in Ausnahmefällen nach Rücksprache mit Hans Adler oHG einzusetzen.
+Sofern im Auftrag nicht vereinbart, ist die gewünschte RAL-Farbnummer oder andere Farben bei
+Hans Adler OHG zu erfragen.
+ Die Lackierung muss abriebfest, elastisch, kratzunempfindlich und resistent gegen Wasser,
+Reinigungsmittel, Desinfektionsmittel, Lösungsmittel, Kühlmittel, Hydrauliköle und Alkohole sein.
+ Alle zugänglichen Stellen, auch an den Innenseiten, dürfen keine scharfen Kanten und spitzen
+Ecken aufweisen, die zu Verletzungen führen können. Insbesondere müssen an allen Blechteilen
+die Kanten entgratet sein.
+ Nach Beendigung der Schweißarbeiten müssen alle Edelstahlteile gebeizt, passiviert und
+neutralisiert werden. Die Endreinigung der Oberfläche ist mit einem Edelstahlreiniger
+durchzuführen.
+ Der Einsatz von Glas ist untersagt. Bei Manometern sind nach Rücksprache mit dem Auftraggeber
+ausschließlich schlagfeste Gläser bzw. Mehrschicht-Sicherheitsglas einzusetzen.
+ Der Einsatz von Plexiglas ist in Ausnahmefällen nach Rücksprache mit Hans Adler OHG
+einzusetzen
+ Die angestrebten Druckbereiche müssen auf der Skalierung grün markiert sein, kritische
+Druckbereiche sind rot zu unterlegen.
+ Vom Auftragnehmer ist nachzuweisen, dass bei allen produktberührenden Dichtungen eine
+Lebensmittelzulassung (FDA bzw. USDA) besteht und dass diese beständig sind gegen die im
+Werk eingesetzten Reinigungs- und Desinfektionsmittel.
+ Alle Edelstähle müssen Metalldetektierbar sein.
+
+3.6 Motoren und Kraftübertragung
+ Alle Motoren müssen als Schutzart IP 56 (Fremdkörper: staubgeschützt/Wasserschutz: schwere
+See) haben. Nach Absprache und schriftlicher Genehmigung seitens des Auftraggebers ist auch IP
+55 oder IP 54 möglich.
+ Motoren, Getriebe und Antriebe sind mit Schutzhauben aus rostfreiem Stahlblech 1.4301 zu
+versehen, die einfach zu demontieren sind.
+ Antriebs- und Umlenkrollen sind mit Vulkolan zu gummieren.
+ Die Kraftübertragung auf die Antriebsrollen hat mit rostfreien Ketten oder Zahnriemen zu erfolgen.
+Bei Verwendung von Zahnriemen, muss das Geflecht aus Edelstahl sein.
+ Andere Systeme sind, nur nach der Rücksprache und schriftlicher Genehmigung durch Hans Adler
+OHG in Ausnahmefällen, möglich.
+ Es sind nur Normteile zu verwenden, die im Handel ab Lager vorhanden sind.
+Sonderanfertigungen sind nicht zugelassen.
+
+_________________________________________________________________________________
+TA00244702
+14
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+3.7 Stellfüße/Räder/Höhenverstellung
+ Nur Stellfüße mit Gewinden ab M16 und aus rostfreiem Stahl 1.4301 sind zu verwenden.
+ Die Grundflächen müssen einen Durchmesser von mindestens 80mm haben.
+ Die Füße müssen am Boden fest fixierbar sein, ohne dass eine Einschränkung der
+Höhenverstellbarkeit (H>150 mm) auftritt.
+ Ausführung Höhenverstellung siehe Fotos im Anhang Kap. 5.5
+
+3.8 Flanschlagergehäuse an den Förderbändern
+ Flanschlagergehäuse müssen mit einem Deckel bzw. Wellendichtring abgedichtet sein. Es sind nur
+Normlagergehäuse zugelassen. Sonderanfertigungen werden nicht akzeptiert.
+ Flanschlager müssen von außen montiert werden.
+ Die Flanschlagergehäuse sind nur in der Ausführung aus Edelstahl (min. 1.4301) oder Kunststoff
+zugelassen.
+ Eine Nachschmierung muss gegeben sein.
+ Ausführung siehe Fotos im Anhang Kap. 5.5
+
+3.9 Schmierung
+ Alle Anlagen sind mit einer Zentral – Schmierung auszurüsten.
+ Die verwendeten Schmierstoffe müssen von Hans Adler OHG freigegeben werden.
+ Hydrauliköle und Schmierstoffe müssen generell eine H1-Zulassung nach USDA haben.
+
+3.10 Abdeckungen und Türen
+ Alle transparenten Abdeckungen und Türen sind in Lochblech auszuführen. Andere Materialien
+sind nur einzusetzen, wenn ein splitterfreies Bruchverhalten gewährleistet ist und eine Erblindung
+durch Reinigungs- und Desinfektionsmittel ausgeschlossen ist.
+ Transparente Abdeckungen sind nicht zu verschrauben, sondern zu klemmen.
+ Scharniere für Türe und Abdeckungen müssen 5-fach gelagert und 2-fach verschweißt sein.
+Andere Systeme sind nach Rücksprache und schriftlicher Genehmigung durch Hans Adler OHG
+möglich.
+ Querverstrebungen (wenn erforderlich) über 1,9 m Höhe vorsehen.
+ Schutztüren sind grundsätzlich über einen manipulationssicheren Sicherheitsendschalter zu
+sichern.
+ Montage-, Reinigungs- und Reparaturöffnungen dürfen nur mit Werkzeug zu öffnen sein
+ Unabhängig von allen Vereinbarungen müssen Schutztüren und Schutzverkleidungen den
+geltenden Sicherheits-und Unfallverhütungsvorschriften entsprechen!
+
+3.11 Schaltschränke
+Teilung der Schränke für Transport und Einbringung ist zu berücksichtigen. Blechvorbehandlung und
+Lackierung müssen auf die betrieblich herrschenden klimatischen Anforderungen abgestimmt sein.
+Der Fertiganstrich erfolgt nach Angabe der Projektleitung.
+Schaltschrankeinspeisungen sind je Netzeingang mit einem Hauptschalter nach VDE 0113
+auszurüsten. Das Abschaltvermögen ist nach der gesamten Betriebslast festzulegen.
+Klemmen, welche nach Abschalten des Hauptschalters noch unter Spannung stehen, sind gegen
+zufälliges Berühren abzudecken und durch VDE – Warnschild deutlich zu kennzeichnen.
+Verbraucherabgänge über 35 Ampere und Drehstrommotoren größer 11 kW sind als NH – Sicherung
+und/oder Sicherungslasttrenner einzubauen. Sicherungsautomaten für die Steuerspannung sind mit
+Hilfskontakte auszurüsten.
+Schaltgeräte dürfen nur mit max. 70 % ihrer Nennleistung belastet werden. Leistungsschütze sind in
+der Bemessung größer als die zugeordneten Hilfsschützen einzubauen. Leistungsschütze sind neben
+den Hauptkontakten mit mind. 2 Öffnern und 2 Schließern als Hilfskontakte auszurüsten.
+_________________________________________________________________________________
+TA00244702
+15
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+Meldeleuchten sind für jeden Antriebsmotor und je Störmeldung vorzusehen und nach Maßgabe der
+Einzelpositionen einzubauen.
+Betriebsstundenzähler dürfen nur über Hilfskontakte des jeweiligen Leistungsschützes an Spannung
+gelegt werden.
+Vor den Lichtverteilungen, den Steuerautomaten und FI-Schutzschaltern sind NH-Sicherungen max.
+63 A als Vorsicherungen zur Begrenzung der Kurzschlussleistung einzusetzen.
+Einphasenwechselstromkreise sind auf die 3 Phasen zu verteilen.
+Der Steuerkreis großer Antriebe ist getrennt durch Kleinselbstschalter mit Hilfskontakt abzusichern.
+Regler und Stellmotoren in Regelanlagen sind einzeln und von den Messstromkreisen getrennt
+abzusichern.
+Bei Schalterfall an einem Messkreis, der als Eingabe für einen Regelkreis herangezogen wird, müssen
+die Ausgangsimpulse des Reglers wirkungslos gemacht werden.
+Für Signallampen ist ein getrennter Kleinspannungstrafo (220V / 24V) vorzusehen, falls die
+Gleichspannungsversorgung hierfür nicht benutzt werden kann.
+Falls nur wenige Anzeigelampen notwendig sind, können auch einzelne Lampentrafoelemente 220
+V/24 V verwendet werden.
+Bei Geräten, deren Stromversorgung aus einer Batterie entnommen wird, sind die
+Spannungsschwankungen der Batteriespannung zu berücksichtigen.
+Für die Steuerspannung sind entsprechend ausgelegte Steuertrafos vorzusehen, mit primärseitigem
+Überlastschutz und sekundärzeitigem Kurzschlussschutz. Schmelzsicherungen sind hierfür NICHT zu
+verwenden, die Schutzschalter sind mit Meldekontakten zur Signalisierung des
+Steuerspannungsausfalls zu versehen.
+Steuerstromkreise bzw. Steuertrafos sind sekundärzeitig einseitig zu erden, die Erdung muss direkt
+mit der Kontaktabgewandten Seite der Spulen verbunden sein.
+Kleinwechselspannungen sind möglichst mit 24 V auszuführen.
+Für sämtliche Anzeigelampen ist je Schaltschrank eine Lampenprüfeinrichtung mit Prüftaste in der
+Schaltschrank – Frontseite auszuführen.
+Reihenabgangsklammern sind abgangsseitig mit einem und schrankseitig mit max. zwei Drähten zu
+belegen.
+Für die abgehenden stromführenden Mp-Anschlüsse sind Null-Leiter-Trennklemmen, für die
+Schutzleiter sind Schutzleiterklemmen bei 16 mm² Querschnitt zu verwenden. Anschlüsse ab 25 mm ²
+Querschnitt sind mit feststehenden Reiterklemmen an der Schutzleiterschiene herzustellen.
+Entsprechend der Anzahl und Größe der Kabel ist ein genügend großer Kabelrangierraum für die
+Verlegung und das Rangieren an den Netz- und Abgangsklemmen freizulassen.
+Die Verdrahtung vor der einzelnen Einbauteile ist in ausreichen großen Kabelkanälen vorderseitig
+vorzunehmen.
+Alle Leistungen sind mit flexiblem Leistungsmaterial H05/7V-K auszuführen Leistungsenden sind mit
+Aderendhülsen, Ösen oder Quetsch – Kabelschuhen zu versehen.
+Eigensichere Leistungen sind zu bündeln, als „eigensicher Ex“ zu kennzeichnen und getrennt zu
+verlegen.
+Die Verdrahtung zwischen Montageplatte und Schaltschrank – Fronttüre ist mit flexiblem
+Spiralschlauch zu schützen. Leistungsquerschnitte sind nach VDE 0100/0113 auszulegen, min.
+jedoch 1,5 mm² für Leistungsverbindungen.
+Schaltschränke sind vom Lieferanten „Rittal“ aus rostfreiem Stahl 1.4301 zu verarbeiten (Schutzart
+IP66). In den Produktionsbereichen mit offenen Produkt „HD Baureihe“ VA, in Produktionsbereichen
+mit verpackter Ware „AE Baureihe“ VA, in Maschinenräumen „AE Baureihe“ Stahlblech lackiert RAL
+7035.
+Die Bestückung des Schaltschrankes darf ausschließlich auf der Montageplatte stattfinden, die
+Seitenwände sind frei zu halten.
+Im Schaltschrank muss mindestens 30 % Freiraum für eventuelle Erweiterungen vorhanden sein, dies
+gilt auch für die Auslegung der Kabelkanäle und die Bestückung der SPS.
+Schaltschränke, die im direkten Nassreinigungsbereich aufgestellt werden, sind mit einer
+aufklappbaren oder abnehmbaren Kunststoffabdeckhaube auszurüsten.
+Die Temperatur im Schaltschrank darf 40°C nicht überschreiten. Gegebenenfalls muss eine geregelte
+Kühlvorrichtung installiert werden.
+_________________________________________________________________________________
+TA00244702
+16
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+Schaltschränke sind grundsätzlich mit Innenbeleuchtung und zwei 220 V Steckdosen auszurüsten.
+Im Schaltschrank ist eine unterbrechungsfreie Stromversorgung USV für die SPS einzubauen.
+Es ist ein RJ45 Anschluss vorzusehen um über einen, von Hans Adler oHG zur Verfügung gestellten
+Internetzugang, Fernwartungen durchzuführen.
+Datenleitungen müssen von Stromleitungen getrennt (mit Abstand) geführt werden.
+Die Kabeleinführungen am Schaltschrank müssen von unten über Kabelverschraubungen IP 68
+erfolgen.
+In Produktionsräumen sind Betriebspanels einzusetzen die Wasserdicht und resistent gegen
+Reinigungsmittel sind.
+
+3.12 Leitungen, Kabelbahnen und Kabelführungen
+Leiterfarben bei Einzeladerverlegung
+Verdrahtungsfarben
+Schwarz
+
+Anwendung
+Hauptstrom
+
+Blau
+
+Nullleiter Hauptstrom
+
+Gelb/Grün
+
+Schutzleiter PE
+
+Rot
+
+Steuerspannung 230 V
+
+Rot/Weiß
+
+Steuerspannung 230V Nullleiter
+
+Braun
+
+Steuerspannung 24V AC A
+
+Braun/Weiß
+
+Steuerspannung 24V AC N
+
+Dunkelblau
+
+Steuerspannung 24V DC +
+
+Dunkelblau/Weiß
+
+Steuerspannung 24V DC M
+
+Violett
+
+Fremdspannung
+
+Orange
+
+Analogmessung +
+
+Orange/Weiß
+
+Analogmessung -
+
+Weiß
+
+Digital Eingänge an ZLT
+
+Weiß/Blau
+
+Digital Eingänge an ZLT
+
+Grau
+
+Digital Ausgänge an ZLT
+
+Grau/Schwarz
+
+Digital Ausgänge an ZLT
+
+ Sämtliche Kabel und Leitungen sowie Anschlüsse und Abhängungen sind beidseitig dauerhaft zu
+beschriften (siehe Foto im Anhang Kap. 5.5).
+ Es dürfen nur halogenfreie und flammwidrige Leitungen und Isolierungen nach IEC 60332.1
+eingesetzt werden.
+ In Eishäusern, TK-Lägern und in Froster- bzw. Kühlzellen sind kältefeste Leitungen zu verwenden,
+die bei Temperaturen bis -30°C beweglich sein müssen.
+ An den Maschinen sind YSLY-JZ Kabel und als Abhängungen ist die Leitungstype "Lapp Ölflex
+500 P— zu verwenden.
+ Sämtliche Bauteile an den Maschinen sind dauerhaft zu beschriften.
+ Die farbliche Kennzeichnung isolierter Leiter muss der Empfehlung nach DIN EN 60204-1
+_________________________________________________________________________________
+TA00244702
+17
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+entsprechen.
+ Anschlussleitungen von frequenzgesteuerten Motoren sind als abgeschirmte Leitungen
+auszuführen.
+ Alle Kabelbahnen und Kabelführungen an Maschinen und Anlage sind als Gitterkabelbahnen in
+rostfreiem Stahl 1.4301, Fabrikat nach Absprache mit Hans Adler OHG auszuführen und so zu
+verlegen, dass mit Sicherheit die Gefahr der Beschädigung durch Transport usw. ausgeschlossen
+wird.
+ In Produktionsbereichen und an der Hallendecke sind offene Gitterkabelbahnen in rostfreiem Stahl
+1.4301 zu montieren.
+ Soweit nicht Anlagen- und Systembedingt weitere Schutzmaßnahmen erforderlich sind, ist Nullung
+zu berücksichtigen.
+ Innerhalb der Schaltschränke und für alle angehenden Verbraucher ist der N und der PE-Leiter
+getrennt zu führen.
+ Eine Verbindung N und PE erfolgt wenn überhaupt, nur an der Schaltschrank – Einspeisung.
+ Die kompl. Elektroausrüstung ist fachgerecht mit der vorhandenen Betriebserdungsanlage zu
+verknüpfen in Abstimmung mit dem Elektropersonal.
+
+3.13 Pneumatische Komponente
+ Druckluftversorgung bei Hans Adler OHG max. 6,0 bar, ölfrei
+ Alle Pneumatikverschlauchungen sind in Schlauchqualität PLN außenkalibriert auszuführen.
+ In jedes pneumatische Gerät ist eine zentrale Wartungseinheit mit automatischem
+Kondensatablass einzubauen.
+ Alle pneumatischen und hydraulischen Aggregate müssen bei Not – Aus sofort entspannt sein. Bei
+Folgeschaltungen müssen alle Funktionen gegeneinander verriegelt sein.
+ In die Zuführleitung der Anlage/Maschine ist ein automatisch gesteuertes Absperrorgan zu
+installieren, damit bei Abschaltung der Steuerspannung die Luft- und Vakuumzufuhr gestoppt wird.
+Sicherheitsrelevante Schaltungen sind ausgenommen.
+ Es sind Normzylinder mit Standardhublängen zu verwenden. Sonderanfertigungen werden nicht
+akzeptiert.
+ Anschlussstellen für die Druckluftversorgung von Maschinen und Anlagen sind mit einer
+Schnellkupplung auszurüsten.
+
+3.14 Ergonomische Gestaltung von Arbeitsplätzen und Schnittstellen
+zum Bedienpersonal
+ Arbeitsplätze und Schnittstellen zum Bedienpersonal müssen den aktuellen
+arbeitswissenschaftlichen Erkenntnissen für eine dem Menschen angepasste Gestaltung der
+Arbeitsplätze entsprechen.
+ Diese arbeitswissenschaftlichen Erkenntnisse sind den entsprechenden DIN-Normen und VDIRichtlinien zu entnehmen. Eine kurze Zusammenstellung gibt die "Kleine ergonomische
+Datensammlung, Hrsg. Bundesanstalt für Arbeitsschutz, Verlag TÜV Rheinland.
+ Gute Zugänglichkeit der Anlage/Maschine zur Störungsbeseitigung ist vorzusehen.
+
+3.15 Isolierungen
+ Isolierungen sind ohne Wärme- und Kältebrücken auszuführen.
+ Im Produktionsbereich sind Edelstahl Blechumhüllungen vorgeschrieben. Im Außenbereich kann
+nach Rücksprache und schriftlicher Genehmigung durch Hans Adler oHG ein anderes Material
+eingesetzt werden.
+_________________________________________________________________________________
+TA00244702
+18
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+3.16 Beschriftungen
+ Alle mechanischen und elektrischen Teile müssen so beschriftet sein, dass sie eindeutig an Hand
+von Maschinenzeichnungen oder Stromlaufplänen identifiziert werden können (siehe Foto im
+Anhang Kap. 5.5).
+ Die Beschriftung muss so ausgeführt werden, dass sie auch nach längerer Zeit noch lesbar ist und
+nicht abgewaschen oder abgerieben werden kann. Bewährt hat sich eine Beschriftung mit
+gravierten Schildern, die so montiert werden, dass die Hohlprofile nicht angebohrt werden.
+Änderungen müssen mit Hans Adler oHG abgesprochen werden.
+ Gefahrstellen sind durch Warnhinweise gemäß BGV A8 Sicherheits- und
+Gesundheitsschutzkennzeichnung am Arbeitsplatz an den Maschinen zu kennzeichnen!
+
+3.16.1 Beschilderung
+a) Beschilderung innerhalb Schaltschränken
+ Alle Abgangsklemmen und sämtliche Einbauteile sind einzeln zu bezeichnen. Die Bezeichnungen
+müssen mit den Stromlaufplänen übereinstimmen.
+ Die Betriebsmittelbeschriftung erfolgt auf gelben Selbstklebeetiketten, Größe ca. 25 x 10 mm, mit
+schwarzer Schrift.
+ Alle Türeinbaugerätebeschriftungen an der Türinnenseite oberhalb des Gerätes. Schütz- und
+Sicherungsbezeichnungen können auf den gerätespezifischen Beschriftungsfeldern ebenfalls in
+schwarzer Schrift vorgenommen werden. Bei Sicherung auf dem Gerät und auf der Abdeckung.
+ Steckkartenbeschriftungen sind mit schwarzer Schrift und Klartextbezeichnung vorzunehmen.
+ Zugelassen sind selbstklebende Resopalschilder oder selbstklebende Etiketten.
+ In Baugruppenträger ist die entsprechende Kartenplatz NR. so anzubringen, dass nach entfernen
+jeder Steckkarte der zugehörige Platz klar definiert bleibt. Die Klemmleisten sind ebenfalls mit der
+zugehörigen Kartenplatz- NR. zu kennzeichnen.
+b) Klemmleistenbeschriftung auf Gruppenschildträger
+ x 1 Hauptstromklemme (Einspeisung und Leistungsabgänge)
+ x 2 Steuerklemmen 220V für den Anschluss der außerhalb der Schaltanlage liegenden
+Betriebsmittel.
+ x 3 Steuerklemmen 24 V für Anschluss der außerhalb der Schaltanlage liegenden Betriebsmittel.
+ X2 LT Klemmen zur Ansteuerung von einem „Zentralen Leitsystem“ ZLT.
+ X2 LT Klemmen für die Rückmeldung der Binärwerte an ein „Zentrales Leitsystem“ ZLT.
+ X2 LT Klemmen für den Anschluss von Messleitungen und zur Regelung oder als Analogwerte an
+einem „Zentralen Leitsystem“ ZLT.
+ Stützpunktklemmen für jede Steuerspannungen sind vorzusehen.
+ Klemmennummerierung auf den Modelträger jeweils von 1 beginnend.
+c) Äußere Beschilderung
+ Sämtliche Baugruppen, Einzelteile eines Systems, sowie sämtliche Rohrleitungen und Kabel sind
+zu bezeichnen.
+ Die Schilder sind zu kleben, zu schrauben oder anderweitig dauerhaft befestigen.
+ Kleine Kabel sind mit Bezeichnungsschildern zu kennzeichnen.
+ Rohrleitungen und Kabelleitungen sind zu kennzeichnen:
+ Am Startpunkt, falls der Endpunkt von dort nicht einsehbar ist.
+ Am Endpunkt (prinzipiell wie vor)
+ Beim Eintritt in einen Raum
+ Beim Austritt aus einem Raum
+ Bei den größeren Räumen bzw. beim komplizierten Verlauf erfolgt die zusätzliche Kennzeichnung
+nach Erfordernis
+ Der Startpunkt bzw. der Endpunkt einer Rohrleitung ist grundsätzlich eine Baugruppe bzw. einem
+_________________________________________________________________________________
+TA00244702
+19
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+Einzelteil gemäß den Systemschemazeichnungen zu kennzeichnen
+ Auf dem Kennzeichnungsschild ist oben oder links der Startpunkt (Ident-Nr. bei Rohrleitungen,
+Ident-Nr. und DIN-Bez. bei Kabel) und unten oder rechts der Endpunkt einzutragen. Bei Kabeln ist
+in der Mitte zusätzlich noch die DIN-Bez. (z.B.W….) aufzuführen.
+ Baugruppen sowie sämtliche sonstige Einzelteile eines Rohrsystems sind mit ihrer Ident-Nr. ggf.
+Ident-Nr. und DIN-Bez. zu kennzeichnen. Sämtliche Bediengeräte sind zusätzlich mit den
+notwendigen Klartextbeschriftungen zu versehen.
+ Falls die Rohrleitungen nicht in ihrem gesamten Verlauf einen einheitlichen Farbanstrich erhalten
+(Leistungsumfang der Fa. Adler), dessen Farbton das jeweilige Medium erkennen lässt, ist eine
+Kennzeichnung mit farbigen Kunststoffklebebandstreifen jeweils neben den voraufgeführten
+Kennzeichnungsschildern durchzuführen.
+ Die Zuordnung von Farbe und Medium legen die Fa. Adler fest.
+ Sind bei Anlagen und Maschinen systembedingt an bestimmten Stellen Warn- und Hinweisschilder
+notwendig, so hat dies ebenfalls durch den Auftragnehmer zu erfolgen. Z.B. Einbauort des
+nächsten Absperrschiebers das Warn- bzw. Hinweisschild ist gelb mit roter Beschriftung
+auszuführen, Größe und Anbringort entsprechend den örtlichen Gegebenheiten).
+
+3.17 Antriebe, Lagerungen und Bänder
+ Sämtliche Motoren und Antriebe sind mit einer schnell demontierbaren Schutzhaube aus rostfreiem
+Material zu versehen.
+ Antriebsketten sind in Edelstahl auszuführen.
+ Lager sind ausreichend zu dimensionieren und vor Beschädigung durch eintretendes Wasser zu
+schützen. Defekte Lager müssen leicht austauschbar sein.
+ Für Lagerungen, welche sich in Nassbereichen befinden, sind Edelstahlkugellager in 2RSAusführung einzusetzen und ggf. Lagergehäuse aus rostfreiem Stahl 1.4301oder Kunststoff. Es
+sind nur Normlager zugelassen. Sonderanfertigungen werden nicht akzeptiert!
+ Die Rahmenkonstruktion der Bänder ist in rostfreiem Stahl 1.4301 auszuführen.
+ Unter dem Förderband ist eine fest installierte, herausnehmbare, gut zu reinigende Auffangwanne
+aus rostfreiem Stahl 1.4301 zu installieren (siehe Foto im Anhang Kap.5.5).
+ Getriebeabdichtungen und Gehäusebelüftungen sind so auszuführen bzw. anzuordnen, dass
+ausschwitzendes Schmiermittel keine Produkte und produktberührte Maschinenteile verunreinigen
+können! Es soll hierfür ggf. Auffangvorrichtungen vorgesehen werden.
+
+3.18 Befestigungen der Maschinen im Bodenbereich
+Zur Befestigung der Maschinen auf dem Boden sind säurebeständige Klebedübel (z.B. von
+HILTI) zu verwenden (keine Spreizdübel, da diese zur Zerstörung des säurebeständigen Bodens
+führen)! Die Befestigungspunkte sind vom Ansprechpartner / Projektleiter der Hans Adler oHG
+freizugeben, da in verschiedenen Bereichen Fußbodenheizung und Kühlwasserkreisläufe im
+Boden eingelegt sind.
+
+3.19 Treppen/Übergänge/Steigleitern
+•
+
+Treppen und Übergänge mit Geländer sind nach den gültigen Vorschriften und Richtlinien
+auszuführen und zu fertigen (Material: rostfreier Stahl 1.4301).
+• Für die Stufen sind die Trittelemente rutschsicher, aus Edelstahl und als Gitterroste auszuführen.
+• Übergänge unter denen ein Produktfluss herrscht, sind mit einer fest installierten,
+herausnehmbaren, gut zu reinigenden Auffangwanne auszurüsten (siehe Foto im Anhang Kap.
+5.5).
+• Geländer: Handlauf Vierkantrohr 40x40 mm; Knieleiste Vierkantrohr 30x30 mm jeweils um 45°
+verdreht, damit kein Wasser liegen bleibt. Andere Ausführungen müssen von Hans Adler oHG
+_________________________________________________________________________________
+TA00244702
+20
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+•
+•
+•
+•
+•
+•
+•
+•
+•
+•
+
+Ablage: TEC.ZB Nr. 2447-02
+
+freigegeben werden
+Nach Beendigung der Schweißarbeiten müssen alle Edelstahlteile gebeizt, passiviert und
+neutralisiert werden. Die Endreinigung der Oberfläche ist mit einem Edelstahlreiniger
+durchzuführen.
+Stufen und Sprossen müssen zuverlässig und dauerhaft mit Wangen oder Holmen verbunden
+sein.
+Stufen und Sprossen müssen gleiche Abstände voneinander haben. Dies gilt auch für
+zusammengesetzte Leitern.
+Stufen und Sprossen müssen trittsicher sein. Der Begriff „trittsicher“ umfasst sowohl die
+ausreichende Festigkeit, als auch das sichere Stehen sowie das sichere Begehen von Stufen oder
+Sprossen. Hierzu gehört auch deren rutschhemmende Eigenschaft.
+Bei Stufen und Sprossen sind, bei besonderen betrieblichen Verhältnissen wie z.B.
+Vorhandensein von Öl, Fett, Wasser, Schlamm, zusätzliche Maßnahmen gegen Abrutschen
+erforderlich.
+Der Durchmesser von Rundsprossen soll 25 mm nicht unterschreiten.
+Steigleitern sind nur zulässig, wenn der Einbau einer Treppe betrieblich nicht möglich oder wegen
+der geringen Unfallgefahr nicht notwendig ist.
+Steigleitern müssen fest angebracht sein.
+Steigleitern müssen an ihrer Austrittsstelle eine Haltevorrichtung haben.
+Steigleitern mit möglichen Absturzhöhen von mehr als 5m müssen, soweit es betrieblich möglich
+ist, mit Einrichtungen zum Schutz gegen Absturz von Personen ausgerüstet sein.
+
+3.20 Messeinrichtungen
+Bei Messeinrichtungen, die mit Produkt in Berührung kommen, sind Ausführungen für
+Lebensmittel – Prozessanlagen zu verwenden! Auch wenn keine Produktberührung stattfindet,
+sind solche Messeinrichtungen vorzuziehen.
+
+3.21 Überwachung und Datenerfassung für ein zentrales Leitsystem ZTL
+Sämtliche Störmeldungen, kritische Grenzwerte und sonstige wesentliche Anlagenzustände sind als
+potentialfreie Meldungen auf die Klemmleiste X ZLT zu verdrahten, als Anschaltpunkt für eine örtliche
+Überwachung.
+Des Weiteren ist für ZLT – Befehle, die eine übergeordnete Anlagenoptimierung und Steuerung
+ermöglichen, eine entsprechende Eingriffsmöglichkeit zu schaffen.
+
+3.22 Maximumüberwachungsanlage
+Im Betrieb ist eine Maximumüberwachungsanlage vorhanden. Als Eingriffsmöglichkeit ist für sämtliche
+Verbraucher größer 5 kW die Ansteuerung des entsprechenden Leistungsschützes über 2
+nebeneinanderliegenden Reihenklemmen der Klemmleiste X 4 (s.3.4) zu führen.
+Die Anschaltung an die Maximumüberwachungsanlage erfolgt durch Hans Adler oHG, bis dort sind
+diese Klemmen provisorisch zu brücken.
+Kwh – Zähler sind vorzusehen. Einsatz von geeichten oder ungeeichten Kwh – Zähler, ist mit Hans
+Adler oHG abzuklären.
+
+3.23 Blindstromkompensation
+Direkt zu kompensieren sind sämtliche motorischen Verbraucher ab 7,5 kW.
+Bei Stern-Dreieck-Einschaltungen der Motoren erfolgt die selbsttätige Zuschaltung des Kondensators
+ebenfalls über gesondertes Schütz nach Einschaltung der Dreieckstufen.
+Die Kondensatoren sind jeweils in den zugehörigen Schaltschrank einzubauen.
+_________________________________________________________________________________
+TA00244702
+21
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+Die Blindstrom Kompensation sämtlicher weiterer induktiven Verbraucher, erfolgt über die vorhandene
+automatische Blindstromkompensationsanlage der Hans Adler oHG.
+
+4 Standard Katalog/Verwendete Normteile bei Hans Adler
+oHG
+
+Für die Anlage sind folgende Gerätefabrikate zu verwenden:
+
+4.1 Elektrische/Elektronische Normteile
+Bezeichnung
+E-Motoren
+Drehstromantriebe
+Gleichstromantriebe
+Schrittmotoren
+Servoantriebe
+
+Ausführung/Fabrikat
+Energieeffiziente Fabrikate
+SEW
+Lenze, Stephan, oder Baugleich
+Schrittmotoren
+Elac, ABB/Siemens (Robotersystem: Baumüller), oder Baugleich
+
+Bei der Auswahl der Motoren/Antriebe ist auf Energieeffizienz zu achten und es muss eine
+energetische Bewertung durchgeführt werden.
+
+4.2 Schalter
+Bezeichnung
+Hauptschalter
+Schütze, Lastschaltteile
+Elektronische Nockenschaltwerke
+Kleinrelais
+Zeitrelais
+Grenztaster/Endschalter
+
+Ausführung/Fabrikat
+Klöckner-Möller / EATON
+Köckner-Möller / EATON
+Köckner-Möller / EATON
+Finder / Wago
+Klöckner-Möller / EATON
+Klöckner-Möller / EATON, ifm, Wenglor
+
+4.3 Sensoren
+Bezeichnung
+Näherungsinitiatoren
+Fotozellen/Lichtschranken
+Sensoren für Druck, Temperatur,
+Durchfluß, Gewicht, etc
+
+Ausführung/Fabrikat
+IFM, Wenglor
+Wenglor/Sick/IFM
+Danfoss (Druckluft), EHP (Gewicht), Jumo (Temperatur)
+
+4.4 Regelungen/Steuerungen
+Bezeichnung
+SPS-Steuerungen
+Niveauregelungen
+Temperaturregler
+Frequenzumformer
+
+Ausführung/Fabrikat
+Siemens (S7 300, S7 200, Logo!, S7 1200)
+Danfoss
+Jumo
+Schneider Baureihe ALTIVAR
+
+_________________________________________________________________________________
+TA00244702
+22
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+4.5 E.-Versorgung
+Bezeichnung
+Schaltschränke und Verteiler
+Netzgeräte
+Reihenklemmensysteme
+Schmelzsicherungshalter
+Schmelzsicherungen
+
+Ausführung/Fabrikat
+Rital (siehe Kap. 3.11)
+Siemens
+Phoenix Contact, UK-Baureihe
+Rittal / EATON
+NEOZED / NH 00 / NH03
+
+4.6 Optokoppler
+Bezeichnung
+Optokoppler
+
+Ausführung/Fabrikat
+Wago
+
+4.7 Anzeigen
+Bezeichnung
+Anzeigen
+Schreiber
+Bedienpanel
+
+Ausführung/Fabrikat
+Klöckner-Möller/EATON, Baureihe M22
+Siemens
+Siemens, IP 66
+
+4.8 Befehlsgeräte
+Bezeichnung
+Befehlsgeräte
+
+Ausführung/Fabrikat
+Klöckner-Möller / EATON, Baureihe M22 (trocken
+und feucht). IPF, kapazitive Taster im
+Nassbereich
+
+4.9 Waagen
+Bezeichnung
+Elektronische Waagen
+Mechanische Waagen
+
+Ausführung/Fabrikat
+Bizerba / EHP / Pfister
+Bizerba
+
+4.10 Pneumatische Normteile
+Bezeichnung
+Zylinder, Peripherie
+Steuerventile
+Magnetventil
+Ventile angesteuert mit Druckluft
+
+Ausführung/Fabrikat
+Festo, Schlauchleitungen in PLN
+Festo
+Festo
+Festo
+
+_________________________________________________________________________________
+TA00244702
+23
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+4.11 Hydraulische Normteile
+Bezeichnung
+Hydraulik-Pumpen, -Zylinder, -Leitungen, Peripherie
+Steuerventile
+Magnetventile
+von Hydraulik angesteuerte Ventile
+
+Ausführung/Fabrikat
+Bosch
+Bosch
+Bosch
+Bosch
+
+5 Anlagen
+5.1 Reinigungs-und Desinfektionsmittel
+Folgende Reinigungs-und Desinfektionsmittel werden bei Hans Adler oHG in allen Reinigungs-und
+Desinfektionsbereichen eingesetzt.
+
+Bezeichnung
+
+Säure/Lauge
+
+Verwendungszweck
+
+Calgonit CF 310
+Calgonit SF 504
+Calgonit CN 373
+Oxidan Extra
+Calgonit H-Des
+Calgonit DS-685
+Calgonit DR 091
+
+Alkalisch, ca. 3.5%
+Sauer, ca. 3,5%
+Alkalisch, 3,5%
+Pressigsäure
+Alkohol
+Auf Basis Alkylamin
+Neutraler Heißentschäumer für
+Brüh- und Laugenbäder
+Rauchharzentferner
+Hochalkalisch
+Stark alkalisch
+
+Reinigung
+Reinigung
+Reinigung
+Desinfektionsmittel
+Desinfektionsmittel
+Desinfektionsmittel
+Reinigung
+
+Calgonit NF 401
+Calgonit R
+Tru-lit GS
+
+Reinigung
+Reinigung
+Reinigung
+
+5.2 Schmiermittel
+In Produktionsbereichen dürfen nur H1-Schmierstoffe verwendet werden. Diese Schmierstoffe
+müssen eine Lebensmittelzulassung haben. Der Auftragnehmer muss ein Zertifikat über die
+verwendeten Schmierstoffe vorlegen.
+Alle weiteren Schmierstoffe sind nicht zugelassen!
+
+_________________________________________________________________________________
+TA00244702
+24
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+5.3 Betriebsordnung für Fremdfirmen Arbeitssicherheit, Umweltschutz
+und Hygiene auf dem Gelände der Hans Adler oHG
+
+Sie sind als Dienstleister der Hans Adler oHG tätig. An die Qualität der von Ihnen
+ausgeführten Arbeiten stellen wir hohe Ansprüche. Des Weiteren legen wir Wert darauf, dass
+die Arbeiten entsprechend den gültigen Sicherheitsbestimmungen (insbesondere
+Unfallverhütungs-Vorschriften der für Sie zuständigen Berufsgenossenschaft) ausgeführt
+werden.
+Ihr Ansprechpartner bei Hans Adler oHG für den Auftrag
+.......................................................................................... ist, soweit nicht im Auftrag
+genannt:
+Herr/Frau ............................................ Tel.:........................................Mobil:.........................................
+Vor der Arbeitsaufnahme ist der Umfang der anfallenden Arbeiten vertraglich fixiert und zusätzlich
+mit Ihrem Ansprechpartner bei der Hans Adler oHG durchgesprochen worden. Ihr Ansprechpartner
+wird Sie auf mögliche Gefahren im Zusammenhang mit den durchzuführenden Arbeiten hinweisen
+und mit Ihnen entsprechende Sicherheitsmaßnahmen abstimmen. Weiterhin wird Ihr
+Ansprechpartner eine formale Einführungsunterweisung für Sie, bzw. die von Ihnen beauftragte
+Personengruppe durchführen.
+Alle Arbeiten sollten, wenn nicht anders vereinbart, werktags zwischen 6°° Uhr und 18°° Uhr
+durchgeführt werden.
+Melden Sie sich bei jedem Besuch bei der Pforte an und ab. Bei der Anmeldung ist jeder Mitarbeiter
+in die Liste der Fremdhandwerker einzutragen und nach Arbeitsende auszutragen.
+Bei jedem Betreten des Produktionsbereiches müssen die Hygienerichtlinien der Hans Adler oHG
+beachtet werden. Dies wird durch Ihre Unterschrift dokumentiert.
+
+Beim Betreten der Produktion tragen Sie die vorgeschriebene Schutzkleidung
+ein Haar-und ggf. ein Bartnetz. Sie finden diese in den Eingangsbereichen zur
+Produktion.
+Das Tragen von Schmuck (z.B. Ringe, Ketten, Ohrringe und -hänger, Armbänder, Armreifen und
+Armbanduhren, offene Piercings) ist verboten.
+Essen und Trinken sind nur in den dafür vorgesehenen Pausenräumen, der Kantine gestattet.
+Lebensmittel dürfen nicht in den Produktionsbereich mitgenommen werden (das gilt auch für
+Kaugummi, Bonbons o.ä.).
+Achten Sie darauf, die Lebensmittel und Verpackungen in der Produktion nicht zu berühren. Sollte
+Produktkontakt bei der Erledigung ihrer Aufgabe erforderlich sein, klären Sie dies bitte mit Ihrem
+Ansprechpartner ab.
+Rauchen ist nur in den dafür vorgesehenen Bereichen gestattet. Rauchen im Produktionsbereich
+ist strikt verboten!
+Ihre Arbeitskleidung hat sauber und sachgerecht zu sein. Wechseln Sie ihre Schutzkleidung,
+wenn sie verschmutzt ist.
+Wenn Sie unter ansteckenden Krankheiten nach dem Infektionsschutzgesetz (z.B. Durchfall,
+Hepatitis o.ä.) leiden, nehmen Sie bitte Kontakt mit der QSI auf.
+Es ist untersagt, unter Einwirkung von Alkohol oder anderen Rauschmitteln zur Arbeit zu
+erscheinen, diese mitzubringen und zu konsumieren.
+
+_________________________________________________________________________________
+TA00244702
+25
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+Sie haben sicherzustellen, dass Maschinen und Geräte den gesetzlichen
+Standards entsprechen und für die auszuführenden Arbeiten geeignet sind.
+Das von Ihnen eingesetzte Personal muss qualifiziert sein, die Arbeiten
+standard-und sicherheitsgerecht auszuführen.
+Wo Arbeitsbereiche klar definiert und abgetrennt werden können und Sie diesen Bereich
+vollständig überwachen können, tragen Sie die Gesamtverantwortung für die Arbeitssicherheit und
+den Gesundheitsschutz der von Ihnen eingesetzten Mitarbeiter. Unabhängig davon haben Sie den
+Anweisungen Ihres Ansprechpartners und unserer Sicherheitsfachkräfte Folge zu leisten.
+Feuerarbeiten (Schweißen, Brennen, Schneiden, Trennschleifen), Dacharbeiten oder Arbeiten
+in einer Höhe über 3m, Arbeiten in Behältern, Anschlüsse an das elektrische Betriebsnetz,
+Erdarbeiten sowie Anschlüsse an das Druckluftnetz sind vor Arbeitsaufnahme durch Ihren
+Ansprechpartner schriftlich zu genehmigen.
+Gefahrstoffe müssen sachgerecht verwendet und entsorgt werden. Die Entsorgung ist durch den
+Auftragnehmer zu organisieren. Der Einsatz sämtlicher Gefahrstoffe ist mit Ihrem Ansprechpartner
+der Hans Adler oHG abzustimmen. Für den Einsatz von Gefahrstoffen muss eine entsprechende
+Betriebsanweisung und das Sicherheitsdatenblatt am Arbeitsplatz vorhanden sein.
+Grundsätzlich sind nur Bockleitern und Tritte aus Metall oder Hubarbeitsbühnen zur Benutzung
+gestattet. Genutzte Anlegeleitern müssen durch zusätzliche Maßnahmen gegen wegrutschen
+gesichert werden.
+Das Auf-, Um-und Abrüsten von Rüstungen darf nur unter sachkundiger Aufsicht und unter
+Realisierung der Regeln des Gerüstbaus (DIN 4420; ZH 1/534) erfolgen. Rüstungen für andere Nutzer
+sind mittels “Gerüstschild“ freizugeben. Für die ordnungsmäßige Einhaltung der Betriebssicherheit und
+Benutzung der Gerüste ist jeder Aufragnehmer, der sich der Gerüste bedient, verantwortlich.
+Wenn Personen mit einem Flurförderfahrzeug an einen hochgelegenen Arbeitsplatz befördert
+werden müssen, ist grundsätzlich die Nutzung eines standardmäßigen
+Personenbeförderungskorbes vorgeschrieben.
+Bei Kranarbeiten haben Sie dafür Sorge zu tragen, dass der Schwenkbereich vollständig abgesperrt
+wird.
+Unfälle und besondere Vorfälle sind umgehend Ihrem Ansprechpartner zu melden. Die
+Kontaktdaten unserer Ersthelfer liegen an jedem Telefon aus.
+Bei Ihrem ersten Besuch bei Hans Adler oHG werden Ihnen die Sicherheitsrichtlinien für Besucher
+bekannt gemacht.
+Sie haben dafür Sorge zu tragen, dass von Ihnen beauftragte Subunternehmer die Standards für
+Arbeitssicherheit und Gesundheitsschutz gleichermaßen einhalten. Der Einsatz von
+Subunternehmern setzt unsere schriftliche Genehmigung voraus.
+Bei Zuwiderhandlungen oder festgestellten groben Fahrlässigkeiten sind wir berechtigt,
+Einzelpersonen oder Gruppen vom Gelände zu weisen. Diese Maßnahmen entbinden Sie nicht von
+der Einhaltung festgelegter Fertigstellungstermine!
+Für durch Sie verursachte Sach-und Personenschäden werden wir Sie haftbar machen und fordern
+von daher, dass Sie im ausreichenden Maße gegen Personen-, Sach-und Umweltschäden versichert
+sind.
+Relevante Regeln und Gesetze zum Umweltschutz im Zusammenhang mit dem
+Auftragsvolumen sind strikt einzuhalten. Auftretende Störungen (Emissionen) sind umgehend
+Ihrem Ansprechpartner oder dessen Vertreter bei Hans Adler oHG zu melden.
+Die bei Ihren Arbeiten anfallenden Abfälle entsorgen Sie selbst. In Ausnahmefällen ist eine
+Abfallentsorgung über unser System möglich, setzt jedoch die Genehmigung durch Ihren
+Ansprechpartner voraus.
+Eine evtl. notwendige Betriebsräumung wird durch einen etwa 30 Sekunden anhaltenden
+Fanfarenton angezeigt. Sie begeben sich in dem Falle umgehend mit allen ihren Mitarbeitern zum
+Sammelplatz im Bereich der Pforte und melden sich dort.
+Ihre Mitarbeiter sind vor der ersten Arbeitsaufnahme bei uns durch Sie über den Inhalt dieser
+Richtlinien in Kenntnis zu setzen. Wir empfehlen, Ihren bei uns tätigen Mitarbeitern eine Kopie
+dieser Richtlinie auszuhändigen.
+Diese Richtlinie ist Bestandteil des Vertrages.
+_________________________________________________________________________________
+TA00244702
+26
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+5.4 Fotografieren von Anlagenteilen
+Fotografieren von Anlagen, Maschinen, Herstellungsprozessen ist streng verboten. Des
+Weiteren ist mitführen von Kameras untersagt.
+
+5.5 Anhang Bilder
+5.5.1 Beschriftung
+
+Abb. 1: Kabelbeschriftung
+
+Abb. 2: Beschriftung
+
+_________________________________________________________________________________
+TA00244702
+27
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+Abb. 3: Systembeschriftung
+
+Abb. 4: Schaltschrankbeschriftung
+
+Abb. 5: Schaltschrankkennzeichnung
+
+_________________________________________________________________________________
+TA00244702
+28
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+5.5.2 Bilder Flanschlagergehäuse
+
+Abb. 6: Flanschlagergehäuse aus Kunststoff mit Abdeckung
+
+Abb. 7: Flanschlagergehäuse aus Kunststoff ohne Abdeckung
+
+_________________________________________________________________________________
+TA00244702
+29
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+5.5.3 Bilder Stellungsanzeiger
+
+Abb. 8: Stellungsanzeiger
+
+5.5.4 Bilder Stellfüße
+
+Abb. 9: Stellfüße
+
+_________________________________________________________________________________
+TA00244702
+30
+Stand: 13.06.2014
+
+Lastenheft Maschinen und Anlagen
+
+Ablage: TEC.ZB Nr. 2447-02
+
+5.5.5 Bilder Auffangwanne für Hydraulik
+
+Abb. 10: Auffangwanne
+
+5.5.6 Bilder Auffangwanne unter dem Band
+
+Abb. 11: Auffangwanne unter Produktionsband
+
+1
+
+1
+
+Quelle: http://www.apullma.de/pressemitteilungen/APPR0902-SuperClean_Schuettgut.jpg; 16.06.2014
+
+_________________________________________________________________________________
+TA00244702
+31
+Stand: 13.06.2014
+
+

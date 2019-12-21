@@ -1,0 +1,3 @@
+Die Meldungen haben einmal jährlich (bis März des Folgejahres) zu erfolgen. Die übermittelten Daten sind nach Absendung für mindestens drei Monate in der Form beim Absender zu sichern, dass sie der BVA erneut zur Verfügung gestellt werden können.
+Die Rückmeldung an die Länder (Zuordnung Förderungsnummer zur BVA-internen Identifikationsnummer) erfolgt sofort nach Auflösung aller offenen Zuordnungen, spätestens
+bis 30.09. des auf das Jahr der Meldung folgenden Jahres. Die Software muss die zurückgemeldeten Daten verarbeiten und darstellen können.

@@ -1,0 +1,2 @@
+Die Abschirmung von Signal- und Analogleitungen muss gerätenah
+erfolgen und darf nicht als Potentialausgleich genutzt werden.

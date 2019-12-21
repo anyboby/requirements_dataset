@@ -1,0 +1,17 @@
+Es
+ist
+außerdem
+zu
+gewährleisten,
+dass
+dem
+Arzt
+Informationen
+zu
+Arzneimittelvereinbarungen (Rahmenvereinbarungen, Zielvereinbarungen) zur Verfügung
+stehen.
+Nach § 73 SGB V ist in der Verordnungssoftware insbesondere über bestehende
+Rabattvereinbarungen nach § 130a Abs. 8 SGB V sowie über Vereinbarungen nach § 130b
+und § 130c SGB V zu informieren. Diese Angaben sind produktbezogen im Workflow
+anzugeben.
+

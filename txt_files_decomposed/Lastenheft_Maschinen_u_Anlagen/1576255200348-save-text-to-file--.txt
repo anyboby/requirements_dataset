@@ -1,0 +1,2 @@
+Stufen und Sprossen müssen gleiche Abstände voneinander haben. Dies gilt auch für
+zusammengesetzte Leitern.

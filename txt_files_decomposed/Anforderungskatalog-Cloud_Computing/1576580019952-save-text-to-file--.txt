@@ -1,0 +1,4 @@
+Soweit
+unterschiedliche Datensicherungs- und Wiederherstellungsverfahren für Daten unter Verantwortung des Cloud-Kunden und des Cloud-Anbieter
+bestehen, sind beide Varianten in eine Prüfung
+nach diesem Anforderungskatalog einzubeziehen.

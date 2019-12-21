@@ -1,0 +1,14 @@
+Ergänzende Informationen zur Basisanforderung
+
+» Einrichtung eines eigenen Brandabschnitts für
+das Rechenzentrum
+
+Geeignete Maßnahmen zur Ausfallvorsorge
+umfassen typischerweise:
+
+» Verwendung feuerbeständiger Materialien
+gemäß DIN 4102-1 oder EN 13501 (Feuerwiderstandsdauer von mindestens 90 Minuten)
+
+» Redundante Stromversorgung und
+Klimaanlagen
+

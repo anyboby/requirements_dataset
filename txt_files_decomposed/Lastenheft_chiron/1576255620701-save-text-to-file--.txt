@@ -1,0 +1,2 @@
+n Wechsel des Kugelgewindetriebes muss ohne Abbau von
+angrenzender Komponenten möglich sein

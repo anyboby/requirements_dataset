@@ -1,0 +1,2 @@
+Die BAföG-Software muss die Möglichkeit bieten, Benutzer in Benutzergruppen einzuteilen, um Funktionen zu unterstützen, die sich auch auf Gruppen von Benutzern beziehen
+können. Ein Beispiel hierfür ist eine gruppenbezogene Wiedervorlagefunktion.

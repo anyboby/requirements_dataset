@@ -1,0 +1,6 @@
+Verteilung von Antragsfällen
+Die Software muss eine automatisierte Verteilung der Antragsfälle auf die Sachbearbeiter beziehungsweise auf im System hinterlegte Benutzergruppen anbieten können. Hierbei sind auch Vertreterregelungen zu berücksichtigen.
+Entscheidung dem Grunde nach / Statistische Erfassung
+Die Software muss es dem Sachbearbeiter ermöglichen, die Entscheidung dem Grunde
+nach, ob alle formalen Voraussetzungen für eine Bewilligung von BAföG erfüllt sind, zu
+dokumentieren.
