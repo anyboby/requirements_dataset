@@ -1,0 +1,2 @@
+Darüber hinaus stellt das P23R-ControlCentre dem P23R die verfügbaren Datenmodell- und Benachrichtigungsregelpakete und die relevanten Benachrichtigungsempfänger sowie deren Kommunikationsparameter zur Verfügung. Das Laden der benötigten Datenmodell- und Benachrichtigungsregelpakete in den P23R erfolgt über die Oberfläche des P23R-Client (siehe unten).
+Die durch das P23R-ControlCentre umzusetzenden Anwendungsfälle sind in Abschnitt 4.1 aufgeführt.

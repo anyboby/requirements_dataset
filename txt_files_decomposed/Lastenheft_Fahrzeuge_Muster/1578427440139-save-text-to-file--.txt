@@ -1,0 +1,6 @@
+Es ist ein möglichst niedriger Energieverbrauch der Fahrzeuge anzustreben.
+Der Energieverbrauch der eingesetzten Fahrzeuge ist mittels Zugfahrtsimulation auf Basis
+des beiliegenden Musterfahrplans (Anlage xx) für die vorgesehenen Fahrzeuge durch die
+DB Netz AG zu testieren. Die DB Netz hat hierfür das Verfahren zur Zugfahrtsimulation
+„ZFSim“ auf Basis ihres Fahrzeitberechnungsprogramms RUT-K entwickelt. Die Kosten des
+Berechnungsverfahrens sind vom Bieter zu tragen.

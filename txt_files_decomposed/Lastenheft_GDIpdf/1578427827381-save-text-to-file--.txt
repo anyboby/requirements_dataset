@@ -1,0 +1,2 @@
+Fachadministrator kann sich an Benutzerkonten von registrierten Benutzern anmelden und so die Sicht des jeweiligen Benutzers auf das System
+einnehmen, um Fehlfunktionen oder Fehlkonfigurationen leichter erkennen und nachvollziehen zu können.

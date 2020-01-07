@@ -1,0 +1,3 @@
+Das Protokoll zwischen den Anzeigerrechnern und der DFI-Verwaltung
+(bzw. dem Server) muss ein offenes Protokoll sein, das herstellerunabhängig eine breite Funktionalität für alle Arten von Anzeigern beinhaltet.
+Eine Dokumentation des Protokolls ist im Konzept beizufügen.

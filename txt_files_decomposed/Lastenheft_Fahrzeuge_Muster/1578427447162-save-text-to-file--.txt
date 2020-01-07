@@ -1,0 +1,7 @@
+Es muss eine Trasse mit sämtlichen heute vorhandenen Halten gerechnet werden, und zwar
+- eine Trasse xxx – xxx, Musterzug (Fahrplan 2011/12): RB (Zugnummer) ab x.xx Uhr, an
+x.xx Uhr)
+Maßgeblich für die Bewertung der Energieeffizienz ist der Energieverbrauch (KWh gemäß
+Testat der DB Netz), bezogen auf den Sitzplatz-km. Dabei werden die Fahrmodi „energiesparende Fahrweise“ und „straffe Fahrwiese“ im Verhältnis 60:40 gewertet. Werden unterschiedliche Fahrzeuge eingesetzt, wird ihr Energieverbrauch im Verhältnis der Fahrzeugkilometer zueinander gewichtet.
+Eine Nutzung der beim Bremsen des Fahrzeugs entstehenden Energie ist bei Neufahrzeugen anzustreben, innovative Lösungen werden begrüßt. Die Verwendung (Traktion, Energieversorgung innerhalb des Zuges etc.) und die dabei verwendete Technik sind detailliert
+zu beschreiben.

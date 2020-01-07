@@ -1,0 +1,21 @@
+Im Fahrzeuginneren sind von möglichst allen Sitzplätzen aus gut sichtbare dynamische,
+optische Informationsanzeigen vorzusehen, die Auskunft geben über:
+-
+
+Produkt,
+
+-
+
+Liniennummer,
+
+-
+
+Linienbezeichnung,
+
+-
+
+Fahrtziel,
+
+-
+
+aktuelle Uhrzeit.

@@ -1,0 +1,1 @@
+Werden mehrere Ausrüstungen des gleichen Typs bestellt, sind alle Haltestellen mit Bauteilen desselben Fabrikats und desselben Typs auszurüsten. Auch alle Gehäuseteile müssen baugleich bzw. maßhaltig sein.

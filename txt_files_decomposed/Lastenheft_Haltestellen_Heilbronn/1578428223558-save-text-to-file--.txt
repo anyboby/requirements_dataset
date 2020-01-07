@@ -1,0 +1,3 @@
+Die DFI-Anzeiger weisen einen geringen Energieverbrauch auf (inklusive
+eventueller Lüfter bzw. Heizungen). Der jahrestypische Energieverbrauch der DFI-Anzeiger ist anzugeben.
+4.3.3

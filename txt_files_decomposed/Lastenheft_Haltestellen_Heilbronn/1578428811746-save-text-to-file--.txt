@@ -1,0 +1,4 @@
+Der AN muss sein Verfahren im Konzept vorstellen, wie Bilder im Rahmen einer Playlist mit der Anzeige der ÖPNV-Informationen in einer für
+den Fahrgast sinnvollen und ansprechenden Weise dargestellt werden
+können (zusammen und/oder im Wechsel) und welche Einstellmöglichkeiten dem Benutzer des Systems an die Hand gegeben werden.
+Der AN soll darstellen, wie eine Datenübermittlung von Bildern und Videos zu den Anzeigern ohne negativen Einfluss auf die DFIDatenübertragung stattfinden kann.

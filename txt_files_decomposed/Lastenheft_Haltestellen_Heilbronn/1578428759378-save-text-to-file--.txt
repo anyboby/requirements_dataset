@@ -1,0 +1,3 @@
+Alle Buttons, Zeichen, Beschriftungen sind in der Standardeinstellung eines Full-HD-Monitors groß genug und müssen nicht vergrößert werden.
+6.2.1 Tabellarische Übersichten verfügen über einfache Filterfunktionen, wie
+man sie aus anderen Tabellenprogrammen kennt.

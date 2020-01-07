@@ -1,0 +1,3 @@
+Jeder Zug der Linie xx – xx - xx muss über mindestens ein Toilettensystem verfügen. Pro
+angefangene 110 Sitzplätzen ist eine Toilette vorzusehen.
+Wagen: Wird eine höhere Sitzplatzkapazität als 110 Plätze/Wagen erreicht, ist eine Toilette/Wagen ausreichend.

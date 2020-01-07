@@ -1,0 +1,2 @@
+Die DFI-Verwaltungssoftware muss mindestens 500 Anzeiger verwalten
+können.

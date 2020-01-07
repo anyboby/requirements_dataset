@@ -1,0 +1,3 @@
+Das Portal soll Daten lokal im Fahrzeug speichern und auch ohne bestehende MobilfunkWLAN-Anbindung anbieten können. Das Portal muss von einem zentralen PortalManagement-System (PMS) unterstützt und gewartet werden können.
+Das Portal soll die Einspielung von Werbung / Feeds mit der Möglichkeit, diese abhängig
+von Ort, Linie und Zeit einzuspielen, unterstützen.

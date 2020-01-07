@@ -1,0 +1,20 @@
+Für die zwei TFT-Innenanzeiger für das Klinikum am Plattenwald und
+für das Schulzentrum Beilstein kann ein Industrie-Monitor genutzt werden, der auf Dauerbetrieb ausgerichtet ist. Die Tabelle unter 4.1 gibt
+über die Ausführung Aufschluss.
+Folgende Anforderungen müssen mindestens erfüllt werden:
+- einseitige Displays
+- Bildschirmdiagonale Klinikum am Plattenwald: 42‘‘ (43“ wird auch akzeptiert)
+- Bildschirmdiagonale Beilstein Schulzentrum: da in der Eingangshalle bereits
+ein 40“-Schulanzeiger hängt und der Fahrgastanzeiger neben dem Schulanzeiger aufgehängt werden soll, wird eine Bildschirmdiagonale von 40“ gewünscht,
+es werden allerdings auch 42‘‘ bzw. 43“ akzeptiert
+4.3.2 - Full-HD-Auflösung im 16:9-Format mit 1920 x 1080 Bildpunkten (BxH)
+- Lesewinkel: horizontal + vertikal ≥ 120°
+- Display-Helligkeit ≥ 700 cd/m²
+- Kontrast= 1000:1
+- Minimale Anzahl Farben: 16 Mio.
+- Helligkeitsregelung: automatisch
+- LED-Hinterleuchtung
+- Monitore sind auf Dauerbetrieb (24/7) ausgelegt
+- die Displays weisen mindestens 50% der Leuchtkraft nach 10 Jahren bezogen
+auf den Wert bei der Inbetriebnahme.
+- der Anzeigerrechner kann außerhalb des Gehäuses installiert werden, beispielsweise am Wand- bzw. Deckenhalter hinter dem einseitigen Monitor

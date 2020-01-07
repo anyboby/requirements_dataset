@@ -1,0 +1,2 @@
+Ein defektes WC muss im Fahrgastraum angezeigt werden. Zur besseren Lokalisierung
+sind die Toiletten im Fahrzeug eindeutig zu nummerieren.

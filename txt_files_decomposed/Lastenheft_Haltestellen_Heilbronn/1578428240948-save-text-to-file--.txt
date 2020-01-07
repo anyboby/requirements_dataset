@@ -1,0 +1,5 @@
+- Breite/Anzahl Schriftzeichen: 32 bis 34 Zeichen (192 Pixel)
+- Lesewinkel: mind. 80° (gemessen von Frontalansicht)
+- Display-Helligkeit ≥ 3000 cd/m²
+- Frontglas aus Verbundsicherheitsglas ≥ 4,0 mm, entspiegelt
+- Schließung mit baugleichen Sicherheitsschlössern

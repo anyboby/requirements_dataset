@@ -1,0 +1,6 @@
+Bezüglich der Schriftart und der Schriftgröße hat der AN die Möglichkeiten seiner Produkte im Konzept zu beschreiben.
+Folgende Randbedingungen müssen für die Schriftarten berücksichtigt
+werden:
+- Proportionalschrift
+- Buchstaben mit Über- und Unterlängen
+- Groß- und Kleinschreibung, auch mit Unterzug

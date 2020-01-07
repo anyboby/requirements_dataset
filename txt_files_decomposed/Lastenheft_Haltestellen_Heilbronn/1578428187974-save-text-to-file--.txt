@@ -1,0 +1,3 @@
+Die Geräte sind mit einer Temperaturüberwachung ausgestattet.
+Die Temperaturverläufe sind im DFI-Verwaltungssystem über jegliche
+Zeitintervalle auswertbar.

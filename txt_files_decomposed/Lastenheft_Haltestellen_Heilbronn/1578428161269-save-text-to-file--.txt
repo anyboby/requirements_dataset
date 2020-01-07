@@ -1,0 +1,2 @@
+Die technische Ausführung der DFI-Anzeiger muss eine so genannte
+Ein-Mann-Wartung zulassen.

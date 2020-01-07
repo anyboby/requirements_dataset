@@ -1,0 +1,4 @@
+Fachadministratoren dürfen lediglich das Passwort eines Benutzerkontos verändern. Registrierte Benutzer
+dürfen nur ihr eigenes Benutzerkonto anlegen, bearbeiten und löschen.
+Beim Löschen eines Benutzerkontos werden auch alle Testkonfigurationen und
+Testberichte des Benutzers gelöscht

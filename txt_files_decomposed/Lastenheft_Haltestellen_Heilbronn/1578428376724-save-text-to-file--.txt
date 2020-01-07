@@ -1,0 +1,6 @@
+Steht ein Echtzeitdaten abgebendes Fahrzeug im Stau, also verändert
+sich die Restzeit einer angezeigten Abfahrt über eine parametrierbare
+Zeit nicht, muss anstatt der gleichbleibenden Restzeit ein frei einstellbarer Text (z. B. „Stau“) angezeigt werden können.
+Die Anzeigersoftware muss nach Abfahrt die Anzeige der entsprechenden Fahrt löschen. Für das Ausbleiben der aktiven Abmeldung ist ein parametrierbarer Time-out vorzusehen.
+Nach einem Totalausfall des Datenproviders muss das DFI-System selbständig wiederanlaufen. Der AN muss in seinem Konzept darstellen, wie
+der Wiederanlauf des DFI-Systems von statten geht.

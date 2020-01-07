@@ -1,0 +1,3 @@
+Kurzfristige Ereignisse (Störungen) im Busverkehr sollen von den Verkehrsunternehmen und von der Kontrollstelle ins DFI-Verwaltungssystem eingepflegt und mittels einer Infotextzeile an den Anzeigern an
+die Fahrgäste kommuniziert werden. Kommunen können Stadtmarketingtexte auf den Anzeigern über die Kontrollstelle im Landratsamt veröffentlichen lassen. Fallen Anzeiger aus oder liegen technische Probleme
+vor, übernimmt das Landratsamt die Kontaktaufnahme zum DFIHersteller.

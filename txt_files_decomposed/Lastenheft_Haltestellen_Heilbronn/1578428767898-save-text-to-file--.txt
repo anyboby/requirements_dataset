@@ -1,0 +1,6 @@
+Für den doppelseitigen Übersichtsanzeiger am Neckarsulmer Bahnhof
+muss die Verwaltungssoftware die TFT-Panels getrennt administrieren
+können, damit beispielsweise auf der einen Displayseite für Fahrgäste
+vom Stadtgebiet zum Bahnhof nur die Bahnabfahrten angezeigt werden
+können und auf der anderen Displayseite für die Fahrgäste vom Bahnhof
+zum Stadtgebiet nur die Busabfahrten.

@@ -1,0 +1,9 @@
+Die Türöffner im Innen- und Außenbereich müssen den Anforderungen von Blinden oder
+Sehbehinderten Rechnung tragen (taktil, mit definiertem Druckpunkt – „klick“, Höhen im Bereich von 800 – 1.200 mm bezogen zur Fußboden- / Referenzbahnsteighöhe, Brailleschrift).
+Die Bedienung eines Türöffnungstasters ist zu speichern und nach der Freigabe der Türöffnung durch den Triebfahrzeugführer automatisch auszuführen. An der Tür mit technischer
+Einstiegshilfe ist ein Anforderungsschalter im Innen- und Außenbereich für Personen, die in
+ihrer Mobilität eingeschränkt sind, vorzusehen (mit Aufhebung der automatischen Schließung). Die Anforderungstaste informiert den Eisenbahnfahrzeugführer zusätzlich, dass eine
+Hilfestellung für einen mobilitätseingeschränkten Fahrgast erforderlich ist.
+Pro Fahrgasttür ist je ein vertikal verlaufender, tastbarer Profilstreifen (Tastlippe) für Blinde
+und Sehbehinderte vorzusehen.
+Während der Fahrt muss die Möglichkeit bestehen, dem Fahrer einen Haltewunsch zu signalisieren (z. B. bei einem Bedarfshalt). Die Ausführung ist zu beschreiben (z. B. durch vorhandenen Türöffner).

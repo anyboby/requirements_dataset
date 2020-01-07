@@ -1,0 +1,6 @@
+Die TFT-Anzeiger müssen Texte und vollformatige Bilder (jpeg, png und
+andere Formate) darstellen können. Vollformatige Videos (mp4 und andere Formate) sollen dargestellt werden können.
+Der Benutzer kann für TFT-Anzeiger
+- Playlists von Texten, Bildern (muss) und Videos (soll) – z. B. zur Eigenwerbung – erstellen, verwalten und löschen
+- Ablaufpläne definieren und
+- die erstellten Playlists und Ablaufpläne auf einzelne Displays oder Displaygruppen übertragen.

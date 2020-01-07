@@ -1,0 +1,3 @@
+Die Fahrzeuglängen müssen die betrieblich nutzbaren Bahnsteiglängen berücksichtigen, der
+Abstand Fahrzeugenden bis zur 1.Tür und Abstand 1. bis zur letzten Tür ist darzustellen
+(siehe 3.5.d.).

@@ -1,0 +1,4 @@
+Die Fahrzeuge sind mit einem GPS-System auszurüsten, um eine genaue Ortung und Visualisierung der Fahrzeuge an einer zentralen Leitstelle zu ermöglichen.
+Der Bieter hat zu versichern, dass er die aus diesem System gewonnen Echtzeitdaten dem
+Auftraggeber für dessen Planungs- und Fahrplanauskunftssysteme sowie für Fahrplanauskunftssysteme Dritter kostenlos zur Verfügung stellt (s. Anlage „Datenlieferung“)
+

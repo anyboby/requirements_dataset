@@ -1,0 +1,18 @@
+Der Bieter hat im Angebot alle technischen Daten, die zur Beurteilung der Fahrdynamik von
+Bedeutung sind, vorzulegen (RUT-Datenblatt). Hierzu zählen insbesondere:
+-
+
+Anfahrbeschleunigung (0 – 50 km/h),
+
+-
+
+Zugkraft-Geschwindigkeitsdiagramm,
+
+-
+
+Angaben zur Fahrzeugmasse,
+
+-
+
+Fahrwiderstand.
+

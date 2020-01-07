@@ -1,0 +1,3 @@
+Im Angebot ist anzugeben, ob eine automatische Kupplung der Fahrzeuge möglich ist und
+ob die Anforderungen, die für Neufahrzeuge gefordert werden, von den angebotenen Gebrauchtfahrzeugen erfüllt werden. Der Einsatz einer Schraubenkupplung ist zulässig.
+

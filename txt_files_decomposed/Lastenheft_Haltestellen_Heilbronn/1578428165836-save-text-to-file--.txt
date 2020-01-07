@@ -1,0 +1,4 @@
+Die Anzeigerstandorte im Gebiet der 13 Verwaltungen sind sehr unterschiedlich. Daher werden Anzeiger benötigt, die den jeweiligen Anforderungen gerecht werden wie z. B. Anzeigetechnik (LED/TFT), Zeilenanzahl, Größe, Masten bzw. Aufhängung an bestehenden Einrichtungen,
+ein-/doppelseitige Ausführung, Innen- oder Außenbetrieb usw. Die fol4.1.9 gende Tabelle gibt einen detaillierten Überblick über die auf die Standortanforderungen zugeschnittenen Anzeiger.
+In den Kapiteln 4.2 bis 4.9 werden die Anforderungen an die Anzeiger
+formuliert. Diese sind jeweils auf die in der Tabelle spezifizierten Anzeiger anzuwenden.

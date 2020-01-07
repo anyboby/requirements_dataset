@@ -1,0 +1,3 @@
+Vorbehaltlich der Mobilfunk-Verfügbarkeit (Labor-Simulation) ist nachzuweisen, dass ein
+einzelner TCP-Download über 3 simulierte Links einen Datendurchsatz von mindestens 2
+Mbit/s (je Download) erreicht.

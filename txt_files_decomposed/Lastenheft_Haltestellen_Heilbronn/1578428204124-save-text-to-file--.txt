@@ -1,0 +1,19 @@
+Die TFT-Außenanzeiger an den verschiedenen Standorten erfordern
+unterschiedliche Ausführungen (ein-/doppelseitig, Bildschirmdiagonale,
+etc.) Die Tabelle unter 4.1 gibt darüber Aufschluss.
+Folgende Anforderungen müssen mindestens erfüllt werden:
+- doppelseitige Displays bis auf die beiden Anzeiger in Bad Rappenau (einseitige Displays)
+- die doppelseitigen Displays sind in einem Gehäuse auszuführen
+- Bildschirmdiagonale 42‘‘ (zugelassen ist auch 46“) und für einen Anzeiger
+Neckarsulm Bahnhof Ost 47‘‘ erwünscht (zugelassen ist auch 46“)
+- Full-HD-Auflösung im 16:9-Format mit 1920 x 1080 Bildpunkten (BxH)
+- Lesewinkel: horizontal + vertikal ≥ 120°
+4.3.1 - Display-Helligkeit 42‘‘ (bzw. 46“) und 47“ (bzw. 46“) --Anzeiger: ≥ 2000 cd/m²
+- Kontrast= 1000:1
+- Minimale Anzahl Farben: 16 Mio.
+- Helligkeitsregelung: automatisch, separat für jede Seite
+- LED-Hinterleuchtung
+- Frontglas aus Verbundsicherheitsglas ≥ 6,0 mm, entspiegelt
+- Schließung mit baugleichen Sicherheitsschlössern
+- die Displays weisen mindestens 50% der Leuchtkraft nach 10 Jahren bezogen
+auf den Wert bei der Inbetriebnahme auf

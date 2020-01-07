@@ -1,0 +1,2 @@
+Für die eventuellen Daten aus dem/den ITCS ist die Schnittstelle nach
+VDV 453 zu berücksichtigen.

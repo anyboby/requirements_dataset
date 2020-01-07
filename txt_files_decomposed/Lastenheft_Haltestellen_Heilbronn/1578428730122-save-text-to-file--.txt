@@ -1,0 +1,2 @@
+Die DFI-Verwaltungssoftware verfügt über ein Störungs- und Alarmmeldesystem, über das Störungsmeldungen per E-Mail an entsprechendes
+Servicepersonal automatisch gesendet wird.

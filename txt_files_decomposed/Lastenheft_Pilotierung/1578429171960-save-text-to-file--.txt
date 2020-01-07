@@ -1,0 +1,3 @@
+Ausgangspunkt für die Überlegungen des Pilot-Deployments ist das Deployment in einem realen Anwendungsszenario. Dort betreibt das Unternehmen seine eigene SourceApplication, den P23R, den
+P23R-Client und die Connectoren zur Source- und TargetApplication. Das P23R-ControlCentre wird
+von der Öffentlichen Leitstelle bereitgestellt, die TargetApplication von der Verwaltung.

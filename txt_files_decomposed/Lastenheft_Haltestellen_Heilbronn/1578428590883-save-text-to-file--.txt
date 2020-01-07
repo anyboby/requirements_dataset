@@ -1,0 +1,6 @@
+Nach der Auftragserteilung liefert der AN qualifizierte Unterlagen, aus
+denen die bauseits notwendigen Kabelzuführungen, -querschnitte und
+-längen, Spannungs- und Sicherungsanforderungen ersichtlich sind.
+Netzseitig werden 230 Volt / 50 Hz z.B. mit einem Erdkabel NYY-J 3 x
+2,5 mm2 bereitgestellt. Sollte der AN andere Anforderungen haben,
+muss dies im Konzept benannt werden.

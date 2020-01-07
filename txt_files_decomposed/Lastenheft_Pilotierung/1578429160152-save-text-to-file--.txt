@@ -1,0 +1,2 @@
+Zur Kommunikation mit dem auf Verwaltungsseite eingesetzten Berichtssystem BUBE-Online wird
+der BUBE-Online-Connector als CommunicationConnector implementiert.

@@ -1,0 +1,3 @@
+Bei Fahrzeugen mit drei Türspuren (Doppelstockwagen) kann eine Unterteilung durch
+eine Mittelstange dergestalt erfolgen, dass an jeder Tür eine lichte Breite von 1.200 mm
+und eine Mindestbreite von 550 mm je Türspur eingehalten wird

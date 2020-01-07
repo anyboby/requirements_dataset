@@ -1,0 +1,3 @@
+Zur Kommunikation zwischen den Anzeigerrechnern und der DFIVerwaltung sind keine proprietären Schnittstellen zugelassen. Es dürfen
+nur Standardnetzwerkschnittstellen verwendet werden, z.B. Ethernet oder WWAN (Wireless Wide Area Network = LTE, UMTS usw.). Nicht zugelassen sind insbesondere alte serielle Schnittstellen wie RS232 (oder
+vergleichbar), um sie als „Netzwerkschnittstelle“ zu verwenden.

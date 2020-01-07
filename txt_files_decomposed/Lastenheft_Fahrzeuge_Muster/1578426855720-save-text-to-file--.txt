@@ -1,0 +1,5 @@
+Der Fahrgastraum einer Zugeinheit muss vollständig durchgängig begehbar sein.
+a. Die Durchgangsweite im Bereich der Fahrzeugübergänge bei Fahrzeugen, die zwischen zwei fest gekuppelten Wagen ein Antriebsmodul aufweisen, muss mindestens
+800 mm betragen. Sofern technische Einbauten oder andere zwingende fahrzeugbauliche Gründe vom Hersteller geltend gemacht werden können, ist eine geringere
+Durchgangsweite zulässig.
+b. Die Durchgangsweite zwischen zwei Wagen mit UIC-Übergang o. ä. muss mindestens 550 mm betragen.

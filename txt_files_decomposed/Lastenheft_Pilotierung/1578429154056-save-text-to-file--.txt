@@ -1,0 +1,2 @@
+Im Rahmen der P23R-Pilotlösung wird CEDAR als SourceApplication nicht direkt an den P23R angebunden. Stattdessen wird der CEDAR-Connector als SourceConnector implementiert, der als Datenlieferant für den P23R fungiert und die benötigten Unternehmensdaten im vorgegebenen Format
+(XML-Schema „XUEmission“) zur Verfügung stellt.

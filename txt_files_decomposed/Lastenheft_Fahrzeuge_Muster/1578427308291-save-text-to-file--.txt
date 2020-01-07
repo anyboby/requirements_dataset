@@ -1,0 +1,12 @@
+c. Die Anzeigen müssen folgende Eigenschaften aufweisen:
+-
+
+blend- und spiegelfrei
+
+-
+
+beleuchtbar, vom Bahnsteig aus gut lesbar auch bei aufscheinendem Sonnenlicht
+
+-
+
+sich öffnende Türen dürfen die Anzeigen möglichst nicht verdecken

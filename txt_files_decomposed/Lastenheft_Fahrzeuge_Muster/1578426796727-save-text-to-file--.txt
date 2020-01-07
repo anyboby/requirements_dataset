@@ -1,0 +1,1 @@
+Die Fahrzeuge müssen zweirichtungsfähig sein. Der Richtungswechsel ist jeweils ohne aufwändige Rangiertätigkeiten zu ermöglichen. Die für einen Richtungswechsel benötigten Zeiten sind darzustellen.

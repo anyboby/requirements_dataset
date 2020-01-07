@@ -1,0 +1,22 @@
+Eine akustische Fahrgastinformation muss über Innen- und Außenlautsprecher möglich
+sein.
+Die akustischen Informationen müssen folgende Eigenschaften aufweisen:
+-
+
+Die Ankündigung von Sprachdurchsagen muss durch einen einleitenden Ton (z. B.
+Gong) erfolgen (Neufahrzeuge).
+
+-
+
+Rechtzeitig vor Ist-Ankunft am nächsten Haltebahnhof (ca. 2 Minuten vorher) Ankündigung der Halte mit Umsteigeangaben, Hinweise auf evtl. Bedarfshalte und
+Ausstiegseiten sowie Information über Anschlüsse sowie Fahrplanabweichungen
+und daher empfohlene alternative Fahrtmöglichkeiten, betriebsrelevante Informationen (Neufahrzeuge).
+
+-
+
+eine automatisierte selektive Ansprache jedes Zugteils bei Flügeln/Kuppeln oder
+Stärken/Schwächen
+
+-
+
+Ausreichende Anzahl von Innenlautsprechern für gleichmäßige Beschallung.

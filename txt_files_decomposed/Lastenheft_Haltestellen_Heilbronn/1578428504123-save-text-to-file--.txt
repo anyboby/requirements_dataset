@@ -1,0 +1,3 @@
+Standorte der Anzeiger an Masten und Halter
+Die Lichtraumprofile (Abstand von Bahnsteig-/Bordsteinkante) sind zu
+berücksichtigen.

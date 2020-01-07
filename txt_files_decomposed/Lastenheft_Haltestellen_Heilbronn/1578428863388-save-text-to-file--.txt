@@ -1,0 +1,5 @@
+Vor jeder Softwareauslieferung bzw. jedem Softwareupdate sind vom AN
+interne Tests durchzuführen und zu dokumentieren. Dabei sind jeweils
+die Dokumentationen vorangegangener Tests als Grundlage zu verwenden (Regressionstests), um die Verträglichkeit mit dem Bestandssystem
+sicherzustellen. Der AG ist vor jeder Updateauslieferung schriftlich über
+Umfang und Zeitpunkt des Updates zu informieren.

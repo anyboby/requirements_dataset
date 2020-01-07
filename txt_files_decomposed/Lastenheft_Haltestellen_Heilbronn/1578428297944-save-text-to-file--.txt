@@ -1,0 +1,1 @@
+Die Anzeigersoftware muss sich selbst und das angeschlossenen Display steuern und überwachen.

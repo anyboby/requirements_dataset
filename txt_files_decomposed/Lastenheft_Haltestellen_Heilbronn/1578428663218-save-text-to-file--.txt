@@ -1,0 +1,2 @@
+Das Anschließen bis zu drei ITCS an das DFI-Verwaltungssystem muss
+ohne größere Anpassungs- und Einrichtungsarbeiten am System möglich sein.

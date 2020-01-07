@@ -1,0 +1,5 @@
+Verlässt ein Fahrzeug die Haltestelle, so ist sicherzustellen, dass die an
+der DFI-Anzeige angekündigte Fahrt zeitnah gelöscht wird („Schnelles
+Löschen“). Hierfür soll ein geeignetes Konzept einschließlich Kostenrahmen vorgestellt werden.
+Die softwareseitigen Voraussetzungen für ein „Schnelles Löschen“ müssen vorgesehen werden, sodass eine eventuell spätere Aufrüstung des
+Systems in dieser Hinsicht möglich ist.

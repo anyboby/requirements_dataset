@@ -1,0 +1,3 @@
+Die Kommunikation zwischen der DFI-Verwaltung und DFI-Anzeiger erfolgt mit drei Ausnahmen per Mobilfunk auf Basis von TCP/IP bzw. TLS.
+Der Anzeigerrechner muss Soll- und Ist-Daten sowie Texte und Medien
+verarbeiten und zur Anzeige bringen.

@@ -1,0 +1,9 @@
+Die Soll- und Echtzeitdaten sollen von der Datenplattform der Nahverkehrsgesellschaft Baden-Württemberg (NVBW) bezogen werden und
+über eine DFI-Verwaltungssoftware in der Regel via Mobilfunk an die
+DFI-Anzeiger weitergegeben werden. Der Busverkehr im Landkreis wird
+von den Verkehrsunternehmen Regional Bus Stuttgart GmbH (RBS),
+Omnibus-Verkehr Ruoff GmbH (OVR) und ab Sommer 2018 Rexer Reisen GmbH sowie deren Subunternehmen geleistet. Diese Unternehmen
+liefern bereits heute Soll- und Echtzeitdaten an die NVBW-Plattform bzw.
+werden diese liefern. Mittelfristig werden Teile der Busverkehrsleistungen neu vergeben und es können sich Änderungen in der Datenlieferund Verarbeitungsstruktur ergeben.
+Das Landratsamt Heilbronn wird eine Kontrollstelle einrichten, um den
+datenverkehrlichen Betrieb der Verkehrsunternehmen zu überwachen.

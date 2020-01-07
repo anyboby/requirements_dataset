@@ -1,0 +1,4 @@
+Die Reserve von 15% muss enthalten:
+1. Mindestens zwei Fahrzeuge, die sofort einsetzbar sind und an denen allenfalls Instandhaltungsmaßnahmen vorgenommen werden, auf die bei auftretender Einsatznotwendigkeit auch kurzfristig verzichtet werden kann (z.B. Außenreinigung),
+2. Mindestens ein weiteres Fahrzeug, welches innerhalb von sechs Stunden eingesetzt
+werden kann.

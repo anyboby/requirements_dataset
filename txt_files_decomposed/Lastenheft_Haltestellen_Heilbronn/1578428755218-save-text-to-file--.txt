@@ -1,0 +1,2 @@
+Die DFI-Verwaltungssoftware kommuniziert mit den Anzeigern bzw. der
+jeweiligen Anzeigersoftware.

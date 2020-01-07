@@ -1,0 +1,2 @@
+Alle Komponenten müssen bei einer relativen Luftfeuchtigkeit im Mo4.1.6
+natsmittel von 80%, gelegentlich bis zu 100% garantiert funktionieren.

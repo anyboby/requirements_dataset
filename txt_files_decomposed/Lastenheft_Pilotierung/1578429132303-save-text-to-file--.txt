@@ -1,0 +1,2 @@
+Das P23R-ControlCentre dient zur Verwaltung der für die Berichts- und Meldepflichten in der Domäne UWM definierten Datenmodell- und Benachrichtigungsregelpakete im P23R-Depot und zur Pflege
+der relevanten Benachrichtigungsempfänger mit ihren Kommunikationsparametern im P23R-Zuständigkeitsverzeichnis (im Kontext der umzusetzenden Berichts- und Meldepflichten: BUBE-Online). Diese Aufgaben werden durch Mitarbeiter der Leitstelle wahrgenommen, denen entsprechende Funktionen in einem Leitstellenportal zur Verfügung gestellt werden.

@@ -1,0 +1,5 @@
+Um die SourceApplication vom P23R zu entkoppeln, kann sie über einen SourceConnector mit dem
+P23R verbunden sein, der die Daten für die Benachrichtigungserzeugung im durch die Datenmodellpakete vorgegebenen Format vorhält. Alternativ kann die SourceApplication diese Schnittstelle selbst
+anbieten, in dem Fall kann auf einen SourceConnector verzichtet werden. Analog dazu erfolgt der
+Zugriff auf die TargetApplication über einen CommunicationConnector. Abbildung 2 stellt die Anbindung des P23R an die Source- und TargetApplication über den Source- und CommunicationConnector
+dar.

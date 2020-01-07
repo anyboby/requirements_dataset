@@ -1,0 +1,5 @@
+Dabei muss sichergestellt werden, dass die Reservefahrzeuge mit den planmäßig vorgesehenen Fahrzeugen zusammen ohne Leistungseinschränkungen und betriebliche Restriktionen eingesetzt werden können. Reservefahrzeuge für eine bestimmte Triebwagenbauart
+müssen daher zumindest dann, wenn ein Einsatz in Mehrfachtraktion vorgesehen ist, mit
+den Planfahrzeugen kuppelbar und gemeinsam steuerbar sein. Alternativ wäre es jedoch
+auch zulässig, ausreichend Reservefahrzeuge einer anderen, nicht mit den Planfahrzeugen
+kompatiblen Bauart vorzuhalten, mit denen der vollständige Ersatz auch von Mehrfachtraktionen möglich ist.

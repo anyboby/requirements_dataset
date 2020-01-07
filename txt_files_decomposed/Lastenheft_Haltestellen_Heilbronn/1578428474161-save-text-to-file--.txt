@@ -1,0 +1,4 @@
+Die Filterung von Taktfahrten muss möglich sein, so dass einstellbar ist,
+ob alle tatsächlich stattfindenden Abfahrten jedweder Linie und Ziel
+(„Wiederholer“) oder ob nur Abfahrten unterschiedlicher Linien bzw. Ziele
+angezeigt werden.

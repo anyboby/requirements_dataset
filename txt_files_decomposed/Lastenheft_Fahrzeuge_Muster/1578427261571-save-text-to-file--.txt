@@ -1,0 +1,2 @@
+Der Fahrgastraum muss eine vom Fahrzeugführerraum unabhängige Klimaregelung
+haben.

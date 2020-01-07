@@ -1,0 +1,17 @@
+Zu den aus den Anzeigern in die DFI-Verwaltung zu übertragenden Daten gehören u.a.:
+- Status Anzeiger (online/offline, ein- oder ausgeschaltet)
+- Anzeigerinhalte (Screenshot; Livestream)
+- Alarmmeldungen (Temperatur, Displayfehler)
+- Logdateien zu Fehlerzuständen der Hardware und Software inklusive
+Schnittstellen
+Zu den aus der DFI-Verwaltung an die Anzeiger zu übertragenden und
+dort zu verarbeitenden Daten gehören u.a.:
+- Sondertexte (Fahrt- und Spezialsondertexte auf einzelnen Zeilen oder
+über den gesamten Bildschirm)
+- Konfigurationsdateien, Symbole und Mediendateien
+- Audioprofile zu Tagesarten und Feiertagen (z. B. Lautstärke-Nachtabsenkung)
+- Bildschirminhalte wie z.B. Rückfallebenen bei fehlender Kommunikation, Abfahrtstabellen, Sondertexten etc.
+- Abfahrtsdarstellung mit z.B. Spaltenbreiten, Schriften, Schriftgrößen
+und -farben, Hintergrundfarben etc.
+- Steuerparameter wie Timeouts bei Ausfall der Kommunikation
+- Ansagen über das TTS-System.

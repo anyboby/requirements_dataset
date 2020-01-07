@@ -1,0 +1,3 @@
+Die P23R-Pilotlösung in der Domäne UWM nutzt den im Rahmen der P23R-Pilotlösung in der
+Domäne AGM entwickelten P23R. Dieser enthält alle Funktionen, die in der Domäne UWM benötigt
+werden.

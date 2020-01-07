@@ -1,0 +1,2 @@
+Im Netzwerkbetrieb sollen die verschiedenen Funktionen sowie andere
+Aufgaben verteilt auf mehrere Benutzer auf beliebigen PCs und beliebigen Betriebssystemen durchgeführt werden können.

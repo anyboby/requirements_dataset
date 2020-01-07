@@ -1,0 +1,3 @@
+Das System hat den
+Schutzbedarf "normal". Es sind die entsprechenden Bausteine und Maßnahmen gem. zum Ausschreibungszeitpunkt
+aktuellem BSI ITGrundschutz umzusetzen.

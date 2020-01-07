@@ -1,0 +1,3 @@
+Auf die Anzahl dieser
+Laufplantage ist die 15 %-ige Reserve zu kalkulieren. Laufplanmäßig eingesetzte Fahrzeuge
+werden dann als Reservefahrzeug gewertet, wenn sie zwischen zwei Zugleistungen mindestens 24 Stunden stehen.

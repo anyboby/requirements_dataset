@@ -1,0 +1,21 @@
+Im Rahmen des Funktionstests ist die korrekte Generierung der Benachrichtigungen anhand folgender Kriterien zu untersuchen:
+1) Zeitgesteuerte Auslösung der Benachrichtigungsgenerierung
+Es soll geprüft werden, ob die Benachrichtigungen der einzelnen Benachrichtigungstypen (Emissionserklärung nach der 11. BImSchV [5], Jahresbericht Emissionen nach den 13. BImSchV [6],
+PRTR-Bericht nach der PRTR-VO [8]) automatisch zu den in den zugehörigen Benachrichtigungsregeln vorgegebenen Terminen erzeugt werden.
+2) Inhaltliche Korrektheit der erzeugten Benachrichtigungen
+Es soll geprüft werden, ob die erzeugten Benachrichtigungen inhaltlich korrekt sind. Zu diesem
+Zweck soll der Test je Benachrichtigungstyp auf Basis vorgegebener Testdaten sowie zugehöriger
+Referenz-Benachrichtigungen erfolgen. Durch einen Vergleich der bei einem Testdurchlauf erzeugten Benachrichtigung mit der entsprechenden Referenz-Benachrichtigung ist auf diese Weise einfach feststellbar, ob die erzeugte Benachrichtigung mit dem erwarteten Ergebnis übereinstimmt. Anforderungen an die für die einzelnen Benachrichtigungstypen benötigten Testdaten
+sind in Abschnitt 6.3 definiert.
+Die TargetApplication BUBE-Online sieht eine Prüfung der importierten Benachrichtigungen vor.
+Aus diesem Grund soll die inhaltliche Korrektheit der erzeugten Benachrichtigungen nach dem
+Import in BUBE-Online durch eine solche Prüfung verifiziert werden.
+3) Korrekte Übermittlung der erzeugten Benachrichtigungen
+Es soll geprüft werden, ob die erzeugten Benachrichtigungen an den im Zuständigkeitsverzeichnis
+hinterlegten Benachrichtigungsempfänger übermittelt werden. Dabei handelt es sich im Fall der
+betrachteten Benachrichtigungen um das in der Laborumgebung installierte BUBE-Online-System
+(vgl. Abschnitt 3.2).
+4) Durchgängige Nachweisführung der Aktivitäten des P23R
+Es soll geprüft werden, ob die wesentlichen Aktivitäten des P23R bei der Generierung und dem
+Versand einer Benachrichtigung nachvollziehbar im Protokoll aufgezeichnet werden. Die zu protokollierenden Aktivitäten sind in Kapitel 5 (siehe REQ-8) genannt.
+

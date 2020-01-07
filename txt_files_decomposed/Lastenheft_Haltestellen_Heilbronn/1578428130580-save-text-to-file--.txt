@@ -1,0 +1,6 @@
+Für die zu installierenden Anlagen der dynamischen Fahrgastinformation
+gelten allgemeine Anforderungen wie
+- modularer Aufbau
+- kompakte Gehäusekonstruktionen
+- Vandalismussicherheit
+- Erweiterbarkeit und Variierbarkeit durch offene und standardisierte

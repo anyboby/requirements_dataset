@@ -1,0 +1,11 @@
+Die Anzeigersoftware muss die folgenden erweiterten Funktionen bieten:
+- Dateidownload von Konfigurationsdateien, Symbolen und
+Mediendateien
+- Fehlerüberwachung und Alarmmeldungen aller Anzeigerkomponenten
+- Aufzeichnen (logging) aller relevanten Prozesse
+- Hinterlegen von Audioprofilen für das Text-to-Speech-System zu Tagesarten
+und Feiertagen (z. B. Lautstärke-Nachtabsenkung)
+- Definition von Bildschirm-Inhalten wie z.B. Rückfallebenen bei fehlender Kommunikation, Abfahrtstabellen, Sondertexten
+- Konfiguration von Protokollen zur Anbindung des Displays an eine Anzahl n
+Datenquellen
+- Definition von Bildschirm-Grundeinstellungen wie Bildschirmbreite, -höhe etc.

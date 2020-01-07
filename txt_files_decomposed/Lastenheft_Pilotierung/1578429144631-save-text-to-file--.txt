@@ -1,0 +1,4 @@
+Der P23R-Client wird als eigenständige Komponente realisiert, seine Funktionalität wird also nicht in
+die SourceApplication CEDAR integriert. Er bietet den zur Nutzung berechtigten Mitarbeitern der
+BASF SE die Möglichkeit, die durch den P23R erzeugten Benachrichtigungen zu prüfen, diese bei Bedarf anzupassen und freizugeben. Darüber hinaus ermöglicht er das Herunterladen der im P23R benötigten Benachrichtigungsregelwerke und bietet eine Einsicht in das Verarbeitungsprotokoll des
+P23R.

@@ -1,0 +1,2 @@
+Ziel ist es, Veränderungen möglichst schnell auf den DFI-Anzeigern darzustellen. Verlässt ein Fahrzeug die Haltestelle, so ist sicherzustellen,
+dass die an der DFI-Anzeige angekündigte Fahrt zeitnah gelöscht wird.

@@ -1,0 +1,3 @@
+Die Kommunikation zwischen den Benutzern, der DFI-Verwaltung und
+den Anzeigern (bzw. deren Rechnern) basiert auf TCP bzw. Transport
+Layer Security (TLS).

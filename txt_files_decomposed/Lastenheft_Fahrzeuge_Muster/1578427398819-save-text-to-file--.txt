@@ -1,0 +1,2 @@
+Das System ist so zu bemessen, dass eine maximale Anzahl gleichzeitiger TCP-Sitzungen
+möglich ist, die der Anzahl der Benutzer multipliziert mit einem Faktor von 3,5 entspricht.

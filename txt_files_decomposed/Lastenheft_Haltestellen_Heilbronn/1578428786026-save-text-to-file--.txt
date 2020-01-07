@@ -1,0 +1,9 @@
+Auf Anforderung vom DFI-Verwaltungssystem sendet die Anzeigersoftware folgende Informationen:
+- Anzeigerinhalte als Screenshot
+- Anzeigerinhalte als Stream
+- Alarmmeldungen (Temperatur, Displayfehler)
+- Logdateien zu Fehlerzuständen der Hard- und Software sowie der
+Schnittstelle zum DFI-Verwaltungssystem.
+Um Sonder- bzw. Infotexte aufspielen zu können, sind folgende Parameter u.a. einstellbar:
+- Datum, Uhrzeit, Wochentage (Einstellung der Gültigkeit der Sondertexte)
+- Anzeiger (einzeln, Gruppen, fahrtbezogen, linienbezogen)

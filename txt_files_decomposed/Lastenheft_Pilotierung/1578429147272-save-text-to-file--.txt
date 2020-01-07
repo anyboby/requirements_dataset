@@ -1,0 +1,3 @@
+Obwohl die Erzeugung der Benachrichtigungen durch den Scheduler des P23R gesteuert wird, soll es
+zusätzlich möglich sein, die Erzeugung einer Benachrichtigung über eine entsprechende Funktion des
+P23R-Clients explizit zu initiieren.

@@ -1,0 +1,2 @@
+Die Eigenwärme der Komponenten darf die Funktionsfähigkeit weder der
+Komponenten noch des Gesamtsystems beeinträchtigen.

@@ -1,0 +1,4 @@
+Die DFI-Anzeiger sind für einen mindestens 10-jährigen Betrieb im
+Freien auszulegen.
+Sollten einzelne Komponenten wie z.B. TFT-Panels, Netzteile, Anzeigerrechner, Modems etc. eine geringere Lebensdauer haben, ist diese mit
+den jeweiligen gewöhnlichen Lebensdauern im Konzept angeben.

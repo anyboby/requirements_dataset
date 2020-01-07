@@ -1,0 +1,6 @@
+Der Fahrgastraum ist gleichmäßig mit folgender Anzahl an kindersicheren Steckdosen auszustatten:
+Dieselfahrzeuge: Mindestens für 10 % der Sitzplätze in der 2. Klasse, mindestens X in der 1.
+Klasse (falls angeboten)
+E-Fahrzeuge: mindestens 1 Steckdose pro 4 Sitzplätze in der 2. Klasse, mindestens eine
+Steckdose pro 2 Plätze in der 1. Klasse (falls angeboten). Durch die Nutzung der Steckdose
+darf die freie Durchsicht nach außen nicht eingeschränkt werden. Mindestens ein Rollstuhlplatz und ein Behindertensitz sind mit einer kindersicheren Steckdose auszurüsten.

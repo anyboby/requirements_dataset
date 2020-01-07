@@ -1,0 +1,4 @@
+Der Schutz gegen Datenmissbrauch ist zu gewährleisten und detailliert zu beschreiben. Das
+Umschalten zwischen den verfügbaren Kommunikationsverbindungen darf nicht zu Kommunikationsstörungen oder -unterbrechungen führen. Die Netzabdeckung auf den bedienten
+Strecken ist durch entsprechende Testfahrten zu prüfen und im Fahrzeug zu kommunizieren.
+Die ggf. erforderliche Nachrüstung vorhandener Fahrzeuge mit den für dieses System erforderlichen Komponenten ist im Rahmen von Redesignmaßnahmen durchzuführen. Die Kosten für die Nachrüstung sind im Angebot darzustellen.

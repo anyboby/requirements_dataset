@@ -1,0 +1,2 @@
+Die Anzeige des Sondertextes bleibt so lange erhalten, bis die Gültigkeit
+abläuft oder die Anzeige vom Bediener widerrufen wird.

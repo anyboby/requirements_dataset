@@ -1,0 +1,4 @@
+Für alle Installationen neuerer Softwareversionen/-updates muss der AN
+ferner garantieren, dass die Funktionsfähigkeit des Systems sowie die
+volle Kompatibilität der bereits erfassten Daten und deren Auswertung
+erhalten bleiben.

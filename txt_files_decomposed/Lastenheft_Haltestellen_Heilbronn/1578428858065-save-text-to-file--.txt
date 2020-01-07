@@ -1,0 +1,4 @@
+Die Dokumentation ist Bestandteil der Lieferung und muss vom AN auch
+nach Ablauf der Gewährleistung auf dem aktuellen Stand gehalten werden (z. B. über eine Online-Dokumentation).
+Alle nachträglichen Veränderungen ab Beginn des Probebetriebes am
+System (Hard- und Software) sind zu dokumentieren und dem Auftraggeber unaufgefordert zu übermitteln.

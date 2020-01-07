@@ -1,0 +1,7 @@
+Der Anzeigerrechner für den doppelseitigen 47“-Übersichtsanzeiger in
+Neckarsulm muss zusätzlich die TFT-Panels getrennt ansteuern können,
+damit auf der einen Displayseite für Fahrgäste vom ZOB zum Bahnhof
+nur die Bahnabfahrten angezeigt werden können und auf der anderen
+Displayseite für die Fahrgäste vom Bahnhof zum ZOB nur die Busabfahrten.
+Der Anzeigerrechner muss alle an ihn gestellten Aufgaben, die im Rahmen des Lastenhefts formuliert sind, erfüllen können.
+

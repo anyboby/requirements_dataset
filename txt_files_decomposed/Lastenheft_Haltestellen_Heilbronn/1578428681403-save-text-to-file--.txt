@@ -1,0 +1,3 @@
+Die Datenübernahme aus den vorgelagerten Systemen (Datendrehscheibe der NVBW und ITCS) muss sicher, vollständig und gleichzeitig
+erfolgen. Ist die Übertragung fehlerhaft, so müssen entsprechende Fehlerberichte erstellt werden, um die Fehler nachfolgend analysieren und
+beheben zu können.

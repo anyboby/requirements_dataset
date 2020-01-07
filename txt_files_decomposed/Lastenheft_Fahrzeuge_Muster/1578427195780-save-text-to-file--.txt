@@ -1,0 +1,5 @@
+Für die Überwachung des Fahrgastinnenraumes sind mit Ausnahme der Toilette Videokameras zu installieren. Die Anzahl ist dabei so zu bemessen, dass möglichst der gesamte,
+mindestens aber 90% des Fahrgastraums erfasst wird und eine Gesichtserkennung zu Ermittlungszwecken möglich ist. Werden Einzelbilder aufgezeichnet, so ist sicherzustellen,
+dass die Bildrate mindestens zwölf Bilder pro Sekunde beträgt.
+Die Aufnahmen müssen nach 72 h automatisch überschrieben werden, sofern keine fallbezogene Auslesung erfolgt ist. Die Auswertung, Aufbewahrung und Löschung der Aufnahmen
+ist entsprechend der jeweils geltenden Datenschutzbestimmungen vorzunehmen. Die Fahrgäste sind auf die Videoüberwachung in geeigneter Weise hinzuweisen.

@@ -1,0 +1,4 @@
+Die Bedienung der DFI-Verwaltungssoftware muss per Browser möglich
+sein.
+Die Datenübertragung zwischen DFI-Verwaltungssystem und browserbasierten Bedienplätzen muss über das Hypertext Transfer Protocol
+Secure (HTTPS) erfolgen.

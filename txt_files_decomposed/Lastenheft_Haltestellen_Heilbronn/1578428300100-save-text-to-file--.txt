@@ -1,0 +1,1 @@
+Für den doppelseitigen Übersichtsanzeiger in Neckarsulm muss die Anzeigersoftware die TFT-Panels getrennt ansteuern können.

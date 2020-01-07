@@ -1,0 +1,18 @@
+Für Mehrfachtraktionen gelten folgende Anforderungen:
+a.
+
+Die vorgesehenen Fahrzeuge müssen als Zugverband in x-fach-Traktion innerhalb der
+zu bedienenden Linie vollumfänglich untereinander kompatibel sein.
+
+b.
+
+Es darf zu keiner Einschränkung der Fahrdynamik kommen.
+
+c.
+
+Es ist vorgesehen, das Verkehrskonzept mit zusätzlichen Fahrzeugen auszustatten. Die
+Beibehaltung aller betriebsrelevanten Funktionalitäten (Türsteuerung, Zugbus, FISDaten etc.) ist im Zeitraum bis … zu gewährleisten.
+
+d.
+
+Beim Einsatz von Neufahrzeugen ist eine vollumfängliche Kuppelbarkeit mit Gebrauchtfahrzeugen nicht erforderlich. Es muss jedoch sichergestellt werden, dass die vorgesehene Verkehrsleistung ohne Einschränkung erbracht werden kann.

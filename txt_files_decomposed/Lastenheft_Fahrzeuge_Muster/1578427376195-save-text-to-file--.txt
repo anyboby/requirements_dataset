@@ -1,0 +1,22 @@
+Bei Flügeln/Kuppeln oder Stärken/Schwächen muss eine selektive Ansprache jedes
+
+einzelnen Triebwagens bzw. jedes Zugteils möglich sein.
+Beispielhaft seien folgende Szenarien dargestellt:
+-
+
+Szenario 1: Flügelungsvorgang (2 Fahrzeuge)
+Folgende Durchsagen müssen vor dem Flügelungsvorgang möglich sein:
+-
+
+Durchsage in beiden Fahrzeugen gleichzeitig: „Vorderer Zugteil fährt nach
+A, hinterer Zugteil fährt nach B“
+
+-
+
+Durchsage in Zugteil 1 (separat): „Dieser Zug fährt nach A“, Durchsage in
+Zugteil 2 (separat): „Dieser Zug fährt nach B“
+
+-
+
+Szenario 2: Kuppelvorgang (2 Fahrzeuge)
+Nach Kuppelvorgang hat eine Durchsage in beiden Fahrzeugen gleichzeitig zu erfolgen: „Dieser Zug fährt nach C“

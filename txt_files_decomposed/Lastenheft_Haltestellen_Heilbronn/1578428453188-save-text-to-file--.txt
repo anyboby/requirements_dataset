@@ -1,0 +1,5 @@
+Über der obersten Zeile sind die Spaltentitel aufzutragen (beispielsweise
+per Klebefolie):
+Linie // Ziel // Gleis/Steig // Abfahrt sind in einer Kopfzeile auszugeben
+(kleinere Schriftgröße also die folgenden Zeilen)
+(Gleis/ Steig nur an ausgewählten Standorten (siehe Tabelle in 4.1))

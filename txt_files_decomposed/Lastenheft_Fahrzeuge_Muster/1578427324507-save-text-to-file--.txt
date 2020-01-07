@@ -1,0 +1,1 @@
+Es sind Standardschriftarten ohne Serifen zu verwenden (z.B. Futura, Frutiger, Helvetica, VAG Rundschrift).

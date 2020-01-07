@@ -1,0 +1,2 @@
+Die Menüführung insbesondere zur Eingabe von Sondertexten muss
+prozessgesteuert sein. Die Oberfläche ist visuell ansprechend und entspricht moderner Webgestaltung mit intuitiver Bedienung.

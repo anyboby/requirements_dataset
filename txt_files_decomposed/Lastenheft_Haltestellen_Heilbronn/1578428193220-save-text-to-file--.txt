@@ -1,0 +1,6 @@
+Vom AN werden aussagekräftige Fotos sowie maßstabsgetreue, farbige
+Skizzen bzw. Darstellungen der vorgesehenen Außen- und Innenanzeiger (LED und TFT) beigelegt, aus denen folgende Aspekte eindeutig erkennbar sind:
+- Form und Gestalt des Anzeigers,
+- Vorder-, Seitenansicht (verschiedene Ansichten),
+- Bemaßung der Komponenten mit Display und Gehäuse, insbesondere
+Aufteilung Displayrahmen und Displayfläche.

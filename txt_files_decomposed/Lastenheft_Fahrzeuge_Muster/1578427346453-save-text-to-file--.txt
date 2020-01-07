@@ -1,0 +1,2 @@
+In jedem Führerstand ist eine Sprechstelle einzubauen, womit Regeldurchsagen automatisch, Bedarfsdurchsagen durch den Eisenbahnfahrzeugführer manuell ab der
+Sprachdatenbank, aber auch Livedurchsagen ausgegeben werden können.

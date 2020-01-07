@@ -1,0 +1,3 @@
+
+Die Uhrzeit wird regelmäßig mit dem DFI-Verwaltungssystem oder einem
+Zeit-Server synchronisiert.

@@ -1,0 +1,4 @@
+Die Datenübernahme aus vorgelagerten Systemen wie in diesem Fall
+vom DFI-Verwaltungssystem muss sicher, verzögerungsfrei und vollständig erfolgen. Ist die Übertragung fehlerhaft, so müssen entsprechende
+Fehlerberichte erstellt werden, um die Fehler nachfolgend analysieren
+und beheben zu können.

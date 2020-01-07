@@ -1,0 +1,6 @@
+Die DFI-Anzeiger bestehen jeweils aus einem Anzeigerrechner, einem
+(meist) doppelseitigen Display, einem Gehäuse und einer Aufhängung.
+Der Anzeigerrechner
+- kommuniziert mit dem DFI-Verwaltungssystem und -server,
+- steuert alle Prozesse zur Darstellung der Inhalte,
+- überwacht alle Prozesse zur Steuerung der Akustik und

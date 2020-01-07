@@ -1,0 +1,4 @@
+Neufahrzeuge:
+a. Das 2-Sinnes-Prinzip ist hinsichtlich allgemeiner -, Sicherheits- und Warninformation
+einzuhalten.
+b. Bedienungselemente und Notrufeinrichtungen müssen kontrastreich und taktil erfühlbar gestaltet sein.

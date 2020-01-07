@@ -1,0 +1,7 @@
+Die TFT-Anzeiger müssen mindestens folgende Darstellungen ermöglichen: Insgesamt mindestens 11 Zeilen mit
+1. Zeile: Datum und Uhrzeit
+2. Zeile: Spaltentitel (Linie // Ziel // Gleis/Steig // Abfahrt) sind in einer
+Kopfzeile auszugeben (kleinere Schriftgröße, also die folgenden Zeilen)
+3.-10. Zeile: Linienabfahrten
+11. Zeile: Infotextzeile (wechselnde Sonderinformationen falls sie vorliegen - liegen keine vor, kann die Infotextzeile eine weitere Abfahrt anzeigen)
+Die nächste Abfahrt muss immer oben stehen.

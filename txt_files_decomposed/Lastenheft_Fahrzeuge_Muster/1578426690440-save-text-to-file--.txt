@@ -1,0 +1,3 @@
+Es können Neu- und Gebrauchtfahrzeuge vorgesehen werden. Werden Gebrauchtfahrzeuge
+eingesetzt, müssen Lokomotiven, Wagen und Triebwagen Baujahr/Zulassung xxxx oder
+jünger sein.

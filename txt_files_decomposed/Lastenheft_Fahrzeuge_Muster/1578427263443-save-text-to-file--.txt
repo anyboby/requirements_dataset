@@ -1,0 +1,2 @@
+Die Heizung ist als selbststeuerndes und selbstüberwachendes System auszulegen.
+Zur Energieeinsparung ist nach Möglichkeit im Heizbetrieb die Bremsenergie zu nutzen.

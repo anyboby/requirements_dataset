@@ -1,0 +1,5 @@
+Soll- und Ist- bzw. Echtzeitdaten werden aus dem vorgelagerten System
+der Datendrehscheibe der Nahverkehrsgesellschaft Baden-Württemberg
+NVBW gespeist. Wie in der Beschreibung des Projekts (3.) beschrieben,
+senden die im Landkreis Heilbronn agierenden Verkehrsunternehmen
+Soll- und Ist-Daten an die NVBW bzw. werden dies tun. Die Soll- und IstDaten der Bahnunternehmen sind auch über die Datenplattform zu beziehen (siehe hierzu auch die Systemskizze unter 3.).

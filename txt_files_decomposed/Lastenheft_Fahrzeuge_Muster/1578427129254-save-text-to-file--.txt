@@ -1,0 +1,3 @@
+Alle Taster der Toiletteneinrichtung müssen bezüglich ihrer Funktion taktil erfassbar
+sein. Eine Beschriftung in Blindenschrift (Braille) (z. B. „Spülung“, „Alarm“) ist unterhalb
+der Taster anzubringen.

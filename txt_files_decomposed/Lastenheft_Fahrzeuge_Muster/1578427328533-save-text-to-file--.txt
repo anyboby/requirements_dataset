@@ -1,0 +1,3 @@
+Rechtzeitig vor Ist-Ankunft am nächsten Haltebahnhof (mind. 2 Minuten vorher oder,
+wenn weniger als 2 Minuten Fahrzeit, dann gleich nach Abfahrt des Zuges Wechsel
+der Anzeige: nächster Haltebahnhof, aktuelle Uhrzeit, Ausstiegsseite und prognostizierte Ist-Ankunftszeit.

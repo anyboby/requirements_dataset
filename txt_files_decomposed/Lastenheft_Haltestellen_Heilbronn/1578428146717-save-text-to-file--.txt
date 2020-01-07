@@ -1,0 +1,5 @@
+Gemäß VDE 0710 DIN 40050 sind für den Staub- und Wasserschutz die
+Schutzart IP 65 für die Außen- und IP 20 für die Innenanzeiger sowie für
+die elektrische Sicherheit für die Außenanzeiger Schutzklasse I zu be4.1.7
+rücksichtigen. Für Anzeigermasten in unmittelbarer Umgebung von
+Bahnanlagen ist eine Erdung vorzusehen. Alle Masten sind mit einer Erdungslasche auszustatten.

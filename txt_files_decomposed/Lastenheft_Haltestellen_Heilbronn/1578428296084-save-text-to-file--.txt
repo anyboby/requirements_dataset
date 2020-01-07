@@ -1,0 +1,5 @@
+Die Anzeigersoftware kommuniziert mit dem DFI-Verwaltungssystem.
+Dies umfasst:
+- Empfang von Soll und Echtzeitinformationen
+- Empfang von Sondertexten, Bildern und Videos (nur TFT-Displays)
+- Sendung von Status- und Fehlermeldung

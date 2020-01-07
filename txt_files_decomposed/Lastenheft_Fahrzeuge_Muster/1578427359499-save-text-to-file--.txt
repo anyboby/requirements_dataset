@@ -1,0 +1,1 @@
+Für individuelle Ansagen muss die automatische Ansage unterdrückt werden können.

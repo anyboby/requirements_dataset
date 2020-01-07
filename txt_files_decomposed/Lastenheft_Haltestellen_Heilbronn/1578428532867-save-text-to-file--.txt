@@ -1,0 +1,9 @@
+Die Anzeiger werden an Masten mit seitlichem Ausleger montiert. Die
+Masten werden vom AN geliefert und aufgestellt. Hierbei gelten folgende
+Mindestanforderungen:
+- Durchgangshöhe mind. 2,50 m
+- passender Ankerkorb (der vom AG einbetoniert wird)
+- komplette statische Berechnung der Masten inklusive Fundamentplan
+ist nach Vergabe zur Verfügung zu stellen (Berücksichtigung von Eigengewicht und Windlast, siehe DIN 1055-4)
+- Kabelübergangskasten mit Sicherungsautomaten
+- angebaute TTS-Taster mit integriertem Lautsprecher

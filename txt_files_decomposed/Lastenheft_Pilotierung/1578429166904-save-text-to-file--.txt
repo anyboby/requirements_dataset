@@ -1,0 +1,5 @@
+Gemäß [1] stellt ein CommunicationConnector die Verbindung zur TargetApplication her und überträgt die durch den P23R erzeugten Benachrichtigungen. Voraussetzung dafür ist, dass die TargetApplication eine Schnittstelle zum automatisierten Empfang von Benachrichtigungen bietet. Dies ist
+bei BUBE-Online derzeit nicht der Fall. Stattdessen gibt es nur die Möglichkeit, XML-Dokumente manuell hochzuladen.
+Um die medienbruchfreie Weiterleitung der erzeugten Benachrichtigungen dennoch demonstrieren
+zu können, werden die manuellen Schritte – Anmelden bei BUBE-Online und Importieren der Benachrichtigungen in BUBE-Online – durch entsprechende HTTP-Anfragen des BUBE-Online-Connectors automatisiert. Zusätzlich dazu legt der BUBE-Online-Connector die Benachrichtigungen je Bundesland getrennt voneinander im lokalen Dateisystem ab.
+Die durch den BUBE-Online-Connector umzusetzenden Anwendungsfälle sind in Abschnitt 4.4 aufgeführt.

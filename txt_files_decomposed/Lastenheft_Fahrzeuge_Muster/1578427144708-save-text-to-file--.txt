@@ -1,0 +1,6 @@
+Zusätzlich sind zwei Notruftaster anzubringen. Die obere Notrufeinrichtung muss vom
+WC aus sitzend erreichbar sein. Die untere muss vom Boden liegend bedient werden
+können. Die Notruftaster müssen taktil auffindbar und kontrastreich gestaltet sein. Eine
+einfache Berührung darf kein Notsignal auslösen, sondern die Bestätigung des Tasters
+muss gegen einen merklichen mechanischen Widerstand erfolgen. Ein erfolgtes Auslösen des Notsignals muss durch eine optische und akustische Signalisierung angezeigt
+werden (Quittierung).

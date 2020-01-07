@@ -1,0 +1,4 @@
+Das System muss
+darauf ausgelegt
+sein, hinsichtlich der
+Skalierbarkeit erweiterbar zu sein.

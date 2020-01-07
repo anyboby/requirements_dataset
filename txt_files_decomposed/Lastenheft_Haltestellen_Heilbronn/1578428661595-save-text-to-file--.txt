@@ -1,0 +1,2 @@
+Mittelfristig werden Teile der Busverkehrsleistungen im Landkreis Heilbronn neu vergeben und es können sich Änderungen in der Datenlieferund Verarbeitungsstruktur ergeben. Um auf eventuelle Änderungen reagieren zu können, muss das DFI-Verwaltungssystem auch Daten aus einem oder mehreren Intermodal Transport Control Systemen (ITCS) von
+Busverkehrsunternehmen übernehmen und die Daten gleichzeitig verarbeiten können.

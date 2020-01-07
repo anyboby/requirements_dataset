@@ -1,0 +1,3 @@
+Im Rahmen der Projektinitialisierung ist
+ein Konzept zur vorgesehenen Entwicklungsmethode für das
+System vorzulegen

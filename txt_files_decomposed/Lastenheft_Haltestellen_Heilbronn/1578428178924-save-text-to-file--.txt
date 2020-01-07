@@ -1,0 +1,23 @@
+Folgende Gehäuseanforderungen sind einzuhalten:
+- Die DFI-Anzeiger sind für einen mindestens 10-jährigen Betrieb im
+Freien auszulegen.
+- Gemäß VDE 0710 DIN 40050 sind für den Staub- und Wasserschutz
+die Schutzart IP 65 für die Außen- und IP 20 für den Innenanzeiger sowie für die elektrische Sicherheit für die Außenanzeiger Schutzklasse I
+zu berücksichtigen. Für Anzeigermasten in unmittelbarer Umgebung von
+Bahnanlagen sind bei der Fundamentherstellung Staberder vorzusehen
+(werden von den Baufirmen der Kommunen gestellt, siehe auch 4.9).
+- Alle verbauten Komponenten müssen innerhalb eines im Freien gemessenen Temperaturbereichs zwischen - 30° C und + 55° C garantiert
+funktionieren. Die Eigenwärme der Komponenten darf die Funktionsfähigkeit weder der Komponenten noch des Gesamtsystems beeinträchtigen.
+- Die Gehäuse sind korrosionsbeständig und unempfindlich gegen Witterungseinflüsse. Das heißt konkret: Alle verbauten Komponenten müssen
+üblichen Erschütterungen und Schwingungen durch Wind, Straßenver4.2.1 kehr etc. statisch sicher standhalten.
+- Die doppelseitigen Anzeigen sind in jeweils einem Gehäuse verbaut.
+- Die Gehäuse der DFI-Anzeiger werden angelehnt an die RAL-Farbe
+DB 703 (dunkelgrau) ausgeführt (Ausnahme: 2 Anzeiger in Weinsberg
+mit DB 702), die Innenanzeiger in grau oder schwarz.
+- Die Frontflächen der Gehäuse für alle Anzeigergrößen sollten geneigt
+sein, um die Lesbarkeit der Anzeiger durch die Draufsicht der Fahrgäste
+zu erhöhen. Es werden jedoch parallele Frontflächen zugelassen.
+- Die Anzeigefläche ist mit entspiegeltem Verbund-Sicherheitsglas mit einer ballwurfsicheren Mindeststärke für TFT-Anzeiger von 6 mm und
+LED-Anzeiger mit 4 mm gemäß DlN 18032-3 ausgeführt.
+- die Gehäuse der LED-Anzeiger mit 4 mm Pixelgröße und 192 Pixelbreite sollen nicht breiter als 1000 mm sein
+- Auf den LED-Gehäusen/Frontflächen sind über dem Display die Spaltentitel der angezeigten Inhalte aufzutragen (beispielsweise per Klebefolie), (siehe hierzu 4.8).

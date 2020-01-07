@@ -1,0 +1,6 @@
+Auf Anforderung vom DFI-Verwaltungssystem sendet die Anzeigersoftware folgende Informationen:
+- Anzeigerinhalte als Screenshot
+- Anzeigerinhalte als Stream
+- Alarmmeldungen (Temperatur, Displayfehler)
+- Logdateien zu Fehlerzuständen der Hard- und Software sowie der
+Schnittstelle zum DFI-Verwaltungssystem.

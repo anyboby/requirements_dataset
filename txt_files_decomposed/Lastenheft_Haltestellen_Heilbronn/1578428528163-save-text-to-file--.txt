@@ -1,0 +1,8 @@
+Für die Aufhängungen gelten folgende Mindestanforderungen:
+- Stromzuführung (von oben) ist über entsprechende Öffnung am Halter
+zu berücksichtigen
+- Die Anbindung eines TTS-Tasters mit integriertem Lautsprecher inkl.
+Strom- und Audiokabel an der Stütze ist zu berücksichtigen.
+- Korrosionsschutz (Stahlteile mind. feuerverzinkt)
+- RAL-Farbe DB 703
+- liefern und montieren.

@@ -1,0 +1,7 @@
+Die LED-Anzeiger an den verschiedenen Standorten erfordern unterschiedliche Ausführungen hinsichtlich Zeilenanzahl, Schriftgröße/Leseabstand und Breite. Die Tabelle unter 4.1 gibt darüber Aufschluss.
+Folgende Anforderungen müssen mindestens erfüllt werden:
+- alle Displays doppelseitig
+- die doppelseitigen Displays sind in einem Gehäuse auszuführen
+- Anzahl Zeilen: drei/vier/fünf Zeilen
+- Schriftgröße mit guter Lesbarkeit aus geringer und mittlerer Distanz
+(ca. 15 m), also Mindestversalhöhe von 28 mm / Pixelgröße 4 mm

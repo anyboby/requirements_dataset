@@ -1,0 +1,2 @@
+Für die Daten der NVBW ist die Schnittstelle Travellers‘ Realtime Information and Advisory Standard (TRIAS) (nach VDV-Schrift 431-2) zu
+verwenden.

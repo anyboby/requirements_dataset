@@ -1,0 +1,2 @@
+Der DFI-Server ist die zentrale Hardwarekomponente, die zum Betreiben
+des zentralen DFI-Verwaltungssystems benötigt wird.

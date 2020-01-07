@@ -1,0 +1,4 @@
+Die Aufhängung ist Teil der Ausschreibung, sie muss mitgeliefert werden
+und mit technischen Zeichnungen seitens des AN beschrieben werden,
+damit örtliche Metallbauer entsprechende Halter anfertigen und eine statische Berechnung durchführen (lassen) können.
+

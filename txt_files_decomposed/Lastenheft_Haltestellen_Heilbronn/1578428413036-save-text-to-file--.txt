@@ -1,0 +1,10 @@
+Sollte sich nach Systemstart im täglichen Betrieb herausstellen, dass es
+sinnvoll wäre, weniger oder mehr Zeilen anzuzeigen, muss das Lay4.7.3 out/die Zeilenanzahl nachträglich veränderbar sein.
+Die Darstellung einer analogen Uhr mit Zeigern anstatt einer Zifferndarstellung muss möglich sein.
+Bezüglich der Schriftart und der Schriftgröße hat der AN die Möglichkeiten seiner Produkte zu beschreiben.
+Folgende Randbedingungen müssen für die Schriftarten berücksichtigt
+werden:
+- Proportionalschrift
+- Buchstaben mit Über- und Unterlängen
+- eine Darstellung von mindestens 3 verschiedenen Schriftarten/Fonts,
+die parametrierbar aufrufbar sind

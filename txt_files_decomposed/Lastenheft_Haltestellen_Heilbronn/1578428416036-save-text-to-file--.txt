@@ -1,0 +1,4 @@
+Bei der Layoutgestaltung muss Kontrast und Lesbarkeit im Hinblick auf
+sehbeeinträchtigte Personen beachtet werden. Es sind speziell für den
+Straßenverkehr entwickelte Schriftarten zu verwenden. Siehe hierzu
+auch DIN 1451.

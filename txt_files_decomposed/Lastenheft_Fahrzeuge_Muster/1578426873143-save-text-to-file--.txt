@@ -1,0 +1,4 @@
+Die Innenhöhen über Fußboden müssen angegeben werden (Deckeninnenhöhe im Mittelgang, in den Übergängen zwischen den Wagenteilen, siehe Kap. 3.5).
+Durch Einbauten in der Decke (z.B. Fahrgastinformationssysteme) darf die Begehbarkeit des
+Fahrgastraumes nicht eingeschränkt werden. Ist der Einbau eines Fahrgastinformationssystems o.ä. vorgesehen, ist die lichte Höhe zwischen Fußboden und Unterkante der jeweiligen
+Einbauten im Angebot konkret anzugeben.

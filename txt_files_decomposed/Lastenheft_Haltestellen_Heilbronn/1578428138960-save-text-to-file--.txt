@@ -1,0 +1,2 @@
+Alle verbauten Komponenten müssen üblichen Erschütterungen und
+Schwingungen durch Wind, Straßenverkehr etc. statisch sicher standhalten.

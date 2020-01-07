@@ -1,0 +1,2 @@
+Die Türsteuerung muss fahrzeug- und seitenselektiv arbeiten sowie vom bedienten
+Führerstand aus gesteuert und überwacht werden können.

@@ -1,0 +1,5 @@
+Das Protokoll muss für die Datenserialisierung (= Umwandlung eines
+Objekts in einen Bytestrom) einen Standard benutzen, wie etwa JSON,
+XML oder Protocol Buffers und darf nicht auf ein proprietäres Nachrichtenformat setzen.
+Die DFI-Verwaltung muss sich gegenüber den Anzeigern über sein TLS
+Zertifikat authentifizieren. Die Anzeiger müssen sich bei der DFIVerwaltung entweder per Authentifizierungs-Token/Passwort oder ebenfalls per Zertifikat authentifizieren.

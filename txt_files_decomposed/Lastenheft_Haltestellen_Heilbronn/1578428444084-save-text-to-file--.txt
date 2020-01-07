@@ -1,0 +1,15 @@
+Die LED-Anzeiger müssen mindestens folgende Darstellungen ermöglichen: Je nach Anzeiger 3 bis 5 Zeilen (siehe Tabelle unter 4.1) mit
+Obere Zeilen: Linienabfahrten
+Unterste Zeile: Infotextzeile (wechselnde Sonderinformationen, falls sie
+vorliegen - liegen keine vor, kann die Infotextzeile eine weitere Abfahrt
+anzeigen)
+Die nächste Abfahrt muss immer oben stehen.
+Anzeige der Linienabfahrten von links nach rechts:
+Liniennummer (4 Zeichen)
+Leerzeichen (1 Zeichen)
+Linienziel (20 bis 25 Zeichen - je nach Breite des Anzeigers und je nach Abfahrt- oder
+Countdownanzeige)
+Leerzeichen (1 Zeichen)
+ggf. Steig-/Gleisnummer (1 Zeichen – je nach örtlicher Anforderung)
+Leerzeichen (1 Zeichen)
+Zeit (5 Zeichen für Abfahrtsanzeige (hh:mm) oder 2 Zeichen für Countdownanzeige (mm)

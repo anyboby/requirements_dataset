@@ -1,0 +1,13 @@
+Es ist ein Designkonzept für die Fahrzeuge vorzulegen aus dem die Gestaltung des Fahrzeugs (Außen- und Innenansicht) entnommen werden kann.
+Das Fahrzeugdesign umfasst beispielhaft folgende Merkmale:
+-
+
+Innen- und Außengestaltung (optisch)
+
+-
+
+Farbe der Sitzpolster, der Innenverkleidung und der Haltestangen
+
+-
+
+Beleuchtungskonzept

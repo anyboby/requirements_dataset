@@ -1,0 +1,6 @@
+Die visuelle Information wird im Außenbereich akustisch ergänzt. Das
+anzubietende Audio-System basiert auf einer Text-To-Speech-Lösung
+(TTS), die eingegebene oder auf den Displays vorhandene Texte direkt
+an der Haltestelle synthetisch generiert. Hierbei können die Abfahrten
+sowie Sondertexte angesagt werden. Diese Funktion muss durch Fahrgäste an einem vandalismussicheren Taster direkt am Anzeigermast
+bzw. an der Dachstütze aktiviert werden können.

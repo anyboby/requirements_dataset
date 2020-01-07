@@ -1,0 +1,1 @@
+Lauftexte und Videos (nur TFT-Displays) werden ruckelfrei und nicht verzerrt wiedergegeben.

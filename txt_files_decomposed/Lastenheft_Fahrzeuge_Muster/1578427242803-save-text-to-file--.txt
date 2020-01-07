@@ -1,0 +1,6 @@
+Zusätzliche Anforderungen an Türsteuerung bei Neufahrzeugen
+Zur Bedienung von Bahnsteigen, die für die vorgesehene Zuglänge zu kurz sind, muss die
+Möglichkeit bestehen, die Türen mit Ausnahme der ersten und letzten Türe anzusteuern. Ist
+eine technische Lösung nicht möglich, ist eine adäquate betriebliche Regelung für ggf. nicht
+durch einen Bahnsteig abgedeckte Türbereiche aufzuzeigen.
+

@@ -1,0 +1,5 @@
+Die Vorankündigungszeit einer Fahrt, also die Zeitspanne vom Erscheinen der Fahrt auf den Anzeigern und der planmäßigen Abfahrtszeit des
+Fahrzeuges von der Haltestelle ist durch einen Parameter (durch den
+Bediener des Verwaltungssystems) voreinstellbar. Ist beispielsweise
+diese Zeit auf 30 min eingestellt, so wird die Fahrt bereits 30 min vor Ab4.8.3
+fahrt am Anzeiger dargestellt.

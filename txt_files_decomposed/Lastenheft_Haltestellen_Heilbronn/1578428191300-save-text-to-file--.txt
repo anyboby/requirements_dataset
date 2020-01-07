@@ -1,0 +1,3 @@
+Aus gestalterischen Gründen werden Anzeigergehäuse mit kompakten
+Ausmaßen erwartet. Die Tiefe des Anzeigergehäuses soll auf das technische Minimum gehalten werden. Der Rahmen um die aktive Displayfläche soll möglichst schmal gehalten werden. Es werden Anzeiger erwartet, die als schlank wahrgenommen werden. Dies gilt für alle Anzeiger
+außen und innen, LED und TFT.

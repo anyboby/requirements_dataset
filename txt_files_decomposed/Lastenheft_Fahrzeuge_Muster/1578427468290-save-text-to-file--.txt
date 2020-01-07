@@ -1,0 +1,17 @@
+Die Kupplung muss folgende Vorgaben erfüllen:
+·
+
+Kupplung der Bauart Schaku TYP 10, mechanisch voll kompatibel zur Standardausführung von Voith Scharfenberg,
+
+·
+
+Einbauhöhe 1040 mm +/- 20 mm über Schienenoberkante (SO),
+
+·
+
+Automatisches, direktes Kuppeln der Hauptbehälterluftleitung (HBL) und der Hauptluftleitung HLL),
+
+·
+
+Rückhaltevorrichtung für E-Kontakte, die manuell aktiviert, ein elektrisches Kuppeln
+der E-Kontaktleiste unterbindet.

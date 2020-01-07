@@ -1,0 +1,3 @@
+Da das P23R-ControlCentre noch nicht öffentlich zur Verfügung steht, wird es in der Laborumgebung
+installiert. Die TargetApplication der Verwaltung wird für die P23R-Pilotlösung aufgrund einfacherer
+Verfügbarkeit ebenfalls in der Laborumgebung betrieben.

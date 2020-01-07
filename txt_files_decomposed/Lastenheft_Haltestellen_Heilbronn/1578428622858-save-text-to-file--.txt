@@ -1,0 +1,2 @@
+Die Audio-Einheit ist in die Taster-Einheit zu verbauen. Die Lautsprecher-Taster-Kombination ist mit der Anzeiger-Einheit zu verbinden. Der
+Lautsprecher hat eine Leistung von mind. 0,5 W (für den Nahbereich).

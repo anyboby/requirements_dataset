@@ -1,0 +1,2 @@
+Um die Anzeiger zu überwachen, müssen alle im System verwalteten
+Anzeiger dargestellt werden, z. B. tabellarisch. In der Übersichtsdarstellung werden alle Anzeiger mit ihrem aktuellen Status angezeigt. Anzeiger, die Fehler aufweisen, werden entsprechend hervorgehoben.

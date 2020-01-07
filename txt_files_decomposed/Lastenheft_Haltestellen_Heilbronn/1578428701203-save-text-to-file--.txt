@@ -1,0 +1,1 @@
+Ein funktionales Fehlverhalten der DFI-Verwaltung (Server oder Hardware) darf in keinem Fall zu einem flächendeckenden Teil- oder Vollausfall der DFI-Anzeiger führen. Entsprechende Rückfallebenen sind vorzubereiten und im Konzept zu beschreiben.

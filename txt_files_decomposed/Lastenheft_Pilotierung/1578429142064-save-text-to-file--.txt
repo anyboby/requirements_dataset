@@ -1,0 +1,2 @@
+Die P23R-Pilotlösung in der Domäne UWM nutzt das im Rahmen der P23R-Pilotlösung in der Domäne
+AGM entwickelte P23R-ControlCentre.

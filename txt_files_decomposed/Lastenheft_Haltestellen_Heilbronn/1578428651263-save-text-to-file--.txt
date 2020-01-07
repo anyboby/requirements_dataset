@@ -1,0 +1,4 @@
+Zur Software gehört eine aussagekräftige und intuitive Dokumentation in
+digitaler Form, aus der für den Anwender alle Funktionen und die Bedienung hervorgehen.
+Ein Pilotton zum Auffinden des Text-to-Speech-Tasters muss angeboten
+werden. Hierzu gehört auch eine voreinstellbare Lautstärke über Ganglinien, womit z.B. die Lautstärke zur Hauptverkehrszeit höher und zur Nebenverkehrszeit und an Wochenenden geringer ist.

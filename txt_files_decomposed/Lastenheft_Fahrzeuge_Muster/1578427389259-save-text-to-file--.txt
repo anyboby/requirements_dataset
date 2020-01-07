@@ -1,0 +1,4 @@
+Es ist ein Konzept zur fahrgastseitigen Nutzung mobiler Telekommunikationsendgeräte im
+Fahrzeug über einen WLAN-Zugang zu entwickeln und in den Planunterlagen darzustellen
+(Kommunikationsbereich / Bereich ohne bzw. mit eingeschränktem Empfang). Der Bereich
+zur Nutzung ist mit entsprechenden Piktogrammen zu kennzeichnen.

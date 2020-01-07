@@ -1,0 +1,2 @@
+Fährt ein Zugteil nur eine Teilstrecke oder wird der Zug geteilt sind die jeweiligen
+Zugziele zumindest auf der Seitenanzeige darzustellen

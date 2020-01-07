@@ -1,0 +1,6 @@
+Für die geforderten Anzeigerbauformen sind Konstruktionszeichnungen
+im Konzept beizulegen.
+Bei Überschreiten der Temperaturgrenzwerte im Gehäuseinneren wird
+der Anzeiger zunächst gedimmt und bei weiterer Temperaturerhöhung
+automatisch abgeschaltet. Die Wiedereinschaltung erfolgt automatisch
+nach Unterschreiten eines einstellbaren unteren Grenzwertes.

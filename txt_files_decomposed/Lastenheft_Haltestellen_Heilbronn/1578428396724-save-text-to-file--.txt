@@ -1,0 +1,3 @@
+Der AG benennt Schrifttypo, Farben und stellt ggf. ein Logo (jpeg, png oder dgl.) zur Verfügung. Der AN erstellt damit ein Layoutentwurf unter
+Berücksichtigung der oben genannten Rahmenbedingungen. Der Entwurf wird mit dem AG abgestimmt. Anschließend wird das abgestimmte
+Layout für die Anzeiger übernommen und vom AN implementiert.

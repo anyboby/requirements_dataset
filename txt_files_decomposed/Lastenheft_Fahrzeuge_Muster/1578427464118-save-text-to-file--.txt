@@ -1,0 +1,3 @@
+Der Zeitbedarf des Kuppel- / Flügelvorgangs (Halt - frühestmögliche Weiterfahrt) ist
+darzustellen.
+

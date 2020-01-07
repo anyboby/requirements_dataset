@@ -1,0 +1,2 @@
+Der Zugriff auf die DFI-Verwaltung erfolgt über einen gesicherten Webzugang. Eine sichere Verbindung über eine zertifizierte HTTPSKommunikation zwischen Benutzer und der DFI-Verwaltung ist zwingend
+erforderlich und nachzuweisen.

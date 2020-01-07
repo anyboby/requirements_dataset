@@ -1,0 +1,6 @@
+Besteht ein Zug aus mehreren Zugeinheiten, können die Fahrradstellplätze auf die Zugeinheiten verteilt werden. Bei der Bemessung der Anzahl der Fahrradstellplätze ist generell von
+folgenden Parametern auszugehen:
+-
+
+Fahrradlänge 1,80 m, maximal drei Fahrräder an einer Seite des Ganges aneinander
+gelehnt.

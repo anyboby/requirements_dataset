@@ -1,0 +1,6 @@
+Darüber hinaus besteht die Möglichkeit, den gesamten Anzeiger für die
+Anzeige von Sondertexten zu nutzen (z. B. Ausfall aller Fahrten an die4.7.7 ser Haltestelle und Hinweis auf Schienenersatzverkehr). Der Bediener
+muss die Möglichkeit haben, lange Texte über die ganze/s Seite/Display,
+also über alle Zeilen, umbrechen zu lassen. Ist der Text in diesem Fall
+länger als eine Displayseite, so erfolgt nach einer vom Bediener frei einstellbaren Zeit ein Seitenwechsel.
+Die Sondertexte müssen durch frei definierte Aufschaltzeiträume angezeigt und gelöscht werden können. Ein vorzeitiges Löschen von Sondertexten muss möglich sein.

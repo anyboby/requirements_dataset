@@ -1,0 +1,2 @@
+Die maximale Leistungsaufnahme der zu installierenden DFI-Anzeiger ist
+anzugeben.

@@ -1,0 +1,3 @@
+Ausgehend von den vorgestellten Bausteinen der P23R-Infrastruktur sowie den an den P23R angebundenen externen Systemen (Source- und TargetApplication) wird im Folgenden die Umsetzung
+dieser Komponenten im Kontext der P23R-Pilotlösung in der Domäne UWM dargestellt.
+Die P23R-Pilotlösung wird in Zusammenarbeit mit der BASF SE als Pilotpartner realisiert. Zur Verwaltung der für die Emissionsberichte und -meldungen relevanten Daten wird bei der BASF SE das Umweltmanagementsystem CEDAR (Central Emissions Declaration And Reporting System) eingesetzt.

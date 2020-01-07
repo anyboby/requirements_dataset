@@ -1,0 +1,6 @@
+Für die Echtzeitabfahrtsdarstellung wird die Countdownform gewählt.
+Liegen keine Echtzeitdaten vor oder hat sich ein Fahrzeug noch nicht im
+System registriert, wird die Soll-Zeit, also die fahrplanmäßige Abfahrtszeit in Stunde und Minute angezeigt.
+Für die letzte Minute vor der Abfahrt kann ein Symbol gewählt werden
+(z. B. ein Bild, das einen Bus oder eine Bahn symbolisiert).
+Im Anzeiger muss darüber hinaus eine digitale Uhrzeit integriert sein.

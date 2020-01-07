@@ -1,0 +1,3 @@
+Der Mindestabstand vom auskragenden Anzeiger (Außenrand) zum
+Fahrbahnrand darf 0,50 m nicht unterschreiten. Dies gilt auch im geöffneten Wartungszustand. Es sind die erforderlichen Sicherheitsabstände
+bei geöffneter Stellung zu berücksichtigen.

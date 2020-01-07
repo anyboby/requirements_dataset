@@ -1,0 +1,8 @@
+Für die Bussteiganzeiger am Neckarsulmer ZOB (Ballei) werden lediglich drei Abfahrten zur Anzeige benötigt, also
+1. Zeile: Steiganzeige (optional)
+2. Zeile: Datum und Uhrzeit
+3. Zeile: Spaltentitel
+4.-6. Zeile: Linienabfahrten
+7. Zeile: Infotextzeile
+Ansonsten gilt alles wie unter 4.5.2.
+Layoutbeispiel Bussteiganzeiger Neckarsulm ZOB (Ballei) Steig A:

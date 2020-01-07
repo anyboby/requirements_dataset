@@ -1,0 +1,2 @@
+Alle Komponenten des Unternehmens werden in der BASF-Testumgebung installiert. Die SourceApplication (CEDAR-Testsystem) ist unabhängig von der P23R-Pilotlösung bereits vorhanden und wird
+durch die P23R-Pilotlösung mit genutzt. Der P23R mit dem BUBE-Connector wird auf einem der PilotServer, der P23R-Client und der CEDAR-Connector auf dem anderen Pilot-Server installiert. Die Aufteilung auf zwei Server soll die Unabhängigkeit der Komponenten zeigen.

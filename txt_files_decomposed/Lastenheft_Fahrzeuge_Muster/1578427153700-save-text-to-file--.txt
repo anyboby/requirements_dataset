@@ -1,0 +1,3 @@
+Neufahrzeuge:
+Es ist eine Farbtemperatur für die Beleuchtung von 3.000 – 3.500 Kelvin vorzusehen, sofern
+damit die DIN EN 13272 eingehalten wird.

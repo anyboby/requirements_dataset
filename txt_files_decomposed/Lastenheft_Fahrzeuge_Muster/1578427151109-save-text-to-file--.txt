@@ -1,0 +1,5 @@
+Die Innenraumbeleuchtung muss mindestens der DIN EN 13272 genügen. Sie soll blendfrei
+ausgeführt werden und eine gleichmäßige Ausleuchtung des Innenraums gewährleisten.
+Dunkle Ecken sollen zur Verbesserung der subjektiven Sicherheit vermieden werden. Die
+Leuchtmittel dürfen nicht von Fahrgästen entfernt werden können. Eine Putzlichtschaltung ist
+vorzusehen.

@@ -1,0 +1,3 @@
+Im Fahrzeug ist der WLAN-Zugang mit ausreichend Sende- und Empfangsleistung für mindestens 50 % der Sitzplätze in den Kommunikationsbereichen zu ermöglichen (Standard
+mindestens 802.11n). Der WLAN-Router muss allen angemeldeten Geräten im Netzwerk IPAdressen per DHCP zur Verfügung stellen. Die WLAN-Access-Points müssen mindestens
+die Verschlüsselungstechniken WPA und WPA2 (IEEE 802.11i) unterstützen.

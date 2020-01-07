@@ -1,0 +1,1 @@
+Die durch den CEDAR-Connector umzusetzenden Anwendungsfälle sind in Abschnitt 4.3 aufgeführt.

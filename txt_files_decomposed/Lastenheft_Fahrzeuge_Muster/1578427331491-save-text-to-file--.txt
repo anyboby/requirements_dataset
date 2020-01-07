@@ -1,0 +1,3 @@
+Das System muss Anzeigen in mehreren Sprachen erlauben. Die Anzahl der Sprachen
+ist Sache des EVU und muss sich nach der Zielgruppe des jeweiligen Zugangebotes
+richten.

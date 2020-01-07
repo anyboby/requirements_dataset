@@ -1,0 +1,4 @@
+In der Komponente „MessageReceipt“ wird auf Grundlage einer von außen oder innen (zeitgesteuert) empfangenen Nachricht die Abarbeitung der Pipeline mit der zugehörigen Benachrichtigungsregel gestartet. Die Komponente „NotificationGeneration“ erzeugt die Benachrichtigung unter Verwendung der Daten aus der SourceApplication. Dabei werden die Daten von dem durch das Datenmodellpaket vorgegebenen Datenformat in das Zielformat der Benachrichtigung überführt. Die Komponente „NotificationDispatch“ steuert die Freigabe der Benachrichtigung und ermittelt mit Hilfe des
+P23R-ControlCentre den Benachrichtigungsempfänger mit seinen Kommunikationsparametern. Die
+Komponente „NotificationTransport“ übernimmt die eigentliche Übermittlung der Benachrichtigung
+zur TargetApplication unter Verwendung des dafür geeigneten CommunicationConnector.

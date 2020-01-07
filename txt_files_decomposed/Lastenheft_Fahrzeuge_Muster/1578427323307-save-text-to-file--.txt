@@ -1,0 +1,2 @@
+Eine ausreichende Leuchtdichte ist sicherzustellen (Wert zwischen 30 cd/m² und
+300 cd/m²).

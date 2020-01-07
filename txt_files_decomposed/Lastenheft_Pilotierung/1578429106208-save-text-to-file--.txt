@@ -1,0 +1,4 @@
+Den Kern des P23R bildet die Generierungs-Pipeline, die verschiedene Komponenten zur Erzeugung
+der Benachrichtigungen beinhaltet. Das Ergebnis jeder Komponente ist dabei Input für die jeweils
+folgende Komponente. Abbildung 4 stellt die Komponenten der Generierungs-Pipeline in einem
+Überblick dar (siehe Kapitel 3 in [1]).

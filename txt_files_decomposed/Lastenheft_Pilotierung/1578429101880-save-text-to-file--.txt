@@ -1,0 +1,4 @@
+Die Abgabe der Emissionsberichte und -meldungen bei der Verwaltung erfolgt über das Berichtssystem BUBE-Online (Betriebliche Umweltdatenberichterstattung). Beide Systeme werden über einen
+entsprechenden Connector (CEDAR-Connector bzw. BUBE-Online-Connector) an den P23R angebunden.
+Demzufolge besteht die P23R-Pilotlösung neben den Bausteinen der P23R-Infrastruktur aus den in
+Abbildung 3 dargestellten Komponenten.

@@ -1,0 +1,4 @@
+Das Landratsamt Heilbronn beabsichtigt, die Fahrgastinformation im
+Landkreis zu verbessern. Hierzu sollen an bedeutenden Bahn-Bus-Umsteigepunkten sowie zentralen Omnibusbahnhöfen (ZOB) und zentralen
+Bushaltestellen steigbezogene Anzeiger für dynamische Fahrgastinformation (DFI), die Echtzeit anzeigen, installiert werden. An den BahnBus-Umsteigepunkten sollen außerdem Bahnabfahrten an Übersichtsanzeigern angezeigt werden, um umsteigenden Fahrgästen Anschlussinformationen liefern zu können. Die Anzeiger sollen die jeweils verbleibenden Minuten bis zum Eintreffen des Verkehrsmittels (Countdown; bei
+Folgeabfahrten mit längerem zeitlichen Abstand ist die Anzeige der Abfahrtszeit vorgesehen), die Liniennummer, das Ziel und an manchen Orten die Bus- bzw. Bahnsteige anzeigen.

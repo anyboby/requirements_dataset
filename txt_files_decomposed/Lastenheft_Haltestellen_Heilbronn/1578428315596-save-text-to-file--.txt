@@ -1,0 +1,5 @@
+Bei der Anzeigerüberwachung sendet die Anzeigersoftware folgende Informationen an das DFI-Verwaltungssystem:
+- Anzeigerstatus: online/offline
+- Wartungsmodus: ein/aus
+- Display: ein/aus
+- aktueller Softwarestand.

@@ -1,0 +1,4 @@
+Für die Pilotierung in der Domäne UWM steht eine Laborumgebung des Fraunhofer FOKUS und eine
+Testumgebung bei der BASF SE zur Verfügung. Die Testumgebung bei der BASF SE besteht aus zwei
+Servern, die sowohl für die P23R-Pilotlösung der Domäne UWM als auch für die P23R-Pilotlösung der
+Domäne AGM genutzt werden. Der Zugriff auf notwendige, bereits bestehende Infrastruktur wird sichergestellt.

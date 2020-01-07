@@ -1,0 +1,4 @@
+Für den Fall einer fehlenden Kommunikationsverbindung zwischen DFIVerwaltungssystem und DFI-Anzeigerrechner müssen in den DFI4.7.6
+Anzeigerrechnern entsprechend frei definierte Rückfalltexte abgespeichert und dargestellt werden können.
+Sondertexte werden in der Regel auf der untersten Zeile des Displays
+angezeigt, d. h. eine eventuelle Fahrtankündigung wird überschrieben.

@@ -1,0 +1,3 @@
+Die DFI-Verwaltungssoftware erlaubt eine Anzeigerkonfiguration aus der
+Ferne und die Auswertung von Logdateien. Die Verwaltungssoftware ist
+das Gegenstück zur Anzeigersoftware.

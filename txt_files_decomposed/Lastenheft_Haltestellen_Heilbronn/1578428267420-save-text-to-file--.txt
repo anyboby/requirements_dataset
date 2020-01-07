@@ -1,0 +1,22 @@
+Der zu liefernde Industrie-PC, der in allen Anzeigern verbaut wird, muss
+folgende Anforderungen erfüllen:
+- ist im Anzeigergehäuse
+- ist zwingend lüfterlos
+- Betriebssystem mind. Windows 8/10, Linux oder Android
+- SSD-Speicher: mind. 60 GB
+- Prozessor: mindestens Intel- /AMD-Chip Quad Core 2,0 GHz Taktung
+oder vergleichbar
+- Kommunikationskomponente: Mobilfunkmodem/-router mit aktuellen
+Übertragungsstandards GPRS/EDGE/UMTS/LTE/HSPA+ (Ausnahmen
+mit kabelgebundenem DSL-Betrieb: Weinsberg Bussteiganzeiger (Anschluss liegt vor), Innenanzeiger im Klinikum am Plattenwald in Bad
+Friedrichshall und im Schulzentrum Beilstein (häuslicher DSL-Anschluss)
+- Einsatz für Außenanzeiger im erweiterten Temperaturbereich
+von -30°C bis +55°C
+- verfügt über ausreichend Standardschnittstellen (USB, Ethernet etc.),
+um eine höchstmögliche Kompatibilität und Zukunftsfähigkeit der Anzei4.5.2
+gersteuerung zu gewährleisten
+- muss für die TFT-Monitore ruckelfrei Videos (mp4-Kompression oder
+ähnlich) zur Anzeige bringen können
+- steuert das Text-To-Speech-System (Vorlesefunktion), entsprechende
+Einrichtungen beim Anzeigerrechner (ggf. Audioein-/ausgänge etc.) sind
+vorzusehen
